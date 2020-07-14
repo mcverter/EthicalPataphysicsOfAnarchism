@@ -1,6 +1,7 @@
 # Ethical 'Pataphysics of Anarchism
 ## A guide for exceptional guttersnipes (Traité du savoir-vivre à l'usage des guttersnipes exceptionelles) 
 
+[Click here for the Wiki](/wiki/Ethical-'Pataphysics-of-Anarchism).
 
 ## PRIMARY CLAIMS
 1. The standard interpretation of Levinas as a moralist is inaccurate and falls easy prey to the Nietzshean accusation that “we are lied to by morality.”
