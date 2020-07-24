@@ -1,0 +1,28 @@
+<html><head><LINK REL=stylesheet TYPE=text/css HREF=/st.css></head><body  onUnload=resethelp() background=/dendien/ima/tlfiv4/fond.jpg><script language=javascript>
+var tabexp=new Array();var imagexp=new Array();
+var itabexp=0;
+var winhelp=null;
+function resethelp()
+{
+if(winhelp!=null){
+  if(!winhelp.closed)winhelp.close();
+  winhelp=null;
+  }
+}
+function gethelp(docum,w,h)
+{
+s='/dendien/scripts/tlfiv5/showp.exe?13;s=3609749145;p=y target=x';
+k=s.indexOf('p=')+2;
+s=s.substring(0,k);
+winhelp=window.open(s+docum,'Aide','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width='+w+',height='+h+',top=5,left=20');
+winhelp.focus();}
+function gethelp2(docum,w,h)
+{
+winhelp=window.open(docum,'Aide','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width='+w+',height='+h+',top=5,left=20');
+winhelp.focus();}
+</script>
+<img src=/dendien/ima/tlfiv4/pucer.gif>Le mode correcteur d'erreurs étant en mode forcé, le logiciel a recherché <font color=green><b>regression</b></font> et les mots <a href=javascript:gethelp("apparente.htm",550,400)>apparentés</a> dans <b>tout le texte</b> du TLF.<br><img src=/dendien/ima/tlfiv4/pucer.gif><font color=green><b>regression</b></font> n'a pas été trouvé dans une entrée du TLF.<br> <img src=/dendien/ima/tlfiv4/pucer.gif><font color=green><b>regression</b></font> n'a été trouvé nulle part dans le TLF. <br><img src=/dendien/ima/tlfiv4/pucer.gif>Cependant, le logiciel a trouvé des mots <a href=javascript:gethelp("apparente.htm",550,400)>apparentés</a>.<br><br>Le tableau ci-dessous indique le nombre de fois où les résultats ont été trouvés dans différentes parties du TLF. <b>Cliquez sur un de ces nombres</b> pour voir le résultat correspondant.<br><br>Les mots qui ressemblent le plus, par leur orthographe ou leur prononciation, à ce que vous avez tapé sont, s'il y en a, <span class=stab1>surlignés en vert</span>, les autres <span class=stab4>en orangé</span>.<br>Vous pouvez cliquer dans le tabeau sur les différents mots pour que le logiciel vous explique pourqoui ils ont été considérés comme apparentés à <font color=green><b>"regression"</b></font>.<br>
+<center><table border=2><tr><td align=center bgcolor=#FFFFDD><font color=red><b>Mot</b></font></td><td align=center bgcolor=#FFFFDD><font color=red><b>Dans une entrée</b></font></td><td align=center bgcolor=#FFFFDD><font color=red><b>Dans une expression</b></font></td></tr>
+<tr><td class=stab4><a href="javascript:gethelp2('/dendien/scripts/tlfiv5/why.exe?22;s=3609749145;m1=r$82gresser;m2=regression;; ',700,450)">régresser</td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?23;s=3609749145;cat=0;m=r%82gresser; target=_top>1</a></td><td bgcolor=#C0C0C0 align=center>0</td></tr>
+<tr><td class=stab1><a href="javascript:gethelp2('/dendien/scripts/tlfiv5/why.exe?24;s=3609749145;m1=r$82gression;m2=regression;; ',700,450)">régression</a></td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?25;s=3609749145;cat=0;m=r%82gression; target=_top>1</a></td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?26;s=3609749145;cat=1;m=r%82gression; target=_top>2</a></td></tr>
+</table></center>

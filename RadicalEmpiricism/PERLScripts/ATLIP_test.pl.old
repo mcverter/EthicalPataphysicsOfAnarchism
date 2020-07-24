@@ -1,0 +1,20 @@
+  # Create a user agent object
+  use LWP::UserAgent;
+  $ua = LWP::UserAgent->new;
+#  $ua->agent("MyApp/0.1 ");
+  # Create a request
+  my $req = HTTP::Request->new(POST => 'http://atilf.atilf.fr/dendien/scripts/tlfiv5/advanced.exe?3;s=100291500;p=assiste.htm;');
+#my $req= POST 'http://somesite/formpost.pl', [var1=> $var1,button=>$button];
+  $req->content_type('application/x-www-form-urlencoded');
+  $req->content('mot=bonjour');
+
+  # Pass request to the user agent and get a response back
+  my $res = $ua->request($req);
+
+  # Check the outcome of the response
+  if ($res->is_success) {
+      print $res->content;
+  }
+  else {
+      print $res->status_line, "\n";
+  }

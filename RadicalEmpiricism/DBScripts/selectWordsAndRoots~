@@ -1,0 +1,18 @@
+select FrenchWord, RadicalWord
+
+from
+tblbaseradicaljunction
+tbletymbase
+tblradical
+tblword
+tblwordtype
+where
+EnglishCognate not equal to ()
+and not equal to ()
+tblword.EtymBaseID = tbletymbase.EtymBaseID = tblBaseRadicalJunction.BaseID
+tblBaseRadicalJunction.RadicalID = tblRadical.RadicalID;
+tblbaseradicaljunction
+
+tblradical
+tblword
+tblwordtype

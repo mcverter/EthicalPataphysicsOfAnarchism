@@ -1,0 +1,509 @@
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID =  AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in load page Mode = .
+allWOrdsWithETymPanel.
+in select items
+Query is SELECT  Distinct tblWord.WordID, Word  FROM  tblWord, trelWordRadical   WHERE  tblWord.WordID = trelWordRadical.WordID   ORDER BY  Word
+in select items
+Query is SELECT RadicalID, RadicalWord FROM tblRadical  ORDER BY RadicalWord
+in select items
+Query is SELECT SemanticID, SemanticCategory FROM tblSemanticCategory  ORDER BY SemanticCategory
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online:  .
+Print Etymology:  ID =, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30527
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID =  AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in load page Mode = .
+allWOrdsWithETymPanel.
+in select items
+Query is SELECT  Distinct tblWord.WordID, Word  FROM  tblWord, trelWordRadical   WHERE  tblWord.WordID = trelWordRadical.WordID   ORDER BY  Word
+in select items
+Query is SELECT RadicalID, RadicalWord FROM tblRadical  ORDER BY RadicalWord
+in select items
+Query is SELECT SemanticID, SemanticCategory FROM tblSemanticCategory  ORDER BY SemanticCategory
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in load page Mode = showEtymRadical.
+all details printed
+about to select words from database
+after  selecting words from database
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+at end of print etymologyical root words
+in select items
+Query is SELECT RadicalWord, Language, Meaning FROM tblRadical  WHERE RadicalID = 12756
+in select items
+Query is SELECT tblWord.WordID, Word FROM tblWord, trelWordRadical  WHERE RadicalID = 12756 AND tblWord.WordID = trelWordRadical.WordID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID: 7088 .
+French 7088. MW: 7089, online: 7090 .
+Print Etymology:  ID =7088, 
+Print Etymology:  ID =7089, 
+Print Etymology:  ID =7090, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 24439
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 7088 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 7089 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 7090 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 24439 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in load page Mode = showEtymRadical.
+all details printed
+about to select words from database
+after  selecting words from database
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+at end of print etymologyical root words
+in select items
+Query is SELECT RadicalWord, Language, Meaning FROM tblRadical  WHERE RadicalID = 12726
+in select items
+Query is SELECT tblWord.WordID, Word FROM tblWord, trelWordRadical  WHERE RadicalID = 12726 AND tblWord.WordID = trelWordRadical.WordID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID: 7088 .
+French 7088. MW: 7089, online: 7090 .
+Print Etymology:  ID =7088, 
+Print Etymology:  ID =7089, 
+Print Etymology:  ID =7090, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 24439
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 7088 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 7089 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 7090 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 24439 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in load page Mode = .
+allWOrdsWithETymPanel.
+in select items
+Query is SELECT  Distinct tblWord.WordID, Word  FROM  tblWord, trelWordRadical   WHERE  tblWord.WordID = trelWordRadical.WordID   ORDER BY  Word
+in select items
+Query is SELECT RadicalID, RadicalWord FROM tblRadical  ORDER BY RadicalWord
+in select items
+Query is SELECT SemanticID, SemanticCategory FROM tblSemanticCategory  ORDER BY SemanticCategory
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30529
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30529 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, RadicalWord, Language, Meaning FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30529 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30529
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30529 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30529 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in load page Mode = .
+allWOrdsWithETymPanel.
+in select items
+Query is SELECT  Distinct tblWord.WordID, Word  FROM  tblWord, trelWordRadical   WHERE  tblWord.WordID = trelWordRadical.WordID   ORDER BY  Word
+in select items
+Query is SELECT RadicalID, RadicalWord FROM tblRadical  ORDER BY RadicalWord
+in select items
+Query is SELECT SemanticID, SemanticCategory FROM tblSemanticCategory  ORDER BY SemanticCategory
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30529
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30529 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30529
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30529 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30529
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30529 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30529 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30529
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30529 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30529 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year
+in load page Mode = .
+allWOrdsWithETymPanel.
+in select items
+Query is SELECT  Distinct tblWord.WordID, Word  FROM  tblWord, trelWordRadical   WHERE  tblWord.WordID = trelWordRadical.WordID   ORDER BY  Word
+in select items
+Query is SELECT RadicalID, RadicalWord FROM tblRadical  ORDER BY RadicalWord
+in select items
+Query is SELECT SemanticID, SemanticCategory FROM tblSemanticCategory  ORDER BY SemanticCategory
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30528 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30528 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30528 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30528 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 8744, online: 8745 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =8744, 
+Print Etymology:  ID =8745, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 30528
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8744 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 8745 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 30528 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 30528 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year
+in load page Mode = showEtymRadical.
+all details printed
+about to select words from database
+after  selecting words from database
+before next root ref
+after next root ref
+before next root ref
+after next root ref
+at end of print etymologyical root words
+in select items
+Query is SELECT RadicalWord, Language, Meaning FROM tblRadical  WHERE RadicalID = 7327
+in select items
+Query is SELECT tblWord.WordID, Word FROM tblWord, trelWordRadical  WHERE RadicalID = 7327 AND tblWord.WordID = trelWordRadical.WordID
+in load page Mode = showWord.
+in case statment show word.
+html word info started.
+html word line 2.
+html word line 3.
+French Etymology ID:  .
+French . MW: 3740, online: 3741 .
+Print Etymology:  ID =, 
+Print Etymology:  ID =3740, 
+Print Etymology:  ID =3741, 
+in select items
+Query is SELECT * FROM tblWord  WHERE WordID = 11690
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 3740 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT Value, DictionaryName, DictionaryDomain FROM tlkpEtymology, tlkpDictionary  WHERE EtymologyID = 3741 AND  tlkpEtymology.DictionaryID = tlkpDictionary.DictionaryID
+in select items
+Query is SELECT tblRadical.RadicalID, RadicalWord, Language, Meaning FROM tblRadical, trelWordRadical  WHERE WordID = 11690 AND tblRadical.RadicalID = trelWordRadical.RadicalID
+in select items
+Query is SELECT tblSemanticCategory.SemanticID, SemanticCategory FROM tblSemanticCategory, trelWordSemantic  WHERE WordID = 11690 AND tblSemanticCategory.SemanticID = trelWordSemantic.SemanticID
+in select items
+Query is SELECT Year, FullTitle FROM tlkpBook  ORDER BY Year

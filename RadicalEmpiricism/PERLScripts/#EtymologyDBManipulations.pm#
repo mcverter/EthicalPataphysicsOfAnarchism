@@ -1,0 +1,398 @@
+use WebCrawl;
+use strict;
+use EtymologyDatabaseHandle;
+use FileHandle;
+
+# PACKAGE DATA
+
+my $MW_DIC_ID = "MWOn";
+my $OE_DIC_ID = "OnEt";
+my $TLFi_DIC_ID = "TLFi";
+
+my     ($tblRadical,                   
+	$tblWord,
+	$tblWordType,
+
+#LOOKUP TABLES
+	$tlkpBook,
+	$tlkpOnlineEtymology,
+	$tlkpdictionary,
+	$tlkpLanguage, 
+	$tlkpMWetymology, 
+
+#RELATION TABLES
+	$trelFrequency,
+	$trelRadicalSubradical, 
+	$trelWordRadical,
+ );
+
+
+#TABLES
+	$tblRadical = "tblRadical";                   
+	$tblWord = "tblWord";
+	$tblWordType = "tblWordType";
+
+#LOOKUP TABLES
+	$tlkpBook = "tlkpBook";
+	$tlkpOnlineEtymology = "tlkpOnlineEtymology";
+	$tlkpdictionary = "tlkpDictionary";
+	$tlkpLanguage = "tlkpLanguage"; 
+	$tlkpMWetymology = "tlkpMWetymology"; 
+
+#RELATION TABLES
+	$trelFrequency = "trelFrequency";
+	$trelRadicalSubradical = "trelRadicalSubradical"; 
+	$trelWordRadical = "trelWordRadical";
+
+
+my $eDBh = new EtymologyDatabaseHandle();
+$eDBh->showTables();
+
+my $etymonline = "http://www.etymonline.com";
+my $mwWebSite = "http://www.m-w.com";
+my $mwSearchPath = "/dictionary/";
+
+my $INwordFileName = "c:\\EtymologicalEmpiricism\\WordFolder\\FrOutputALL.txt";
+
+#################################
+#
+#   METHOD: populateDatabaseFromWordFile
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY: 
+#
+#   VARIABLES:
+# 
+##################################
+sub populateDatabaseFromFile 
+{
+    my $IN = new FileHandle;
+
+    $IN->open ($INwordFileName) or die "Could not open INFILE $INwordFileName";
+
+    while (my $line = <$IN>)
+    {
+	while ($line !~ /gasoline/)
+	{}
+    }
+    while (my $line = <$IN>)
+    {
+	populateWordRow ($line);
+    }
+}
+
+
+
+#-----------------#---------------#------#-----#---------#----------------#
+# Field           # Type          # Null # Key # Default # Extra          #
+#-----------------#---------------#------#-----#---------#----------------#
+# WordID          # int(11)       # NO   # PRI # NULL    # auto_increment # 
+# Word            # varchar(31)   # NO   # UNI # NULL    #                # 
+# Language        # char(2)       # YES  #     # NULL    #                # 
+# EnglishCognate  # tinytext      # YES  #     # NULL    #                # 
+# MWEtymology     # varchar(2500) # YES  #     # NULL    #                # 
+# OnlineEtymology # varchar(2500) # YES  #     # NULL    #                # 
+# FrenchEtymology # varchar(2500) # YES  #     # NULL    #                # 
+# FrenchRoot      # varchar(2500) # YES  #     # NULL    #                # 
+# WordTypeID      # int(11)       # YES  #     # NULL    #                # 
+#-----------------#---------------#------#-----#---------#----------------#
+
+sub populateWordRow 
+{
+    my $line = shift;
+
+    my $frenchWord = getFieldFromLine($line, "frenchWord");
+    my $language = getFieldFromLine($line, "language");
+    my $cognate = getFieldFromLine($line, "cognate");
+    my $mwEtymology = getFieldFromLine($line, "mwEtymology");
+    if ($mwEtymology !~ /\w/) {$mwEtymology = '';}
+
+    my $frenchEtym= getATLIFEtymology($frenchWord);
+
+    if (((! $mwEtymology)) &&
+	($cognate) &&
+	($cognate !~ /NO_/))
+    {
+	$mwEtymology = getMWEtymologyFromWeb($cognate);
+    }
+
+    my $onlineEtymology;
+    if (($cognate) &&
+	($cognate !~ /NO_/))
+    {
+	$onlineEtymology = getOnlineEtymologyFromWeb ($cognate);
+    }
+
+    my $wordID =  $eDBh->dbInsertWord($frenchWord);
+    $eDBh->addLanguageToWord ($wordID, $language);
+    $eDBh->addCognateToWord ($wordID, $cognate);
+    
+    if ($frenchEtym)
+    {
+	my $etymologyID = $eDBh->getEtymologyID($frenchEtym, $TLFi_DIC_ID);
+	$eDBh->addTLFiEtymologyToWord ($wordID, $etymologyID);
+#	parseTLFiEtymology($mwEtymology, $wordID);
+    }
+
+    if ($mwEtymology)
+    {
+	my $etymologyID = $eDBh->getEtymologyID($mwEtymology, $MW_DIC_ID);
+	$eDBh->addMWEtymologyToWord ($wordID, $etymologyID);
+	parseMWEtymology($mwEtymology, $wordID);
+    }
+    if ($onlineEtymology)
+    {
+	my $etymologyID = $eDBh->getEtymologyID($onlineEtymology, $OE_DIC_ID);
+	$eDBh->addOnlineEtymologyToWord ($wordID, $etymologyID);
+	parseOnlineEtymology($onlineEtymology, $wordID);
+    }
+#    $eDBh->addWordTypeToWord($wordID, undef);
+#    $eDBh->addFrequencyToWord ($wordID, undef);
+}
+
+#################################
+#
+#   METHOD:  getOnlineEtymologyFromWeb
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY:  
+#                
+#
+#   VARIABLES:
+# 
+##################################
+sub getOnlineEtymologyFromWeb
+{
+    my $word = shift;    
+    $word =~ tr/ //d;
+    my $output = WebCrawl::getWebsiteContent 
+	("http://www.etymonline.com/index.php?search=$word&searchmode=none");
+    if ($output =~ /<dt class="highlight"><a href="\/index.php\?term=$word">$word.*?(<dd.*?dd>)/s)
+	
+    {
+	my $onlineEtymology =  $1;
+	$onlineEtymology =~ tr/'//d;
+        return $onlineEtymology;
+    }
+}
+
+#################################################
+# hacked together.  revise web module to do posts
+################################################
+sub getATLIFEtymology
+{
+    my $word = shift;
+    my $headers = new HTTP::Headers(Accept => 'text/plain');
+    my $website = 'http://atilf.atilf.fr/dendien/scripts/tlfiv4/showps.exe?p=combi.htm;java=no;';
+    my $req = new HTTP::Request("GET", $website, $headers);
+    my $ua = new LWP::UserAgent;
+    my $res = $ua->request($req);
+
+    my $sessionID;
+
+    # Check the outcome of the response
+    if ($res->is_success) {
+	my $content = $res->content;
+	$content =~ /s=(\d+)/;
+	$sessionID = $1;
+	my $req = $ua->post("http://atilf.atilf.fr/dendien/scripts/tlfiv5/advanced.exe?8;s=$sessionID;p=assiste.htm;", ['mot'=> $word]);
+	
+	# Check the outcome of the response
+	if ($req->is_success) {
+	    $ua = LWP::UserAgent->new;
+	    my $req = $ua->post("http://atilf.atilf.fr/dendien/scripts/tlfiv5/displayp.exe?13;s=$sessionID;i=ft-1-2.htm;");
+	    $content =  $req->content;
+	    $content =~ /tymol\. et Hist\.(.*?)<b>Fr.q\./;
+	    my $frEtym = $1;
+	    if ($frEtym =~ /\D/)
+	    {
+		$frEtym = removeQuote($frEtym);
+		return $frEtym;
+	    }
+	    else
+	    {
+		return '';
+	    }
+	}
+    }
+}
+
+
+#################################
+#
+#   METHOD:  getMWEtymologyFromWeb
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY:  
+#                
+#
+#   VARIABLES:
+# 
+##################################
+sub getMWEtymologyFromWeb 
+{
+    my $word = shift;
+    my $content = WebCrawl::getWebsiteContent("$mwWebSite$mwSearchPath$word");
+    $content =~ /(Etymology.*?<br>)/;
+    return $1;
+}
+
+#################################
+#
+#   METHOD: getFieldFromLine
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY: 
+#
+#   VARIABLES:
+# 
+##################################
+sub getFieldFromLine
+{
+    my $line = shift;
+    my $field = shift;
+
+    my @fields = split /\t/, $line;
+    if ($field =~ /frenchWord/i) {return removeQuote($fields[0]);}
+    if ($field =~ /language/i) {return "Fr";} #removeQuote($fields[1]);}
+    if ($field =~ /cognate/i) {return removeQuote($fields[1]);}
+    if ($field =~ /mwEtymology/i) {return removeQuote($fields[3]);}
+}
+
+#################################
+#
+#   METHOD: getFieldFromLine
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY: 
+#
+#   VARIABLES:
+# 
+##################################
+sub removeQuote
+{
+    my $word = shift;
+    $word =~ tr/'//d;
+   return $word;
+}
+
+#################################
+#
+#   METHOD: parseMWEtymology
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY: 
+#
+#   VARIABLES:
+# 
+##################################
+sub parseMWEtymology 
+{
+    my $etymologyInput = shift;
+    my $wordID = shift;
+
+
+    while ($etymologyInput =~ m|<i>(.*?)</i>|g)
+    {
+	my $rad = $1;
+	$rad =~ tr/ //d;
+	my @radicals = split /(,|\+)/, $rad;
+	foreach my $root (@radicals)
+	{
+	    if (($root) && $root !~ /(,|\+)/)
+	    {
+		print "Root is $root\n";
+		my $radicalID = $eDBh->addRadical($root);
+		$eDBh->insertValuesIntoTable("trelWordRadical", "$wordID, $radicalID");
+	    }
+	}
+    }
+
+
+    #   check for MoreAt
+    if ($etymologyInput =~ m|<a href=(.*?)>(.*)|)
+    {
+	my $moreAtPath = $1;
+	$moreAtPath =~ tr/( |")//d;
+	my $remainder = $2;
+	$remainder =~ /size="-1">(.*?)</;
+	my $moreAtWord = $1;
+	my $content = WebCrawl::getWebsiteContent("$mwWebSite$moreAtPath");
+	$content =~ /(Etymology.*?<br>)/;
+	my $moreAtEtym = $1;
+#	$eDBh->addMoreAt($wordID, $moreAtWord, 
+#			$moreAtEtym, "$mwWebSite$moreAtPath");
+
+	
+    }
+}
+
+
+#################################
+#
+#   METHOD: parseOnlineEtymology
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY: 
+#
+#   VARIABLES:
+# 
+##################################
+sub parseOnlineEtymology 
+{
+    my $etymologyInput = shift;
+    my $wordID = shift;
+
+    while ($etymologyInput =~ m|<span class="foreign">(.*?)</span>|g)
+    {
+	my $rad = $1;
+	$rad =~ tr/ //d;
+	my @radicals = split /(,|\+)/, $rad;
+	foreach my $root (@radicals)
+	{
+	    if (($root) && $root !~ /(,|\+)/)
+	    {
+		print "Root is $root\n";
+		my $radicalID = $eDBh->addRadical($root);
+		$eDBh->insertValuesIntoTable("trelWordRadical", "$wordID, $radicalID");
+	    }
+	}
+    }
+    
+
+    #   check for MoreAt
+    if ($etymologyInput =~ m|<a href=\"(.*?)\".*?>(.*?)</a>|)
+    {
+	my $moreAtPath = $1;
+	my $remainder = $2;
+	my $content = WebCrawl::getWebsiteContent("$etymonline$moreAtPath");
+	$content =~ /(<dd.*?dd>)/s;
+	my $moreAsEtym = $1;
+	print "\npath is $moreAtPath and word is $remainder\n\n$moreAsEtym";
+	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# sample etymology data
+# '<dd class="highlight">1382, from M.Fr. <span class="foreign">absent</span> (O.Fr. <span class="foreign">ausent</span>), from L. <span class="foreign">absentem</span> (see <a href="/index.php?term=absence" class="crossreference">absence</a>). <span class="foreign">Absent-minded</span> "preoccupied" is first recorded 1854. <span class="foreign">absent (v.)</span> "keep away" is c.1400, from M.Fr. <span class="foreign">absenter,</span> from L.L. <span class="foreign">absentare</span> "cause to be away," from L. <span class="foreign">absentem.</span></dd>';
+#  "Middle English, from Middle French, from Latin <i>absent-, absens, </i>present participle of <i>abesse </i>to be absent, from <i>ab- + esse </i>to be -- more at <a href=/dictionary/is><font size=-1>IS</font></a><br>";
+
+
+#&populateDatabaseFromFile;
+

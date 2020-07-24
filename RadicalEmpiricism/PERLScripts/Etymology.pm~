@@ -1,0 +1,113 @@
+############
+#
+# Data Types
+
+# TABLE tblWord
+# my ($wordID, $frenchWord , $englishCognate , $etymology,  $frenchRoot, $etymBaseID, $wordTypeID);
+#TABLE tblRadical
+#TABLE trelWordRadical
+#
+############
+
+my     (
+   $tblradical                    , 
+     $tblword                       , 
+     $tblwordtype                   , 
+     $tlkpbook                      , 
+     $tlkpetymology                 , 
+     $tlkplanguage                  , 
+     $tlkpmwetymology               , 
+     $trelfrequency                 , 
+     $trelradicalsubradical         , 
+     $treltermradical               , 
+ );
+
+my $eDBh = new EtymologyDatabaseHandle();
+
+
+package Etymology;
+
+my $etymonline = "http://www.etymonline.com";
+my $mwDic = "http://www.m-w.com";
+
+sub parseMWEtymology 
+{
+    
+    my $allCognates = $eDBh->getAllCognates();
+
+    
+    my $etymologyInput = "Middle English, from Middle French, from Latin <i>absent-, absens, </i>present participle of <i>abesse </i>to be absent, from <i>ab- + esse </i>to be -- more at <a href=/dictionary/is><font size=-1>IS</font></a><br>";
+    
+    ####################################
+    #insert root into root radical table
+    #make connection between radical and etymology
+    ###################################
+
+    
+    while ($etymologyInput =~ m|<i>(.*?)</i>|g)
+    {
+	my $rad = $1;
+	$rad =~ tr/ //d;
+	my @radicals = split /(,|\+)/, $rad;
+	foreach my $root (@radicals)
+	{
+	    if (($root) && $root !~ /(,|\+)/)
+	    {
+		print "Root is $root\n";
+	    }
+	}
+    }
+    
+    ###################
+    #
+    #   check for MoreAt
+    #
+    ###################
+
+    if ($etymologyInput =~ m|<a href=(.*?)>(.*)|)
+    {
+	my $moreAtPath = $1;
+	my $remainder = $2;
+	$remainder =~ /size=-1>(.*?)</;
+	my $moreAtWord = $1;
+	my $content = WebCrawl::getWebsiteContent("$mwDic$moreAtPath");
+#	print $content;
+	$content =~ /(Etymology.*?<br>)/;
+	my $moreAsEtym = $1;
+	print "\npath is $moreAtPath and word is $moreAtWord\n\n$moreAsEtym";
+	
+    }
+}
+
+
+
+sub parseOnlineEtymology 
+{
+#    $eDBh->getAllCognates();
+    my $etymologyInput = '<dd class="highlight">1382, from M.Fr. <span class="foreign">absent</span> (O.Fr. <span class="foreign">ausent</span>), from L. <span class="foreign">absentem</span> (see <a href="/index.php?term=absence" class="crossreference">absence</a>). <span class="foreign">Absent-minded</span> "preoccupied" is first recorded 1854. <span class="foreign">absent (v.)</span> "keep away" is c.1400, from M.Fr. <span class="foreign">absenter,</span> from L.L. <span class="foreign">absentare</span> "cause to be away," from L. <span class="foreign">absentem.</span></dd>';
+    
+    while ($etymologyInput =~ m|<span class="foreign">(.*?)</span>|g)
+    {
+	my $rad = $1;
+    }
+    
+    ###################
+    #
+    #   check for MoreAt
+    #
+    ###################
+
+    if ($etymologyInput =~ m|<a href=\"(.*?)\".*?>(.*?)</a>|)
+    {
+	my $moreAtPath = $1;
+	my $remainder = $2;
+	my $content = WebCrawl::getWebsiteContent("$etymonline$moreAtPath");
+	$content =~ /(<dd.*?dd>)/s;
+	my $moreAsEtym = $1;
+	print "\npath is $moreAtPath and word is $remainder\n\n$moreAsEtym";
+	
+    }
+}
+
+;
+

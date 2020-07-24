@@ -1,0 +1,3 @@
+MWOn	Online Etymology Dictionary	http://www.etymonline.com	/index.php?searchmode=none&search=
+OnEt	Merriam-Webster Online	http://www.m-w.com	/dictionary/
+TLFi	Le Tresor de la Langue Francaise informatise	http://atilf.atilf.fr	/dendien/scripts/tlfiv4/showps.exe?p=combi.htm;java=no;

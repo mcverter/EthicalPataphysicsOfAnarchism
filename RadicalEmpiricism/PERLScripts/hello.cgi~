@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+
+use CGI;
+use CGI qw/:standard -debug/;
+
+print "hello woooooord";

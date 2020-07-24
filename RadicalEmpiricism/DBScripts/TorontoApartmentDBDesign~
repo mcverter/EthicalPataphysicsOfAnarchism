@@ -1,0 +1,13 @@
+CREATE DATABASE dbTorontoApartment;
+USE dbTorontoApartment;
+
+CREATE TABLE tblWord
+(
+	AptID INT 			PRIMARY KEY AUTO_INCREMENT ,
+	URL            VARCHAR (64),
+	Headline 	VARCHAR (64),
+	Rent		INT
+	Email		VARCHAR (64),
+	Map		VARCHAR (64),
+	Description	VARCHAR (256),
+}

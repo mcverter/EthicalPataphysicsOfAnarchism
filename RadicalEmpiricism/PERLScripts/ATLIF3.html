@@ -1,0 +1,36 @@
+
+
+
+<html><head><LINK REL=stylesheet TYPE=text/css HREF=/st.css></head><body  onUnload=resethelp() background=/dendien/ima/tlfiv4/fond.jpg><script language=javascript>
+var tabexp=new Array();var imagexp=new Array();
+var itabexp=0;
+var winhelp=null;
+function resethelp()
+{
+if(winhelp!=null){
+  if(!winhelp.closed)winhelp.close();
+  winhelp=null;
+  }
+}
+function gethelp(docum,w,h)
+{
+s='/dendien/scripts/tlfiv5/showp.exe?13;s=3576325785;p=y target=x';
+k=s.indexOf('p=')+2;
+s=s.substring(0,k);
+winhelp=window.open(s+docum,'Aide','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width='+w+',height='+h+',top=5,left=20');
+winhelp.focus();}
+function gethelp2(docum,w,h)
+{
+winhelp=window.open(docum,'Aide','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width='+w+',height='+h+',top=5,left=20');
+winhelp.focus();}
+</script>
+<img src=/dendien/ima/tlfiv4/pucer.gif>Le mode correcteur d'erreurs étant en mode forcé, le logiciel a recherché <font color=green><b>regret</b></font> et les mots <a href=javascript:gethelp("apparente.htm",550,400)>apparentés</a> dans <b>tout le texte</b> du TLF.<br><img src=/dendien/ima/tlfiv4/pucer.gif><font color=green><b>regret</b></font> a été trouvé dans une entrée du TLF.<br> <img src=/dendien/ima/tlfiv4/pucer.gif><font color=green><b>regret</b></font> a été trouvé ailleurs que dans des entrées. <br><img src=/dendien/ima/tlfiv4/pucer.gif>Le logiciel a également trouvé des mots <a href=javascript:gethelp("apparente.htm",550,400)>apparentés</a>.<br><br>Le tableau ci-dessous indique le nombre de fois où les résultats ont été trouvés dans différentes parties du TLF. <b>Cliquez sur un de ces nombres</b> pour voir le résultat correspondant.<br><br>Les mots qui ressemblent le plus, par leur orthographe ou leur prononciation, à ce que vous avez tapé sont, s'il y en a, <span class=stab1>surlignés en vert</span>, les autres <span class=stab4>en orangé</span>.<br>Vous pouvez cliquer dans le tabeau sur les différents mots pour que le logiciel vous explique pourqoui ils ont été considérés comme apparentés à <font color=green><b>"regret"</b></font>.<br>
+<center><table border=2><tr><td align=center bgcolor=#FFFFDD><font color=red><b>Mot</b></font></td><td align=center bgcolor=#FFFFDD><font color=red><b>Dans une entrée</b></font></td><td align=center bgcolor=#FFFFDD><font color=red><b>Dans une expression</b></font></td></tr>
+<tr><td class=stab1><a href="javascript:gethelp2('/dendien/scripts/tlfiv5/why.exe?22;s=3576325785;m1=regret;m2=regret;; ',700,450)">regret</a></td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?23;s=3576325785;cat=0;m=regret; target=_top>1</a></td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?24;s=3576325785;cat=1;m=regret; target=_top>6</a></td></tr>
+<tr><td class=stab1><a href="javascript:gethelp2('/dendien/scripts/tlfiv5/why.exe?25;s=3576325785;m1=regrets;m2=regret;; ',700,450)">regrets</a></td><td bgcolor=#C0C0C0 align=center>0</td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?26;s=3576325785;cat=1;m=regrets; target=_top>2</a></td></tr>
+<tr><td class=stab1><a href="javascript:gethelp2('/dendien/scripts/tlfiv5/why.exe?27;s=3576325785;m1=regr$8As;m2=regret;; ',700,450)">regrès</a></td><td align=center bgcolor=#FFFFFF><a href=/dendien/scripts/tlfiv5/search.exe?28;s=3576325785;cat=0;m=regr%8As; target=_top>1</a></td><td bgcolor=#C0C0C0 align=center>0</td></tr>
+</table></center>Root is regretten
+Root is regreter
+Root is re-
+Root is -greter
+Root is grAta

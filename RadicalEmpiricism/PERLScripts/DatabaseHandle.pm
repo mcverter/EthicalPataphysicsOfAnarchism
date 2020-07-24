@@ -1,0 +1,312 @@
+#!/usr/bin/perl
+
+
+
+
+package DatabaseHandle ;
+
+
+open DEBUG_LOG, ">>DatabaseOutputLog.txt" or die "could not open debug log";
+
+use strict;
+use DBI;
+use utf8;
+
+BEGIN {
+    use Exporter   ();
+    use vars       qw(@ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
+    
+    @ISA         = qw(Exporter);
+    @EXPORT      = qw(&dbInsertWord);
+}
+use vars      @EXPORT_OK;
+
+
+####################################
+#
+#  METHOD:  showTables
+#  PRECONDITIONS:  None
+#  POSTCONDITIONS:  A list of tables is printed
+#
+###################################
+
+sub showTables
+{
+    my $self = shift;
+    my $dbh = $self->{_dbh};
+
+    my $sth = $dbh->prepare("SHOW TABLES");
+    $sth->execute();
+    while (my @row = $sth->fetchrow_array())
+    {
+	print join ("\t", @row), "\n";
+
+    }
+    $sth->finish();
+}
+
+####################################
+#
+#  METHOD:  new()
+#  PRECONDITIONS: Called by Sublasses  
+#  POSTCONDITIONS:  Creates a container for a new database handle 
+#
+#  VARIABLES
+#     $dbName ;
+#     $user ;
+#     $pass ;
+###################################
+
+sub new
+{
+    my $class = shift;
+    my $dbName = shift;
+    my $user = shift;
+    my $pass = shift;
+    
+    my $dbh = DBI->connect ($dbName,$user ,$pass ,
+			 {RaiseError =>1});
+    my $self = {
+	_dbh => $dbh,
+    };
+    bless $self, $class;
+    return $self;    
+}
+#################################
+#
+#   METHOD: insertLookupCode
+#   PRECONDITIONS:
+#   POSTCONDITIONS: 
+#   SUMMARY:  updates a pointerField in a pointerTable 
+#               to be equal to a lookupCode
+#
+#             where a WhereField is equal 
+#                 to a WhereCriterion         
+#
+#   VARIABLES:
+# 
+##################################
+sub insertLookupID 
+{
+    my $self = shift;
+    my $ptrTbl = shift;    
+    my $fieldName = shift;
+    my $value = shift;
+    my $ptrWhereCriterion = shift;
+
+    my $fieldTable = "tlkp$fieldName";
+    my $fieldID = $fieldName . "ID";
+ 
+    my $allValues = "null, \'$value\'";
+    my $lkpWhere = "$fieldID = \'$value\'";
+
+    my $code = getIndexOrInsert($fieldTable, $fieldID, $allValues, $lkpWhere);
+    $self->updateTableSetFieldValueWhere ($ptrTbl, $fieldID, $code, $ptrWhereCriterion);
+
+}
+
+
+sub updateTableSetFieldValueWhere
+{
+    my $self = shift;
+    my $table = shift;
+    my $setField = shift;
+    my $value = shift;
+    my $where = shift;
+
+    my $dbh = $self->{_dbh};
+    my $query = 
+	"UPDATE $table SET $setField = \'$value\' WHERE $where";
+    my $sth = $dbh->prepare($query);
+   $sth->execute();
+}
+########################################
+#
+#
+#
+#   METHOD:   lastInsertID
+#   PRECONDITIONS:
+#   POSTCONDITIONS
+#   SUMMARY: returns the index of the last inserted value
+#
+#######################################
+sub lastInsertID
+{
+    my $self = shift;
+    my $dbh = $self->{_dbh};
+    my $query = "SELECT LAST_INSERT_ID()";
+    my $sth = $dbh-> prepare ($query);
+    $sth->execute();
+    my @row = $sth->fetchrow_array();
+    my $num = join ("\t", @row), "\n";
+    print "\n\nINSERT NUMBER:  $num\n\n";
+    print "\n";
+    return $num;
+}
+
+########################################
+#
+#
+#
+#   METHOD:  describeTable
+#   PRECONDITIONS:
+#   POSTCONDITIONS
+#   SUMMARY:  describes the given table
+#
+#
+#
+#######################################
+sub describeTable
+{
+    my $self = shift;
+    my $table = shift;
+
+    my $dbh = $self->{_dbh};
+    my $query = "DESCRIBE $table";
+    my $sth = $dbh->prepare($query);
+    $sth->execute();
+    print "DESCRIBE TABLE\n";
+    while (my @row = $sth->fetchrow_array())
+    {
+	print join ("\t", @row), "\n";
+    }
+}
+
+
+
+sub getNext
+{
+    my $self = shift;
+    my $sth = shift;
+    my @nextRow = $sth->fetchrow_array();
+    return \@nextRow;
+}
+
+########################################
+#
+#
+#
+#   METHOD:  selectItemsFromTable
+#   PRECONDITIONS:
+#   POSTCONDITIONS
+#   SUMMARY: A handle for SELECT statements
+#
+#
+#######################################
+
+sub selectItemsFromTable 
+{
+    print DEBUG_LOG "in select items\n";
+    my $self = shift;
+    my $table = shift;
+    my $fields = shift;
+    my $whereTest = shift;
+    my $orderBy = shift;
+    
+
+    my $query = "SELECT $fields FROM $table";
+    if ($whereTest)
+    {
+	$query .= "  WHERE $whereTest";
+    }
+    if ($orderBy)
+    {
+	$query .= "  ORDER BY $orderBy";
+    }
+    print DEBUG_LOG "Query is $query\n";
+
+    my $dbh = $self->{_dbh};
+    my $sth = $dbh-> prepare ($query);
+    $sth->execute();
+
+    return $sth;
+}
+
+
+
+########################################
+#
+#
+#
+#   METHOD:  getNextRow
+#   PRECONDITIONS:
+#   POSTCONDITIONS
+#   SUMMARY:  A handle for fetchrow_array
+#
+#
+#######################################
+sub getNextRow 
+{
+    my $self = shift;
+    my $sth = shift;
+    
+    my @ary = $sth->fetchrow_array();
+    return \@ary;
+}
+
+sub getIndex
+{
+    my $self = shift;
+    my $tableName = shift;
+    my $field = shift;
+    my $where = shift;
+ 
+    my $query = "SELECT $field FROM $tableName WHERE $where";
+ 
+    my $dbh = $self->{_dbh};
+    my $sth = $dbh-> prepare ($query);
+    $sth->execute();
+
+    my @row = $sth->fetchrow_array();
+    return $row[0];
+}    
+
+
+# my $query = "SELECT $codeField FROM $tableName WHERE $where";
+
+sub getIndexOrInsert
+{
+    my $self = shift;
+    my $tableName = shift;
+    my $field = shift;
+    my $allValues = shift;
+    my $where = shift;
+
+    my $codeNum;
+    if ($codeNum = $self->getIndex($tableName, $field, $where))
+    {
+	return $codeNum;
+    }
+    else 
+    {
+	$self->insertValuesIntoTable($tableName, $allValues);
+	$codeNum = $self->lastInsertID();
+	return $codeNum;
+    }
+}
+
+########################################
+#
+#
+#
+#   METHOD:  insertValuesIntoTable
+#   PRECONDITIONS:
+#   POSTCONDITIONS
+#   SUMMARY:  inserts a unique value in a given table
+#
+#
+#######################################
+sub insertValuesIntoTable
+{
+    my $self = shift;
+    my $tableName = shift;
+    my $valueList = shift;
+
+    my $query = "INSERT IGNORE INTO $tableName VALUES ($valueList)";
+    my $dbh = $self->{_dbh};
+    my $sth = $dbh-> prepare ($query);
+    $sth->execute();
+}
+
+
+1;

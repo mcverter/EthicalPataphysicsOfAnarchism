@@ -1,0 +1,4 @@
+delete from tblWord;
+delete from tblRadical;
+delete from  tblBaseRadicalJunction;
+delete from  tblWordType;

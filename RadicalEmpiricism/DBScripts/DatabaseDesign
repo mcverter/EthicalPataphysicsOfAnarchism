@@ -1,0 +1,53 @@
+CREATE DATABASE dbRadical_Empiricism;
+
+USE dbRadical_Empiricism;
+
+CREATE TABLE tblWord
+(
+	WordID 		INT 	AUTO_INCREMENT,	
+	FrenchWord 	TEXT(32)	NOT NULL,
+	EnglishCognate 	TEXT (32),
+	Etymology	TEXT (256),
+	FrenchRoot	TEXT (32),
+	EtymBaseID 	INT,
+	WordTypeID 	INT,
+	PRIMARY KEY  (WordID)
+);
+
+CREATE TABLE tblWordType
+(
+	WordTypeID 	 INT	AUTO_INCREMENT,
+	PartOfSpeech	CHAR,
+	Gender		CHAR,
+	Declension	CHAR,
+	Tense		CHAR,
+	Person		CHAR,
+	PRIMARY KEY  (WordTypeID)	
+);
+
+CREATE TABLE tblEtymBase
+(
+	EtymBaseID	INT	AUTO_INCREMENT	NOT NULL,
+	BaseWord	TEXT (32)	NOT NULL,
+	Language	TEXT (32)	NOT NULL,
+	Meaning		TEXT (256),
+	MoreAt		TEXT (256),
+	PRIMARY KEY  (EtymBaseID)	
+);
+
+CREATE TABLE tblRadical
+(
+	RadicalID	INT	AUTO_INCREMENT	NOT NULL,	
+	RadicalWord	TEXT (32)	NOT NULL,
+	Language	TEXT (32)	NOT NULL,
+	Meaning		TEXT (256),
+	PRIMARY KEY  (RadicalID)	
+);
+
+CREATE TABLE tblBaseRadicalJunction
+(
+	JunctionID	INT	AUTO_INCREMENT	NOT NULL,
+	RadicalID	INT		NOT NULL,
+	BaseID		INT		NOT NULL,
+	PRIMARY KEY  (JunctionID)	
+);

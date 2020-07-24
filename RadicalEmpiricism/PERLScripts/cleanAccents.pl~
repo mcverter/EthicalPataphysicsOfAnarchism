@@ -1,0 +1,134 @@
+use strict;
+use EtymologyDatabaseHandle;
+
+my $eDBh = new EtymologyDatabaseHandle();
+my $sth = $eDBh->getAllWords();
+my $rowArray;
+while (($rowArray = $eDBh->getNextRow($sth)) 
+       && (@$rowArray))
+{
+  my $wordID  = $rowArray->[0];
+    my $word  = $rowArray->[1];
+  my $newWord = replaceWithAccents($word);
+  if ($word ne $newWord)
+  {
+    $eDBh->setWordValue($wordID, $newWord);
+    print "changing word $word to $newWord.  WORDID: $wordID\n";
+  }
+}
+sub replaceWithAccents
+{
+   my $word = shift;
+   my $newWord = $word;
+  $newWord =~ s/Ã©/é/g;
+  $newWord =~ s/Ã¨/è/g;
+  $newWord =~ s/Ã§/ç/g;
+  $newWord =~ s/Ã®/î/g;
+  $newWord =~ s/Ã»/û/g;
+  $newWord =~ s/Ã¢/â/g;
+  $newWord =~ s/Ã´/ô/g;
+  $newWord =~ s/Ã¯/ï/g;
+  $newWord =~ s/Ã /à/g;
+  $newWord =~ s/Ã‡/Ç/g;
+  $newWord =~ s/Ã«/ë/g;
+  $newWord =~ s/Ã¤/ä/g;
+  $newWord =~ s/Ã›/û/g;
+  return $newWord;
+}
+sub replaceWithAccentsOLD
+{
+   my $word = shift;
+
+     if ($word =~ /Ã/)
+	 {
+	    if ($word =~ /©/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã©/é/;
+      }
+      elsif ($word =~ /ª/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ãª/ê/;
+         # print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /¨/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã¨/è/;
+          #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+       elsif ($word =~ /§/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã§/ç/;
+          #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /®/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã®/î/;
+          #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /»/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã»/û/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /¢/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã¢/â/;
+    #     print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /´/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã´/ô/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /¯/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã¯/ï/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ / /)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã /à/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /‡/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã‡/Ç/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+      elsif ($word =~ /«/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã«/ë/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+
+      elsif ($word =~ /¤/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã¤/ä/;
+         #print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+     elsif ($word =~ /›/)
+	    {
+          my $newWord = $word;
+          $newWord =~ s/Ã›/û/;
+        # print "oldWOrd:  $word.  New WOrd: $newWord\n";
+      }
+
+      else
+      {
+         print $word, "\n";
+      }
+	}
+}

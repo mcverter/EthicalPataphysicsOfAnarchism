@@ -1,0 +1,16 @@
+0	birth
+1	family
+2	mother
+3	father
+4	sister
+5	brother
+6	number
+7	zero
+8	one
+9	two
+10	three
+11	negative
+12	up
+13	down
+14	position
+15	stand
