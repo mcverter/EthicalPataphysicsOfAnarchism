@@ -1,6 +1,5 @@
-DROP DATABASE roadrunner_re;
-CREATE DATABASE roadrunner_re;
-USE roadrunner_re;
+
+CREATE DATABASE RadicalEmpiricism if not exists;
 
 /*************************************************
 *
@@ -8,22 +7,31 @@ USE roadrunner_re;
 *
 *************************************************/
 
-CREATE TABLE tblWord
+CREATE TABLE tblWord if not exists
 (
-	WordID INT 			AUTO_INCREMENT ,
-	Word 	VARCHAR (31)		UNIQUE NOT NULL,
-	Language CHAR (2),
-	EnglishCognate 	TEXT,
-	MWEtymologyID	INT,
-	OnlineEtymologyID	INT,
-	FrenchEtymologyID	INT,
-	FrenchRoot	VARCHAR (32),
-	WordTypeID 	INT,
-    french_word_id INT references tblWord
-	PRIMARY KEY (WordID)
-);
+	id INT AUTO_INCREMENT PRIMARY,
+	Word TEXT UNIQUE NOT NULL,
+	EnglishCognate TEXT,
+	Language CHAR (2) ,
+	
+	EtymologicalRoot TEXT,
+	Morphemes  Text[],
 
-he idea is this: Emmanuel Levinas is deliberately making a joke in his usage of terms. We want to document the words and their collections as clearly as possible and present a user interface that allows the user to navigate these connections.
+	Themes Text[],
+
+	PartOfSpeech TEXT,
+	Plural Boolean,
+	Gender Text,
+	VerbTense Text
+
+	MiriamWebsterDefintion TEXT,
+	EtymonlineDefinition TEXT,
+ 	OnlineEtymologyText	INT,
+	FrenchEtymologyText	INT,
+
+	);
+
+/*he idea is this: Emmanuel Levinas is deliberately making a joke in his usage of terms. We want to document the words and their collections as clearly as possible and present a user interface that allows the user to navigate these connections.
 The linguistic connections are various:
 (1) etymological : "institution" "destitution" "institution" "hypostasist" (ETYMOLOGICAL ROOT: STA, to stand)
 (2) thematic: "maternity" "fraternity" "paternity". "father", "midwife" "orphan"
@@ -32,8 +40,9 @@ The linguistic connections are various:
 (5) Noun declension (if this is applicable in french)
 6 ) Gender
 (7) Plural
+*/
 
-CREATE TABLE tblWordType
+/*CREATE TABLE tblWordType
 (
 	WordTypeID 	INT		AUTO_INCREMENT ,
 	PartOfSpeech	VARCHAR (32) 	UNIQUE NOT NULL,
@@ -67,7 +76,7 @@ CREATE TABLE tblMoreAt
 );
 
 
-
+*/
 /*************************************************
 *
 *    RELATIONSHIP TABLES 
@@ -166,6 +175,6 @@ CREATE TABLE tlkpDictionary (
 
 
 LOAD DATA LOCAL INFILE "/home/roadrunner/public_html/RadicalEmpiricism/DBScripts/BookDataFile.txt" INTO TABLE tlkpBook;
-LOAD DATA LOCAL INFILE "/home/roadrunner/public_html/RadicalEmpiricism/DBScripts/DictionaryDataFile.txt" INTO TABLE tlkpDictionary;
+LOAD DATA LOCAL INFILE "/home/roadrunner/public_html/RadicalEmpiricism/DBScripts/DictionaryDataFile.txt" INTO TABLE tlkpDictionaryg;
 
 
