@@ -36,7 +36,7 @@ Derrida warns against the temptations of etymological thinking (MP 210), so I wo
 
 In addition to these morphological considerations, we must attend to the semantic connections between various etymological networks.  For example, words rooted in “STA” (e.g. stand), must be correlated with other etymological networks connoting position and proximity, as well as those connoting height and depth.  The very word “origin” comes from oriri, to rise:  for Levinas, man has “overcome” the “destitution” of his “animal needs” (TI 116-17) to become homo erectus, already erect and masterful and virile.
 
-
+[From Levinas, Pervter](https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)
 
 
 # Dissertation
