@@ -2,7 +2,7 @@ This is two projects:  A morphological analysis engine (RADICAL EMPIRICISM) and 
 1.  Description of Radical Empiricism in French
 2.  Description of Radical Empirism in English 
 3.  Abstract of Dissertation 
-* [Click here for the Disseratation Wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).
+* [Click here for the Dissertation Wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).
 
 # Empiricisme Radicale en Francais
 Levinas est très conscient de sus mots; quelle choix est bien choisie.  
