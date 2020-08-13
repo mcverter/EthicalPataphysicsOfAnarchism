@@ -7,7 +7,7 @@ CREATE DATABASE RadicalEmpiricism if not exists;
 *
 *************************************************/
 
-CREATE TABLE tblWord if not exists
+CREATE TABLE word if not exists
 (
 	id INT AUTO_INCREMENT PRIMARY,
 	Word TEXT UNIQUE NOT NULL,
