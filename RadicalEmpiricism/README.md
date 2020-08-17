@@ -1,8 +1,8 @@
 This is two projects:  A morphological analysis engine (RADICAL EMPIRICISM) and a written dissertation.  Below is 
 1.  Description of Radical Empiricism in French
 2.  Description of Radical Empirism in English 
-3.  Abstract of Dissertation 
-* [Click here for the Dissertation Wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).
+3.  Dissertation Work in Progress is available below:
+[A guide for exceptional guttersnipes Traité du savoir-vivre à l'usage des guttersnipes exceptionelles -- https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).
 
 
 
@@ -57,7 +57,7 @@ Cartographier les relations au sein du lexique du philosophe français Emmanuel 
 * * Catégorisation sémantique: Je n'ai aucune idée de comment automatiser cela. J'espère ne pas avoir à étiqueter chaque mot manuellement, mais je le fais probablement. Ce serait bien s'il y avait un moyen simple d'ajouter des balises.
 
 # Précédent Travail (2008)
-## (Levinas Perverter -- https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)[https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter]
+## [Levinas Perverter -- https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter](https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)
 Plutôt que de se concentrer sur les gestes rhétoriques évidents que fait Levinas, une lecture radicale doit regarder attentivement le jeu immanent des tropes dans son travail. L’écriture de Levinas ne peut être comprise qu’à travers une enquête approfondie sur les interconnexions et les transformations entre des groupes de métaphores. Derrida signale sournoisement ce problème quand il explique que «tout ce que Lévinas désigne comme« logique formelle »est contesté dans sa racine. Cette racine ne serait pas seulement la racine de notre langue, mais la racine de toute philosophie occidentale »(WD 91).
 
 L'indication de Derrida suggère que le meilleur endroit pour commencer à regarder le jeu de mots immanent de Levinas serait dans ses racines étymologiques. Par exemple, la racine indo-européenne «STA» a une longue tradition philosophique. La pensée grecque l'énonce comme «hypoSTAsis», qui se transforme en latin en «subSTAntia». Dans «L'Origine de l'oeuvre d'art», Heidegger considère cette traduction de termes philosophiques comme l'une des étapes primordiales de l'oubli de l'être (BW 153). Il redéploie cette racine en utilisant des termes communs à la tradition philosophique allemande tels que «VerSTAnd» (comprendre), «GegenSTAnd» (représenter) et «VorSTEllung» (notion), et il invente de nouveaux termes tels que «GeSTEll» (encadrement) (BW 301). Presque parodiant Heidegger, Levinas retraduit ce lexique allemand dans une langue latine, «romançant» les mots dans une langue romane. [8] Non seulement Lévinas récupère le terme «hypostase», mais il transmute cette racine en des termes tels que «déSTItution», «subSTItution» et «inSTItution».
@@ -119,7 +119,7 @@ Map the relationships within the lexicon of the French philosopher Emmanuel Levi
 
 
 # Previous Work (2008)
-## (Levinas Perverter -- https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)[https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter]
+## [Levinas Perverter -- https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter](https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)
 
 
 Rather than focusing on the obvious rhetorical gestures Levinas makes, a radical reading must look carefully at the immanent play of tropes within his work.  Levinas’s writing can only be understood through a close investigation of the interconnections and transformation between clusters of metaphors.  Derrida slyly indicates this problem when he explains that “everything which Levinas designates as ‘formal logic’ is contested in its root.  This root would not only be the root of our language, but the root of all western philosophy” (WD 91).
@@ -130,20 +130,4 @@ Derrida warns against the temptations of etymological thinking (MP 210), so I wo
 
 In addition to these morphological considerations, we must attend to the semantic connections between various etymological networks.  For example, words rooted in “STA” (e.g. stand), must be correlated with other etymological networks connoting position and proximity, as well as those connoting height and depth.  The very word “origin” comes from oriri, to rise:  for Levinas, man has “overcome” the “destitution” of his “animal needs” (TI 116-17) to become homo erectus, already erect and masterful and virile.
 
-
-# Dissertation
-# Ethical 'Pataphysics of Anarchism
-## A guide for exceptional guttersnipes (Traité du savoir-vivre à l'usage des guttersnipes exceptionelles) 
-
-[Click here for the Wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).
-
-## PRIMARY CLAIMS
-1. The standard interpretation of Levinas as a moralist is inaccurate and falls easy prey to the Nietzshean accusation that “we are lied to by morality.”
-2. Contemporary anarchism has relied too much on militaristic language and concepts, especially those inherited from a lineage stretching from Heraclitus through Nietzsche and on to Deleuze. It would be enriched by adopting the ethical insights of Levinas and Kropotkin 
-
-
-## ABSTRACT
-In this work, I intend to propose a revised reading of Levinas and a revised model for anarchism, by reading his thought in conversation with his typical interlocutors such as Heidegger (but, in this work we extend the conversation all the way back to Heraclitus and extend it through Nietzsche up to Deleuze/Foucault as well), and also bring Levinas and anarchism in dialogue with feminist thought, activist writings, the Mahayana Buddhism of Nagarjuna and later writers, and the absurdism of Alfred Jarry and the Juggalo movement.   Throughout the work, phenomenological existence is illustrated by the everydayness of “exceptional” events: for example, Levinasian self-continuity/disruption though time is illustrated by trying to find one’s belt and ethical responsibility is illustrated by the exigencies of texting and other forms of digital communication, and Buddhist meditation as one mode of ethical responsibility as a deferral of response.
-
-The work begins by considering my own identity and the status of philosophical conversation as “critique” in general, and resolves to pursue inquiry without the usage of militaristic metaphors common to thought since the conception of the agora as the site of conversation and polemos as the foundation of Being.  After this, we propose to do a reading of Levinas through his usage of metaphors and defend this decision.  The first metaphor we encounter is Nietzsche’s description of Truth as an “army of metaphor” so we look again at the problem of militarism in thought and in being, which takes us to a conversation with Heraclitean polemos and Niezchean perspectivism-as-Will-to-Power, as well as those belonging to this lineage such as Heidegger and Deleuze/Foucault.  We then propose reading Levinas for his metaphors of the family, in direct contrast to writers such as Simon Critchley and Tina Charter who have objected to this language.  We explain that we are doing a heretical, ‘pataphysical (absurdist) reading of Levinas which perverts the meaning of what family is and what Levinas means by the copula of Being as copulation, the continuous engendering of genders.  We explore the importance of the “maternal” by reevaluating the Aristotelian conception of oikonomos, which takes us into a discussion of how the central question for political economy is consumption, not production, and that human needs should take priority over everything else.  We then include or exerpt two of my already-published papers: “The Anarchism of the Other Person” and “Undoing patriarchy, subverting politics: anarchism as a practice of care”.  The last chapters explores how Levinas intends “family” to signify “re-ligare”, the way that people are ethically bound to each other even before the emergence of the social or the political.  We discuss alternatives to the nuclear family, such as the Juggalo family and the Radical Faeries.  The last chapter discusses the significance of this for activism, drawing on my past work that reads Levinas alongside the situationists and Raoul Vaneigem, on Simon Critchley’s work in “Infinitely Demanding”, and on writings by Deva Woodly, Leah Lakshmi, and other activists.
 
