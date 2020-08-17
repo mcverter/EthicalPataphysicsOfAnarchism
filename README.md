@@ -4,36 +4,77 @@ This is two projects:  A morphological analysis engine (RADICAL EMPIRICISM) and 
 3.  Abstract of Dissertation 
 * [Click here for the Dissertation Wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).
 
+
+
 # Empiricisme Radicale en Francais
-Levinas est très conscient de sus mots; quelle choix est bien choisie.  
-
-Il y a beaucoup de variables que je voudrais analysée
-1. Connections internelle des racines des mots.  Pour exemple en le premiere livre, Levinas parle de "hypostasis" et "destitution". In le deuxième livre, il parle de "institution".  Le racine de tous ces mots est "STA", qui tient une histoire important en philosophie ("substance", "gestell", etc)
-2. Connections sémantique / thématique / ontologique .  En son première livre Levinas parle de "paternité" et "fraternité".  En son deuxième livre il parle de "maternité".  Mais aussi il y a aucune references a "l'orpheline".  Cette "orpheline" est toujours toujours toujours en une état de "destitution".  Aussi il discute le technique de le philosophe Socrates comme une "maïeutique", le soignant donc
-3. Le transformation de forme des mots.  Type de mot (verbe ou nom ou adjectif etc); conjugation, plural, gendre, etc.   
-
-Je suis un computer programmer.  Je vais écrire une system avec Javascript et Postgres je pense, incluant le libraire npm de IEFFF.  Je peux écrire une interface pour utiliser en React/Redux et le server je pense node/express/knex/postgres.   J'ai déjà écrit cette projet vingt années en le passe avec PERL-cgi!!!
-
-Maintenant, j'en ai besoin de rechercher que doit-je faire avec tout mes data.  Maintenant, j'ai fait deux choses
-
-1.  Créer deux archives avec les mots de les deux livres de Levinas, sans footnotes ou endnotes ou titres ou sous titres
-2. Développe une script de nodejs pour lire cette archives, et conter le frequencie de chaque mot.
-
-...   ....   ...
-
-3. En le future, je vais faire une recherche web pour chaque mot de ces morphologie, racine étymologique, signification sémantique etc.
 
 
-Il faut qu'immédiatement que je control le data.  Maintenant j'en ai seulement le frecuencia de chaque mot.  Mais quelque mots apparaît en une forme verbale et aussie une forme nominale et aussie une forme adverbial ou adjectival.  Donc je voudrais conter deux choses ici:  (1) Le frequencie de la racine et (2) Le frequencie de chaque forme.
+# OBJECTIF:
+Cartographier les relations au sein du lexique du philosophe français Emmanuel Levinas (EL) et retracer les changements de vocabulaire entre ses deux œuvres majeures Totality and Infinity (TI) et Another than Being (OTB)
+
+# HYPOTHÈSES:
+(1) Le lexique d'EL permute un ensemble fini de racines étymologiques qui sont importantes dans l'histoire de la philosophie. L'ensemble des permutations change sensiblement entre TI et OTB
+
+## EXEMPLE:
+* Racine étymologique: STA (debout)
+* Utilisation en philosophie: Substance (Spinoza), Gestell (Heidegger)
+## TI:
+* La position éthique de l'Autre dans sa revendication éthique est la «misère»
+* La jouissance élémentaire de soi devient subjectivité à travers un processus d '"hypostase"
+## OTB:
+* Levinas utilise le terme «substitution» pour décrire le processus de devenir-un-sujet, remplaçant le terme précédent «hypostase»
+## Tous les deux
+* «Institution» est utilisé pour décrire les relations entre des tiers.
+
+(1a) Dans le lexique, il y a des connexions entre divers ensembles de racines. Ces liens restent cohérents bien qu'il y ait des transformations topologiques, en particulier de TI à OTB.
+
+(2) Le vocabulaire d'EL est également organisé en ensembles sémantiques.
+
+# FAMILLE
+# TI
+* La relation éthique de chacun avec le futur est la «paternité»
+* Les relations politiques de chacun avec les autres sont la "fraternité"
+## OTB
+* Le fardeau éthique est la «maternité»
+## AUTRE
+* L'enseignement est appelé "maeutics (sage-femme)
+* Le "orphelin" est un aspect de l'autre "démunis" mentionné ci-dessus
+* "L'âme soeur" apparaît dans la section érotique de TI et comme élément de substitution dans OTB "
+
+(3) Changements morphologiques
+* EL lui-même fait explicitement référence à des distinctions à plusieurs reprises tout au long de ses textes, notamment l'infinitif verbal «Le Dire» (Le Dire) et le substantif nominal «Le dit» (Le Dit). Au-delà de cela, il existe des références explicites dispersées à d'autres formes de mots. Son choix d'utiliser diverses parties du discours et des conjugaisons est toujours délibéré.
+
+
+# OUTILS
+* Je suis ingénieur logiciel, je peux donc écrire du code de base de données, de serveur et de front-end pour afficher mes résultats, et peut écrire des robots d'exploration Web pour collecter des données et automatiser les analyses de mots.
+* Jusqu'à présent, tout ce que j'ai fait est de calculer la fréquence de chaque terme individuel dans les deux textes.
+
+# DÉFIS ACTUELS
+* Je ne sais pas vraiment à quoi ressemble la cartographie d'un lexique. Je n'ai pas de modèles pour cela.
+* Je recherche de bons outils pour analyser les caractéristiques de chaque mot
+* * Etymologie: plusieurs dictionnaires étymologiques existent pour que je puisse écrire des scripts pour les interroger
+* * Morphologie: je ne connais pas ce domaine d'étude. J'ai téléchargé un outil appelé Le Lefff (Lexique des Formes Fléchies du Français) mais je ne sais pas vraiment comment l'utiliser. J'ai besoin de pouvoir garder une trace de la forme de base du mot et de sa variante particulière.
+* * Catégorisation sémantique: Je n'ai aucune idée de comment automatiser cela. J'espère ne pas avoir à étiqueter chaque mot manuellement, mais je le fais probablement. Ce serait bien s'il y avait un moyen simple d'ajouter des balises.
+
+# Précédent Travail (2008)
+## (Levinas Perverter -- https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)[https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter]
+Plutôt que de se concentrer sur les gestes rhétoriques évidents que fait Levinas, une lecture radicale doit regarder attentivement le jeu immanent des tropes dans son travail. L’écriture de Levinas ne peut être comprise qu’à travers une enquête approfondie sur les interconnexions et les transformations entre des groupes de métaphores. Derrida signale sournoisement ce problème quand il explique que «tout ce que Lévinas désigne comme« logique formelle »est contesté dans sa racine. Cette racine ne serait pas seulement la racine de notre langue, mais la racine de toute philosophie occidentale »(WD 91).
+
+L'indication de Derrida suggère que le meilleur endroit pour commencer à regarder le jeu de mots immanent de Levinas serait dans ses racines étymologiques. Par exemple, la racine indo-européenne «STA» a une longue tradition philosophique. La pensée grecque l'énonce comme «hypoSTAsis», qui se transforme en latin en «subSTAntia». Dans «L'Origine de l'oeuvre d'art», Heidegger considère cette traduction de termes philosophiques comme l'une des étapes primordiales de l'oubli de l'être (BW 153). Il redéploie cette racine en utilisant des termes communs à la tradition philosophique allemande tels que «VerSTAnd» (comprendre), «GegenSTAnd» (représenter) et «VorSTEllung» (notion), et il invente de nouveaux termes tels que «GeSTEll» (encadrement) (BW 301). Presque parodiant Heidegger, Levinas retraduit ce lexique allemand dans une langue latine, «romançant» les mots dans une langue romane. [8] Non seulement Lévinas récupère le terme «hypostase», mais il transmute cette racine en des termes tels que «déSTItution», «subSTItution» et «inSTItution».
+
+Derrida met en garde contre les tentations de la pensée étymologique (MP 210), je ne voudrais donc pas affirmer avec force que Levinas met sa foi dans la langue française de la même manière que Heidegger considère l'allemand comme la «Maison de l'être» (BW 193). Quel que soit le statut ontologique ultime du langage, il semble clair que Levinas choisit soigneusement chaque mot de ses textes en accordant une attention à ses résonances étymologiques et morphologiques. Dans les années 1940, Levinas affiche cette extraordinaire attention aux détails linguistiques en notant que ce que «l'être-au-monde», «être-pour-mort» et «être avec les autres» de Heidegger ajoutent à nos connaissances philosophiques «est que ces prépositions - «dans», «pour» et «avec» sont à la racine du verbe «être» (comme «ex» est à la racine du verbe «exister») »(Wahl 50). Ainsi, nous devons supposer que Levinas est toujours conscient des racines, des préfixes et des suffixes; des parties nominales, verbales, prépositionnelles, adjectivales et adverbiales du discours; des voix actives, moyennes et passives; des cas nominatif, vocatif, datif, génitif, ablatif, accusatif et même locatif.
+
+En plus de ces considérations morphologiques, il faut s'occuper des connexions sémantiques entre différents réseaux étymologiques. Par exemple, les mots enracinés dans «STA» (par exemple stand), doivent être corrélés avec d'autres réseaux étymologiques connotant la position et la proximité, ainsi que ceux connotant la hauteur et la profondeur. Le mot même «origine» vient d'oriri, s'élever: pour Lévinas, l'homme a «surmonté» le «dénuement» de ses «besoins animaux» (TI 116-17) pour devenir homo erectus, déjà érigé, magistral et viril.
+
 
 
 # Radical Empiricism in English
 # OBJECTIVE:  
-============
+
 Map the relationships within the lexicon of the French philosopher Emmanuel Levinas (EL) and trace the shifts in vocabulary between his two major works Totality and Infinity (TI) and Otherwise than Being (OTB)
 
 # HYPOTHESES:
-============= 
+ 
 (1)  EL's lexicon permutes a finite set of etymological roots that are important in the history of philosophy.  The set of permutations changes markedly between TI and OTB 
 
 ## EXAMPLE:  
@@ -77,7 +118,8 @@ Map the relationships within the lexicon of the French philosopher Emmanuel Levi
 * * Semantic Categorization: I have no idea how to automate this.  I am hoping that I don't have to label each word manually, but I probably do.  It would be nice if there was an easy way to add tags.   
 
 
-
+# Previous Work (2008)
+## (Levinas Perverter -- https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)[https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter]
 
 
 Rather than focusing on the obvious rhetorical gestures Levinas makes, a radical reading must look carefully at the immanent play of tropes within his work.  Levinas’s writing can only be understood through a close investigation of the interconnections and transformation between clusters of metaphors.  Derrida slyly indicates this problem when he explains that “everything which Levinas designates as ‘formal logic’ is contested in its root.  This root would not only be the root of our language, but the root of all western philosophy” (WD 91).
@@ -87,8 +129,6 @@ Derrida’s hint suggests that the easiest place to begin looking at Levinas’s
 Derrida warns against the temptations of etymological thinking (MP 210), so I would not make the strong claim that Levinas puts his faith in the French language the same way Heidegger considers German to be the “House of Being” (BW 193).  Whatever the ultimate ontological status of language, it seems clear that Levinas carefully picks each word in his texts with attention to its etymological and morphological resonances.  In the 1940s, Levinas displays this extraordinary attention to linguistic detail by noting that what Heidegger’s “being-in-the-world,” “being-for-death,” and “being-with-Others” add to our philosophical knowledge “is that these prepositions – ‘in’, ‘for’, and ‘with’ are in the root of the verb ‘to be’ (as ‘ex’ is in the root of the verb ‘to exist’)” (Wahl  50).  Thus, we should assume that Levinas is always aware of roots, prefixes, and suffixes; of the nominal, verbal, prepositional, adjectival, and adverbial parts of speech; of the active, middle, and passive voices; of the nominative, vocative, dative, genitive, ablative, accusative and even locative cases.
 
 In addition to these morphological considerations, we must attend to the semantic connections between various etymological networks.  For example, words rooted in “STA” (e.g. stand), must be correlated with other etymological networks connoting position and proximity, as well as those connoting height and depth.  The very word “origin” comes from oriri, to rise:  for Levinas, man has “overcome” the “destitution” of his “animal needs” (TI 116-17) to become homo erectus, already erect and masterful and virile.
-
-[From Levinas, Pervter](https://theanarchistlibrary.org/library/mitchell-cowen-verter-levinas-perverter)
 
 
 # Dissertation
