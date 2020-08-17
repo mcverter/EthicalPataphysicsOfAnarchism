@@ -15,28 +15,28 @@ Cartographier les relations au sein du lexique du philosophe français Emmanuel 
 # HYPOTHÈSES:
 (1) Le lexique d'EL permute un ensemble fini de racines étymologiques qui sont importantes dans l'histoire de la philosophie. L'ensemble des permutations change sensiblement entre TI et OTB
 
-## EXEMPLE:
+### EXEMPLE:
 * Racine étymologique: STA (debout)
 * Utilisation en philosophie: Substance (Spinoza), Gestell (Heidegger)
-## TI:
+### TI:
 * La position éthique de l'Autre dans sa revendication éthique est la «misère»
 * La jouissance élémentaire de soi devient subjectivité à travers un processus d '"hypostase"
-## OTB:
+### OTB:
 * Levinas utilise le terme «substitution» pour décrire le processus de devenir-un-sujet, remplaçant le terme précédent «hypostase»
-## Tous les deux
+### Tous les deux
 * «Institution» est utilisé pour décrire les relations entre des tiers.
 
 (1a) Dans le lexique, il y a des connexions entre divers ensembles de racines. Ces liens restent cohérents bien qu'il y ait des transformations topologiques, en particulier de TI à OTB.
 
 (2) Le vocabulaire d'EL est également organisé en ensembles sémantiques.
 
-# FAMILLE
-# TI
+## FAMILLE
+### TI
 * La relation éthique de chacun avec le futur est la «paternité»
 * Les relations politiques de chacun avec les autres sont la "fraternité"
-## OTB
+### OTB
 * Le fardeau éthique est la «maternité»
-## AUTRE
+### AUTRE
 * L'enseignement est appelé "maeutics (sage-femme)
 * Le "orphelin" est un aspect de l'autre "démunis" mentionné ci-dessus
 * "L'âme soeur" apparaît dans la section érotique de TI et comme élément de substitution dans OTB "
@@ -45,11 +45,11 @@ Cartographier les relations au sein du lexique du philosophe français Emmanuel 
 * EL lui-même fait explicitement référence à des distinctions à plusieurs reprises tout au long de ses textes, notamment l'infinitif verbal «Le Dire» (Le Dire) et le substantif nominal «Le dit» (Le Dit). Au-delà de cela, il existe des références explicites dispersées à d'autres formes de mots. Son choix d'utiliser diverses parties du discours et des conjugaisons est toujours délibéré.
 
 
-# OUTILS
+## OUTILS
 * Je suis ingénieur logiciel, je peux donc écrire du code de base de données, de serveur et de front-end pour afficher mes résultats, et peut écrire des robots d'exploration Web pour collecter des données et automatiser les analyses de mots.
 * Jusqu'à présent, tout ce que j'ai fait est de calculer la fréquence de chaque terme individuel dans les deux textes.
 
-# DÉFIS ACTUELS
+## DÉFIS ACTUELS
 * Je ne sais pas vraiment à quoi ressemble la cartographie d'un lexique. Je n'ai pas de modèles pour cela.
 * Je recherche de bons outils pour analyser les caractéristiques de chaque mot
 * * Etymologie: plusieurs dictionnaires étymologiques existent pour que je puisse écrire des scripts pour les interroger
@@ -69,35 +69,35 @@ En plus de ces considérations morphologiques, il faut s'occuper des connexions 
 
 
 # Radical Empiricism in English
-# OBJECTIVE:  
+## OBJECTIVE:  
 
 Map the relationships within the lexicon of the French philosopher Emmanuel Levinas (EL) and trace the shifts in vocabulary between his two major works Totality and Infinity (TI) and Otherwise than Being (OTB)
 
-# HYPOTHESES:
+## HYPOTHESES:
  
 (1)  EL's lexicon permutes a finite set of etymological roots that are important in the history of philosophy.  The set of permutations changes markedly between TI and OTB 
 
-## EXAMPLE:  
+### EXAMPLE:  
 *  Etymological Root: STA (to stand)
 *  Usage in Philosophy: Substance (Spinoza), Gestell (Heidegger)
-##  TI:  
+###  TI:  
 *  The ethical position of the Other in its ethcial demand is "destitution"
 *  The elemental enjoyment of the self becomes subjectivity through a process of "hypostasis"
-##  OTB:  
+###  OTB:  
 *  Levinas uses the term "substitution" to describe the process of becoming-a-subject, replacing the previous term "hypostasis"
-## Both
+### Both
 * "Institution" is used to describe relationships among third parties.    
 
 (1a)  Within the lexicon, are connections between various sets of roots.  These linkages remain consistent although there are topological transformations, especially from TI to OTB.  
 
 (2)  EL's vocabulary is also organized into semantic sets.
-# FAMILY 
-# TI 
+## FAMILY 
+### TI 
 * One's ethical relationship to the future is "paternity"
 * One's political relatinships with others is "fraternity"
-## OTB
+### OTB
 * One's ethical burden is "maternity"
-## OTHER
+### OTHER
 * Teaching is referred to as "maeutics (midwifery)
 * The "orphan" is an aspect of the "destitute" other mentioned above
 * The "sister soul" appears in the erotic section of TI and as an element of substitution in OTB"
@@ -106,11 +106,11 @@ Map the relationships within the lexicon of the French philosopher Emmanuel Levi
 *  EL himself explicitly refers to distinctions repeatedly throughout his texts, most notably the verbal infinitive "Le Dire" (The Saying) amd the nominal substantive "Le dit" (The Said).  Beyond this there are scattered explicit references to other word forms.  His choice to use various parts of speech and conjugations is always deliberate.  
 
 
-# TOOLS
+## TOOLS
 * I am a software engineer so I can write database, server, and front end code to display my results, and can write web crawlers to collect data and automate word analyses.  
 * So far all I have done is calculate the frequency of each individual term in the wo texts.
 
-# CURRENT CHALLENGES
+## CURRENT CHALLENGES
 * I do not actually know what Mapping a Lexicon looks like. I have no models for this. 
 * I am looking for good tools for analysing the characteristics of each word
 * * Etymology:  Several etymological dictionaries exist so I can write scripts to query them 
