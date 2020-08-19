@@ -19,7 +19,7 @@ Cartographier les relations au sein du lexique du philosophe français Emmanuel 
 * Racine étymologique: STA (debout)
 * Utilisation en philosophie: Substance (Spinoza), Gestell (Heidegger)
 ### TI:
-* La position éthique de l'Autre dans sa revendication éthique est la «misère»
+* La position éthique de l'Autre dans sa revendication éthique est la «destitution»
 * La jouissance élémentaire de soi devient subjectivité à travers un processus d '"hypostase"
 ### OTB:
 * Levinas utilise le terme «substitution» pour décrire le processus de devenir-un-sujet, remplaçant le terme précédent «hypostase»
