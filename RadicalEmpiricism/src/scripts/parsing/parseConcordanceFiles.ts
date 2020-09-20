@@ -1,11 +1,12 @@
 const fs = require("fs");
 const readline = require("readline");
+var JSSoup = require('jssoup').default;
 
 const frenchConcordanceReadLine = readline.createInterface({
   input: fs.createReadStream(
     __dirname + "/../../data/Concordance/Sections/French.txt"
   ),
-  output: process.stdout,
+//  output: process.stdout,
   console: false,
 });
 
@@ -13,36 +14,42 @@ function exitOnError(message, err) {
   console.error(message, err);
   process.exit(1);
 }
-
+let lineCount = 0;
 const allWords = {};
 
 frenchConcordanceReadLine.on("line", (line) => {
+  lineCount++;
   let wordMatch, word, bookMatch, citationCount, bookName;
   const WordRegex = /(\w+):(.+)./;
   const BookRegex = /(\w\w)(.+);/g;
 
-//  console.log(line);
   wordMatch = WordRegex.exec(line);
-  // console.log(wordMatch);
-  if (wordMatch && wordMatch.length > 1) {
   word = wordMatch[1];
-  }
-  else {
-    console.log(wordMatch)
-  }
-//  console.log("word", word);
-  allWords[word] = {};
+  console.log('word', word);
 
+  allWords[word] = {};
   wordMatch[2].split(";").forEach((book) => {
     bookName = book.match(/\w+/)[0];
     citationCount = 1 + (book.indexOf(",") > -1 ? book.match(/,/g).length : 0);
     allWords[word][bookName] = citationCount;
-    // console.log("book", book, "bookName", bookName, "citations", citationCount);
   });
-  //    console.log(line); //    ABAISSEMENT: TI 229:14; NP 43:32; ADV 20:34; DQVI 62:11; TEI 61:10, 61:14, 61:17; HN 134:7, 136:19, 150:37.
 });
 
+function getMorphology(word) {}
+// oikos nomos 
+
+function getDefinition(word) {}
+
+function getEtymology(word) {}
+
 frenchConcordanceReadLine.on("close", () => {
+//    console.log(JSON.stringify(allWords));  
   console.log("me voici");
-//  console.log(allWords);
+  fs.writeFileSync(__dirname +'/output.min.json', JSON.stringify(allWords));
+  fs.writeFileSync(__dirname + '/output.json', JSON.stringify(allWords, null, "  "));
+  Object.keys(allWords).forEach((word) => {
+    getMorphology(word);
+    getDefinition(word);
+    getEtymology(word);
+  });
 });
