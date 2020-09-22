@@ -4,7 +4,7 @@ var JSSoup = require('jssoup').default;
 
 const frenchConcordanceReadLine = readline.createInterface({
   input: fs.createReadStream(
-    __dirname + "/../../data/Concordance/Sections/French.txt"
+    __dirname + "/../../data/Concordance/Section/French.txt"
   ),
 //  output: process.stdout,
   console: false,
@@ -20,7 +20,7 @@ const allWords = {};
 frenchConcordanceReadLine.on("line", (line) => {
   lineCount++;
   let wordMatch, word, bookMatch, citationCount, bookName;
-  const WordRegex = /(\w+):(.+)./;
+  const WordRegex = /(^.+):(.+)./;
   const BookRegex = /(\w\w)(.+);/g;
 
   wordMatch = WordRegex.exec(line);
