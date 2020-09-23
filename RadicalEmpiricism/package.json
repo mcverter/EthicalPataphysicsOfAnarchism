@@ -1,0 +1,12 @@
+{
+  "name": "RadicalEmpiricism",
+  "version": "1.0.0",
+  "description": "Etymological Roots of the philosophy of Emmanuel Levinas",
+  "main": "index.js",
+  "author": "mcverter",
+  "license": "None",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "jssoup": "^0.0.12"
+  }
+}

@@ -11,7 +11,16 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/src/db/parsing/parseWordFile.js"
+            "program": "${workspaceFolder}/src/scripts/parsing/parseConcordanceFiles.ts"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/src/scripts/parsing/parseWordFiles.js"
         }
     ]
 }

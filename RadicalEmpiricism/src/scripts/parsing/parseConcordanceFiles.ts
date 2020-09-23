@@ -1,6 +1,17 @@
 const fs = require("fs");
 const readline = require("readline");
 var JSSoup = require('jssoup').default;
+onst axios = require('axios');
+
+axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+  .then(response => {
+    console.log(response.data.url);
+    console.log(response.data.explanation);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+
 
 const frenchConcordanceReadLine = readline.createInterface({
   input: fs.createReadStream(
@@ -35,6 +46,16 @@ frenchConcordanceReadLine.on("line", (line) => {
   });
 });
 
+/*
+https://www.littre.org/definition/abaissement
+*/
+
+/*
+https://www.cnrtl.fr/definition/abaissement
+https://www.cnrtl.fr/definition/academie8/abaissement
+https://www.cnrtl.fr/etymologie/abaissement
+
+*/
 function getMorphology(word) {}
 // oikos nomos 
 
