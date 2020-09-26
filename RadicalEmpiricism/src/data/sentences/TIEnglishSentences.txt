@@ -497,7 +497,7 @@ This relationship established over the things henceforth possibly common, that i
 The way in which the other presents himself, exceeding the idea of the other in me, we here name face.
 This mode does not consist in figuring as a theme under my gaze, in spreading itself forth as a set of qualities forming an image.
 The face of the Other at each moment destroys and overflows the plastic image it leaves me, the idea existing to my own measure and to the measure of its ideatum—the adequate idea.
-It does not manifest itself by these qualities, but xaS’aM.
+It does not manifest itself by these qualities, but καθ’αύτό.
 It expresses itself.
 The face brings a notion of truth which, in contradistinction to contemporary ontology, is not the disclosure of an impersonal Neuter, but expression: the existent breaks through all the envelopings and generalities of Being to spread out in its "form" the totality of its "content," finally abolishing the distinction between form and content.
 This is not achieved by some sort of modification of the knowledge that thematizes, but precisely by "thematization" turning into conversation.
@@ -1794,10 +1794,11 @@ For the I to be means neither to oppose nor to represent something to itself, no
 Individuation through happiness individuates a "concept" whose comprehension and extension coincide; the individuation of the concept by self-identification constitutes the content of this concept.
 The notion of the separated person which we have approached in the description of enjoyment, which is posited in the independence of happiness, is to be distinguished from the notion of person such as it is fabricated by the philosophy of life or of race.
 In the exaltation of biological life the person arises as a product of the species or of impersonal life, which has recourse to the individual so as to ensure its impersonal triumph.
-53 The unicity of the I, its status as a conceptless individual, would disappear in this participation in what exceeds it.
+The unicity of the I, its status as a conceptless individual, would disappear in this participation in what exceeds it.
 The pathos of liberalism, which we rejoin on one side, lies in the promotion of a person inasmuch as he represents nothing further, that is, is precisely a self.
 Then multiplicity can be produced only if the individuals retain their secrecy, if the relation that unites them into a multiplicity is not visible from the outside, but proceeds from one unto the other.
-If it were entirely visible from the outside, if the exterior point of view would open upon its ultimate reality, the multiplicity would form a totality in which the individuals would participate; the bond between persons would not have preserved the multiplicity from addition.
+If it were entirely visible from the outside, if the exterior point of view would open upon its ultimate reality, the multiplicity would form a totality in which the individuals would participate; 
+the bond between persons would not have preserved the multiplicity from addition.
 In order that multiplicity be maintained, the relation proceeding from me to the Other—the attitude of one person with regard to another—must be stronger than the formal signification of conjunction, to which every relation risks being degraded.
 This greater force is concretely affirmed in the fact that the relation proceeding from me to the other cannot be included within a network of relations visible to a third party.
 If this bond between me and the other could be entirely apprehended from the outside it would suppress, under the gaze that encompassed it, the very multiplicity bound with this bond.
@@ -1893,7 +1894,6 @@ The particular I is one with the same, coincides with the "daemon" that speaks t
 The I of representation is the natural passage from the particular to the universal.
 Universal thought is a thought in the first person.
 This is why the constitution that for idealism remakes the universe starting from the subject is not the freedom of an I that would survive this constitution free and above the laws it will have constituted.
-
 The I that constitutes dissolves into the work it comprehends, and enters into the eternal.
 The idealist creation is representation.
 But this is true only of the I proper to representation—detached from the conditions of its latent birth.
@@ -1925,7 +1925,6 @@ The way in which the same is determined by the other, and which delineates the p
 It is brought about by the body whose essence is to accomplish my position on the earth, that is, to give me as it were a vision already and henceforth borne by the very image that I see.
 To posit oneself corporeally is to touch an earth, but to do so in such a way that the touching finds itself already conditioned by the position, the foot settles into a real which this very action outlines or constitutes—, as though a painter would notice that he is descending from the picture he is painting.
 Representation consists in the possibility of accounting for the object as though it were constituted by a thought, as though it were a noema.
-
 And this reduces the world to the unconditioned instant of thought.
 In "living from ..." the process of constitution which comes into play wherever there is representation is reversed.
 What I live from is not in my life as the represented is within representation in the eternity of the same or in the unconditioned present of cogitation.
@@ -1942,12 +1941,14 @@ To be sure, in the satisfaction of need the alienness of the world that founds m
 Through labor and possession the alterity of nutriments enters into the same.
 Yet it remains true that this relationship differs fundamentally from the inspiration [genialite] of representation we spoke of above.
 Here the relation is reversed, as though the constitutive thought were stimulated by its own game, by its free play, as though freedom as a present absolute commencement found its condition in its own product, as though this product did not receive its meaning from a consciousness that ascribes meaning to being.
-The body is a permanent contestation of the prerogative attributed to consciousness of "giving meaning" to each thing; it lives as this contestation.
+The body is a permanent contestation of the prerogative attributed to consciousness of "giving meaning" to each thing; 
+it lives as this contestation.
 The world I live in is not simply the counterpart or the contemporary of thought and its constitutive freedom, but a conditioning and an antecedence.
 The world I constitute nourishes me and bathes me.
 It is aliment and "medium" ["milieu"}.
 The intentionality aiming at the exterior changes direction in the course of its very aim by becoming interior to the exteriority it constitutes, somehow comes from the point to which it goes, recognizing itself past in its future, lives from what it thinks.
-If the intentionality of "living from ..." which is properly enjoyment is not constitutive, this is therefore not because an elusive, inconceivable content, inconvertible into a meaning of thought, irreducible to the present and consequently unrepresentable, would compromise the universality of representation and the transcendental method; it is the very movement of constitution that is reversed.
+If the intentionality of "living from ..." which is properly enjoyment is not constitutive, this is therefore not because an elusive, inconceivable content, inconvertible into a meaning of thought, irreducible to the present and consequently unrepresentable, would compromise the universality of representation and the transcendental method; 
+it is the very movement of constitution that is reversed.
 It is not the encounter with the irrational that stops the play of constitution; the play changes its sense.
 The body indigent and naked is this very changing of sense.
 This is the profound insight Descartes had when he refused to sense data the status of clear and distinct ideas, ascribed them to the body, and relegated them to the useful.
@@ -1978,22 +1979,25 @@ Every relation or possession is situated within the non-possessable which envelo
 We shall call it the elemental.
 The navigator who makes use of the sea and the wind dominates these elements but does not thereby transform them into things.
 They retain the indetermination of elements despite the precision of the laws that govern them, which can be known and taught.
-The element has no forms containing it; it is content without form.
+The element has no forms containing it; 
+it is content without form.
 Or rather it has but a side: the surface of the sea and of the field, the edge of the wind; the medium upon which this side58 takes form is not composed of things.
 It unfolds in its own dimension: depth, which is inconvertible into the breadth and length in which the side of the element extends.
-To be sure, a thing likewise presents itself by but one unique side; but we can circle round it, and the reverse is equivalent to the obverse; all the points of view are equivalent.
+To be sure, a thing likewise presents itself by but one unique side; 
+but we can circle round it, and the reverse is equivalent to the obverse; all the points of view are equivalent.
 The depth of the element prolongs it till it is lost in the earth and in the heavens.
 "Nothing ends, nothing begins."
- To tell the truth the element has no side at all.
+To tell the truth the element has no side at all.
 One does not approach it.
-The relation adequate to its essence discovers it precisely as a medium: one is steeped in it; I am always within the element.
+The relation adequate to its essence discovers it precisely as a medium: one is steeped in it; 
+I am always within the element.
 Man has overcome the elements only by surmounting this interiority without issue by the domicile, which confers upon him an extraterritoriality.
 He gets a foothold in the elemental by a side already appropriated: a field cultivated by me, the sea in which I fish and moor my boats, the forest in which I cut wood; and all these acts, all this labor, refer to the domicile.
 Man plunges into the elemental from the domicile, the primary appropriation, of which we shall speak further.
 He is within what he possesses, such that we shall be able to say that the domicile, condition for all property, renders the inner life possibe.
 The I is thus at home with itself.
 Through the home our relation with space as distance and extension is substituted for the simple "bathing in the element."
- But the adequate relation with the element is precisely bathing.
+But the adequate relation with the element is precisely bathing.
 The interiority of immersion is not convertible into exteriority.
 The pure quality of the element does not cling to a substance that would support it.
 To bathe in the element is to be in an inside-out world, and here the reverse is not equivalent to the obverse.
@@ -2001,9 +2005,11 @@ A thing offers itself to us by its side, as a solicitation coming from its subst
 We can, to be sure, represent the liquid or the gaseous to ourselves as a multiplicity of solids, but we then are abstracting from our presence in the midst of the element.
 The liquid manifests its liquidity, its qualities without support, its adjectives without substantive, to the immersion of the bather.
 The element presents us as it were the reverse of reality, without origin in a being, although presenting itself in familiarity—of enjoyment—as though we were in the bowels of being.
-Hence we can say that the element comes to us from nowhere; the side it presents to us does not determine an object, remains entirely anonymous.
+Hence we can say that the element comes to us from nowhere; 
+the side it presents to us does not determine an object, remains entirely anonymous.
 It is wind, earth, sea, sky, air.
-* Indetermination here is not equivalent to the infinite surpassing limits; it precedes the distinction between the finite and the infinite.
+Indetermination here is not equivalent to the infinite surpassing limits; 
+it precedes the distinction between the finite and the infinite.
 It is not a quesion of a something, an existent manifesting itself as refractory to qualitative determination.
 Quality manifests itself in the element as determining nothing.
 Thus thought does not fix the element as an object.
@@ -2021,7 +2027,8 @@ Possession itself and all the relations with abstract notions are inverted into 
 Pushkin’s greedy knight enjoys possessing the possession of the world.
 Enjoyment—an ultimate relation with the substantial plenitude of being, with its materiality—embraces all relations with things.
 The structure of the Zeug as Zeug and the system of references in which it has its place do indeed manifest themselves, in concerned handling, as irreducible to vision, but do not encompass the substantiality of objects, which is always there in addition.
-Moreover furnishings, the home, food, clothing are not Zeuge in the proper sense of the term: clothing serves to protect the body or to adorn it, the home to shelter it, food to restore it, but we enjoy them or suffer from them; they are ends.
+Moreover furnishings, the home, food, clothing are not Zeuge in the proper sense of the term: clothing serves to protect the body or to adorn it, the home to shelter it, food to restore it, 
+but we enjoy them or suffer from them; they are ends.
 Tools themselves, which are-in-view-of ..., become objects of enjoyment.
 The enjoyment of a thing, be it a tool, does not consist simply in bringing this thing to the usage for which it is fabricated—the pen to the writing, the hammer to the nail to be driven in—but also in suffering or rejoicing over this operation.
 The things that are not tools —the crust of bread, the flame in the fireplace, the cigarette—offer themselves to enjoyment.
@@ -2038,7 +2045,8 @@ But the care for nutriments is not bound to a care for existence.
 The inversion of the instincts of nutrition, which have lost their biological finality, marks the very disinterestedness of man.
 The suspension or absence of the ultimate finality has a positive face—the disinterested joy of play.
 To live is to play, despite the finality and tension of instinct to live from something without this something having the sense of a goal or an ontological means—simply play or enjoyment of life.
-It is carefreeness with regard to existence, which has a positive meaning: it consists in sinking one’s teeth fully into the nutriments of the world, agreeing to [agreer] the world as wealth, releasing its elemental essence.
+It is carefreeness with regard to existence, which has a positive meaning: 
+it consists in sinking one’s teeth fully into the nutriments of the world, agreeing to [agreer] the world as wealth, releasing its elemental essence.
 In enjoyment the things revert to their elemental qualities.
 Enjoyment, the sensibility (whose essence it exhibits), is produced as a possibility of being precisely by ignoring the prolongation of hunger into the concern for self-preservation.
 Here lies the permanent truth of hedonist moralities: to not seek, behind the satisfaction of need, an order relative to which alone satisfaction would acquire a value; to take satisfaction, which is the very meaning of pleasure, as a term.
@@ -2055,7 +2063,8 @@ Food can be interpreted as an implement only in a world of exploitation.
 4. Sensibility 
 But to posit the element as a quality without substance does not amount to admitting the existence of a mutilated or still stammering "thought" correlative of such phenomena.
 To-be-in-the-element does indeed disengage a being from blind and deaf participation in a whole, but differs from a thought making its way outward.
-Here on the contrary the movement comes incessantly upon me, as the wave that engulfs and submerges and drowns—an incessant movement of afflux without respite, a total contact without fissure nor gap from which the reflected movement of a thought could arise.
+Here on the contrary the movement comes incessantly upon me, as the wave that engulfs and submerges and drowns—
+an incessant movement of afflux without respite, a total contact without fissure nor gap from which the reflected movement of a thought could arise.
 It is to be within, to be inside of....
 This situation is not reducible to a representation, not even an inarticulate representation; it belongs to sensibility, which is the mode of enjoyment.
 It is when sensibility is interpreted as representation and mutilated thought that the finitude of our thought has to be invoked so as to account for these "obscure" thoughts.
@@ -2082,18 +2091,21 @@ It does not suffice to say that sensation lacks clarity and distinctness, as tho
 Sensibility is not an inferior theoretical knowledge bound however intimately to affective states: in its very gnosis sensibility is enjoyment; it is satisfied with the given, it is contented.
 Sensible "knowledge" does not have to surmount infinite regression, that vertigo of the understanding; it does not even experience it.
 It finds itself immediately at the term; it concludes, it finishes without referring to the infinite.
-Finition59 without reference to the infinite, finition without limitation, is the relation with the end [fin] as a goal.
+Finition without reference to the infinite, finition without limitation, is the relation with the end [fin] as a goal.
 The sense datum with which sensibility is nourished always comes to gratify a need, responds to a tendency.
-It is not that at the beginning there was hunger; the simultaneity of hunger and food constitutes the paradisal initial condition of enjoyment.
+It is not that at the beginning there was hunger; 
+the simultaneity of hunger and food constitutes the paradisal initial condition of enjoyment.
 Thus the Platonic theory of negative pleasures confines itself to the formal pattern of enjoyment only, and fails to recognize the originality of a structure which does not show through in the formal, but concretely weaves the living from....
 An existence that has this mode is the body—both separated from its end (that is, need), but already proceeding toward that end without having to know the means necessary for its obtainment, an action released by the end, accomplished without knowledge of means, that is, without tools.
 Pure finality, irreducible to a result, is produced only by corporeal action ignorant of the mechanism of its own physiology.
 But the body is not only what is steeped in the element, but what dwells, that is, inhabits and possesses.
 In sensibility itself and independently of all thought there is announced an insecurity which throws back in question this quasi-eternal immemoriality of the element, which will disturb it as the other, and which it will appropriate by recollecting [se recueillant] in a dwelling.
 Enjoyment seems to be in touch with an "other" inasmuch as a future is announced within the element and menaces it with insecurity.
-We will speak further of this insecurity belonging to the order of enjoyment; for the moment what is important for us is to show that sensibility is of the order of enjoyment and not of the order of experience.
+We will speak further of this insecurity belonging to the order of enjoyment; 
+for the moment what is important for us is to show that sensibility is of the order of enjoyment and not of the order of experience.
 Sensibility thus understood is not to be confused with still vacillating forms of "consciousness of."
-It is not separated from thought by a simple difference of degree, nor even by a difference in the nobility or the extent of expansion of their objects.
+It is not separated from thought by a simple difference of degree, 
+nor even by a difference in the nobility or the extent of expansion of their objects.
 Sensibility does not aim at an object, however rudimentary.
 It concerns even the elaborated forms of consciousness, but its proper work consists in enjoyment, through which every object is dissolved into the element in which enjoyment is steeped.
 For in fact the sensible objects we enjoy have already undergone labor.
@@ -2140,7 +2152,8 @@ Torn up from all the implications, from all the prolongations thought offers, al
 To reflect on each of one’s acts is, to be sure, to situate them with respect to infinity, but the unreflected and naive consciousness constitutes the originality of enjoyment.
 The naivete of consciousness was described as a torpid thought, but from this somnolence thought can nowise be extracted.
 It is life, in the sense that we speak of relishing life.
-We enjoy the world before referring to its prolongations; we breathe, walk, see, stroll,....The description of enjoyment as it has been conducted to this point assuredly does not render the concrete man.
+We enjoy the world before referring to its prolongations; we breathe, walk, see, stroll,....
+The description of enjoyment as it has been conducted to this point assuredly does not render the concrete man.
 In reality man has already the idea of infinity, that is, lives in society and represents things to himself.
 The separation accomplished as enjoyment, that is, as interiority, becomes a consciousness of objects.
 The things are fixed by the word which gives them, which communicates them and thematizes them.
@@ -2215,7 +2228,8 @@ This way of existing without revealing itself, outside of being and the world, m
 The nocturnal prolongation of the element is the reign of mythical gods.
 Enjoyment is without security.
 But this future does not take on the character of a Geworfenheit, for insecurity menaces an enjoyment already happy in the element, rendered sensitive to disquietude only by this happiness.
-We have described this nocturnal dimension of the future under the title there is62 The element extends into the there is.
+We have described this nocturnal dimension of the future under the title there is. 
+The element extends into the there is.
 Enjoyment, as interiorization, runs up against the very strangeness of the earth.
 But it has the recourse of labor and possession.
 G. I AND DEPENDENCE     
@@ -2242,14 +2256,16 @@ The non-I feeds enjoyment; the I needs the world, which exalts it.
 The freedom of enjoyment thus is experienced as limited.
 Limitation is not due to the fact that the I has not chosen its birth and thus is already and henceforth in situation, but to the fact that the plenitude of its instant of enjoyment is not ensured against the unknown that lurks in the very element it enjoys, the fact that joy remains a chance and a stroke of luck.
 The fact that enjoyment would be but a void that fills can nowise throw suspicion on the qualitative plenitude of enjoyment.
-Enjoyment and happiness are not calculated by the quantities of being and nothingness which compensate or fail to compensate for one another; enjoyment is an exaltation, a peak that exceeds the pure exercise of being.
+Enjoyment and happiness are not calculated by the quantities of being and nothingness which compensate or fail to compensate for one another; 
+enjoyment is an exaltation, a peak that exceeds the pure exercise of being.
 But the happiness of enjoyment, a satisfaction of needs which is not compromised by the need-satisfaction rhythm, can be tarnished by the concern for the morrow involved in the fathomless depth of the element in which enjoyment is steeped.
 The happiness of enjoyment flourishes on the "pain" of need and thus depends on an "other"; it is a stroke of good fortune, a chance.
 But this conjuncture justifies neither the denunciation of pleasure as illusory nor the characterizing of man in the world as dereliction.
 The indigence that menaces living as living from ...— because what life lives from can come to be wanting—cannot be confounded with the void of appetite already settled in enjoyment, which in satisfaction makes possible, beyond simple being, its jubilation.
 On the other hand, the "pain" of need nowise evinces an alleged irrationality of the sensible, as though the sensible offended the autonomy of the rational person.
 In the pain of needs reason does not revolt against the scandal of a given pre-existing freedom.
-For one cannot first posit an I and then ask if enjoyment and need run counter to it, limit it, injure it, or negate it: only in enjoyment does the I crystallize.
+For one cannot first posit an I and then ask if enjoyment and need run counter to it, limit it, injure it, or negate it: 
+only in enjoyment does the I crystallize.
 2. The Love of Life 
 At the origin there is a being gratified, a citizen of paradise.
 The "emptiness" felt implies that the need which becomes aware of it abides already in the midst of an enjoyment—be it that of the air one breathes.
@@ -2278,9 +2294,12 @@ Need therefore can be characterized neither as freedom, since it is dependence, 
 The philosophers of existence who emphasize dereliction misconstrue the opposition arising between the I and its joy—an opposition due to the disquietude that insinuates itself into enjoyment, menaced with the indetermination of the future essential to sensibility, or due to the pain inherent in labor.
 Being is here nowise refused in its totality.
 In its opposition to being the I seeks refuge in being itself.
-Suicide is tragic, for death does not bring a resolution to all the problems to which birth gave rise, and is powerless to humiliate the values of the earth—whence Macbeth’s final cry in confronting death, defeated because the universe is not destroyed at the same time as his life.
+Suicide is tragic, for death does not bring a resolution to all the problems to which birth gave rise, and is powerless to humiliate the values of the earth—
+whence Macbeth’s final cry in confronting death, defeated because the universe is not destroyed at the same time as his life.
 Suffering at the same time despairs for being riveted to being—and loves the being to which it is riveted.
-It knows the impossibility of quitting life: what tragedy! what comedy! ...The taedium vitae is steeped in the love of the life it rejects; despair does not break with the ideal of joy.
+It knows the impossibility of quitting life: what tragedy! what comedy! ...
+The taedium vitae is steeped in the love of the life it rejects; 
+despair does not break with the ideal of joy.
 In reality this pessimism has an economic infrastructure ; it expresses the anxiety for the morrow and the pain of labor, whose role in metaphysical desire we shall show later.
 The Marxist views retain here their whole force, even in a different perspective.
 The suffering of need is not assuaged in anorexy, but in satisfaction.
@@ -2294,12 +2313,14 @@ The passage from instantaneous enjoyment to the fabrication of things refers to 
 The pessimism of dereliction is hence not irremediable—man holds in his hands the remedy for his ills, and the remedies preexist the ills.
 But labor itself, by virtue of which I live freely, ensuring myself against life’s uncertainty, does not bring life its final signification.
 It also becomes that from which I live.
-I live from the whole content of life—even from the labor which ensures the future; I live from my labor as I live from air, light, and bread.
+I live from the whole content of life—even from the labor which ensures the future; 
+I live from my labor as I live from air, light, and bread.
 The limit case in which need prevails over enjoyment, the proletarian condition condemning to accursed labor in which the indigence of corporeal existence finds neither refuge nor leisure at home with itself, is the absurd world of Geworfenheit.
 3. Enjoyment and Separation 
 In enjoyment throbs egoist being.
 Enjoyment separates by engaging in the contents from which it lives.
-Separation comes to pass as the positive work of this engagement; it does not result from a simple split, like a spatial removal.
+Separation comes to pass as the positive work of this engagement; 
+it does not result from a simple split, like a spatial removal.
 To be separated is to be at home with oneself.
 But to be at home with oneself... is to live from ..., to enjoy the elemental.
 The "failure" of the constitution of the objects from which one lives is not due to the irrationality or the obscurity of those objects, but to their function as nutriments.
@@ -2342,7 +2363,8 @@ The happiness of enjoyment is stronger than every disquietude, but disquietude c
 The happiness of enjoyment is greater than all disquietude: whatever be the concerns for the morrow, the happiness of living—of breathing, of seeing, of feeling ("One minute more, Mr. Hangman !")—remains in the midst of disquietude as the term proposed to every evasion from the world troubled, to intolerability, by disquietude.
 One flees life toward life.
 Suicide appears as a possibility to a being already in relation with the Other, already elevated to life for the Other.
-It is the possibility of an existence already metaphysical; only a being already capable of sacrifice is capable of suicide.
+It is the possibility of an existence already metaphysical; 
+only a being already capable of sacrifice is capable of suicide.
 Before defining man as the animal that can commit suicide it is necessary to define him as capable of living for the Other and of being on the basis of the Other who is exterior to him.
 But the tragic character of suicide and of sacrifice evinces the radicality of the love of life.
 The primordial relation of man with the material world is not negativity, but enjoyment and agreeableness [agrement]64 of life.
@@ -2375,7 +2397,8 @@ The home would serve for habitation as the hammer for the driving in of a nail o
 For it does indeed belong to the gear consisting of things necessary for the life of man.
 It serves to shelter him from the inclemencies of the weather, to hide him from enemies or the importunate.
 And yet, within the system of finalities in which human life maintains itself the home occupies a privileged place.
-Not that of an ultimate end; if one can seek it as a goal, if one can "enjoy" one’s home, the home does not manifest its originality in the possibility for its enjoyment.
+Not that of an ultimate end; 
+if one can seek it as a goal, if one can "enjoy" one’s home, the home does not manifest its originality in the possibility for its enjoyment.
 For all "implements," besides their utility as means in view of an end, admit of an immediate interest.
 Thus I can take pleasure in handling a tool, in working, in accomplishing, using gestures which, to be sure, fit into a system of finality, but whose end is situated beyond the pleasure or pain procured by these isolated gestures themselves, which fill or nourish a life.
 The privileged role of the home does not consist in being the end of human activity but in being its condition, and in this sense its commencement.
@@ -2384,7 +2407,8 @@ Man abides in the world as having come to it from a private domain, from being a
 He does not come to it from an intersideral space where he would already be in possession of himself and from which at each moment he would have to recommence a perilous landing.
 But he does not find himself brutally cast forth and forsaken in the world.
 Simultaneously without and within, he goes forth outside from an inwardness [intimite].
-Yet this inwardness opens up in a home which is situated in that outside—for the home, as a building, belongs to a world of objects.
+Yet this inwardness opens up in a home which is situated in that outside—
+for the home, as a building, belongs to a world of objects.
 But this belongingness does not nullify the bearing of the fact that every consideration of objects, and of buildings too, is produced out of a dwelling.
 Concretely speaking the dwelling is not situated in the objective world, but the objective world is situated by relation to my dwelling.
 The idealist subject which constitutes a priori its object and even the site at which it is found does not strictly speaking constitute them a priori but precisely after the event, after having dwelt in them as a concrete being.
@@ -2408,7 +2432,8 @@ Only from this recollection does the building take on the signification of being
 But "concretization" does not only reflect the possibility it concretizes, rendering explicit the articulations enveloped in it.
 Interiority concretely accomplished by the home, the passage to act—the energy—of recollection in the dwelling, opens up new possibilities which the possibility of recollection did not contain analytically, but which, being essential to its energy, are manifested only when it unfolds.
 How does habitation, actualizing this recollection, this intimacy and this warmth or gentleness of intimacy, make labor and representation, which complete the structure of separation, possible?
-We shall see shortly, but first it is important to describe the "intentional implications" of recollection itself and of the gentleness in which it is lived.
+We shall see shortly, 
+but first it is important to describe the "intentional implications" of recollection itself and of the gentleness in which it is lived.
 2. Habitation and the Feminine 
 Recollection, in the current sense of the term, designates a suspension of the immediate reactions the world solicits in view of a greater attention to oneself, one’s possibilities, and the situation.
 It is already a movement of attention freed from immediate enjoyment, for no longer deriving its freedom from the agreeableness of the elements.
@@ -2418,7 +2443,8 @@ How, in the midst of a life which is life from ..., which enjoys elements, and w
 Does recollection amount to maintaining oneself in an indifferent region, in a void, in one of those interstices of being in which the Epicurean gods reside ?
 The I would thereby lose the confirmation which as life from ...and enjoyment of... it receives in the element which nourishes it, without receiving this confirmation from elsewhere.
 Or would the distance with regard to enjoyment, rather than signifying the cold void of the interstices of being, be lived positively as a dimension of interiority beginning with the intimate familiarity into which life is immersed?
-The familiarity of the world does not only result from habits acquired in this world, which take from it its roughnesses and measure the adaptation of the living being to a world it enjoys and from which it nourishes itself; familiarity and intimacy are produced as a gentleness that spreads over the face of things.
+The familiarity of the world does not only result from habits acquired in this world, which take from it its roughnesses and measure the adaptation of the living being to a world it enjoys and from which it nourishes itself; 
+familiarity and intimacy are produced as a gentleness that spreads over the face of things.
 This gentleness is not only a conformity of nature with the needs of the separated being, which from the first enjoys them and constitutes itself as separate, as I, in that enjoyment, but is a gentleness coming from an affection [amitie] for that I.
 The intimacy which familiarity already presupposes is an intimacy with someone.
 The interiority of recollection is a solitude in a world already human.
@@ -2440,7 +2466,8 @@ And this is a new and irreducible possibility, a delightful lapse in being, and 
 Familiarity is an accomplishment, an en-ergy of separation.
 With it separation is constituted as dwelling and inhabitation.
 To exist henceforth means to dwell.
-To dwell is not the simple fact of the anonymous reality of a being cast into existence as a stone one casts behind oneself; it is a recollection, a coming to oneself, a retreat home with oneself as in a land of refuge, which answers to a hospitality, an expectancy, a human welcome.
+To dwell is not the simple fact of the anonymous reality of a being cast into existence as a stone one casts behind oneself;
+ it is a recollection, a coming to oneself, a retreat home with oneself as in a land of refuge, which answers to a hospitality, an expectancy, a human welcome.
 In human welcome the language that keeps silence remains an essential possibility.
 Those silent comings and goings of the feminine being whose footsteps reverberate the secret depths of being are not the turbid mystery of the animal and feline presence whose strange ambiguity Baudelaire likes to evoke.
 The separation that is concretized through the intimacy of the dwelling outlines new relations with the elements.
@@ -2480,11 +2507,14 @@ The feminine has been encountered in this analysis as one of the cardinal points
 The access to the world is produced in a movement that starts from the utopia of the dwelling and traverses a space to effect a primordial grasp, to seize and to take away.
 The uncertain future of the element is suspended.
 The element is fixed between the four walls of the home, is calmed in possession.
-It appears there as a thing, which can, perhaps, be defined by tranquillity—as in a "still life."
+It appears there as a thing, which can, perhaps, be defined by tranquillity—
+as in a "still life."
 This grasp operated on the elemental is labor.
 The possession of things proceeding from the home, produced by labor, is to be distinguished from the immediate relation with the non-I in enjoyment, the possession without acquisition enjoyed by the sensibility steeped in the element, which "possesses" without taking.
-In enjoyment the I assumes nothing; from the first it lives from....
-Possession by enjoyment is one with enjoyment; no activity precedes sensibility.
+In enjoyment the I assumes nothing; 
+from the first it lives from....
+Possession by enjoyment is one with enjoyment; 
+no activity precedes sensibility.
 But to possess by enjoying is also to be possessed and to be delivered to the fathomless depth, the disquieting future of the element.
 Possession proceeding from the dwelling is to be distinguished from the content possessed and the enjoyment of that content.
 In the element, which exalts but also transports the enjoying I, labor in its possessive grasp suspends the independence of the element: its being.
@@ -2505,7 +2535,8 @@ It would be impossible in a being that had no dwelling.
 The hand accomplishes its proper function prior to every execution of a plan, every projection of a project, every finality that would lead out of being at home with oneself.
 The hand’s rigorously economic movement of seizure and acquisition is dissimulated by the traces, "wastes," and "works" this movement of acquisition, returning to the interiority of the home, leaves in its wake.
 These works, as city, field, garden, landscape, recommence their elemental existence.
-Labor in its primary intention is this acquisition, this movement toward oneself; it is not a transcendence.
+Labor in its primary intention is this acquisition, this movement toward oneself; 
+it is not a transcendence.
 Labor conforms with the elements from which it draws the things.
 It grasps matter as raw material.
 In this primordial grasp matter at the same time announces its anonymity and renounces it.
@@ -2520,14 +2551,17 @@ This fathomless obscurity of matter is presented to labor as resistance and not 
 Not as an idea of resistance, not as a resistance announced in an idea, or, as a face, announcing itself to be absolute—but already in contact with the hand that breaks it, and virtually overcome.
 The laborer will subjugate it; it does not oppose frontally, but as already abdicating to the hand which seeks its vulnerable point, which, already ruse and industry, reaches for it obliquely.
 Labor grapples with the fallacious resistance of nameless matter, the infinity of its nothingness.
-Thus in the last analysis labor cannot be called violence: it is applied to what is faceless, to the resistance of nothingness.
+Thus in the last analysis labor cannot be called violence: 
+it is applied to what is faceless, to the resistance of nothingness.
 It acts in the phenomenon.
 It attacks only the facelessness of the pagan gods whose nothingness is henceforth exposed.
 Prometheus stealing the fire of the heavens symbolizes industrious labor in its impiety.
 Labor masters or suspends sine die the indeterminate future of the element.
-By taking hold of things, by treating being as a furnishing, transportable into a home, it disposes of the unforeseeable future in which being’s ascendancy over us was portended; it reserves this future for itself.
+By taking hold of things, by treating being as a furnishing, transportable into a home, it disposes of the unforeseeable future in which being’s ascendancy over us was portended; 
+it reserves this future for itself.
 Possession removes being from change.
-In essence durable, it does not only endure as a state of mind; it affirms its power over time, over what belongs to nobody—over the future.
+In essence durable, it does not only endure as a state of mind; 
+it affirms its power over time, over what belongs to nobody—over the future.
 Possession posits the product of labor as what remains permanent in time, a substance.
 Things present themselves as solids with contours clearly delimited.
 Along with tables, chairs, envelopes, notebooks, pens—fabricated things —stones, grains of salt, clumps of earth, icecles, apples are things.
@@ -2542,7 +2576,8 @@ This proportion subjects it to the hand, and not only to enjoyment.
 The hand both brings the elemental qualities to enjoyment, and takes and keeps them for future enjoyment.
 The hand delineates a world by drawing what it grasps from the element, delineating definite beings having forms, that is, solids; the informing of the formless is solidification, emergence of the graspable, the existent, support of qualities.
 Substantiality thus does not reside in the sensible nature of things, since sensibility coincides with enjoyment enjoying an "adjective" without substantive, a pure quality, a quality without support.
-Abstraction, which would promote the sensible to a concept, would not confer upon it the substantiality the sensible content lacks—unless we stress, not the content of the concept, but the latent birth of the concept in the primordial hold effected by labor.
+Abstraction, which would promote the sensible to a concept, would not confer upon it the substantiality the sensible content lacks—
+unless we stress, not the content of the concept, but the latent birth of the concept in the primordial hold effected by labor.
 The intelligibility of the concept would then designate its reference to the seizure by labor by which possession is produced.
 The substantiality of a thing lies in its solidity, offering itself to the hand which takes and takes away.
 The hand is thus not only the point at which we communicate a certain quantity of force to matter.
@@ -2554,7 +2589,8 @@ To some extent things are the non-edible, the tool, the object of everyday use, 
 The hand comprehends the thing not because it touches it on all sides at the same time (it does not touch it throughout), but because it is no longer a sense-organ, pure enjoyment, pure sensibility, but is mastery, domination, disposition—which do not belong to the order of sensibility.
 An organ for taking, for acquisition, it gathers the fruit but holds it far from the lips, keeps it, puts it in reserve, possesses it in a home.
 The dwelling conditions labor.
-The hand that acquires is burdened by what it takes; it does not found possession by itself.
+The hand that acquires is burdened by what it takes; 
+it does not found possession by itself.
 Moreover the very project of acquisition presupposes the recollection of the dwelling.
 Boutroux says somewhere that possession prolongs our body.
 But the body as naked body is not the first possession ; it is still outside of having and not having.
@@ -2563,7 +2599,8 @@ The body is my possession according as my being maintains itself in a home at th
 The extraterritoriality of a home conditions the very possession of my body.
 Substance refers to the dwelling, that is, in the etymological sense of the term, to economy.
 Possession grasps being in the object, but it grasps it, that is, forthwith contests it.
-In placing it in my home as a possession it confers upon it a being of pure appearance, a phenomenal being; the thing that is mine or another’s is not in itself.
+In placing it in my home as a possession it confers upon it a being of pure appearance, a phenomenal being; 
+the thing that is mine or another’s is not in itself.
 Possession alone touches substance; the other relations with the thing only affect attributes.
 The function of being implement, as the value the things bear, imposes itself to spontaneous consciousness not as substance, but as one of the attributes of these beings.
 The access to values, usage, manipulation and manufacture rest on possession, on the hand that takes, that acquires, that brings back home.
@@ -2598,7 +2635,8 @@ No assumption marks the primary relation of enjoyment, which is neither suppress
 But what is distinctive about the sovereignty of the I that vibrates in enjoyment is that it is steeped in a medium and consequently undergoes influences.
 The originality of influence lies in that the autonomous being of enjoyment can be discovered, in this very enjoyment to which it cleaves, to be determined by what it is not, but without enjoyment being broken up, without violence being produced.
 It appears as the product of the medium in which, however, it bathes, self-sufficient.
-Autochthony is at the same time an attribute of sovereignty and of submission; they are simultaneous.
+Autochthony is at the same time an attribute of sovereignty and of submission; 
+they are simultaneous.
 What has influence over life seeps into it like a sweet poison.
 It is alienated, but even in suffering the alienation comes to it from within.
 This ever possible inversion of life cannot be stated in terms of limited or finite freedom.
@@ -2608,8 +2646,9 @@ The sovereignty of enjoyment nourishes its independence with a dependence on the
 The sovereignty of enjoyment runs the risk of a betrayal: the alterity from which it lives already expels it from paradise.
 Life is a body, not only lived body [corps propre], where its self-sufficiency emerges, but a cross-roads of physical forces, body-effect.
 In its deep-seated fear life attests this ever possible inversion of the bodymaster into body-slave, of health into sickness.
-To be a body is on the one hand to stand [se tenir~\, to be master of oneself, and, on the other hand, to stand on the earth, to be in the other, and thus to be encumbered by one’s body.
-But—we repeat—this encumberment is not produced as a pure dependence; it forms the happiness of him who enjoys it.
+To be a body is on the one hand to stand [se tenir], to be master of oneself, and, on the other hand, to stand on the earth, to be in the other, and thus to be encumbered by one’s body.
+But—we repeat—this encumberment is not produced as a pure dependence; 
+it forms the happiness of him who enjoys it.
 What is necessary to my existence in order to subsist interests my existence.
 I pass from this dependence to this joyous independence, and in my very suffering I derive my existence from within.
 To be at home with oneself in something other than oneself, to be oneself while living from something other than oneself, to live from ..., is concretized in corporeal existence.
@@ -2638,7 +2677,8 @@ Labor comes from a being that is a thing among things and in contact with things
 Consciousness does not fall into a body— is not incarnated; it is a disincarnation—or, more exactly, a postponing of the corporeity of the body.
 This is not produced in the ether of abstraction but as all the concreteness of dwelling and labor.
 To be conscious is to be in relation with what is, but as though the present of what is were not yet entirely accomplished and only constituted the future of a recollected being.
-To be conscious is precisely to have time—not to exceed the present time in the project that anticipates the future, but to have a distance with regard to the present itself, to be related to the element in which one is settled as to what is not yet there.
+To be conscious is precisely to have time—
+not to exceed the present time in the project that anticipates the future, but to have a distance with regard to the present itself, to be related to the element in which one is settled as to what is not yet there.
 All the freedom of inhabitation depends on the time that, for the inhabitant, still always remains.
 The incommensurable, that is, the incomprehensible format of the surrounding medium leaves time.
 The distance with regard to the element to which the I is given over menaces it in its dwelling only in the future.
@@ -2662,9 +2702,7 @@ But the movement of the body that releases the machine’s action, the hand that
 For in the movement of the hand it is always to some measure a matter of seeking and catching hold of the goal, with all the contingencies this involves.
 This distance hollowed out and traversed by the body toward the machine or the mechanism it sets into motion may be greater or less; its margin can be much restricted in habitual gestures.
 But even when the gesture is habitual, skill and practice are needed to guide the habit.
-In other words, the action of the body, which after the event will be statable in terms of causality, unfolds at the time under the dominion of a cause which is, in the true sense of the term, final.
-The intermediaries that will enable this distance to be filled in, so as to release one another automatically, are not yet found.
-The hand ventures forth and catches hold of its goal with an inevitable share of chance or of mischance, since it can miss its try.
+In other words, the action of the body, which after the event will be statable in terms of causality, unfolds at the time under the dominion of a cause which is, in the true sense of the term, final. The intermediaries that will enable this distance to be filled in, so as to release one another automatically, are not yet found. The hand ventures forth and catches hold of its goal with an inevitable share of chance or of mischance, since it can miss its try.
 The hand is by essence groping and emprise.
 Groping is not a technically imperfect action, but the condition for all technique.
 The end is not caught sight of as an end in a disincarnate aspiration, whose destiny it would fix as the cause fixes the destiny of the effect.
@@ -2676,8 +2714,7 @@ Groping, the work of the hand par excellence, and the work adequate to the apeir
 It is said that if the attraction that an end exercises is not entirely reducible to a continuous series of shocks, a continuous propulsion, this is because the idea of the end governs the release of these shocks.
 But this idea of the end would be an epiphenomenon were it not manifested in the way the first shock is given: a thrust in the void, at random.
 In reality the "representation" of the end and the movement of the hand that plunges toward it through an unexplored distance, preceded by no searchlight, constitute but one and the same event, and define a being that, while being in the midst of a world in which it is implanted, yet comes to this world from the hither side of this world, from a dimension of inferiority—a being that inhabits the world, that is, that is at home with itself in it.
-Groping reveals the position of the body which at the same time is integrated into being and remains in its interstices, always invited to traverse a distance at random, and maintains itself in this position all by itself.
-Such is the position of a separated being.
+Groping reveals the position of the body which at the same time is integrated into being and remains in its interstices, always invited to traverse a distance at random, and maintains itself in this position all by itself. Such is the position of a separated being.
 6. The Freedom of Representation and Gift 
 To be separated is to dwell somewhere; separation is produced positively in localization.
 The body does not happen as an accident to the soul.
@@ -4966,4 +5003,3 @@ Situated at the antipodes of the subject living in the infinite time of fecundit
 Such a being confronts death out of pure courage and whatever be the cause for which he dies.
 He assumes finite time, the death-end or the death-transition, which do not arrest the continuation of a being without discontinuity.
 The heroic existence, the isolated soul, can gain its salvation in seeking an eternal life for itself, as though its subjectivity, returning to itself in a continuous time, could not be turned against it—as though in this continuous time identity itself would not be affirmed obsessively, as though in the identity that remains in the midst of the most extravagant avatars "tedium, fruit of the mournful incuriosity that takes on the proportions of immortality" did not triumph .
-
