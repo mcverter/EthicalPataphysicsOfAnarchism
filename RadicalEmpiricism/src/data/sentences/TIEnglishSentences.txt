@@ -3177,9 +3177,11 @@ Speech cuts across vision.
 In knowledge or vision the object seen can indeed determine an act, but it is an act that in some way appropriates the "seen" to itself, integrates it into a world by endowing it with a signification, and, in the last analysis, constitutes it.
 In discourse the divergence that inevitably opens between the Other as my theme and the Other as my interlocutor, emancipated from the theme that seemed a moment to hold him, forthwith contests the meaning I ascribe to my interlocutor.
 The formal structure of language thereby announces the ethical inviolability of the Other and, without any odor of the "numinous," his "holiness."
- The fact that the face maintains a relation with me by discourse does not range him in the same; he remains absolute within the relation.
+The fact that the face maintains a relation with me by discourse does not range him in the same; 
+he remains absolute within the relation.
 The solipsist dialectic of consciousness always suspicious of being in captivity in the same breaks off.
-For the ethical relationship which subtends discourse is not a species of consciousness whose ray emanates from the I; it puts the I in question.
+For the ethical relationship which subtends discourse is not a species of consciousness whose ray emanates from the I;
+it puts the I in question.
 This putting in question emanates from the other.
 The presence of a being not entering into, but overflowing, the sphere of the same determines its "status" as infinite.
 This overflowing is to be distinguished from the image of liquid overflowing a vessel, because this overflowing presence is effectuated as a position in face of the same.
@@ -3190,9 +3192,11 @@ And the idea of infinity alone maintains the exteriority of the other with respe
 Thus a structure analogous to the ontological argument is here produced: the exteriority of a being is inscribed in its essence.
 But what is produced here is not a reasoning, but the epiphany that occurs as a face.
 The metaphysical desire for the absolutely other which animates intellectualism (or the radical empiricism that confides in the teaching of exteriority) deploys its en-ergy in the vision of the face [vision du visage], or in the idea of infinity.
-The idea of infinity exceeds my powers (not quantitatively, but, we will see later, by calling them into question); it does not come from our a priori depths—it is consequently experience par excellence.
+The idea of infinity exceeds my powers (not quantitatively, but, we will see later, by calling them into question); 
+it does not come from our a priori depths—it is consequently experience par excellence.
 The Kantian notion of infinity figures as an ideal of reason, the projection of its exigencies in a beyond, the ideal completion of what is given incomplete—but without the incomplete being confronted with a privileged experience of infinity, without it drawing the limits of its finitude from such a confrontation.
-The finite is here no longer conceived by relation to the infinite; quite the contrary, the infinite presupposes the finite, which it amplifies infinitely (although this passage to the limit or this projection implicates in an unacknowledged form the idea of infinity, with all the consequences Descartes drew from it, and which are presupposed in this idea of projection).
+The finite is here no longer conceived by relation to the infinite; 
+quite the contrary, the infinite presupposes the finite, which it amplifies infinitely (although this passage to the limit or this projection implicates in an unacknowledged form the idea of infinity, with all the consequences Descartes drew from it, and which are presupposed in this idea of projection).
 The Kantian finitude is described positively by sensibility, as the Heideggerian finitude by the being for death.
 This infinity referring to the finite marks the most anti-Cartesian point of Kantian philosophy as, later, of Heideggerian philosophy.
 Hegel returns to Descartes in maintaining the positivity of the infinite, but excluding all multiplicity from it; he posits the infinite as the exclusion of every "other" that might maintain a relation with the infinite and thereby limit it.
@@ -3202,10 +3206,12 @@ The relation of a particular with infinity would be equivalent to the entry of t
 It becomes infinite in negating its own finitude.
 But this outcome does not succeed in smothering the protestation of the private individual, the apology of the separated being (though it be called empirical and animal), of the individual who experiences as a tyranny the State willed by his reason, but in whose impersonal destiny he no longer recognizes his reason.
 We recognize in the finitude to which the Hegelian infinite is opposed, and which it encompasses, the finitude of man before the elements, the finitude of man invaded by the there is, at each instant traversed by faceless gods against whom labor is pursued in order to realize the security in which the "other" of the elements would be revealed as the same.
-But the other absolutely other —the Other—does not limit the freedom of the same; calling it to responsibility, it founds it and justifies it.
+But the other absolutely other —the Other—does not limit the freedom of the same; 
+calling it to responsibility, it founds it and justifies it.
 The relation with the other as face heals allergy.
 It is desire, teaching received, and the pacific opposition of discourse.
-In returning to the Cartesian notion of infinity, the "idea of infinity" put in the separated being by the infinite, we retain its positivity, its anteriority to every finite thought and every thought of the finite, its exteriority with regard to the finite; here there was the possibility of separated being.
+In returning to the Cartesian notion of infinity, the "idea of infinity" put in the separated being by the infinite, we retain its positivity, its anteriority to every finite thought and every thought of the finite, its exteriority with regard to the finite; 
+here there was the possibility of separated being.
 The idea of infinity, the overflowing of finite thought by its content, effectuates the relation of thought with what exceeds its capacity, with what at each moment it learns without suffering shock.
 This is the situation we call welcome of the face.
 The idea of infinity is produced in the opposition of conversation, in sociality.
@@ -3249,7 +3255,7 @@ In the contexture of the world he is a quasi-nothing.
 But he can oppose to me a struggle, that is, oppose to the force that strikes him not a force of resistance, but the very unforeseeableness of his reaction.
 He thus opposes to me not a greater force, an energy assessable and consequently presenting itself as though it were part of a whole, but the very transcendence of his being by relation to that whole; not some superlative of power, but precisely the infinity of his transcendence.
 This infinity, stronger than murder, already resists us in his face, is his face, is the primordial expression, is the first word: "you shall not commit murder."
- The infinite paralyses power by its infinite resistance to murder, which, firm and insurmountable, gleams in the face of the Other, in the total nudity of his defenceless eyes, in the nudity of the absolute openness of the Transcendent.
+The infinite paralyses power by its infinite resistance to murder, which, firm and insurmountable, gleams in the face of the Other, in the total nudity of his defenceless eyes, in the nudity of the absolute openness of the Transcendent.
 There is here a relation not with a very great resistance, but with something absolutely other: the resistance of what has no resistance—the ethical resistance.
 The epiphany of the face brings forth the possibility of gauging the infinity of the temptation to murder, not only as a temptation to total destruction, but also as the purely ethical impossibility of this temptation and attempt.
 If the resistance to murder were not ethical but real, we would have a perception of it, with all that reverts to the subjective in perception.
@@ -3263,7 +3269,8 @@ Infinity presents itself as a face in the ethical resistance that paralyses my p
 The comprehension of this destitution and this hunger establishes the very proximity of the other.
 But thus the epiphany of infinity is expression and discourse.
 The primordial essence of expression and discourse does not reside in the information they would supply concerning an interior and hidden world.
-In expression a being presents itself; the being that manifests itself attends its manifestation and consequently appeals to me.
+In expression a being presents itself; 
+the being that manifests itself attends its manifestation and consequently appeals to me.
 This attendance is not the neutrality [le neutre] of an image, but a solicitation that concerns me by its destitution and its Height.
 To speak to me is at each moment to surmount what is necessarily plastic in manifestation.
 To manifest oneself as a face is to impose onself above and beyond the manifested and purely phenomenal form, to present oneself in a mode irreducible to manifestation, the very straightforwardness of the face to face, without the intermediary of any image, in one’s nudity, that is, in one’s destitution and hunger.
@@ -3275,8 +3282,7 @@ The being offered in true representation remains a possibility of appearance.
 The world which invades me when I engage myself in it is powerless against the "free thought" that suspends that engagement, or even refuses it interiorly, being capable of living hidden.
 The being that expresses itself imposes itself, but does so precisely by appealing to me with its destitution and nudity—its hunger—without my being able to be deaf to that appeal.
 Thus in expression the being that imposes itself does not limit but promotes my freedom, by arousing my goodness.
-The order of responsibility, where the gravity of ineluctable being freezes all laughter, is also the order where freedom is ineluctably invoked.
-It is thus the irremissible weight of being that gives rise to my freedom.
+The order of responsibility, where the gravity of ineluctable being freezes all laughter, is also the order where freedom is ineluctably invoked. It is thus the irremissible weight of being that gives rise to my freedom.
 The ineluctable has no longer the inhumanity of the fateful, but the severe seriousness of goodness.
 This bond between expression and responsibility, this ethical condition or essence of language, this function of language prior to all disclosure of being and its cold splendor, permits us to extract language from subjection to a preexistent thought, where it would have but the servile function of translating that preexistent thought on the outside, or of universalizing its interior movements.
 The presentation of the face is not true, for the true refers to the non-true, its eternal contemporary, and ineluctably meets with the smile and silence of the skeptic.
@@ -3330,8 +3336,7 @@ But this "action" upon my freedom precisely puts an end to violence and continge
 To affirm that the passage of a content from one mind to the other is produced without violence only if the truth taught by the master is from all eternity in the student is to extrapolate maieutics beyond its legitimate usage.
 The idea of infinity in me, implying a content overflowing the container, breaks with the prejudice of maieutics without breaking with rationalism, since the idea of infinity, far from violating the mind, conditions nonviolence itself, that is, establishes ethics.
 The other is not for reason a scandal that puts it in dialectical movement, but the first teaching.
-A being receiving!
-the idea of Infinity, receiving since it cannot derive it from itself, is a being taught in a non-maieutic fashion, a being whose very existing consists in this incessant reception of teaching, in this incessant overflowing of self (which is time).
+A being receiving the idea of Infinity, receiving since it cannot derive it from itself, is a being taught in a non-maieutic fashion, a being whose very existing consists in this incessant reception of teaching, in this incessant overflowing of self (which is time).
 To think is to have the idea of infinity, or to be taught.
 Rational thought refers to this teaching.
 Even if we confine ourselves to the formal structure of logical thought, which starts from a definition, infinity, relative to which concepts are delimited, can not be defined in its turn.
@@ -3341,8 +3346,7 @@ The face is the evidence that makes evidence possible—like the divine veracity
 4. Discourse Founds Signification 
 Language thus conditions the functioning of rational thought: it gives it a commencement in being, a primary identity of signification in the face of him who speaks, that is, who presents himself by ceaselessly undoing the equivocation of his own image, his verbal signs.
 Language conditions thought—not language in its physical materiality, but language as an attitude of the same with regard to the Other irreducible to the representation of the Other, irreducible to an intention of thought, irreducible to a consciousness of... , since relating to what no consciousness can contain, relating to the infinity of the Other.
-Language is not enacted within a consciousness; it comes to me from the Other and reverberates in consciousness by putting it in question.
-This event is irreducible to consciousness, where everything comes about from within—even the strangeness of suffering.
+Language is not enacted within a consciousness; it comes to me from the Other and reverberates in consciousness by putting it in question.  This event is irreducible to consciousness, where everything comes about from within—even the strangeness of suffering.
 To regard language as an attitude of the mind does not amount to disincarnating it, but is precisely to account for its incarnate essence, its difference from the constitutive, egological nature of the transcendental thought of idealism.
 The originality of discourse with respect to constitutive intentionality, to pure consciousness, destroys the concept of immanence: the idea of infinity in consciousness is an overflowing of a consciousness whose incarnation offers new powers to a soul no long paralytic—powers of welcome, of gift, of full hands, of hospitality.
 But to take incarnation as a primary fact of language, without indicating the ontological structure it accomplishes, would be to assimilate language to activity, to that prolongation of thought in corporeity, the I think in the I can, which has indeed served as a prototype for the category of the lived body [corps propre] or incarnate thought, which dominates one part of contemporary philosophy.
@@ -3372,7 +3376,8 @@ Signification, though received from this incarnate language, nonetheless remains
 Does not the surplus of signification over representation consist in a new mode of being presented (new with respect to constitutive intentionality), whose secret the analysis of "body intentionality" does not exhaust?
 Does the mediation of the sign constitute the signification because it would introduce into an objective and static representation the "movement" of symbolic relation ?
 But then language would again be suspected of taking us away from "the thing themselves."
-...It is the contrary that must be affirmed; it is not the mediation of the sign that forms signification, but signification (whose primordial event is the face to face) that makes the sign function possible.
+It is the contrary that must be affirmed; 
+it is not the mediation of the sign that forms signification, but signification (whose primordial event is the face to face) that makes the sign function possible.
 The primordial essence of language is to be sought not in the corporeal operation that discloses it to me and to others and, in the recourse to language, builds up a thought, but in the presentation of meaning.
 This does not bring us back to a transcendental consciousness constituting objects, against which the theory of language we have just evoked protests with such just rigor.
 For significations do not present themselves to theory, that is, to the constitutive freedom of a transcendental consciousness; the being of signification consists in putting into question in an ethical relation constitutive freedom itself.
@@ -3403,7 +3408,8 @@ Retreating from these consequences, and in order to conform oneself more to the 
 In both cases the role of language would be to dissolve the ipseity of individual consciousness, fundamentally antagonistic to reason, either to transform it into an "I think" which no longer speaks, or to make it disappear into its own discourse, whereupon, having entered into the State, it could only undergo the judgment of history, rather than remain me, that is, judge that history.
 In such a rationalism there is no longer any society, that is, no longer any relation whose terms absolve themselves from the relation.
 The Hegelians may attribute to human animality the consciousness of tyranny the individual feels before impersonal law, but they have yet to make understandable how a rational animal is possible, how the particularity of oneself can be affected by the simple universality of an idea, how an egoism can abdicate ?
-If, on the contrary, reason lives in language, if the first rationality gleams forth in the opposition of the face to face, if the first intelligible, the first signification, is the infinity of the intelligence that presents itself (that is, speaks to me) in the face, if reason is defined by signification rather than signification being defined by the impersonal structures of reason, if society precedes the apparition of these impersonal structures, if universality reigns as the presence of humanity in the eyes that look at me, if, finally, we recall that this look appeals to my responsibility and consecrates my freedom as responsibility and gift of self—then the pluralism of society could not disappear in the elevation to reason, but would be its condition.
+If, on the contrary, reason lives in language, if the first rationality gleams forth in the opposition of the face to face, if the first intelligible, the first signification, is the infinity of the intelligence that presents itself (that is, speaks to me) in the face, if reason is defined by signification rather than signification being defined by the impersonal structures of reason, if society precedes the apparition of these impersonal structures, if universality reigns as the presence of humanity in the eyes that look at me, if, finally, we recall that this look appeals to my responsibility and consecrates my freedom as responsibility and gift of self—then the pluralism of society could not disappear in the elevation to reason, 
+but would be its condition.
 It is not the impersonal in me that Reason would establish, but an I myself capable of society, an I that has arisen in enjoyment as separated, but whose separation would itself be necessary for infinity to be—for its infinitude is accomplished as the "facing."
 5. Language and Objectivity 
 A meaningful world is a world in which there is the Other through whom the world of my enjoyment becomes a theme having a signification.
@@ -3444,15 +3450,17 @@ The Cartesian subject is given a point of view exterior to itself from which it 
 If, in a first movement, Descartes takes a consciousness to be indubitable of itself by itself, in a second movement—the reflection on reflection—he recognizes conditions for this certitude.
 This certitude is due to the clarity and distinctness of the cogito, but certitude itself is sought because of the presence of infinity in this finite thought, which without this presence would be ignorant of its own finitude: "...manifeste intelligo plus realitatis esse in substantia infinita quam in finita, ac proinde priorem quodammodo in me esse perceptionem infiniti quam finiti, hoc est Dei quam mei ipsius.
 Qua enim ratione intelligerem me dubitare me cupere, hoc est aliquid mihi deesse, et me non esse omnino perfectum si nulla idea entis perfectionis in me esset, ex cujus comparatione defectus meos cognoscerem?"
-75 Is the position of thought in the midst of the infinite that created it and has given it the idea of infinity discovered by a reasoning or an intuition that can posit only themes?
+Is the position of thought in the midst of the infinite that created it and has given it the idea of infinity discovered by a reasoning or an intuition that can posit only themes?
 The infinite can not be thematized, and the distinction between reasoning and intuition does not apply to the access to infinity.
 Is not the relation with infinity, in the twofold structure of infinity present to the finite, but present outside of the finite, foreign to theory?
 We have seen in it the ethical relation.
 If Husserl sees in the cogito a subjectivity without any support outside of itself, this cogito constitutes the idea of infinity itself and gives it to itself as an object.
-The non-constitution of infinity in Descartes leaves a door open; the reference of the finite cogito to the infinity of God does not consist in a simple thematization of God.
+The non-constitution of infinity in Descartes leaves a door open; 
+the reference of the finite cogito to the infinity of God does not consist in a simple thematization of God.
 I of myself account for every object; I contain them.
 The idea of infinity is not for me an object.
-The ontological argument lies in the mutation of this "object" into being, into independence with regard to me; God is the other.
+The ontological argument lies in the mutation of this "object" into being, into independence with regard to me; 
+God is the other.
 If to think consists in referring to an object, we must suppose that the thought of infinity is not a thought.
 What is it positively?
 Descartes does not raise the question.
@@ -3466,13 +3474,15 @@ To us this paragraph appears to be not a stylistic ornament or a prudent hommage
 6. The Other and the Others 
 The presentation of the face, expression, does not disclose an inward world previously closed, adding thus a new region to comprehend or to take over.
 On the contrary, it calls to me above and beyond the given that speech already puts in common among us.
-What one gives, what one takes reduces itself to the phenomenon, discovered and open to the grasp, carrying on an existence which is suspended in possession— whereas the presentation of the face puts me into relation with being.
+What one gives, what one takes reduces itself to the phenomenon, discovered and open to the grasp, carrying on an existence which is suspended in possession— 
+whereas the presentation of the face puts me into relation with being.
 The existing of this being, irreducible to phenomenality understood as a reality without reality, is effectuated in the non-postponable urgency with which he requires a response.
 This response differs from the "reaction" that the given gives rise to in that it cannot remain "between us," as is the case with the steps I take with regard to a thing.
 Everything that takes place here "between us" concerns everyone, the face that looks at it places itself in the full light of the public order, even if I draw back from it to seek with the interlocutor the complicity of a private relation and a clandestinity.
 Language as the presence of the face does not invite complicity with the preferred being, the self-sufficient "I-Thou" forgetful of the universe ; in its frankness it refuses the clandestinity of love, where it loses its frankness and meaning and turns into laughter or cooing.
 The third party looks at me in the eyes of the Other—language is justice.
-It is not that there first would be the face, and then the being it manifests or expresses would concern himself with justice; the epiphany of the face qua face opens humanity.
+It is not that there first would be the face, and then the being it manifests or expresses would concern himself with justice; 
+the epiphany of the face qua face opens humanity.
 The face in its nakedness as a face presents to me the destitution of the poor one and the stranger; but this poverty and exile which appeal to my powers, address me, do not deliver themselves over to these powers as givens, remain the expression of the face.
 The poor one, the stranger, presents himself as an equal.
 His equality within this essential poverty consists in referring to the third party, thus present at the encounter, whom in the midst of his destitution the Other already serves.
@@ -3493,22 +3503,21 @@ That all men are brothers is not explained by their resemblance, nor by a common
 Paternity is not reducible to a causality in which individuals would mysteriously participate, and which would determine, by no less mysterious an effect, a phenomenon of solidarity.
 It is my responsibility before a face looking at me as absolutely foreign (and the epiphany of the face coincides with these two moments) that constitutes the original fact of fraternity.
 Paternity is not a causality, but the establishment of a unicity with which the unicity of the father does and does not coincide.
-4 The non-coincidence consists, concretely, in my position as brother; it implies other unicities at my side.
-Thus my unicity qua I contains both self-sufficiency of being and my partialness, my position before the other as a face.
+The non-coincidence consists, concretely, in my position as brother; it implies other unicities at my side. Thus my unicity qua I contains both self-sufficiency of being and my partialness, my position before the other as a face.
 In this welcoming of the face (which is already my responsibility in his regard, and where accordingly he approaches me from a dimension of height and dominates me), equality is founded.
 Equality is produced where the other commands the same and reveals himself to the same in responsibility; otherwise it is but an abstract idea and a word.
 It cannot be detached from the welcoming of the face, of which it is a moment.
 The very status of the human implies fraternity and the idea of the human race.
 Fraternity is radically opposed to the conception of a humanity united by resemblance, a multiplicity of diverse families arisen from the stones cast behind by Deucalion, and which, across the struggle of egoisms, results in a human city.
-Human fraternity has then two aspects: it involves individualities whose logical status is not reducible to the status of ultimate differences in a genus, for their singularity consists in each referring to itself.
-(An individual having a common genus with another individual would not be removed enough from it.
-) On the other hand, it involves the commonness of a father, as though the commonness of race would not bring together enough.
+Human fraternity has then two aspects: it involves individualities whose logical status is not reducible to the status of ultimate differences in a genus, for their singularity consists in each referring to itself. (An individual having a common genus with another individual would not be removed enough from it.) 
+On the other hand, it involves the commonness of a father, as though the commonness of race would not bring together enough.
 Society must be a fraternal community to be commensurate with the straightforwardness, the primary proximity, in which the face presents itself to my welcome.
 Monotheism signifies this human kinship, this idea of a human race that refers back to the approach of the Other in the face, in a dimension of height, in responsibility for oneself and for the Other.
 7. The Asymmetry of the Interpersonal 
 The presence of the face coming from beyond the world, but committing me to human fraternity, does not overwhelm me as a numinous essence arousing fear and trembling.
 To be in relationship while absolving oneself from this relation is to speak.
-The Other does not only appear in his face, as a phenomenon subject to the action and domination of a freedom; infinitely distant from the very relation he enters, he presents himself there from the first as an absolute.
+The Other does not only appear in his face, as a phenomenon subject to the action and domination of a freedom; 
+infinitely distant from the very relation he enters, he presents himself there from the first as an absolute.
 The I disengages itself from the relationship, but does so within relationship with a being absolutely separated.
 The face with which the Other turns to me is not reabsorbed in a representation of the face.
 To hear his destitution which cries out for justice is not to represent an image to oneself, but is to posit oneself as responsible, both as more and as less than the being that presents itself in the face.
@@ -3518,7 +3527,7 @@ More, for my position as I consists in being able to respond to this essential d
 The Other who dominates me in his transcendence is thus the stranger, the widow, and the orphan, to whom I am obligated.
 These differences between the Other and me do not depend on different "properties" that would be inherent in the "I," on the one hand, and, on the other hand, in the Other, nor on different psychological dispositions which their minds would take on from the encounter.
 They are due to the I-Other conjuncture, to the inevitable orientation of being "starting from oneself" toward "the Other."
- The priority of this orientation over the terms that are placed in it (and which cannot arise without this orientation) summarizes the theses of the present work.
+The priority of this orientation over the terms that are placed in it (and which cannot arise without this orientation) summarizes the theses of the present work.
 Being is not first, to afterwards, by breaking up, give place to a diversity all of whose terms would maintain reciprocal relations among themselves, exhibiting thus the totality from which they proceed, and in which there would on occasion be produced a being existing for itself, an I, facing another I (incidents that could be accounted for by an impersonal discourse exterior to those incidents).
 Not even the language that narrates it can depart from the orientation of the I to the Other.
 Language does not take place in front of a correlation from which the I would derive its identity and the Other his alterity.
@@ -3587,7 +3596,8 @@ Separation opens up between terms that are absolute and yet in relation, that ab
 Thus the metaphysical relation realizes a multiple existing [un exister multiple]—a pluralism.
 But this relation would not realize pluralism if the formal structure of relationship exhausted the essence of relationship.
 We must explicate the power that beings placed in relation have of absolving themselves from the relation.
-This power entails a different sense of absolution for each of the separated terms; the Metaphysician is not absolute in the same sense as the Metaphysical.
+This power entails a different sense of absolution for each of the separated terms; 
+the Metaphysician is not absolute in the same sense as the Metaphysical.
 The dimension of height from which the Metaphysical comes to the Metaphysician indicates a sort of non-homogeneity of space, such that a radical multiplicity, distinct from numerical multiplicity, can here be produced.
 Numerical multiplicity remains defenseless against totalization.
 For a multiplicity to be able to be produced in the order of being, disclosure (where being does not only manifest itself, but effectuates itself, or exerts itself, or holds sway, or reigns) is not enough; it is not enough that its production radiate in the cold splendor of truth.
@@ -3630,11 +3640,13 @@ War like peace presupposes beings structured otherwise than as parts of a totali
 War therefore is to be distinguished from the logical opposition of the one and the other by which both are defined within a totality open to a panoramic view, to which they would owe their very opposition.
 In war beings refuse to belong to a totality, refuse community, refuse law; no frontier stops one being by another, nor defines them.
 They affirm themselves as transcending the totality, each identifying itself not by its place in the whole, but by its self.
-War presupposes the transcendence of the antagonist; it is waged against man.
+War presupposes the transcendence of the antagonist; 
+it is waged against man.
 It is surrounded with honors and pays the last honors; it aims at a presence that comes always from elsewhere, a being that appears in a face.
 It is neither the hunt nor struggle with an element.
 The possibility, retained by the adversary, of thwarting the best laid calculations expresses the separation, the breach of totality, across which the adversaries approach one another.
-The warrier runs a risk | no logistics guarantees victory.
+The warrior runs a risk. 
+no logistics guarantees victory.
 The calculations that make possible the determination of the outcome of a play of forces within a totality do not decide war.
 It lies at the limit of a supreme confidence in oneself and a supreme risk.
 It is a relation between beings exterior to totality, which hence are not in touch with one another.
@@ -3650,7 +3662,8 @@ Thus for relationship between separated beings to be possible, the multiple term
 The notion of finite freedom then imposes itself to reflection.
 But how is such a notion to be formed ?
 To say that a being is partially free immediately raises the problem of the relation existing in it between the free part, causa sui, and the non-free part.
-To say that the free part is impeded in the non-free part would bring us back indefinitely to the same difficulty: how can the free part, causa sui, undergo anything whatever from the non-free part?
+To say that the free part is impeded in the non-free part would bring us back indefinitely to the same difficulty: 
+how can the free part, causa sui, undergo anything whatever from the non-free part?
 The finitude of freedom must therefore not signify some limit within the substance of the free being, divided into one part endowed with a causality of its own and one part subject to exterior causes.
 The notion of independence must be grasped elsewhere than in causality.
 Independence would not be equivalent to the idea of causa sui, which, moreover, is belied by birth, non-chosen and impossible to choose (the great drama of contemporary thought), which situates the will in an anarchic world, that is, a world without origin.
@@ -3674,7 +3687,8 @@ The adversary’s skill, which cannot be summed up in forces, has to be taken in
 My skill postpones the inevitable.
 To hit, the blow must be struck there where the adversary has absented himself; to be parried, I have to pull back from the point at which he touches me.
 Ruse and ambush—Ulysses’ craft—constitute the essence of war.
-This skill is inscribed in the very existence of the body; it is suppleness—a simultaneity of absence and presence.
+This skill is inscribed in the very existence of the body; 
+it is suppleness—a simultaneity of absence and presence.
 Corporeity is the mode of existence of a being whose presence is postponed at the very moment of his presence.
 Such a distension in the tension of the instant can only come from an infinite dimension which separates me from the other, both present and still to come, a dimension opened by the face of die Other.
 War can be produced only when a being postponing its death is exposed to violence.
@@ -3715,7 +3729,8 @@ The labor which brings being into our possession ipso facto relinquishes it, is 
 Every will separates itself from its work.
 The movement proper to action consists in issuing in the unknown—in not being able to measure all its consequences.
 The unknown does not result from a factual ignorance; the unknown upon which action issues resists all knowledge, does not stand out in the light, since it represents the meaning the work receives from the other.
-The other can dispossess me of my work, take it or buy it, and thus direct my very behavior; I am exposed to instigation.
+The other can dispossess me of my work, take it or buy it, and thus direct my very behavior; 
+I am exposed to instigation.
 The work is destined to this alien Sinngebung from the moment of its origin in me.
 It is to be emphasized that this destination of the work to a history that I cannot foresee—for I cannot see it—is inscribed in the very essence of my power, and does not result from the contingent presence of other persons alongside of me.
 Power is not entirely one with its own impetus, does not accompany its work up to the end.
@@ -3728,13 +3743,15 @@ The work does not defend itself against the Other’s Sinngebung, and exposes th
 The willing of the living will postpones this subjection, and accordingly wills against the Other and his threat.
 But this way a will plays in history a role it has not willed marks the limits of interiority: the will finds itself caught up in events that will appear only to the historian.
 Historical events link up in works.
-Wills without works will constitute no history; there is no purely interior history.
+Wills without works will constitute no history; 
+there is no purely interior history.
 History, in which the interiority of each will manifests itself only in plastic form—in the muteness of products—is an economic history.
 In history the will is congealed into a personage interpreted on the basis of his work, in which the essential of the will productive of things, dependent on things, but struggling against this dependence which delivers it to the Other, is obscured.
 As long as the will, in a being who speaks, takes up again and defends his work against a foreign will, history lacks the distance it lives from.
 Its reign commences in the world of realities-results, the world of "complete works," the heritage of dead wills.
 The whole being of willing is hence not enacted within oneself.
-The capacity of the independent I does not contain its own being; willing escapes willing.
+The capacity of the independent I does not contain its own being; 
+willing escapes willing.
 The work is always in a certain sense an abortive action.
 I am not entirely what I want to do.
 Thus there lies open an unlimited field of investigation for psychoanalysis or sociology, which apprehend the will on the basis of its apparition in the work, in its behavior, or in its products.
@@ -3766,7 +3783,8 @@ The body in its very activity, in its for itself, inverts into a thing to be tre
 This is what we express concretely in saying that it abides between health and sickness.
 Through it one not only fails to recognize, one can mistreat the "for itself" of the person; one does not only offend him, one coerces him.
 "I am anything you like," says Sganarelle, under the blows.
-One does not adopt successively and independently the biological point of view on it and the "point of view" which from the interior maintains it as a lived body; the originality of the body consists of the coinciding of two points of view.
+One does not adopt successively and independently the biological point of view on it and the "point of view" which from the interior maintains it as a lived body; 
+the originality of the body consists of the coinciding of two points of view.
 This is the paradox and the essence of time itself proceeding unto death, where the will is affected as a thing by the things —by the point of steel or by the chemistry of the tissues (due to a murderer or to the impotency of the doctors)—but gives itself a reprieve and postpones the contact by the against-death of postponement.
 The will essentially violable harbors treason in its own essence.
 It is not only offendable in its dignity—which would confirm its inviolable character —but is susceptible of being coerced and enslaved as a will, becoming a servile soul.
@@ -3778,7 +3796,8 @@ The body, where expression can dawn forth and where the egoism of the will becom
 An interaction of wills or a history then becomes possible—an interaction of wills each defined as causa sui, since action upon a pure activity would presuppose a passivity in that activity.
 The ambiguity of the ontological regime of the body is founded in mortality, which we shall treat of below.
 But is not total independence of the will realized in courage?
-Courage, the power to face death, at first sight does seem to carry out the total independence of the will; he who has accepted his death remains exposed to the violence of the assassin, but does he not refuse his consent to a foreign will to the end?
+Courage, the power to face death, at first sight does seem to carry out the total independence of the will; 
+he who has accepted his death remains exposed to the violence of the assassin, but does he not refuse his consent to a foreign will to the end?
 Unless the Other wills that very death.
 Then, while refusing consent, the will gives satisfaction to the foreign will in spite of itself, by the result of its behavior, precisely by its work.
 In the extreme situation of the struggle unto death the refusal to acquiese to a foreign will can revert into satisfaction given to this hostile will.
@@ -3814,8 +3833,7 @@ I speak a word that, in the measure that it welcomes the Other as Other, offers 
 Thus we see expression, the other extremity of the voluntary power that is separated from its work and betrayed by it, nonetheless referring to the inexpressive work by which the will, free with regard to history, partakes of history.
 The will, in which the identity of the same holds sway in its fidelity to itself and in its betrayal, does not result from the empirical accident that would have placed a being in the midst of a multiplicity of beings which contest its identity.
 The will contains this duality of betrayal and fidelity in its mortality, which is produced or holds sway in its corporeity.
-A being in which multiplicity does not designate the simple divisibility of a whole into parts nor the simple unity of number of the gods living each for itself in the interstices between beings requires mortality and corporeity.
-For otherwise either the imperialist will would reconstitute a whole, or, as a physical body, neither mortal nor immortal, it would form a simple block.
+A being in which multiplicity does not designate the simple divisibility of a whole into parts nor the simple unity of number of the gods living each for itself in the interstices between beings requires mortality and corporeity. For otherwise either the imperialist will would reconstitute a whole, or, as a physical body, neither mortal nor immortal, it would form a simple block.
 The postponement of death in a mortal will—time—is the mode of existence and reality of a separated being that has entered into relation with the Other.
 This space of time has to be taken as the point of departure.
 In it is enacted a meaningful life which one must not measure against an ideal of eternity, taking its duration and its interests to be absurd or illusory.
@@ -3905,7 +3923,8 @@ The being thus defined has its time at its disposal precisely because it postpon
 The Desire into which the threatened will dissolves no longer defends the powers of a will, but, as the goodness whose meaning death cannot efface, has its center outside of itself.
 We shall have to show this in the course of bringing to light the other chance that the will seizes upon in the time left it by its being against death: the founding of institutions in which the will ensures a meaningful, but impersonal world beyond death.
 4. Time and the Will: Patience 
-In affirming that the human will is not heroic we have not declared for human cowardice, but have indicated the precarity of courage, always on the verge of its own failure by reason of the essential mortality of the will, which in its exercise betrays itself.
+In affirming that the human will is not heroic we have not declared for human cowardice, but have indicated the precarity of courage, always on the verge of its own failure 
+by reason of the essential mortality of the will, which in its exercise betrays itself.
 But in this very failing we have caught sight of the marvel of time, as futurition and postponement of this expiration.
 The will combines a contradiction: an immunity from every exterior attack to the point of positing itself as uncreated and immortal, endowed with a force above every quantifiable force (nothing less is attested by the self-consciousness in which the inviolable being takes refuge: "Not for eternity will I waver")—and the permanent fallibility of this inviolable sovereignty, to the point that voluntary being lends itself to techniques of seduction, propaganda, and torture.
 The will can succumb to tyrannical pressure and corruption, as though only the quantity of energy it puts forth to resist or the quantity of energy exerted upon it distinguished cowardice from courage.
@@ -3919,7 +3938,8 @@ This inversion is more radical than sin, for it threatens the will in its very s
 But at the same time this inversion is infinitely less radical, for it only threatens, is indefinitely postponed, is consciousness.
 Consciousness is resistance to violence, because it leaves the time necessary to forestall it.
 Human freedom resides in the future, always still minimally future, of its nonfreedom, in consciousness—the prevision of the violence imminent in the time that still remains.
-To be conscious is to have time—not to overflow the present by anticipating and hastening the future, but to have a distance with regard to the present: to relate oneself to being as to a being to come, to maintain a distance with regard to being even while already coming under its grip.
+To be conscious is to have time—
+not to overflow the present by anticipating and hastening the future, but to have a distance with regard to the present: to relate oneself to being as to a being to come, to maintain a distance with regard to being even while already coming under its grip.
 To be free is to have time to forestall one’s own abdication under the threat of violence.
 By virtue of time, the being defined, that is, self-identical, by reason of its place within the whole, the natural being (for birth describes precisely the entry into the whole that preexists and outlives), has not yet reached its term, remains at a distance from itself, is still preparatory, in the vestibule of being, still this side of the fatality of the non-chosen birth, not yet accomplished.
 The being defined by its birth can thus take up a position with regard to its nature; it disposes of a background and, in this sense, is not completely born, remains anterior to its definition or its nature.
@@ -3928,7 +3948,8 @@ The identity of the present splits up into an inexhausible multiplicity of possi
 And this gives meaning to initiative, which nothing definitive paralyses, and to consolation— for how could one sole tear, though it be effaced, be forgotten, how could reparation have the least value, if it did not correct the instant itself, if it did not let it escape in its being, if the pain that glints in the tear did not exist "pending," if it did not exist with a still provisional being, if the present were consummated ?
 The privileged situation where the ever future evil becomes present— at the limit of consciousness—is reached in the suffering called physical.
 We find ourselves here backed up to being.
-We do not only know suffering as a disagreeable sensation, accompanying the fact of being at bay and struck; this fact is suffering itself, the "dead end" of the contact.
+We do not only know suffering as a disagreeable sensation, accompanying the fact of being at bay and struck; 
+this fact is suffering itself, the "dead end" of the contact.
 The whole acuity of suffering lies in the impossibility of fleeing it, of being protected in oneself from oneself; it lies in being cut off from every living spring.
 And it is the impossiblity of retreat.
 Here the only future negation of the will in fear, the imminence of what escapes power, is inserted into the present; here the other grasps me, the world affects, touches the will.
@@ -3956,8 +3977,7 @@ Hatred wills both things.
 Whence the insatiable character of hatred; it is satisfied precisely when it is not satisfied, since the Other satisfies it only by becoming an object, but can never become object enough, since at the same time as his fall, his lucidity and witness are demanded.
 In this lies the logical absurdity of hatred.
 The supreme ordeal of the will is not death, but suffering.
-In patience, at the limit of its abdication, the will does not sink into absurdity, for—over and beyond the nothingness that would reduce the space of time that elapses from birth to death to the purely subjective, the interior, the illusory, the meaningless—the violence the will endures comes from the other as a tyranny.
-But for this very reason it is produced as an absurdity breaking out on the ground of signification.
+In patience, at the limit of its abdication, the will does not sink into absurdity, for—over and beyond the nothingness that would reduce the space of time that elapses from birth to death to the purely subjective, the interior, the illusory, the meaningless—the violence the will endures comes from the other as a tyranny. But for this very reason it is produced as an absurdity breaking out on the ground of signification.
 Violence does not stop Discourse; all is not inexorable.
 Thus alone does violence remain endurable in patience.
 It is produced only in a world where I can die as a result of someone and for someone.
@@ -4030,7 +4050,8 @@ The visible forms, or tends to form, a totality.
 It excludes the apology, which undoes the totality in inserting into it, at each instant, the unsurpassable, unencompassable present of its very subjectivity.
 The judgment at which the subjectivity is to remain apologetically present has to be made against the evidence of history (and against philosophy, if philosophy coincides with the evidence of history).
 The invisible must manifest itself if history is to lose its right to the last word, necessarily unjust for the subjectivity, inevitably cruel.
-But the manifestation of the invisible can not mean the passage of the invisible to the status of the visible; it does not lead back to evidence.
+But the manifestation of the invisible can not mean the passage of the invisible to the status of the visible; 
+it does not lead back to evidence.
 It is produced in the goodness reserved to subjectivity, which thus is subject not simply to the truth of judgment, but to the source of this truth.
 The truth of the invisible is ontologically produced by the subjectivity which states it.
 For the invisible is not the "provisionally invisible," nor what remains invisible for a superficial and rapid glance, and which a more attentive and scrupulous investigation would render visible, nor what remains unexpressed as hidden movements of the soul, nor what, gratuitously and lazily, is affirmed to be a mystery.
@@ -4065,7 +4086,7 @@ The sole possibility in being of going beyond the straight line of the law, that
 The morality called inward and subjective exercises a function which universal and objective law cannot exercise, but which it calls for.
 Truth cannot be in tyranny, as it cannot be in the subjective.
 Truth can be only if a subjectivity is called upon to tell it, in the sense that the Psalmist exclaims: "The dust will give thanks to you, will tell your truth."
- The call to infinite responsibility confirms the subjectivity in its apologetic position.
+The call to infinite responsibility confirms the subjectivity in its apologetic position.
 The dimension of its interiority is brought from the level of the subjective to that of being.
 Judgment no longer alienates the subjectivity, for it does not make it enter into and dissolve in the order of an objective morality, but leaves it a dimension whereby it deepens in itself.
 To utter "I," to affirm the irreducible singularity in which the apology is pursued, means to possess a privileged place with regard to responsibilities for which no one can replace me and from which no one can release me.
@@ -4095,9 +4116,7 @@ To be I and not only an incarnation of a reason is precisely to be capable of se
 The deepening of my responsibility in the judgment that is borne upon me is not of the order of universalization: beyond the justice of universal laws, the I enters under judgment by the fact of being good.
 Goodness consists in taking up a position in being such that the Other counts more than myself.
 Goodness thus involves the possibility for the I that is exposed to the alienation of its powers by death to not be for death.
-The inner life is exalted by the truth of being—by the existence of being in the truth of judgment.
-It is indispensable for truth, being the dimension in which something can be opposed clandestinely to the visible judgment of history which seduces the philosopher.
-Yet this inner life cannot forgo all visibility.
+The inner life is exalted by the truth of being—by the existence of being in the truth of judgment. It is indispensable for truth, being the dimension in which something can be opposed clandestinely to the visible judgment of history which seduces the philosopher. Yet this inner life cannot forgo all visibility.
 The judgment of consciousness must refer to a reality beyond the sentence pronounced by history, which is also a cessation and an end.
 Hence truth requires as its ultimate condition an infinite time, the condition for both goodness and the transcendence of the face.
 The fecundity of subjectivity, by which the I survives itself, is a condition required for the truth of subjectivity, the clandestine dimension of the judgment of God.
@@ -4105,8 +4124,7 @@ But for this condition to be realized, it is not enough that an infinite time be
 It is necessary to go back to the primary phenomenon of time in which the phenomenon of the "not yet" is rooted.
 It is necessary to go back to paternity, without which time is but the image of eternity.
 Without it the time necessary for the manifestation of truth behind visible history (but which remains time—that is, is temporalized relative to a present situated in itself and identifiable) would be impossible.
-Biological fecundity is but one of the forms of paternity.
-Paternity, as a primordial effectuation of time, can, among men, be borne by the biological life, but be lived beyond that life.
+Biological fecundity is but one of the forms of paternity. Paternity, as a primordial effectuation of time, can, among men, be borne by the biological life, but be lived beyond that life.
 SECTION IV BEYOND THE FACE
 The relation with the Other does not nullify separation.
 It does not arise within a totality nor does it establish a totality, integrating me and the other.
@@ -4152,8 +4170,7 @@ The difference between "to appear in history" (without a right to speak) and to 
 In my religious being I am in truth.
 Will the violence death introduces into this being make truth impossible?
 Does not the violence of death reduce to silence the subjectivity without which truth could neither be said nor b^-ur (to put it in a word, the word so often used in this exposition, and which includes appearing and being) without which truth could not be produced?
-—Unless, revolted by the violence of reason that reduces the apology to silence, the subjectivity could not only accept to be silent, but could renounce itself by itself, renounce itself without violence, cease the apology for itself.
-This would not be a suicide nor a resignation, but would be love.
+Unless, revolted by the violence of reason that reduces the apology to silence, the subjectivity could not only accept to be silent, but could renounce itself by itself, renounce itself without violence, cease the apology for itself. This would not be a suicide nor a resignation, but would be love.
 The submission to tyranny, the resignation to a universal law, though it be rational, which stops the apology, compromises the truth of my being.
 Hence we must indicate a plane both presupposing and transcending the epiphany of the Other in the face, a plane where the I bears itself beyond death and recovers also from its return to itself.
 This plane is that of love and fecundity, where subjectivity is posited in function of these movements .
@@ -4221,7 +4238,8 @@ It thus goes further than to its term, it aims beyond an existent however future
 The desire that animates it is reborn in its satisfaction, fed somehow by what is not yet, bringing us back to the virginity, forever inviolate, of the feminine.
 It is not that the caress would seek to dominate a hostile freedom, to make of it its object or extort from it a consent.
 Beyond the consent or the resistance of a freedom the caress seeks what is not yet, a "less than nothing," closed and dormant beyond the future, consequently dormant quite otherwise than the possible, which would be open to anticipation.
-The profanation which insinuates itself in caressing responds adequately to the originality of this dimension of absence—an absence other than the void of an abstract nothingness, an absence referring to being, but referring to it in its own way, as though the "absences" of the future were not all future on the same level and uniformedly.
+The profanation which insinuates itself in caressing responds adequately to the originality of this dimension of absence—
+an absence other than the void of an abstract nothingness, an absence referring to being, but referring to it in its own way, as though the "absences" of the future were not all future on the same level and uniformedly.
 Anticipation grasps possibles; what the caress seeks is not situated in a perspective and in the light of the graspable.
 The carnal, the tender par excellence correlative of the caress, the beloved, is to be identified neither with the body-thing of the physiologist, nor with the lived body [corps propre] of the "I can," nor with the bodyexpression, attendance at its own manifestation, or face.
 In the caress, a relation yet, in one aspect, sensible, the body already denudes itself of its very form, offering itself as erotic nudity.
@@ -4242,7 +4260,8 @@ But precisely in the evanescence and swoon of the tender the subject does not pr
 The not-yetbeing is not to be ranked in the same future in which everything I can realize already crowds, scintillating in the light, offering itself to my anticipations and soliciting my powers.
 The not-yet-being is precisely not a possible that would only be more remote than other possibles.
 The caress does not act, does not grasp possibles.
-The secret it forces does not inform it as an experience; it overwhelms the relation of the I with itself and with the non-I.
+The secret it forces does not inform it as an experience; 
+it overwhelms the relation of the I with itself and with the non-I.
 An amorphous non-I sweeps away the I into an absolute future where it escapes itself and loses its position as a subject.
 Its "intention" no longer goes forth unto the light, unto the meaningful.
 Wholly passion, it is compassion for the passivity,82 the suffering, the evanescence of the tender.
@@ -4256,7 +4275,8 @@ Voluptuosity, as profanation, discovers the hidden as hidden.
 An exceptional relation is thus accomplished in a conjuncture which, for formal logic, would arise from contradiction: the discovered83 does not lose its mystery in the discovery, the hidden is not disclosed, the night is not dispersed.
 The profanation-discovery abides in modesty, be it under the guise of immodesty: the clandestine uncovered does not acquire the status of the disclosed.
 To discover here means to violate, rather than to disclose a secret.
-A violation that does not recover from its own audacity —the shame of the profanation lowers the eyes that should have scrutinized the uncovered.
+A violation that does not recover from its own audacity —
+the shame of the profanation lowers the eyes that should have scrutinized the uncovered.
 The erotic nudity says the inexpressible, but the inexpressible is not separable from this saying in the way a mysterious object foreign to expression is separated from a clear speech that seeks to circumscribe it.
 The mode of "saying" or of "manifesting" itself hides while uncovering, says and silences the inexpressible, harasses and provokes.
 The "saying," and not only the said, is equivocal.
@@ -4291,7 +4311,7 @@ The concept of the Other has, to be sure, no new content with respect to the con
 The fact that in existing for another I exist otherwise than in existing for me is morality itself.
 On all sides it envelops my knowledge of the Other, and is not disengaged from the knowledge of the Other by a valorization of the Other over and above this primary knowledge.
 Transcendence as such is "conscience."
- Conscience accomplishes metaphysics, if metaphysics consists in transcending.
+Conscience accomplishes metaphysics, if metaphysics consists in transcending.
 In all that precedes we have sought to expose the epiphany of the face as the origin of exteriority.
 The primary phenomenon of signification coincides with exteriority; exteriority is signifyingness itself.
 And only the face in its morality is exterior.
@@ -4354,9 +4374,11 @@ The feminine is the other refractory to society, member of a dual society, an in
 Its intimacy is to be described.
 For the unparalleled relation voluptuosity maintains with the non-signifying constitutes a complex that is not reducible to the repetition of this non, but to positive traits by which the future and what is not yet (and is not simply an existent that remains at the status of the possible) is, so to speak, determined.
 The impossibility of reducing voluptuosity to the social, the non-signifyingness upon which it opens, and which is manifested in the indecency of the language that would state voluptuosity, isolates the lovers, as though they were alone in the world.
-This solitude does not only deny, does not only forget the world; the common action of the sentient and the sensed which voluptuosity accomplishes closes, encloses, seals the society of the couple.
+This solitude does not only deny, does not only forget the world; 
+the common action of the sentient and the sensed which voluptuosity accomplishes closes, encloses, seals the society of the couple.
 The non-sociality of voluptuosity is, positively, the community of sentient and sensed: the other is not only a sensed, but in the sensed is affirmed as sentient, as though one same sentiment were substantially common to me and to the other— and not in the way two observers have a common landscape or two thinkers a common idea.
-An identical objective content does not here mediate the community, nor is the community due to the analogy of feeling; it is due to the identity of the feeling.
+An identical objective content does not here mediate the community, nor is the community due to the analogy of feeling; 
+it is due to the identity of the feeling.
 Reference of love "given" to love "received," love of love, voluptuosity is not a sentiment to the second power like a reflection, but direct like a spontaneous consciousness.
 It is inward and yet intersubjectively structured, not simplifying itself into consciousness that is one.
 In voluptuosity the other is me and separated from me.
@@ -4369,7 +4391,9 @@ Voluptuosity would be extinguished in possession.
 But on the other hand, the impersonality of voluptuosity prevents us from taking the relation between lovers to be a complementarity.
 Voluptuosity hence aims not at the Other but at his voluptuosity; it is voluptuosity of voluptuosity, love of the love of the other.
 Love accordingly does not represent a particular case of friendship.
-Love and friendship are not only felt differently; their correlative differs: friendship goes unto the Other; love seeks what does not have the structure of an existent, the infinitely future, what is to be engendered.
+Love and friendship are not only felt differently;
+their correlative differs: 
+friendship goes unto the Other; love seeks what does not have the structure of an existent, the infinitely future, what is to be engendered.
 I love fully only if the Other loves me, not because I need the recognition of the Other, but because my voluptuosity delights in his voluptuosity, and because in this unparalleled conjuncture of identification, in this trans-substantiation, the same and the other are not united but precisely—beyond every possible project, beyond every meaningful and intelligent power—engender the child.
 If to love is to love the love the Beloved bears me, to love is also to love oneself in love, and thus to return to oneself.
 Love does not transcend unequivocably—it is complacent, it is pleasure and dual egoism.
@@ -4397,7 +4421,9 @@ This future is neither the Aristotelian germ (less than being, a lesser being) n
 Both my own and non-mine, a possibility of myself but also a possibility of the other, of the Beloved, my future does not enter into the logical essence of the possible.
 The relation with such a future, irreducible to the power over possibles, we shall call fecundity.
 Fecundity encloses a duality of the Identical.
-It does not denote all that I can grasp—my possibilities; it denotes my future, which is not a future of the same—not a new avatar: not a history and events that can occur to a residue of identity, an identity holding on by a thread, an I that would ensure the continuity of the avatars.
+It does not denote all that I can grasp—my possibilities; 
+it denotes my future, which is not a future of the same—
+not a new avatar: not a history and events that can occur to a residue of identity, an identity holding on by a thread, an I that would ensure the continuity of the avatars.
 And yet it is my adventure still, and consequently my future in a very new sense, despite the discontinuity.
 Voluptuosity does not depersonalize the I ecstatically; it remains ever desire, ever search.
 It is not extinguished in a term in which it would be absorbed by breaking with its origin in me, even if it does not entirely return to me—to my old age and my death.
@@ -4410,7 +4436,8 @@ The diverse forms Proteus assumes do not liberate him from his identity.
 In fecundity the tedium of this repetition ceases; the I is other and young, yet the ipseity that ascribed to it its meaning and its orientation in being is not lost in this renouncement of self.
 Fecundity continues history without producing old age.
 Infinite time does not bring an eternal life to an aging subject; it is better across the discontinuity of generations, punctuated by the inexhaustible youths of the child.
-In fecundity the I transcends the world of light—not to dissolve into the anonymity of the there is, but in order to go further than the light, to go elsewhere.
+In fecundity the I transcends the world of light—
+not to dissolve into the anonymity of the there is, but in order to go further than the light, to go elsewhere.
 To stand in the light, to see—to grasp before grasping—is not yet "to be infinitely"; it is to return to oneself older, that is, encumbered with oneself.
 To be infinitely means to be produced in the mode of an I that is always at the origin, but that meets with no trammels to the renewal of its substance, not even from its very identity.
 Youth as a philosophical concept is defined thus.
@@ -4418,7 +4445,8 @@ The relation with the son in fecundity does not maintain us in this closed expan
 It articulates the time of the absolutely other, an alteration of the very substance of him who can—'his trans-substantiation.
 That infinite being not be a possibility enclosed within the separated being, but that it be produced as fecundity, involving, therefore, the alterity of the Beloved, indicates the vanity of pantheism.
 That in fecundity the personal I has its place indicates the end of the terrors whereby the transcendence of the sacred, inhuman, anonymous, and neuter, menaces persons with nothingness or with ecstasy.
-Being is produced as multiple and as split into same and other; this is its ultimate structure.
+Being is produced as multiple and as split into same and other; 
+this is its ultimate structure.
 It is society, and hence it is time.
 We thus leave the philosophy of Parmenidean being.
 Philosophy itself constitutes a moment of this temporal accomplishment, a discourse always addressed to another.
@@ -4450,14 +4478,14 @@ It implies responsibility—which should surprise, nothing being more opposed to
 The coinciding of freedom with responsibility constitutes the I, doubled with itself, encumbered with itself.
 Eros delivers from this encumberment, arrests the return of the I to itself.
 If the I does not here disappear by uniting with the Other, it does not produce a work either, be it a work perfect as that of Pygmalion but dead, leaving the I alone in the old age it finds at the end of its adventure.
-Eros does not only extend the thoughts of a subject beyond objects and faces; it goes toward a future which is not yet and which I will not merely grasp, but I will be—it no longer has the structure of the subject which from every adventure returns to its island, like Ulysses.
+Eros does not only extend the thoughts of a subject beyond objects and faces; 
+it goes toward a future which is not yet and which I will not merely grasp, but I will be—it no longer has the structure of the subject which from every adventure returns to its island, like Ulysses.
 The I springs forth without returning, finds itself the self of an other: its pleasure, its pain is pleasure over the pleasure of the other or over his pain—though not through sympathy or compassion.
 Its future does not fall back upon the past it ought to renew; it remains an absolute future by virtue of this subjectivity which consists not in bearing representations or powers but in transcending absolutely in fecundity.
 The "transcendence of fecundity" does not have the structure of intentionality, does not reside in the powers of the I, for the alterity of the femi-< nine is associated with it: the erotic subjectivity is constituted in the common act of the sensing and the sensed as the self of an other, and accordingly is constituted within a relation with the other, within a relation with the face.
 In this community there plays an equivocation, to be sure: the other presents himself as lived by myself, as object of my enjoyment.
 This is why, as we have already said, erotic love oscillates between being beyond desire and being beneath need, and why its enjoyment takes its place among all the other pleasures and joys of life.
-But in addition it takes place beyond all pleasure, all power, beyond all war with the freedom of the other, for the amorous subjectivity is transubstantiation itself.
-This unparalleled relation between two substances, where a beyond substances is exhibited, is resolved in paternity.
+But in addition it takes place beyond all pleasure, all power, beyond all war with the freedom of the other, for the amorous subjectivity is transubstantiation itself. This unparalleled relation between two substances, where a beyond substances is exhibited, is resolved in paternity.
 The "beyond substances" is not open to a power, such as to confirm the I, but neither is it produced in the being of the impersonal, the neuter, the anonymous—infra-personal or supra-personal.
 This future still refers to the personal from which it is nonetheless liberated: it is the child, mine in a certain sense or, more exactly, me, but not myself; it does not fall back upon my past to fuse with it and delineate a fate.
 In fecundity subjectivity no longer has the same meaning.
@@ -4468,7 +4496,8 @@ In paternity desire maintained as insatiate desire, that is, as goodness, is acc
 It can not be accomplished by being satisfied.
 For Desire to be accomplished is equivalent to engendering good being, to being goodness of goodness.
 The structure of the subjectivity’s identity that is produced in Eros takes us outside the categories of classical logic.
-To be sure, the I, identity par excellence, has often been caught sight of on the margin of identity, an I profiling itself behind the I; thought hearkens to itself.
+To be sure, the I, identity par excellence, has often been caught sight of on the margin of identity, an I profiling itself behind the I; 
+thought hearkens to itself.
 Muse, genius, Socrates’ daemon, Faust’s Mephistopheles speak in the depths of the I and guide it.
 Or else the freedom of absolute commencement turns out to be obedience to insidious forms of the impersonal and the neuter: Hegel’s universal, Durkheim’s social, the statistical laws that govern our freedom, Freud’s unconscious, the existential that sustains the existentiel in Heidegger.
 All these notions represent not an opposition between diverse faculties of the I, but the presence behind the I of a foreign principle which is not necessarily opposed to the I, but which can assume this enemy demeanor.
@@ -4485,7 +4514,8 @@ The intersubjective reached across the notion of fecundity opens up a plane wher
 Fecundity evinces a unity that is not opposed to multiplicity, but, in the precise sense of the term, engenders it.
 E. TRANSCENDENCE AND FECUNDITY
 As classically conceived, the idea of transcendence is self-contradictory.
-The subject that transcends is swept away in its transcendence; it does not transcend itself.
+The subject that transcends is swept away in its transcendence; 
+it does not transcend itself.
 If, instead of reducing itself to a change of properties, climate, or level, transcendence would commit the very identity of the subject, we would witness the death of its substance.
 It may, certainly, be asked whether death is not transcendence itself; whether among the elements of this world—simple avatars—where change only transforms, that is, safeguards and presupposes a permanent term, death does not represent the exceptional event of a transubstantiation coming to pass, which, without returning to nothingness, ensures its continuity otherwise than by the subsistence of an identical term.
 But that would be tantamount to defining the "problematic concept" of transcendence.
@@ -4497,14 +4527,16 @@ Never has it appeared in the existing of those existants.
 The plural, exterior to the existence of beings, is given as a number; to a subject that counts it is already subordinated to the synthesis of the "I think."
 Unity alone is ontologically privileged.
 Throughout Western metaphysics quantity is scorned as a superficial category.
-Whence transcendence itself will never be profound; as a "simple relation," it is situated outside of the event of being.
+Whence transcendence itself will never be profound; 
+as a "simple relation," it is situated outside of the event of being.
 Consciousness appears as the very type of existing in which the multiple is and yet, in synthesis, is no more, in which, consequently, transcendence, a simple relation, is less than being.
 The object is converted into an event of the subject.
 Light, the element of knowledge, makes all that we encounter be ours.
 When knowledge takes on an ecstatic signification, when, for Leon Brunschvicg, the spiritual I posits itself in refusing itself, affirms generously its personality in negating its egoism, it issues in Spinozist unity, relative to which the I is but a thought.
 And the alleged movement of transcendence is reduced to a return from an imaginary exile.
 In articulating existing as time rather than congealing it in the permanence of the stable the philosophy of becoming seeks to disengage itself from the category of the one, which compromises transcendence.
-The upsurge or the projection of the future transcends—not by knowledge only, but by the very existing of being.
+The upsurge or the projection of the future transcends—
+not by knowledge only, but by the very existing of being.
 Existing is freed from the unity of the existant.
 To substitute Becoming for Being is above all to envisage being outside of the existent.
 Interpenetration of instants in duration, openness upon the future, "being for death": these are ways of expressing an existing not in conformity with the logic of unity.
@@ -4534,7 +4566,8 @@ Does not the social relation resolve itself entirely into relations of conscious
 As a collective representation it would in fact differ from a thought only by its content, and not by its formal structure.
 Participation presupposes the fundamental relations of the logic of objects, and even in Levy-Bruhl it is treated as a psychological curiosity.
 It masks the absolute originality of the erotic relation which is, disdainfully, relegated to the biological.
-Yet, curiously enough, the philosophy of the biological itself, when it goes beyond mechanism, falls back on finalism and a dialectic of the whole and the part.
+Yet, curiously enough, 
+the philosophy of the biological itself, when it goes beyond mechanism, falls back on finalism and a dialectic of the whole and the part.
 That the vital impulse propagates itself across the separation of individuals, that its trajectory is discontinuous, that is, that it presupposes the intervals of sexuality and a specific dualism in its articulation, is not seriously taken into consideration.
 When, with Freud, sexuality is approached on the human plane, it is reduced to the level of the search for pleasure, without the ontological signification of voluptuosity and the irreducible categories it brings into play ever being even suspected.
 One gives oneself pleasure ready made; one reasons on the basis of it.
@@ -4547,7 +4580,8 @@ Sexuality is in us neither knowledge nor power, but the very plurality of our ex
 For it is as characteristics of the very ipseity of the I, the very subjectivity of the subject, that the erotic relation is to be analysed.
 Fecundity is to be set up as an ontological category.
 In a situation such as paternity the return of the I to the self, which is set forth in the monist concept of the identical subject, is found to be completely modified.
-The son is not only my work, like a poem or an object, nor is he my property.
+The son is not only my work, like a poem or an object, 
+nor is he my property.
 Neither the categories of power nor those of knowledge describe my relation with the child.
 The fecundity of the I is neither a cause nor a domination.
 I do not have my child; I am my child.
@@ -4564,9 +4598,7 @@ As rupture, repudiation of the father, commencement, filiality at each moment ac
 But in this apparent contradiction and in the form of the son being is infinitely and discontinuously, historical without fate.
 The past is recaptured at each moment from a new point, from a novelty that no continuity, such as that which still weighs on the Bergsonian duration, could compromise.
 For in continuity, where being bears the whole burden of the past (even if in its projection unto the future it should, in defiance of death, recommence), the past limits the infinitude of being, and this limitation is manifested in its senescence.
-The recapture of this past can be produced as a recourse.
-For by existing an existence which still subsists in the father the I echos the transcendence of the paternal I who is his child: the son is, without being "on his own account"; he shifts the charges of his being on the other and thus plays his being.
-Such a mode of existence is produced as childhood, with its essential reference to the protective existence of the parents.
+The recapture of this past can be produced as a recourse. For by existing an existence which still subsists in the father the I echos the transcendence of the paternal I who is his child: the son is, without being "on his own account"; he shifts the charges of his being on the other and thus plays his being. Such a mode of existence is produced as childhood, with its essential reference to the protective existence of the parents. 
 The notion of maternity must be introduced here to account for this recourse.
 But this recourse to the past, with which the son has nonetheless in his ipseity broken, defines a notion distinct from continuity, a way of resuming the thread of history—concrete in a family and in a nation.
 The originality of this resumption [renouement], distinct from continuity, is attested in the revolt or the permanent revolution that constitutes ipseity.
@@ -4576,7 +4608,8 @@ The father does not simply cause the son.
 To be one’s son means to be I in one’s son, to be substantially in him, yet without being maintained there in identity.
 Our whole analysis of fecundity aimed to establish this dialectical conjuncture, which conserves the two contradictory movements.
 The son resumes the unicity of the father and yet remains exterior to the father: the son is a unique son.
-Not by number; each son of the father is the unique son, the chosen son.
+Not by number; 
+each son of the father is the unique son, the chosen son.
 The love of the father for the son accomplishes the sole relation possible with the very unicity of another; and in this sense every love must approach paternal love.
 But this relation of the father with the son is not added to the already constituted I of the son, as a good fortune.
 The paternal Eros first invests the unicity of the son; his I qua filial commences not in enjoyment but in election.
@@ -4631,8 +4664,7 @@ But this return weighs upon the present instant, "laden with all the past," even
 Its age limits its powers and opens it to the imminence of death.
 The discontinuous time of fecundity makes possible an absolute youth and recommencement, while leaving the recommencement a relation with the recommenced past in a free return to that past (free with a freedom other than that of memory), and in free interpretation and free choice, in an existence as entirely pardoned.
 This recommencement of the instant, this triumph of the time of fecundity over the becoming of the mortal and aging being, is a pardon, the very work of time.
-Pardon in its immediate sense is connected with the moral phenomenon of fault.
-The paradox of pardon lies in its retroaction; from the point of view of common time it represents an inversion of the natural order of things, the reversibility of time.
+Pardon in its immediate sense is connected with the moral phenomenon of fault. The paradox of pardon lies in its retroaction; from the point of view of common time it represents an inversion of the natural order of things, the reversibility of time.
 It involves several aspects.
 Pardon refers to the instant elapsed; it permits the subject who had committed himself in a past instant to be as though that instant had not past on, to be as though he had not committed himself.
 Active in a stronger sense than forgetting, which does not concern the reality of the event forgotten, pardon acts upon the past, somehow repeats the event, purifying it.
@@ -4660,8 +4692,10 @@ The constitution of the interval that liberates being from the limitation of fat
 The nothingness of the interval—a dead time—is the production of infinity.
 Resurrection constitutes the principal event of time.
 There is therefore no continuity in being.
-Time is discontinuous ; one instant does not come out of another without interruption, by an ecstasy.
-In continuation the instant meets its death, and resuscitates; death and resurrection constitute time.
+Time is discontinuous ;
+one instant does not come out of another without interruption, by an ecstasy.
+In continuation the instant meets its death, and resuscitates; 
+death and resurrection constitute time.
 But such a formal structure presupposes the relation of the I with the Other and, at its basis, fecundity across the discontinuous which constitutes time.
 The psychological fact of the felix culpa—the surplus reconciliation provides by reason of the rupture it integrates—refers therefore to all the mystery of time.
 The fact and the justification of time consist in the recommencement it makes possible in the resurrection, across fecundity, of all the compossibles sacrificed in the present.
@@ -4674,7 +4708,8 @@ But infinite time is also the putting back into question of the truth it promise
 The dream of a happy eternity, which subsists in man along with his happiness, is not a simple aberration.
 Truth requires both an infinite time and a time it will be able to seal, a completed time.
 The completion of time is not death, but messianic time, where the perpetual is converted into eternal.
-Messianic triumph is the pure triumph; it is secured against the revenge of evil whose return the infinite time does not prohibit.
+Messianic triumph is the pure triumph; 
+it is secured against the revenge of evil whose return the infinite time does not prohibit.
 Is this eternity a new structure of time, or an extreme vigilance of the messianic consciousness?
 The problem exceeds the bounds of this book .
 CONCLUSIONS                  
@@ -4698,16 +4733,15 @@ Exteriority would then no longer mean anything, since it would encompass the ver
 But exteriority is not yet maintained if we affirm a subject insoluble into objectivity, and to which exteriority would be opposed.
 This time exteriority would acquire a relative meaning, as the great by relation to the small.
 But in the absolute the subject and the object would still be parts of the same system, would be enacted and revealed panoramically.
-Exteriority, or, if one prefers, alterity, would be converted into the same.
-And over and beyond the relation between the interior and the exterior there would be room for the perception of this relation by a lateral view that would take in and perceive (or penetrate) their play, or would provide an ultimate stage on which this relation would be enacted, on which its being would be effected truly.
+Exteriority, or, if one prefers, alterity, would be converted into the same. And over and beyond the relation between the interior and the exterior there would be room for the perception of this relation by a lateral view that would take in and perceive (or penetrate) their play, or would provide an ultimate stage on which this relation would be enacted, on which its being would be effected truly.
 Being is exteriority: the very exercise of its being consists in exteriority, and no thought could better obey being than by allowing itself to be dominated by this exteriority.
-Exteriority is true not in a lateral view apperceiving it in its opposition to interiority; it is true in a face to face that is no longer entirely vision, but goes further than vision.
-The face to face is established starting with a point separated from exteriority so radically that it maintains itself of itself, is me; every other relation that would not part from this separated and therefore arbitrary point (but whose arbitrariness and separation are produced in a positive mode as me), would miss the—necessarily subjective—field of truth.
+Exteriority is true not in a lateral view apperceiving it in its opposition to interiority; it is true in a face to face that is no longer entirely vision, but goes further than vision. The face to face is established starting with a point separated from exteriority so radically that it maintains itself of itself, is me; every other relation that would not part from this separated and therefore arbitrary point (but whose arbitrariness and separation are produced in a positive mode as me), would miss the—necessarily subjective—field of truth.
 The true essence of man is presented in his face, in which he is infinitely other than a violence like unto mine, opposed to mine and hostile, already at grips with mine in a historical world where we participate in the same system.
 He arrests and paralyzes my violence by his call, which does not do violence, and comes from on high.
 The truth of being is not the image of being, the idea of its nature; it is the being situated in a subjective field which deforms vision, but precisely thus allows exteriority to state itself, entirely command and authority: entirely superiority.
 This curvature of the intersubjective space inflects distance into elevation; it does not falsify being, but makes its truth first possible.
-One cannot "allow for" this refraction "produced" by the subjective field, so as to thus "correct" it; it constitutes the very mode in which the exteriority of being is effectuatedin its truth.
+One cannot "allow for" this refraction "produced" by the subjective field, so as to thus "correct" it; 
+it constitutes the very mode in which the exteriority of being is effectuatedin its truth.
 The impossibility of "total reflection" is not due to a flaw in subjectivity.
 The so-called "objective" nature of the entities that would appear outside of this "curvature of space"—the phenomenon—would, on the contrary, indicate the loss of metaphysical truth, the superior truth—in the literal sense of the term.
 This "curvature" of the intersubjective space in which exteriority is effectuated (we do not say "in which it appears") as superiority must be distinguished from the arbitrariness of "points of view" taken upon objects that appear.
@@ -4818,18 +4852,20 @@ This overflowing, irreducible to an image of overflowing, is produced commensura
 The distance of this exteriority immediately extends to height.
 The eye can conceive it only by virtue of position which, as an above-below disposition, constitutes the elementary fact of morality.
 Because it is the presence of exteriority the face never becomes an image or an intuition.
-Every intuition depends on a signification irreducible to intuition; it comes from further than intuition, and it alone comes from afar.
+Every intuition depends on a signification irreducible to intuition; 
+it comes from further than intuition, and it alone comes from afar.
 Signification, irreducible to intuitions, is measured by Desire, morality, and goodness —the infinite exigency with regard to oneself, or Desire of the other, or relation with infinity.
 The presence of the face, or expression, is not to be ranked among other meaningful manifestations.
 The works of man all have meaning, but the human being absents himself from them immediately, and is divined across them; he too is given in the articulation of the "qas."
- There is a abyss between labor, which results in works having a meaning for other men, and which others can acquire—already merchandise reflected in money—and language, in which I attend my manifestation, irreplaceable and vigilant.
+There is a abyss between labor, which results in works having a meaning for other men, and which others can acquire—already merchandise reflected in money—and language, in which I attend my manifestation, irreplaceable and vigilant.
 But this abyss gapes open because of the en-ergy of the vigilant presence which does not quit the expression.
 It is not to expression what the will is to its work; the will withdraws from its work, delivering it over to its fate, and is found to have willed "a lot of things" it had not willed.
 For the absurdity of these works is not due to a defect of the thought that formed them; it is due to the anonymity into which this thought immediately falls, to the unrecognition of the worker that results from this essential anonymity.
 Jankelevitch is right to say that labor is not an expression.
-87 In acquiring the work I desacralize the neighbor who produced it.
+In acquiring the work I desacralize the neighbor who produced it.
 Man is really apart, non-encompassable, only in expression, where he can "bring aid" to his own manifestation.
-In political life, taken unrebuked, humanity is understood from its works—a humanity of interchangeable men, of reciprocal relations.
+In political life, taken unrebuked, humanity is understood from its works—
+a humanity of interchangeable men, of reciprocal relations.
 The substitution of men for one another, the primal disrespect, makes possible exploitation itself.
 In history—the history of States—the human being appears as the sum of his works; even while he lives he is his own heritage.
 Justice consists in again making possible expression, in which in non-reciprocity the person presents himself as unique.
@@ -4852,7 +4888,8 @@ To begin with the face as a source from which all meaning appears, the face in i
 Desire, an aspiration that does not proceed from a lack—metaphysics—is the desire of a person.
 8. Subjectivity
 Being is exteriority, and exteriority is produced in its truth in a subjective field, for the separated being.
-Separation is accomplished positively as the inferiority of a being referring to itself and maintaining itself of itself—all the way to atheism!
+Separation is accomplished positively as the inferiority of a being referring to itself and maintaining itself of itself—
+all the way to atheism!
 This self-reference is concretely constituted or accomplished as enjoyment or happiness.
 It is an essential sufficiency, which in its expansion—in knowledge, whose ultimate essence critique (the recapturing of its own condition) develops—is even in possession of its own origin.
 To metaphysical thought, where a finite has the idea of infinity— where radical separation and relationship with the other are produced simultaneously—we have reserved the term intentionality, consciousness of....
@@ -4897,7 +4934,8 @@ Thematization or objectification is not to be described only as an impassive con
 The solid is not reducible to the structures imposed by the impassibility of the look that contemplates it; it is to be understood in terms of the structures imposed by its relation with time—which it traverses.
 The being of the object is perduration, a filling of the time which is empty and inconsolable against death as an end.
 If exteriority consists not in being presented as a theme but in being open to desire, the existence of the separated being which desires exteriority no longer consists in caring for Being.
-To exist has a meaning in another dimension than that of the perduration of the totality; it can go beyond being.
+To exist has a meaning in another dimension than that of the perduration of the totality; 
+it can go beyond being.
 Contrary to the Spinozist tradition, this going beyond death is produced not in the universality of thought but in the pluralist relation, in the goodness of being for the Other, in justice.
 The surpassing of being starting from being—the relation with exteriority—is not measured by duration.
 Duration itself becomes visible in the relation with the Other, where being is surpassed.
@@ -4908,7 +4946,8 @@ The exteriority of being is morality itself.
 Freedom, the event of separation in arbitrariness which constitutes the I, at the same time maintains the relation with the exteriority that morally resists every appropriation and every totalization in being.
 If freedom were posited outside of this relation, every relation within multiplicity would enact but the grasp of one being by another or their common participation in reason, where no being looks at the face of the other, but all beings negate one another.
 Knowledge or violence would appear in the midst of the multiplicity as events that realize being.
-The common knowledge proceeds toward unity, either toward the apparition in the midst of a multiplicity of beings of a rational system in which these beings would be but objects, and in which they would find their being— or toward the brutal conquest of beings outside of every system by violence.
+The common knowledge proceeds toward unity, either toward the apparition in the midst of a multiplicity of beings of a rational system in which these beings would be but objects, and in which they would find their being— 
+or toward the brutal conquest of beings outside of every system by violence.
 Whether in scientific thought or in the object of science, or in history understood as a manifestation of reason, where violence reveals itself to be reason, philosophy presents itself as a realization of being, that is, as its liberation by the suppression of multiplicity.
 Knowledge would be the suppression of the other by the grasp, by the hold, or by the vision that grasps before the grasp.
 In this work metaphysics has an entirely different meaning.
@@ -4934,7 +4973,8 @@ But to us here there rather appears the problem of the justification of freedom:
 Does not freedom appear to itself as a shame for itself ?
 And, reduced to itself, as a usurpation ?
 The irrational in freedom is not due to its limits, but to the infinity of its arbitrariness.
-Freedom must justify itself; reduced to itself it is accomplished not in sovereignty but in arbitrariness.
+Freedom must justify itself; 
+reduced to itself it is accomplished not in sovereignty but in arbitrariness.
 Precisely through freedom—and not because of its limitation—the being freedom is to express in its plentitude appears as not having its reason in itself.
 Freedom is not justified by freedom.
 To account for being or to be in truth is not to comprehend nor to take hold of... , but rather to encounter the Other without allergy, that is, in justice.
@@ -4945,13 +4985,15 @@ A clear idea which imposes itself by its clarity calls for a strictly personal w
 In morality alone it is put in question.
 Morality thus presides over the work of truth.
 It will be said that the radical questioning of certitude reduces itself to the search for another certitude: the justification of freedom would refer to freedom.
-Indeed that is so, in the measure that justification cannot result in non-certitude.
+Indeed that is so, 
+in the measure that justification cannot result in non-certitude.
 But in fact, the moral justification of freedom is neither certitude nor incertitude.
 It does not have the status of a result, but is accomplished as movement and life; it consists in addressing an infinite exigency to one’s freedom, in having a radical non-indulgence for one’s freedom.
 Freedom is not justified in the consciousness of certitude, but in an infinite exigency with regard to oneself, in the overcoming of all good conscience.
 But this infinite exigency with regard to oneself, precisely because it puts freedom in question, places me and maintains me in a situation in which I am not alone, in which I am judged.
 This is the primary sociality: the personal relation is in the rigor of justice which judges me and not in love that excuses me.
-For this judgment does not come to me from a Neuter; before the Neuter I am spontaneously free.
+For this judgment does not come to me from a Neuter; 
+before the Neuter I am spontaneously free.
 In the infinite exigency with regard to oneself is produced the duality of the face to face.
 One does not prove God thus, since this is a situation that precedes proof, and is metaphysics itself.
 The ethical, beyond vision and certitude, delineates the structure of exteriority as such.
