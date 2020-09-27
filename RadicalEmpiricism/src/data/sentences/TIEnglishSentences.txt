@@ -124,12 +124,11 @@ Intentional analysis is the search for the concrete.
 Notions held under the direct gaze of the thought that defines them are nevertheless, unbeknown to this naive thought, revealed to be implanted in horizons unsuspected by this thought; these horizons endow them with a meaning—such is the essential teaching of Husserl.
 What does it matter if in the Husserlian phenomenology taken literally these unsuspected horizons are in their turn interpreted as thoughts aiming at objects!
 What counts is the idea of the overflowing of objectifying thought by a forgotten experience from which it lives.
-The break-up of the formal structure of thought (the noema of a noesis) into events which this structure dissimulates, but which sustain it and restore its concrete significance, constitutes a deduction—necessary and yet non-analytical.
-In our exposition it is indicated by expressions such as "that is," or "precisely," or "this accomplishes that," or "this is produced as that."
- The signification that, in the present work, phenomenological deduc tion shows to underlie the theoretical thought concerning being and the panoramic exposition of being itself is not irrational.
+The break-up of the formal structure of thought (the noema of a noesis) into events which this structure dissimulates, but which sustain it and restore its concrete significance, constitutes a deduction—necessary and yet non-analytical.In our exposition it is indicated by expressions such as "that is," or "precisely," or "this accomplishes that," or "this is produced as that." The signification that, in the present work, phenomenological deduc tion shows to underlie the theoretical thought concerning being and the panoramic exposition of being itself is not irrational.
 The aspiration to radical exteriority, thus called metaphysical, the respect for this metaphysical exteriority which, above all, we must "let be," constitutes truth.
 It animates this work and evinces its allegiance to the intellectualism of reason.
-But theoretical thought, guided by the ideal of objectivity, does not exhaust this aspiration; it remains this side of its ambitions.
+But theoretical thought, guided by the ideal of objectivity, does not exhaust this aspiration; 
+it remains this side of its ambitions.
 If, as this book will show, ethical relations are to lead transcendence to its term, this is because the essential of ethics is in its transcendent intention, and because not every transcendent intention has the noesis-noema structure.
 Already of itself ethics is an "optics."
  It is not limited to preparing for the theoretical exercise of thought, which would monopolize transcendence.
@@ -151,15 +150,14 @@ To Marcel and Jean Wahl
 SECTION I THE SAME AND THE OTHER
 A. METAPHYSICS AND TRANSCENDENCE     
 1. Desire for the Invisible
-"The true life is absent."
-But we are in the world.
+"The true life is absent." But we are in the world.
 Metaphysics arises and is maintained in this alibi.
 It is turned toward the "elsewhere" and the "otherwise" and the "other."
 For in the most general form it has assumed in the history of thought it appears as a movement going forth from a world that is familiar to us, whatever be the yet unknown lands that bound it or that it hides from view, from an "at home" ["chez soi"]* which we inhabit, toward an alien outside-ofoneself [hors-de-sot], toward a yonder.
 The term of this movement, the elsewhere or the other, is called other in an eminent sense.
 No journey, no change of climate or of scenery could satisfy the desire bent toward it.
-The other metaphysically desired is not "other" like the bread I eat, the land in which I dwell, the landscape I contemplate, like, sometimes, myself for myself, this "I," that "other."
- I can "feed" on these realities and to a very great extent satisfy myself, as though I had simply been lacking them.
+The other metaphysically desired is not "other" like the bread I eat, the land in which I dwell, the landscape I contemplate, like, sometimes, myself for myself, this "I," that "other." 
+I can "feed" on these realities and to a very great extent satisfy myself, as though I had simply been lacking them.
 Their alterity is thereby reabsorbed into my own identity as a thinker or a possessor.
 The metaphysical desire tends toward something else entirely, toward the absolutely other.
 The customary analysis of desire can not explain away its singular pretension.
@@ -862,7 +860,7 @@ The master, the coinciding of the teaching and the teacher, is not in turn a fac
 The present of the manifestation of the master who teaches overcomes the anarchy of facts.
 We must not say that language conditions consciousness, under the pretext that it provides self-consciousness with an incarnation in the objective work language would be (as the Hegelians would say).
 The exteriority that language, the relation with the Other, delineates is unlike the exteriority of a work, for the objective exteriority of works is already situated in the world established by language—by transcendence.
-4.Rhetoric and Injustice
+4. Rhetoric and Injustice
 Not every discourse is a relation with exteriority.
 It is not the interlocutor our master whom we most often approach in our conversations, but an object or an infant, or a man of the multitude, as Plato says.
 ® Our pedagogical or psychagogical discourse is rhetoric, taking the position of him who approaches his neighbor with ruse.
@@ -1702,7 +1700,7 @@ The alterity of the other the world is is surmounted by need, which enjoyment re
 To be sure, need is also a dependence with regard to the other, but it is a dependence across time, a dependence that is not an instantaneous betraying of the same but a suspension or postponement of dependence, and thus the possibility to break, by labor and by economy, the very thrust of the alterity upon which need depends.
 In denouncing as illusory the pleasures that accompany the satisfaction of needs Plato has fixed the negative notion of need: it would be a less, a lack that satisfaction would make good.
 The essence of need would be visible in the need to scratch oneself in scabies, in sickness.
-52 Must we remain at a philosophy of need that apprehends it in poverty ?
+Must we remain at a philosophy of need that apprehends it in poverty ?
 Poverty is one of the dangers the liberation of man breaking with the animal and vegetable condition risks.
 In need the essential is in this rupture, despite this risk.
 To conceive of need as a simple privation is to apprehend it in the midst of a disorganized society which leaves it neither time nor consciousness.
@@ -2318,8 +2316,7 @@ I live from my labor as I live from air, light, and bread.
 The limit case in which need prevails over enjoyment, the proletarian condition condemning to accursed labor in which the indigence of corporeal existence finds neither refuge nor leisure at home with itself, is the absurd world of Geworfenheit.
 3. Enjoyment and Separation 
 In enjoyment throbs egoist being.
-Enjoyment separates by engaging in the contents from which it lives.
-Separation comes to pass as the positive work of this engagement; 
+Enjoyment separates by engaging in the contents from which it lives. Separation comes to pass as the positive work of this engagement; 
 it does not result from a simple split, like a spatial removal.
 To be separated is to be at home with oneself.
 But to be at home with oneself... is to live from ..., to enjoy the elemental.
@@ -2716,10 +2713,12 @@ But this idea of the end would be an epiphenomenon were it not manifested in the
 In reality the "representation" of the end and the movement of the hand that plunges toward it through an unexplored distance, preceded by no searchlight, constitute but one and the same event, and define a being that, while being in the midst of a world in which it is implanted, yet comes to this world from the hither side of this world, from a dimension of inferiority—a being that inhabits the world, that is, that is at home with itself in it.
 Groping reveals the position of the body which at the same time is integrated into being and remains in its interstices, always invited to traverse a distance at random, and maintains itself in this position all by itself. Such is the position of a separated being.
 6. The Freedom of Representation and Gift 
-To be separated is to dwell somewhere; separation is produced positively in localization.
+To be separated is to dwell somewhere;
+separation is produced positively in localization.
 The body does not happen as an accident to the soul.
 Shall we say that it is the insertion of a soul in extension?
-This metaphor solves nothing; there would remain the problem of understanding the insertion of the soul in the extension of the body.
+This metaphor solves nothing; 
+there would remain the problem of understanding the insertion of the soul in the extension of the body.
 Appearing to representation as a thing among things, the body is in fact the mode in which a being, neither spatial nor foreign to geometrical or physical extension, exists separately.
 It is the regime of separation.
 The somewhere of dwelling is produced as a primordial event relative to which the event of the unfolding of physico-geometrical extension must be understood—and not the reverse.
@@ -2753,7 +2752,8 @@ Thus only does the equivocal essence of the home hollow out interstices in the c
 The Heideggerian analyses of the world have accustomed us to think that the "in view of oneself" that characterizes Dasein, care in situation, in the last analysis conditions every human product.
 In Being and Time the home does not appear apart from the system of implements.
 But can the "in view of oneself" characteristic of care be brought about without a disengagement from the situation, without a recollection and without extraterritoriality—without being at home with oneself?
-Instinct remains inserted in its situation; the hand that gropes traverses a void at random.
+Instinct remains inserted in its situation; 
+the hand that gropes traverses a void at random.
 Whence does this transcendental energy come to me, this postponement which is time itself, this future in which memory will lay hold of a past that was before the past, the "deep past, never past enough"—an energy already presupposed by recollection in a home ?
 We have defined representation as a determination of the other by the same, without the same being determined by the other.
 This definition excluded representation from reciprocal relations, whose terms meet and limit one another.
@@ -2798,7 +2798,8 @@ It takes place in the dimension of absolute desire by which the same is in relat
 We are not required to take contact or vision to be the archetypal gestures of straightforwardness.
 The Other is neither initially nor ultimately what we grasp or what we thematize.
 For truth is neither in seeing nor in grasping, which are modes of enjoyment, sensibility, and possession; it is in transcendence, in which absolute exteriority presents itself in expressing itself, in a movement at each instant recovering and deciphering the very signs it emits.
-But the transcendence of the face is not enacted outside of the world, as though the economy by which separation is produced remained beneath a sort of beatific contemplation of the Other (which would thereby turn into the idolatry that brews in all contemplation).
+But the transcendence of the face is not enacted outside of the world, as though the economy by which separation is produced remained beneath a sort of beatific contemplation of the Other
+(which would thereby turn into the idolatry that brews in all contemplation).
 The "vision" of the face as face is a certain mode of sojourning in a home, or—to speak in a less singular fashion—a certain form of economic life.
 No human or interhuman relationship can be enacted outside of economy; no face can be approached with empty hands and closed home.
 Recollection in a home open to the Other—hospitality—is the concrete and initial fact of human recollection and separation; it coincides with the Desire for the Other absolutely transcendent.
@@ -2825,14 +2826,14 @@ The relation with the Other does not only stimulate, provoke generalization, doe
 Generalization is a universalization—but universalization is not the entry of a sensible thing into a no man’s land* of the ideal, is not purely negative like a sterile renunciation, but is the offering of the world to the Other.
 Transcendence is not a vision of the Other, but a primordial donation.
 Language does not exteriorize a representation preexisting in me: it puts in common a world hitherto mine.
-Language effectuates the entry of things into a new ether in which they receive a name and become concepts.
-It is a first action over and above labor, an action without action, even though speech involves the effort of labor, even though, as incarnate thought, it inserts us into the world, with the risks and hazards of all action.
+Language effectuates the entry of things into a new ether in which they receive a name and become concepts. It is a first action over and above labor, an action without action, even though speech involves the effort of labor, even though, as incarnate thought, it inserts us into the world, with the risks and hazards of all action.
 At each instant it exceeds this labor by the generosity of the offer it forthwith makes of this very labor.
 The analyses of language that tend to present it as one meaningful action among others fail to recognize this offering of the world, this offering of contents which answers to the face of the Other or which questions him, and first opens the perspective of the meaningful.
 The "vision" of the face is inseparable from this offering language is.
 To see the face is to speak of the world.
 Transcendence is not an optics, but the first ethical gesture.
-Separation Is an Economy 
+E. THE WORLD OF PHENOMENA AND EXPRESSION
+1. Separation Is an Economy 
 In affirming separation we are not transposing into an abstract formula the empirical image of a spatial interval which joins its extremities by the very space that separates them.
 Separation must take form outside of this formalism, as an event that is not equivalent to its contrary as soon as it is produced.
 To separate oneself, to not remain bound up with a totality, is positively to be somewhere, in the home, to be economically.
@@ -2870,7 +2871,8 @@ The works symbolize him.
 The symbolism of life and labor symbolizes in that very particular sense Freud discovered in all our conscious manifestations and in our dreams, and which is the essence of every sign, its primordial definition: it reveals only in concealing.
 In this sense the signs constitute and protect my privacy.
 To be expressed by one’s life, by one’s works, is precisely to decline expression.
-Labor remains economic; it comes from the home and returns to it, a movement of Odyssey where the adventure pursued in the world is but the accident of a return.
+Labor remains economic; 
+it comes from the home and returns to it, a movement of Odyssey where the adventure pursued in the world is but the accident of a return.
 Absolutely speaking, the interpretation of the symbol can assuredly lead to an intention divined; but we penetrate into this interior world as by burglary and without conjuring the absence.
 The word alone—but disengaged from its density as a linguistic product —can put an end to this absence.
 2. Works and Expression 
@@ -2889,25 +2891,18 @@ The face is not a modality of quiddity, an answer to a question, but the correla
 What is prior to every question is not in its turn a question nor a knowledge possessed a priori, but is Desire.
 The who correlative of Desire, the who to whom the question is put, is, in metaphysics, a "notion" as fundamental and as universal as quiddity and being and the existent and the categories.
 To be sure, most of the time the who is a what.
-We ask "Who is Mr.
-X?"
- and we answer: "He is the President of the State Council," or "He is Mr.
-So-and-so."
- The answer presents itself as a quiddity; it refers to a system of relations.
-To the question who?
-answers the non-qualifiable presence of an existent who presents himself without reference to anything, and yet distinguishes himself from every other existent.
-The question who?
-envisages a face.
+We ask "Who is Mr. X?"  and we answer: "He is the President of the State Council," or "He is Mr. So-and-so."
+The answer presents itself as a quiddity; it refers to a system of relations.
+To the question who? answers the non-qualifiable presence of an existent who presents himself without reference to anything, and yet distinguishes himself from every other existent.
+The question who? envisages a face.
 The notion of the face differs from every represented content.
-If the question who?
-does not question in the same sense as the question what?
-it is that here what one asks and he whom one questions coincide.
-To aim at a face is to put the question who?
-to the very face that is the answer to this question; the answerer and the answered coincide.
+If the question who? does not question in the same sense as the question what? it is that here what one asks and he whom one questions coincide.
+To aim at a face is to put the question who? to the very face that is the answer to this question; 
+the answerer and the answered coincide.
 The face, preeminently expression, formulates the first word: the signifier arising at the thrust of his sign, as eyes that look at you.
 The who involved in activity is not expressed in the activity, is not present, does not attend his own manifestation, but is simply signified in it by a sign in a system of signs, that is, as a being who is manifested precisely as absent from his manifestation: a manifestation in the absence of being—a phenomenon.
 When we understand man on the basis of his works he is more surprised than understood.
-70 His life and his labor mask him.
+His life and his labor mask him.
 As symbols they call for interpretation.
 Here phenomenality does not simply designate a relativity of knowledge, but a mode of being where nothing is ultimate, where everything is a sign, a present absenting itself from its presence and in this sense a dream.
 With the exteriority that is not that of things symbolism disappears and the order of being begins, and a day dawns from whose depths no new day is to dawn.
@@ -2978,14 +2973,18 @@ Society is the presence of being.
 Being, the thing in itself, is not, with respect to the phenomenon, the hidden.
 Its presence presents itself in its word.
 To posit the thing in itself as hidden would be to suppose that it is with respect to the phenomenon what the phenomenon is to the appearance.
-The truth of disclosure is at most the truth of the phenomenon hidden under the appearances; the truth of the thing in itself is not disclosed.
+The truth of disclosure is at most the truth of the phenomenon hidden under the appearances; 
+the truth of the thing in itself is not disclosed.
 The thing in itself expresses itself.
 Expression manifests the presence of being, but not by simply drawing aside the veil of the phenomenon.
 It is of itself presence of a face, and hence appeal and teaching, entry into relation with me—the ethical relation.
-And expression does not manifest the presence of being by referring from the sign to the signified; it presents the signifies The signifier, he who gives a sign, is not signified.
+And expression does not manifest the presence of being by referring from the sign to the signified; 
+it presents the signifies 
+The signifier, he who gives a sign, is not signified.
 It is necessary to have already been in the society of signifiers for the sign to be able to appear as a sign.
 Hence the signifier must present himself before every sign, by himself—present a face.
-Speech is an incomparable manifestation: it does not accomplish the movement from the sign to the signifier and the signified; it unlocks what every sign closes up at the very moment it opens the passage that leads to the signified, by making the signifier attend this manifestation of the signified.
+Speech is an incomparable manifestation: it does not accomplish the movement from the sign to the signifier and the signified; 
+it unlocks what every sign closes up at the very moment it opens the passage that leads to the signified, by making the signifier attend this manifestation of the signified.
 This attendance measures the surplus of spoken language over written language, which has again become signs.
 Signs are a mute language, a language impeded.
 Language does not group symbols into systems, but deciphers the symbols.
@@ -3012,16 +3011,16 @@ The surpassing of phenomenal or inward existence does not consist in receiving t
 To be in oneself is to express oneself, that is, already to serve the Other.
 The ground of expression is goodness.
 To be KaO’aM is to be good .
-SECTION III EXTERIORITY AND THE FACE    A.
-SENSIBILITY AND THE FACE Is not the face given to vision?
+SECTION III EXTERIORITY AND THE FACE    
+A. SENSIBILITY AND THE FACE 
+Is not the face given to vision?
 How does the epiphany as a face determine a relationship different from that which characterizes all our sensible experience ?
 The idea of intentionality has compromised the idea of sensation by removing the character of being a concrete datum from this allegedly purely qualitative and subjective state, foreign to all objectification.
 Already the classical analysis had shown, from a psychological point of view, its constructed character—the sensation graspable by introspection is already a perception.
 It was said that we always find ourselves among things: color is always extended and objective, the color of a dress, a lawn, a wall; sound is a noise of a passing car, or a voice of someone speaking.
 In fact nothing psychological would correspond to the simplicity of the physiological definition of sensation.
-Sensation as a simple quality floating in the air or in our soul represents an abstraction because, without the object to which it refers, quality can have the signification of being a quality only in a relative sense: by turning over a painting we can see the colors of the objects painted as colors in themselves—but in fact already as colors of the canvas that bears them.
-—Unless their purely aesthetic effect would consist in this detachment from the object ....
-But then sensation would result from a long thought process.
+Sensation as a simple quality floating in the air or in our soul represents an abstraction because, without the object to which it refers, quality can have the signification of being a quality only in a relative sense: by turning over a painting we can see the colors of the objects painted as colors in themselves—but in fact already as colors of the canvas that bears them. 
+Unless their purely aesthetic effect would consist in this detachment from the object .... But then sensation would result from a long thought process.
 This critique of sensation failed to recognize the plane on which the sensible life is lived as enjoyment.
 This mode of life is not to be interpreted in function of objectification.
 Sensibility is not a fumbling objectification.
