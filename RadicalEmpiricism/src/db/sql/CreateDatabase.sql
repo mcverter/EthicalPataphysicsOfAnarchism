@@ -4,8 +4,8 @@ CREATE DATABASE RadicalEmpiricism if not exists;
  *    DATA TABLES 
  *
  *************************************************/
-CREATE TABLE sentences if not exists (
-	id INT AUTO_INCREMENT PRIMARY,
+CREATE TABLE if not exists sentences  (
+	id SERIAL PRIMARY KEY,
 	English TEXT NOT NULL,
 	French TEXT NOT NULL,
 	Book TEXT
