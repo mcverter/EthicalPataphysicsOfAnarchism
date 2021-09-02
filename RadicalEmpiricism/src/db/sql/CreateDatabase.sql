@@ -1,4 +1,4 @@
-CREATE DATABASE RadicalEmpiricism if not exists;
+CREATE DATABASE RadicalEmpiricism    ENCODING 'UTF8';
 /*************************************************
  *
  *    DATA TABLES 
