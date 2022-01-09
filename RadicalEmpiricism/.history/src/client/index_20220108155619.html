@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>React Hello World</title>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      let ROOT_URL = "http://localhost:8080/data/sentences/";
+      //  "https://github.com/mcverter/EthicalPataphysicsOfAnarchism/tree/master/RadicalEmpiricism/src/data/sentences/";
+      let TIFrenchSentences, TIEnglishSentences;
+      axios({
+        headers: { "Access-Control-Allow-Origin": "*" },
+        method: "get",
+        url: `${ROOT_URL}TIFrenchSentences.txt`,
+      }).then(function (response) {
+        TIFrenchSentences = response.data.split("\n");
+        console.log(TIFrenchSentences);
+      });
+      axios({
+        headers: { "Access-Control-Allow-Origin": "*" },
+        method: "get",
+        url: `${ROOT_URL}TIEnglishSentences.txt`,
+      }).then(function (response) {
+        TIEnglishSentences = response.data.split("\n");
+        console.log(TIEnglishSentences);
+      });
+
+      //      console.log("boo");
+      //    };
+      //      foo();
+      /*  
+              })
+              .catch((err) => console.error("error", error));
+            fetch(
+              //   proxyurl +
+              "https://www.waste.org/~roadrunner/EthicalPataphysicsOfAnarchism/RadicalEmpiricism/src/data/sentences/TIEnglishSentences.txt"
+            )
+              .then((response) => response.text())
+              .then((contents) => {
+                debugger;
+                TIEnglishSentences = contents;
+              })
+              .catch((err) => {
+                debugger;
+                console.error("error", err);
+              });
+      */
+      function loadReactApp() {
+        class Greetings extends React.Component {
+          render() {
+            return <div>hello world</div>;
+          }
+        }
+
+        ReactDOM.render(
+          React.createElement(Greetings, { name: "Chris" }),
+          document.getElementById("root")
+        );
+      }
+    </script>
+    <script>
+      window.onload = loadReactApp();
+    </script>
+  </body>
+</html>
