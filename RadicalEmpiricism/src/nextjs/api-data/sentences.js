@@ -1,5 +1,5 @@
-const TIEnglishSentences = require("../api-data/sentences/TIEnglishSentences");
-const TIFrenchSentences = require("../api-data/sentences/TIFrenchSentences");
+const TIEnglishSentences = require("./sentences/TIEnglishSentences");
+const TIFrenchSentences = require("./sentences/TIFrenchSentences");
 
 function selectWordSentences(book, word) {
   if (book === "otb") {

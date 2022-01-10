@@ -1,4 +1,4 @@
-﻿module.exports = [
+﻿const lines = [
   "Preface",
   "On conviendra aisément qu’il importe au plus haut point de savoir si l’on n’est pas dupe de la morale.",
   "La lucidité ouverture de l’esprit sur le vrai ne consiste-t-elle pas à entrevoir la possibilité permanente de la guerre?",
@@ -5045,3 +5045,5 @@
   "Il assume le temps fini, la mort-fin ou la mort-transition qui n’arrête pas la continuation d’un être sans discontinuité.",
   "L’existence héroïque, l’âme isolée peut faire son salut en cherchant pour elle-même une vie éternelle comme si sa subjectivité pouvait ne pas se retourner contre elle en retournant à soi dans un temps continu, comme si, dans ce temps continu, l’identité elle-même ne s’affirmait pas comme une obsession, comme si dans l’identité qui demeure au sein des plus extravagants avatars, ne triomphait pas « l’ennui, fruit de la morne incuriosité qui prend les proportions de l’immortalité ».",
 ];
+
+export default lines;

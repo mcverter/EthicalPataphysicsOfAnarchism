@@ -8,7 +8,7 @@ import { TranslationRow } from "../components/TranslationCell";
 import Select from "react-select";
 import {otbFrequencyList, tiFrequencyList, alphabeticalList, combinedFrequencyList} from '../scripts/parseWordFiles'
 
-let ROOT_URL = "http://localhost:8080/src/data/sentences/";
+let ROOT_URL = "http://google.com";
 let TIFrenchSentences, TIEnglishSentences;
 const tiFrenchArr = tiFrench.split('\n')
 const tiEnglishArr = tiEnglish.split('\n')

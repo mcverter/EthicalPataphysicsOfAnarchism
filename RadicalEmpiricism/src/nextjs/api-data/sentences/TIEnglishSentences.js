@@ -1,4 +1,4 @@
-module.exports = [
+const lines = [
   "Preface",
   "Everyone will readily agree that it is of the highest importance to know whether we are not duped by morality.",
   "Does not lucidity, the mind’s openness upon the true, consist in catching sight of the permanent possibility of war?",
