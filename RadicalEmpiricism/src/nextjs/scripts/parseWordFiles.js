@@ -43,9 +43,6 @@ for (let w in wordMap) {
     wordMap[w].sum = wordMap[w].otb + wordMap[w].ti;
 }
 
-
-console.log(wordMap);
-
 export const alphabeticalList = Object.keys(wordMap)
     .sort((a, b) => a.localeCompare(b))
     .map(w => ({value: `${w}`, label: `${w} (TI) ${wordMap[w].ti} (OTB) ${wordMap[w].otb} (Both) ${wordMap[w].ti}`})).slice(0,100);
