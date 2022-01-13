@@ -1,7 +1,0 @@
-alter table tblWord drop column WordID, add ADD WordID INT UNSIGNED NOT NULL AUTO_INCREMENT, ADD PRIMARY KEY (WordID);
-
-alter table tblRadical drop column RadicalID, add ADD RadicalID INT UNSIGNED NOT NULL AUTO_INCREMENT, ADD PRIMARY KEY (RadicalID);
-
-alter table tblBaseRadicalJunction drop column JunctionID, add ADD JunctionID INT UNSIGNED NOT NULL AUTO_INCREMENT, ADD PRIMARY KEY (JunctionID);
-
-alter table tblWordType drop column WordTypeID, add ADD WordTypeID INT UNSIGNED NOT NULL AUTO_INCREMENT, ADD PRIMARY KEY (WordTypeID);

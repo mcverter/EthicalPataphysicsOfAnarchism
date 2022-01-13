@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+table, td, tr {
+  border: 1px solid #eaeaea;
+  padding: 5px;
+}
