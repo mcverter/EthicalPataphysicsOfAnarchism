@@ -23,9 +23,11 @@ for (let i = 0; i < tiFrenchArr.length; i++) {
 
 export default function Home() {
     //useEffect(() => fetchSentences());
-    const [combinedTISentences, setCombinedTISentences] = useState(
-        tiCombinedArr
-    );
+    const [combinedTISentences, setCombinedTISentences] = useState([{
+        line: 0,
+        english: 'Search for a word to see the words that match',
+        french: 'Chercher un mot pour trouver les lines'
+    }]);
     const [selectedOption, setSelectedOption] = useState(null);
     const [options, setOptions] = useState(combinedFrequencyList)
 
@@ -68,27 +70,4 @@ export default function Home() {
             </main>
         </div>
     );
-
-    const fetchSentences = () => {
-        axios({
-            headers: {"Access-Control-Allow-Origin": "*"},
-            method: "get",
-            url: `${ROOT_URL}TIFrenchSentences.txt`,
-        })
-            .then(function (response) {
-                TIFrenchSentences = response.data.split("\n");
-                setFrenchTISentences(TIFrenchSentences);
-            })
-            .catch((err) => console.error("err", err));
-        axios({
-            headers: {"Access-Control-Allow-Origin": "*"},
-            method: "get",
-            url: `${ROOT_URL}TIEnglishSentences.txt`,
-        })
-            .then(function (response) {
-                TIEnglishSentences = response.data.split("\n");
-                setEnglishTISentences(TIEnglishSentences);
-            })
-            .catch((err) => console.error("err", err));
-    };
 }
