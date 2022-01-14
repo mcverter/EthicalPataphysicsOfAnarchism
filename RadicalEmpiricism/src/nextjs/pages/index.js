@@ -79,6 +79,7 @@ export default function Home() {
                 <BookRows sentences={combinedTISentences} bookname="TI"/>
                 <BookRows sentences={combinedOTBSentences} bookname="OTB"/>
             </main>
+            <nav>Questions/Comments:  <a style={{color: "blue", textDecoration: "underline"}} target="_blank" href="mailto:roadrunner@waste.org,mitchell.verter@gmail.com?subject=RadicalEmpiricism">Me voici (Mitchell Cowen Verter email)</a></nav>
         </div>
     );
 }
