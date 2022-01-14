@@ -1,25 +1,32 @@
 import React, {useState} from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import axios from "axios";
 import {tiFrench} from "../data/sentences/TIFrenchSentences";
 import {tiEnglish} from "../data/sentences/TIEnglishSentences";
-import {TranslationRow} from "../components/TranslationRow";
+import {otbEnglish} from "../data/sentences/OTBEnglishSentences";
+import {otbFrench} from "../data/sentences/OTBFrenchSentences";
 import Select from "react-select";
 import {otbFrequencyList, tiFrequencyList, alphabeticalList, combinedFrequencyList} from '../data/words/parseWordFiles'
+import {BookRows} from "../components/BookRows";
 
-let TIFrenchSentences, TIEnglishSentences;
-const tiFrenchArr = tiFrench.split('\n')
-const tiEnglishArr = tiEnglish.split('\n')
-
-const tiCombinedArr = []
-for (let i = 0; i < tiFrenchArr.length; i++) {
-    tiCombinedArr.push({
-        line: i + 1,
-        english: tiEnglishArr[i],
-        french: tiFrenchArr[i]
-    })
+const createCombinedArray = ({englishSentences, frenchSentences}) => {
+    const frenchArray = frenchSentences.split('\n');
+    const englishArray = englishSentences.split('\n');
+    const combinedArray = []
+    for (let i = 0; i < frenchArray.length; i++) {
+        combinedArray.push({
+            line: i + 1,
+            english: englishArray[i],
+            french: frenchArray[i]
+        })
+    }
+    return combinedArray;
 }
+
+const tiCombinedArr = createCombinedArray({englishSentences: tiEnglish, frenchSentences: tiFrench});
+
+const otbCombinedArr = createCombinedArray({englishSentences: otbEnglish, frenchSentences: otbFrench});
+
 
 const defaultSentence = {
     line: 0,
@@ -28,8 +35,8 @@ const defaultSentence = {
 }
 
 export default function Home() {
-    //useEffect(() => fetchSentences());
     const [combinedTISentences, setCombinedTISentences] = useState([defaultSentence]);
+    const [combinedOTBSentences, setCombinedOTBSentences] = useState([defaultSentence]);
     const [selectedOption, setSelectedOption] = useState(null);
     const [options, setOptions] = useState(combinedFrequencyList)
 
@@ -37,12 +44,16 @@ export default function Home() {
         setSelectedOption(w);
         const {value} = w;
         if (value.length > 2) {
-            const combiledFiltered = tiCombinedArr.filter(s => {
-               const pattern = value;
+            const pattern = value;
+            const tiCombinedFiltered = tiCombinedArr.filter(s => {
+                return s.french.match(pattern)
+            })
+            const otbCombinedFiltered = otbCombinedArr.filter(s => {
                 return s.french.match(pattern)
             })
 
-            setCombinedTISentences(combiledFiltered)
+            setCombinedTISentences(tiCombinedFiltered)
+            setCombinedOTBSentences(otbCombinedFiltered)
         }
     }
 
@@ -60,16 +71,8 @@ export default function Home() {
                     options={options}
                     isSearchable={true}
                 />
-                <table>
-                {combinedTISentences && combinedTISentences.map(tca =>
-                    <TranslationRow
-                        idx={tca.line}
-                        book={"ti"}
-                        english={tca.english}
-                        french={tca.french}
-                    />)
-                }
-                </table>
+                <BookRows sentences={combinedTISentences} bookname="TI" />
+                <BookRows sentences={combinedOTBSentences} bookname="OTB" />
             </main>
         </div>
     );
