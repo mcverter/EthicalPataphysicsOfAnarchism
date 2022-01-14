@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table, td, tr {
+  padding: 5px;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 2px;
+
+  .line-number {
+    text-align: right;
+    background: #fafafa;
+
+  }
+  .french {
+    background: #F6F2E2;
+    color: #717B87;
+    border: 5px solid #958393;
+  }
+
+  &.english {
+    background: #FAEBD7;
+    color: #2D2C5D;
+    border: 5px solid #3A3A6B;
+  }
+}
+
+
+

@@ -21,13 +21,15 @@ for (let i = 0; i < tiFrenchArr.length; i++) {
     })
 }
 
+const defaultSentence = {
+    line: 0,
+    english: "Search sentences for matching words",
+    french: "Rechercher des phrases pour les mots correspondants"
+}
+
 export default function Home() {
     //useEffect(() => fetchSentences());
-    const [combinedTISentences, setCombinedTISentences] = useState([{
-        line: 0,
-        english: 'Search for a word to see the words that match',
-        french: 'Chercher un mot pour trouver les lines'
-    }]);
+    const [combinedTISentences, setCombinedTISentences] = useState([defaultSentence]);
     const [selectedOption, setSelectedOption] = useState(null);
     const [options, setOptions] = useState(combinedFrequencyList)
 
@@ -37,7 +39,6 @@ export default function Home() {
         if (value.length > 2) {
             const combiledFiltered = tiCombinedArr.filter(s => {
                const pattern = value;
-//                const pattern = new RegExp(`[^ ,."\?!:;]${w.value}[$ ,."\?!:;]`);
                 return s.french.match(pattern)
             })
 
@@ -59,6 +60,7 @@ export default function Home() {
                     options={options}
                     isSearchable={true}
                 />
+                <table>
                 {combinedTISentences && combinedTISentences.map(tca =>
                     <TranslationRow
                         idx={tca.line}
@@ -67,6 +69,7 @@ export default function Home() {
                         french={tca.french}
                     />)
                 }
+                </table>
             </main>
         </div>
     );
