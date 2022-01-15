@@ -7,16 +7,17 @@ const LongBooknameMap = {
     "OTB": "Otherwise than Being //Autrement qu'être",
 }
 
-export const BookRows = ({bookname, sentences}) => (
-    <Collapsible open={true} trigger={LongBooknameMap[bookname]} className={bookname.toLowerCase()}>
+export const BookRows = ({book, sentences}) => (
+    <Collapsible open={true} trigger={LongBooknameMap[book]} className={book.toLowerCase()}>
         <div style={{maxHeight: 300, overflow: "scroll"}}>
             <table>
                 {sentences && sentences.map(s =>
                     <TranslationRow
                         idx={s.line}
-                        book={bookname}
+                        book={book}
                         english={s.english}
                         french={s.french}
+                        key={`${book}${s.line}`}
                     />)
                 }
             </table>

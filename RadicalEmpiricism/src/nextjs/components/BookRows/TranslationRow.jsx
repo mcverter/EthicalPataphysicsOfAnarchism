@@ -11,7 +11,7 @@ import React from "react";
  */
 export const TranslationRow = ({idx, book, english, french}) => {
   return (
-  <tr id={book + idx} key={book + idx}>
+  <tr>
     <td width="4%" >{book}#{idx}</td>
     <td width="48%" className="english"> {english} </td>
     <td width="48%" className="french"> {french} </td>

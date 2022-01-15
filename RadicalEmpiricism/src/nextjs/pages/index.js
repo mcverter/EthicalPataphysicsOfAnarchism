@@ -6,8 +6,8 @@ import {tiEnglish} from "../data/sentences/TIEnglishSentences";
 import {otbEnglish} from "../data/sentences/OTBEnglishSentences";
 import {otbFrench} from "../data/sentences/OTBFrenchSentences";
 import {otbFrequencyList, tiFrequencyList, combinedFrequencyList, alphabeticalList} from '../data/words/parseWordFiles'
-import {BookRows} from "../components/BookRows";
-import {WordSearchForm} from "../components/WordSearchForm";
+import {BookRows} from "../components/BookRows/BookRows";
+import {WordSearchForm} from "../components/WordSearchForm/WordSearchForm";
 import {Introduction} from "../components/Introduction";
 
 const createCombinedArray = ({englishSentences, frenchSentences}) => {
@@ -76,8 +76,8 @@ export default function Home() {
                 <Introduction french="Levinas Empirisme Radical" english="Levinas Radical Empiricism"/>
                 <WordSearchForm options={options} changeSelectedWord={changeSelectedWord}
                                 selectedOption={selectedOption} onChangeFrequencyOrder={changeWordFrequencyOrder}/>
-                <BookRows sentences={combinedTISentences} bookname="TI"/>
-                <BookRows sentences={combinedOTBSentences} bookname="OTB"/>
+                <BookRows sentences={combinedTISentences} book="TI"/>
+                <BookRows sentences={combinedOTBSentences} book="OTB"/>
             </main>
             <nav>Questions/Comments:  <a style={{color: "blue", textDecoration: "underline"}} target="_blank" href="mailto:roadrunner@waste.org,mitchell.verter@gmail.com?subject=RadicalEmpiricism">Me voici (Mitchell Cowen Verter email)</a></nav>
         </div>

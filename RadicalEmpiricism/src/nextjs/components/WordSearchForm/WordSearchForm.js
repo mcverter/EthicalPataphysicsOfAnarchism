@@ -4,7 +4,7 @@ import React from "react";
 export const WordSearchForm = ({selectedOption, changeSelectedWord, options, onChangeFrequencyOrder}) => (
     <div style={{padding: '5px', border: '5px solid #eaeaea', margin: 15}}>
         <form>
-            <label for="select-word" style={{fontSize: 24, fontWeight: 700, lineHeight: 1.5}}> Search /
+            <label htmlFor="select-word" style={{fontSize: 24, fontWeight: 700, lineHeight: 1.5}}> Search /
                 Chercher </label>
 
             <Select
