@@ -14,6 +14,7 @@ import {
 import { BookRows } from "../components/BookRows/BookRows";
 import { WordSearchForm } from "../components/WordSearchForm/WordSearchForm";
 import { Introduction } from "../components/Introduction";
+import { WordData } from "../components/WordData";
 
 const createCombinedArray = ({ englishSentences, frenchSentences }) => {
   const frenchArray = frenchSentences.split("\n");
@@ -103,6 +104,7 @@ export default function Home() {
           selectedOption={selectedOption}
           onChangeFrequencyOrder={changeWordFrequencyOrder}
         />
+        {selectedOption && <WordData word={selectedOption.value} />}
         <BookRows sentences={combinedTISentences} book="TI" />
         <BookRows sentences={combinedOTBSentences} book="OTB" />
       </main>
