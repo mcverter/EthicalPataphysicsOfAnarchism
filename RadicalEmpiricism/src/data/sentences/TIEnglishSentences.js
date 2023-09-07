@@ -1,4 +1,4 @@
-export const tiEnglish = `Preface
+const tiEnglish = `Preface
 Everyone will readily agree that it is of the highest importance to know whether we are not duped by morality.
 Does not lucidity, the mind’s openness upon the true, consist in catching sight of the permanent possibility of war?
 The state of war suspends morality; it divests the eternal institutions and obligations of their eternity and rescinds ad interim the unconditional imperatives.
@@ -5044,3 +5044,6 @@ Such a being confronts death out of pure courage and whatever be the cause for w
 He assumes finite time, the death-end or the death-transition, which do not arrest the continuation of a being without discontinuity.
 The heroic existence, the isolated soul, can gain its salvation in seeking an eternal life for itself, as though its subjectivity, returning to itself in a continuous time, could not be turned against it—as though in this continuous time identity itself would not be affirmed obsessively, as though in the identity that remains in the midst of the most extravagant avatars "tedium, fruit of the mournful incuriosity that takes on the proportions of immortality" did not triumph .
 `;
+
+
+module.exports = { tiEnglish };

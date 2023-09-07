@@ -1,4 +1,4 @@
-﻿export const otbEnglish = `THE ARGUMENT 
+﻿const otbEnglish = `THE ARGUMENT 
 CHAPTER I ESSENCE AND DISINTEREST 
 BEINGS "OTHER" 
 If transcendence has meaning, it can only signify the fact that the event of being, the esse, the essence,' passes over to what is other than being.
@@ -3249,3 +3249,5 @@ This relaxation of virility without cowardice is needed for the little cruelty o
 That is the meaning that should be suggested by the formulas repeated in this book concerning the passivity more passive still than any passivity, the fission of the ego unto me, its consummation for the other such that from the ashes of this consummation no act could be reborn.
 In this work which does not seek to restore any ruined concept, the destitution and the desituating of the subject do not remain without signification: after the death of a certain god inhabiting the world behind the scenes, the substitution of the hostage discovers the trace, the unpronounceable inscription, of what, always already past, always "he," does not enter into any present, to which are suited not the nouns designating beings, or the verbs in which their essence resounds, but that which, as a pronoun, marks with its seal all that a noun can convey.
 `
+
+module.exports = { otbEnglish }

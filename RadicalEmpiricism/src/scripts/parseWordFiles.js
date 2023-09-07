@@ -1,5 +1,5 @@
-import {tiWords} from './TIWords'
-import {otbWords }from './OTBWords'
+const {tiWords} = require( '../data/words/TIWords');
+const {otbWords } = require( '../data/words/OTBWords');
 
 const wordMap = {};
 
@@ -44,20 +44,26 @@ const tiFreq = (word) => `(TI) ${wordMap[word].ti}`;
 const bothFreq = (word) => `(Both) ${wordMap[word].sum}`;
 const otbFreq = (word) => `(OTB) ${wordMap[word].otb}`;
 
-export const alphabeticalList = Object.keys(wordMap)
+const alphabeticalList = Object.keys(wordMap)
     .sort((a, b) => a.localeCompare(b))
     .map(w => ({value: `${w}`, label: `${w} ${bothFreq(w)} ${tiFreq(w)} ${otbFreq(w)}`})).slice(0,1000);
 
-export const combinedFrequencyList = Object.keys(wordMap)
+const combinedFrequencyList = Object.keys(wordMap)
     .sort((a, b) => (wordMap[b].sum) - (wordMap[a].sum))
     .map(w => ({value: `${w}`, label: `${w} ${bothFreq(w)} ${tiFreq(w)} ${otbFreq(w)}`})).slice(0,1000);
 
-export const tiFrequencyList = Object.keys(wordMap)
+const tiFrequencyList = Object.keys(wordMap)
     .sort((a, b) => wordMap[b].ti - wordMap[a].ti)
     .map(w => ({value: `${w}`, label: `${w} ${tiFreq(w)} ${otbFreq(w)} ${bothFreq(w)}`})).slice(0,1000);
 
-export const otbFrequencyList = Object.keys(wordMap)
+const otbFrequencyList = Object.keys(wordMap)
     .sort((a, b) => wordMap[b].otb - wordMap[a].otb)
     .map(w => ({value: `${w}`, label: `${w} ${otbFreq(w)} ${tiFreq(w)} ${bothFreq(w)}`})).slice(0,1000);
 
-
+console.log(tiWords, alphabeticalList, tiFrequencyList, otbFrequencyList);
+module.exports = {
+    tiWords,
+    alphabeticalList,
+    tiFrequencyList,
+    otbFrequencyList
+}
