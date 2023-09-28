@@ -1,5 +1,4 @@
 from django.db import models
-from django.core.validators import MinLengthValidator
 
 
 # Create your models here.
@@ -70,4 +69,3 @@ class Word(models.Model):
     partOfSpeech: models.ForeignKey(PartOfSpeech)
     etymologicalRoot: models.ForeignKey(EtymologicalRoot)
     semanticCategories: models.ManyToManyField(SemanticCategory)
-

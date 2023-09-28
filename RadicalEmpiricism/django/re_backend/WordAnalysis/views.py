@@ -4,11 +4,9 @@ from django.urls import reverse
 from django.views.generic import ListView
 from django.views import View
 
-from .models import Post
-from .forms import CommentForm
+from .models import Word, SemanticCategory, EtymologicalRoot, VerbType, NounType, Prefix, Suffix, PartOfSpeech
 
 # Create your views here.
-
 
 class StartingPageView(ListView):
     template_name = "WordAnalysis/index.html"
@@ -22,6 +20,20 @@ class StartingPageView(ListView):
         return data
 
 
+class AllWordsView(ListView):
+    template_name = "WordAnalysis/all-posts.html"
+    model = Post
+    ordering = ["-date"]
+    context_object_name = "all_posts"
+
+
+class ToutesMotsView(ListView):
+    template_name = "WordAnalysis/all-posts.html"
+    model = Post
+    ordering = ["-date"]
+    context_object_name = "all_posts"
+
+
 class AllPostsView(ListView):
     template_name = "WordAnalysis/all-posts.html"
     model = Post
@@ -33,15 +45,15 @@ class SinglePostView(View):
     def is_stored_post(self, request, post_id):
         stored_posts = request.session.get("stored_posts")
         if stored_posts is not None:
-          is_saved_for_later = post_id in stored_posts
+            is_saved_for_later = post_id in stored_posts
         else:
-          is_saved_for_later = False
+            is_saved_for_later = False
 
         return is_saved_for_later
 
     def get(self, request, slug):
         post = Post.objects.get(slug=slug)
-        
+
         context = {
             "post": post,
             "post_tags": post.tags.all(),
@@ -82,26 +94,25 @@ class ReadLaterView(View):
             context["posts"] = []
             context["has_posts"] = False
         else:
-          posts = Post.objects.filter(id__in=stored_posts)
-          context["posts"] = posts
-          context["has_posts"] = True
+            posts = Post.objects.filter(id__in=stored_posts)
+            context["posts"] = posts
+            context["has_posts"] = True
 
         return render(request, "WordAnalysis/stored-posts.html", context)
-
 
     def post(self, request):
         stored_posts = request.session.get("stored_posts")
 
         if stored_posts is None:
-          stored_posts = []
+            stored_posts = []
 
         post_id = int(request.POST["post_id"])
 
         if post_id not in stored_posts:
-          stored_posts.append(post_id)
+            stored_posts.append(post_id)
         else:
-          stored_posts.remove(post_id)
+            stored_posts.remove(post_id)
 
         request.session["stored_posts"] = stored_posts
-        
+
         return HttpResponseRedirect("/")
