@@ -15,7 +15,7 @@ def populate_my_table(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('myapp', 'the_table_migration'),
+        ('WordAnalysis', '0001_initial'),
     ]
 
     operations = [
