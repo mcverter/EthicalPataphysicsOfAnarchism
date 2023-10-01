@@ -9,9 +9,10 @@ urlpatterns = [
     path("mots", views.ToutesMotsView.as_view(), name="toutes-mots-view"),
 
 
-
+'''
     path("posts/<slug:slug>", views.SinglePostView.as_view(),
          name="post-detail-page"),  # /posts/my-first-post
 
     path("read-later", views.ReadLaterView.as_view(), name="read-later")
+'''
 ]
