@@ -8,12 +8,9 @@ def populate_my_table(apps, schema_editor):
     with (open(WORD_MAP_FILE, "r", encoding="utf-8") as f):
         lines = f.readlines()
         for line in lines:
-            word = Word()
             (french, ti, otb) = line.split(',')
-            word.french = french
-            word.ti = ti
-            word.otb = otb
-            word.save()
+            w = Word(french=french, ti=ti, otb=otb)
+            w.save()
 
 class Migration(migrations.Migration):
 

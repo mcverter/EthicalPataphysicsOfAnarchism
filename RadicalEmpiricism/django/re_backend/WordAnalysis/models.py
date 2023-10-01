@@ -45,8 +45,8 @@ class PartOfSpeech(models.Model):
     english: models.CharField(max_length=100)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
-    verbType: models.ForeignKey(VerbType)
-    nounType: models.ForeignKey(NounType)
+    verbType: models.ForeignKey(VerbType, on_delete=models.SET_NULL)
+    nounType: models.ForeignKey(NounType, on_delete=models.SET_NULL)
 
     def __str__(self):
         return self.french
@@ -77,10 +77,10 @@ class Word(models.Model):
     english_explanation: models.TextField()
     ti: models.IntegerField()
     otb: models.IntegerField()
-    prefix: models.ForeignKey(Prefix)
-    suffix: models.ForeignKey(Suffix)
-    partOfSpeech: models.ForeignKey(PartOfSpeech)
-    etymologicalRoot: models.ForeignKey(EtymologicalRoot)
+    prefix: models.ForeignKey(Prefix, on_delete=models.SET_NULL)
+    suffix: models.ForeignKey(Suffix, on_delete=models.SET_NULL)
+    partOfSpeech: models.ForeignKey(PartOfSpeech, on_delete=models.SET_NULL)
+    etymologicalRoot: models.ForeignKey(EtymologicalRoot, on_delete=models.SET_NULL)
     semanticCategories: models.ManyToManyField(SemanticCategory)
 
     def __str__(self):
