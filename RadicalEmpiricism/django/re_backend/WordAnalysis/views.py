@@ -6,41 +6,80 @@ from django.views import View
 
 from .models import Word, SemanticCategory, EtymologicalRoot, VerbType, NounType, Prefix, Suffix, PartOfSpeech
 
+
+class AllPartOfSpeechView(ListView):
+    template_name = ""
+    model = PartOfSpeech
+    ordering = ["-french"]
+    context_object_name = "all_words"
+
+
+class AllPrefixView(ListView):
+    template_name = ""
+    model = Prefix
+    ordering = ["-french"]
+    context_object_name = "all_words"
+
+
+class AllSuffixView(ListView):
+    template_name = ""
+    model = Suffix
+    ordering = ["-french"]
+    context_object_name = "all_words"
+
+
 # Create your views here.
+class AllNounTypeView(ListView):
+    template_name = ""
+    model = NounType
+    ordering = ["-french"]
+    context_object_name = "all_words"
 
-class StartingPageView(ListView):
-    template_name = "WordAnalysis/index.html"
-    model = Post
-    ordering = ["-date"]
-    context_object_name = "posts"
 
-    def get_queryset(self):
-        queryset = super().get_queryset()
-        data = queryset[:3]
-        return data
+class AllVerbTypeView(ListView):
+    template_name = ""
+    model = VerbType
+    ordering = ["-french"]
+    context_object_name = "all_words"
+
+
+# Create your views here.
+class AllEtymologicalRootView(ListView):
+    template_name = ""
+    model = EtymologicalRoot
+    ordering = ["-french"]
+    context_object_name = "all_words"
+
+
+class AllSemanticCategoriesView(ListView):
+    template_name = ""
+    model = SemanticCategory
+    ordering = ["-french"]
+    context_object_name = "all_words"
 
 
 class AllWordsView(ListView):
-    template_name = "WordAnalysis/all-posts.html"
-    model = Post
-    ordering = ["-date"]
-    context_object_name = "all_posts"
+    template_name = ""
+    model = Word
+    ordering = ["-french"]
+    context_object_name = "all_words"
 
 
 class ToutesMotsView(ListView):
-    template_name = "WordAnalysis/all-posts.html"
-    model = Post
-    ordering = ["-date"]
+    template_name = ""
+    model = Word
+    ordering = ["-french"]
     context_object_name = "all_posts"
 
 
-class AllPostsView(ListView):
-    template_name = "WordAnalysis/all-posts.html"
-    model = Post
-    ordering = ["-date"]
+class AllWordsEnglishView(ListView):
+    template_name = ""
+    model = Word
+    ordering = ["-english"]
     context_object_name = "all_posts"
 
 
+'''
 class SinglePostView(View):
     def is_stored_post(self, request, post_id):
         stored_posts = request.session.get("stored_posts")
@@ -84,35 +123,14 @@ class SinglePostView(View):
         return render(request, "WordAnalysis/post-detail.html", context)
 
 
-class ReadLaterView(View):
-    def get(self, request):
-        stored_posts = request.session.get("stored_posts")
+class StartingPageView(ListView):
+    template_name = ""
+    model = Post
+    ordering = ["-date"]
+    context_object_name = "posts"
 
-        context = {}
-
-        if stored_posts is None or len(stored_posts) == 0:
-            context["posts"] = []
-            context["has_posts"] = False
-        else:
-            posts = Post.objects.filter(id__in=stored_posts)
-            context["posts"] = posts
-            context["has_posts"] = True
-
-        return render(request, "WordAnalysis/stored-posts.html", context)
-
-    def post(self, request):
-        stored_posts = request.session.get("stored_posts")
-
-        if stored_posts is None:
-            stored_posts = []
-
-        post_id = int(request.POST["post_id"])
-
-        if post_id not in stored_posts:
-            stored_posts.append(post_id)
-        else:
-            stored_posts.remove(post_id)
-
-        request.session["stored_posts"] = stored_posts
-
-        return HttpResponseRedirect("/")
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        data = queryset[:3]
+        return data
+'''
