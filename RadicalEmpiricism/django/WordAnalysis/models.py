@@ -3,8 +3,8 @@ from django.db import models
 
 # Create your models here.
 class SemanticCategory(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 
@@ -13,8 +13,8 @@ class SemanticCategory(models.Model):
 
 
 class EtymologicalRoot(models.Model):
-    french: models.CharField(max_length=32)
-    english: models.CharField(max_length=32)
+    french: models.CharField(max_length=32, unique=True, null=True)
+    english: models.CharField(max_length=32, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 
@@ -22,8 +22,8 @@ class EtymologicalRoot(models.Model):
         return self.french
 
 class VerbType(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 
@@ -32,8 +32,8 @@ class VerbType(models.Model):
 
 
 class NounType(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 
@@ -41,8 +41,8 @@ class NounType(models.Model):
         return self.french
 
 class PartOfSpeech(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
     verbType: models.ForeignKey(VerbType, on_delete=models.SET_NULL)
@@ -53,8 +53,8 @@ class PartOfSpeech(models.Model):
 
 
 class Suffix(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 
@@ -62,8 +62,8 @@ class Suffix(models.Model):
         return self.french
 
 class Prefix(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 
@@ -71,8 +71,8 @@ class Prefix(models.Model):
         return self.french
 
 class Word(models.Model):
-    french: models.CharField(max_length=100)
-    english: models.CharField(max_length=100)
+    french: models.CharField(max_length=100, unique=True, null=True)
+    english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
     ti: models.IntegerField()

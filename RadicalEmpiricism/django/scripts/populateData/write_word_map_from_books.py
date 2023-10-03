@@ -20,7 +20,7 @@ def process_book_file(path, book):
         with open(processed_path, "w", encoding="utf-8") as f:
             f.write(sorted_and_cleaned)
 def cleanFileContent(content):
-    content = re.sub('[\.\?\(\)\!\t:;,«»·°”■’“•﻿]', '', content)
+    content = re.sub('[\.\?\(\)\!"\t:;,«»·°”■’“•﻿]', '', content)
     content = re.sub(' ', '\n', content)
     # remove digits
     content = re.sub('\d+', '', content)
