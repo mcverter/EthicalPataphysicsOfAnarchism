@@ -7,18 +7,18 @@ WORD_MAP = {}
 WORD_MAP_PATH = '{}WordMap.txt'.format(BOOKS_PATH)
 
 def process_book_file(path, book):
-    with (open(path, "r", encoding="utf-8") as f):
+    with open(path, "r", encoding="utf-8") as f:
         content = f.read()
         cleaned = cleanFileContent(content)
         cleaned = cleaned.split('\n')
         filter(lambda a: a.length > 0, cleaned)
         addWordsToMap(cleaned, book)
-        sorted = '\n'.join(cleaned)
+        sorted_and_cleaned = '\n'.join(cleaned)
 
         # write out parsed files
         processed_path = re.sub('Original', 'Parsed', path)
         with open(processed_path, "w", encoding="utf-8") as f:
-            f.write(sorted)
+            f.write(sorted_and_cleaned)
 def cleanFileContent(content):
     content = re.sub('[\.\?\(\)\!\t:;,«»·°”■’“•﻿]', '', content)
     content = re.sub(' ', '\n', content)
