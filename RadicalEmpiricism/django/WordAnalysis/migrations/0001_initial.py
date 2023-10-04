@@ -70,8 +70,8 @@ class Migration(migrations.Migration):
                                        ('french_explanation', models.TextField(null=True, unique=True)),
                                        ('english_explanation', models.TextField(null=True, unique=True))]),
         migrations.CreateModel(name='Word',
-                               fields=[('french',
-                                        models.CharField(max_length=100, null=True, unique=True, primary_key=True)),
+
+                               fields=[('french',  models.CharField(max_length=100, primary_key=True)),
                                        ('english', models.CharField(max_length=100, null=True, unique=True)),
                                        ('french_explanation', models.TextField(null=True, unique=True)),
                                        ('english_explanation', models.TextField(null=True, unique=True)),

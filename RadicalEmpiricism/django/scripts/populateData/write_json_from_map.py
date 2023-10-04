@@ -24,7 +24,7 @@ def populate_words_from_map():
                 ti = ti.strip()
                 otb = otb.strip()
 
-                output += '{"model": "WordAnalysis.Word","pk": 1,"fields":{'
+                output += '{"model": "WordAnalysis.Word", "fields":{'
                 output += f'''"french": "{french}","ti": {ti},"otb": {otb}'''
                 output += '''}},'''
 

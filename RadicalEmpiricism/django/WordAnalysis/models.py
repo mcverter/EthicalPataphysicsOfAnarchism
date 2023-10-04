@@ -71,7 +71,7 @@ class Prefix(models.Model):
         return self.french
 
 class Word(models.Model):
-    french: models.CharField(max_length=100, unique=True, null=True)
+    french: models.CharField(max_length=100, unique=True)
     english: models.CharField(max_length=100, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
