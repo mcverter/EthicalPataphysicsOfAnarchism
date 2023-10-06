@@ -34,6 +34,8 @@ with open(word_map_path) as f:
                     cleaned_definition = clean_larousse_definition(definition)
                     all_definitions.append(cleaned_definition)
 
+                cleaned_french = french.replace("'", "''")
+
                 output = f"UPDATE WordAnalysis_word SET french_definition = '{' '.join(all_definitions)}' WHERE french='{french}';\n"
                 g.write(output)
 
