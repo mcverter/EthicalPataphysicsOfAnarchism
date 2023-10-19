@@ -1,16 +1,6 @@
-import os
 import re
 import sqlite3
 
-WORDS_TABLE = 'WordAnalysis_word'
-
-DIR_PATH = os.path.dirname(os.path.realpath(__file__))
-DB_FILE = os.path.join(DIR_PATH, '../db.sqlite3')
-ETYMONLINE_PATH = os.path.join(DIR_PATH, '../data/html/etymonline.html')
-FRENCH_ETYMOLOGY_PATH = os.path.join(DIR_PATH, '../data/html/diccionairedesfrancophones.html')
-
-FRENCH_ETYMOLOGY_SITE = 'https://www.dictionnairedesfrancophones.org/form/survivre'
-ETYMONLINE_SITE ='https://www.etymonline.com/search?q=+relative'
 
 def update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
     setFieldValue = re.sub("'", "''", setFieldValue)

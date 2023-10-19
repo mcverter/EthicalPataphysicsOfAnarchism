@@ -1,10 +1,5 @@
 import re
-
-BOOKS_PATH = 'RadicalEmpiricism/data/books/'
-AUTREMENT = '{}AutrementABBYYOriginal.txt'.format(BOOKS_PATH)
-TOTALITE = '{}TotaliteABBYYOriginal.txt'.format(BOOKS_PATH)
-WORD_MAP = {}
-WORD_MAP_PATH = '{}WordMap.txt'.format(BOOKS_PATH)
+from .constants import WORD_MAP, WORD_MAP_PATH, AUTREMENT, TOTALITE
 
 def process_book_file(path, book):
     with open(path, "r", encoding="utf-8") as f:

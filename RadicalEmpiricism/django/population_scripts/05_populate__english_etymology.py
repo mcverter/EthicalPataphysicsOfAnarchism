@@ -1,8 +1,9 @@
 import re
-from utils import ETYMONLINE_PATH, update_word_table, get_value_string_from_content
+from utils import update_word_table, get_value_string_from_content
+from constants import ETYMONLINE_PATH
 
 
-def add_english_etymology():
+def populate_english_etymology():
     output = ''
     english = 'foo'
 
@@ -13,4 +14,4 @@ def add_english_etymology():
         return output
 
 if __name__ == "__main__":
-     add_english_etymology()
+     populate_english_etymology()

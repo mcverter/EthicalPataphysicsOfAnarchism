@@ -7,11 +7,7 @@ import re
 from larousse_api import larousse
 from utils import update_word_table
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-word_map_path = os.path.join(dir_path, '../../generated/word_map.csv')
-sql_output_file = os.path.join(dir_path, '../../generated/sql/french_definitions.sql')
-
-
+from .constants import WORD_MAP_PATH, SQL_OUTPUT_FILE
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
     definition = definition.replace('\n', ' ')
@@ -21,9 +17,9 @@ def clean_larousse_definition(definition):
 
     return definition
 
-def update_word_tbl__french_definition_sql():
-    with open(word_map_path) as f:
-        with open(sql_output_file, "w", encoding="utf-8") as g:
+def populate_french_definition():
+    with open(WORD_MAP_PATH) as f:
+        with open(SQL_OUTPUT_FILE, "w", encoding="utf-8") as g:
             reader = csv.reader(f)
             output = ''
             for row in reader:
