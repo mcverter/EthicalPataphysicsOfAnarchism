@@ -1,5 +1,5 @@
 import re
-from .constants import WORD_MAP, WORD_MAP_PATH, AUTREMENT, TOTALITE
+from .zzz_constants import WORD_MAP, WORD_MAP_PATH, AUTREMENT, TOTALITE
 
 def process_book_file(path, book):
     with open(path, "r", encoding="utf-8") as f:

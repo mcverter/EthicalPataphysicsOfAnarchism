@@ -1,7 +1,7 @@
 import os
 from english_dictionary.scripts.read_pickle import get_dict
 from utils import select_fields_from_word_table, update_word_table
-from constants import DIR_PATH
+from zzz_constants import DIR_PATH
 def populate_english_definition():
     sql_output_file = os.path.join(DIR_PATH, '../sql/english_definitions.sql')
 

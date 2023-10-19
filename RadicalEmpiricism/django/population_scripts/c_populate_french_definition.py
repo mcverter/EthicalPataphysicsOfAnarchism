@@ -7,7 +7,7 @@ import re
 from larousse_api import larousse
 from utils import update_word_table
 
-from .constants import WORD_MAP_PATH, SQL_OUTPUT_FILE
+from .zzz_constants import WORD_MAP_PATH, SQL_OUTPUT_FILE
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
     definition = definition.replace('\n', ' ')

@@ -1,6 +1,6 @@
 import re
 from utils import update_word_table, get_value_string_from_content
-from constants import ETYMONLINE_PATH
+from zzz_constants import ETYMONLINE_PATH
 
 
 def populate_english_etymology():
