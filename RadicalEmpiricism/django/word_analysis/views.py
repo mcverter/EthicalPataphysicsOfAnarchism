@@ -100,7 +100,7 @@ class SinglePostView(View):
             "comments": post.comments.all().order_by("-id"),
             "saved_for_later": self.is_stored_post(request, post.id)
         }
-        return render(request, "WordAnalysis/post-detail.html", context)
+        return render(request, "word_analysis/post-detail.html", context)
 
     def post(self, request, slug):
         comment_form = CommentForm(request.POST)
@@ -120,7 +120,7 @@ class SinglePostView(View):
             "comments": post.comments.all().order_by("-id"),
             "saved_for_later": self.is_stored_post(request, post.id)
         }
-        return render(request, "WordAnalysis/post-detail.html", context)
+        return render(request, "word_analysis/post-detail.html", context)
 
 
 class StartingPageView(ListView):

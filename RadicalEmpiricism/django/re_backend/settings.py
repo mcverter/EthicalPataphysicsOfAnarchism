@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "WordAnalysis",
+    "word_analysis",
     'import_export',
 ]
 
