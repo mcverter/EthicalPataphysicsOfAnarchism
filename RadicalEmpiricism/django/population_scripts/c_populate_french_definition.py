@@ -1,6 +1,4 @@
-# https://www.merriam-webster.com/dictionary/infinity
-# https://www.larousse.fr/dictionnaires/francais/infini/42937
-# >>> exec(open('myscript.py').read())
+
 import os
 import csv
 import re
