@@ -14,6 +14,7 @@ def process_book_file(path, book):
         processed_path = re.sub('Original', 'Parsed', path)
         with open(processed_path, "w", encoding="utf-8") as f:
             f.write(sorted_and_cleaned)
+
 def cleanFileContent(content):
     content = re.sub('[\.\?\(\)\!"\t:;,«»·°”■’“•﻿]', '', content)
     content = re.sub(' ', '\n', content)
