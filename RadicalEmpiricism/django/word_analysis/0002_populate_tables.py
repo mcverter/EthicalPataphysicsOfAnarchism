@@ -13,10 +13,12 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
+        '''
         migrations.RunPython(populate_table_with_words),
         migrations.RunPython(populate_english_translation),
         migrations.RunPython(populate_english_definition),
         migrations.RunPython(populate_english_etymology),
         migrations.RunPython(populate_french_definition),
         migrations.RunPython(populate_french_etymology),
+    '''
     ]
