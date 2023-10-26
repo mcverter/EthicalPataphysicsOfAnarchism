@@ -1,6 +1,0 @@
-select FrenchWord, BaseWord
-from
-tblWord , tbletymbase
-where
-EnglishCognate != "NO_COGNATE" AND
-tblword.EtymBaseID = tbletymbase.EtymBaseID 
