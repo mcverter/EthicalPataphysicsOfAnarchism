@@ -1,8 +1,33 @@
 import re
 import sqlite3
-from zzz_constants import WORDS_TABLE, DB_FILE
+from ..constants import WORDS_TABLE, DB_FILE
 
-def update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
+def sanitize(value):
+    return  re.sub("'", "''", value)
+
+def execute_query(query):
+    cursor = get_db_cursor()
+    return cursor.execute(query)
+
+
+def insert_word_into_table(french, ti, otb):
+    cursor = get_db_cursor()
+    query = f"INSERT OR IGNORE INTO {WORDS_TABLE} (french, ti, otb) values ('{sanitize(french)}', {ti}, {otb});\n"
+    return query
+
+def update_word_table(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
+    query = write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
+    print(query)
+
+
+def select_fields_from_word_table(fields):
+    cursor = get_db_cursor()
+    joined_fields = "'".join(fields)
+    query = f'SELECT {joined_fields} from {WORDS_TABLE}'
+    result = cursor.execute(query)
+    return result.fetchall()
+
+def write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
     setFieldValue = re.sub("'", "''", setFieldValue)
     whereFieldValue = re.sub("'", "''", whereFieldValue)
     if setFieldName and setFieldValue and whereFieldName and whereFieldValue:
@@ -12,30 +37,14 @@ def update_sql_command(table, setFieldName, setFieldValue, whereFieldName, where
 
 
 def update_word_table(setFieldName, setFieldValue, whereFieldName, whereFieldValue):
-    return update_sql_command(WORDS_TABLE, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
+    return write_update_sql_command(WORDS_TABLE, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
 
 def get_db_cursor():
     con = sqlite3.connect(DB_FILE)
     return con.cursor()
 
 
-def select_fields_from_word_table(fields):
-    cursor = get_db_cursor()
-    joined_fields = "'".join(fields)
-    result = cursor.execute(f'SELECT {joined_fields} from {WORDS_TABLE}')
-    return result.fetchall()
 
-def add_english_translation():
-    pass
-
-def add_english_definition():
-    pass
-
-def add_french_definition():
-    pass
-
-def add_french_etymology():
-    pass
 
 def get_value_string_from_content(content, regex_start, regex_end):
     content = content.replace('\n', ' ')

@@ -13925,7 +13925,6 @@ pas
 lun
 après
 lautre
-"
 Na-t-il
 pas
 pourtant
@@ -13974,7 +13973,7 @@ nest
 rien
 de
 temporel-lement
-objectif"
+objectif
 Pour
 tout
 cela
@@ -22206,7 +22205,7 @@ du
 tiers
 cf
 ch
-"V
+V
 Toujours
 est-il
 que
@@ -75946,7 +75945,6 @@ haut
 p
 note
 sur
-"
 ananké
 stenai
 désintéressement

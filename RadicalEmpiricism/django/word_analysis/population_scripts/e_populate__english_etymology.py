@@ -1,6 +1,5 @@
-import re
-from utils import update_word_table, get_value_string_from_content
-from zzz_constants import ETYMONLINE_PATH
+from RadicalEmpiricism.django.word_analysis.db.db import update_word_table, get_value_string_from_content
+from RadicalEmpiricism.django.word_analysis.constants import ETYMONLINE_PATH
 
 
 def populate_english_etymology():

@@ -1,11 +1,9 @@
-
-import os
 import csv
 import re
 from larousse_api import larousse
-from utils import update_word_table
+from RadicalEmpiricism.django.word_analysis.db.db import update_word_table
 
-from .zzz_constants import WORD_MAP_PATH, SQL_OUTPUT_FILE
+from RadicalEmpiricism.django.word_analysis.constants import WORD_MAP_PATH, SQL_OUTPUT_FILE
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
     definition = definition.replace('\n', ' ')

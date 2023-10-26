@@ -2,8 +2,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-from utils import select_fields_from_word_table, update_word_table
-from zzz_constants import DIR_PATH, ENGlISH_DEFINITIONS_SITE
+from RadicalEmpiricism.django.word_analysis.db.db import update_word_table
+from RadicalEmpiricism.django.word_analysis.constants import DIR_PATH, ENGlISH_DEFINITIONS_SITE
 
 def populate_english_definition():
     sql_output_file = os.path.join(DIR_PATH, '../sql/english_definitions.sql')
