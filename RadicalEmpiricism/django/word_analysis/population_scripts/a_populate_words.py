@@ -65,8 +65,9 @@ def populate_table_with_words():
     process_book_file(TOTALITE, 'ti')
     insert_all = ''
     for key, value in word_map.items():
-        insert_all += insert_word_into_table(key, value['ti'], value['otb'])
-    execute_query(insert_all)
+        query = insert_word_into_table(key, value['ti'], value['otb'])
+        execute_query(query)
+    # execute_query(insert_all)
 
 def writeWordMap():
     output = ''

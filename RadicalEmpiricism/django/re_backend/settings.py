@@ -77,12 +77,20 @@ WSGI_APPLICATION = 're_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        "ENGINE": "django.db.backends.postgresql",
+        'NAME': 'word_analysis',
+        'USER': 'postgres',
+        'PASSWORD': 'SuperSecretPassword'
     }
 }
 
-
+'''
+    backend = load_backend(db["ENGINE"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: 'postgresql' isn't an available database backend or couldn't be imported. Check the above exception. To use one of the built-in backends, use 'django.db.backends.XXX', where XXX is one of:
+    'mysql', 'oracle', 'postgresql', 'sqlite3'
+'''
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 

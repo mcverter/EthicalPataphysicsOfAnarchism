@@ -2,18 +2,40 @@ import re
 import sqlite3
 from ..constants import WORDS_TABLE, DB_FILE
 
+import psycopg2
+
+conn = psycopg2.connect(database="word_analysis",
+                        host="localhost",
+                        user="postgres",
+                        password="SuperSecretPassword",
+                        port="5432")
+
+
+def get_db_cursor():
+    # con = sqlite3.connect(DB_FILE)
+    return conn.cursor()
+
+
 def sanitize(value):
-    return  re.sub("'", "''", value)
+    return re.sub("'", "''", value)
+
 
 def execute_query(query):
     cursor = get_db_cursor()
-    return cursor.execute(query)
+    cursor.execute(query)
+    conn.commit()
 
 
 def insert_word_into_table(french, ti, otb):
     cursor = get_db_cursor()
-    query = f"INSERT OR IGNORE INTO {WORDS_TABLE} (french, ti, otb) values ('{sanitize(french)}', {ti}, {otb});\n"
+    query = f'''
+        INSERT INTO {WORDS_TABLE} (french, ti, otb) 
+        VALUES ('{sanitize(french)}', {ti}, {otb})
+        ON CONFLICT (french) 
+        DO NOTHING;
+        '''
     return query
+
 
 def update_word_table(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
     query = write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
@@ -27,6 +49,7 @@ def select_fields_from_word_table(fields):
     result = cursor.execute(query)
     return result.fetchall()
 
+
 def write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
     setFieldValue = re.sub("'", "''", setFieldValue)
     whereFieldValue = re.sub("'", "''", whereFieldValue)
@@ -38,12 +61,6 @@ def write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName,
 
 def update_word_table(setFieldName, setFieldValue, whereFieldName, whereFieldValue):
     return write_update_sql_command(WORDS_TABLE, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
-
-def get_db_cursor():
-    con = sqlite3.connect(DB_FILE)
-    return con.cursor()
-
-
 
 
 def get_value_string_from_content(content, regex_start, regex_end):
@@ -60,4 +77,3 @@ def get_value_string_from_content(content, regex_start, regex_end):
     regex_match = re.sub('^.*?>\s*', '', regex_match)
     regex_match = re.sub('<.*?$', '', regex_match)
     return regex_match
-
