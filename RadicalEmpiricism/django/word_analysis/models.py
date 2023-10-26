@@ -13,8 +13,7 @@ class SemanticCategory(models.Model):
 
 
 class EtymologicalRoot(models.Model):
-    french: models.CharField(max_length=32, unique=True, null=True)
-    english: models.CharField(max_length=32, unique=True, null=True)
+    root: models.CharField(max_length=32, unique=True, null=True)
     french_explanation: models.TextField()
     english_explanation: models.TextField()
 

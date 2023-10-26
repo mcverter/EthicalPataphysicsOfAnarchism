@@ -1,6 +1,6 @@
 import re
 import sqlite3
-
+from zzz_constants import WORDS_TABLE, DB_FILE
 
 def update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
     setFieldValue = re.sub("'", "''", setFieldValue)

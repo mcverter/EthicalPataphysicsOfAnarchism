@@ -1,13 +1,12 @@
 from django.db import migrations, models
 
-
 class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
     ]
     operations = [
-        migrations.CreateModel(name='SemanticCategory',
+       migrations.CreateModel(name='SemanticCategory',
                                fields=[('id', models.AutoField(auto_created=True, primary_key=True, serialize=True,
                                                                verbose_name='ID')),
                                        ('french', models.CharField(max_length=100, null=True, unique=True)),
@@ -68,30 +67,30 @@ class Migration(migrations.Migration):
         migrations.CreateModel(name='Word',
                                fields=[('id', models.AutoField(auto_created=True, primary_key=True, serialize=False,
                                                                verbose_name='ID')),
-                                       ('french', models.CharField(max_length=100, unique=True),
-                                        ('english', models.CharField(max_length=100, null=True)),
-                                        ('french_explanation', models.TextField(null=True)),
-                                        ('english_explanation', models.TextField(null=True)),
-                                        ('ti', models.IntegerField()),
-                                        ('otb', models.IntegerField()),
-                                        ('prefix',
+                                       ('french', models.CharField(max_length=100, unique=True)),
+                                       ('english', models.CharField(max_length=100, null=True)),
+                                       ('french_explanation', models.TextField(null=True)),
+                                       ('english_explanation', models.TextField(null=True)),
+                                       ('ti', models.IntegerField()),
+                                       ('otb', models.IntegerField()),
+                                       ('prefix',
                                          models.ForeignKey(null=True, related_name='prefix',
                                                            on_delete=models.SET_NULL,
                                                            to='word_analysis.prefix')),
-                                        ('suffix',
+                                       ('suffix',
                                          models.ForeignKey(null=True, related_name='suffix',
                                                            on_delete=models.SET_NULL,
                                                            to='word_analysis.suffix')),
-                                        ('partOfSpeech',
+                                       ('partOfSpeech',
                                          models.ForeignKey(null=True, related_name='partOfSpeech',
                                                            on_delete=models.SET_NULL,
                                                            to='word_analysis.partOfSpeech')),
-                                        ('etymologicalRoot',
+                                       ('etymologicalRoot',
                                          models.ForeignKey(null=True, related_name='etymologicalRoot',
                                                            on_delete=models.SET_NULL,
                                                            to='word_analysis.etymologicalRoot')),
-                                        ('semanticCategories',
+                                       ('semanticCategories',
                                          models.ManyToManyField(to='word_analysis.semanticCategory')),
-                                        ),
-                                       ])
+                                       ]
+                               )
     ]
