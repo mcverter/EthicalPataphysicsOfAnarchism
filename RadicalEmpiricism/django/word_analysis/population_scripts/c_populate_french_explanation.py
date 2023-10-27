@@ -29,8 +29,8 @@ def populate_french_explanation():
                 update_word_table('french_explanation', joined_definitions, 'french', french)
                 logging.info(f'updating {french} with french_explanation')
                 if idx % 100 == 29:
-                    logging.info('COMMITTING update', idx)
-                    print('COMMITTING update', idx)
+                    logging.info('COMMITTING french explanation', idx)
+                    print('COMMITTING french explanation', idx)
                     commit_all()
     commit_all()
-    logging.info('COMMITTING done', idx_global)
+    logging.info('COMMITTING french explanation done', idx_global)
