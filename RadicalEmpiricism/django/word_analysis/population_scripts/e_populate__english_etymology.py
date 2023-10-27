@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from RadicalEmpiricism.django.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
 from RadicalEmpiricism.django.word_analysis.constants import ENGLISH_ETYMOLOGY_SITE
 
-OFFSET = 3620
+OFFSET = 0
 
 
 def populate_english_etymology():
@@ -32,7 +32,9 @@ def populate_english_etymology():
                 if idx < len(results):
                     etymology += "; "
 
-            if etymology and idx > OFFSET:
+            if etymology and idx >= OFFSET:
+                update_word_table('english_etymology', etymology, 'english', english)
+
                 logging.info(f'updating {english} with english_etymology')
                 if idx % 100 == 29:
                     logging.info('COMMITTING english etymology', idx)
