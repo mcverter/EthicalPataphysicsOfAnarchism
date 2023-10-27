@@ -1,7 +1,7 @@
 import re
 import os
 from ..constants import WORDS_TABLE
-from sanitize_values import sanitize
+from .sanitize_values import sanitize
 
 DB_PASS = os.environ["DB_PASS"]
 

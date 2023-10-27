@@ -3,6 +3,7 @@ import logging
 from larousse_api import larousse
 from RadicalEmpiricism.django.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
 
+OFFSET = 3624
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
     definition = definition.replace('\n', ' ')
@@ -17,7 +18,7 @@ def populate_french_explanation():
     idx_global = 0
     for idx in range(len(french_words)):
         french = french_words[idx][0]
-        if french and idx > 324:
+        if french and idx > OFFSET:
             french_definition = larousse.get_definitions(french)
             if french_definition is not None and french_definition != []:
                 all_definitions = []

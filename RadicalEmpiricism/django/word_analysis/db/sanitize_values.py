@@ -1,3 +1,5 @@
+import re
+
 def sanitize(value):
     return re.sub("'", "''", value)
 
