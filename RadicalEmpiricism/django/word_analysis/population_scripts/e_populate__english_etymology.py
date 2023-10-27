@@ -1,17 +1,18 @@
 from RadicalEmpiricism.django.word_analysis.db.db import update_word_table
-from RadicalEmpiricism.django.word_analysis.constants import ETYMONLINE_PATH
+from RadicalEmpiricism.django.word_analysis.constants import ENGLISH_ETYMOLOGY_SITE
 from RadicalEmpiricism.django.word_analysis.db.sanitize_values import get_value_string_from_content
 
 
 def populate_english_etymology():
     output = ''
     english = 'foo'
-
+'''
     with open(ETYMONLINE_PATH, "r", encoding="utf-8") as f:
         content = f.read()
         value = get_value_string_from_content(content, '<div class="word__etymology_expand', 'data-more')
         output = update_word_table('english_etymology', value, 'english', english)
         return output
+'''
 
 if __name__ == "__main__":
      populate_english_etymology()

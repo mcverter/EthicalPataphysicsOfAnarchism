@@ -1,7 +1,8 @@
 import re
 from RadicalEmpiricism.django.word_analysis.constants import WORD_MAP_PATH, AUTREMENT, TOTALITE
 from RadicalEmpiricism.django.word_analysis.db.db import execute_single_query, insert_word_into_table
-word_map = {}
+
+WORD_MAP = {}
 def process_book_file(path, book):
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -64,14 +65,14 @@ def populate_table_with_words():
     process_book_file(AUTREMENT, 'otb')
     process_book_file(TOTALITE, 'ti')
     insert_all = ''
-    for key, value in word_map.items():
+    for key, value in WORD_MAP.items():
         query = insert_word_into_table(key, value['ti'], value['otb'])
         execute_single_query(query)
     # execute_query(insert_all)
 
 def writeWordMap():
     output = ''
-    for key, value in word_map.items():
+    for key, value in WORD_MAP.items():
         output += '{},{},{}\n'.format(key, value['ti'], value['otb'])
         pass
     with open(WORD_MAP_PATH, "w", encoding="utf-8") as f:
@@ -89,13 +90,13 @@ def addWordsToMap(words, book):
         normalized = normalizeWord(word)
         if (normalized is None):
             pass
-        elif (normalized in word_map):
-            word_map[normalized][book] += 1
+        elif (normalized in WORD_MAP):
+            WORD_MAP[normalized][book] += 1
         else:
             if (book == 'ti'):
-                word_map[normalized] = {'ti': 1, 'otb': 0}
+                WORD_MAP[normalized] = {'ti': 1, 'otb': 0}
             else:
-                word_map[normalized] = {'ti': 0, 'otb': 1}
+                WORD_MAP[normalized] = {'ti': 0, 'otb': 1}
 
 # if __name__ == '__main__':
 #     populate_table_with_words()

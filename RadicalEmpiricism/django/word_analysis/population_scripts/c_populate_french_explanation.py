@@ -3,7 +3,6 @@ import logging
 from larousse_api import larousse
 from RadicalEmpiricism.django.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
 
-
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
     definition = definition.replace('\n', ' ')
@@ -13,7 +12,7 @@ def clean_larousse_definition(definition):
 
     return definition
 
-def populate_french_expanation():
+def populate_french_explanation():
     french_words = select_fields_from_word_table(['french'])
     idx_global = 0
     for idx in range(len(french_words)):
