@@ -3,7 +3,7 @@ import logging
 from larousse_api import larousse
 from RadicalEmpiricism.django.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
 
-OFFSET = 3624
+OFFSET = 3620
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
     definition = definition.replace('\n', ' ')
@@ -28,8 +28,9 @@ def populate_french_explanation():
                 joined_definitions = ' '.join(all_definitions)
                 update_word_table('french_explanation', joined_definitions, 'french', french)
                 logging.info(f'updating {french} with french_explanation')
-                if idx % 100 == 25:
+                if idx % 100 == 29:
                     logging.info('COMMITTING update', idx)
+                    print('COMMITTING update', idx)
                     commit_all()
     commit_all()
     logging.info('COMMITTING done', idx_global)
