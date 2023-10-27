@@ -22,17 +22,17 @@ def populate_english_explanation():
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div', {"class": "sense-content"})
             
-            explanations = ''
+            explanation = ''
             for idx in range(len(results)):
                 explanation = ((results[idx].text
                               .replace('\n',''))
                               .replace(':', ''))
-                explanations += explanation
+                explanation += explanation
                 if idx < len(results):
-                    explanations += "; "
+                    explanation += "; "
 
-            if explanations and idx > OFFSET:
-                output = update_word_table('english_explanation', explanations, 'english', english)
+            if explanation and idx > OFFSET:
+                update_word_table('english_explanation', explanation, 'english', english)
                 logging.info(f'updating {english} with english_explanation')
                 if idx % 100 == 29:
                     logging.info('COMMITTING english explanation', idx)
