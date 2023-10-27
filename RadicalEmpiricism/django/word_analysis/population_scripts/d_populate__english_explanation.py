@@ -1,12 +1,21 @@
 import logging
-
+import re
 import requests
 from bs4 import BeautifulSoup
 
 from RadicalEmpiricism.django.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.django.word_analysis.constants import ENGlISH_EXPLANATIONS_SITE
+from RadicalEmpiricism.django.word_analysis.constants import ENGLISH_ETYMOLOGY_SITE
 
-OFFSET = 3620
+OFFSET = 0
+
+def is_definition_div(div):
+    attrs = div.attrs
+    if 'class' in attrs:
+        classes = attrs['class']
+        for klass in classes:
+            if re.match('^word_4pc', klass):
+                return True
+    return False
 
 def populate_english_explanation():
     english_words = select_fields_from_word_table(["english"])
@@ -17,11 +26,18 @@ def populate_english_explanation():
         idx_global = idx
         english = english_words[idx][0]
         if english:
-            english_url = f'{ENGlISH_EXPLANATIONS_SITE}{english}'
+            english_url = f'{ENGLISH_ETYMOLOGY_SITE}{english}'
             page = requests.get(english_url)
             soup = BeautifulSoup(page.content, "html.parser")
-            results = soup.find_all('div', {"class": "sense-content"})
-            
+            results = soup.find_all('div')
+            for result in results:
+                if (is_definition_div(result)):
+                    print('MATCH', result)
+                    soup = result
+#                if re.match('^word.*word_4pc', classOfA):
+#                    print(result)
+#                    pass
+            '''
             explanation = ''
             for idx in range(len(results)):
                 explanation = ((results[idx].text
@@ -40,6 +56,7 @@ def populate_english_explanation():
                     commit_all()
     commit_all()
     logging.info('COMMITTING english explanation done', idx_global)
+    '''
 
     
 if __name__ == '__main__':

@@ -10,7 +10,7 @@ WORD_MAP_PATH = os.path.join(DIR_PATH, '../../generated/word_map.csv')
 
 
 FRENCH_ETYMOLOGY_SITE = 'https://www.dictionnairedesfrancophones.org/form/survivre'
-ENGLISH_ETYMOLOGY_SITE = 'https://www.etymonline.com/search?q=+relative'
+ENGLISH_ETYMOLOGY_SITE = 'https://www.etymonline.com/search?q='
 ENGlISH_EXPLANATIONS_SITE = 'https://www.merriam-webster.com/dictionary/'
 
 # FRENCH_ETYMOLOGY_PATH = os.path.join(DIR_PATH, 'tests/html/diccionairedesfrancophones.html')
