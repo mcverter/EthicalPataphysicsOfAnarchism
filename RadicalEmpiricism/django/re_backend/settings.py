@@ -80,7 +80,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         'NAME': 'word_analysis',
         'USER': 'postgres',
-        'PASSWORD': 'SuperSecretPassword'
+        'PASSWORD': 'SecretPassword'
     }
 }
 

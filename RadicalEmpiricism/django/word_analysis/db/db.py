@@ -7,7 +7,7 @@ import psycopg2
 conn = psycopg2.connect(database="word_analysis",
                         host="localhost",
                         user="postgres",
-                        password="SuperSecretPassword",
+                        password="SecretPassword",
                         port="5432")
 
 
@@ -46,8 +46,8 @@ def select_fields_from_word_table(fields):
     cursor = get_db_cursor()
     joined_fields = "'".join(fields)
     query = f'SELECT {joined_fields} from {WORDS_TABLE}'
-    result = cursor.execute(query)
-    return result.fetchall()
+    cursor.execute(query)
+    return cursor.fetchall()
 
 
 def write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName, whereFieldValue):
@@ -58,9 +58,14 @@ def write_update_sql_command(table, setFieldName, setFieldValue, whereFieldName,
     else:
         return ''
 
+def commit_all():
+    conn.commit()
+
 
 def update_word_table(setFieldName, setFieldValue, whereFieldName, whereFieldValue):
-    return write_update_sql_command(WORDS_TABLE, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
+    query = write_update_sql_command(WORDS_TABLE, setFieldName, setFieldValue, whereFieldName, whereFieldValue)
+    cursor = get_db_cursor()
+    cursor.execute(query)
 
 
 def get_value_string_from_content(content, regex_start, regex_end):
