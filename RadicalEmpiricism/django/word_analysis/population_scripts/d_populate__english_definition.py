@@ -24,11 +24,9 @@ def populate_english_definition():
             definition = ((results[idx].text
                           .replace('\n',''))
                           .replace(':', ''))
-            print(definition)
             all_text += definition
             if idx < len(results):
                 all_text += "; "
-        print(all_text)
 
         definition = all_text
 
