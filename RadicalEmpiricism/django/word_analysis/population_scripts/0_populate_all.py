@@ -10,8 +10,8 @@ def populate_all():
      populate_english_translation()
      populate_french_explanation()
      populate_english_explanation()
-     '''
      populate_english_etymology()
+     '''
      populate_french_etymology()
      '''
 if __name__ == '__main__':
