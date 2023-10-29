@@ -1,7 +1,7 @@
 import logging
 
 from deep_translator import GoogleTranslator
-from RadicalEmpiricism.django.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
+from RadicalEmpiricism.src.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
 
 def populate_english_translation():
     french_words = select_fields_from_word_table(['french'])

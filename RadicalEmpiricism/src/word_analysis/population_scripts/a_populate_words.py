@@ -1,6 +1,6 @@
 import re
-from RadicalEmpiricism.django.word_analysis.constants import WORD_MAP_PATH, AUTREMENT, TOTALITE
-from RadicalEmpiricism.django.word_analysis.db.db import execute_single_query, insert_word_into_table
+from RadicalEmpiricism.src.word_analysis.constants import WORD_MAP_PATH, AUTREMENT, TOTALITE
+from RadicalEmpiricism.src.word_analysis.db.db import execute_single_query, insert_word_into_table
 
 WORD_MAP = {}
 def process_book_file(path, book):

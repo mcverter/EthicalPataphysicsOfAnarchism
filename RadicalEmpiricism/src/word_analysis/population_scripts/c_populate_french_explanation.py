@@ -1,7 +1,7 @@
 import re
 import logging
 from larousse_api import larousse
-from RadicalEmpiricism.django.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
+from RadicalEmpiricism.src.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
 
 OFFSET = 14700
 def clean_larousse_definition(definition):

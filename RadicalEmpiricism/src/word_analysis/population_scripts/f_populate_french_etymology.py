@@ -3,8 +3,8 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.django.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.django.word_analysis.constants import FRENCH_ETYMOLOGY_SITE
+from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
+from RadicalEmpiricism.src.word_analysis.constants import FRENCH_ETYMOLOGY_SITE
 
 OFFSET = 0
 

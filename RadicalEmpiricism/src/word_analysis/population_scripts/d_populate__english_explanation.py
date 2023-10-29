@@ -3,19 +3,19 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.django.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.django.word_analysis.constants import ENGlISH_EXPLANATIONS_SITE
+from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
+from RadicalEmpiricism.src.word_analysis.constants import ENGlISH_EXPLANATIONS_SITE
 
-OFFSET = 8450
+OFFSET = 9220
 
 
 def populate_english_explanation():
     english_words = select_fields_from_word_table(["english"])
 
-    idx_global = 0
+    idx_global = OFFSET
 
-    for idx in range(len(english_words)):
-        idx_global = idx
+    for idx in range(len(english_words) - OFFSET):
+        idx_global = OFFSET + idx
         english = english_words[idx][0]
         if english:
             english_url = f'{ENGlISH_EXPLANATIONS_SITE}{english}'
@@ -31,14 +31,14 @@ def populate_english_explanation():
                 if exidx < len(results):
                     explanation += "; "
 
-            if explanation and idx >= OFFSET:
+            if explanation:
                 update_word_table('english_explanation', explanation, 'english', english)
 
                 logging.info(f'updating {english} with english_explanation')
-                print(f'updating {english} with english_explanation', idx)
+                print(f'updating {english} with english_explanation', idx + OFFSET)
                 if idx % 100 == 29:
-                    logging.info('COMMITTING english explanation', idx)
-                    print('COMMITTING english explanation', idx)
+                    logging.info('COMMITTING english explanation', idx + OFFSET)
+                    print('COMMITTING english explanation', idx + OFFSET)
                     commit_all()
     commit_all()
     logging.info('COMMITTING english explanation done', idx_global)

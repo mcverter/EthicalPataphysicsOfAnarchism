@@ -1,5 +1,12 @@
 from django.db import models
 
+class Etymology(models.Model):
+    french: models.TextField()
+    english: models.TextField()
+
+class Definition(models.Model):
+    french: models.TextField()
+    english: models.TextField()
 
 # Create your models here.
 class SemanticCategory(models.Model):
@@ -70,12 +77,19 @@ class Prefix(models.Model):
         return self.french
 
 class Word(models.Model):
+    # word from books
     french: models.CharField(max_length=100, unique=True)
     english: models.CharField(max_length=100, unique=True, null=True)
-    french_explanation: models.TextField()
-    english_explanation: models.TextField()
+
+    # count from books
     ti: models.IntegerField()
     otb: models.IntegerField()
+
+    # etymology and definition
+    etymology: models.ForeignKey(Etymology, on_delete=models.SET_NULL)
+    definition: models.ForeignKey(Definition, on_delete=models.SET_NULL)
+
+    # connections
     prefix: models.ForeignKey(Prefix, on_delete=models.SET_NULL)
     suffix: models.ForeignKey(Suffix, on_delete=models.SET_NULL)
     partOfSpeech: models.ForeignKey(PartOfSpeech, on_delete=models.SET_NULL)
