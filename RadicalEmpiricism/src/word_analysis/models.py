@@ -25,7 +25,7 @@ class EtymologicalRoot(models.Model):
     english_explanation: models.TextField()
 
     def __str__(self):
-        return self.french
+        return self.root
 
 class VerbType(models.Model):
     french: models.CharField(max_length=100, unique=True, null=True)

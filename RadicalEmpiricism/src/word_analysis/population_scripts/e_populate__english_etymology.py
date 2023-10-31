@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.src.word_analysis.constants import ENGLISH_ETYMOLOGY_SITE
+from RadicalEmpiricism.src.word_analysis.constants import SITE_ENGLISH_ETYMOLOGY
 
 OFFSET = 0
 
@@ -27,7 +27,7 @@ def populate_english_etymology():
         idx_global = idx
         english = english_words[idx][0]
         if english:
-            english_url = f'{ENGLISH_ETYMOLOGY_SITE}{english}'
+            english_url = f'{SITE_ENGLISH_ETYMOLOGY}{english}'
             page = requests.get(english_url)
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div')

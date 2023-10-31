@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.src.word_analysis.constants import ENGlISH_EXPLANATIONS_SITE
+from RadicalEmpiricism.src.word_analysis.constants import SITE_ENGLISH_EXPLANATIONS
 
 OFFSET = 9220
 
@@ -18,7 +18,7 @@ def populate_english_explanation():
         idx_global = OFFSET + idx
         english = english_words[idx][0]
         if english:
-            english_url = f'{ENGlISH_EXPLANATIONS_SITE}{english}'
+            english_url = f'{SITE_ENGlISH_EXPLANATIONS}{english}'
             page = requests.get(english_url)
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div', {"class": "sense-content"})

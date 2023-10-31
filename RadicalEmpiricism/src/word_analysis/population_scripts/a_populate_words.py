@@ -1,5 +1,5 @@
 import re
-from RadicalEmpiricism.src.word_analysis.constants import WORD_MAP_PATH, AUTREMENT, TOTALITE
+from RadicalEmpiricism.src.word_analysis.constants import PATH_WORD_MAP, BOOK_AUTREMENT, BOOK_TOTALITE
 from RadicalEmpiricism.src.word_analysis.db.db import execute_single_query, insert_word_into_table
 
 WORD_MAP = {}
@@ -62,20 +62,18 @@ def cleanFileContent(content):
     return content
 
 def populate_table_with_words():
-    process_book_file(AUTREMENT, 'otb')
-    process_book_file(TOTALITE, 'ti')
-    insert_all = ''
+    process_book_file(BOOK_AUTREMENT, 'otb')
+    process_book_file(BOOK_TOTALITE, 'ti')
     for key, value in WORD_MAP.items():
         query = insert_word_into_table(key, value['ti'], value['otb'])
         execute_single_query(query)
-    # execute_query(insert_all)
 
 def writeWordMap():
     output = ''
     for key, value in WORD_MAP.items():
         output += '{},{},{}\n'.format(key, value['ti'], value['otb'])
         pass
-    with open(WORD_MAP_PATH, "w", encoding="utf-8") as f:
+    with open(PATH_WORD_MAP, "w", encoding="utf-8") as f:
         f.write(output)
 
 def normalizeWord(word):

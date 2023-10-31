@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.src.word_analysis.constants import FRENCH_ETYMOLOGY_SITE
+from RadicalEmpiricism.src.word_analysis.constants import SITE_FRENCH_ETYMOLOGY
 
 OFFSET = 0
 
@@ -18,7 +18,7 @@ def populate_french_etymology():
         idx_global = idx
         french = french_words[idx][0]
         if french:
-            french_url = f'{FRENCH_ETYMOLOGY_SITE}{french}'
+            french_url = f'{SITE_FRENCH_ETYMOLOGY}{french}'
             page = requests.get(french_url)
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div', {"class": "sense-content"})
