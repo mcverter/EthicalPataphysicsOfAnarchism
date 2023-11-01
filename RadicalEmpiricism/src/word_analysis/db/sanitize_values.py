@@ -1,6 +1,8 @@
 import re
 
 def sanitize(value):
+    if value.isnumeric():
+        return value
     return re.sub("'", "''", value)
 
 def get_value_string_from_content(content, regex_start, regex_end):

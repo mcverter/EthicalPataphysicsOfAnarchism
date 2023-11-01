@@ -3,14 +3,14 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.src.word_analysis.constants import SITE_FRENCH_ETYMOLOGY
+from ..db.db import update_table, select_from_table, commit_all
+from ..constants import SITE_FRENCH_ETYMOLOGY, TABLE_WORD
 
 OFFSET = 0
 
 
 def populate_french_etymology():
-    french_words = select_fields_from_word_table(["french"])
+    french_words = select_from_table(TABLE_WORD, ("french",))
 
     idx_global = 0
 
@@ -33,7 +33,7 @@ def populate_french_etymology():
                     etymology += "; "
 
             if etymology and idx >= OFFSET:
-                update_word_table('french_etymology', etymology, 'french', french)
+                update_table(TABLE_WORD, 'french_etymology', etymology, 'french', french)
 
                 logging.info(f'updating {french} with french_etymology')
                 if idx % 100 == 29:

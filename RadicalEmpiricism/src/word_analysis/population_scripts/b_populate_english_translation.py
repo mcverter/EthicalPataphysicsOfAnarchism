@@ -1,10 +1,11 @@
 import logging
 
 from deep_translator import GoogleTranslator
-from RadicalEmpiricism.src.word_analysis.db.db import select_fields_from_word_table, update_word_table, commit_all
+from ..db.db import select_from_table, update_table, commit_all
+from ..constants import TABLE_WORD
 
 def populate_english_translation():
-    french_words = select_fields_from_word_table(['french'])
+    french_words = select_from_table(TABLE_WORD, ('french',))
     idx_global = 0
     for idx in range(len(french_words)):
         idx_global = idx
@@ -12,7 +13,7 @@ def populate_english_translation():
         if french and idx > 15000:
             english = (GoogleTranslator(source='fr', target='en')).translate(french)
             if english:
-                update_word_table('english', english, 'french', french)
+                update_table(TABLE_WORD, 'english', english, 'french', french)
                 if idx % 100 == 25:
                     logging.info('COMMITTING english translation', idx)
                     commit_all()

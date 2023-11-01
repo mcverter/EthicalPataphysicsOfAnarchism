@@ -3,8 +3,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.src.word_analysis.constants import SITE_ENGLISH_ETYMOLOGY
+from ..db.db import update_table, select_from_table, commit_all
+from ..constants import SITE_ENGLISH_ETYMOLOGY, TABLE_WORD
 
 OFFSET = 0
 
@@ -19,7 +19,7 @@ def is_etymology_div(div):
     return False
 
 def populate_english_etymology():
-    english_words = select_fields_from_word_table(["english"])
+    english_words = select_from_table(TABLE_WORD, ("english",))
 
     idx_global = 0
     
@@ -36,7 +36,7 @@ def populate_english_etymology():
                     print('MATCH', result)
                     etymology = result.text
                     if etymology and idx > OFFSET:
-                        update_word_table('english_etymology', etymology, 'english', english)
+                        update_table(TABLE_WORD, 'english_etymology', etymology, 'english', english)
                         logging.info(f'updating {english} with english_etymology')
                         if idx % 100 == 29:
                             logging.info('COMMITTING english etymology', idx)

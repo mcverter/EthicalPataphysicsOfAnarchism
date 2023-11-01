@@ -3,14 +3,14 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.src.word_analysis.db.db import update_word_table, select_fields_from_word_table, commit_all
-from RadicalEmpiricism.src.word_analysis.constants import SITE_ENGLISH_EXPLANATIONS
+from ..db.db import update_table, select_from_table, commit_all
+from ..constants import SITE_ENGLISH_EXPLANATIONS, TABLE_WORD
 
 OFFSET = 9220
 
 
 def populate_english_explanation():
-    english_words = select_fields_from_word_table(["english"])
+    english_words = select_from_table(TABLE_WORD, ("english",))
 
     idx_global = OFFSET
 
@@ -32,7 +32,7 @@ def populate_english_explanation():
                     explanation += "; "
 
             if explanation:
-                update_word_table('english_explanation', explanation, 'english', english)
+                update_table(TABLE_WORD, 'english_explanation', explanation, 'english', english)
 
                 logging.info(f'updating {english} with english_explanation')
                 print(f'updating {english} with english_explanation', idx + OFFSET)

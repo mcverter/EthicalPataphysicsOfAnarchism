@@ -1,6 +1,6 @@
 import re
-from RadicalEmpiricism.src.word_analysis.constants import PATH_WORD_MAP, BOOK_AUTREMENT, BOOK_TOTALITE
-from RadicalEmpiricism.src.word_analysis.db.db import execute_single_query, insert_word_into_table
+from ..constants import TABLE_WORD, PATH_WORD_MAP, BOOK_AUTREMENT, BOOK_TOTALITE
+from ..db.db import execute, insert_into_table
 
 WORD_MAP = {}
 def process_book_file(path, book):
@@ -65,8 +65,10 @@ def populate_table_with_words():
     process_book_file(BOOK_AUTREMENT, 'otb')
     process_book_file(BOOK_TOTALITE, 'ti')
     for key, value in WORD_MAP.items():
-        query = insert_word_into_table(key, value['ti'], value['otb'])
-        execute_single_query(query)
+        query = insert_into_table(TABLE_WORD,
+                                  ('french', 'ti', 'otb'),
+                                  (key, value['ti'], value['otb']))
+        execute(query)
 
 def writeWordMap():
     output = ''

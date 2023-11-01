@@ -1,6 +1,6 @@
 import os
 
-TABLE_WORDS = 'word_analysis_word'
+TABLE_WORD = 'word_analysis_word',
 TABLE_DEFINITION = 'word_analysis_definition',
 TABLE_SEMANTIC_CATEGORY = 'word_analysis_semanticcategory',
 TABLE_ETYMOLOGICAL_ROOT = 'word_analysis_etymologicalroot',
@@ -9,7 +9,6 @@ TABLE_NOUN_TYPE = 'word_analysis_nountype',
 TABLE_PART_OF_SPEECH = 'word_analysis_partofspeech',
 TABLE_SUFFIX = 'word_analysis_suffix',
 TABLE_PREFIX = 'word_analysis_prefix',
-TABLE_WORD = 'word_analysis_word',
 
 COLUMN_FRENCH = 'french'
 COLUMN_FRENCH_EXPLANATION = 'french'
