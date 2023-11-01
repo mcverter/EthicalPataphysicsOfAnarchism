@@ -12,6 +12,9 @@ def clean_larousse_definition(definition):
     return definition
 
 class FrenchDefinitionUpdater(DatabaseUpdater):
+    def __init__(self):
+        super().__init__(table='', set_field='', where_field='', offset='')
+
     def get_set_value(self, where_value):
         return "; ".join([clean_larousse_definition(c)
              for c in larousse.get_definitions(where_value)])

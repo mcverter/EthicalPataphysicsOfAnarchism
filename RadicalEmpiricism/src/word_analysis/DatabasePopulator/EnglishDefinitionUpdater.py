@@ -1,6 +1,7 @@
 from DatabaseUpdater import DatabaseUpdater
 
-class EnglishEtymologyUpdater(DatabaseUpdater):
+
+class EnglishDefinitionUpdater(DatabaseUpdater):
     def __init__(self):
         super().__init__(table='', set_field='', where_field='', offset='')
 
