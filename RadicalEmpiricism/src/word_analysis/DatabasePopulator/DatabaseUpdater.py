@@ -13,8 +13,8 @@ class DatabaseUpdater:
 
         self.OFFSET = offset or 1
 
-    def get_where_value(self):
-        raise Exception('Must define "get_where_value" in subclass')
+    def get_set_value(self, where_value):
+        raise Exception('Must define "get_set_value" in subclass')
         pass
 
     def do_commit(self, counter):
@@ -30,7 +30,7 @@ class DatabaseUpdater:
         for result in results:
             (set_value, where_value) = result
             if where_value is None and counter >= self.OFFSET:
-                where_value = self.get_where_value()
+                where_value = self.get_set_value()
                 self.update_single_item(set_value, where_value)
             if counter % 50 == 3:
                 self.do_commit(counter)
