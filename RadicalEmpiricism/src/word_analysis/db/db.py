@@ -20,26 +20,26 @@ def execute(query):
 def commit_all():
     conn.commit()
 
-def select_from_table(table, fields):
-    if table and fields:
+def select_from_table(table, columns):
+    if table and columns:
         cursor = get_db_cursor()
-        query = f'SELECT ({",".join(fields)}) from {table}'
+        query = f'SELECT ({",".join(columns)}) from {table}'
         cursor.execute(query)
         return cursor.fetchall()
 
-def insert_into_table(table, fields, values):
-    if table and fields and values:
+def insert_into_table(table, columns, values):
+    if table and columns and values:
         sanitized_values = [f"'{sanitize(v)}'" for v in values]
         query = f'''
-                INSERT INTO {table} ({",".join(fields)}) 
+                INSERT INTO {table} ({",".join(columns)}) 
                 VALUES ({",".join(sanitized_values)})
-                ON CONFLICT ({fields[0]}) 
+                ON CONFLICT ({columns[0]}) 
                 DO NOTHING;
                 '''
         execute(query)
 
-def update_table(table, set_field, set_value, where_field, where_value):
-    if table and set_field and set_value and where_field and where_value:
-        query = f"UPDATE {table} SET {set_field} = '{sanitize(set_value)}' WHERE {where_field}='{sanitize(where_value)}'"
+def update_table(table, set_column, set_value, where_column, where_value):
+    if table and set_column and set_value and where_column and where_value:
+        query = f"UPDATE {table} SET {set_column} = '{sanitize(set_value)}' WHERE {where_column}='{sanitize(where_value)}'"
         execute(query)
 
