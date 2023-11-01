@@ -3,11 +3,13 @@ from ..db.db import select_from_table, update_table, commit_all
 
 class DatabaseUpdater:
     def __init__(self,
-                 table,
+                 set_table,
+                 where_table,
                  set_column,
                  where_column,
                  offset):
-        self.table = table
+        self.set_table = set_table
+        self.where_table = where_table
         self.set_column = set_column
         self.where_column = where_column
 
@@ -38,11 +40,12 @@ class DatabaseUpdater:
         self.do_commit(counter)
 
     def select_columns(self):
-        return select_from_table(self.table, (self.set_column, self.where_column))
+        return select_from_table(self.set_table, (self.set_column, self.where_column))
 
     def update_single_item(self, set_value, where_value):
-        return update_table(table=self.table,
-                            set_column=self.set_column,
-                            set_value=set_value,
-                            where_column=self.where_column,
-                            where_value=where_value)
+        if self.where_table == self.set_table:
+            return update_table(table=self.set_table,
+                                set_column=self.set_column,
+                                set_value=set_value,
+                                where_column=self.where_column,
+                                where_value=where_value)
