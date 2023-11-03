@@ -1,8 +1,8 @@
 import re
 import logging
 from larousse_api import larousse
-from ..db.db import select_from_table, update_table, commit_all
-from ..constants import TABLE_WORD
+from RadicalEmpiricism.src.word_analysis.db.db import select_from_table, update_table, commit_all
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD
 
 OFFSET = 14700
 def clean_larousse_definition(definition):

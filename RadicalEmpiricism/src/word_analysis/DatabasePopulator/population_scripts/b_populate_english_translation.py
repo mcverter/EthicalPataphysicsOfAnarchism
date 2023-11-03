@@ -1,8 +1,8 @@
 import logging
 
 from deep_translator import GoogleTranslator
-from ..db.db import select_from_table, update_table, commit_all
-from ..constants import TABLE_WORD
+from RadicalEmpiricism.src.word_analysis.db.db import select_from_table, update_table, commit_all
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD
 
 def populate_english_translation():
     french_words = select_from_table(TABLE_WORD, ('french',))

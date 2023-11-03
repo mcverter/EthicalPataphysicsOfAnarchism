@@ -1,6 +1,6 @@
 import re
-from ..constants import TABLE_WORD, PATH_WORD_MAP, BOOK_AUTREMENT, BOOK_TOTALITE
-from ..db.db import execute, insert_into_table
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, PATH_WORD_MAP, BOOK_AUTREMENT, BOOK_TOTALITE
+from RadicalEmpiricism.src.word_analysis.db.db import execute, insert_into_table
 
 WORD_MAP = {}
 def process_book_file(path, book):
