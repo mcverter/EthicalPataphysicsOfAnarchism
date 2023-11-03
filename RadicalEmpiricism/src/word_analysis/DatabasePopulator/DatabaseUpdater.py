@@ -1,5 +1,5 @@
 import logging
-from ..db.db import select_from_table, update_table, commit_all
+from ..db.db import select_from_table, update_table, commit_all, insert_into_table
 
 class DatabaseUpdater:
     def __init__(self,
@@ -49,3 +49,10 @@ class DatabaseUpdater:
                                 set_value=set_value,
                                 where_column=self.where_column,
                                 where_value=where_value)
+        else:
+            where_value_idx = select_from_table(self.where_table, (where_value))
+            if where_value_idx:
+                update_table(self.set_table, self.set_column, set_value, self.where_column, where_value_idx)
+            else:
+                idx = insert_into_table(self.where_table, self.where_column, where_value)
+                update_table(self.set_table, self.set_column, set_value, self.where_column, idx)
