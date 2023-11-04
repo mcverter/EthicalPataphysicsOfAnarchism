@@ -1,4 +1,4 @@
-from ..constants import CLEANED_SUFFIX, BOOK_AUTREMENT, BOOK_TOTALITE, CLEANED_AUTREMENT, CLEANED_TOTALITE
+from RadicalEmpiricism.src.word_analysis.constants import CLEANED_SUFFIX, BOOK_AUTREMENT, BOOK_TOTALITE, CLEANED_AUTREMENT, CLEANED_TOTALITE
 import re
 
 def fix_quotation_marks(text):
