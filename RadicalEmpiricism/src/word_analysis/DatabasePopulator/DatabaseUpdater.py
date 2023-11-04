@@ -1,7 +1,7 @@
 import logging
 from ..db.db import select_from_table, update_table, commit_all, insert_into_table
-
-class DatabaseUpdater:
+from DatabasePopulator import DatabasePopulator
+class DatabaseUpdater(DatabasePopulator):
     def __init__(self,
                  set_table,
                  where_table,

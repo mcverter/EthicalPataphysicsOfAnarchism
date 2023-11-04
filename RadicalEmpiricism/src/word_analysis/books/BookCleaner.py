@@ -1,6 +1,6 @@
-from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, PATH_WORD_MAP, BOOK_AUTREMENT, BOOK_TOTALITE
+from ..constants import CLEANED_SUFFIX, BOOK_AUTREMENT, BOOK_TOTALITE, CLEANED_AUTREMENT, CLEANED_TOTALITE
 import re
-# FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\mitch\\Documents\\ComputerScienceWindows\\EthicalPataphysicsOfAnarchism\\RadicalEmpiricism\\src\\word_analysis\\books\\LevinasTotaLGF2.2.txt'
+
 def fix_quotation_marks(text):
     return text
 def fix_lapostrophe(text):
@@ -46,6 +46,6 @@ if __name__ == '__main__':
             content = f.read()
             cleaner = BookCleaner(content)
             cleaned = cleaner.clean()
-            with open(path + 'cleaned.txt', "w", encoding="utf-8") as g:
+            with open(path + CLEANED_SUFFIX, "w", encoding="utf-8") as g:
                 g.write(cleaned)
 

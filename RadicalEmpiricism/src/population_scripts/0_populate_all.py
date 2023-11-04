@@ -6,11 +6,11 @@ from e_populate__english_etymology import populate_english_etymology
 from f_populate_french_etymology import populate_french_etymology
 
 def populate_all():
+     '''
      populate_table_with_words()
      populate_english_translation()
      populate_french_explanation()
      populate_english_explanation()
-     '''     
      populate_english_etymology()
      populate_french_etymology()
      '''

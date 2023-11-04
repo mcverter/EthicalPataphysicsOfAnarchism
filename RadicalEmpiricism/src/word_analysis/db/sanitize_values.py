@@ -1,7 +1,7 @@
 import re
 
 def sanitize(value):
-    if value.isnumeric():
+    if isinstance( value, int):
         return value
     return re.sub("'", "''", value)
 

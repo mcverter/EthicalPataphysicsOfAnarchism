@@ -17,6 +17,13 @@ def execute(query):
     cursor = get_db_cursor()
     cursor.execute(query)
 
+# "
+#                 INSERT INTO ('word_analysis_word',) (french,ti,otb)
+#                 VALUES ('préface','4','2')
+#                 ON CONFLICT (french)
+#                 DO NOTHING;
+#                 "
+
 def commit_all():
     conn.commit()
 
@@ -29,7 +36,8 @@ def select_from_table(table, columns):
 
 def insert_into_table(table, columns, values):
     if table and columns and values:
-        sanitized_values = [f"'{sanitize(v)}'" for v in values]
+        sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
+        print(sanitized_values)
         query = f'''
                 INSERT INTO {table} ({",".join(columns)}) 
                 VALUES ({",".join(sanitized_values)})
@@ -38,6 +46,12 @@ def insert_into_table(table, columns, values):
                 '''
         execute(query)
 
+'''
+  INSERT INTO word_analysis_word (french,ti,otb) 
+                VALUES ('préface',4,2)
+                ON CONFLICT (french) 
+                DO NOTHING;
+                '''
 def update_table(table, set_column, set_value, where_column, where_value):
     if table and set_column and set_value and where_column and where_value:
         query = f"UPDATE {table} SET {set_column} = '{sanitize(set_value)}' WHERE {where_column}='{sanitize(where_value)}'"

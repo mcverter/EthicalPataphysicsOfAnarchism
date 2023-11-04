@@ -18,7 +18,7 @@ def populate_english_explanation():
         idx_global = OFFSET + idx
         english = english_words[idx][0]
         if english:
-            english_url = f'{SITE_ENGlISH_EXPLANATIONS}{english}'
+            english_url = english # JUST TEMP DEBUG f'{SITE_ENGlISH_EXPLANATIONS}{english}'
             page = requests.get(english_url)
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div', {"class": "sense-content"})
