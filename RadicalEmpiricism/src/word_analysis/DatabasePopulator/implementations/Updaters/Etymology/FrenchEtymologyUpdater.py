@@ -1,4 +1,4 @@
-from DatabaseUpdater import DatabaseUpdater
+from ....DatabaseUpdater import DatabaseUpdater
 from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_FRENCH, TABLE_ETYMOLOGY
 
 OFFSET = 0

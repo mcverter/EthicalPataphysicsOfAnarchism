@@ -1,10 +1,11 @@
-from DatabaseUpdater import DatabaseUpdater
-from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_ENGLISH, TABLE_DEFINITION
+from ....DatabaseUpdater import DatabaseUpdater
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_ENGLISH, TABLE_ETYMOLOGY
 
 OFFSET = 0
-class EnglishDefinitionUpdater(DatabaseUpdater):
+
+class EnglishEtymologyUpdater(DatabaseUpdater):
     def __init__(self):
-        super().__init__(set_table=TABLE_DEFINITION,
+        super().__init__(set_table=TABLE_ETYMOLOGY,
                          where_table=TABLE_WORD,
                          set_column=COLUMN_ENGLISH,
                          where_column=COLUMN_ENGLISH,

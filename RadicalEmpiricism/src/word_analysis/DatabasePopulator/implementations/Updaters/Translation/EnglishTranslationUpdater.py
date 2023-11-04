@@ -1,6 +1,6 @@
 
 from deep_translator import GoogleTranslator
-from DatabaseUpdater import DatabaseUpdater
+from ....DatabaseUpdater import DatabaseUpdater
 from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_ENGLISH, COLUMN_FRENCH
 
 OFFSET = 0
