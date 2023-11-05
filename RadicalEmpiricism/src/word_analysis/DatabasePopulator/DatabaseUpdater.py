@@ -1,6 +1,9 @@
 import logging
+import re
+
+from .DatabasePopulator import DatabasePopulator
 from ..db.db import select_from_table, update_table, commit_all, insert_into_table
-from DatabasePopulator import DatabasePopulator
+
 class DatabaseUpdater(DatabasePopulator):
     def __init__(self,
                  set_table,
@@ -13,7 +16,7 @@ class DatabaseUpdater(DatabasePopulator):
         self.set_column = set_column
         self.where_column = where_column
 
-        self.OFFSET = offset or 1
+        self.OFFSET = offset or 0
 
     def get_set_value(self, where_value):
         raise Exception('Must define "get_set_value" in subclass')
@@ -25,14 +28,25 @@ class DatabaseUpdater(DatabasePopulator):
         print(message)
         commit_all()
 
+    def where_value_is_empty(self, cols):
+        return re.search('^\(,', cols) or re.search(',\)$', cols)
+
+    def get_where_value(self, cols):
+        return re.sub('[\(,\)]', '', cols)
+
     def populate(self):
-        results = self.select_columns()
+        rows = self.select_columns()
 
         counter = 0
-        for result in results:
-            (set_value, where_value) = result
-            if where_value is None and counter >= self.OFFSET:
-                where_value = self.get_set_value()
+        for row in rows:
+            if row is None or counter < self.OFFSET:
+                continue
+            cols = row[0]
+            if cols is None:
+                continue
+            if self.where_value_is_empty(cols):
+                where_value = self.get_where_value(cols)
+                set_value = self.get_set_value(where_value)
                 self.update_single_item(set_value, where_value)
             if counter % 50 == 3:
                 self.do_commit(counter)
