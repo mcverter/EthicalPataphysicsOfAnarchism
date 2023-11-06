@@ -11,4 +11,4 @@ class DatabaseInserter(DatabasePopulator):
         self.values = values
 
     def insert(self):
-        insert_into_table(self.table, self.columns, self.values)
+        return insert_into_table(self.table, self.columns, self.values)

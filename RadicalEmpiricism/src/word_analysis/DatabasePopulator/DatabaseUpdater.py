@@ -34,6 +34,13 @@ class DatabaseUpdater(DatabasePopulator):
     def get_where_value(self, cols):
         return re.sub('[\(,\)]', '', cols)
 
+
+    def update_foreign_key(self):
+
+        # check foreign key table for id
+        # if id does not exist, create it and return it
+        # add foreign key id to main table
+        pass
     def populate(self):
         rows = self.select_columns()
 
