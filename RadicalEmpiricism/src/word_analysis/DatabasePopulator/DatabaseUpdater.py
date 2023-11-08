@@ -30,8 +30,7 @@ class DatabaseUpdater(DatabasePopulator):
         logger.log_update_same_table(self.set_column, self.where_column, counter)
 
     def get_data_value(self, where_value):
-        raise Exception('Must define "crawl_web_for_where_value" in subclass')
-        pass
+        raise Exception('Must define "get_data_value" in subclass')
 
     def select_columns(self):
         return select_from_table(self.table, (self.set_column, self.where_column))
