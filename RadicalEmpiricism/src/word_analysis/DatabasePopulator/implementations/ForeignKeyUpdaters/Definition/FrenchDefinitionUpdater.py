@@ -1,7 +1,7 @@
 import re
 from larousse_api import larousse
-from ....DatabaseUpdater import DatabaseUpdater
-from ....constants import TABLE_WORD, COLUMN_FRENCH, TABLE_DEFINITION
+from ....ForeignKeyUpdater import ForeignKeyUpdater
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_FRENCH, TABLE_DEFINITION
 
 offset = 0
 
@@ -14,7 +14,7 @@ def clean_larousse_definition(definition):
 
     return definition
 
-class FrenchDefinitionUpdater(DatabaseUpdater):
+class FrenchDefinitionUpdater(ForeignKeyUpdater):
     def __init__(self):
         super().__init__(table=TABLE_DEFINITION,
                          where_table=TABLE_WORD,

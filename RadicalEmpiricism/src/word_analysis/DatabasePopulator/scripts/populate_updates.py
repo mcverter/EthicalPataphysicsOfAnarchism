@@ -1,13 +1,13 @@
-from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Etymology.EnglishEtymologyUpdater import \
-    EnglishEtymologyUpdater
-from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Etymology.FrenchEtymologyUpdater import \
-    FrenchEtymologyUpdater
-from ....DatabasePopulator.implementations.NativeTableUpdaters.Translation import \
-    EnglishTranslationUpdater
-from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Definition.FrenchDefinitionUpdater import \
-    FrenchDefinitionUpdater
-from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Definition.EnglishDefinitionUpdater import \
+from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.ForeignKeyUpdaters.Definition.EnglishDefinitionUpdater import \
     EnglishDefinitionUpdater
+from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.ForeignKeyUpdaters.Etymology.FrenchEtymologyUpdater import \
+    FrenchEtymologyUpdater
+from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.ForeignKeyUpdaters.Definition.FrenchDefinitionUpdater import \
+    FrenchDefinitionUpdater
+from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.ForeignKeyUpdaters.Etymology.EnglishEtymologyUpdater import \
+    EnglishEtymologyUpdater
+from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.NativeTableUpdaters.Translation.EnglishTranslationUpdater import \
+    EnglishTranslationUpdater
 
 
 def populate_definitions():

@@ -41,25 +41,31 @@ def check_for_value(table, select_col, where_col, where_val):
 
 
 def update_foreign_key(main_table,
-                       fk_table,
-                       main_where_col,
+                       main_where_column,
                        main_where_val,
                        main_fk_col,
-                       fk_where_col,
-                       fk_where_value):
+                       fk_table,
+                       fk_internal_col,
+                       data_value):
+    if main_where_val is None or main_where_column is None \
+        or main_where_val is None or main_fk_col is None \
+        or fk_table is None or fk_internal_col is None \
+        or data_value is None:
+        raise Exception("ERROR: you need to define all parameters to update_foreign_key")
+
     fk_id = check_for_value(fk_table,
                             'id',
-                            fk_where_col,
-                            fk_where_value)
+                            fk_internal_col,
+                            data_value)
     if fk_id is None:
         fk_id = insert_into_table(fk_table,
-                                  fk_where_col,
-                                  fk_where_value)
-    update_table(main_table,
-                 main_fk_col,
-                 fk_id,
-                 main_where_col,
-                 main_where_val)
+                                  fk_internal_col,
+                                  data_value)
+    update_table(table=main_table,
+                 set_column=main_fk_col,
+                 set_value=fk_id,
+                 where_column=main_where_column,
+                 where_value=main_where_val)
 
 
 def insert_into_table(table, columns, values):

@@ -1,8 +1,8 @@
-from ....DatabaseUpdater import DatabaseUpdater
-from ....constants import TABLE_WORD, COLUMN_ENGLISH, TABLE_DEFINITION
+from ....ForeignKeyUpdater import ForeignKeyUpdater
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_ENGLISH, TABLE_DEFINITION
 
 offset = 0
-class EnglishDefinitionUpdater(DatabaseUpdater):
+class EnglishDefinitionUpdater(ForeignKeyUpdater):
     def __init__(self):
         super().__init__(table=TABLE_DEFINITION,
                          where_table=TABLE_WORD,

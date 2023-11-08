@@ -1,1 +1,4 @@
-p
+disable=
+    missing-class-docstring,
+    missing-function-docstring
+    pointless-string-statement

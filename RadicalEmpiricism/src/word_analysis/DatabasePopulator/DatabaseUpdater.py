@@ -5,8 +5,10 @@ import re
 
 logger = Logger()
 
+
 def is_where_val_in_row(cols):
     return re.search('^\(,', cols) or re.search(',\)$', cols)
+
 
 def get_where_value_from_row(cols):
     return re.sub('[(,)]', '', cols)
@@ -27,12 +29,8 @@ class DatabaseUpdater(DatabasePopulator):
         super().commit(counter)
         logger.log_update_same_table(self.set_column, self.where_column, counter)
 
-    def crawl_web_for_where_value(self, where_value):
+    def get_data_value(self, where_value):
         raise Exception('Must define "crawl_web_for_where_value" in subclass')
-        pass
-
-    def get_set_value(self, where_value):
-        raise Exception('Must define "get_set_value" in subclass')
         pass
 
     def select_columns(self):
@@ -50,7 +48,7 @@ class DatabaseUpdater(DatabasePopulator):
                 continue
             if is_where_val_in_row(row):
                 where_value = get_where_value_from_row(row)
-                set_value = self.get_set_value(where_value)
+                set_value = self.get_data_value(where_value)
                 return update_table(table=self.table,
                                     set_column=self.set_column,
                                     set_value=set_value,
