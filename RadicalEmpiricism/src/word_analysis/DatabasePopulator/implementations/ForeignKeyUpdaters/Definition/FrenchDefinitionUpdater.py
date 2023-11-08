@@ -1,9 +1,9 @@
 import re
 from larousse_api import larousse
 from ....DatabaseUpdater import DatabaseUpdater
-from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_FRENCH, TABLE_DEFINITION
+from ....constants import TABLE_WORD, COLUMN_FRENCH, TABLE_DEFINITION
 
-OFFSET = 0
+offset = 0
 
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
@@ -16,13 +16,13 @@ def clean_larousse_definition(definition):
 
 class FrenchDefinitionUpdater(DatabaseUpdater):
     def __init__(self):
-        super().__init__(set_table=TABLE_DEFINITION,
+        super().__init__(table=TABLE_DEFINITION,
                          where_table=TABLE_WORD,
                          set_column=COLUMN_FRENCH,
                          where_column=COLUMN_FRENCH,
-                         offset=OFFSET)
+                         offset=offset)
 
-    def get_set_value(self, where_value):
+    def get_set_value_for_main_table(self, where_value):
         return "; ".join([clean_larousse_definition(c)
              for c in larousse.get_definitions(where_value)])
 

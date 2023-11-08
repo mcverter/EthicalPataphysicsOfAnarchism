@@ -1,12 +1,12 @@
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.Updaters.Etymology.EnglishEtymologyUpdater import \
+from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Etymology.EnglishEtymologyUpdater import \
     EnglishEtymologyUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.Updaters.Etymology.FrenchEtymologyUpdater import \
+from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Etymology.FrenchEtymologyUpdater import \
     FrenchEtymologyUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.Updaters.Translation.EnglishTranslationUpdater import \
+from ....DatabasePopulator.implementations.NativeTableUpdaters.Translation import \
     EnglishTranslationUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.Updaters.Definition.FrenchDefinitionUpdater import \
+from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Definition.FrenchDefinitionUpdater import \
     FrenchDefinitionUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.implementations.Updaters.Definition.EnglishDefinitionUpdater import \
+from ....DatabasePopulator.implementations.ForeignKeyUpdaters.Definition.EnglishDefinitionUpdater import \
     EnglishDefinitionUpdater
 
 
@@ -28,7 +28,7 @@ def populate_translations():
     
 
 def populate_updates():
-#    populate_translations()
+    populate_translations()
     populate_definitions()
     populate_etymologies()
 
