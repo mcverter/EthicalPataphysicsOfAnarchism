@@ -28,7 +28,7 @@ def populate_translations():
     
 
 def populate_updates():
-    populate_translations()
+#    populate_translations()
     populate_definitions()
     populate_etymologies()
 

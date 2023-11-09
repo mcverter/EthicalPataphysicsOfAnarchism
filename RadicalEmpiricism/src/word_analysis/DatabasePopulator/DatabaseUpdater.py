@@ -1,9 +1,9 @@
-from DBLogger import Logger
+from DBLogger import DBLogger
 from .DatabasePopulator import DatabasePopulator
 from ..db.db import select_from_table, update_table
 import re
 
-logger = Logger()
+logger = DBLogger()
 
 
 def is_where_val_in_row(cols):
