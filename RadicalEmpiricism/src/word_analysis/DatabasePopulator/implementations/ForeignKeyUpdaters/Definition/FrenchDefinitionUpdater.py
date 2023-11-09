@@ -19,7 +19,6 @@ class FrenchDefinitionUpdater(ForeignKeyUpdater):
         super().__init__(table=TABLE_WORD,
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_FRENCH,
-                         fk_internal_column=COLUMN_FRENCH,
                          offset=offset)
 
 

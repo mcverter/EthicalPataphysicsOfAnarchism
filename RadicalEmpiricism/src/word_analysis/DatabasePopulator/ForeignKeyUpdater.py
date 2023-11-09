@@ -8,14 +8,13 @@ class ForeignKeyUpdater(DatabaseUpdater):
                  table,
                  set_column,
                  where_column,
-                 fk_internal_column,
                  offset):
         super().__init__(table=table,
                          set_column=set_column,
                          where_column=where_column,
                          offset=offset)
         self.fk_table = TABLE_START_STRING + set_column
-        self.fk_internal_column = fk_internal_column
+        self.fk_internal_column = where_column
 
         self.offset = offset or 0
 
