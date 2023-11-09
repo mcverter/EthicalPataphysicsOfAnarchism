@@ -1,4 +1,4 @@
-from DBLogger import DBLogger
+from .DBLogger import DBLogger
 from .DatabasePopulator import DatabasePopulator
 from ..db.db import select_from_table, update_table
 import re

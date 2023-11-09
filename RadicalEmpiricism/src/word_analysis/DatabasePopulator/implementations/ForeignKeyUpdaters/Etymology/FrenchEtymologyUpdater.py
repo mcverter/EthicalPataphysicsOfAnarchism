@@ -3,7 +3,8 @@ from ....ForeignKeyUpdater import ForeignKeyUpdater
 
 offset = 0
 class FrenchEtymologyUpdater(ForeignKeyUpdater):
-    super().__init__(table=TABLE_WORD,
+    def __init__(self):
+        super().__init__(table=TABLE_WORD,
                      set_column=COLUMN_ETYMOLOGY,
                      where_column=COLUMN_FRENCH,
                      offset=offset)
