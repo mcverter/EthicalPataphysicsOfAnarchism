@@ -31,7 +31,7 @@ def select_from_table(table, columns):
         return cursor.fetchall()
 
 
-def check_for_value(table, select_col, where_col, where_val):
+def select_value(table, select_col, where_col, where_val):
     cursor = get_db_cursor()
     query = f'SELECT {select_col} from {table} where {where_col} = {where_val}'
     cursor.execute(query)
@@ -41,6 +41,7 @@ def check_for_value(table, select_col, where_col, where_val):
 
 
 def update_foreign_key(main_table,
+                       main_set_column,
                        main_where_column,
                        main_where_val,
                        main_fk_col,
@@ -50,22 +51,42 @@ def update_foreign_key(main_table,
     if main_where_val is None or main_where_column is None \
         or main_where_val is None or main_fk_col is None \
         or fk_table is None or fk_internal_col is None \
-        or data_value is None:
+        or main_set_column is None or data_value is None:
         raise Exception("ERROR: you need to define all parameters to update_foreign_key")
 
-    fk_id = check_for_value(fk_table,
-                            'id',
-                            fk_internal_col,
-                            data_value)
+    # first check main table for value in column
+    fk_id = select_value(table=main_table,
+                         select_col=main_set_column,
+                         where_col=main_where_column,
+                         where_val=main_where_val)
+
+
+    fk_id = select_value(table=fk_table,
+                        select_col='id',
+                         where_col=fk_internal_col,
+                         where_val=data_value)
     if fk_id is None:
         fk_id = insert_into_table(fk_table,
                                   fk_internal_col,
                                   data_value)
-    update_table(table=main_table,
-                 set_column=main_fk_col,
-                 set_value=fk_id,
-                 where_column=main_where_column,
-                 where_value=main_where_val)
+        update_table(table=main_table,
+                     set_column=main_fk_col,
+                     set_value=fk_id,
+                     where_column=main_where_column,
+                     where_value=main_where_val)
+
+    else:
+        # check table for value
+        fk_internal_value = select_value(fk_table,
+                                        select_col=fk_internal_col,
+                                         where_col='id',
+                                         where_val=fk_id)
+        if fk_internal_value is None:
+            update_table(table=fk_table,
+                         set_column=fk_table,
+                         set_value=data_value,
+                         where_column='id',
+                         where_value=data_value)
 
 
 def insert_into_table(table, columns, values):

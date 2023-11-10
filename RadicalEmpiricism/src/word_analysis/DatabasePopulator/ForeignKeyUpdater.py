@@ -23,9 +23,9 @@ class ForeignKeyUpdater(DatabaseUpdater):
 
     def get_data_value(self, where_value):
         return update_foreign_key(main_table=self.table,
+                                  main_set_column=self.set_column,
                                   main_where_column=self.where_column,
                                   main_where_val=where_value,
                                   fk_table=self.fk_table,
-                                  main_fk_col=self.set_column,
                                   fk_internal_col=self.fk_internal_column,
                                   data_value=self.get_fk_value_from_main_where_value(where_value))
