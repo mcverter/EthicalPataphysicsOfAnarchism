@@ -10,7 +10,7 @@ class ForeignKeyUpdater(DatabaseUpdater):
                  where_column,
                  offset):
         super().__init__(table=table,
-                         set_column=set_column,
+                         set_column=set_column + '_id',
                          where_column=where_column,
                          offset=offset)
         self.fk_table = TABLE_START_STRING + set_column
@@ -29,3 +29,9 @@ class ForeignKeyUpdater(DatabaseUpdater):
                                   fk_table=self.fk_table,
                                   fk_internal_col=self.fk_internal_column,
                                   data_value=self.get_fk_value_from_main_where_value(where_value))
+'''
+def update_foreign_key(main_fk_col,
+                       fk_table,
+                       fk_internal_col,
+                       data_value):
+'''

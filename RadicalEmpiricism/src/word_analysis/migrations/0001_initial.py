@@ -6,7 +6,7 @@ ID_FIELD = ('id', models.AutoField(auto_created=True,
                                    verbose_name='ID'))
 
 FRENCH_WORD_COL = ('french', models.CharField(max_length=100, null=True, unique=True))
-ENGLISH_WORD_COL = ('english', models.CharField(max_length=100, null=True, unique=True))
+ENGLISH_WORD_COL = ('english', models.CharField(max_length=100, null=True))
 FRENCH_EXPLANATION_COL = ('french_explanation', models.TextField(null=True))
 ENGLISH_EXPLANATION_COL = ('english_explanation', models.TextField(null=True))
 

@@ -48,7 +48,7 @@ class DatabaseUpdater(DatabasePopulator):
             if is_where_val_in_row(row):
                 where_value = get_where_value_from_row(row)
                 set_value = self.get_data_value(where_value)
-                return update_table(table=self.table,
+                update_table(table=self.table,
                                     set_column=self.set_column,
                                     set_value=set_value,
                                     where_column=self.where_column,

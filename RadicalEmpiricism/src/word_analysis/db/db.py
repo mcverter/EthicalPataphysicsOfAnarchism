@@ -1,5 +1,7 @@
 import os
+
 import psycopg2
+
 from .sanitize_values import sanitize
 
 DB_PASS = os.environ["DB_PASS"]
@@ -19,6 +21,7 @@ def execute(query):
     cursor = get_db_cursor()
     cursor.execute(query)
 
+
 def commit_all():
     conn.commit()
 
@@ -33,7 +36,7 @@ def select_from_table(table, columns):
 
 def select_value(table, select_col, where_col, where_val):
     cursor = get_db_cursor()
-    query = f'SELECT {select_col} from {table} where {where_col} = {where_val}'
+    query = f"SELECT {select_col} from {table} where {where_col} = '{sanitize(where_val)}'"
     cursor.execute(query)
     result = cursor.fetchone()
     print(result)
@@ -44,33 +47,35 @@ def update_foreign_key(main_table,
                        main_set_column,
                        main_where_column,
                        main_where_val,
-                       main_fk_col,
                        fk_table,
                        fk_internal_col,
                        data_value):
     if main_where_val is None or main_where_column is None \
-        or main_where_val is None or main_fk_col is None \
-        or fk_table is None or fk_internal_col is None \
-        or main_set_column is None or data_value is None:
+            or main_where_val is None \
+            or fk_table is None or fk_internal_col is None \
+            or main_set_column is None or data_value is None:
         raise Exception("ERROR: you need to define all parameters to update_foreign_key")
 
-    # first check main table for value in column
-    fk_id = select_value(table=main_table,
-                         select_col=main_set_column,
-                         where_col=main_where_column,
-                         where_val=main_where_val)
+    main_fk_value = select_value(table=main_table,
+                                 select_col=main_set_column,
+                                 where_col=main_where_column,
+                                 where_val=main_where_val)
 
-
+    '''
     fk_id = select_value(table=fk_table,
                         select_col='id',
                          where_col=fk_internal_col,
                          where_val=data_value)
-    if fk_id is None:
+    '''
+
+    main_fk_value = main_fk_value[0]
+
+    if main_fk_value is None:
         fk_id = insert_into_table(fk_table,
-                                  fk_internal_col,
-                                  data_value)
+                                  columns=(fk_internal_col,),
+                                  values=(data_value,))
         update_table(table=main_table,
-                     set_column=main_fk_col,
+                     set_column=main_set_column,
                      set_value=fk_id,
                      where_column=main_where_column,
                      where_value=main_where_val)
@@ -78,9 +83,9 @@ def update_foreign_key(main_table,
     else:
         # check table for value
         fk_internal_value = select_value(fk_table,
-                                        select_col=fk_internal_col,
+                                         select_col=fk_internal_col,
                                          where_col='id',
-                                         where_val=fk_id)
+                                         where_val=main_fk_value)
         if fk_internal_value is None:
             update_table(table=fk_table,
                          set_column=fk_table,

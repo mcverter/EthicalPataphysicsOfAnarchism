@@ -31,4 +31,4 @@ CLEANED_TOTALITE = BOOK_TOTALITE + CLEANED_SUFFIX
 
 SITE_FRENCH_ETYMOLOGY = 'https://www.dictionnairedesfrancophones.org/form/survivre'
 SITE_ENGLISH_ETYMOLOGY = 'https://www.etymonline.com/search?q='
-SITE_ENGLISH_EXPLANATIONS = 'https://www.merriam-webster.com/dictionary/'
+SITE_ENGLISH_DEFINITIONS = 'https://www.merriam-webster.com/dictionary/'

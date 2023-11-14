@@ -4,7 +4,7 @@ from deep_translator import GoogleTranslator
 from RadicalEmpiricism.src.word_analysis.DatabasePopulator.DatabaseUpdater import DatabaseUpdater
 from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_ENGLISH, COLUMN_FRENCH
 
-offset = 6300
+offset = 0
 
 class EnglishTranslationUpdater(DatabaseUpdater):
     def __init__(self):

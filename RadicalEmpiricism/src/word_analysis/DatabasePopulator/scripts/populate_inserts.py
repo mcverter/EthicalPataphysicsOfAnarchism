@@ -1,7 +1,11 @@
-from ....DatabasePopulator.implementations.Inserters import FrenchWordInserter
-from ....constants import CLEANED_TOTALITE, CLEANED_AUTREMENT
 import re
+
+from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.Inserters.FrenchWordInserter import \
+    FrenchWordInserter
+from RadicalEmpiricism.src.word_analysis.constants import CLEANED_TOTALITE, CLEANED_AUTREMENT, TABLE_WORD
+
 WORD_MAP = {}
+
 
 def split_into_words(content):
     content = content.replace('\n', ' ')
@@ -11,6 +15,7 @@ def split_into_words(content):
     words = content.split(' ')
     return words
 
+
 def normalize_word(word):
     if len(word) == 0:
         return None
@@ -18,6 +23,7 @@ def normalize_word(word):
     word = word.replace('l\'', '')
     word = word.replace('d\'', '')
     return word.lower()
+
 
 def add_words_to_map(words, book):
     for word in words:
@@ -32,6 +38,7 @@ def add_words_to_map(words, book):
             else:
                 WORD_MAP[normalized] = {'ti': 0, 'otb': 1}
 
+
 def populate_inserts():
     with open(CLEANED_TOTALITE, "r", encoding="utf-8") as ti:
         ti_content = ti.read()
@@ -43,22 +50,22 @@ def populate_inserts():
         otb_words = split_into_words(otb_content)
         add_words_to_map(otb_words, "otb")
 
-    rows = [(key[0], key[1]['ti'], key[1]['otb']) for key in WORD_MAP.items()]
+    french_inserter = FrenchWordInserter()
 
     counter = 0
-    for row in rows:
-        print(row)
-        if row[0]!='parabreak':
-            french_inserter = FrenchWordInserter(row)
-            french_inserter.insert()
+    for row in [
+        (key[0], key[1]['ti'], key[1]['otb'])
+        for key in WORD_MAP.items()]:
+        if row[0] != 'parabreak':
+            french_inserter.insert_single_item(row)
             counter += 1
             if counter % 50 == 14:
-                french_inserter.commit()
+                french_inserter.commit(counter=counter)
                 print('inserting row', row, 'counter', counter)
 
-    french_inserter = FrenchWordInserter([])
-    french_inserter.commit()
+    french_inserter.commit(counter=counter)
     print('inserting counter', counter)
+
 
 if __name__ == '__main__':
     populate_inserts()
