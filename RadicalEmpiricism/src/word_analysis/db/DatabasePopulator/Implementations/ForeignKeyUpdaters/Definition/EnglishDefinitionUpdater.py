@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from ....ForeignKeyUpdater import ForeignKeyUpdater
-from .....constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, SITE_ENGLISH_DEFINITIONS
+from ......constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 
 offset: int = 0
 
@@ -28,6 +28,7 @@ class EnglishDefinitionUpdater(ForeignKeyUpdater):
         super().__init__(table=TABLE_WORD,
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_ENGLISH,
+                         fk_internal_column=COLUMN_ENGLISH_EXPLANATION,
                          offset=offset)
 
     def get_fk_value_from_main_where_value(self, where_value):

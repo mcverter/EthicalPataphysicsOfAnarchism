@@ -1,7 +1,7 @@
 import re
 from larousse_api import larousse
 from ....ForeignKeyUpdater import ForeignKeyUpdater
-from .....constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH
+from ......constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH, COLUMN_FRENCH_EXPLANATION
 
 offset = 0
 
@@ -19,11 +19,13 @@ class FrenchDefinitionUpdater(ForeignKeyUpdater):
         super().__init__(table=TABLE_WORD,
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_FRENCH,
+                         fk_internal_column=COLUMN_FRENCH_EXPLANATION,
                          offset=offset)
 
 
 
-    def get_set_value_for_main_table(self, where_value):
+    def get_fk_value_from_main_where_value(self, where_value):
         return "; ".join([clean_larousse_definition(c)
              for c in larousse.get_definitions(where_value)])
+
 

@@ -1,17 +1,20 @@
 from .DBLogger import DBLogger
 from .DatabasePopulator import DatabasePopulator
-from ..db.db import select_from_table, update_table
+from ..db import select_from_table, update_table
 import re
 
 logger = DBLogger()
 
 
-def is_where_val_in_row(cols):
-    return re.search('^\(,', cols) or re.search(',\)$', cols)
-
 
 def get_where_value_from_row(cols):
-    return re.sub('[(,)]', '', cols)
+    if re.search('^\(,', cols) or re.search(',\)$', cols):
+        return None
+    where_val = re.sub('.*,', '', cols)
+    where_val = where_val[:-1]
+    if where_val == "":
+        return None
+    return where_val
 
 
 class DatabaseUpdater(DatabasePopulator):
@@ -45,14 +48,18 @@ class DatabaseUpdater(DatabasePopulator):
             row = row[0]
             if row is None:
                 continue
-            if is_where_val_in_row(row):
-                where_value = get_where_value_from_row(row)
+
+            if counter == 41:
+                print('break')
+            where_value = get_where_value_from_row(row)
+            if where_value:
                 set_value = self.get_data_value(where_value)
-                update_table(table=self.table,
-                                    set_column=self.set_column,
-                                    set_value=set_value,
-                                    where_column=self.where_column,
-                                    where_value=where_value)
+                if set_value:
+                    update_table(table=self.table,
+                                        set_column=self.set_column,
+                                        set_value=set_value,
+                                        where_column=self.where_column,
+                                        where_value=where_value)
 
             if counter % 50 == 3:
                 self.commit(counter)

@@ -1,4 +1,4 @@
-from ..db.db import commit_all
+from ..db import commit_all
 
 
 class DatabasePopulator:

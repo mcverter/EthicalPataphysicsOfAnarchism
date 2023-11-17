@@ -1,6 +1,6 @@
 from .DatabaseUpdater import DatabaseUpdater
-from ..db.db import update_foreign_key
-from ..constants import TABLE_START_STRING
+from ..db import update_foreign_key
+from ...constants import TABLE_START_STRING
 
 
 class ForeignKeyUpdater(DatabaseUpdater):
@@ -8,13 +8,14 @@ class ForeignKeyUpdater(DatabaseUpdater):
                  table,
                  set_column,
                  where_column,
+                 fk_internal_column,
                  offset):
         super().__init__(table=table,
                          set_column=set_column + '_id',
                          where_column=where_column,
                          offset=offset)
         self.fk_table = TABLE_START_STRING + set_column
-        self.fk_internal_column = where_column
+        self.fk_internal_column = fk_internal_column
 
         self.offset = offset or 0
 
@@ -29,9 +30,3 @@ class ForeignKeyUpdater(DatabaseUpdater):
                                   fk_table=self.fk_table,
                                   fk_internal_col=self.fk_internal_column,
                                   data_value=self.get_fk_value_from_main_where_value(where_value))
-'''
-def update_foreign_key(main_fk_col,
-                       fk_table,
-                       fk_internal_col,
-                       data_value):
-'''

@@ -1,4 +1,4 @@
-from ..db.db import insert_into_table
+from ..db import insert_into_table
 from .DatabasePopulator import DatabasePopulator
 
 class DatabaseInserter(DatabasePopulator):

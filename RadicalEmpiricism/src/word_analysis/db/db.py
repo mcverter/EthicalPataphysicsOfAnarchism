@@ -39,7 +39,6 @@ def select_value(table, select_col, where_col, where_val):
     query = f"SELECT {select_col} from {table} where {where_col} = '{sanitize(where_val)}'"
     cursor.execute(query)
     result = cursor.fetchone()
-    print(result)
     return result
 
 
@@ -61,24 +60,18 @@ def update_foreign_key(main_table,
                                  where_col=main_where_column,
                                  where_val=main_where_val)
 
-    '''
-    fk_id = select_value(table=fk_table,
-                        select_col='id',
-                         where_col=fk_internal_col,
-                         where_val=data_value)
-    '''
-
     main_fk_value = main_fk_value[0]
-
     if main_fk_value is None:
         fk_id = insert_into_table(fk_table,
                                   columns=(fk_internal_col,),
                                   values=(data_value,))
+        fk_id = fk_id[0]
         update_table(table=main_table,
                      set_column=main_set_column,
                      set_value=fk_id,
                      where_column=main_where_column,
                      where_value=main_where_val)
+        print('main where val', main_where_val)
 
     else:
         # check table for value
@@ -86,24 +79,23 @@ def update_foreign_key(main_table,
                                          select_col=fk_internal_col,
                                          where_col='id',
                                          where_val=main_fk_value)
-        if fk_internal_value is None:
+        if fk_internal_value[0] is None:
             update_table(table=fk_table,
-                         set_column=fk_table,
+                         set_column=fk_internal_col,
                          set_value=data_value,
                          where_column='id',
-                         where_value=data_value)
+                         where_value=main_fk_value)
 
 
 def insert_into_table(table, columns, values):
     if table and columns and values:
         sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
-        print(sanitized_values)
         query = f'''
                 INSERT INTO {table} ({",".join(columns)}) 
                 VALUES ({",".join(sanitized_values)})
-                ON CONFLICT ({columns[0]}) 
-                DO NOTHING
-                RETURNING ID;
+/*              ON CONFLICT ({columns[0]})  
+                DO NOTHING no unique constraint yet  */
+                RETURNING id;
                 '''
         cursor = get_db_cursor()
         cursor.execute(query)
