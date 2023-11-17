@@ -2,7 +2,6 @@ from .DatabaseUpdater import DatabaseUpdater
 from ..db import update_foreign_key
 from ...constants import TABLE_START_STRING
 
-
 class ForeignKeyUpdater(DatabaseUpdater):
     def __init__(self,
                  table,

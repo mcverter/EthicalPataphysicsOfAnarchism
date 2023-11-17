@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from ....ForeignKeyUpdater import ForeignKeyUpdater
 from ......constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 
-offset: int = 0
+OFFSET: int = 0
 
 
 def find_english_definition(english):
@@ -29,7 +29,7 @@ class EnglishDefinitionUpdater(ForeignKeyUpdater):
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_ENGLISH,
                          fk_internal_column=COLUMN_ENGLISH_EXPLANATION,
-                         offset=offset)
+                         offset=OFFSET)
 
     def get_fk_value_from_main_where_value(self, where_value):
         return find_english_definition(where_value)

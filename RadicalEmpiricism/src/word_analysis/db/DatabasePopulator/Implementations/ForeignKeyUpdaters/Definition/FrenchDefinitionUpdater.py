@@ -3,7 +3,7 @@ from larousse_api import larousse
 from ....ForeignKeyUpdater import ForeignKeyUpdater
 from ......constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH, COLUMN_FRENCH_EXPLANATION
 
-offset = 0
+OFFSET: int = 0
 
 def clean_larousse_definition(definition):
     definition = definition.replace('\r\n', ' ')
@@ -20,7 +20,7 @@ class FrenchDefinitionUpdater(ForeignKeyUpdater):
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_FRENCH,
                          fk_internal_column=COLUMN_FRENCH_EXPLANATION,
-                         offset=offset)
+                         offset=OFFSET)
 
 
 

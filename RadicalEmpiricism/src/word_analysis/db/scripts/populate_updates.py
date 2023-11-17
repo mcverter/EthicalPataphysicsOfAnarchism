@@ -30,11 +30,9 @@ def populate_translations():
 
 
 def populate_updates():
-    #    populate_translations()
-    populate_definitions()
-
-
-#    populate_etymologies()
+    # populate_translations()
+    # populate_definitions()
+    populate_etymologies()
 
 if __name__ == '__main__':
     populate_updates()
