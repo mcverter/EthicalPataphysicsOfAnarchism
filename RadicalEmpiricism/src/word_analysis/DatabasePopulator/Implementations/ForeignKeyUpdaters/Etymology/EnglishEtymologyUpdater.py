@@ -38,7 +38,7 @@ class EnglishEtymologyUpdater(ForeignKeyUpdater):
             results = soup.find_all('div')
 
             for result in results:
-                if (is_etymology_div(result)):
+                if is_etymology_div(result):
                     return result.text
         else:
             print('break')

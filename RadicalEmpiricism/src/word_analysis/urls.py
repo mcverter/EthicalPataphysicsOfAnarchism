@@ -8,8 +8,7 @@ urlpatterns = [
     path("words", views.AllWordsView.as_view(), name="all-words-view"),
     path("mots", views.ToutesMotsView.as_view(), name="toutes-mots-view"),
 
-
-'''
+    '''
     path("posts/<slug:slug>", views.SinglePostView.as_view(),
          name="post-detail-page"),  # /posts/my-first-post
 

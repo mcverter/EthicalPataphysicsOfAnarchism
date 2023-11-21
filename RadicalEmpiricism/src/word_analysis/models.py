@@ -5,11 +5,6 @@ CHAR_FIELD = models.CharField(max_length=100, unique=True, null=True)
 TEXT_FIELD = models.TextField()
 INTEGER_FIELD = models.IntegerField()
 
-def ForeignKeyModel(fk_model):
-    return models.ForeignKey(fk_model, on_delete=models.SET_NULL)
-
-def ManyToManyModel(fk_model):
-    return models.ManyToManyField(fk_model)
 
 class Etymology(models.Model):
     french_explanation: TEXT_FIELD
@@ -66,8 +61,8 @@ class PartOfSpeech(models.Model):
     english: CHAR_FIELD
     french_explanation: TEXT_FIELD
     english_explanation: TEXT_FIELD
-    verbType: ForeignKeyModel(VerbType)
-    nounType: ForeignKeyModel(NounType)
+    verbType: models.ForeignKey(VerbType, on_delete=models.SET_NULL)
+    nounType: models.ForeignKey(NounType, on_delete=models.SET_NULL)
 
     def __str__(self):
         return self.french
@@ -103,15 +98,15 @@ class Word(models.Model):
     otb: INTEGER_FIELD
 
     # etymology and definition
-    etymology: ForeignKeyModel(Etymology)
-    definition: ForeignKeyModel(Definition)
+    etymology: models.ForeignKey(Etymology, on_delete=models.SET_NULL)
+    definition: models.ForeignKey(Definition, on_delete=models.SET_NULL)
 
     # connections
-    prefix: ForeignKeyModel(Prefix)
-    suffix: ForeignKeyModel(Suffix)
-    partOfSpeech: ForeignKeyModel(PartOfSpeech)
-    etymologicalRoot: ForeignKeyModel(EtymologicalRoot)
-    semanticCategories: ManyToManyModel(SemanticCategory)
+    prefix: models.ForeignKey(Prefix, on_delete=models.SET_NULL)
+    suffix: models.ForeignKey(Suffix, on_delete=models.SET_NULL)
+    partOfSpeech: models.ForeignKey(PartOfSpeech, on_delete=models.SET_NULL)
+    etymologicalRoot: models.ForeignKey(EtymologicalRoot, on_delete=models.SET_NULL)
+    semanticCategories: models.ManyToManyField(SemanticCategory)
 
     def __str__(self):
         return self.french

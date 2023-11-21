@@ -1,11 +1,13 @@
 import re
 
+
 def sanitize(value):
-    if isinstance( value, int):
+    if isinstance(value, int):
         return value
     value = re.sub('"', '', value)
     value = re.sub("'", "''", value)
     return value
+
 
 def get_value_string_from_content(content, regex_start, regex_end):
     content = content.replace('\n', ' ')

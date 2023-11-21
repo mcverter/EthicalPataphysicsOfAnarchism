@@ -17,12 +17,12 @@ def find_english_definition(english):
     results = soup.find_all('div', {"class": "sense-content"})
 
     definition = functools.reduce(lambda a, b:
-                                          a +
-                                          b.text
-                                              .replace('\n', '')
-                                              .replace(':', '') +
-                                          ";",
-                                          results, '')
+                                  a +
+                                  b.text
+                                  .replace('\n', '')
+                                  .replace(':', '') +
+                                  ";",
+                                  results, '')
     if definition and len(definition) > 0:
         definition = definition[:-1] + '.'
     return definition

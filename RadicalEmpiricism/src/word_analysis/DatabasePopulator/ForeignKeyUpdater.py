@@ -2,6 +2,7 @@ from .DatabaseUpdater import DatabaseUpdater
 from RadicalEmpiricism.src.word_analysis.db.db import update_foreign_key
 from RadicalEmpiricism.src.word_analysis.constants import TABLE_START_STRING
 
+
 class ForeignKeyUpdater(DatabaseUpdater):
     def __init__(self,
                  table,

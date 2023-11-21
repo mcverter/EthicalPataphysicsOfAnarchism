@@ -6,6 +6,7 @@ from RadicalEmpiricism.src.word_analysis import constants
 
 OFFSET: int = 0
 
+
 class FrenchEtymologyUpdater(ForeignKeyUpdater):
     def __init__(self):
         super().__init__(table=constants.TABLE_WORD,
@@ -13,8 +14,6 @@ class FrenchEtymologyUpdater(ForeignKeyUpdater):
                          where_column=constants.COLUMN_FRENCH,
                          fk_internal_column=constants.COLUMN_FRENCH_EXPLANATION,
                          offset=OFFSET)
-
-
 
     def get_fk_value_from_main_where_value(self, where_value):
         if where_value:

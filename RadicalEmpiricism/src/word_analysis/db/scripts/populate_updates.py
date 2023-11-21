@@ -34,5 +34,6 @@ def populate_updates():
     populate_definitions()
     populate_etymologies()
 
+
 if __name__ == '__main__':
     populate_updates()

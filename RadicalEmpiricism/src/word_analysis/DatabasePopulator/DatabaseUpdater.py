@@ -6,7 +6,6 @@ import re
 logger = DBLogger()
 
 
-
 def get_where_value_from_row(row):
     if re.search(',\)$', row):
         return None
@@ -53,10 +52,10 @@ class DatabaseUpdater(DatabasePopulator):
                 set_value = self.get_data_value(where_value)
                 if set_value:
                     update_table(table=self.table,
-                                        set_column=self.set_column,
-                                        set_value=set_value,
-                                        where_column=self.where_column,
-                                        where_value=where_value)
+                                 set_column=self.set_column,
+                                 set_value=set_value,
+                                 where_column=self.where_column,
+                                 where_value=where_value)
 
             if counter % 50 == 3:
                 self.commit(counter)
