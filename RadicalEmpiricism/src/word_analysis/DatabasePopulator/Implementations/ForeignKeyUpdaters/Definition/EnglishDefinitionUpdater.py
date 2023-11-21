@@ -1,7 +1,11 @@
+import functools
+
 import requests
 from bs4 import BeautifulSoup
+
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
+    SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 from ....ForeignKeyUpdater import ForeignKeyUpdater
-from ......constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 
 OFFSET: int = 0
 
@@ -12,14 +16,15 @@ def find_english_definition(english):
     soup = BeautifulSoup(page.content, "html.parser")
     results = soup.find_all('div', {"class": "sense-content"})
 
-    # TODO: rewrite as a reduce
-    definition = ''
-    for exidx in range(len(results)):
-        definition += ((results[exidx].text
-                        .replace('\n', ''))
-                       .replace(':', ''))
-        if exidx < len(results):
-            definition += "; "
+    definition = functools.reduce(lambda a, b:
+                                          a +
+                                          b.text
+                                              .replace('\n', '')
+                                              .replace(':', '') +
+                                          ";",
+                                          results, '')
+    if definition and len(definition) > 0:
+        definition = definition[:-1] + '.'
     return definition
 
 

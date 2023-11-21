@@ -1,5 +1,5 @@
 from ....ForeignKeyUpdater import ForeignKeyUpdater
-from ......constants import TABLE_WORD, COLUMN_ENGLISH, COLUMN_ETYMOLOGY, COLUMN_ENGLISH_EXPLANATION
+from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_ENGLISH, COLUMN_ETYMOLOGY, COLUMN_ENGLISH_EXPLANATION
 
 OFFSET: int = 0
 

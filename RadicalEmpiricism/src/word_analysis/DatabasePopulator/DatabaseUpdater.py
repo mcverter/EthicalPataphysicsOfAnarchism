@@ -1,16 +1,16 @@
 from .DBLogger import DBLogger
 from .DatabasePopulator import DatabasePopulator
-from ..db import select_from_table, update_table
+from RadicalEmpiricism.src.word_analysis.db.db import select_from_table, update_table
 import re
 
 logger = DBLogger()
 
 
 
-def get_where_value_from_row(cols):
-    if re.search('^\(,', cols) or re.search(',\)$', cols):
+def get_where_value_from_row(row):
+    if re.search(',\)$', row):
         return None
-    where_val = re.sub('.*,', '', cols)
+    where_val = re.sub('.*,', '', row)
     where_val = where_val[:-1]
     if where_val == "":
         return None

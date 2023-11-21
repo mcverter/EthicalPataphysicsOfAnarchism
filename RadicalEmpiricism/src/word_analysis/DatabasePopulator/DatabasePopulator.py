@@ -1,4 +1,4 @@
-from ..db import commit_all
+from RadicalEmpiricism.src.word_analysis.db.db import commit_all
 
 
 class DatabasePopulator:

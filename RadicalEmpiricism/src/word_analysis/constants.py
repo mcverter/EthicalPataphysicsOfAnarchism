@@ -29,6 +29,9 @@ CLEANED_SUFFIX = 'cleaned.txt'
 CLEANED_AUTREMENT = BOOK_AUTREMENT + CLEANED_SUFFIX
 CLEANED_TOTALITE = BOOK_TOTALITE + CLEANED_SUFFIX
 
-SITE_FRENCH_ETYMOLOGY = 'https://www.dictionnairedesfrancophones.org/form/survivre'
+SITE_FRENCH_DDF_ETYMOLOGY = 'https://www.dictionnairedesfrancophones.org/form/'
+SITE_FRENCH_DDF_TOKEN = 'jss104'
 SITE_ENGLISH_ETYMOLOGY = 'https://www.etymonline.com/search?q='
 SITE_ENGLISH_DEFINITIONS = 'https://www.merriam-webster.com/dictionary/'
+SITE_FRENCH_CNRTL_ETYMOLOGY = 'https://www.cnrtl.fr/etymologie/'
+SITE_FRENCH_CNRTL_TOKEN = 'tlf_cvedette'
