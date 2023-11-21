@@ -42,11 +42,9 @@ def get_single_div_using_selenium(url, token):
             return None
 
 def get_dictionaire_des_francophone_etymology(word):
-    word = 'survivre'
     return get_single_div_using_selenium(SITE_FRENCH_DDF_ETYMOLOGY + word, SITE_FRENCH_DDF_TOKEN)
 
 def get_cntrl_eymology(word):
-    word = 'survivre'
     page = requests.get(SITE_FRENCH_CNRTL_ETYMOLOGY + word)
     text = page.text
     start = text.find('Étymol. et Hist.')

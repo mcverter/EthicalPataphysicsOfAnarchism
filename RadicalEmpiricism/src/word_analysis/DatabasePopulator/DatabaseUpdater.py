@@ -48,9 +48,6 @@ class DatabaseUpdater(DatabasePopulator):
             row = row[0]
             if row is None:
                 continue
-
-            if counter == 41:
-                print('break')
             where_value = get_where_value_from_row(row)
             if where_value:
                 set_value = self.get_data_value(where_value)

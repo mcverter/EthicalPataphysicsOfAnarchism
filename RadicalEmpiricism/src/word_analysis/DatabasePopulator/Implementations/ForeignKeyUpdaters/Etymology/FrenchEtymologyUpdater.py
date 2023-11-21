@@ -1,4 +1,4 @@
-from RadicalEmpiricism.src.word_analysis.CrawlerTools.cralwer_tools import (
+from RadicalEmpiricism.src.word_analysis.CrawlerTools.crawler_tools import (
     get_dictionaire_des_francophone_etymology,
     get_cntrl_eymology)
 from ....ForeignKeyUpdater import ForeignKeyUpdater
