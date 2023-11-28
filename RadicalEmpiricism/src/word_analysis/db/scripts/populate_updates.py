@@ -1,12 +1,12 @@
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.ForeignKeyUpdaters.Definition.EnglishDefinitionUpdater import \
+from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.definition.english_definition_updater import \
     EnglishDefinitionUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.ForeignKeyUpdaters.Definition.FrenchDefinitionUpdater import \
+from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.definition.french_definition_updater import \
     FrenchDefinitionUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.ForeignKeyUpdaters.Etymology.EnglishEtymologyUpdater import \
+from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.etymology.english_etymology_updater import \
     EnglishEtymologyUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.ForeignKeyUpdaters.Etymology.FrenchEtymologyUpdater import \
+from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.etymology.french_etymology_updater import \
     FrenchEtymologyUpdater
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.NativeTableUpdaters.Translation.EnglishTranslationUpdater import \
+from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.native_table_updaters.translation.english_translation_updater import \
     EnglishTranslationUpdater
 
 

@@ -1,6 +1,6 @@
 import re
 
-from RadicalEmpiricism.src.word_analysis.DatabasePopulator.Implementations.Inserters.FrenchWordInserter import \
+from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.inserters.french_word_inserter import \
     FrenchWordInserter
 from RadicalEmpiricism.src.word_analysis.constants import CLEANED_TOTALITE, CLEANED_AUTREMENT
 

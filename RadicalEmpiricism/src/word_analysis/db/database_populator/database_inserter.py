@@ -1,5 +1,5 @@
 from RadicalEmpiricism.src.word_analysis.db.db import insert_into_table
-from .DatabasePopulator import DatabasePopulator
+from .database_populator import DatabasePopulator
 
 
 class DatabaseInserter(DatabasePopulator):

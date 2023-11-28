@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
     SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
-from ....ForeignKeyUpdater import ForeignKeyUpdater
+from ....foreign_key_updater import ForeignKeyUpdater
 
 OFFSET: int = 0
 

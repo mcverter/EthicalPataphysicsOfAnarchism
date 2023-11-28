@@ -1,5 +1,5 @@
-from .DBLogger import DBLogger
-from .DatabasePopulator import DatabasePopulator
+from .utils import DBLogger
+from .database_populator import DatabasePopulator
 from RadicalEmpiricism.src.word_analysis.db.db import select_from_table, update_table
 import re
 

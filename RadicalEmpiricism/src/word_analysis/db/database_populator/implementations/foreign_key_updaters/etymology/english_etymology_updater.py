@@ -7,7 +7,7 @@ from RadicalEmpiricism.src.word_analysis.constants import (TABLE_WORD,
                                                            COLUMN_ETYMOLOGY,
                                                            COLUMN_ENGLISH_EXPLANATION,
                                                            SITE_ENGLISH_ETYMOLOGY)
-from ....ForeignKeyUpdater import ForeignKeyUpdater
+from ....foreign_key_updater import ForeignKeyUpdater
 
 OFFSET: int = 0
 

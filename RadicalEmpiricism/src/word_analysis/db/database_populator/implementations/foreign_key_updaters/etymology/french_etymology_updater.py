@@ -1,7 +1,7 @@
-from RadicalEmpiricism.src.word_analysis.CrawlerTools.crawler_tools import (
+from RadicalEmpiricism.src.word_analysis.crawler_tools.crawler_tools import (
     get_dictionaire_des_francophone_etymology,
     get_cntrl_eymology)
-from ....ForeignKeyUpdater import ForeignKeyUpdater
+from ....foreign_key_updater import ForeignKeyUpdater
 from RadicalEmpiricism.src.word_analysis import constants
 
 OFFSET: int = 0
