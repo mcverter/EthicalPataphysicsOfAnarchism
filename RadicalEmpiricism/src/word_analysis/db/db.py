@@ -5,14 +5,21 @@ import psycopg2
 from .sanitize_values import sanitize
 
 DB_PASS = os.environ["DB_PASS"]
+DB_REMOTE_PASS = os.environ["DB_REMOTE_PASS"]
 
-conn = psycopg2.connect(database="word_analysis",
+
+conn_local = psycopg2.connect(database="word_analysis",
                         host="localhost",
                         user="postgres",
                         password=DB_PASS,
                         port="5432")
+conn_remote = psycopg2.connect(database="word_analysis",
+                        host="ep-black-poetry-68818067.us-east-2.aws.neon.tech",
+                        user="mitchell.verter",
+                        password=DB_REMOTE_PASS,
+                        port="5432")
 
-
+conn = conn_remote
 def get_db_cursor():
     return conn.cursor()
 
