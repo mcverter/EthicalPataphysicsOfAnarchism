@@ -3,7 +3,7 @@ import os
 import psycopg2
 
 from .sanitize_values import sanitize
-from logger import log_insert, log_update_same_table, log_update_fk_table
+from .logger import log_insert, log_update_same_table, log_update_fk_table
 
 DB_PASS = os.environ["DB_PASS"]
 DB_REMOTE_PASS = os.environ["DB_REMOTE_PASS"]

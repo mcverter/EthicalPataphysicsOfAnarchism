@@ -1,6 +1,7 @@
 from RadicalEmpiricism.src.word_analysis.db.db import commit_all
 from ..logger import log_commit
 
+
 class DatabasePopulator:
 
     def __init__(self):

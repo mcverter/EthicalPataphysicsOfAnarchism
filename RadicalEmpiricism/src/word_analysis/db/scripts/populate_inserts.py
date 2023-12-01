@@ -28,12 +28,12 @@ def normalize_word(word):
 def add_words_to_map(words, book):
     for word in words:
         normalized = normalize_word(word)
-        if (normalized is None):
+        if normalized is None:
             pass
-        elif (normalized in WORD_MAP):
+        elif normalized in WORD_MAP:
             WORD_MAP[normalized][book] += 1
         else:
-            if (book == 'ti'):
+            if book == 'ti':
                 WORD_MAP[normalized] = {'ti': 1, 'otb': 0}
             else:
                 WORD_MAP[normalized] = {'ti': 0, 'otb': 1}
