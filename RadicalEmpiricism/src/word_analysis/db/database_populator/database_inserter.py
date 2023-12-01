@@ -6,6 +6,7 @@ class DatabaseInserter(DatabasePopulator):
     def __init__(self,
                  table,
                  columns):
+        super().__init__()
         self.table = table
         self.columns = columns
 

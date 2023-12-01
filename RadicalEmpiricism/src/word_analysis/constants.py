@@ -28,6 +28,7 @@ BOOK_TOTALITE = os.path.join(PATH_BOOKS, 'LevinasTotaLGF.txt')
 CLEANED_SUFFIX = 'cleaned.txt'
 CLEANED_AUTREMENT = BOOK_AUTREMENT + CLEANED_SUFFIX
 CLEANED_TOTALITE = BOOK_TOTALITE + CLEANED_SUFFIX
+PATH_POPULATE_LOG = os.path.join(PATH_DIR, 'logs', 'db_populate_log.txt')
 
 SITE_FRENCH_DDF_ETYMOLOGY = 'https://www.dictionnairedesfrancophones.org/form/'
 SITE_FRENCH_DDF_TOKEN = 'jss104'

@@ -1,4 +1,4 @@
-from .utils import DBLogger
+from RadicalEmpiricism.src.word_analysis.db.logger import DBLogger
 from .database_populator import DatabasePopulator
 from RadicalEmpiricism.src.word_analysis.db.db import select_from_table, update_table
 import re
@@ -22,6 +22,7 @@ class DatabaseUpdater(DatabasePopulator):
                  set_column,
                  where_column,
                  offset):
+        super().__init__()
         self.table = table
         self.set_column = set_column
         self.where_column = where_column
