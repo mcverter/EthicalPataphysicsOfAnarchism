@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zy_@((2m@f1*vlp0otae4+-!j%!fnszx2+&h--l$$-q#upr@$l'
 
 DB_PASS = os.environ["DB_PASS"]
+DB_REMOTE_PASS = os.environ["DB_REMOTE_PASS"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -41,7 +42,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "word_analysis",
-    'import_export',
 ]
 
 MIDDLEWARE = [
@@ -78,13 +78,24 @@ WSGI_APPLICATION = 'django_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
+local_db =  {
         "ENGINE": "django.db.backends.postgresql",
         'NAME': 'word_analysis',
         'USER': 'postgres',
         'PASSWORD': DB_PASS
     }
+remote_db = {
+    "ENGINE": "django.db.backends.postgresql",
+    'NAME': 'word_analysis',
+    'USER': 'mitchell.verter',
+    'PASSWORD': DB_REMOTE_PASS,
+    'HOST': 'ep-black-poetry-68818067.us-east-2.aws.neon.tech',
+    'PORT': '5432'
+
+}
+
+DATABASES = {
+    'default': remote_db
 }
 
 # Password validation
