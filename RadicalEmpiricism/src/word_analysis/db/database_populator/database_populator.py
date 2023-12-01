@@ -1,5 +1,5 @@
 from RadicalEmpiricism.src.word_analysis.db.db import commit_all
-
+from ..logger import log_commit
 
 class DatabasePopulator:
 
@@ -9,5 +9,6 @@ class DatabasePopulator:
     def populate(self):
         raise Exception('populate must be defined by subclass')
 
-    def commit(self):
+    def commit(self, counter):
+        log_commit(counter)
         commit_all()

@@ -29,7 +29,7 @@ class DatabaseUpdater(DatabasePopulator):
         self.offset = offset or 0
 
     def commit(self, counter):
-        super().commit()
+        super().commit(counter)
         logger.log_update_same_table_commit(self.set_column, self.where_column, counter)
 
     def get_data_value(self, where_value):

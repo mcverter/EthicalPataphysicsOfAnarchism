@@ -60,10 +60,10 @@ def populate_inserts():
             french_inserter.insert_single_item(row)
             counter += 1
             if counter % 50 == 14:
-                french_inserter.commit(counter=counter)
+                french_inserter.commit(counter)
                 print('inserting row', row, 'counter', counter)
 
-    french_inserter.commit(counter=counter)
+    french_inserter.commit(counter)
     print('inserting counter', counter)
 
 

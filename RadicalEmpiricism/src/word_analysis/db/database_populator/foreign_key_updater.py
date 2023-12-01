@@ -34,7 +34,7 @@ class ForeignKeyUpdater(DatabaseUpdater):
                                   data_value=self.get_fk_value_from_main_where_value(where_value))
 
     def commit(self, counter):
-        super().commit()
+        super().commit(counter)
         log_update_fk_table_commit(self.table,
                                    self.set_column,
                                    self.where_column,
