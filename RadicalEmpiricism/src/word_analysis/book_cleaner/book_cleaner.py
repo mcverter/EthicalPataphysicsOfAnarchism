@@ -1,6 +1,6 @@
 import re
 
-from RadicalEmpiricism.src.word_analysis.constants import CLEANED_SUFFIX, BOOK_AUTREMENT, BOOK_TOTALITE
+from RadicalEmpiricism.src.constants import CLEANED_SUFFIX, BOOK_AUTREMENT, BOOK_TOTALITE
 
 
 def fix_quotation_marks(text):

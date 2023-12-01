@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 
+from ..constants import DB_ENGINE, DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASS, DB_RUNTIME_HOST
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,9 +23,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-zy_@((2m@f1*vlp0otae4+-!j%!fnszx2+&h--l$$-q#upr@$l'
-
-DB_PASS = os.environ["DB_PASS"]
-DB_REMOTE_PASS = os.environ["DB_REMOTE_PASS"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -75,24 +74,16 @@ WSGI_APPLICATION = 'django_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-local_db = {
-    "ENGINE": "django.db.backends.postgresql",
-    'NAME': 'word_analysis',
-    'USER': 'postgres',
-    'PASSWORD': DB_PASS
-}
-remote_db = {
-    "ENGINE": "django.db.backends.postgresql",
-    'NAME': 'word_analysis',
-    'USER': 'mitchell.verter',
-    'PASSWORD': DB_REMOTE_PASS,
-    'HOST': 'ep-black-poetry-68818067.us-east-2.aws.neon.tech',
-    'PORT': '5432'
-
-}
-
 DATABASES = {
-    'default': remote_db
+    'default': {
+        "ENGINE": DB_ENGINE,
+        'NAME': DB_NAME,
+        'USER': DB_RUNTIME_USER,
+        'PASSWORD': DB_RUNTIME_PASS,
+        'HOST': DB_RUNTIME_HOST,
+        'PORT': DB_PORT
+
+    }
 }
 
 # Password validation

@@ -2,11 +2,11 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.src.word_analysis.constants import (TABLE_WORD,
-                                                           COLUMN_ENGLISH,
-                                                           COLUMN_ETYMOLOGY,
-                                                           COLUMN_ENGLISH_EXPLANATION,
-                                                           SITE_ENGLISH_ETYMOLOGY)
+from RadicalEmpiricism.src.constants import (TABLE_WORD,
+                                             COLUMN_ENGLISH,
+                                             COLUMN_ETYMOLOGY,
+                                             COLUMN_ENGLISH_EXPLANATION,
+                                             SITE_ENGLISH_ETYMOLOGY)
 from ....foreign_key_updater import ForeignKeyUpdater
 
 OFFSET: int = 0

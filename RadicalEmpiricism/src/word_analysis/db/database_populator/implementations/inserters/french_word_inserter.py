@@ -1,6 +1,6 @@
 import re
 
-from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB, \
+from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB, \
     CLEANED_AUTREMENT, CLEANED_TOTALITE
 from ....database_populator.database_inserter import DatabaseInserter
 

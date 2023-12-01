@@ -3,7 +3,7 @@ import functools
 import requests
 from bs4 import BeautifulSoup
 
-from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
+from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
     SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 from ....foreign_key_updater import ForeignKeyUpdater
 

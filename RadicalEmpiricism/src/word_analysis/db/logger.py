@@ -1,5 +1,5 @@
 import logging
-from RadicalEmpiricism.src.word_analysis.constants import PATH_POPULATE_LOG
+from RadicalEmpiricism.src.constants import PATH_POPULATE_LOG
 
 logging.basicConfig(filename=PATH_POPULATE_LOG,
                     filemode='a',

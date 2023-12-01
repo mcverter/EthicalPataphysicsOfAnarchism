@@ -1,7 +1,7 @@
 import re
 from larousse_api import larousse
 from ....foreign_key_updater import ForeignKeyUpdater
-from RadicalEmpiricism.src.word_analysis.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH, \
+from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH, \
     COLUMN_FRENCH_EXPLANATION
 
 OFFSET: int = 0

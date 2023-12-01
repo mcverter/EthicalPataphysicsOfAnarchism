@@ -7,9 +7,9 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-from RadicalEmpiricism.src.word_analysis.constants import (SITE_FRENCH_DDF_ETYMOLOGY,
-                                                           SITE_FRENCH_DDF_TOKEN,
-                                                           SITE_FRENCH_CNRTL_ETYMOLOGY)
+from RadicalEmpiricism.src.constants import (SITE_FRENCH_DDF_ETYMOLOGY,
+                                             SITE_FRENCH_DDF_TOKEN,
+                                             SITE_FRENCH_CNRTL_ETYMOLOGY)
 
 driver = webdriver.Chrome(service=ChromeService(
     ChromeDriverManager().install()))
