@@ -28,7 +28,7 @@ class DatabaseUpdater(DatabasePopulator):
 
     def commit(self, counter):
         super().commit(counter)
-        log_update_same_table_commit(self.set_column, self.where_column, counter)
+        log_update_same_table_commit(self.set_column, self.set_column, self.where_column, counter)
 
     def get_data_value(self, where_value):
         raise Exception('Must define "get_data_value" in subclass')

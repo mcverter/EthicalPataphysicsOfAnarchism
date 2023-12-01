@@ -37,5 +37,6 @@ class ForeignKeyUpdater(DatabaseUpdater):
         log_update_fk_table_commit(self.table,
                                    self.set_column,
                                    self.where_column,
+                                   self.fk_table,
                                    self.fk_internal_column,
                                    counter)
