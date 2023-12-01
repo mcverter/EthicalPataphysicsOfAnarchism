@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 
-from ..constants import DB_ENGINE, DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASS, DB_RUNTIME_HOST
+from ..constants import DB_ENGINE, DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -79,7 +79,7 @@ DATABASES = {
         "ENGINE": DB_ENGINE,
         'NAME': DB_NAME,
         'USER': DB_RUNTIME_USER,
-        'PASSWORD': DB_RUNTIME_PASS,
+        'PASSWORD': DB_RUNTIME_PASSWORD,
         'HOST': DB_RUNTIME_HOST,
         'PORT': DB_PORT
 
