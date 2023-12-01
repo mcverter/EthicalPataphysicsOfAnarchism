@@ -1,0 +1,3 @@
+02:43:52,817 WDM INFO ====== WebDriver manager ======
+02:43:53,96 WDM INFO Get LATEST chromedriver version for google-chrome
+02:43:53,106 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): googlechromelabs.github.io:443

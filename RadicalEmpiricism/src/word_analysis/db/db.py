@@ -7,7 +7,7 @@ from .logger import log_insert, log_update_same_table, log_update_fk_table
 from ...constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST
 
 conn = psycopg2.connect(database=DB_NAME,
-                        host=DB_RUNTIME_HOST,
+                        host=DB_RUNTIME_HOST[0], # TODO: debug this
                         user=DB_RUNTIME_USER,
                         password=DB_RUNTIME_PASSWORD,
                         port=DB_PORT)
