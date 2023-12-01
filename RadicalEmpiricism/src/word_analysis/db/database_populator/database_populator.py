@@ -9,5 +9,5 @@ class DatabasePopulator:
     def populate(self):
         raise Exception('populate must be defined by subclass')
 
-    def commit(self, counter):
+    def commit(self):
         commit_all()

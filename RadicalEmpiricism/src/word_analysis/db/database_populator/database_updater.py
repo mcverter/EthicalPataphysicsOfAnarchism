@@ -29,8 +29,8 @@ class DatabaseUpdater(DatabasePopulator):
         self.offset = offset or 0
 
     def commit(self, counter):
-        super().commit(counter)
-        logger.log_update_same_table(self.set_column, self.where_column, counter)
+        super().commit()
+        logger.log_update_same_table_commit(self.set_column, self.where_column, counter)
 
     def get_data_value(self, where_value):
         raise Exception('Must define "get_data_value" in subclass')

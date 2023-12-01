@@ -1,6 +1,8 @@
+from ..logger import log_update_fk_table_commit
 from .database_updater import DatabaseUpdater
 from RadicalEmpiricism.src.word_analysis.db.db import update_foreign_key
 from RadicalEmpiricism.src.word_analysis.constants import TABLE_START_STRING
+
 
 
 class ForeignKeyUpdater(DatabaseUpdater):
@@ -28,5 +30,14 @@ class ForeignKeyUpdater(DatabaseUpdater):
                                   main_where_column=self.where_column,
                                   main_where_val=where_value,
                                   fk_table=self.fk_table,
-                                  fk_internal_col=self.fk_internal_column,
+                                  fk_internal_column=self.fk_internal_column,
                                   data_value=self.get_fk_value_from_main_where_value(where_value))
+
+    def commit(self, counter):
+        super().commit()
+        log_update_fk_table_commit(self.table,
+                                   self.set_column,
+                                   self.where_column,
+                                   self.fk_internal_column,
+                                   counter)
+

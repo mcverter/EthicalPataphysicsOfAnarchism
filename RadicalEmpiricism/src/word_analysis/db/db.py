@@ -3,23 +3,25 @@ import os
 import psycopg2
 
 from .sanitize_values import sanitize
+from logger import log_insert, log_update_same_table, log_update_fk_table
 
 DB_PASS = os.environ["DB_PASS"]
 DB_REMOTE_PASS = os.environ["DB_REMOTE_PASS"]
 
-
 conn_local = psycopg2.connect(database="word_analysis",
-                        host="localhost",
-                        user="postgres",
-                        password=DB_PASS,
-                        port="5432")
+                              host="localhost",
+                              user="postgres",
+                              password=DB_PASS,
+                              port="5432")
 conn_remote = psycopg2.connect(database="word_analysis",
-                        host="ep-black-poetry-68818067.us-east-2.aws.neon.tech",
-                        user="mitchell.verter",
-                        password=DB_REMOTE_PASS,
-                        port="5432")
+                               host="ep-black-poetry-68818067.us-east-2.aws.neon.tech",
+                               user="mitchell.verter",
+                               password=DB_REMOTE_PASS,
+                               port="5432")
 
 conn = conn_remote
+
+
 def get_db_cursor():
     return conn.cursor()
 
@@ -54,14 +56,15 @@ def update_foreign_key(main_table,
                        main_where_column,
                        main_where_val,
                        fk_table,
-                       fk_internal_col,
+                       fk_internal_column,
                        data_value):
     if main_where_val is None or main_where_column is None \
             or main_where_val is None \
-            or fk_table is None or fk_internal_col is None \
+            or fk_table is None or fk_internal_column is None \
             or main_set_column is None or data_value is None:
         raise Exception("ERROR: you need to define all parameters to update_foreign_key")
 
+    log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
     main_fk_value = select_value(table=main_table,
                                  select_col=main_set_column,
                                  where_col=main_where_column,
@@ -70,7 +73,7 @@ def update_foreign_key(main_table,
     main_fk_value = main_fk_value[0]
     if main_fk_value is None:
         fk_id = insert_into_table(fk_table,
-                                  columns=(fk_internal_col,),
+                                  columns=(fk_internal_column,),
                                   values=(data_value,))
         fk_id = fk_id[0]
         update_table(table=main_table,
@@ -83,18 +86,20 @@ def update_foreign_key(main_table,
     else:
         # check table for value
         fk_internal_value = select_value(fk_table,
-                                         select_col=fk_internal_col,
+                                         select_col=fk_internal_column,
                                          where_col='id',
                                          where_val=main_fk_value)
         if fk_internal_value[0] is None:
             update_table(table=fk_table,
-                         set_column=fk_internal_col,
+                         set_column=fk_internal_column,
                          set_value=data_value,
                          where_column='id',
                          where_value=main_fk_value)
 
 
 def insert_into_table(table, columns, values):
+    log_insert(table, columns)
+
     if table and columns and values:
         sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
         query = f'''
@@ -121,5 +126,6 @@ def insert_into_table(table, columns, values):
 
 def update_table(table, set_column, set_value, where_column, where_value):
     if table and set_column and set_value and where_column and where_value:
+        log_update_same_table(table, set_column, where_column)
         query = f"UPDATE {table} SET {set_column} = '{sanitize(set_value)}' WHERE {where_column}='{sanitize(where_value)}'"
         execute(query)
