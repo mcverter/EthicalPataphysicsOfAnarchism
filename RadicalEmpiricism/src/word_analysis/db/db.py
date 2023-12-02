@@ -1,13 +1,13 @@
-import os
-
 import psycopg2
 
 from .sanitize_values import sanitize
 from .logger import log_insert, log_update_same_table, log_update_fk_table
 from ...constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST
 
+DB_RUNTIME_HOST = DB_RUNTIME_HOST[0] # TODO: fix this
+
 conn = psycopg2.connect(database=DB_NAME,
-                        host=DB_RUNTIME_HOST[0], # TODO: debug this
+                        host=DB_RUNTIME_HOST,
                         user=DB_RUNTIME_USER,
                         password=DB_RUNTIME_PASSWORD,
                         port=DB_PORT)
@@ -33,7 +33,7 @@ def select_from_table(table, columns):
         return cursor.fetchall()
 
 
-def select_value(table, select_col, where_col, where_val):
+def select_single_value(table, select_col, where_col, where_val):
     cursor = get_db_cursor()
     query = f"SELECT {select_col} from {table} where {where_col} = '{sanitize(where_val)}'"
     cursor.execute(query)
@@ -55,10 +55,10 @@ def update_foreign_key(main_table,
         raise Exception("ERROR: you need to define all parameters to update_foreign_key")
 
     log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
-    main_fk_value = select_value(table=main_table,
-                                 select_col=main_set_column,
-                                 where_col=main_where_column,
-                                 where_val=main_where_val)
+    main_fk_value = select_single_value(table=main_table,
+                                        select_col=main_set_column,
+                                        where_col=main_where_column,
+                                        where_val=main_where_val)
 
     main_fk_value = main_fk_value[0]
     if main_fk_value is None:
@@ -75,10 +75,10 @@ def update_foreign_key(main_table,
 
     else:
         # check table for value
-        fk_internal_value = select_value(fk_table,
-                                         select_col=fk_internal_column,
-                                         where_col='id',
-                                         where_val=main_fk_value)
+        fk_internal_value = select_single_value(fk_table,
+                                                select_col=fk_internal_column,
+                                                where_col='id',
+                                                where_val=main_fk_value)
         if fk_internal_value[0] is None:
             update_table(table=fk_table,
                          set_column=fk_internal_column,
@@ -87,32 +87,33 @@ def update_foreign_key(main_table,
                          where_value=main_fk_value)
 
 
+def no_unique_violation(table, columns, values):
+    # TODO: fix unique logic
+    unique_column = columns[0]
+    unique_value = values[0]
+    single_result = select_single_value(table, unique_column, unique_column, unique_value)
+    if single_result is None:
+        return True
+    return False
+
 def insert_into_table(table, columns, values):
-    log_insert(table, columns)
+    log_insert(table, columns, values)
 
     if table and columns and values:
-        sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
-        query = f'''
-                INSERT INTO {table} ({",".join(columns)}) 
-                VALUES ({",".join(sanitized_values)})
-/*              ON CONFLICT ({columns[0]})  
-                DO NOTHING no unique constraint yet  */
-                RETURNING id;
-                '''
-        cursor = get_db_cursor()
-        cursor.execute(query)
-        result = cursor.fetchone()
-        print(result)
-        return result
-
-
-'''
-  INSERT INTO word_analysis_word (french,ti,otb) 
-                VALUES ('préface',4,2)
-                ON CONFLICT (french) 
-                DO NOTHING;
-                '''
-
+        if no_unique_violation(table, columns, values):
+            sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
+            query = f'''
+                    INSERT INTO {table} ({",".join(columns)}) 
+                    VALUES ({",".join(sanitized_values)})
+    /*              ON CONFLICT ({columns[0]})  
+                    DO NOTHING no unique constraint yet  */
+                    RETURNING id;
+                    '''
+            cursor = get_db_cursor()
+            cursor.execute(query)
+            result = cursor.fetchone()
+            print(result)
+            return result
 
 def update_table(table, set_column, set_value, where_column, where_value):
     if table and set_column and set_value and where_column and where_value:

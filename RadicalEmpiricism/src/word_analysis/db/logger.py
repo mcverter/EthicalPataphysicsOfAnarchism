@@ -1,11 +1,9 @@
 import logging
-from RadicalEmpiricism.src.constants import PATH_POPULATE_LOG
+from RadicalEmpiricism.src.constants import PATH_DB_POPULATE_LOG
 
-logging.basicConfig(filename=PATH_POPULATE_LOG,
+logging.basicConfig(filename=PATH_DB_POPULATE_LOG,
                     filemode='a',
-                    format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-                    datefmt='%H:%M:%S',
-                    level=logging.DEBUG)
+                    format='%(asctime)s %(message)s')
 
 
 def log_and_print_message(message):
@@ -13,8 +11,8 @@ def log_and_print_message(message):
     print(message)
 
 
-def log_insert(table, columns):
-    message = f'INSERT TABLE {table} COMMITTING {columns}.'
+def log_insert(table, columns, values):
+    message = f'INSERT TABLE {table} COLS {columns} VALS {values}.'
     log_and_print_message(message)
 
 
@@ -23,9 +21,9 @@ def log_commit(counter):
     log_and_print_message(message)
 
 
-def log_insert_table_commit(table, columns, counter):
+def log_insert_table_commit(table, columns, values, counter):
     log_commit(counter)
-    log_insert(table, columns)
+    log_insert(table, columns, values)
 
 
 def log_update_same_table(table, set_column, where_column):
