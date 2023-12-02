@@ -1,6 +1,6 @@
 import os
 
-DB_LEVEL = "remote"
+DB_LEVEL = "local"
 
 DB_ENGINE = "django.db.backends.postgresql"
 DB_NAME = "word_analysis"
@@ -37,7 +37,7 @@ COLUMN_SUFFIX = "suffix"
 COLUMN_PREFIX = "prefix"
 
 PATH_DIR = os.path.dirname(os.path.realpath(__file__))
-LOG_DIR = os.path.join(PATH_DIR, '../logs')
+LOG_DIR = os.path.join(PATH_DIR, 'logs')
 PATH_DB_POPULATE_LOG = os.path.join(LOG_DIR, "db_populate_log.txt")
 PATH_BOOKS = os.path.join(PATH_DIR, "word_analysis/books")
 PATH_WORD_MAP = os.path.join(PATH_DIR, "../../generated/word_map.csv")
