@@ -13,7 +13,7 @@ from ...constants import (
     DB_RUNTIME_USER,
     DB_RUNTIME_PASSWORD,
     DB_RUNTIME_HOST)
-from ...utils import is_empty_string
+from ...utils import is_empty_value
 
 DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
 
@@ -79,10 +79,10 @@ def update_foreign_key(main_table,
                        fk_table,
                        fk_internal_column,
                        data_value):
-    if is_empty_string(main_where_val) or is_empty_string(main_where_column) \
-            or is_empty_string(main_where_val) \
-            or is_empty_string(fk_table) or is_empty_string(fk_internal_column) \
-            or is_empty_string(main_set_column) or is_empty_string(data_value):
+    if is_empty_value(main_where_val) or is_empty_value(main_where_column) \
+            or is_empty_value(main_where_val) \
+            or is_empty_value(fk_table) or is_empty_value(fk_internal_column) \
+            or is_empty_value(main_set_column) or is_empty_value(data_value):
         log_and_print_error(f"""
         ERROR: you need to define all parameters to update_foreign_key
             main_table={main_table}
@@ -99,7 +99,7 @@ def update_foreign_key(main_table,
     log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
 
     fk_id = get_fk_value_from_main_main_table(main_table, main_set_column, main_where_column, main_where_val)
-    if is_empty_string(fk_id):
+    if is_empty_value(fk_id):
         fk_id = insert_into_table(fk_table,
                                   columns=(fk_internal_column,),
                                   values=(data_value,))
@@ -116,7 +116,7 @@ def update_foreign_key(main_table,
                                                 select_col=fk_internal_column,
                                                 where_col='id',
                                                 where_val=fk_id)
-        if is_empty_string(fk_internal_value[0]):
+        if is_empty_value(fk_internal_value[0]):
             update_table(table=fk_table,
                          set_column=fk_internal_column,
                          set_value=data_value,
@@ -129,7 +129,7 @@ def no_unique_violation(table, columns, values):
     unique_column = columns[0]
     unique_value = values[0]
     single_result = select_single_value(table, unique_column, unique_column, unique_value)
-    if is_empty_string(single_result):
+    if is_empty_value(single_result):
         return True
     return False
 
