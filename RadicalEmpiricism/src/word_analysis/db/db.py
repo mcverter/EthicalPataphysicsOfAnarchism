@@ -3,6 +3,7 @@ import psycopg2
 from .sanitize_values import sanitize
 from .logger import log_insert, log_update_same_table, log_update_fk_table
 from ...constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST
+from ...utils import is_empty_string
 
 DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
 
@@ -33,10 +34,12 @@ def select_from_table(table, columns):
         cursor.execute(query)
         return cursor.fetchall()
 
+
 '''
 select word_analysis_definition.id from  word_analysis_definition 
 where word_analysis_definition.english_explanation = 'foo'
 '''
+
 
 def select_single_value(table, select_col, where_col, where_val):
     cursor = get_db_cursor()
@@ -45,10 +48,11 @@ def select_single_value(table, select_col, where_col, where_val):
     result = cursor.fetchone()
     return result
 
+
 def get_fk_value_from_main_main_table(main_table,
                                       main_set_column,
                                       main_where_column,
-                                      main_where_val ):
+                                      main_where_val):
     main_fk_value = select_single_value(table=main_table,
                                         select_col=main_set_column,
                                         where_col=main_where_column,
@@ -65,16 +69,16 @@ def update_foreign_key(main_table,
                        fk_table,
                        fk_internal_column,
                        data_value):
-    if main_where_val is None or main_where_column is None \
-            or main_where_val is None \
-            or fk_table is None or fk_internal_column is None \
-            or main_set_column is None or data_value is None:
+    if is_empty_string(main_where_val) or is_empty_string(main_where_column) \
+            or is_empty_string(main_where_val) \
+            or is_empty_string(fk_table) or is_empty_string(fk_internal_column) \
+            or is_empty_string(main_set_column) or is_empty_string(data_value):
         raise Exception("ERROR: you need to define all parameters to update_foreign_key")
 
     log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
 
     fk_id = get_fk_value_from_main_main_table(main_table, main_set_column, main_where_column, main_where_val)
-    if fk_id is None:
+    if is_empty_string(fk_id):
         fk_id = insert_into_table(fk_table,
                                   columns=(fk_internal_column,),
                                   values=(data_value,))
@@ -91,7 +95,7 @@ def update_foreign_key(main_table,
                                                 select_col=fk_internal_column,
                                                 where_col='id',
                                                 where_val=fk_id)
-        if fk_internal_value[0] is None:
+        if is_empty_string(fk_internal_value[0]):
             update_table(table=fk_table,
                          set_column=fk_internal_column,
                          set_value=data_value,
@@ -104,7 +108,7 @@ def no_unique_violation(table, columns, values):
     unique_column = columns[0]
     unique_value = values[0]
     single_result = select_single_value(table, unique_column, unique_column, unique_value)
-    if single_result is None:
+    if is_empty_string(single_result):
         return True
     return False
 
