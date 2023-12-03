@@ -193,5 +193,7 @@ GitHub.sublime-settings
 *jpg
 
 zz_not-app
+zz_not-app/
 
 logs
+logs/*
