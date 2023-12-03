@@ -1,8 +1,18 @@
 import psycopg2
 
 from .sanitize_values import sanitize
-from .logger import log_insert, log_update_same_table, log_update_fk_table
-from ...constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST
+from RadicalEmpiricism.src.logger import (
+    log_insert,
+    log_update_same_table,
+    log_update_fk_table,
+    log_and_print_error
+)
+from ...constants import (
+    DB_NAME,
+    DB_PORT,
+    DB_RUNTIME_USER,
+    DB_RUNTIME_PASSWORD,
+    DB_RUNTIME_HOST)
 from ...utils import is_empty_string
 
 DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
@@ -73,7 +83,18 @@ def update_foreign_key(main_table,
             or is_empty_string(main_where_val) \
             or is_empty_string(fk_table) or is_empty_string(fk_internal_column) \
             or is_empty_string(main_set_column) or is_empty_string(data_value):
-        raise Exception("ERROR: you need to define all parameters to update_foreign_key")
+        log_and_print_error(f"""
+        ERROR: you need to define all parameters to update_foreign_key
+            main_table={main_table}
+            main_set_column={main_set_column}
+            main_where_column={main_where_column}
+            main_where_val={main_where_val}
+            fk_table={fk_table}
+            fk_internal_column={fk_internal_column}
+            data_value={data_value}
+        """)
+
+        return
 
     log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
 
