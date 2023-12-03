@@ -37,7 +37,7 @@ COLUMN_SUFFIX = "suffix"
 COLUMN_PREFIX = "prefix"
 
 PATH_DIR = os.path.dirname(os.path.realpath(__file__))
-LOG_DIR = os.path.join(PATH_DIR, 'logs')
+LOG_DIR = os.path.join(PATH_DIR, '../logs')
 PATH_DB_POPULATE_LOG = os.path.join(LOG_DIR, "db_populate_log.txt")
 PATH_BOOKS = os.path.join(PATH_DIR, "word_analysis/books")
 PATH_WORD_MAP = os.path.join(PATH_DIR, "../../generated/word_map.csv")

@@ -3,8 +3,10 @@ from RadicalEmpiricism.src.constants import PATH_DB_POPULATE_LOG
 
 logging.basicConfig(filename=PATH_DB_POPULATE_LOG,
                     filemode='a',
-                    format='%(asctime)s %(message)s')
+                    format='%(asctime)s %(message)s',
+                    level='INFO')
 
+# '/home/mitchell/ComputerScience_Ubuntu/EthicalPataphysicsOfAnarchism/RadicalEmpiricism/src/logs/db_populate_log.txt'
 
 def log_and_print_message(message):
     logging.info(message)
@@ -26,14 +28,14 @@ def log_insert_table_commit(table, columns, values, counter):
     log_insert(table, columns, values)
 
 
-def log_update_same_table(table, set_column, where_column):
-    message = f'UPDATE TABLE {table} COMMITTING {set_column} for {where_column}.'
+def log_update_same_table(table, set_column, where_column, where_value):
+    message = f'UPDATE TABLE {table} COMMITTING {set_column} for {where_column}={where_value}.'
     log_and_print_message(message)
 
 
-def log_update_same_table_commit(table, set_column, where_column, counter):
+def log_update_same_table_commit(table, set_column, where_column, where_value, counter):
     log_commit(counter)
-    log_update_same_table(table, set_column, where_column)
+    log_update_same_table(table, set_column, where_column, where_value)
 
 
 def log_update_fk_table(table,

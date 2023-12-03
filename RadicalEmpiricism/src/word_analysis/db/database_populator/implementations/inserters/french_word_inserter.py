@@ -8,20 +8,20 @@ WORD_MAP = {}
 
 
 def split_into_words(content):
-    content = content.replace('\n', ' ')
-    content = content.replace('-', '')
-    content = re.sub('[,.?()!]', ' ', content)
-    content = re.sub(' +', ' ', content)
-    words = content.split(' ')
+    content = content.replace("\n", " ")
+    content = content.replace("-", "")
+    content = re.sub("[,.?()!]", " ", content)
+    content = re.sub(" +", " ", content)
+    words = content.split(" ")
     return words
 
 
 def normalize_word(word):
     if len(word) == 0:
         return None
-    word = re.sub('^\W+', '', word)
-    word = word.replace('l\'', '')
-    word = word.replace('d\'', '')
+    word = re.sub("^\W+", "", word)
+    word = word.replace("l\"", "")
+    word = word.replace("d\"", "")
     return word.lower()
 
 
@@ -33,10 +33,10 @@ def add_words_to_map(words, book):
         elif normalized in WORD_MAP:
             WORD_MAP[normalized][book] += 1
         else:
-            if book == 'ti':
-                WORD_MAP[normalized] = {'ti': 1, 'otb': 0}
+            if book == "ti":
+                WORD_MAP[normalized] = {"ti": 1, "otb": 0}
             else:
-                WORD_MAP[normalized] = {'ti': 0, 'otb': 1}
+                WORD_MAP[normalized] = {"ti": 0, "otb": 1}
 
 
 class FrenchWordInserter(DatabaseInserter):
@@ -57,10 +57,8 @@ class FrenchWordInserter(DatabaseInserter):
             add_words_to_map(otb_words, "otb")
 
         counter = 0
-        for row in [
-            (key[0], key[1]['ti'], key[1]['otb'])
-            for key in WORD_MAP.items()]:
-            if row[0] != 'parabreak':
+        for row in [(key[0], key[1]["ti"], key[1]["otb"]) for key in WORD_MAP.items()]:
+            if row[0] != "parabreak":
                 self.insert_single_item(row)
                 counter += 1
                 if counter % 50 == 14:

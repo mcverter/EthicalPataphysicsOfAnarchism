@@ -14,4 +14,8 @@ class EnglishTranslationUpdater(DatabaseUpdater):
                          offset=OFFSET)
 
     def get_data_value(self, where_value):
-        return (GoogleTranslator(source='fr', target='en')).translate(where_value)
+        try:
+            translation = (GoogleTranslator(source='fr', target='en')).translate(where_value)
+            return translation
+        except:
+            return None

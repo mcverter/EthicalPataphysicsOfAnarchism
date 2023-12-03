@@ -11,9 +11,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-import os
-
-from ..constants import DB_ENGINE, DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST
+from RadicalEmpiricism.src.constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST, \
+    DB_ENGINE
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -73,7 +72,7 @@ WSGI_APPLICATION = 'django_backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
+DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
 DATABASES = {
     'default': {
         "ENGINE": DB_ENGINE,
