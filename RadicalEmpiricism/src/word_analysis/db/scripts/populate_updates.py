@@ -11,16 +11,16 @@ from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.n
 
 
 def populate_definitions():
-    updater = EnglishDefinitionUpdater()
-    updater.populate()
     updater = FrenchDefinitionUpdater()
+    updater.populate()
+    updater = EnglishDefinitionUpdater()
     updater.populate()
 
 
 def populate_etymologies():
-    updater = EnglishEtymologyUpdater()
-    updater.populate()
     updater = FrenchEtymologyUpdater()
+    updater.populate()
+    updater = EnglishEtymologyUpdater()
     updater.populate()
 
 

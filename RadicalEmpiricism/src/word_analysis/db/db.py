@@ -96,6 +96,9 @@ def update_foreign_key(main_table,
 
         return
 
+    if main_where_val == 'pur':
+        print('break')
+
     log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
 
     fk_id = get_fk_value_from_main_main_table(main_table, main_set_column, main_where_column, main_where_val)
@@ -125,13 +128,16 @@ def update_foreign_key(main_table,
 
 
 def no_unique_violation(table, columns, values):
-    # TODO: fix unique logic
+    # TODO: fix unique logic -- yeah this is busted because unique is only being used for word_french
+    '''
     unique_column = columns[0]
     unique_value = values[0]
     single_result = select_single_value(table, unique_column, unique_column, unique_value)
     if is_empty_value(single_result):
         return True
     return False
+    '''
+    return True
 
 
 def insert_into_table(table, columns, values):
