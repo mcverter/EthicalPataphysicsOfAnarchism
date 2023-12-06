@@ -1,36 +1,9 @@
-from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.definition.english_definition_updater import \
-    EnglishDefinitionUpdater
-from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.definition.french_definition_updater import \
-    FrenchDefinitionUpdater
-from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.etymology.english_etymology_updater import \
-    EnglishEtymologyUpdater
-from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.foreign_key_updaters.etymology.french_etymology_updater import \
-    FrenchEtymologyUpdater
-from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.native_table_updaters.translation.english_translation_updater import \
-    EnglishTranslationUpdater
-
-
-def populate_definitions():
-    updater = FrenchDefinitionUpdater()
-    updater.populate()
-    updater = EnglishDefinitionUpdater()
-    updater.populate()
-
-
-def populate_etymologies():
-    updater = FrenchEtymologyUpdater()
-    updater.populate()
-    updater = EnglishEtymologyUpdater()
-    updater.populate()
-
-
-def populate_translations():
-    updater = EnglishTranslationUpdater()
-    updater.populate()
-
+from .populate_translations import populate_translations
+from .populate_definitions import populate_definitions
+from .populate_etymologies import populate_etymologies
 
 def populate_updates():
-    # populate_translations()
+    populate_translations()
     populate_definitions()
     populate_etymologies()
 

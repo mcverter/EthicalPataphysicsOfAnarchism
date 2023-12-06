@@ -7,6 +7,7 @@ from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_DEFINITION, COLUM
     SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 from ....foreign_key_updater import ForeignKeyUpdater
 
+# TODO: this should be an arg to the constructor
 OFFSET: int = 0
 
 
@@ -34,7 +35,7 @@ class EnglishDefinitionUpdater(ForeignKeyUpdater):
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_ENGLISH,
                          fk_internal_column=COLUMN_ENGLISH_EXPLANATION,
-                         offset=OFFSET)
+                         offset=7700)
 
     def get_fk_value_from_main_where_value(self, where_value):
         return find_english_definition(where_value)
