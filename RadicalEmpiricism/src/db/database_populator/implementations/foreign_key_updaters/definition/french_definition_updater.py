@@ -1,6 +1,6 @@
 import re
 from larousse_api import larousse
-from ....foreign_key_updater import ForeignKeyUpdater
+from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH, \
     COLUMN_FRENCH_EXPLANATION
 

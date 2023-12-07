@@ -2,7 +2,7 @@ import re
 
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB, \
     CLEANED_AUTREMENT, CLEANED_TOTALITE
-from ....database_populator.database_inserter import DatabaseInserter
+from RadicalEmpiricism.src.db.database_populator.database_inserter import DatabaseInserter
 
 WORD_MAP = {}
 

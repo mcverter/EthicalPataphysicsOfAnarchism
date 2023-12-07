@@ -7,10 +7,10 @@ from RadicalEmpiricism.src.constants import (TABLE_WORD,
                                              COLUMN_ETYMOLOGY,
                                              COLUMN_ENGLISH_EXPLANATION,
                                              SITE_ENGLISH_ETYMOLOGY)
-from ....foreign_key_updater import ForeignKeyUpdater
+
+from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 
 OFFSET: int = 0
-
 
 def is_etymology_div(div):
     attrs = div.attrs
