@@ -33,6 +33,7 @@ def get_single_div_using_selenium(url, token):
         driver.get(url)
         text = driver.find_element(By.CLASS_NAME, token).text
         print(text)
+        # TO fix all these regex warlings PEP W605
         return re.sub('^\(\d+\)', '', text)
     except Exception as err:
         print(f"First Selenium Exception {err=}, {type(err)=}")

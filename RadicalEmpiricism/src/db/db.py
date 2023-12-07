@@ -7,13 +7,13 @@ from RadicalEmpiricism.src.logger import (
     log_update_fk_table,
     log_and_print_error
 )
-from ...constants import (
+from RadicalEmpiricism.src.constants import (
     DB_NAME,
     DB_PORT,
     DB_RUNTIME_USER,
     DB_RUNTIME_PASSWORD,
     DB_RUNTIME_HOST)
-from ...utils import is_empty_value
+from RadicalEmpiricism.src.utils import is_empty_value
 
 DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
 
@@ -129,14 +129,14 @@ def update_foreign_key(main_table,
 
 def no_unique_violation(table, columns, values):
     # TODO: fix unique logic -- yeah this is busted because unique is only being used for word_french
-    '''
+    """
     unique_column = columns[0]
     unique_value = values[0]
     single_result = select_single_value(table, unique_column, unique_column, unique_value)
     if is_empty_value(single_result):
         return True
     return False
-    '''
+    """
     return True
 
 

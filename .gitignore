@@ -192,7 +192,6 @@ GitHub.sublime-settings
 *exe
 *jpg
 
-zz_not-app
 zz_not-app/
 
-db_populate_log.txt
+logs/

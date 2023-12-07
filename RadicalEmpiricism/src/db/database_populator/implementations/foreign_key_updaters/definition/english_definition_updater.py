@@ -39,3 +39,8 @@ class EnglishDefinitionUpdater(ForeignKeyUpdater):
 
     def get_fk_value_from_main_where_value(self, where_value):
         return find_english_definition(where_value)
+
+
+if __name__ == '__main__':
+    updater = EnglishDefinitionUpdater()
+    updater.populate()

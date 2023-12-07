@@ -1,4 +1,4 @@
-from RadicalEmpiricism.src.word_analysis.db.db import insert_into_table
+from RadicalEmpiricism.src.db.db import insert_into_table
 from .database_populator import DatabasePopulator
 
 

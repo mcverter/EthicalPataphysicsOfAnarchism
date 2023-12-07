@@ -6,12 +6,14 @@ logging.basicConfig(filename=PATH_DB_POPULATE_LOG,
                     format='%(asctime)s %(message)s',
                     level='INFO')
 
+
 # '/home/mitchell/ComputerScience_Ubuntu/EthicalPataphysicsOfAnarchism/RadicalEmpiricism/src/logs/db_populate_log.txt'
 
 def log_and_print_error(error):
     error_message = "ERROR ERROR " + error
     logging.error(error_message)
     print(error_message)
+
 
 def log_and_print_message(message):
     logging.info(message)

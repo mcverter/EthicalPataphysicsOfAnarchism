@@ -1,4 +1,4 @@
-from RadicalEmpiricism.src.word_analysis.db.database_populator.implementations.inserters.french_word_inserter import \
+from RadicalEmpiricism.src.db.database_populator.implementations.inserters.french_word_inserter import \
     FrenchWordInserter
 
 

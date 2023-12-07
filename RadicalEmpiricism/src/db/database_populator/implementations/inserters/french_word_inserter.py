@@ -65,3 +65,8 @@ class FrenchWordInserter(DatabaseInserter):
                     self.commit(counter)
 
         self.commit(counter)
+
+
+if __name__ == '__main__':
+    updater = FrenchWordInserter()
+    updater.populate()

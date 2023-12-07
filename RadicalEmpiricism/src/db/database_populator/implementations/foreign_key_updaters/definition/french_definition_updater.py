@@ -28,3 +28,8 @@ class FrenchDefinitionUpdater(ForeignKeyUpdater):
     def get_fk_value_from_main_where_value(self, where_value):
         return "; ".join([clean_larousse_definition(c)
                           for c in larousse.get_definitions(where_value)])
+
+
+if __name__ == '__main__':
+    updater = FrenchDefinitionUpdater()
+    updater.populate()

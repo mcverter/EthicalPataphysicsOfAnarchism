@@ -3,7 +3,7 @@ from populate_updates import populate_updates
 
 
 def populate_all():
-#    populate_inserts()
+    populate_inserts()
     populate_updates()
 
 

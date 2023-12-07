@@ -1,8 +1,8 @@
 from RadicalEmpiricism.src.word_analysis.crawler_tools.crawler_tools import (
     get_dictionaire_des_francophone_etymology,
     get_cntrl_eymology)
-from ....foreign_key_updater import ForeignKeyUpdater
 from RadicalEmpiricism.src import constants
+from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 
 OFFSET: int = 0
 
@@ -23,3 +23,8 @@ class FrenchEtymologyUpdater(ForeignKeyUpdater):
             return f'{ddf} ({cntrl})'
         else:
             print('break')
+
+
+if __name__ == '__main__':
+    updater = FrenchEtymologyUpdater()
+    updater.populate()

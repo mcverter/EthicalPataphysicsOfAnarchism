@@ -42,3 +42,8 @@ class EnglishEtymologyUpdater(ForeignKeyUpdater):
                     return result.text
         else:
             print('break')
+
+
+if __name__ == '__main__':
+    updater = EnglishEtymologyUpdater()
+    updater.populate()
