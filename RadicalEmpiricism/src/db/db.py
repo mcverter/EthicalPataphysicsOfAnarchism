@@ -14,8 +14,6 @@ from RadicalEmpiricism.src.constants import (
 from RadicalEmpiricism.src.utils import is_empty_value
 from .sanitize_values import sanitize
 
-DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
-
 conn = psycopg2.connect(database=DB_NAME,
                         host=DB_RUNTIME_HOST,
                         user=DB_RUNTIME_USER,
@@ -43,6 +41,7 @@ def select_from_table(table, columns):
         cursor.execute(query)
         return cursor.fetchall()
     log_and_print_error("Table and Cols undefined: " + table + columns)
+    return None
 
 
 '''

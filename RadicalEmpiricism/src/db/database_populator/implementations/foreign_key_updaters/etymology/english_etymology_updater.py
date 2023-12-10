@@ -43,6 +43,7 @@ class EnglishEtymologyUpdater(ForeignKeyUpdater):
                 if is_etymology_div(result):
                     return result.text
         log_and_print_error('get_fk_value_from_main_where undefined ' + where_value)
+        return None
 
 
 if __name__ == '__main__':

@@ -23,6 +23,8 @@ class FrenchEtymologyUpdater(ForeignKeyUpdater):
             print('etymologies', ddf, cntrl)
             return f'{ddf} ({cntrl})'
         log_and_print_error('undefined call arg ' + where_value)
+        return None
+
 
 if __name__ == '__main__':
     updater = FrenchEtymologyUpdater()
