@@ -17,7 +17,7 @@ driver.implicitly_wait(20)  # gives an implicit wait for 20 seconds
 
 
 def get_soup_from_url(url):
-    page = requests.get(url)
+    page = requests.get(url, timeout=10)
     return BeautifulSoup(page.content, "html.parser")
 
 
@@ -52,7 +52,7 @@ def get_dictionaire_des_francophone_etymology(word):
 
 
 def get_cntrl_eymology(word):
-    page = requests.get(SITE_FRENCH_CNRTL_ETYMOLOGY + word)
+    page = requests.get(SITE_FRENCH_CNRTL_ETYMOLOGY + word, timeout=10)
     text = page.text
     start = text.find('Étymol. et Hist.')
     end = text.find('</div', start)

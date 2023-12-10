@@ -1,5 +1,5 @@
-from populate_inserts import populate_inserts
-from populate_updates import populate_updates
+from .populate_inserts import populate_inserts
+from .populate_updates import populate_updates
 
 
 def populate_all():

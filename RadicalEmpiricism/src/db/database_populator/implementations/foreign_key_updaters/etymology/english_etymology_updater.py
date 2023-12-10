@@ -9,8 +9,10 @@ from RadicalEmpiricism.src.constants import (TABLE_WORD,
                                              SITE_ENGLISH_ETYMOLOGY)
 
 from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from RadicalEmpiricism.src.logger import log_and_print_error
 
 OFFSET: int = 0
+
 
 def is_etymology_div(div):
     attrs = div.attrs
@@ -33,15 +35,14 @@ class EnglishEtymologyUpdater(ForeignKeyUpdater):
     def get_fk_value_from_main_where_value(self, where_value):
         if where_value:
             english_url = f'{SITE_ENGLISH_ETYMOLOGY}{where_value}'
-            page = requests.get(english_url)
+            page = requests.get(english_url, timeout=10)
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div')
 
             for result in results:
                 if is_etymology_div(result):
                     return result.text
-        else:
-            print('break')
+        log_and_print_error('get_fk_value_from_main_where undefined ' + where_value)
 
 
 if __name__ == '__main__':

@@ -3,7 +3,7 @@ from RadicalEmpiricism.src.db.database_populator.implementations.foreign_key_upd
 from RadicalEmpiricism.src.db.database_populator.implementations.foreign_key_updaters.definition.french_definition_updater \
     import FrenchDefinitionUpdater
 
-DO_FRENCH = False
+DO_FRENCH = True
 
 
 def populate_definitions():
