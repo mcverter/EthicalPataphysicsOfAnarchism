@@ -4,7 +4,7 @@ from RadicalEmpiricism.src.scripts.populate_translations import populate_transla
 from RadicalEmpiricism.src.scripts.populate_definitions import populate_definitions
 from RadicalEmpiricism.src.scripts.populate_etymologies import populate_etymologies
 
-DO_TRANSLATION = False
+DO_TRANSLATION = True
 
 
 def populate_updates():
