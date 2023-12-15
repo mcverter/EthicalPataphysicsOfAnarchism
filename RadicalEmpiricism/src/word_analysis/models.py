@@ -5,6 +5,9 @@ CHAR_FIELD = models.CharField(max_length=100, unique=True, null=True)
 TEXT_FIELD = models.TextField()
 INTEGER_FIELD = models.IntegerField()
 
+class BookLines(models.Model):
+    book: CHAR_FIELD
+    line: INTEGER_FIELD
 
 class Etymology(models.Model):
     french_explanation: TEXT_FIELD
@@ -107,6 +110,7 @@ class Word(models.Model):
     partOfSpeech: models.ForeignKey(PartOfSpeech, on_delete=models.SET_NULL)
     etymologicalRoot: models.ForeignKey(EtymologicalRoot, on_delete=models.SET_NULL)
     semanticCategories: models.ManyToManyField(SemanticCategory)
+    book_lines: models.ManyToManyField(BookLines)
 
     def __str__(self):
         return self.french

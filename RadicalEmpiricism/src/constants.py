@@ -18,6 +18,8 @@ DB_RUNTIME_HOST = DB_REMOTE_HOST if DB_LEVEL == "remote" else DB_LOCAL_HOST
 
 
 TABLE_WORD = DB_NAME + "_word"
+TABLE_BOOK_LINES = DB_NAME + "_book_lines"
+
 
 COLUMN_FRENCH = "french"
 COLUMN_FRENCH_EXPLANATION = "french_explanation"
@@ -46,6 +48,12 @@ BOOK_TOTALITE = os.path.join(PATH_BOOKS, "LevinasTotaLGF.txt")
 CLEANED_SUFFIX = "cleaned.txt"
 CLEANED_AUTREMENT = BOOK_AUTREMENT + CLEANED_SUFFIX
 CLEANED_TOTALITE = BOOK_TOTALITE + CLEANED_SUFFIX
+
+PATH_SENTENCES = os.path.join(PATH_BOOKS, "sentences")
+OTB_FRENCH_SENTENCES = os.path.join(PATH_SENTENCES, 'otb_french_sentences.json')
+TI_FRENCH_SENTENCES = os.path.join(PATH_SENTENCES, 'ti_french_sentences.json')
+OTB_ENGLISH_SENTENCES = os.path.join(PATH_SENTENCES, 'otb_english_sentences.json')
+TI_ENGLISH_SENTENCES = os.path.join(PATH_SENTENCES, 'ti_english_sentences.json')
 
 SITE_FRENCH_DDF_ETYMOLOGY = "https://www.dictionnairedesfrancophones.org/form/"
 SITE_FRENCH_DDF_TOKEN = "jss104"
