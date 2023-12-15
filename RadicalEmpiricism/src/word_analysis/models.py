@@ -83,8 +83,8 @@ class Part_Of_Speech(models.Model):
     english = CHAR_FIELD
     french_explanation = TEXT_FIELD
     english_explanation = TEXT_FIELD
-    verb_type = models.ForeignKey(Verb_Type, on_delete=models.SET_NULL)
-    noun_type = models.ForeignKey(Noun_Type, on_delete=models.SET_NULL)
+    verb_type = models.ForeignKey(Verb_Type, null=True, on_delete=models.SET_NULL)
+    noun_type = models.ForeignKey(Noun_Type, null=True, on_delete=models.SET_NULL)
 
     def __str__(self):
         return self.french
@@ -98,7 +98,6 @@ class Suffix(models.Model):
 
     def __str__(self):
         return self.french
-
 
 class Prefix(models.Model):
     french = CHAR_FIELD
@@ -125,16 +124,39 @@ class Word(models.Model):
     otb = INTEGER_FIELD
 
     # etymology and definition
-    etymology = models.ForeignKey(Etymology, on_delete=models.SET_NULL)
-    definition = models.ForeignKey(Definition, on_delete=models.SET_NULL)
+    etymology = models.ForeignKey(Etymology, null=True, on_delete=models.SET_NULL)
+    definition = models.ForeignKey(Definition, null=True, on_delete=models.SET_NULL)
 
     # connections
-    prefix = models.ForeignKey(Prefix, on_delete=models.SET_NULL)
-    suffix = models.ForeignKey(Suffix, on_delete=models.SET_NULL)
-    part_of_speech: models.ForeignKey(Part_Of_Speech, on_delete=models.SET_NULL)
-    etymological_root = models.ForeignKey(Etymological_Root, on_delete=models.SET_NULL)
+    prefix = models.ForeignKey(Prefix, null=True, on_delete=models.SET_NULL)
+    suffix = models.ForeignKey(Suffix, null=True, on_delete=models.SET_NULL)
+    part_of_speech: models.ForeignKey(Part_Of_Speech, null=True, on_delete=models.SET_NULL)
+    etymological_root = models.ForeignKey(Etymological_Root, null=True, on_delete=models.SET_NULL)
     semantic_categories = models.ManyToManyField(Semantic_Categories)
     book_lines = models.ManyToManyField(Book_Lines)
 
     def __str__(self):
         return self.french
+
+
+
+'''
+
+ERRORS:
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
+word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
+word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
+word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
+word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
+word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
+word_analysis.Word.line: (models.E006) The field 'line' clashes with the field 'line' from model 'word_analysis.word'.
+'''
