@@ -59,7 +59,7 @@ class FrenchWordInserter(DatabaseInserter):
         counter = 0
         for row in [(key[0], key[1]["ti"], key[1]["otb"]) for key in WORD_MAP.items()]:
             if row[0] != "parabreak":
-                self.insert_single_item(row)
+                self.insert_single_item(row, unique=True)
                 counter += 1
                 if counter % 50 == 14:
                     self.commit(counter)

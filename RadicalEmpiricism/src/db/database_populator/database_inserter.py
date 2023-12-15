@@ -13,5 +13,5 @@ class DatabaseInserter(DatabasePopulator):
     def populate(self):
         raise Exception('populate must be defined by subclass')
 
-    def insert_single_item(self, values):
-        return insert_into_table(self.table, self.columns, values)
+    def insert_single_item(self, values, unique=False):
+        return insert_into_table(self.table, self.columns, values, unique)

@@ -127,37 +127,34 @@ def update_foreign_key(main_table,
 
 
 def no_unique_violation(table, columns, values):
-    # TODO: fix unique logic -- yeah this is busted because unique is only being used for word_french
-    """
     unique_column = columns[0]
     unique_value = values[0]
     single_result = select_single_value(table, unique_column, unique_column, unique_value)
     if is_empty_value(single_result):
         return True
     return False
-    """
-    return True
 
 
-def insert_into_table(table, columns, values):
+def insert_into_table(table, columns, values, unique=False):
     log_insert(table, columns, values)
 
-    if table and columns and values:
-        if no_unique_violation(table, columns, values):
-            sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
-            query = f'''
-                    INSERT INTO {table} ({",".join(columns)}) 
-                    VALUES ({",".join(sanitized_values)})
-    /*              ON CONFLICT ({columns[0]})  
-                    DO NOTHING no unique constraint yet  */
-                    RETURNING id;
-                    '''
-            cursor = get_db_cursor()
-            cursor.execute(query)
-            result = cursor.fetchone()
-            print(result)
-            return result
-    log_and_print_error('insert_into_table undefined values: ' + table + columns + values)
+    if is_empty_value(table) or is_empty_value(columns) or is_empty_value(values):
+        log_and_print_error('insert_into_table undefined values: ' + table + columns + values)
+        return None
+
+    if not unique or no_unique_violation(table, columns, values):
+        sanitized_values = [f'{v}' if isinstance(v, int) else f"'{sanitize(v)}'" for v in values]
+        query = f'''
+                INSERT INTO {table} ({",".join(columns)}) 
+                VALUES ({",".join(sanitized_values)})
+/*              ON CONFLICT ({columns[0]})  
+                DO NOTHING no unique constraint yet  */
+                RETURNING id;
+                '''
+        cursor = get_db_cursor()
+        cursor.execute(query)
+        result = cursor.fetchone()
+        return result
     return None
 
 
