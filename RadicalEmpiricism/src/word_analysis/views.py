@@ -4,7 +4,7 @@ from django.urls import reverse
 from django.views.generic import ListView
 from django.views import View
 
-from .models import Word, Semantic_Category, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
+from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
 
 
 class AllPartOfSpeechView(ListView):
@@ -53,7 +53,7 @@ class AllEtymologicalRootView(ListView):
 
 class AllSemanticCategoriesView(ListView):
     template_name = ""
-    model = Semantic_Category
+    model = Semantic_Categories
     ordering = ["-french"]
     context_object_name = "all_words"
 

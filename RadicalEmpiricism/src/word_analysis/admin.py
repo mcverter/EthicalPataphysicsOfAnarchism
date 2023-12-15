@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Word, Semantic_Category, Etymological_Root, Verb_Type, Noun_Type, Suffix, Prefix, Part_Of_Speech
+from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Suffix, Prefix, Part_Of_Speech
 
 # Register your models here
 '''
@@ -20,7 +20,7 @@ admin.site.register(Comment, CommentAdmin)
 '''
 
 admin.site.register(Word)
-admin.site.register(Semantic_Category)
+admin.site.register(Semantic_Categories)
 admin.site.register(Etymological_Root)
 admin.site.register(Verb_Type)
 admin.site.register(Noun_Type)
