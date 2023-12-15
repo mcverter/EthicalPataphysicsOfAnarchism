@@ -134,6 +134,11 @@ def no_unique_violation(table, columns, values):
         return True
     return False
 
+def insert_many_to_many(main_table, linked_table, columns, values):
+    linked_table_id = insert_into_table(linked_table, columns, values)
+    print (linked_table_id)
+    # insert_into_table(main_table, linked_table_id, linked_table_id)
+    pass
 
 def insert_into_table(table, columns, values, unique=False):
     log_insert(table, columns, values)
@@ -154,8 +159,8 @@ def insert_into_table(table, columns, values, unique=False):
         cursor.execute(query)
         result = cursor.fetchone()
         return result
-    return None
-
+    else:
+        return select_single_value(table, 'id', columns[0], values[0])
 
 def update_table(table, set_column, set_value, where_column, where_value):
     if table and set_column and set_value and where_column and where_value:
