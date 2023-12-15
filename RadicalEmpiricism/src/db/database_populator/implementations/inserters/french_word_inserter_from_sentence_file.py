@@ -78,6 +78,7 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
                     insert_into_table(TABLE_BOOK_LINES, ("book", "line"), (book, idx))
 
     def populate(self):
+        self.create_lines_table()
         for book in (COLUMN_TI, COLUMN_OTB):
             with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
                 lines = json.load(file)

@@ -4,12 +4,12 @@ from django.urls import reverse
 from django.views.generic import ListView
 from django.views import View
 
-from .models import Word, SemanticCategory, EtymologicalRoot, VerbType, NounType, Prefix, Suffix, PartOfSpeech
+from .models import Word, Semantic_Category, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
 
 
 class AllPartOfSpeechView(ListView):
     template_name = ""
-    model = PartOfSpeech
+    model = Part_Of_Speech
     ordering = ["-french"]
     context_object_name = "all_words"
 
@@ -31,14 +31,14 @@ class AllSuffixView(ListView):
 # Create your views here.
 class AllNounTypeView(ListView):
     template_name = ""
-    model = NounType
+    model = Noun_Type
     ordering = ["-french"]
     context_object_name = "all_words"
 
 
 class AllVerbTypeView(ListView):
     template_name = ""
-    model = VerbType
+    model = Verb_Type
     ordering = ["-french"]
     context_object_name = "all_words"
 
@@ -46,14 +46,14 @@ class AllVerbTypeView(ListView):
 # Create your views here.
 class AllEtymologicalRootView(ListView):
     template_name = ""
-    model = EtymologicalRoot
+    model = Etymological_Root
     ordering = ["-french"]
     context_object_name = "all_words"
 
 
 class AllSemanticCategoriesView(ListView):
     template_name = ""
-    model = SemanticCategory
+    model = Semantic_Category
     ordering = ["-french"]
     context_object_name = "all_words"
 

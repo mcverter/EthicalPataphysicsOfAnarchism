@@ -5,7 +5,7 @@ CHAR_FIELD = models.CharField(max_length=100, unique=True, null=True)
 TEXT_FIELD = models.TextField()
 INTEGER_FIELD = models.IntegerField()
 
-class BookLines(models.Model):
+class Book_Lines(models.Model):
     book: CHAR_FIELD
     line: INTEGER_FIELD
 
@@ -20,7 +20,7 @@ class Definition(models.Model):
 
 
 # Create your models here.
-class SemanticCategory(models.Model):
+class Semantic_Category(models.Model):
     french: CHAR_FIELD
     english: CHAR_FIELD
     french_explanation: TEXT_FIELD
@@ -30,7 +30,7 @@ class SemanticCategory(models.Model):
         return self.french
 
 
-class EtymologicalRoot(models.Model):
+class Etymological_Root(models.Model):
     root: models.CharField(max_length=32, unique=True, null=True)
     french_explanation: TEXT_FIELD
     english_explanation: TEXT_FIELD
@@ -39,7 +39,7 @@ class EtymologicalRoot(models.Model):
         return self.root
 
 
-class VerbType(models.Model):
+class Verb_Type(models.Model):
     french: CHAR_FIELD
     english: CHAR_FIELD
     french_explanation: TEXT_FIELD
@@ -49,7 +49,7 @@ class VerbType(models.Model):
         return self.french
 
 
-class NounType(models.Model):
+class Noun_Type(models.Model):
     french: CHAR_FIELD
     english: CHAR_FIELD
     french_explanation: TEXT_FIELD
@@ -59,13 +59,13 @@ class NounType(models.Model):
         return self.french
 
 
-class PartOfSpeech(models.Model):
+class Part_Of_Speech(models.Model):
     french: CHAR_FIELD
     english: CHAR_FIELD
     french_explanation: TEXT_FIELD
     english_explanation: TEXT_FIELD
-    verbType: models.ForeignKey(VerbType, on_delete=models.SET_NULL)
-    nounType: models.ForeignKey(NounType, on_delete=models.SET_NULL)
+    verb_type: models.ForeignKey(Verb_Type, on_delete=models.SET_NULL)
+    noun_type: models.ForeignKey(Noun_Type, on_delete=models.SET_NULL)
 
     def __str__(self):
         return self.french
@@ -107,10 +107,10 @@ class Word(models.Model):
     # connections
     prefix: models.ForeignKey(Prefix, on_delete=models.SET_NULL)
     suffix: models.ForeignKey(Suffix, on_delete=models.SET_NULL)
-    partOfSpeech: models.ForeignKey(PartOfSpeech, on_delete=models.SET_NULL)
-    etymologicalRoot: models.ForeignKey(EtymologicalRoot, on_delete=models.SET_NULL)
-    semanticCategories: models.ManyToManyField(SemanticCategory)
-    book_lines: models.ManyToManyField(BookLines)
+    part_of_speech: models.ForeignKey(Part_Of_Speech, on_delete=models.SET_NULL)
+    etymological_root: models.ForeignKey(Etymological_Root, on_delete=models.SET_NULL)
+    semanticCategories: models.ManyToManyField(Semantic_Category)
+    book_lines: models.ManyToManyField(Book_Lines)
 
     def __str__(self):
         return self.french
