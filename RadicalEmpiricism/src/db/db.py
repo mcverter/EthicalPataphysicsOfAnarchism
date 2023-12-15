@@ -147,8 +147,7 @@ def insert_into_table(table, columns, values, unique=False):
         query = f'''
                 INSERT INTO {table} ({",".join(columns)}) 
                 VALUES ({",".join(sanitized_values)})
-/*              ON CONFLICT ({columns[0]})  
-                DO NOTHING no unique constraint yet  */
+                ON CONFLICT ({columns[0]}) DO NOTHING
                 RETURNING id;
                 '''
         cursor = get_db_cursor()

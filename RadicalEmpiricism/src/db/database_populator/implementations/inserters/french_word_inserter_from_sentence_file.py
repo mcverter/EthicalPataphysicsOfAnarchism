@@ -91,10 +91,15 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
         counter = 0
 
         for key in self.WORD_MAP.keys():
-            values =  (key,
+            values = (key,
                        self.WORD_MAP[key][COLUMN_TI]['count'],
                        self.WORD_MAP[key][COLUMN_OTB]['count'])
             self.insert_single_item(values)
+
+            ti_lines = self.WORD_MAP[key][COLUMN_TI]["lines"]
+            otb_lines = self.WORD_MAP[key][COLUMN_OTB]["lines"]
+
+
 
             # TODO: insert lines
             counter += 1

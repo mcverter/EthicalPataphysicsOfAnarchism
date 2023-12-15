@@ -6,21 +6,36 @@ TEXT_FIELD = models.TextField()
 INTEGER_FIELD = models.IntegerField()
 
 class Book_Lines(models.Model):
+    class Meta:
+        unique_together = ('book', 'line',)
+
     book: CHAR_FIELD
     line: INTEGER_FIELD
 
 class Etymology(models.Model):
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['french_explanation', 'english_explanation']),
+        ]
     french_explanation: TEXT_FIELD
     english_explanation: TEXT_FIELD
 
 
 class Definition(models.Model):
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['french_explanation', 'english_explanation']),
+        ]
     french_explanation: TEXT_FIELD
     english_explanation: TEXT_FIELD
 
 
 # Create your models here.
 class Semantic_Category(models.Model):
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['french']),
+        ]
     french: CHAR_FIELD
     english: CHAR_FIELD
     french_explanation: TEXT_FIELD
@@ -31,6 +46,10 @@ class Semantic_Category(models.Model):
 
 
 class Etymological_Root(models.Model):
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['root']),
+        ]
     root: models.CharField(max_length=32, unique=True, null=True)
     french_explanation: TEXT_FIELD
     english_explanation: TEXT_FIELD
@@ -92,6 +111,11 @@ class Prefix(models.Model):
 
 
 class Word(models.Model):
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['french']),
+        ]
+
     # word from books
     french: REQUIRED_CHAR_FIELD
     english: CHAR_FIELD
