@@ -1,6 +1,4 @@
 import psycopg2
-
-from .sanitize_values import sanitize
 from RadicalEmpiricism.src.logger import (
     log_insert,
     log_update_same_table,
@@ -14,8 +12,7 @@ from RadicalEmpiricism.src.constants import (
     DB_RUNTIME_PASSWORD,
     DB_RUNTIME_HOST)
 from RadicalEmpiricism.src.utils import is_empty_value
-
-DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
+from .sanitize_values import sanitize
 
 conn = psycopg2.connect(database=DB_NAME,
                         host=DB_RUNTIME_HOST,
@@ -43,6 +40,8 @@ def select_from_table(table, columns):
         query = f'SELECT ({",".join(columns)}) from {table}'
         cursor.execute(query)
         return cursor.fetchall()
+    log_and_print_error("Table and Cols undefined: " + table + columns)
+    return None
 
 
 '''
@@ -158,6 +157,8 @@ def insert_into_table(table, columns, values):
             result = cursor.fetchone()
             print(result)
             return result
+    log_and_print_error('insert_into_table undefined values: ' + table + columns + values)
+    return None
 
 
 def update_table(table, set_column, set_value, where_column, where_value):

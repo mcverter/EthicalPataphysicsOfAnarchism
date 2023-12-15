@@ -8,10 +8,10 @@ DB_PORT = "5432"
 
 DB_LOCAL_USER = "postgres"
 DB_LOCAL_PASS = os.environ["DB_PASS"]
-DB_LOCAL_HOST = "localhost",
+DB_LOCAL_HOST = "localhost"
 DB_REMOTE_USER = "mitchell.verter"
 DB_REMOTE_PASS = os.environ["DB_REMOTE_PASS"]
-DB_REMOTE_HOST = "ep-black-poetry-68818067.us-east-2.aws.neon.tech",
+DB_REMOTE_HOST = "ep-black-poetry-68818067.us-east-2.aws.neon.tech"
 DB_RUNTIME_USER = DB_REMOTE_USER if DB_LEVEL == "remote" else DB_LOCAL_USER
 DB_RUNTIME_PASSWORD = DB_REMOTE_PASS if DB_LEVEL == "remote" else DB_LOCAL_PASS
 DB_RUNTIME_HOST = DB_REMOTE_HOST if DB_LEVEL == "remote" else DB_LOCAL_HOST

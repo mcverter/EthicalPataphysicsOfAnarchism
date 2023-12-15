@@ -12,7 +12,7 @@ from rest_framework import viewsets
 from .serializers import TodoSerializer
 from .models import Todo
 
-# Create your views here.
+# Create your views here.gis 
 
 class TodoView(viewsets.ModelViewSet):
     serializer_class = TodoSerializer

@@ -75,7 +75,6 @@ WSGI_APPLICATION = 'django_backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-DB_RUNTIME_HOST = DB_RUNTIME_HOST[0]  # TODO: fix this
 DATABASES = {
     'default': {
         "ENGINE": DB_ENGINE,

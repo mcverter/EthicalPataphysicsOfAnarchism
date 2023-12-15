@@ -1,6 +1,6 @@
-from .database_populator import DatabasePopulator
-from RadicalEmpiricism.src.db.db import select_from_table, update_table
 import re
+from RadicalEmpiricism.src.db.db import select_from_table, update_table
+from .database_populator import DatabasePopulator
 
 
 def get_where_value_from_row(row):
@@ -24,9 +24,6 @@ class DatabaseUpdater(DatabasePopulator):
         self.set_column = set_column
         self.where_column = where_column
         self.offset = offset or 0
-
-    def commit(self, counter):
-        super().commit(counter)
 
     def get_data_value(self, where_value):
         raise Exception('Must define "get_data_value" in subclass')

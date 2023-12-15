@@ -20,13 +20,13 @@ def log_and_print_message(message):
     print(message)
 
 
-def log_insert(table, columns, values):
-    message = f'INSERT TABLE {table} COLS {columns} VALS {values}.'
+def log_commit(counter):
+    message = f'COMMITTING ({counter})'
     log_and_print_message(message)
 
 
-def log_commit(counter):
-    message = f'COMMITTING ({counter})'
+def log_insert(table, columns, values):
+    message = f'INSERT TABLE {table} COLS {columns} VALS {values}.'
     log_and_print_message(message)
 
 
@@ -43,9 +43,12 @@ def log_update_same_table(table, set_column, where_column, where_value):
 def log_update_same_table_commit(table, set_column, where_column, where_value, counter):
     log_commit(counter)
     log_update_same_table(table, set_column, where_column, where_value)
+
+
 """
 UPDATE TABLE word_analysis_word COMMITTING definition_id for english="". FK_INTERNAL_COL table word_analysis_definition COL english_explanation.
 """
+
 
 def log_update_fk_table(table,
                         set_column,

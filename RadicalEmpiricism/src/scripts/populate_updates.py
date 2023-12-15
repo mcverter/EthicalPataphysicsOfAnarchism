@@ -1,12 +1,15 @@
 from multiprocessing import Process
 
-from .populate_translations import populate_translations
-from .populate_definitions import populate_definitions
-from .populate_etymologies import populate_etymologies
+from RadicalEmpiricism.src.scripts.populate_translations import populate_translations
+from RadicalEmpiricism.src.scripts.populate_definitions import populate_definitions
+from RadicalEmpiricism.src.scripts.populate_etymologies import populate_etymologies
+
+DO_TRANSLATION = True
 
 
 def populate_updates():
-    populate_translations()
+    if DO_TRANSLATION:
+        populate_translations()
     p1 = Process(target=populate_definitions)
     p2 = Process(target=populate_etymologies)
     p1.start()

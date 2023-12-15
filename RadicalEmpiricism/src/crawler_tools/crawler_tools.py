@@ -17,7 +17,7 @@ driver.implicitly_wait(20)  # gives an implicit wait for 20 seconds
 
 
 def get_soup_from_url(url):
-    page = requests.get(url)
+    page = requests.get(url, timeout=10)
     return BeautifulSoup(page.content, "html.parser")
 
 
@@ -35,15 +35,15 @@ def get_single_div_using_selenium(url, token):
         print(text)
         # TO fix all these regex warlings PEP W605
         return re.sub('^\(\d+\)', '', text)
-    except Exception as err:
-        print(f"First Selenium Exception {err=}, {type(err)=}")
+    except Exception as error1:
+        print(f"First Selenium Exception {error1}, {type(error1)}")
 
         try:
             text = driver.find_element(By.CLASS_NAME, token).text
             print(text)
             return re.sub('^\(\d+\)', '', text)
-        except Exception as err:
-            print(f"Second Selenium Exception {err=}, {type(err)=}")
+        except Exception as error2:
+            print(f"Second Selenium Exception {error2}, {type(error2)}")
             return None
 
 
@@ -52,7 +52,7 @@ def get_dictionaire_des_francophone_etymology(word):
 
 
 def get_cntrl_eymology(word):
-    page = requests.get(SITE_FRENCH_CNRTL_ETYMOLOGY + word)
+    page = requests.get(SITE_FRENCH_CNRTL_ETYMOLOGY + word, timeout=10)
     text = page.text
     start = text.find('Étymol. et Hist.')
     end = text.find('</div', start)

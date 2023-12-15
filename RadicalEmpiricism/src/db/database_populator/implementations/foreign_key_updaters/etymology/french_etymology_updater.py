@@ -3,6 +3,7 @@ from RadicalEmpiricism.src.crawler_tools.crawler_tools import (
     get_cntrl_eymology)
 from RadicalEmpiricism.src import constants
 from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from RadicalEmpiricism.src.logger import log_and_print_error
 
 OFFSET: int = 0
 
@@ -21,8 +22,8 @@ class FrenchEtymologyUpdater(ForeignKeyUpdater):
             ddf = get_dictionaire_des_francophone_etymology(where_value)
             print('etymologies', ddf, cntrl)
             return f'{ddf} ({cntrl})'
-        else:
-            print('break')
+        log_and_print_error('undefined call arg ' + where_value)
+        return None
 
 
 if __name__ == '__main__':
