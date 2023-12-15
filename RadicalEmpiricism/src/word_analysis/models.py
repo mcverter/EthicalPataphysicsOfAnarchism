@@ -1,33 +1,34 @@
 from django.db import models
 
-REQUIRED_CHAR_FIELD = models.CharField(max_length=100, unique=True)
-CHAR_FIELD = models.CharField(max_length=100, unique=True, null=True)
-TEXT_FIELD = models.TextField()
-INTEGER_FIELD = models.IntegerField()
-
 class Book_Lines(models.Model):
     class Meta:
         constraints = [
             models.UniqueConstraint("book", "line", name="unique_lower_name_category")]
-    book = CHAR_FIELD
-    line = INTEGER_FIELD
+
+    book = models.CharField(max_length=3)
+    line = models.IntegerField()
+
 
 class Etymology(models.Model):
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=['french_explanation', 'english_explanation'], name='unique_explanations_ety'),
+            models.UniqueConstraint(fields=['french_explanation', 'english_explanation'],
+                                    name='unique_explanations_ety'),
         ]
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
 
 class Definition(models.Model):
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=['french_explanation', 'english_explanation'], name='unique_explanations_def'),
+            models.UniqueConstraint(fields=['french_explanation', 'english_explanation'],
+                                    name='unique_explanations_def'),
         ]
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
 
 # Create your models here.
@@ -36,10 +37,11 @@ class Semantic_Categories(models.Model):
         constraints = [
             models.UniqueConstraint(fields=['french', 'english'], name='unique_fields_sem'),
         ]
-    french = CHAR_FIELD
-    english = CHAR_FIELD
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+
+    french=  models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True, null=True)
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
     def __str__(self):
         return self.french
@@ -50,39 +52,40 @@ class Etymological_Root(models.Model):
         constraints = [
             models.UniqueConstraint(fields=['root'], name='unique_etymological_root'),
         ]
+
     root = models.CharField(max_length=32, unique=True, null=True)
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
     def __str__(self):
         return self.root
 
 
 class Verb_Type(models.Model):
-    french = CHAR_FIELD
-    english = CHAR_FIELD
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+    french=  models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True, null=True)
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
     def __str__(self):
         return self.french
 
 
 class Noun_Type(models.Model):
-    french = CHAR_FIELD
-    english = CHAR_FIELD
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+    french=  models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True, null=True)
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
     def __str__(self):
         return self.french
 
 
 class Part_Of_Speech(models.Model):
-    french = CHAR_FIELD
-    english = CHAR_FIELD
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+    french=  models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True, null=True)
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
     verb_type = models.ForeignKey(Verb_Type, null=True, on_delete=models.SET_NULL)
     noun_type = models.ForeignKey(Noun_Type, null=True, on_delete=models.SET_NULL)
 
@@ -91,19 +94,20 @@ class Part_Of_Speech(models.Model):
 
 
 class Suffix(models.Model):
-    french = CHAR_FIELD
-    english = CHAR_FIELD
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+    french=  models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True, null=True)
+    french_explanation  = models.TextField()
+    english_explanation  = models.TextField()
 
     def __str__(self):
         return self.french
 
+
 class Prefix(models.Model):
-    french = CHAR_FIELD
-    english = CHAR_FIELD
-    french_explanation = TEXT_FIELD
-    english_explanation = TEXT_FIELD
+    french=  models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True, null=True)
+    mooface  = models.TextField()
+    english_explanation  = models.TextField()
 
     def __str__(self):
         return self.french
@@ -116,12 +120,12 @@ class Word(models.Model):
         ]
 
     # word from books
-    french = REQUIRED_CHAR_FIELD
-    english = CHAR_FIELD
+    french = models.CharField(max_length=100, unique=True, null=True)
+    english=  models.CharField(max_length=100, unique=True)
 
     # count from books
-    ti = INTEGER_FIELD
-    otb = INTEGER_FIELD
+    ti = models.IntegerField()
+    otb = models.IntegerField()
 
     # etymology and definition
     etymology = models.ForeignKey(Etymology, null=True, on_delete=models.SET_NULL)
@@ -139,19 +143,8 @@ class Word(models.Model):
         return self.french
 
 
-
 '''
-
 ERRORS:
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
-word_analysis.Prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
 word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
 word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
 word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
@@ -159,4 +152,13 @@ word_analysis.Word.book: (models.E006) The field 'book' clashes with the field '
 word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
 word_analysis.Word.book: (models.E006) The field 'book' clashes with the field 'book' from model 'word_analysis.word'.
 word_analysis.Word.line: (models.E006) The field 'line' clashes with the field 'line' from model 'word_analysis.word'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
+word_analysis.prefix.french_explanation: (models.E006) The field 'french_explanation' clashes with the field 'french_explanation' from model 'word_analysis.prefix'.
 '''
