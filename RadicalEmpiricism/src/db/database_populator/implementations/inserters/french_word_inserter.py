@@ -117,13 +117,13 @@ class FrenchWordInserter(DatabaseInserter):
                         # key "il"
                         print(key, self.WORD_MAP[key], self.WORD_MAP[key][book]["lines"])
                     book_line_id = select_composite_id(TABLE_BOOK_LINE, ("book", "line"), (book, line))
-                    insert_many_to_many(TABLE_WORD, TABLE_BOOK_LINE, ('word_id', 'book_line_id'), (word_id, book_line_id))
+                    insert_many_to_many(TABLE_WORD, TABLE_BOOK_LINE, ('word_id', 'book_line_id'),
+                                        (word_id, book_line_id))
                 if inner_counter % 50 == 6:
                     self.commit(inner_counter)
                 inner_counter += 1
             self.commit(counter)
         self.commit(counter)
-
 
 
 if __name__ == '__main__':

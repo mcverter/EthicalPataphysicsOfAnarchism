@@ -11,6 +11,7 @@ from RadicalEmpiricism.src.db.database_populator.implementations.foreign_key_upd
 from RadicalEmpiricism.src.db.database_populator.implementations.native_table_updaters.translation.english_translation_updater import \
     EnglishTranslationUpdater
 
+
 def populate_english_updates():
     EnglishTranslationUpdater().populate()
     english_definition_updater = EnglishDefinitionUpdater()
@@ -24,8 +25,10 @@ def populate_english_updates():
 
 
 def populate_french_updates():
-    p1 = Process(target=FrenchDefinitionUpdater().populate)
-    p2 = Process(target=FrenchEtymologyUpdater().populate)
+    french_definition_updater = FrenchDefinitionUpdater()
+    french_etymology_updater = FrenchEtymologyUpdater()
+    p1 = Process(target=french_definition_updater.populate)
+    p2 = Process(target=french_etymology_updater.populate)
     p1.start()
     p2.start()
     p1.join()
