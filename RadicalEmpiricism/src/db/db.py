@@ -50,9 +50,7 @@ where word_analysis_definition.english_explanation = 'foo'
 '''
 
 def select_composite_id(table, columns, values):
-    where_clause = f"WHERE {columns[0]} = '{values[0]}'"
-    for idx in range(1, len(columns)):
-        where_clause += f" AND {columns[idx]} = '{values[idx]}'"
+    where_clause = f"WHERE {columns[0]}='{values[0]}' AND {columns[1]}={values[1]}"
     query = f"SELECT id from {table} {where_clause}"
     print(query)
     cursor = get_db_cursor()
