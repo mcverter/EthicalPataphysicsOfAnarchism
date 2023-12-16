@@ -18,7 +18,7 @@ DB_RUNTIME_HOST = DB_REMOTE_HOST if DB_LEVEL == "remote" else DB_LOCAL_HOST
 
 
 TABLE_WORD = DB_NAME + "_word"
-TABLE_BOOK_LINES = DB_NAME + "_book_lines"
+TABLE_BOOK_LINE = DB_NAME + "_book_line"
 
 
 COLUMN_FRENCH = "french"

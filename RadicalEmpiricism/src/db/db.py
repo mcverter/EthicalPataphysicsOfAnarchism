@@ -135,10 +135,10 @@ def no_unique_violation(table, columns, values):
     return False
 
 def insert_many_to_many(main_table, linked_table, columns, values):
-    linked_table_id = insert_into_table(linked_table, columns, values)
-    print (linked_table_id)
-    # insert_into_table(main_table, linked_table_id, linked_table_id)
-    pass
+    def composite_table():
+        return main_table + linked_table
+
+    insert_into_table(composite_table(), columns, values)
 
 def insert_into_table(table, columns, values, unique=False):
     log_insert(table, columns, values)
@@ -152,7 +152,7 @@ def insert_into_table(table, columns, values, unique=False):
         query = f'''
                 INSERT INTO {table} ({",".join(columns)}) 
                 VALUES ({",".join(sanitized_values)})
-                ON CONFLICT ({columns[0]}) DO NOTHING
+                ON CONFLICT DO NOTHING
                 RETURNING id;
                 '''
         cursor = get_db_cursor()

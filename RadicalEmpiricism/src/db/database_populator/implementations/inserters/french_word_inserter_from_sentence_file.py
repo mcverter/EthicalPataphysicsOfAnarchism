@@ -1,10 +1,10 @@
 import re
 import json
 import codecs
-from RadicalEmpiricism.src.db.db import insert_into_table
+from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, insert_many_to_many
 
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB, \
-    OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, COLUMN_TI, COLUMN_OTB, TABLE_BOOK_LINES
+    OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, COLUMN_TI, COLUMN_OTB, TABLE_BOOK_LINE
 
 from RadicalEmpiricism.src.db.database_populator.database_inserter import DatabaseInserter
 from RadicalEmpiricism.src.utils import is_empty_value
@@ -75,7 +75,7 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
             with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
                 lines = json.load(file)
                 for idx in range(len(lines)):
-                    insert_into_table(TABLE_BOOK_LINES, ("book", "line"), (book, idx))
+                    insert_into_table(TABLE_BOOK_LINE, ("book", "line"), (book, idx))
 
     def populate(self):
         self.create_lines_table()
@@ -94,10 +94,15 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
             values = (key,
                        self.WORD_MAP[key][COLUMN_TI]['count'],
                        self.WORD_MAP[key][COLUMN_OTB]['count'])
-            self.insert_single_item(values)
 
-            ti_lines = self.WORD_MAP[key][COLUMN_TI]["lines"]
-            otb_lines = self.WORD_MAP[key][COLUMN_OTB]["lines"]
+            word_id = self.insert_single_item(values)
+
+            for line in self.WORD_MAP[key][COLUMN_TI]["lines"]:
+                book_line_id = select_single_value(TABLE_BOOK_LINE, ("book", "line"), (book, line))
+                insert_many_to_many(TABLE_WORD, TABLE_BOOK_LINE, ('word_id', 'book_line_id'), (word_id, book_line_id))
+
+            for line in self.WORD_MAP[key][COLUMN_OTB]["lines"]:
+                pass
 
 
 
