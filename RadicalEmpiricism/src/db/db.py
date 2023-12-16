@@ -72,13 +72,10 @@ def get_fk_value_from_main_main_table(main_table,
                                       main_set_column,
                                       main_where_column,
                                       main_where_val):
-    main_fk_value = select_single_value(table=main_table,
-                                        select_col=main_set_column,
-                                        where_col=main_where_column,
-                                        where_val=main_where_val)
-
-    main_fk_value = main_fk_value[0]
-    return main_fk_value
+    return select_single_value(table=main_table,
+                               select_col=main_set_column,
+                               where_col=main_where_column,
+                               where_val=main_where_val)
 
 
 def update_foreign_key(main_table,
