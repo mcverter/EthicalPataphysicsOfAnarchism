@@ -13,8 +13,10 @@ from RadicalEmpiricism.src.db.database_populator.implementations.native_table_up
 
 def populate_english_updates():
     EnglishTranslationUpdater().populate()
-    p1 = Process(target=EnglishDefinitionUpdater().populate)
-    p2 = Process(target=EnglishEtymologyUpdater().populate)
+    english_definition_updater = EnglishDefinitionUpdater()
+    english_etymology_updater = EnglishEtymologyUpdater()
+    p1 = Process(target=english_definition_updater.populate)
+    p2 = Process(target=english_etymology_updater.populate)
     p1.start()
     p2.start()
     p1.join()
