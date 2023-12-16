@@ -5,6 +5,7 @@ class Book_Line(models.Model):
     class Meta:
         constraints = [
             models.UniqueConstraint("book", "line", name="unique_lower_name_category")]
+
     book = models.CharField(max_length=3)
     line = models.IntegerField()
 
@@ -42,8 +43,6 @@ class Etymological_Root(models.Model):
 class Verb_Type(models.Model):
     french = models.CharField(max_length=100, unique=True, null=True)
 
-
-
     english = models.CharField(max_length=100, unique=True, null=True)
     french_explanation = models.TextField(null=True)
     english_explanation = models.TextField(null=True)
@@ -76,8 +75,6 @@ class Part_Of_Speech(models.Model):
 
 class Suffix(models.Model):
     french = models.CharField(max_length=100, unique=True, null=True)
-
-
 
     english = models.CharField(max_length=100, unique=True, null=True)
     french_explanation = models.TextField(null=True)

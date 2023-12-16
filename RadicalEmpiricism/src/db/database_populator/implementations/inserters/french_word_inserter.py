@@ -56,7 +56,7 @@ class WordMapEntry:
         self.lines = {}
 
 
-class FrenchWordInserterFromSentences(DatabaseInserter):
+class FrenchWordInserter(DatabaseInserter):
     def __init__(self):
         super().__init__(table=TABLE_WORD,
                          columns=(COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB))
@@ -71,7 +71,7 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
             self.WORD_MAP[word][book]["lines"].add(line)
         else:
             self.WORD_MAP[word] = {
-                book: {'count': 1, 'lines': set([line])},
+                book: {'count': 1, 'lines': {line}},
                 get_other_book(book): {"count": 0, "lines": set()}
             }
 
@@ -102,7 +102,6 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
                       self.WORD_MAP[key][COLUMN_TI]['count'],
                       self.WORD_MAP[key][COLUMN_OTB]['count'])
 
-            word_id = self.insert_single_item(values)
             if inner_counter % 50 == 6:
                 self.commit(counter)
             inner_counter += 1
@@ -151,5 +150,5 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
 '''
 
 if __name__ == '__main__':
-    updater = FrenchWordInserterFromSentences()
+    updater = FrenchWordInserter()
     updater.populate()

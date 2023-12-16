@@ -49,6 +49,7 @@ select word_analysis_definition.id from  word_analysis_definition
 where word_analysis_definition.english_explanation = 'foo'
 '''
 
+
 def select_composite_id(table, columns, values):
     where_clause = f"WHERE {columns[0]}='{values[0]}' AND {columns[1]}={values[1]}"
     query = f"SELECT id from {table} {where_clause}"
@@ -143,11 +144,13 @@ def no_unique_violation(table, columns, values):
         return True
     return False
 
+
 def insert_many_to_many(main_table, linked_table, columns, values):
     def composite_table():
         return main_table + linked_table[len('word_analysis'):]
 
     insert_into_table(composite_table(), columns, values)
+
 
 def insert_into_table(table, columns, values, unique=False):
     log_insert(table, columns, values)
@@ -170,6 +173,7 @@ def insert_into_table(table, columns, values, unique=False):
         return None if result is None else result[0]
     else:
         return select_single_value(table, 'id', columns[0], values[0])
+
 
 def update_table(table, set_column, set_value, where_column, where_value):
     if table and set_column and set_value and where_column and where_value:
