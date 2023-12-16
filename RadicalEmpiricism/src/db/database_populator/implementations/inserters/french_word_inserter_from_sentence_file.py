@@ -1,7 +1,7 @@
 import re
 import json
 import codecs
-from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, insert_many_to_many
+from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, insert_many_to_many, select_composite_id
 
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB, \
     OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, COLUMN_TI, COLUMN_OTB, TABLE_BOOK_LINE
@@ -98,7 +98,7 @@ class FrenchWordInserterFromSentences(DatabaseInserter):
             word_id = self.insert_single_item(values)
 
             for line in self.WORD_MAP[key][COLUMN_TI]["lines"]:
-                book_line_id = select_single_value(TABLE_BOOK_LINE, ("book", "line"), (book, line))
+                book_line_id = select_composite_id(TABLE_BOOK_LINE, ("book", "line"), (book, line))
                 insert_many_to_many(TABLE_WORD, TABLE_BOOK_LINE, ('word_id', 'book_line_id'), (word_id, book_line_id))
 
             for line in self.WORD_MAP[key][COLUMN_OTB]["lines"]:

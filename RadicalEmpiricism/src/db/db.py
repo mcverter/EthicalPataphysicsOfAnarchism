@@ -49,13 +49,24 @@ select word_analysis_definition.id from  word_analysis_definition
 where word_analysis_definition.english_explanation = 'foo'
 '''
 
+def select_composite_id(table, columns, values):
+    where_clause = f"WHERE {columns[0]} = '{values[0]}'"
+    for idx in range(1, len(columns)):
+        where_clause += f" AND {columns[idx]} = '{values[idx]}'"
+    query = f"SELECT id from {table} {where_clause}"
+    print(query)
+    cursor = get_db_cursor()
+    cursor.execute(query)
+    result = cursor.fetchone()
+    return None if result is None else result[0]
+
 
 def select_single_value(table, select_col, where_col, where_val):
     cursor = get_db_cursor()
     query = f"SELECT {select_col} from {table} where {where_col} = '{sanitize(where_val)}'"
     cursor.execute(query)
     result = cursor.fetchone()
-    return result
+    return None if result is None else result[0]
 
 
 def get_fk_value_from_main_main_table(main_table,
@@ -136,7 +147,7 @@ def no_unique_violation(table, columns, values):
 
 def insert_many_to_many(main_table, linked_table, columns, values):
     def composite_table():
-        return main_table + linked_table
+        return main_table + linked_table[len('word_analysis'):]
 
     insert_into_table(composite_table(), columns, values)
 
@@ -158,7 +169,7 @@ def insert_into_table(table, columns, values, unique=False):
         cursor = get_db_cursor()
         cursor.execute(query)
         result = cursor.fetchone()
-        return result
+        return None if result is None else result[0]
     else:
         return select_single_value(table, 'id', columns[0], values[0])
 
