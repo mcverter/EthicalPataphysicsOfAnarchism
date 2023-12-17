@@ -1,4 +1,4 @@
-from RadicalEmpiricism.src.db.db import execute_and_return_single_value
+from RadicalEmpiricism.src.db.DbHandler import DbHandler
 
 NUM_WORDS_SQL = \
     'select * from word_analysis_word;'
@@ -17,20 +17,21 @@ NUM_ENGLISH_DEFINITION_SQL = \
 NUM_FRENCH_DEFINITION_SQL = \
     'select count(*) from word_analysis_definition where french_explanation is not null'
 
+
 class CheckTableStats:
     def __init__(self):
-        pass
+        self.db_handler = DbHandler()
 
-def log_table_stats():
-    print(execute_and_return_single_value(NUM_WORDS_SQL))
-    print(execute_and_return_single_value(NUM_ENGLISH_WORD_SQL))
-    print(execute_and_return_single_value(NUM_WORDS_WITH_DEFINITION_SQL))
-    print(execute_and_return_single_value(NUM_WORDS_WITH_ETYMOLOGY_SQL))
-    print(execute_and_return_single_value(NUM_ENGLISH_ETYMOLOGY_SQL))
-    print(execute_and_return_single_value(NUM_FRENCH_ETYMOLOGY_SQL))
-    print(execute_and_return_single_value(NUM_ENGLISH_DEFINITION_SQL))
-    print(execute_and_return_single_value(NUM_FRENCH_DEFINITION_SQL))
+    def log_table_stats(self):
+        print(self.db_handler.execute_and_return_single_value(NUM_WORDS_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_ENGLISH_WORD_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_WORDS_WITH_DEFINITION_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_WORDS_WITH_ETYMOLOGY_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_ENGLISH_ETYMOLOGY_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_FRENCH_ETYMOLOGY_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_ENGLISH_DEFINITION_SQL))
+        print(self.db_handler.execute_and_return_single_value(NUM_FRENCH_DEFINITION_SQL))
 
 
 if __name__ == '__main__':
-    log_table_stats()
+    CheckTableStats().log_table_stats()
