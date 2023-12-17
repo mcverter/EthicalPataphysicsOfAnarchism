@@ -1,5 +1,5 @@
 import psycopg2
-from RadicalEmpiricism.src.logger import (
+from RadicalEmpiricism.src.logger.db_logger import (
     log_insert,
     log_update_same_table,
     log_update_fk_table,

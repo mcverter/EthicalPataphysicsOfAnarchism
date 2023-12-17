@@ -4,7 +4,7 @@ from RadicalEmpiricism.src.constants import PATH_DB_POPULATE_LOG
 logging.basicConfig(filename=PATH_DB_POPULATE_LOG,
                     filemode='a',
                     format='%(asctime)s %(message)s',
-                    level='INFO')
+                    level='DEBUG')
 
 
 # '/home/mitchell/ComputerScience_Ubuntu/EthicalPataphysicsOfAnarchism/RadicalEmpiricism/src/logs/db_populate_log.txt'
