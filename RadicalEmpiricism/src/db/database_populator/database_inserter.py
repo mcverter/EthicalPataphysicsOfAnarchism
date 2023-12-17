@@ -1,4 +1,5 @@
 from .database_populator import DatabasePopulator
+from ..db import insert_into_table
 
 
 class DatabaseInserter(DatabasePopulator):
@@ -13,4 +14,4 @@ class DatabaseInserter(DatabasePopulator):
         raise Exception('populate must be defined by subclass')
 
     def insert_single_item(self, values, unique=False):
-        return self.db_handler.insert_into_table(self.table, self.columns, values, unique)
+        return insert_into_table(self.table, self.columns, values, unique)

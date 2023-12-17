@@ -5,6 +5,7 @@ import re
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, \
     COLUMN_TI, COLUMN_OTB, TABLE_BOOK_LINE
 from RadicalEmpiricism.src.db.database_populator.database_inserter import DatabaseInserter
+from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, select_composite_id, insert_many_to_many
 from RadicalEmpiricism.src.utils import is_empty_value
 
 PUNCTUATION_MARKS = '[/.,()!?"]'
@@ -78,50 +79,47 @@ class FrenchWordInserter(DatabaseInserter):
             with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
                 lines = json.load(file)
                 for idx in range(len(lines)):
-                    self.db_handler.insert_into_table(TABLE_BOOK_LINE, ("book", "line"), (book, idx))
-        self.commit(666666)
+                    insert_into_table(TABLE_BOOK_LINE, ("book", "line"), (book, idx))
+                    self.commit(666666)
 
-    def populate(self):
-        self.create_lines_table()
+
+def populate(self):
+    self.create_lines_table()
+    for book in (COLUMN_TI, COLUMN_OTB):
+        with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
+            lines = json.load(file)
+            line_number = 0
+            for line in lines:
+                line = clean_line(line)
+                for word in line.split(' '):
+                    self.add_word_to_map(word, book, line_number)
+                line_number += 1
+    counter = 0
+
+    for key in self.WORD_MAP.keys():
+        inner_counter = 0
+        values = (key,
+                  self.WORD_MAP[key][COLUMN_TI]['count'],
+                  self.WORD_MAP[key][COLUMN_OTB]['count'])
+        insert_into_table(TABLE_WORD, ("french", "ti", "otb"), values)
+
+        if inner_counter % 50 == 6:
+            self.commit(counter)
+        inner_counter += 1
+    self.commit(counter)
+
+    for key in self.WORD_MAP.keys():
         for book in (COLUMN_TI, COLUMN_OTB):
-            with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
-                lines = json.load(file)
-                line_number = 0
-                for line in lines:
-                    line = clean_line(line)
-                    for word in line.split(' '):
-                        self.add_word_to_map(word, book, line_number)
-                    line_number += 1
-        counter = 0
-
-        for key in self.WORD_MAP.keys():
             inner_counter = 0
-            values = (key,
-                      self.WORD_MAP[key][COLUMN_TI]['count'],
-                      self.WORD_MAP[key][COLUMN_OTB]['count'])
-            self.db_handler.insert_into_table(TABLE_WORD, ("french", "ti", "otb"), values)
-
-            if inner_counter % 50 == 6:
-                self.commit(counter)
-            inner_counter += 1
-        self.commit(counter)
-
-        for key in self.WORD_MAP.keys():
-            for book in (COLUMN_TI, COLUMN_OTB):
-                inner_counter = 0
-                for line in self.WORD_MAP[key][book]["lines"]:
-                    word_id = self.db_handler.select_single_value(TABLE_WORD, 'id', 'french', key)
-                    if word_id == 16:
-                        # key "il"
-                        print(key, self.WORD_MAP[key], self.WORD_MAP[key][book]["lines"])
-                    book_line_id = self.db_handler.select_composite_id(TABLE_BOOK_LINE, ("book", "line"), (book, line))
-                    self.db_handler.insert_many_to_many(TABLE_WORD, TABLE_BOOK_LINE, ('word_id', 'book_line_id'),
-                                                        (word_id, book_line_id))
+            for line in self.WORD_MAP[key][book]["lines"]:
+                word_id = select_single_value(TABLE_WORD, 'id', 'french', key)
+                book_line_id = select_composite_id(TABLE_BOOK_LINE, ("book", "line"), (book, line))
+                insert_many_to_many(TABLE_WORD, TABLE_BOOK_LINE, ('word_id', 'book_line_id'),
+                                    (word_id, book_line_id))
                 if inner_counter % 50 == 6:
                     self.commit(inner_counter)
                 inner_counter += 1
-            self.commit(counter)
-        self.commit(counter)
+    self.commit(counter)
 
 
 if __name__ == '__main__':

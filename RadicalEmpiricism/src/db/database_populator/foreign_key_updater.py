@@ -1,6 +1,7 @@
 from RadicalEmpiricism.src.logger.db_logger import log_update_fk_table_commit
 from RadicalEmpiricism.src.constants import DB_NAME
 from .database_updater import DatabaseUpdater
+from ..db import update_foreign_key
 
 
 class ForeignKeyUpdater(DatabaseUpdater):
@@ -27,13 +28,13 @@ class ForeignKeyUpdater(DatabaseUpdater):
 
     def get_data_value(self, where_value):
         self.main_where_value = where_value
-        return self.db_handler.update_foreign_key(main_table=self.table,
-                                                  main_set_column=self.set_column,
-                                                  main_where_column=self.where_column,
-                                                  main_where_val=where_value,
-                                                  fk_table=self.fk_table,
-                                                  fk_internal_column=self.fk_internal_column,
-                                                  data_value=self.get_fk_value_from_main_where_value(where_value))
+        return update_foreign_key(main_table=self.table,
+                                  main_set_column=self.set_column,
+                                  main_where_column=self.where_column,
+                                  main_where_val=where_value,
+                                  fk_table=self.fk_table,
+                                  fk_internal_column=self.fk_internal_column,
+                                  data_value=self.get_fk_value_from_main_where_value(where_value))
 
     def commit(self, counter):
         super().commit(counter)
