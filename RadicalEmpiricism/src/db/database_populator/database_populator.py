@@ -1,4 +1,4 @@
-from RadicalEmpiricism.src.logger import log_commit
+from RadicalEmpiricism.src.logger.db_logger import log_commit
 from RadicalEmpiricism.src.db.DbHandler import DbHandler
 
 

@@ -1,4 +1,4 @@
-from RadicalEmpiricism.src.logger import log_update_fk_table_commit
+from RadicalEmpiricism.src.logger.db_logger import log_update_fk_table_commit
 from RadicalEmpiricism.src.constants import DB_NAME
 from .database_updater import DatabaseUpdater
 

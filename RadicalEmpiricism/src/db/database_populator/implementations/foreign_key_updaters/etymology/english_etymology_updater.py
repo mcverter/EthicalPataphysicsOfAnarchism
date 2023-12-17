@@ -9,7 +9,7 @@ from RadicalEmpiricism.src.constants import (TABLE_WORD,
                                              SITE_ENGLISH_ETYMOLOGY)
 
 from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
-from RadicalEmpiricism.src.logger import log_and_print_error
+from RadicalEmpiricism.src.logger.db_logger import log_and_print_error
 
 OFFSET: int = 0
 
