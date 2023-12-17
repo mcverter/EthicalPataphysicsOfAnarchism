@@ -19,9 +19,10 @@ class FrenchEtymologyUpdater(ForeignKeyUpdater):
     def get_fk_value_from_main_where_value(self, where_value):
         if where_value:
             cntrl = get_cntrl_eymology(where_value)
-            ddf = get_dictionaire_des_francophone_etymology(where_value)
-            print('etymologies', ddf, cntrl)
-            return f'{ddf} ({cntrl})'
+            # ddf = get_dictionaire_des_francophone_etymology(where_value)
+            # print('etymologies', ddf, cntrl)
+            # return f'{ddf} ({cntrl})'
+            return cntrl
         log_and_print_error('undefined call arg ' + where_value)
         return None
 
