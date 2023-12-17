@@ -44,5 +44,15 @@ def populate_updates():
     p2.join()
 
 
+def single_process_updates():
+    FrenchEtymologyUpdater().populate()
+    FrenchDefinitionUpdater().populate()
+    EnglishTranslationUpdater().populate()
+    EnglishDefinitionUpdater().populate()
+    EnglishEtymologyUpdater().populate()
+
+
 if __name__ == '__main__':
+    # single_process_updates()
     populate_updates()
+
