@@ -30,6 +30,13 @@ def execute(query):
     cursor.execute(query)
 
 
+def execute_and_return_single_value(query):
+    cursor = get_db_cursor()
+    cursor.execute(query)
+    results = cursor.fetchone()
+    return results[0]
+
+
 def commit_all():
     conn.commit()
 
@@ -112,7 +119,6 @@ def update_foreign_key(main_table,
         fk_id = insert_into_table(fk_table,
                                   columns=(fk_internal_column,),
                                   values=(data_value,))
-        fk_id = fk_id[0]
         update_table(table=main_table,
                      set_column=main_set_column,
                      set_value=fk_id,
