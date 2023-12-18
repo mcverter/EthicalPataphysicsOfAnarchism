@@ -124,7 +124,7 @@ def update_foreign_key(main_table,
                                                 select_col=fk_internal_column,
                                                 where_col='id',
                                                 where_val=fk_id)
-        if is_empty_value(fk_internal_value[0]):
+        if is_empty_value(fk_internal_value):
             update_table(table=fk_table,
                          set_column=fk_internal_column,
                          set_value=data_value,
