@@ -9,8 +9,10 @@ from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, No
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
+
 def word(request):
     return HttpResponse("Hello, world. You're at the polls index.")
+
 
 def listing(request):
     word_list = Word.objects.all()
@@ -20,11 +22,15 @@ def listing(request):
     # page_obj = paginator.get_page(page_number)
     # return render(request, "list.html", {"page_obj": page_obj})
     return render('hello world')
+
+
 class AllPartOfSpeechView(ListView):
     template_name = ""
     model = Part_Of_Speech
     ordering = ["-french"]
     context_object_name = "all_words"
+
+
 '''
 
 class AllPrefixView(ListView):
