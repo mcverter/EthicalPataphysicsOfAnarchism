@@ -1,4 +1,5 @@
 from rest_framework import serializers
+'''
 from .models import Todo
 
 
@@ -7,7 +8,7 @@ class TodoSerializer(serializers.ModelSerializer):
         model = Todo
         fields = ('id', 'title', 'description', 'completed')
 
-
+'''
 """
 from django.shortcuts import render
 from rest_framework import viewsets
