@@ -34,7 +34,7 @@ class EnglishDefinitionUpdater(ForeignKeyUpdater):
                          set_column=COLUMN_DEFINITION,
                          where_column=COLUMN_ENGLISH,
                          fk_internal_column=COLUMN_ENGLISH_EXPLANATION,
-                         offset=7700)
+                         offset=OFFSET)
 
     def get_fk_value_from_main_where_value(self, where_value):
         return find_english_definition(where_value)
