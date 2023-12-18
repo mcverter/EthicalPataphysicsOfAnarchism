@@ -52,22 +52,19 @@ UPDATE TABLE word_analysis_word COMMITTING definition_id for english="". FK_INTE
 
 def log_update_fk_table(table,
                         set_column,
-                        where_column,
-                        where_value,
-                        fk_internal_column):
-    message = f'UPDATE TABLE {table} COMMITTING {set_column} for {where_column}={where_value}. FK_COL {fk_internal_column}.'
+                        fk_internal_column,
+                        where_value):
+    message = f'UPDATE TABLE {table} ({set_column}) for FK{fk_internal_column}={where_value}.'
     log_and_print_message(message)
 
 
 def log_update_fk_table_commit(table,
                                set_column,
-                               where_column,
-                               where_value,
                                fk_internal_column,
+                               where_value,
                                counter):
     log_commit(counter)
     log_update_fk_table(table,
                         set_column,
-                        where_column,
-                        where_value,
-                        fk_internal_column)
+                        fk_internal_column,
+                        where_value)

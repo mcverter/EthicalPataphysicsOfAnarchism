@@ -12,7 +12,7 @@ OFFSET: int = 0
 
 def find_english_definition(english):
     url = SITE_ENGLISH_DEFINITIONS + english
-    page = requests.get(url, timeout=10)
+    page = requests.get(url, timeout=60)
     soup = BeautifulSoup(page.content, "html.parser")
     results = soup.find_all('div', {"class": "sense-content"})
 

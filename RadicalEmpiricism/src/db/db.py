@@ -105,7 +105,7 @@ def update_foreign_key(main_table,
     if main_where_val == 'pur':
         print('break')
 
-    log_update_fk_table(main_table, main_set_column, main_where_column, fk_table, fk_internal_column)
+    log_update_fk_table(main_table, main_set_column,  fk_internal_column, main_where_val)
 
     fk_id = get_fk_value_from_main_main_table(main_table, main_set_column, main_where_column, main_where_val)
     if is_empty_value(fk_id):
