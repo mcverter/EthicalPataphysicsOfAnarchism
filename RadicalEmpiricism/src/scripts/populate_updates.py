@@ -9,11 +9,12 @@ from RadicalEmpiricism.src.db.database_populator.implementations.foreign_key_upd
 
 
 def populate_updates():
-    FrenchEtymologyUpdater().populate()
-    FrenchDefinitionUpdater().populate()
+    # FrenchEtymologyUpdater().populate()
     # EnglishTranslationUpdater().populate()
-    EnglishDefinitionUpdater().populate()
     EnglishEtymologyUpdater().populate()
+    EnglishDefinitionUpdater().populate()
+    FrenchDefinitionUpdater().populate()
+
 
 
 if __name__ == '__main__':
