@@ -34,8 +34,9 @@ class DatabaseUpdater(DatabasePopulator):
     def populate(self):
         rows = self.select_columns()
 
-        counter = 0
+        counter = -1
         for row in rows:
+            counter += 1
             if row is None or counter < self.offset:
                 continue
             row = row[0]
@@ -53,5 +54,4 @@ class DatabaseUpdater(DatabasePopulator):
 
             if counter % 50 == 3:
                 self.commit(counter)
-            counter += 1
         self.commit(counter)
