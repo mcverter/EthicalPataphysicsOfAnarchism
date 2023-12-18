@@ -1,21 +1,31 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 from django.views.generic import ListView
 from django.views import View
-
 from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
 
 
 def index(request):
-    return "Hello world"
+    return HttpResponse("Hello, world. You're at the polls index.")
 
+def word(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+
+def listing(request):
+    word_list = Word.objects.all()
+    # paginator = Paginator(word_list, 25)  # Show 25 contacts per page.
+
+    # page_number = request.GET.get("page")
+    # page_obj = paginator.get_page(page_number)
+    # return render(request, "list.html", {"page_obj": page_obj})
+    return render('hello world')
 class AllPartOfSpeechView(ListView):
     template_name = ""
     model = Part_Of_Speech
     ordering = ["-french"]
     context_object_name = "all_words"
-
+'''
 
 class AllPrefixView(ListView):
     template_name = ""
@@ -82,7 +92,6 @@ class AllWordsEnglishView(ListView):
     context_object_name = "all_posts"
 
 
-'''
 class SinglePostView(View):
     def is_stored_post(self, request, post_id):
         stored_posts = request.session.get("stored_posts")

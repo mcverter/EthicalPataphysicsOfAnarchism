@@ -15,8 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('word_analysis/', include('word_analysis.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
+    path("re/", include("word_analysis.urls")),
     path('admin/', admin.site.urls),
 ]
