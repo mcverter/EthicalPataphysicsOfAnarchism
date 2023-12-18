@@ -7,6 +7,7 @@ from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, No
 
 
 def index(request):
+    word_list = Word.objects.all()
     return HttpResponse("Hello, world. You're at the polls index.")
 
 
