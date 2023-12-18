@@ -1,6 +1,4 @@
-from RadicalEmpiricism.src.crawler_tools.crawler_tools import (
-    get_dictionaire_des_francophone_etymology,
-    get_cntrl_eymology)
+from RadicalEmpiricism.src.crawler_tools.crawler_tools import get_cntrl_eymology
 from RadicalEmpiricism.src import constants
 from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 from RadicalEmpiricism.src.logger.db_logger import log_and_print_error
@@ -18,11 +16,7 @@ class FrenchEtymologyUpdater(ForeignKeyUpdater):
 
     def get_fk_value_from_main_where_value(self, where_value):
         if where_value:
-            cntrl = get_cntrl_eymology(where_value)
-            # ddf = get_dictionaire_des_francophone_etymology(where_value)
-            # print('etymologies', ddf, cntrl)
-            # return f'{ddf} ({cntrl})'
-            return cntrl
+            return get_cntrl_eymology(where_value)
         log_and_print_error('undefined call arg ' + where_value)
         return None
 
