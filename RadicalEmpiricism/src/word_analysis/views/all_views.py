@@ -9,11 +9,62 @@ class Index(ListView):
     model = Word
     template_name = 're_templates/index.html'
 
-class Word(DetailView):
+class MotDetailView(DetailView):
+    template_name = 're_templates/word.html'
+    # query_pk_and_slug = "french"
+
+    def get_object(self, queryset=None):
+        french = self.kwargs['french']
+        return Word.objects.get(french=french)
+
+class WordDetailView(DetailView):
     model = Word
     template_name = 're_templates/word.html'
+    query_pk_and_slug = "english"
 
+"""
+he DetailView's get_object method already knows how to fetch an object by the slug. There's no need to duplicate this code, just call super().
 
+Then you can compare the user to self.request.user directly - there's no need to refetch the user from the database with get_object_or_404.
+
+Finally, you can't return a response from get_object, the method is meant to return the object. You can however raise an exception like Http404.
+
+from django.http import Http404
+
+class PhotoDetail(DetailView):
+
+    def get_object(self, queryset=None):
+        obj = super(PhotoDetail, self).get_object(queryset=queryset)
+        if obj.user != obj.photoextended.user:
+            raise Http404()
+        return obj
+A common approach in class based views is to override get_queryset and filter by user. The get_object method will use this queryset when fetching the object. If the object is not in the queryset, then the user will get a 404 error.
+
+class PhotoDetail(DetailView):
+
+    def get_queryset(self):
+        queryset = super(PhotoDetail, self).get_queryset()
+        return queryset.filter(photoextended__user=self.request.user)
+Share
+Follow
+edited Mar 7, 2017 at 16:52
+answered Mar 7, 2017 at 16:21
+Alasdair's user avatar
+Alasdair
+302k5656 gold badges583583 silver badges520520 bronze badges
+Thanks for the great answer seems to work perfectly. I change it to this as it wanted a queryset 'class PhotoDetail(DetailView): template_name = 'otologue/photo_detail.html' queryset = Photo.objects def get_queryset(self): queryset = super(PhotoDetail, self).get_queryset() return queryset.filter(photoextended__user=self.request.user)' – 
+Alex Haines
+ Mar 7, 2017 at 16:34 
+It just seems confusing as to how it manages to get the correct Photo object. Does the queryset automatically look for the slug in the query results and compare it with the slugfield in the url – 
+Alex Haines
+ Mar 7, 2017 at 16:37
+1
+The get_object method starts with the queryset from get_queryset, and filters using the slug from the URL to get the object. You might find ccbv useful to explore how the methods in class based views fit together. – 
+Alasdair
+ Mar 7, 2017 at 16:49 
+Add a comment
+Your Answer
+"""
 def index(request):
     word_list = Word.objects.all().values()
     return HttpResponse("Hello, world. You're at the polls index.")
