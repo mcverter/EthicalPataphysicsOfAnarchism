@@ -5,6 +5,20 @@ from django.views.generic import TemplateView, ListView, DetailView, View
 from django.views import View
 from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
 
+def word_detail(request, english):
+    data = get_object_or_404(Word, english=english)
+    context = {
+        "word": data
+    }
+    return render(request, 're_templates/word.html', context)
+
+def mot_detail(request, french):
+    data = get_object_or_404(Word, french=french)
+    context = {
+        "word": data
+    }
+    return render(request, 're_templates/word.html', context)
+
 class Index(ListView):
     model = Word
     template_name = 're_templates/index.html'
