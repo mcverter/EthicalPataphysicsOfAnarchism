@@ -1,17 +1,17 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
-from django.views.generic import ListView
+from django.views.generic import TemplateView, ListView, DetailView, View
 from django.views import View
 from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
 
 class Index(ListView):
-    template_name = ""
     model = Word
-    context_object_name = "words"
-    queryset = Word.objects.all()
     template_name = 're_templates/index.html'
 
+class Word(DetailView):
+    model = Word
+    template_name = 're_templates/word.html'
 
 
 def index(request):

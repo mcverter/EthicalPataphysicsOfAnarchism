@@ -3,7 +3,6 @@ from .views.all_views import word, Index
 
 urlpatterns = [
     path("", Index.as_view(), name="index"),
-    # ex: /polls/5/
     path("word/<str:word_id>/", word, name="word"),
     path("mot/<str:word_id>/", word, name="word"),
 ]

@@ -11,7 +11,7 @@ from RadicalEmpiricism.src.constants import (TABLE_WORD,
 from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 from RadicalEmpiricism.src.logger.db_logger import log_and_print_error
 
-OFFSET: int = 0
+OFFSET: int = 10600
 
 
 def is_etymology_div(div):
