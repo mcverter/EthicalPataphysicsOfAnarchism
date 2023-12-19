@@ -5,9 +5,17 @@ from django.views.generic import ListView
 from django.views import View
 from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
 
+class Index(ListView):
+    template_name = ""
+    model = Word
+    context_object_name = "words"
+    queryset = Word.objects.all()
+    template_name = 're_templates/index.html'
+
+
 
 def index(request):
-    word_list = Word.objects.all()
+    word_list = Word.objects.all().values()
     return HttpResponse("Hello, world. You're at the polls index.")
 
 

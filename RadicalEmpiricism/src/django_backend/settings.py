@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "word_analysis",
+    "bootstrap5",
     'corsheaders',
     'rest_framework',
 ]
