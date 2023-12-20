@@ -8,17 +8,28 @@ from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, \
 
 
 def word_detail(request, english):
-    data = get_object_or_404(Word, english=english)
+    word = get_object_or_404(Word, english=english)
+    book_lines = word.book_line.all().order_by('-book')
+    print('book lines', book_lines)
+
     context = {
-        "word": data
+        "word": word,
+        "book_lines": book_lines
     }
     return render(request, 're_templates/word.html', context)
 
 
 def mot_detail(request, french):
-    data = get_object_or_404(Word, french=french)
+    word = get_object_or_404(Word, french=french)
+    etymology = word.etymology
+    definition = word.definition
+    book_lines = word.book_line.all().order_by('-line')
+
     context = {
-        "word": data
+        "word": word,
+        "book_lines": book_lines,
+        "etymology": etymology,
+        "definition": definition
     }
     return render(request, 're_templates/word.html', context)
 
