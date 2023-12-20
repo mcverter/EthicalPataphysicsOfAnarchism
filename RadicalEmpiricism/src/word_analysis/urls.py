@@ -1,5 +1,5 @@
 from django.urls import path
-from .views.all_views import mot_detail,word_detail, Index
+from .views import mot_detail, word_detail, Index
 
 urlpatterns = [
     path("", Index.as_view(), name="index"),

@@ -3,7 +3,9 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 from django.views.generic import TemplateView, ListView, DetailView, View
 from django.views import View
-from ..models import Word, Semantic_Categories, Etymological_Root, Verb_Type, Noun_Type, Prefix, Suffix, Part_Of_Speech
+from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, \
+    Noun_Type, Prefix, Suffix, Part_Of_Speech
+
 
 def word_detail(request, english):
     data = get_object_or_404(Word, english=english)
@@ -12,6 +14,7 @@ def word_detail(request, english):
     }
     return render(request, 're_templates/word.html', context)
 
+
 def mot_detail(request, french):
     data = get_object_or_404(Word, french=french)
     context = {
@@ -19,22 +22,27 @@ def mot_detail(request, french):
     }
     return render(request, 're_templates/word.html', context)
 
+
 class Index(ListView):
     model = Word
     template_name = 're_templates/index.html'
 
+
 class MotDetailView(DetailView):
     template_name = 're_templates/word.html'
+
     # query_pk_and_slug = "french"
 
     def get_object(self, queryset=None):
         french = self.kwargs['french']
         return Word.objects.get(french=french)
 
+
 class WordDetailView(DetailView):
     model = Word
     template_name = 're_templates/word.html'
     query_pk_and_slug = "english"
+
 
 """
 he DetailView's get_object method already knows how to fetch an object by the slug. There's no need to duplicate this code, just call super().
@@ -79,6 +87,8 @@ Alasdair
 Add a comment
 Your Answer
 """
+
+
 def index(request):
     word_list = Word.objects.all().values()
     return HttpResponse("Hello, world. You're at the polls index.")

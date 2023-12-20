@@ -4,10 +4,6 @@
 <div>{{ word.english }}</div>
 <div>{{ word.ti }}</div>
 <div>{{ word.otb }}</div>
-    <div>{{ word.etymology.english_explanation }}</div>
-    <div>{{ word.etymology.french_explanation }}</div>
-    <div>{{ word.definition.french_explanation }}</div>
-    <div>{{ word.definition.english_explanation }}</div>
-
-
+    {% include 're_templates/definition.html' %}
+    {% include 're_templates/etymology.html' %}
 {% endblock %}
