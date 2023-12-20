@@ -5,7 +5,8 @@ import re
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, \
     TI, OTB, TABLE_BOOK_LINE, TI_ENGLISH_SENTENCES, OTB_ENGLISH_SENTENCES
 from RadicalEmpiricism.src.db.database_populator.database_inserter import DatabaseInserter
-from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, select_composite_id, insert_many_to_many,\
+from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, select_composite_id, \
+    insert_many_to_many, \
     execute, commit_all
 from RadicalEmpiricism.src.db.sanitize_values import sanitize
 from RadicalEmpiricism.src.utils import is_empty_value
@@ -15,6 +16,8 @@ PUNCTUATION_MARKS = '[/.,()!?"]'
 '''
 THIS NEEDS TO BE ADDED BELOW
 '''
+
+
 def add_book_lines_text():
     for book in (TI, OTB):
         with codecs.open(get_french_filepath_from_book(book), 'r', 'utf-8-sig') as french_file:
@@ -36,9 +39,9 @@ def get_other_book(book):
 def get_french_filepath_from_book(book):
     return TI_FRENCH_SENTENCES if book == TI else OTB_FRENCH_SENTENCES
 
+
 def get_english_filepath_from_book(book):
     return TI_ENGLISH_SENTENCES if book == TI else OTB_ENGLISH_SENTENCES
-    pass
 
 
 def remove_punctuation(line):

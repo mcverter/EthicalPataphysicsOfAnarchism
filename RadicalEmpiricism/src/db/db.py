@@ -167,8 +167,8 @@ def insert_into_table(table, columns, values, unique=False):
         cursor.execute(query)
         result = cursor.fetchone()
         return None if result is None else result[0]
-    else:
-        return select_single_value(table, 'id', columns[0], values[0])
+
+    return select_single_value(table, 'id', columns[0], values[0])
 
 
 def update_table(table, set_column, set_value, where_column, where_value):

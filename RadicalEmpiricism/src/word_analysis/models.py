@@ -11,6 +11,7 @@ class Book_Line(models.Model):
     french = models.TextField(null=True)
     english = models.TextField(null=True)
 
+
 class Etymology(models.Model):
     french_explanation = models.TextField(null=True)
     english_explanation = models.TextField(null=True)

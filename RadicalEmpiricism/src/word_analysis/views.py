@@ -8,31 +8,20 @@ from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, \
 from RadicalEmpiricism.src.constants import OTB, TI
 
 
-def word_detail(request, english):
-    word = get_object_or_404(Word, english=english)
-    book_lines = word.book_line.all().order_by('-book')
-    print('book lines', book_lines)
-
-    context = {
-        "word": word,
-        "book_lines": book_lines
-    }
-    return render(request, 're_templates/word.html', context)
-
-
-def mot_detail(request, arg_word):
-    book_word = Word.objects.get(french=arg_word)
+def mot_detail(request, word):
+    book_word = Word.objects.get(french=word)
     if book_word is None:
-        book_word = Word.objects.get(english=arg_word)
+        book_word = Word.objects.get(english=word)
     if book_word is None:
-        return ("could not find that word")
+        return "could not find that word"
+
     etymology = book_word.etymology
     definition = book_word.definition
     otb_lines = book_word.book_line.all().order_by('-line').filter(book=OTB)
     ti_lines = book_word.book_line.all().order_by('-line').filter(book=TI)
 
     context = {
-        "word": word,
+        "word": book_word,
         "book_lines": {
             "otb": otb_lines,
             "ti": ti_lines,
@@ -40,16 +29,16 @@ def mot_detail(request, arg_word):
         "etymology": etymology,
         "definition": definition
     }
-    return render(request, 're_templates/word.html', context)
+    return render(request, 'includes/word.html', context)
 
 
 class Index(ListView):
     model = Word
-    template_name = 're_templates/index.html'
+    template_name = 'includes/index.html'
 
 
 class MotDetailView(DetailView):
-    template_name = 're_templates/word.html'
+    template_name = 'includes/word.html'
 
     # query_pk_and_slug = "french"
 
@@ -60,7 +49,7 @@ class MotDetailView(DetailView):
 
 class WordDetailView(DetailView):
     model = Word
-    template_name = 're_templates/word.html'
+    template_name = 'includes/word.html'
     query_pk_and_slug = "english"
 
 

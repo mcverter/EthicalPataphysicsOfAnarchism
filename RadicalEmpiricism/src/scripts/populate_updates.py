@@ -6,15 +6,16 @@ from RadicalEmpiricism.src.db.database_populator.implementations.foreign_key_upd
     EnglishEtymologyUpdater
 from RadicalEmpiricism.src.db.database_populator.implementations.foreign_key_updaters.etymology.french_etymology_updater import \
     FrenchEtymologyUpdater
+from RadicalEmpiricism.src.db.database_populator.implementations.native_table_updaters.translation.english_translation_updater import \
+    EnglishTranslationUpdater
 
 
 def populate_updates():
-    # FrenchEtymologyUpdater().populate()
-    # EnglishTranslationUpdater().populate()
+    EnglishTranslationUpdater().populate()
+    FrenchEtymologyUpdater().populate()
     EnglishEtymologyUpdater().populate()
     EnglishDefinitionUpdater().populate()
     FrenchDefinitionUpdater().populate()
-
 
 
 if __name__ == '__main__':
