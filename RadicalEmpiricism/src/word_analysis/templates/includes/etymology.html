@@ -1,0 +1,17 @@
+<h1>Etymology</h1>
+<h2>English:</h2>
+<div>
+    {% if word.etymology.english_explanation %}
+        {{ word.etymology.english_explanation }}
+    {% else %}
+        {{ sysmsg.no_value_yet_en }}
+    {% endif %}
+</div><h2>French:</h2>
+<div>
+    {% if word.etymology.french_explanation %}
+        {{ word.etymology.french_explanation }}
+    {% else %}
+        {{ sysmsg.no_value_yet_en }}
+    {% endif %}
+</div>
+

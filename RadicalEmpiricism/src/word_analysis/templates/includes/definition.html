@@ -1,0 +1,18 @@
+<h1>Definition</h1>
+<h2>English:</h2>
+<div>
+    {% if word.definition.english_explanation %}
+        {{ word.definition.english_explanation }}
+    {% else %}
+        {{ sysmsg.no_value_yet_en }}
+    {% endif %}
+</div><h2>French:</h2>
+<div>
+    {% if word.definition.french_explanation %}
+        {{ word.definition.french_explanation }}
+    {% else %}
+        {{ sysmsg.no_value_yet_en }}
+    {% endif %}
+</div>
+
+
