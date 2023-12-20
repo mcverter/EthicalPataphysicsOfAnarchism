@@ -3,20 +3,42 @@ import json
 import re
 
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, \
-    COLUMN_TI, COLUMN_OTB, TABLE_BOOK_LINE
+    TI, OTB, TABLE_BOOK_LINE, TI_ENGLISH_SENTENCES, OTB_ENGLISH_SENTENCES
 from RadicalEmpiricism.src.db.database_populator.database_inserter import DatabaseInserter
-from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, select_composite_id, insert_many_to_many
+from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, select_composite_id, insert_many_to_many,\
+    execute, commit_all
+from RadicalEmpiricism.src.db.sanitize_values import sanitize
 from RadicalEmpiricism.src.utils import is_empty_value
 
 PUNCTUATION_MARKS = '[/.,()!?"]'
 
+'''
+THIS NEEDS TO BE ADDED BELOW
+'''
+def add_book_lines_text():
+    for book in (TI, OTB):
+        with codecs.open(get_french_filepath_from_book(book), 'r', 'utf-8-sig') as french_file:
+            with codecs.open(get_english_filepath_from_book(book), 'r', 'utf-8-sig') as english_file:
+                french_lines = json.load(french_file)
+                english_lines = json.load(english_file)
+                for idx in range(len(french_lines)):
+                    query = f"""UPDATE {TABLE_BOOK_LINE} 
+                                SET french='{sanitize(french_lines[idx])}',english='{sanitize(english_lines[idx])}'  
+                                where book='{book}' and line={idx}"""
+                    execute(query)
+        commit_all()
+
 
 def get_other_book(book):
-    return COLUMN_OTB if book == COLUMN_TI else COLUMN_TI
+    return OTB if book == TI else TI
 
 
-def get_filepath_from_book(book):
-    return TI_FRENCH_SENTENCES if book == COLUMN_TI else OTB_FRENCH_SENTENCES
+def get_french_filepath_from_book(book):
+    return TI_FRENCH_SENTENCES if book == TI else OTB_FRENCH_SENTENCES
+
+def get_english_filepath_from_book(book):
+    return TI_ENGLISH_SENTENCES if book == TI else OTB_ENGLISH_SENTENCES
+    pass
 
 
 def remove_punctuation(line):
@@ -58,7 +80,7 @@ class WordMapEntry:
 class FrenchWordInserter(DatabaseInserter):
     def __init__(self):
         super().__init__(table=TABLE_WORD,
-                         columns=(COLUMN_FRENCH, COLUMN_TI, COLUMN_OTB))
+                         columns=(COLUMN_FRENCH, TI, OTB))
         self.WORD_MAP = {}
 
     def add_word_to_map(self, word, book, line):
@@ -74,9 +96,10 @@ class FrenchWordInserter(DatabaseInserter):
                 get_other_book(book): {"count": 0, "lines": set()}
             }
 
+    # need to add the lines too!
     def create_lines_table(self):
-        for book in (COLUMN_TI, COLUMN_OTB):
-            with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
+        for book in (TI, OTB):
+            with codecs.open(get_french_filepath_from_book(book), 'r', 'utf-8-sig') as file:
                 lines = json.load(file)
                 for idx in range(len(lines)):
                     insert_into_table(TABLE_BOOK_LINE, ("book", "line"), (book, idx))
@@ -85,8 +108,8 @@ class FrenchWordInserter(DatabaseInserter):
 
 def populate(self):
     self.create_lines_table()
-    for book in (COLUMN_TI, COLUMN_OTB):
-        with codecs.open(get_filepath_from_book(book), 'r', 'utf-8-sig') as file:
+    for book in (TI, OTB):
+        with codecs.open(get_french_filepath_from_book(book), 'r', 'utf-8-sig') as file:
             lines = json.load(file)
             line_number = 0
             for line in lines:
@@ -99,8 +122,8 @@ def populate(self):
     for key in self.WORD_MAP.keys():
         inner_counter = 0
         values = (key,
-                  self.WORD_MAP[key][COLUMN_TI]['count'],
-                  self.WORD_MAP[key][COLUMN_OTB]['count'])
+                  self.WORD_MAP[key][TI]['count'],
+                  self.WORD_MAP[key][OTB]['count'])
         insert_into_table(TABLE_WORD, ("french", "ti", "otb"), values)
 
         if inner_counter % 50 == 6:
@@ -109,7 +132,7 @@ def populate(self):
     self.commit(counter)
 
     for key in self.WORD_MAP.keys():
-        for book in (COLUMN_TI, COLUMN_OTB):
+        for book in (TI, OTB):
             inner_counter = 0
             for line in self.WORD_MAP[key][book]["lines"]:
                 word_id = select_single_value(TABLE_WORD, 'id', 'french', key)

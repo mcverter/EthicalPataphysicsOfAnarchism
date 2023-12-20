@@ -5,6 +5,7 @@ from django.views.generic import TemplateView, ListView, DetailView, View
 from django.views import View
 from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, \
     Noun_Type, Prefix, Suffix, Part_Of_Speech
+from RadicalEmpiricism.src.constants import OTB, TI
 
 
 def word_detail(request, english):
@@ -19,15 +20,23 @@ def word_detail(request, english):
     return render(request, 're_templates/word.html', context)
 
 
-def mot_detail(request, french):
-    word = get_object_or_404(Word, french=french)
-    etymology = word.etymology
-    definition = word.definition
-    book_lines = word.book_line.all().order_by('-line')
+def mot_detail(request, arg_word):
+    book_word = Word.objects.get(french=arg_word)
+    if book_word is None:
+        book_word = Word.objects.get(english=arg_word)
+    if book_word is None:
+        return ("could not find that word")
+    etymology = book_word.etymology
+    definition = book_word.definition
+    otb_lines = book_word.book_line.all().order_by('-line').filter(book=OTB)
+    ti_lines = book_word.book_line.all().order_by('-line').filter(book=TI)
 
     context = {
         "word": word,
-        "book_lines": book_lines,
+        "book_lines": {
+            "otb": otb_lines,
+            "ti": ti_lines,
+        },
         "etymology": etymology,
         "definition": definition
     }

@@ -1,27 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
     <h1> Information for {{ word.french }} ({{ word.english }})</h1>
-    {% include 're_templates/counts.html' %}
+    {% include 'includes/counts.html' %}
     <div>
-        {% include 're_templates/definition.html' %}
-        {% include 're_templates/etymology.html' %}
+        {% include 'includes/definition.html' %}
+        {% include 'includes/etymology.html' %}
+    </div>
+    <div>
+        {% include 'includes/definition.html' %}
+        {% include 'includes/etymology.html' %}
     </div>
 
     <div>
-        <div> Totality and Infinity
-            {% for bl in book_lines %}
-                <div>{{ bl.french }} {{ bl.english }}</div>
-
-            {% endfor %}
-        </div>
-    </div>
-    <div>
-        <div> Otherwise Than Being
-            {% for bl in book_lines %}
-                {% if bl.book == 'otb' %}
-                    <div>{{ bl.text }} {{ bl.english }} </div>
-                {% endif %}
-            {% endfor %}
-        </div>
+        {% include 'includes/tilines.html' %}
+        {% include 'includes/otblines.html' %}
     </div>
 {% endblock %}

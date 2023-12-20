@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "word_analysis",
-    "bootstrap5",
-    'corsheaders',
-    'rest_framework',
+    # "bootstrap5",
+    # 'corsheaders',
+    # 'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -67,6 +67,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'word_analysis.context_processors.title_context',
+                'word_analysis.context_processors.messages_context',
             ],
         },
     },

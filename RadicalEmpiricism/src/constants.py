@@ -19,6 +19,14 @@ DB_RUNTIME_HOST = DB_REMOTE_HOST if DB_LEVEL == "remote" else DB_LOCAL_HOST
 
 TABLE_WORD = DB_NAME + "_word"
 TABLE_BOOK_LINE = DB_NAME + "_book_line"
+OTB_FULL_FRENCH_TITLE = "Autrement qu'être ou Au-delà de l'essence"
+TI_FULL_FRENCH_TITLE = "Totalité et infini : essai sur l'extériorité"
+OTB_FULL_ENGLISH_TITLE = "Otherwise Than Being or Beyond Essence"
+TI_FULL_ENGLISH_TITLE ='Totality and Infinity: An Essay on Exteriority'
+OTB_SHORT_FRENCH_TITLE = "Autrement"
+TI_SHORT_FRENCH_TITLE = "Totalité"
+OTB_SHORT_ENGLISH_TITLE = "Otherwise"
+TI_SHORT_ENGLISH_TITLE ='Totality'
 
 
 COLUMN_FRENCH = "french"
@@ -26,8 +34,8 @@ COLUMN_FRENCH_EXPLANATION = "french_explanation"
 COLUMN_ENGLISH = "english"
 COLUMN_ENGLISH_EXPLANATION = "english_explanation"
 COLUMN_ROOT = "root"
-COLUMN_TI = "ti"
-COLUMN_OTB = "otb"
+TI = "ti"
+OTB = "otb"
 COLUMN_DEFINITION = "definition"
 COLUMN_SEMANTIC_CATEGORY = "semantic_category"
 COLUMN_ETYMOLOGICAL_ROOT = "etymological_root"

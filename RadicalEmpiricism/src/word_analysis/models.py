@@ -8,7 +8,8 @@ class Book_Line(models.Model):
 
     book = models.CharField(max_length=3)
     line = models.IntegerField()
-
+    french = models.TextField(null=True)
+    english = models.TextField(null=True)
 
 class Etymology(models.Model):
     french_explanation = models.TextField(null=True)

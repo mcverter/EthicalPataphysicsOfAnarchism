@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <h3>                    {{ titles.ti.long.french }}</h3>
+        <div>
+            {% for bl in book_lines.ti %}
+            <div>{{ bl.french }}</div>
+        {% endfor %}
+        </div>
+        <h3>                    {{ titles.ti.long.english }}</h3>
+        <div>{% for bl in book_lines.ti %}
+            <div>{{ bl.english }}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
