@@ -7,8 +7,8 @@ from .models import Word, Semantic_Categories, Etymological_Root, Verb_Type, \
     Noun_Type, Prefix, Suffix, Part_Of_Speech
 from RadicalEmpiricism.src.constants import OTB, TI
 
-
 def mot_detail(request, word):
+    all_words = Word.objects.all()
     book_word = Word.objects.get(french=word)
     if book_word is None:
         book_word = Word.objects.get(english=word)
@@ -29,29 +29,12 @@ def mot_detail(request, word):
         "etymology": etymology,
         "definition": definition
     }
-    return render(request, 'includes/word.html', context)
+    return render(request, 'pages/word_page.html', context)
 
 
 class Index(ListView):
     model = Word
-    template_name = 'includes/index.html'
-
-
-class MotDetailView(DetailView):
-    template_name = 'includes/word.html'
-
-    # query_pk_and_slug = "french"
-
-    def get_object(self, queryset=None):
-        french = self.kwargs['french']
-        return Word.objects.get(french=french)
-
-
-class WordDetailView(DetailView):
-    model = Word
-    template_name = 'includes/word.html'
-    query_pk_and_slug = "english"
-
+    template_name = 'pages/index_page.html'
 
 """
 he DetailView's get_object method already knows how to fetch an object by the slug. There's no need to duplicate this code, just call super().
