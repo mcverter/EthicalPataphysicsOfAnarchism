@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 from RadicalEmpiricism.src.constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST, \
-    DB_ENGINE
+    DB_ENGINE, DB_LEVEL
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,9 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "word_analysis",
-    # "bootstrap5",
-    # 'corsheaders',
-    # 'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -85,10 +83,13 @@ DATABASES = {
         'USER': DB_RUNTIME_USER,
         'PASSWORD': DB_RUNTIME_PASSWORD,
         'HOST': DB_RUNTIME_HOST,
-        'PORT': DB_PORT
-
+        'PORT': DB_PORT,
     }
 }
+
+# Use SSL for remote connection
+if DB_LEVEL == 'remote':
+    DATABASES["default"]['OPTIONS']: {'sslmode': 'require'}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

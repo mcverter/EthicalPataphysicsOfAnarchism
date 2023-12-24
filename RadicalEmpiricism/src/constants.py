@@ -1,6 +1,6 @@
 import os
 
-DB_LEVEL = "local"
+DB_LEVEL = "remote"
 
 DB_ENGINE = "django.db.backends.postgresql"
 DB_NAME = "word_analysis"
