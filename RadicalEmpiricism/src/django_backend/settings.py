@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-zy_@((2m@f1*vlp0otae4+-!j%!fnszx2+&h--l$$-q#upr@$l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mcverter.pythonanywhere.com']
 
 # Application definition
 
