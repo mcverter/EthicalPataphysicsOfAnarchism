@@ -45,7 +45,7 @@ COLUMN_SUFFIX = "suffix"
 COLUMN_PREFIX = "prefix"
 
 PATH_DIR = os.path.dirname(os.path.realpath(__file__))
-LOG_DIR = os.path.join(PATH_DIR, '../logs')
+LOG_DIR = os.path.join(PATH_DIR, '../src/z_radical_empiricism_logic/a_other/logs')
 PATH_DB_POPULATE_LOG = os.path.join(LOG_DIR, "db_populate_log.txt")
 PATH_DB_STATS_LOG = os.path.join(LOG_DIR, "db_stats_log.txt")
 
