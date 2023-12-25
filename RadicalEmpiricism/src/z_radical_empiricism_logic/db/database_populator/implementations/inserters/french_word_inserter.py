@@ -4,11 +4,11 @@ import re
 
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_FRENCH, OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, \
     TI, OTB, TABLE_BOOK_LINE, TI_ENGLISH_SENTENCES, OTB_ENGLISH_SENTENCES
-from RadicalEmpiricism.src.db.database_populator.database_inserter import DatabaseInserter
-from RadicalEmpiricism.src.db.db import insert_into_table, select_single_value, select_composite_id, \
+from RadicalEmpiricism.src.z_radical_empiricism_logic.db.database_populator.database_inserter import DatabaseInserter
+from RadicalEmpiricism.src.z_radical_empiricism_logic.db.db import insert_into_table, select_single_value, select_composite_id, \
     insert_many_to_many, \
     execute, commit_all
-from RadicalEmpiricism.src.db.sanitize_values import sanitize
+from RadicalEmpiricism.src.z_radical_empiricism_logic.db.sanitize_values import sanitize
 from RadicalEmpiricism.src.utils import is_empty_value
 
 PUNCTUATION_MARKS = '[/.,()!?"]'

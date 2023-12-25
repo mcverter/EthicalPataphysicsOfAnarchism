@@ -1,5 +1,5 @@
 from deep_translator import GoogleTranslator
-from RadicalEmpiricism.src.db.database_populator.database_updater import DatabaseUpdater
+from RadicalEmpiricism.src.z_radical_empiricism_logic.db.database_populator.database_updater import DatabaseUpdater
 from RadicalEmpiricism.src.constants import TABLE_WORD, COLUMN_ENGLISH, COLUMN_FRENCH
 
 OFFSET: int = 0

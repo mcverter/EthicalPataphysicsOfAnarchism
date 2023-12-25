@@ -1,6 +1,8 @@
-from RadicalEmpiricism.src.constants import OTB_FULL_FRENCH_TITLE, OTB_FULL_ENGLISH_TITLE, TI_FULL_FRENCH_TITLE, TI_FULL_ENGLISH_TITLE, \
+from RadicalEmpiricism.src.constants import OTB_FULL_FRENCH_TITLE, OTB_FULL_ENGLISH_TITLE, TI_FULL_FRENCH_TITLE, \
+    TI_FULL_ENGLISH_TITLE, \
     OTB_SHORT_FRENCH_TITLE, OTB_SHORT_ENGLISH_TITLE, TI_SHORT_FRENCH_TITLE, TI_SHORT_ENGLISH_TITLE, \
     TI, OTB
+
 
 def messages_context(request):
     messages = {
@@ -8,6 +10,8 @@ def messages_context(request):
         "no_value_yet_fr": "Aucun result"
     }
     return {"sysmsg": messages}
+
+
 def title_context(request):
     titles = {
         TI: {

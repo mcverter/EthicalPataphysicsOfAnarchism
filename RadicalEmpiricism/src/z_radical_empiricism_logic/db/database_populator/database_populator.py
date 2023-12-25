@@ -1,4 +1,5 @@
-from RadicalEmpiricism.src.logger.db_logger import log_commit
+from RadicalEmpiricism.src.z_radical_empiricism_logic.logger.db_logger import log_commit
+
 from ..db import commit_all
 
 

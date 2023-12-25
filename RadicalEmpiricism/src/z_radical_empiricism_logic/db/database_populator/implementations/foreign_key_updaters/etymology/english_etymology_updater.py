@@ -8,8 +8,8 @@ from RadicalEmpiricism.src.constants import (TABLE_WORD,
                                              COLUMN_ENGLISH_EXPLANATION,
                                              SITE_ENGLISH_ETYMOLOGY)
 
-from RadicalEmpiricism.src.db.database_populator.foreign_key_updater import ForeignKeyUpdater
-from RadicalEmpiricism.src.logger.db_logger import log_and_print_error
+from RadicalEmpiricism.src.z_radical_empiricism_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from RadicalEmpiricism.src.z_radical_empiricism_logic.logger.db_logger import log_and_print_error
 
 OFFSET: int = 10600
 
