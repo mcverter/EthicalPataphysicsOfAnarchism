@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "word_analysis",
     'corsheaders',
-    "django_table_sort",
-    "django_tables2"
 ]
 
 MIDDLEWARE = [
