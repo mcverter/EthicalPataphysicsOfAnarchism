@@ -1,39 +1,40 @@
 {% extends "base_page.html" %}
 {% load static %}
 
-{% block title %} 
+{% block title %}
 {% endblock %}
 
 {% block css_files %}
 {% endblock %}
 
 {% block content %}
-<section id="welcome">
-  <header>
-    <h2>Mitchamillion'S BLOG</h2>
-  </header>
-  <p>Hi, I am Mitch and I love to blog about tech and the world!</p>
-</section>
+{{ table.render }}
 
-<section id="latest-posts">
-  <h2>My Latest Thoughts</h2>
+    <section id="welcome">
+        <header>
+            <h2>All Words</h2>
+        </header>
+    </section>
+        <table class="table table-striped table-bordered">
+        {% for word in word_list %}
+            <tr>
+                <td>{{ word.french }}</td>
+                <td>{{ word.ti }}</td>
+                <td>{{ word.otb }}</td>
+                <td><a href="mot/{{ word.french }}" target="_blank"> Information about "{{ word.french }}" </a> </td>
+            </tr>
+        {% endfor %}</table>
+    </section>
 
-  <ul>
-    {% for word in word_list %}
-      {{  word.french }}
-    {% endfor %}
-  </ul>
-</section>
-
-<section id="about">
-  <h2>What I Do</h2>
-  <p>
-    I love programming, I love to help others and I enjoy exploring new
-    technologies in general!
-  </p>
-  <p>
-    My goal is to keep on growing as a developer - and if I could help you do
-    the same, I'd be very happy!
-  </p>
-</section>
+    <section id="about">
+        <h2>What I Do</h2>
+        <p>
+            I love programming, I love to help others and I enjoy exploring new
+            technologies in general!
+        </p>
+        <p>
+            My goal is to keep on growing as a developer - and if I could help you do
+            the same, I'd be very happy!
+        </p>
+    </section>
 {% endblock %}

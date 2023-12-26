@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-zy_@((2m@f1*vlp0otae4+-!j%!fnszx2+&h--l$$-q#upr@$l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'levinas-radical-empiricism-aa0fc6fe9dbc.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'levinas-radical-empiricism-aa0fc6fe9dbc.herokuapp.com']
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "word_analysis",
     'corsheaders',
+    "django_table_sort"
 ]
 
 MIDDLEWARE = [

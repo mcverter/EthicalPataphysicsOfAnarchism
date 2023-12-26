@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import ListView
+from django_table_sort.table import TableSort
+
 from .models import Word, Part_Of_Speech
 from constants import OTB, TI
 
@@ -32,6 +34,17 @@ def mot_detail(request, word):
 class Index(ListView):
     model = Word
     template_name = 'pages/index_page.html'
+    ordering_key = "o"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["table"] = TableSort(
+            self.request,
+            self.object_list,
+            sort_key_name=self.ordering_key,
+            table_css_clases="table table-light table-striped table-sm",
+        )
+        return context
 
 """
 he DetailView's get_object method already knows how to fetch an object by the slug. There's no need to duplicate this code, just call super().
