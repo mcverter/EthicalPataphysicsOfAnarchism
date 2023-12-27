@@ -8,7 +8,7 @@ def words(request):
     context = {
         "words": all_words_with_counts,
     }
-    return render(request, 'pages/index_page.html', context)
+    return render(request, 'pages/word_list_page.html', context)
 
 
 def word_detail(request, word):
