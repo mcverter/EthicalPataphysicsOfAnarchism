@@ -1,8 +1,10 @@
 from django.urls import path
-from .views import mot_detail, index
+from .views import word_detail, words
 
 urlpatterns = [
-    path("", index, name="index"),
-    path("word/<str:word>/", mot_detail, name="word"),
-    path("mot/<str:word>/", mot_detail, name="mot"),
+    path("", words, name="words"),
+    path("words", words, name="words"),
+    path("mots", words, name="words"),
+    path("word/<str:word>/", word_detail, name="word"),
+    path("mot/<str:word>/", word_detail, name="mot"),
 ]

@@ -3,13 +3,15 @@ from .word_counts import all_words_with_counts
 from .models import Word
 from constants import OTB, TI
 
-def index(request):
+
+def words(request):
     context = {
         "words": all_words_with_counts,
     }
     return render(request, 'pages/index_page.html', context)
 
-def mot_detail(request, word):
+
+def word_detail(request, word):
     book_word = Word.objects.get(french=word)
     if book_word is None:
         book_word = Word.objects.get(english=word)
@@ -31,4 +33,3 @@ def mot_detail(request, word):
         "definition": definition
     }
     return render(request, 'pages/word_page.html', context)
-
