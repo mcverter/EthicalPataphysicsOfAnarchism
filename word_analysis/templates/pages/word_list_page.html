@@ -1,21 +1,9 @@
 {% extends "base_page.html" %}
 {% load static %}
 
-{% block title %}
-{% endblock %}
-
-{% block css_files %}
-{% endblock %}
 {% block content %}
     <table id="word_listing" class="display">
-        <thead>
-        <tr>
-            <th>Mot</th>
-            <th>Quantité en Totalité</th>
-            <th>Quantité en Autrement</th>
-            <th>Plus d'Information et Citation dans les Textes</th>
-        </tr>
-        </thead>
+        {% include 'includes/word_list_header.html' %}
         <tbody>
         {% for word in words %}
             <tr>
@@ -25,7 +13,6 @@
                 <td><a href="mot/{{ word.french }}" target="_blank"> Information about "{{ word.french }}" </a></td>
             </tr>
         {% endfor %}
-
         </tbody>
     </table>
 
