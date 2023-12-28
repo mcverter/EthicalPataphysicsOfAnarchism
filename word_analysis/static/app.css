@@ -56,3 +56,8 @@ h3 {
 .english {
   color: #311B92
 }
+
+.french-english {
+  border: 2px solid;
+  border-color: darkred;
+}
