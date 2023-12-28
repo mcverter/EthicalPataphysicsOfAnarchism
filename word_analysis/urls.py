@@ -1,5 +1,7 @@
 from django.urls import path, re_path
 from .views import word_detail, words, bootsy
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     path("bootsy", bootsy, name="bootsy"),
@@ -13,4 +15,4 @@ urlpatterns = [
     # cre_path("^word|mot/(?P<word>[.*])", word_detail, name="word"),
     # re_path(r"^confirm-email/(?P<key>[-:\w]+)/$", views.confirm_email, name="account_confirm_email"),
 
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
