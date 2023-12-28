@@ -50,6 +50,9 @@ h3 {
 }
 
 .french {
-  color: deeppink;
-  font-weight: bolder;
+  color: #BF360C;
+}
+
+.english {
+  color: #311B92
 }
