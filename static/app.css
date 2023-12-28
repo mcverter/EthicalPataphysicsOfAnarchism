@@ -48,3 +48,8 @@ h3 {
 #main-navigation h1 a:active {
   color: white;
 }
+
+.french {
+  color: deeppink;
+  font-weight: bolder;
+}
