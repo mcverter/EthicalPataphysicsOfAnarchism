@@ -4,6 +4,10 @@ from .models import Word
 from constants import OTB, TI
 
 
+def bootsy(request):
+    return render(request, 'bootstrap_cards.html')
+
+
 def words(request):
     context = {
         "words": all_words_with_counts,
