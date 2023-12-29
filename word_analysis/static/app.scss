@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import "bootstrap_colors";
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: "Open Sans", "Lato", sans-serif;
+  font-family: 'Open Sans', 'Lato', sans-serif;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
@@ -37,6 +39,7 @@ h3 {
   margin-left: 1rem;
 }
 
+
 #main-navigation a:hover,
 #main-navigation a:active {
   color: #cf79f1;
@@ -54,7 +57,5 @@ h3 {
 
 .english {
   font-family: Georgia;
-  border-top: black 1px dotted;
+    border-top: black 1px dotted;
 }
-
-/*# sourceMappingURL=app.css.map */

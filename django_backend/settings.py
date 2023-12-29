@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "word_analysis",
     'corsheaders',
+    'django_sass'
 ]
 
 MIDDLEWARE = [

@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-    <table id="word_listing" class="display">
+    <table id="word_listing" class="display table-striped table-bordered">
         {% include 'includes/word_list_header.html' %}
         <tbody>
         {% for word in words %}
