@@ -15,7 +15,7 @@ def all_words_with_counts():
 def proportion_ti_to_otb(num_ti, num_otb):
     if num_otb == 0:
         return math.inf
-    return (num_ti / num_otb) * (TOTAL_OTB_WORDS / TOTAL_TI_WORDS)
+    return round(((num_ti / num_otb) * (TOTAL_OTB_WORDS / TOTAL_TI_WORDS)), 5)
 
 
 ALL_WORDS = [("ideologie", 0, 11), ("reveillant", 1, 0), ("semblables", 2, 0), ("psychologisme", 1, 1),

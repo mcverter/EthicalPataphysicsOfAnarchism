@@ -1,5 +1,6 @@
 {% extends "base_page.html" %}
 {% load static %}
+{% load radical_empiricism_templates %}
 
 {% block content %}
     <table id="word_listing" class="display table-striped table-bordered compact border-top border-dark rounded mt-20">
@@ -18,6 +19,34 @@
         </tbody>
     </table>
 
+    <div class="alert alert-info">
+    {% french_english "Les quantités de mots sont approximatives@Word counts are approximate." %}
+    {% french_english "Il y a eu quelques erreurs mineures d'analyse de texte qui seront corrigées dans une prochaine version.@There were a few minor text parsing errors which will be fixed in a future release" %}
+    </div>
+
+    <div class="alert alert-info">
+    {% french_english "Plusieurs relations n'ont pas encore été capturés@Several relations have not yet been captured" %}
+        <ol>
+            <li>Capitalisation -- eg "Autrui" vs "autrui"</li>
+            <li>Reflexives -- eg "s'exprimer", "se monter"</li>
+            <li>Negatives -- eg "n'est", "ne voit"</li>
+            <li>Prepositions -- eg "d'etre", "vivre de"</li>
+            <li>Articles -- eg "l'autre", "une visage"</li>
+            <li>Repetitions -- eg "abandon", "abandonnant", "abandonne", "abandonnee"</li>
+        </ol>
+    <div class="alert alert-info">
+        {% french_english 'Formule de "Proportion"@Formula for "Proportion"' %}
+
+        <pre><code>
+    TOTAL_TI_WORDS = 108498
+    TOTAL_OTB_WORDS = 80797
+
+    def proportion_ti_to_otb(num_ti, num_otb):
+        if num_otb == 0:
+            return math.inf
+        return (num_ti / num_otb) * (TOTAL_OTB_WORDS / TOTAL_TI_WORDS)
+        </code></pre>
+    </div>
     <script>
         $(document).ready(function () {
             $('#word_listing').DataTable();
