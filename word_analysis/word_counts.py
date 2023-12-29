@@ -9,7 +9,7 @@ def all_words_with_counts():
              "ti": w[1],
              "otb": w[2],
              "sum": w[1] + w[2],
-             "proportion": proportion_ti_to_otb(w[1], w[2])
+             "proportion": proportion_ti_to_otb(w[1], w[2])heroku
              } for w in ALL_WORDS]
 
 def proportion_ti_to_otb(num_ti, num_otb):
