@@ -48,13 +48,27 @@ h3 {
 }
 
 .french {
-  font-family: Verdana;
+  font-family: Verdana, Tahoma, sans-serif;
   border-bottom: black 1px dotted;
 }
 
 .english {
-  font-family: Georgia;
+  font-family: Georgia, Garamond, serif;
   border-top: black 1px dotted;
+}
+
+#word_listing_filter {
+  border: 2px #140330 solid;
+  padding: 5px;
+  margin: 20px auto 10px;
+  border-radius: 5%;
+}
+
+#word_listing_length {
+  border: 2px #331904 solid;
+  padding: 5px;
+  margin: 20px auto 10px;
+  border-radius: 5%;
 }
 
 /*# sourceMappingURL=app.css.map */
