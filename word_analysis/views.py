@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .word_counts import all_words_with_counts
+from .word_counts import all_words_with_counts, proportion_ti_to_otb
 from .models import Word
 from constants import OTB, TI
 
@@ -29,6 +29,8 @@ def word_detail(request, word):
 
     context = {
         "word": book_word,
+        "sum": book_word.ti + book_word.otb,
+        "proportion": proportion_ti_to_otb(book_word.ti, book_word.otb),
         "book_lines": {
             "otb": otb_lines,
             "ti": ti_lines,

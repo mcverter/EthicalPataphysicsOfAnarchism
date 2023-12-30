@@ -1,35 +1,25 @@
-  <h2> Counts</h2>
-    <table>
-        <tr>
-            <th>
-                Title
-            </th>
-            <td>
-                <span>
-                    {{ titles.ti.short.french }}
-                </span>
-                    <span>
-                    ({{ titles.ti.short.english }})
-                </span>
-            </td>
-            <td>
-                <span>
-                    {{ titles.otb.short.french }}
-                </span>
-                    <span>
-                    ({{ titles.otb.short.english }})
-                </span>
-            </td>
-        </tr>
-        <tr>
-            <th>
-                Count
-            </th>
-            <td>
-                {{ word.ti }}
-            </td>
-            <td>
-                {{ word.otb }}
-            </td>
-        </tr>
-    </table>
+<div class="card">
+    <div class="card-body">
+        <table id="word_listing"
+               class="display table-striped table-bordered compact border-top border-dark rounded mt-20">
+            <thead class="thead-dark">
+            <tr>
+                <th>{% french_english 'Quantité en "Totalité"@Quantity in "Totality"' %}</th>
+                <th>{% french_english 'Quantité en "Autrement"@Quantity in "Otherwise"' %}</th>
+                <th>{% french_english "Somme@Sum" %}</th>
+                <th>{% french_english "Proportion@Proportion" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{{ word.ti }}</td>
+                <td>{{ word.otb }}</td>
+                <td> {{ sum }} </td>
+                <td>{{ proportion }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% include 'includes/count_alerts.html' %}

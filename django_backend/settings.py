@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+# from word_analysis.templatetags.radical_empiricism_templates import french_english
 from pathlib import Path
 from constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST, \
     DB_ENGINE, DB_LEVEL
@@ -69,6 +70,7 @@ TEMPLATES = [
                 'word_analysis.context_processors.title_context',
                 'word_analysis.context_processors.messages_context',
             ],
+            'builtins': ['word_analysis.templatetags.radical_empiricism_templates'],
         },
     },
 ]

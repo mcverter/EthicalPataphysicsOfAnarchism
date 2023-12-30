@@ -4,13 +4,15 @@ TOTAL_TI_WORDS = 108498
 TOTAL_OTB_WORDS = 80797
 
 
+def word_to_counts(word):
+    return {"french": word[0],
+             "ti": word[1],
+             "otb": word[2],
+             "sum": word[1] + word[2],
+             "proportion": proportion_ti_to_otb(word[1], word[2])
+             }
 def all_words_with_counts():
-    return [{"french": w[0],
-             "ti": w[1],
-             "otb": w[2],
-             "sum": w[1] + w[2],
-             "proportion": proportion_ti_to_otb(w[1], w[2])
-             } for w in ALL_WORDS]
+    return [word_to_counts(word) for word in ALL_WORDS]
 
 def proportion_ti_to_otb(num_ti, num_otb):
     if num_otb == 0:
