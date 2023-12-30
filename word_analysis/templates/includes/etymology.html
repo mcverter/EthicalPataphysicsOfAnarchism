@@ -1,17 +1,42 @@
-<h1>Etymology</h1>
-<h2>English:</h2>
-<div>
-    {% if word.etymology.english_explanation %}
-        {{ word.etymology.english_explanation }}
-    {% else %}
-        {{ sysmsg.no_value_yet_en }}
-    {% endif %}
-</div><h2>French:</h2>
-<div>
-    {% if word.etymology.french_explanation %}
-        {{ word.etymology.french_explanation }}
-    {% else %}
-        {{ sysmsg.no_value_yet_en }}
-    {% endif %}
+<div class="card">
+    <div class="card-title">
+         {% french_english_span 'Étymologie@Etymology' %}
+    </div>
+    <div class="card-body">
+        <nav>
+            <div class="nav nav-pills nav-fill" id="etymology-tab" role="tablist">
+                <button class="nav-link active" id="french-etymology-tab" data-bs-toggle="tab"
+                        data-bs-target="#french-etymology"
+                        type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
+                    Français
+                </button>
+                <button class="nav-link" id="english-etymology-tab" data-bs-toggle="tab" data-bs-target="#english-etymology"
+                        type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
+                    English
+                </button>
+            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="french-etymology" role="tabpanel"
+                 aria-labelledby="nav-counts-tab">
+                {% if word.etymology.french_explanation %}
+                    {{ word.etymology.french_explanation }}
+                {% else %}
+                    {{ sysmsg.no_value_yet_en }}
+                {% endif %}
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="english-etymology" role="tabpanel"
+                     aria-labelledby="nav-counts-tab">
+                    {% if word.etymology.english_explanation %}
+                        {{ word.etymology.english_explanation }}
+                    {% else %}
+                        {{ sysmsg.no_value_yet_en }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 

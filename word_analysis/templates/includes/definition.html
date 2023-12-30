@@ -1,18 +1,41 @@
-<h1>Definition</h1>
-<h2>English:</h2>
-<div>
-    {% if word.definition.english_explanation %}
-        {{ word.definition.english_explanation }}
-    {% else %}
-        {{ sysmsg.no_value_yet_en }}
-    {% endif %}
-</div><h2>French:</h2>
-<div>
-    {% if word.definition.french_explanation %}
-        {{ word.definition.french_explanation }}
-    {% else %}
-        {{ sysmsg.no_value_yet_en }}
-    {% endif %}
+<div class="card">
+    <div class="card-title">
+         {% french_english_span 'Définition@Definition' %}
+    </div>
+    <div class="card-body">
+        <nav>
+            <div class="nav nav-pills nav-fill" id="definition-tab" role="tablist">
+                <button class="nav-link active" id="french-definition-tab" data-bs-toggle="tab"
+                        data-bs-target="#french-definition"
+                        type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
+                    Français
+                </button>
+                <button class="nav-link" id="english-definition-tab" data-bs-toggle="tab" data-bs-target="#english-definition"
+                        type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
+                    English
+                </button>
+            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="french-definition" role="tabpanel"
+                 aria-labelledby="nav-counts-tab">
+                {% if word.definition.french_explanation %}
+                    {{ word.definition.french_explanation }}
+                {% else %}
+                    {{ sysmsg.no_value_yet_en }}
+                {% endif %}
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="english-definition" role="tabpanel"
+                     aria-labelledby="nav-counts-tab">
+                    {% if word.definition.english_explanation %}
+                        {{ word.definition.english_explanation }}
+                    {% else %}
+                        {{ sysmsg.no_value_yet_en }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-

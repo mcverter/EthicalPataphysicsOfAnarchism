@@ -3,18 +3,10 @@
     <h1> Information for {{ word.french }} ({{ word.english }})</h1>
 
     <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <div class="nav nav-tabs" id="word-nav-tab" role="tablist">
             <button class="nav-link active" id="nav-counts-tab" data-bs-toggle="tab" data-bs-target="#nav-counts"
                     type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
-                Counts
-            </button>
-            <button class="nav-link" id="nav-definition-tab" data-bs-toggle="tab" data-bs-target="#nav-definition"
-                    type="button" role="tab" aria-controls="nav-definition" aria-selected="false">
-                Defintion
-            </button>
-            <button class="nav-link" id="nav-etymology-tab" data-bs-toggle="tab" data-bs-target="#nav-etymology"
-                    type="button" role="tab" aria-controls="nav-etymology" aria-selected="false">
-                Etymology
+                Word Information
             </button>
             <button class="nav-link" id="nav-ti-lines-tab" data-bs-toggle="tab" data-bs-target="#nav-ti-lines"
                     type="button" role="tab" aria-controls="nav-ti-lines" aria-selected="false">
@@ -27,17 +19,13 @@
         </div>
     </nav>
 
-
-    <div class="tab-content" id="nav-tabContent">
+    <div class="tab-content" id="word-nav-tabContent">
         <div class="tab-pane fade show active" id="nav-counts" role="tabpanel"
              aria-labelledby="nav-counts-tab">
-            {% include 'includes/counts.html' %}</div>
-        <div class="tab-pane fade" id="nav-definition" role="tabpanel"
-             aria-labelledby="nav-definition-tab">
-            {% include 'includes/definition.html' %}</div>
-        <div class="tab-pane fade" id="nav-etymology" role="tabpanel"
-             aria-labelledby="nav-etymology-tab">
-            {% include 'includes/etymology.html' %}</div>
+            <div>{% include 'includes/counts.html' %}</div>
+            <div>{% include 'includes/definition.html' %}</div>
+            <div>{% include 'includes/etymology.html' %}</div>
+        </div>
         <div class="tab-pane fade" id="nav-ti-lines" role="tabpanel"
              aria-labelledby="ti-lines">
             {% include 'includes/tilines.html' %}</div>

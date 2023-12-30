@@ -1,4 +1,7 @@
 <div class="card">
+    <div class="card-title">
+         {% french_english_span 'Le décompte de mots@Word counts' %}
+    </div>
     <div class="card-body">
         <table id="word_listing"
                class="display table-striped table-bordered compact border-top border-dark rounded mt-20">
@@ -21,5 +24,3 @@
         </table>
     </div>
 </div>
-
-{% include 'includes/count_alerts.html' %}
