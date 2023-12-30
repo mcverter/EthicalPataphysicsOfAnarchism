@@ -1,17 +1,28 @@
 {% extends "base_page.html" %}
 {% load static %}
-
+{% block css_files %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js" type="text/javascript"
+            charset="utf8"></script>
+{% endblock %}
 {% block content %}
     <table id="word_listing" class="display table-striped table-bordered compact border-top border-dark rounded mt-20">
         <thead class="thead-dark">
-            <tr>
-                <th>{% french_english "Mot@Word" %}</th>
-                <th>{% french_english 'Quantité en "Totalité"@Quantity in "Totality"' %}</th>
-                <th>{% french_english 'Quantité en "Autrement"@Quantity in "Otherwise"' %}</th>
-                <th>{% french_english "Somme@Sum" %}</th>
-                <th>{% french_english "Proportion@Proportion" %}</th>
-                <th>{% french_english "Plus d'information et textes@More information and texts" %}</th>
-            </tr>
+        <tr>
+            <th>{% french_english "Mot@Word" %}</th>
+            <th>{% french_english 'Quantité en "Totalité"@Quantity in "Totality"' %}</th>
+            <th>{% french_english 'Quantité en "Autrement"@Quantity in "Otherwise"' %}</th>
+            <th>{% french_english "Somme@Sum" %}</th>
+            <th>{% french_english "Proportion@Proportion" %}</th>
+            <th>{% french_english "Plus d'information et textes@More information and texts" %}</th>
+        </tr>
         </thead>
         <tbody>
         {% for word in words %}
