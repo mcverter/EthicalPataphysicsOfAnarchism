@@ -1,7 +1,7 @@
-from z_radical_empiricism_logic.crawler_tools.crawler_tools import get_cntrl_eymology
+from business_logic.crawler_tools.crawler_tools import get_cntrl_eymology
 import constants
-from z_radical_empiricism_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
-from z_radical_empiricism_logic.logger.db_logger import log_and_print_error
+from business_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from business_logic.logger.db_logger import log_and_print_error
 
 OFFSET: int = 0
 

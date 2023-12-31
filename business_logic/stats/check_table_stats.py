@@ -1,5 +1,5 @@
-from z_radical_empiricism_logic.db.db import execute_and_return_single_value
-from z_radical_empiricism_logic.logger.stats_logger import log_stats_message
+from business_logic.db.db import execute_and_return_single_value
+from business_logic.logger.stats_logger import log_stats_message
 
 NUM_WORDS_SQL = \
     'select count(*) from word_analysis_word;'

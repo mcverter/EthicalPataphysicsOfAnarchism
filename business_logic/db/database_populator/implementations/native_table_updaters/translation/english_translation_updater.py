@@ -1,5 +1,5 @@
 from deep_translator import GoogleTranslator
-from z_radical_empiricism_logic.db.database_populator.database_updater import DatabaseUpdater
+from business_logic.db.database_populator.database_updater import DatabaseUpdater
 from constants import TABLE_WORD, COLUMN_ENGLISH, COLUMN_FRENCH
 
 OFFSET: int = 0

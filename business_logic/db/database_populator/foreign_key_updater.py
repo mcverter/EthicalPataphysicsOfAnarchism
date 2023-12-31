@@ -1,4 +1,4 @@
-from z_radical_empiricism_logic.logger.db_logger import log_update_fk_table_commit
+from business_logic.logger.db_logger import log_update_fk_table_commit
 from constants import DB_NAME
 from .database_updater import DatabaseUpdater
 from ..db import update_foreign_key

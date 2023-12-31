@@ -1,6 +1,6 @@
 import re
 from larousse_api import larousse
-from z_radical_empiricism_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from business_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 from constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_FRENCH, \
     COLUMN_FRENCH_EXPLANATION
 

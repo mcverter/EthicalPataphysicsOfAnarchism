@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 from constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
     SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
-from z_radical_empiricism_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from business_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
 # TODO: this should be an arg to the constructor
 OFFSET: int = 0
 
