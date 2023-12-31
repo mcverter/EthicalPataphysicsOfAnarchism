@@ -1,16 +1,11 @@
 from django.shortcuts import render
-from .word_counts import all_words_with_counts, proportion_ti_to_otb
+from .word_quantities import all_word_quantities, proportion_ti_to_otb
 from .models import Word
 from constants import OTB, TI
 
-
-def bootsy(request):
-    return render(request, 'bootstrap_cards.html')
-
-
 def words(request):
     context = {
-        "words": all_words_with_counts,
+        "words": all_word_quantities,
     }
     return render(request, 'pages/word_list_page.html', context)
 

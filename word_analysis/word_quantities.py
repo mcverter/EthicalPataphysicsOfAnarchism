@@ -11,7 +11,7 @@ def word_to_counts(word):
              "sum": word[1] + word[2],
              "proportion": proportion_ti_to_otb(word[1], word[2])
              }
-def all_words_with_counts():
+def all_word_quantities():
     return [word_to_counts(word) for word in ALL_WORDS]
 
 def proportion_ti_to_otb(num_ti, num_otb):
