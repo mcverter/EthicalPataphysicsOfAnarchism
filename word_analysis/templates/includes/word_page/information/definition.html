@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-body">
-            <h4 class="card-title"> Définition </h4>
+        <h4 class="card-title"> Définition </h4>
         <nav>
             <div class="nav nav-pills" id="definition-tab" role="tablist">
                 <button class="nav-link active" id="french-definition-tab" data-bs-toggle="tab"
@@ -8,7 +8,8 @@
                         type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
                     Français
                 </button>
-                <button class="nav-link" id="english-definition-tab" data-bs-toggle="tab" data-bs-target="#english-definition"
+                <button class="nav-link" id="english-definition-tab" data-bs-toggle="tab"
+                        data-bs-target="#english-definition"
                         type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
                     English
                 </button>
@@ -16,7 +17,8 @@
         </nav>
 
         <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="french-definition" role="tabpanel" aria-labelledby="nav-counts-tab">
+            <div class="tab-pane fade show active" id="french-definition" role="tabpanel"
+                 aria-labelledby="nav-counts-tab">
                 {% if word.definition.french_explanation %}
                     {{ word.definition.french_explanation }}
                 {% else %}
