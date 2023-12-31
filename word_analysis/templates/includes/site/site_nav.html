@@ -13,6 +13,10 @@
                 class="nav-item">
                 <a class="nav-link" href="/groups">{% french_english "Groupes Thématiques (GT)@Thematic Groups" %}</a>
             </li>
+            <li {% if request.resolver_match.url_name|lower == 'relations' %}class="active"{% endif %}
+                class="nav-item">
+                <a class="nav-link" href="/relations">{% french_english "Relations internes et externes (IR/ER)@Internal and external relations" %}</a>
+            </li>
             <li {% if request.resolver_match.url_name|lower == 'technical' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link" href="/technical">{% french_english "Notes techniques@Technical notes" %}</a>

@@ -1,10 +1,11 @@
 from django.urls import path, re_path
 from django.conf.urls.static import static
 from django.conf import settings
-from .views import word_detail, words, groups, technical, summary
+from .views import word_detail, words, groups, technical, summary, relations
 
 urlpatterns = [
                   re_path(r"^$", summary, name="summary"),
+                  re_path(r"^relations$", relations, name="relations"),
                   re_path(r"^summary|resume$", summary, name="summary"),
                   re_path(r"^groups|groupes$", groups, name="groups"),
                   re_path(r"^technical|technique$", technical, name="technical"),

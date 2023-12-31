@@ -3,6 +3,9 @@ from .word_quantities import all_word_quantities, proportion_ti_to_otb
 from .models import Word
 from constants import OTB, TI
 
+def relations(request):
+    return render(request, 'pages/relations_page.html')
+
 def summary(request):
     return render(request, 'pages/summary_page.html')
 
