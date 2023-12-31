@@ -3,6 +3,15 @@ from .word_quantities import all_word_quantities, proportion_ti_to_otb
 from .models import Word
 from constants import OTB, TI
 
+def summary(request):
+    return render(request, 'pages/summary.html')
+
+def groups(request):
+    return render(request, 'pages/groups.html')
+
+def technical(request):
+    return render(request, 'pages/technical.html')
+
 def words(request):
     context = {
         "words": all_word_quantities,
