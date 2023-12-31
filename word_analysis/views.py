@@ -4,13 +4,13 @@ from .models import Word
 from constants import OTB, TI
 
 def summary(request):
-    return render(request, 'pages/summary.html')
+    return render(request, 'pages/summary_page.html')
 
 def groups(request):
-    return render(request, 'pages/groups.html')
+    return render(request, 'pages/groups_page.html')
 
 def technical(request):
-    return render(request, 'pages/technical.html')
+    return render(request, 'pages/technical_page.html')
 
 def words(request):
     context = {
