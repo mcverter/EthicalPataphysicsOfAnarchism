@@ -3,19 +3,19 @@
         <ul class="navbar-nav align-items-baseline">
             <li {% if request.resolver_match.url_name|lower == 'summary' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="summary">{% french_english "Résumé du projet@Project Summary" %}</a>
+                <a class="nav-link" href="/summary">{% french_english "Résumé du projet@Project Summary" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'words' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="words">{% french_english "Liste de mots@Word list" %}</a>
+                <a class="nav-link" href="/words">{% french_english "Liste de mots@Word list" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'groups' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="groups">{% french_english "Groupes Thématiques (GT)@Thematic Groups" %}</a>
+                <a class="nav-link" href="/groups">{% french_english "Groupes Thématiques (GT)@Thematic Groups" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'technical' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="technical">{% french_english "Notes techniques@Technical notes" %}</a>
+                <a class="nav-link" href="/technical">{% french_english "Notes techniques@Technical notes" %}</a>
             </li>
         </ul>
     </nav>
