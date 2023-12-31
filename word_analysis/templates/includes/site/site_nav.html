@@ -1,28 +1,26 @@
+
+<li {% if request.resolver_match.url_name == 'home' %}class="active"{% endif %}
+    <a href="/">HOME</a>
+</li>
+
     <div class="border-black border-top border-bottom">
         <nav class=" navbar navbar-expand-sm navbar-light bg-light mb-20">
         <ul class="navbar-nav align-items-baseline">
-            <li class="nav-item">
+            <li {% if request.resolver_match.url_name == '' %}class="active"{% endif %}
+ class="nav-item">
                 <a class="nav-link" href="#">{% french_english "Résumé du projet@Project Summary" %}</a>
             </li>
-            <li class="nav-item">
+            <li {% if request.resolver_match.url_name == 'mots' %}class="active"{% endif %}
+ class="nav-item">
                 <a class="nav-link" href="#">{% french_english "Liste de mots@Word list" %}</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">{% french_english "Thèmes sémantiques@Semantic themes" %}</a>
+            <li {% if request.resolver_match.url_name == 'groups' %}class="active"{% endif %}
+ class="nav-item">
+                <a class="nav-link" href="#">{% french_english "Groupes Thématiques (GT)@Thematic Groups" %}</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">{% french_english "Racines étymologiques@Etymological roots" %}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">{% french_english "Préfixes@Prefixes" %}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">{% french_english "Suffixes@Suffixes" %}</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">{% french_english "Parties du discours@Parts of speech" %}</a>
-            </li>
-            <li class="nav-item">
+
+            <li {% if request.resolver_match.url_name == 'technical' %}class="active"{% endif %}
+ class="nav-item">
                 <a class="nav-link" href="#">{% french_english "Sources@Sources" %}</a>
             </li>
         </ul>
