@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 @import url('bootstrap_colors.scss');
+
 * {
   box-sizing: border-box;
 }
@@ -65,6 +66,7 @@ h3 {
   margin: 20px auto 10px;
   border-radius: 5%;
 }
+
 #word_listing_length {
   border: 2px #331904 solid;
   padding: 5px;
@@ -73,6 +75,11 @@ h3 {
 }
 
 .d-flex.flex-column.row-hl.align-items-baseline:hover {
-    background-color: $indigo-600;
-    color: $yellow-100;
+  background-color: #280661;
+  color: #FFF3CD;
+  padding: 10px;
+}
+
+.active {
+  font-size: 150%;
 }

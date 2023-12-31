@@ -1,17 +1,85 @@
-/* Error: Undefined variable.
- *    ,
- * 76 |     background-color: $indigo-600;
- *    |                       ^^^^^^^^^^^
- *    '
- *   app.scss 76:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 76 \2502      background-color: $indigo-600;\a    \2502                        ^^^^^^^^^^^\a    \2575 \a   app.scss 76:23  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+@import url("bootstrap_colors.scss");
+* {
+  box-sizing: border-box;
 }
+
+html {
+  font-family: "Open Sans", "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#main-navigation {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main-navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+#main-navigation a:hover,
+#main-navigation a:active {
+  color: #cf79f1;
+}
+
+#main-navigation h1 a:hover,
+#main-navigation h1 a:active {
+  color: white;
+}
+
+.french {
+  font-family: Verdana, Tahoma, sans-serif;
+  border-bottom: black 1px dotted;
+}
+
+.english {
+  font-family: Georgia, Garamond, serif;
+  border-top: black 1px dotted;
+}
+
+#word_listing_filter {
+  border: 2px #140330 solid;
+  padding: 5px;
+  margin: 20px auto 10px;
+  border-radius: 5%;
+}
+
+#word_listing_length {
+  border: 2px #331904 solid;
+  padding: 5px;
+  margin: 20px auto 10px;
+  border-radius: 5%;
+}
+
+.d-flex.flex-column.row-hl.align-items-baseline:hover {
+  background-color: #280661;
+  color: #FFF3CD;
+  padding: 10px;
+}
+
+.active {
+  font-size: 150%;
+}
+
+/*# sourceMappingURL=app.css.map */

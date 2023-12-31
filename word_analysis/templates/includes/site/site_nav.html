@@ -1,23 +1,19 @@
 <div class="border-black border-top border-bottom">
     <nav class=" navbar navbar-expand-sm navbar-light bg-light justify-content-end mb-20">
         <ul class="navbar-nav align-items-baseline">
-            <li {% if request.resolver_match.url_name == '' %}class="active"{% endif %}
-                class="nav-item">
-                <a class="nav-link" href="">{% french_english "Maison@Home" %}</a>
-            </li>
-            <li {% if request.resolver_match.url_name == 'summary' %}class="active"{% endif %}
+            <li {% if request.resolver_match.url_name|lower == 'summary' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link" href="summary">{% french_english "Résumé du projet@Project Summary" %}</a>
             </li>
-            <li {% if request.resolver_match.url_name == 'words' %}class="active"{% endif %}
+            <li {% if request.resolver_match.url_name|lower == 'words' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link" href="words">{% french_english "Liste de mots@Word list" %}</a>
             </li>
-            <li {% if request.resolver_match.url_name == 'groups' %}class="active"{% endif %}
+            <li {% if request.resolver_match.url_name|lower == 'groups' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link" href="groups">{% french_english "Groupes Thématiques (GT)@Thematic Groups" %}</a>
             </li>
-            <li {% if request.resolver_match.url_name == 'technical' %}class="active"{% endif %}
+            <li {% if request.resolver_match.url_name|lower == 'technical' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link" href="technical">{% french_english "Notes techniques@Technical notes" %}</a>
             </li>
