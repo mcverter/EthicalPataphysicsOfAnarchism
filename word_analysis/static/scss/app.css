@@ -73,13 +73,25 @@ h3 {
 }
 
 .d-flex.flex-column.row-hl.align-items-baseline:hover {
-  background-color: #280661;
-  color: #FFF3CD;
+  background-color: #495057;
+  --bs-navbar-color: whitesmoke;
+  color: whitesmoke;
   padding: 10px;
 }
 
+.nav.nav-pills {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+button.nav-link {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 13px;
+}
+
 .active {
-  font-size: 150%;
+  font-size: 125%;
 }
 
 div.card {
@@ -90,5 +102,47 @@ div.groupe-thematique > div.card {
   background-color: #495057;
   color: whitesmoke;
 }
+
+.bilingual {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.bilingual :first-child a {
+  margin-right: 15px;
+}
+.bilingual a {
+  color: #495057;
+  background-color: whitesmoke;
+  border: 1px dotted #495057;
+}
+.bilingual a:hover {
+  background-color: #ADB5BD;
+  color: whitesmoke;
+  border: 1px dotted whitesmoke;
+}
+.bilingual a.active {
+  background-color: #495057;
+  color: whitesmoke;
+  border: 1px dotted whitesmoke;
+}
+
+/*
+.bilingual:first-child a {
+  margin-right: 15px;
+}
+.bilingual a {
+  color: #495057;
+  background-color: whitesmoke;
+  border: 1px dotted #495057;
+}
+
+
+.bilingual a.active {
+  color: whitesmoke;
+  background-color: #495057;
+  border: 1px dotted whitesmoke;
+}
+
+*/
 
 /*# sourceMappingURL=app.css.map */
