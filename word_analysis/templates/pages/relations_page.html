@@ -1,5 +1,15 @@
 {% extends "base_page.html" %}
 {% block subtitle %}Résumé du projet{% endblock %}
 {% block content %}
-    {% include 'includes/relations/internal_relations.html' %}
+    <div class="card">
+    <div class="card-body ">
+        <h3 class="card-title">Relations internes et externes | Internal and external relations </h3>
+        {% include 'includes/relations/doubling.html' %}
+        {% include 'includes/relations/opposition.html' %}
+        {% include 'includes/relations/parallelism.html' %}
+        {% include 'includes/relations/intersection.html' %}
+        {% include 'includes/relations/flat.html' %}
+        {% include 'includes/relations/two_dimensional.html' %}
+    </div>
+</div>
 {% endblock %}
