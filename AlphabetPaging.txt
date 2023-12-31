@@ -1,0 +1,188 @@
+Alphabetical Button Paging
+Legacy interface notice: This discussion was created before the release of DataTables 1.10, which introduced a more modern API. The documentation for the old DataTables API is still available and newer versions are backwards compatible, but the primary documentation on this site refers to DataTables 1.10 and newer. A conversion guide details how the two API styles relate. Updating to 1.10+ is recommended if you haven't already.
+
+jamesgamesjamesgames Posts: 14Questions: 0Answers: 0
+September 2010 edited September 2010in General
+I'm wondering if anyone has a script for filtering (server-sided) by first letter (a,b,c...z) buttons. When you click on letter b for instance you go to the b's and continue from there.
+
+I'm including my code, but I think it may be hopelessly clueless. First, the button is not showing up in the footer but ahead of the table and clicking on it does nothing. I know it should be similar in solution to just typing in a single letter in the search box.
+
+I tried putting some buttons in the tfooter area ( ) and then some code like this:
+
+
+var asInitVals = new Array();
+
+$(document).ready(function() {
+var oTable = $('#example').dataTable( {
+"bProcessing": true,
+"bServerSide": true,
+"sAjaxSource": "zero_config_b.php",
+"sPaginationType": "full_numbers",
+} );
+
+$("tfoot button").submit( function () {
+/* Filter on the column (the index) of this element */
+oTable.fnFilter( this.value, $("tfoot input").index(this) );
+} );
+} );
+
+
+
+Many thanks, in advance. I stand in awe before your code.
+Replies
+allanallan Posts: 60,471Questions: 1Answers: 9,831 Site admin
+September 2010
+Hi jamesgames,
+
+Quite a nice idea for a table with a lot of options this - I like it :-).
+
+The answer has it's solution more in the server-side code, than JavaScript. What you've posted above looks fine and will be sending the needs data to the server (as the parameters sSearch_{I}. So what needs to happen is to do an SQL query which reflects the search you want with that data. So something like WHERE col LIKE 'search_term%'. What server side script are you using? If its is the phpexample with DataTables, that does column specific searching already, so all you need to do is modify the holding of the query to remove the % character at the start of the WHERE clause (line 110 in the example).
+
+
+Hope this helps!
+Allan
+jamesgamesjamesgames Posts: 14Questions: 0Answers: 0
+September 2010 edited September 2010
+Allan,
+
+Thanks...I got it working but have another question and I would be happy to donate again.
+
+I can't seem to figure out how to implement JediTables and Datatables with server side code.
+
+Do you think you could post a "fuller" example using all the code needed to get the thing working in a serversided mysql situation? I would be willing to contribute for that effort.
+
+I understand that the server side has to read the posting and save the data, just like any other save. So, I guess the parts I don't understand would be the calling and updating.
+
+I know you wrote in the example: "Note also that this example makes use of the information in the 'ID' attribute of the TR element. This is useful in order to tell the server what row is being updated - this can readily be expended to include column information as required. Further to this, it is worth noting that to use this type of example with DataTables' server-side processing option, you must use fnDrawCallback to apply the event listeners on each draw."
+
+But, for a newbie such as myself, this goes way beyond. I think I understand it conceptually, but practically you might have well told me I would need a rocket to get to the moon. Helpful, but it won't get me there.
+
+As I said, I am happy to contribute to a working example that will help others as well. Thanks. I've posted some code but it doesn't seem to do anything:
+
+[code]
+
+@import "css/demo_page.css";
+@import "css/demo_table.css";
+
+
+
+
+
+
+var asInitVals = new Array();
+
+$(document).ready(function() {
+var oTable = $('#example').dataTable( {
+"bProcessing": true,
+"bServerSide": true,
+"sAjaxSource": "zero_config_b.php",
+
+"sPaginationType": "full_numbers",
+
+
+});
+
+/* Apply the jEditable handlers to the table */
+$('td', oTable.fnGetNodes()).editable( 'SaveToFile.php', {
+"callback": function( sValue, y ) {
+var aPos = oTable.fnGetPosition( this );
+oTable.fnUpdate( sValue, aPos[0], aPos[1] );
+},
+"submitdata": function ( value, settings ) {
+return { "row_id": this.parentNode.getAttribute('id') };
+},
+"height": "14px"
+} );
+
+$("tfoot button").submit( function () {
+/* Filter on the column (the index) of this element */
+oTable.fnFilter( this.value, $("tfoot input").index(this) );
+} );
+
+
+$("a").click(function() {
+oTable.fnFilter( "A" );
+return false;
+});
+
+$(":button").click(function() {
+oTable.fnFilter( this.value );
+return false;
+});
+
+
+
+
+} );
+
+
+
+
+
+
+
+
+
+
+Stores Database
+
+
+
+
+
+
+
+
+Stores
+
+
+
+
+
+CustID
+Name
+City
+State
+Zip
+Phone
+
+
+
+<?php do { ?>
+
+
+<?php echo $row_Stores['CustID']; ?>
+<?php echo $row_Stores['Name']; ?>
+<?php echo $row_Stores['City']; ?>
+<?php echo $row_Stores['State']; ?>
+<?php echo $row_Stores['Zip']; ?>
+<?php echo $row_Stores['Phone']; ?>
+
+
+<?php } while ($row_Stores = mysql_fetch_assoc($Stores)); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initialisation code
+
+
+
+
+
+
+DataTables © Allan Jardine 2008-2010.
+
+
+
