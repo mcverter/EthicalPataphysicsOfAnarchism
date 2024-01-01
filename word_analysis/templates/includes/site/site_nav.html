@@ -15,9 +15,8 @@
             </li>
             <li {% if request.resolver_match.url_name|lower == 'membership' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="/membership">{% french_english "Groupes Thématiques (GT)@Thematic Groups" %}</a>
+                <a class="nav-link" href="/membership">{% french_english "Appartenance à un groupe@Group membership" %}</a>
             </li>
-
             <li {% if request.resolver_match.url_name|lower == 'relations' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link" href="/relations">{% french_english "Relations internes et externes (IR/ER)@Internal and external relations" %}</a>
