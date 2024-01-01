@@ -1,7 +1,7 @@
 from django.urls import path, re_path
 from django.conf.urls.static import static
 from django.conf import settings
-from .views import word_detail, words, groups, technical, summary, relations
+from .views import word_detail, words, groups, technical, summary, relations, membership
 
 urlpatterns = [
                   re_path(r"^$", summary, name="summary"),
