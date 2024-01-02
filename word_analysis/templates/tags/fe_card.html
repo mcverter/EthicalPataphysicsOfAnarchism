@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="card-body">
+        <div class="nav bilingual" id="{{ component }}-tab" role="tablist">
+            <a class="nav-link active" id="french-{{ component }}-tab" data-bs-toggle="tab"
+               data-bs-target="#french-{{ component }}"
+               type="button" role="tab" aria-controls="nav-{{ component }}" aria-selected="true">
+                Français
+            </a>
+            <a class="nav-link" id="english-{{ component }}-tab" data-bs-toggle="tab"
+               data-bs-target="#english-{{ component }}"
+               type="button" role="tab" aria-controls="nav-{{ component }}" aria-selected="true">
+                English
+            </a>
+        </div>
+        <div class="tab-content-frence" id="nav-tabContent">
+            <div class="tab-pane fade show active french" id="french-{{ component }}" role="tabpanel"
+                 aria-labelledby="nav-{{ component }}-tab">
+                {% include  'tags/bilingual/french/'|add:component|add:'.html' %}
+            </div>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade english" id="english-{{ component }}" role="tabpanel"
+                 aria-labelledby="nav-{{ component }}-tab">
+                {% include  'tags/bilingual/english/'|add:component|add:'.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+

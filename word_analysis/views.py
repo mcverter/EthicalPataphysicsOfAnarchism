@@ -3,6 +3,9 @@ from .word_quantities import all_word_quantities, proportion_ti_to_otb
 from .models import Word
 from constants import OTB, TI
 
+def debug_test(request):
+    return render(request, 'pages/debug_test.html')
+
 def membership(request):
     return render(request, 'pages/membership_page.html')
 
