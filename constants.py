@@ -45,11 +45,11 @@ COLUMN_SUFFIX = "suffix"
 COLUMN_PREFIX = "prefix"
 
 PATH_DIR = os.path.dirname(os.path.realpath(__file__))
-LOG_DIR = os.path.join(PATH_DIR, '../src/z_radical_empiricism_logic/a_other/z_radical_empiricism_logic/a_other/logs')
-PATH_DB_POPULATE_LOG = os.path.join(LOG_DIR, "business_logic/a_other/logs/db_populate_log.txt")
+LOG_DIR = os.path.join(PATH_DIR, 'business_logic/logs')
+PATH_DB_POPULATE_LOG = os.path.join(LOG_DIR, "db_populate_log.txt")
 PATH_DB_STATS_LOG = os.path.join(LOG_DIR, "db_stats_log.txt")
 
-PATH_BOOKS = os.path.join(PATH_DIR, "books")
+PATH_BOOKS = os.path.join(PATH_DIR, "business_logic/books")
 BOOK_AUTREMENT = os.path.join(PATH_BOOKS, "LevinasAutrementSpringer.txt")
 BOOK_TOTALITE = os.path.join(PATH_BOOKS, "LevinasTotaLGF.txt")
 CLEANED_SUFFIX = "cleaned.txt"
