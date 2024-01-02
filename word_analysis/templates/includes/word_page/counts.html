@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Quantités | Quantities</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">{{ titles.ti.short.french }}</div>
+                <div class="col-sm">{{ titles.otb.short.french }}</div>
+                <div class="col-sm">{% fe_vertical "Somme@Sum" %}</div>
+                <div class="col-sm">{% fe_vertical "Proportion@Proportion" %}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm">{{ word.ti }}</div>
+                <div class="col-sm">{{ word.otb }}</div>
+                <div class="col-sm"> {{ sum }} </div>
+                <div class="col-sm">{{ proportion }}</div>
+            </div>
+        </div>
+    </div>
+</div>

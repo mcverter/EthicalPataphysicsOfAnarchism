@@ -61,4 +61,4 @@ def word_detail(request, word):
         "etymology": etymology,
         "definition": definition
     }
-    return render(request, 'pages/word_page.html', context)
+    return render(request, 'pages/word_detail_page.html', context)
