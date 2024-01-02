@@ -3,13 +3,15 @@
         <table class="table table-striped table-bordered">
             <thead>
             <tr>
+                <th> Line #</th>
                 <th>{{ titles.ti.long.french }}</th>
                 <th>{{ titles.ti.long.english }}</th>
             </tr>
             </thead>
-            <tbody>            
+            <tbody>
             {% for bl in book_lines.ti %}
                 <tr>
+                    <td>{{ bl.line }}</td>
                     <td>{{ bl.french }}</td>
                     <td>{{ bl.english }}</td>
                 </tr>

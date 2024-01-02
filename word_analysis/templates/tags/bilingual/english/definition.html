@@ -1,0 +1,7 @@
+<h4 class="card-title"> Définition </h4>
+
+{% if word.definition.english_explanation %}
+    {{ word.definition.english_explanation }}
+{% else %}
+    {{ sysmsg.no_value_yet_fr }}
+{% endif %}

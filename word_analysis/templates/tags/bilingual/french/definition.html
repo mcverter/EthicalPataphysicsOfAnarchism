@@ -1,0 +1,5 @@
+{% if word.definition.french_explanation %}
+    {{ word.definition.french_explanation }}
+{% else %}
+    {{ sysmsg.no_value_yet_fr }}
+{% endif %}
