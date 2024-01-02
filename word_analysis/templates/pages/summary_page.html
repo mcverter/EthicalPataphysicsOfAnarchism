@@ -1,7 +1,6 @@
 {% extends "base_page.html" %}
-{% block subtitle %}Résumé du projet{% endblock %}
 {% block content %}
-    {% include 'includes/summary/objective.html' %}
-    {% include 'includes/summary/abstract.html' %}
-    {% include 'includes/summary/constellation.html' %}
+    {% include 'tags/fe_card.html' with component="objective" %}
+    {% include 'tags/fe_card.html' with component="abstract" %}
+    {% include 'tags/fe_card.html' with component="constellation" %}
 {% endblock %}
