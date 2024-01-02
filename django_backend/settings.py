@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
                  'levinas-radical-empiricism-aa0fc6fe9dbc.herokuapp.com',
                  'levinasradicalempiricism.com',
-                 'levinas-empirisme-radical-56386a1e25f9.herokuapp.com'
+                 'levinas-empirisme-radical-56386a1e25f9.herokuapp.com',
                  'levinasempirismeradical.com']
 
 # Application definition
