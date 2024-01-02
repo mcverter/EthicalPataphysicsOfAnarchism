@@ -1,25 +1,37 @@
 from django.shortcuts import render
-from .word_quantities import all_word_quantities, proportion_ti_to_otb
-from .models import Word
+
 from constants import OTB, TI
+from .models import Word
+from .word_quantities import all_word_quantities, proportion_ti_to_otb
+
+
+def bilingual_content_page(request):
+    return render(request, 'pages/bilingual_content_page.html')
+
 
 def debug_test(request):
     return render(request, 'pages/debug_test.html')
 
+
 def membership(request):
     return render(request, 'pages/membership_page.html')
+
 
 def relations(request):
     return render(request, 'pages/relations_page.html')
 
+
 def summary(request):
     return render(request, 'pages/summary_page.html')
+
 
 def groups(request):
     return render(request, 'pages/groups_page.html')
 
+
 def technical(request):
     return render(request, 'pages/technical_page.html')
+
 
 def words(request):
     context = {
@@ -34,12 +46,10 @@ def word_detail(request, word):
         book_word = Word.objects.get(english=word)
     if book_word is None:
         return "could not find that word"
-
     etymology = book_word.etymology
     definition = book_word.definition
     otb_lines = book_word.book_line.all().order_by('line').filter(book=OTB)
     ti_lines = book_word.book_line.all().order_by('line').filter(book=TI)
-
     context = {
         "word": book_word,
         "sum": book_word.ti + book_word.otb,
