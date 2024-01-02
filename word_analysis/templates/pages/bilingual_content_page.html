@@ -1,5 +1,4 @@
 {% extends "base_page.html" %}
 {% block content %}
-    NAME IS {{ request.path|slice:"1:" }}
     {% include 'tags/fe_card.html' with component=request.path|slice:"1:" %}
 {% endblock %}
