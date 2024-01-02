@@ -141,4 +141,8 @@ div.groupe-thematique > div.card {
   font-size: 125%;
 }
 
+p.card-text {
+  margin: 13px 0;
+}
+
 /*# sourceMappingURL=app.css.map */

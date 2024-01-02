@@ -133,7 +133,7 @@ div.groupe-thematique > div.card {
 }
 
 .groupe-thematique-label {
-  background-color: #290661 ;
+  background-color: #290661;
   border: 1px dotted #E2D9F3;
   color: whitesmoke;
   font-weight: bold;
@@ -143,6 +143,10 @@ div.groupe-thematique > div.card {
   margin-bottom: 13px;
 }
 
-.header-subtitle{
+.header-subtitle {
   font-size: 125%;
+}
+
+p.card-text {
+  margin: 13px 0;
 }
