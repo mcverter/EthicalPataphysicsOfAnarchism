@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{% static 'images/alien.jpg' %}">
-    <link rel="stylesheet" href="{% static '/scss/bootstrap5.3.2.min.css' %}">
+    <!-- link rel="stylesheet" href="{ static '/scss/bootstrap5.3.2.min.css' %}" -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
           integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     <link rel="stylesheet" href="{% static '/scss/app.css' %}">
-    <script src="{% static 'js/jquery3.7.1.js' %}" ></script>
+    <script src="{% static 'js/jquery3.7.1.js' %}"></script>
     <title>{% block subtitle %}  {% endblock %} | Emmanuel Levinas: Empirisme radical</title>
     {% block css_files %}{% endblock %}
 </head>

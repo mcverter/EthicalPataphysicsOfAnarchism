@@ -94,19 +94,11 @@ button.nav-link {
   font-size: 125%;
 }
 
-div.card {
-  margin: 23px;
-}
-
 div.groupe-thematique > div.card {
   background-color: #495057;
   color: whitesmoke;
 }
 
-.bilingual {
-  margin-top: 23px;
-  margin-bottom: 23px;
-}
 .bilingual :first-child a {
   margin-right: 15px;
 }
@@ -137,7 +129,7 @@ div.groupe-thematique > div.card {
   margin-bottom: 13px;
 }
 
-.header-subtitle {
+.header-title {
   font-size: 125%;
 }
 
