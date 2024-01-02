@@ -2,8 +2,8 @@ import re
 
 import requests
 from bs4 import BeautifulSoup
-from constants import  SITE_FRENCH_CNRTL_ETYMOLOGY
 
+from constants import SITE_FRENCH_CNRTL_ETYMOLOGY
 
 
 def get_soup_from_url(url):

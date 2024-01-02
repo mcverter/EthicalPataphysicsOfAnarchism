@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 # from word_analysis.templatetags.radical_empiricism_templates import french_english
 from pathlib import Path
+
 from constants import DB_NAME, DB_PORT, DB_RUNTIME_USER, DB_RUNTIME_PASSWORD, DB_RUNTIME_HOST, \
     DB_ENGINE, DB_LEVEL
 
@@ -27,7 +28,9 @@ SECRET_KEY = 'django-insecure-zy_@((2m@f1*vlp0otae4+-!j%!fnszx2+&h--l$$-q#upr@$l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'levinas-radical-empiricism-aa0fc6fe9dbc.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
+                 'levinas-radical-empiricism-aa0fc6fe9dbc.herokuapp.com',
+                 'levinasradicalempiricism.com']
 
 # Application definition
 
@@ -135,5 +138,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
+    'http://localhost:3000'
 ]
