@@ -1,24 +1,24 @@
-    <div class="alert alert-warning">
-    {% french_english "Les quantités de mots sont approximatives@Word counts are approximate." %}
-    {% french_english "Il y a eu quelques erreurs mineures d'analyse de texte qui seront corrigées dans une prochaine version.@There were a few minor text parsing errors which will be fixed in a future release" %}
-    </div>
+<div class="alert alert-warning">
+    {% fe_vertical "Les quantités de mots sont approximatives@Word counts are approximate." %}
+    {% fe_vertical "Il y a eu quelques erreurs mineures d'analyse de texte qui seront corrigées dans une prochaine version.@There were a few minor text parsing errors which will be fixed in a future release" %}
+</div>
 
-    <div class="alert alert-warning">
-    {% french_english "Plusieurs relations n'ont pas encore été capturés@Several relations have not yet been captured" %}
-        <ol>
-            <li>Capitalisation -- eg "Autrui" vs "autrui"</li>
-            <li>Reflexives -- eg "s'exprimer", "se monter"</li>
-            <li>Negatives -- eg "n'est", "ne voit"</li>
-            <li>Prepositions -- eg "d'etre", "vivre de"</li>
-            <li>Articles -- eg "l'autre", "une visage"</li>
-            <li>Word distances</li>
-            <li>Formal variations and repititions -- eg "abandon", "abandonnant", "abandonne", "abandonnee"</li>
-        </ol>
-    </div>
-    <div class="alert alert-info">
-        {% french_english 'Formule de "Proportion"@Formula for "Proportion"' %}
+<div class="alert alert-warning">
+    {% fe_vertical "Plusieurs relations n'ont pas encore été capturés@Several relations have not yet been captured" %}
+    <ol>
+        <li>Capitalisation -- eg "Autrui" vs "autrui"</li>
+        <li>Reflexives -- eg "s'exprimer", "se monter"</li>
+        <li>Negatives -- eg "n'est", "ne voit"</li>
+        <li>Prepositions -- eg "d'etre", "vivre de"</li>
+        <li>Articles -- eg "l'autre", "une visage"</li>
+        <li>Word distances</li>
+        <li>Formal variations and repititions -- eg "abandon", "abandonnant", "abandonne", "abandonnee"</li>
+    </ol>
+</div>
+<div class="alert alert-info">
+    {% fe_vertical 'Formule de "Proportion"@Formula for "Proportion"' %}
 
-        <pre><code>
+    <pre><code>
     TOTAL_TI_WORDS = 108498
     TOTAL_OTB_WORDS = 80797
 
@@ -27,4 +27,4 @@
             return math.inf
         return (num_ti / num_otb) * (TOTAL_OTB_WORDS / TOTAL_TI_WORDS)
         </code></pre>
-    </div>
+</div>
