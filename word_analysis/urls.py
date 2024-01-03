@@ -1,13 +1,13 @@
 from django.urls import re_path
 
 from .views import debug_test, word_detail, word_list, bilingual_content_page, technical, summary, relations, \
-    membership, group_list, group_detail
+    membership, genre_list, genre_detail
 
 urlpatterns = [
     re_path(r"^words|mots$", word_list, name="words"),
     re_path("^word|mot/(?P<word>.*)/$", word_detail, name="word"),
-    re_path(r"^groups|groupes$", group_list, name="group_list"),
-    re_path("^group|groupe/(?P<word>.*)/$", group_detail, name="group_detail"),
+    re_path(r"^genres|genrees$", genre_list, name="genre_list"),
+    re_path("^genre|genree/(?P<word>.*)/$", genre_detail, name="genre_detail"),
 
     re_path(r"^$", summary, name="summary"),
     re_path("^abstract$", bilingual_content_page, name="abstract"),

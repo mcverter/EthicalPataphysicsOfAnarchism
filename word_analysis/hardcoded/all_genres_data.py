@@ -1,9 +1,16 @@
-def all_groups_to_words():
+def all_genres_to_words():
     return ALL_CATEGORIES_TO_WORDS
 
 
 def all_words_to_categories():
-    return ALL_WORDS_TO_CATEGORIES
+    word_to_category_dict = {}
+    for category, words in ALL_CATEGORIES_TO_WORDS:
+        for word in words:
+            if word not in word_to_category_dict:
+                word_to_category_dict[word] = []
+            word_to_category_dict[word].append(category)
+
+    return word_to_category_dict
 
 
 ALL_CATEGORIES_TO_WORDS = {
@@ -209,7 +216,3 @@ ALL_CATEGORIES_TO_WORDS = {
         "gratuite",
         "jouissance",
     }}
-
-ALL_WORDS_TO_CATEGORIES = {
-
-}

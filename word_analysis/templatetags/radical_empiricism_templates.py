@@ -8,8 +8,8 @@ def word_btn(value: str):
     return {"word": value}
 
 
-@register.inclusion_tag('tags/group_btn.html')
-def group_btn(value: str):
+@register.inclusion_tag('tags/genre_btn.html')
+def genre_btn(value: str):
     (count, name) = value.split("@")
     return {"name": name, "count": count}
 

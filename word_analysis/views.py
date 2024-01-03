@@ -1,21 +1,21 @@
 from django.shortcuts import render
 
 from constants import OTB, TI
-from .hardcoded.all_groups_data import all_groups_to_words
+from .hardcoded.all_genres_data import all_genres_to_words
 from .hardcoded.all_words_data import all_words, proportion_ti_to_otb
 from .models import Word
 
 
-def group_detail(request, group):
-    return render(request, 'pages/group_list_page.html', {
-        "groups": all_groups_to_words,
-        "group": group
+def genre_detail(request, genre):
+    return render(request, 'pages/genre_list_page.html', {
+        "genres": all_genres_to_words,
+        "genre": genre
     })
 
 
-def group_list(request):
-    return render(request, 'pages/group_list_page.html', {
-        "groups": all_groups_to_words,
+def genre_list(request):
+    return render(request, 'pages/genre_list_page.html', {
+        "genres": all_genres_to_words,
     })
 
 
