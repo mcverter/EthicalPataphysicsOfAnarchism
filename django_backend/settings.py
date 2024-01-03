@@ -26,7 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zy_@((2m@f1*vlp0otae4+-!j%!fnszx2+&h--l$$-q#upr@$l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+if DB_LEVEL == 'local':
+    DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
                  'levinas-radical-empiricism-aa0fc6fe9dbc.herokuapp.com',
@@ -45,7 +46,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "word_analysis",
     'corsheaders',
-    'django_sass'
+    'django_sass',
+    'livereload'
 ]
 
 MIDDLEWARE = [
@@ -57,6 +59,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'livereload.middleware.LiveReloadScript',
 ]
 
 ROOT_URLCONF = 'django_backend.urls'
