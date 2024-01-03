@@ -1,11 +1,16 @@
 from django.urls import re_path
 
-from .views import debug_test, word_detail, words, bilingual_content_page, groups, technical, summary, relations, \
-    membership
+from .views import debug_test, word_detail, word_list, bilingual_content_page, technical, summary, relations, \
+    membership, group_list, group_detail, group_theory
 
 urlpatterns = [
+    re_path(r"^words|mots$", word_list, name="words"),
+    re_path("^word|mot/(?P<word>.*)/$", word_detail, name="word"),
+    re_path(r"^groups|groupes$", group_list, name="group_list"),
+    re_path("^group|groupe/(?P<word>.*)/$", group_detail, name="group_detail"),
+    re_path(r"^group_theory$", group_theory, name="group_theory"),
+
     re_path(r"^$", summary, name="summary"),
-    re_path(r"^debug_test$", debug_test, name="debug_test"),
     re_path("^abstract$", bilingual_content_page, name="abstract"),
     re_path("^constellation$", bilingual_content_page, name="constellation"),
     re_path("^doubling$", bilingual_content_page, name="doubling"),
@@ -18,13 +23,11 @@ urlpatterns = [
     re_path("^intersection$", bilingual_content_page, name="intersection"),
     re_path("^opposition$", bilingual_content_page, name="opposition"),
     re_path("^two_dimensional$", bilingual_content_page, name="two_dimensional"),
+    re_path(r"^debug_test$", debug_test, name="debug_test"),
 
     # TODO: move these to BCP
     re_path(r"^relations$", relations, name="relations"),
     re_path(r"^membership$", membership, name="membership"),
     re_path(r"^summary|resume$", summary, name="summary"),
-    re_path(r"^groups|groupes$", groups, name="groups"),
     re_path(r"^technical|technique$", technical, name="technical"),
-    re_path(r"^words|mots$", words, name="words"),
-    re_path("^word|mot/(?P<word>.*)/$", word_detail, name="word"),
 ]

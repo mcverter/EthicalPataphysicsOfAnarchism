@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/alien.jpg">
+    <!-- link rel="stylesheet" href="{ static '/scss/bootstrap5.3.2.min.css' %}" -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="/static/scss/app.css">
+    <script src="/static/js/jquery3.7.1.js"></script>
+    <title> | Liste de groupes thematiques | Emmanuel Levinas: Empirisme radical</title>
+
+</head>
+<body>
+<div class="container">
+    <div class="mb-3 mt-3">
+        <div class="jumbotron text-center">
+            <div class="display-5 my-3">
+                <span class="french border-0">Empirisme Radical</span> | <span
+                    class="english border-0">Radical Empiricism</span>
+            </div>
+
+            <div class="mt-3 mb-2">
+                <div class="french header-subtitle">Une analyse topologique des variétés métaphoriques dans les textes
+                    d'Emmanuel Levinas
+                </div>
+                <div class="english header-subtitle">A topological analysis of metaphorical manifolds in the texts of
+                    Emmanuel
+                    Levinas
+                </div>
+            </div>
+        </div>
+        <div class="border-black border-top border-bottom">
+            <nav class=" navbar navbar-expand-sm navbar-light bg-light justify-content-end mb-20">
+                <ul class="navbar-nav align-items-baseline">
+                    <li
+                            class="nav-item">
+                        <a class="nav-link" href="/summary">
+                            <div class="d-flex flex-column row-hl align-items-baseline">
+                                <div class="french item-hl">Résumé du projet</div>
+                                <div class="english item-hl">Project Summary</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li
+                            class="nav-item">
+                        <a class="nav-link" href="/words">
+                            <div class="d-flex flex-column row-hl align-items-baseline">
+                                <div class="french item-hl">Liste de mots</div>
+                                <div class="english item-hl">Word list</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li
+                            class="nav-item">
+                        <a class="nav-link"
+                           href="/group_theory">
+                            <div class="d-flex flex-column row-hl align-items-baseline">
+                                <div class="french item-hl">Groupes Thématiques (GT)</div>
+                                <div class="english item-hl">Thematic Groups</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li
+                            class="nav-item">
+                        <a class="nav-link" href="/membership">
+                            <div class="d-flex flex-column row-hl align-items-baseline">
+                                <div class="french item-hl">Appartenance à un groupe</div>
+                                <div class="english item-hl">Group membership</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li
+                            class="nav-item">
+                        <a class="nav-link"
+                           href="/relations">
+                            <div class="d-flex flex-column row-hl align-items-baseline">
+                                <div class="french item-hl">Relations internes et externes (IR/ER)</div>
+                                <div class="english item-hl">Internal and external relations</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li
+                            class="nav-item">
+                        <a class="nav-link" href="/technical">
+                            <div class="d-flex flex-column row-hl align-items-baseline">
+                                <div class="french item-hl">Notes techniques</div>
+                                <div class="english item-hl">Technical notes</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+            Button with data-bs-target
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+            user
+            activates the relevant trigger.
+        </div>
+    </div>
+
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-APPEARANCE"
+                aria-expanded="false"
+                aria-controls="#collapse-APPEARANCE"
+        >
+            APPEARANCE
+            <span class="badge bg-white text-dark">11</span>
+        </button>
+
+        <div class="collapse" id="#collapse-APPEARANCE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-GENESIS"
+                aria-expanded="false"
+                aria-controls="#collapse-GENESIS"
+        >
+            GENESIS
+            <span class="badge bg-white text-dark">22</span>
+        </button>
+
+        <div class="collapse" id="#collapse-GENESIS">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-ORALITY"
+                aria-expanded="false"
+                aria-controls="#collapse-ORALITY"
+        >
+            ORALITY
+            <span class="badge bg-white text-dark">7</span>
+        </button>
+
+        <div class="collapse" id="#collapse-ORALITY">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-THEATER"
+                aria-expanded="false"
+                aria-controls="#collapse-THEATER"
+        >
+            THEATER
+            <span class="badge bg-white text-dark">17</span>
+        </button>
+
+        <div class="collapse" id="#collapse-THEATER">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-MATHÉMATIQUES"
+                aria-expanded="false"
+                aria-controls="#collapse-MATHÉMATIQUES"
+        >
+            MATHÉMATIQUES
+            <span class="badge bg-white text-dark">26</span>
+        </button>
+
+        <div class="collapse" id="#collapse-MATHÉMATIQUES">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-GÉOMÉTRIE"
+                aria-expanded="false"
+                aria-controls="#collapse-GÉOMÉTRIE"
+        >
+            GÉOMÉTRIE
+            <span class="badge bg-white text-dark">13</span>
+        </button>
+
+        <div class="collapse" id="#collapse-GÉOMÉTRIE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-PHYSIQUE"
+                aria-expanded="false"
+                aria-controls="#collapse-PHYSIQUE"
+        >
+            PHYSIQUE
+            <span class="badge bg-white text-dark">7</span>
+        </button>
+
+        <div class="collapse" id="#collapse-PHYSIQUE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-ONTOLOGIE"
+                aria-expanded="false"
+                aria-controls="#collapse-ONTOLOGIE"
+        >
+            ONTOLOGIE
+            <span class="badge bg-white text-dark">5</span>
+        </button>
+
+        <div class="collapse" id="#collapse-ONTOLOGIE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-EPISTEMOLOGIE"
+                aria-expanded="false"
+                aria-controls="#collapse-EPISTEMOLOGIE"
+        >
+            EPISTEMOLOGIE
+            <span class="badge bg-white text-dark">3</span>
+        </button>
+
+        <div class="collapse" id="#collapse-EPISTEMOLOGIE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-ETHIQUE"
+                aria-expanded="false"
+                aria-controls="#collapse-ETHIQUE"
+        >
+            ETHIQUE
+            <span class="badge bg-white text-dark">6</span>
+        </button>
+
+        <div class="collapse" id="#collapse-ETHIQUE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-PLATON"
+                aria-expanded="false"
+                aria-controls="#collapse-PLATON"
+        >
+            PLATON
+            <span class="badge bg-white text-dark">7</span>
+        </button>
+
+        <div class="collapse" id="#collapse-PLATON">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-BERGSON"
+                aria-expanded="false"
+                aria-controls="#collapse-BERGSON"
+        >
+            BERGSON
+            <span class="badge bg-white text-dark">2</span>
+        </button>
+
+        <div class="collapse" id="#collapse-BERGSON">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-HEGEL"
+                aria-expanded="false"
+                aria-controls="#collapse-HEGEL"
+        >
+            HEGEL
+            <span class="badge bg-white text-dark">4</span>
+        </button>
+
+        <div class="collapse" id="#collapse-HEGEL">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-HUSSERL"
+                aria-expanded="false"
+                aria-controls="#collapse-HUSSERL"
+        >
+            HUSSERL
+            <span class="badge bg-white text-dark">4</span>
+        </button>
+
+        <div class="collapse" id="#collapse-HUSSERL">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-HEIDEGGER"
+                aria-expanded="false"
+                aria-controls="#collapse-HEIDEGGER"
+        >
+            HEIDEGGER
+            <span class="badge bg-white text-dark">5</span>
+        </button>
+
+        <div class="collapse" id="#collapse-HEIDEGGER">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-DESCARTES"
+                aria-expanded="false"
+                aria-controls="#collapse-DESCARTES"
+        >
+            DESCARTES
+            <span class="badge bg-white text-dark">3</span>
+        </button>
+
+        <div class="collapse" id="#collapse-DESCARTES">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-LEIBNIZ"
+                aria-expanded="false"
+                aria-controls="#collapse-LEIBNIZ"
+        >
+            LEIBNIZ
+            <span class="badge bg-white text-dark">2</span>
+        </button>
+
+        <div class="collapse" id="#collapse-LEIBNIZ">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary"
+                role="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-NIETZSCHE"
+                aria-expanded="false"
+                aria-controls="#collapse-NIETZSCHE"
+        >
+            NIETZSCHE
+            <span class="badge bg-white text-dark">11</span>
+        </button>
+
+        <div class="collapse" id="#collapse-NIETZSCHE">
+            <div class="card card-body">
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+                <div>{( word }}</div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js" type="text/javascript" charset="utf8"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -13,7 +13,7 @@ def word_to_counts(word):
             }
 
 
-def all_word_quantities():
+def all_words():
     return [word_to_counts(word) for word in ALL_WORDS]
 
 

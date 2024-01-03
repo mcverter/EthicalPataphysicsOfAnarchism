@@ -1,41 +1,27 @@
 from django.shortcuts import render
 
 from constants import OTB, TI
+from .hardcoded.all_groups_data import all_groups_to_words
+from .hardcoded.all_words_data import all_words, proportion_ti_to_otb
 from .models import Word
-from .word_quantities import all_word_quantities, proportion_ti_to_otb
 
 
-def bilingual_content_page(request):
-    return render(request, 'pages/bilingual_content_page.html')
+def group_detail(request, group):
+    return render(request, 'pages/group_list_page.html', {
+        "groups": all_groups_to_words,
+        "group": group
+    })
 
 
-def debug_test(request):
-    return render(request, 'pages/debug_test.html')
+def group_list(request):
+    return render(request, 'pages/group_list_page.html', {
+        "groups": all_groups_to_words,
+    })
 
 
-def membership(request):
-    return render(request, 'pages/membership_page.html')
-
-
-def relations(request):
-    return render(request, 'pages/relations_page.html')
-
-
-def summary(request):
-    return render(request, 'pages/summary_page.html')
-
-
-def groups(request):
-    return render(request, 'pages/groups_page.html')
-
-
-def technical(request):
-    return render(request, 'pages/technical_page.html')
-
-
-def words(request):
+def word_list(request):
     context = {
-        "words": all_word_quantities,
+        "words": all_words,
     }
     return render(request, 'pages/word_list_page.html', context)
 
@@ -62,3 +48,33 @@ def word_detail(request, word):
         "definition": definition
     }
     return render(request, 'pages/word_detail_page.html', context)
+
+
+def bilingual_content_page(request):
+    return render(request, 'pages/bilingual_content_page.html')
+
+
+# for on-the-fly UI testing
+def debug_test(request):
+    return render(request, 'pages/debug_test.html')
+
+
+# refactor these all to bilingualW
+def membership(request):
+    return render(request, 'pages/membership_page.html')
+
+
+def relations(request):
+    return render(request, 'pages/relations_page.html')
+
+
+def summary(request):
+    return render(request, 'pages/summary_page.html')
+
+
+def group_theory(request):
+    return render(request, 'pages/groups_theory_page.html')
+
+
+def technical(request):
+    return render(request, 'pages/technical_page.html')

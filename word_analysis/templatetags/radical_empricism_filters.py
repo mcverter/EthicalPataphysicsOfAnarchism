@@ -8,9 +8,3 @@ def filter_by_letter(value_dict: dict, letter: str):
     if not letter:
         return value_dict
     return [v for v in value_dict if v.startswith(letter)]
-
-
-@register.inclusion_tag('tags/french_english.html')
-def french_english(value: str):
-    (french, english) = value.split("@")
-    return {"french": french, "english": english}
