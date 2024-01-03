@@ -7,6 +7,32 @@ def all_words_to_categories():
 
 
 ALL_CATEGORIES_TO_WORDS = {
+    "TENIR": [
+        "contente",
+        "entrietiens",
+        "impatient",
+        "detient",
+        "appartient",
+        "contienne",
+        "maintien",
+        "obtient",
+        "retient",
+        "patience",
+        "tiendrait",
+        "tient",
+        "appartenir",
+        "contenir",
+        "entretenir",
+        "maintenir",
+        "obtenir",
+        "pro-tenir",
+        "retenir",
+        "soutenir",
+        "tenir",
+        "contenir",
+        "contentement",
+        "contenter",
+    ],
     "APPEARANCE": {
         "présence",
         "absence",
