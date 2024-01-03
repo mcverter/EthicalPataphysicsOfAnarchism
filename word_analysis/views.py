@@ -72,9 +72,5 @@ def summary(request):
     return render(request, 'pages/summary_page.html')
 
 
-def group_theory(request):
-    return render(request, 'pages/groups_theory_page.html')
-
-
 def technical(request):
     return render(request, 'pages/technical_page.html')

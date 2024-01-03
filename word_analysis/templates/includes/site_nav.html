@@ -9,10 +9,10 @@
                 class="nav-item">
                 <a class="nav-link" href="/words">{% fe_vertical "Liste de mots@Word list" %}</a>
             </li>
-            <li {% if request.resolver_match.url_name|lower == 'group_theory' %}class="active"{% endif %}
+            <li {% if request.resolver_match.url_name|lower == 'groups' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link"
-                   href="/group_theory">{% fe_vertical "Groupes Thématiques (GT)@Thematic Groups" %}</a>
+                   href="/groups">{% fe_vertical "Groupes Thématiques (GT)@Thematic Groups" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'membership' %}class="active"{% endif %}
                 class="nav-item">
