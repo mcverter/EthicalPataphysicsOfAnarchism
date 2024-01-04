@@ -1,5 +1,7 @@
-def all_genres_to_words():
-    return ALL_CATEGORIES_TO_WORDS
+def all_genres_to_words(genre=''):
+    if not genre:
+        return ALL_CATEGORIES_TO_WORDS
+    return ALL_CATEGORIES_TO_WORDS[genre]
 
 
 def all_words_to_categories():

@@ -5,6 +5,7 @@ from .views import debug_test, word_detail, word_list, bilingual_content_page, t
 
 urlpatterns = [
     re_path(r"^words|mots$", word_list, name="words"),
+    re_path("^words|mots/(?P<prefix>.*)/$", word_list, name="words"),
     re_path("^word|mot/(?P<word>.*)/$", word_detail, name="word"),
     re_path(r"^genres|genres$", genre_list, name="genre_list"),
     re_path("^genre|genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),

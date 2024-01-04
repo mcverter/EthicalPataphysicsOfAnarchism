@@ -1,0 +1,319 @@
+https://localizely.com/blog/django-i18n-tutorial/
+https://phrase.com/blog/posts/quick-guide-django-i18n/
+https://stackoverflow.com/questions/10280881/django-site-with-2-languages
+
+Django site with 2 languages
+Asked 11 years, 8 months ago
+Modified 1 year, 6 months ago
+Viewed 45k times
+43
+
+I want to develop a site with 2 languages, a default one, my native language and an optional English. I plan to have my domains as such:
+
+www.mydomain.example/tr/
+www.mydomain.example/en/
+By default, once a user enter mydomain.example. they will be redirected to /tr/ version and select to go to the /en/ if they want via a top menu. And here is my question.
+
+What is the best Django way to maintain both languages, please note that I don't want automatic translation but I want to maintain texts for both languages myself.
+
+djangomultilingual
+Share
+Follow
+edited Jun 18, 2022 at 10:29
+Stephen Ostermiller's user avatar
+Stephen Ostermiller
+24.5k1414 gold badges8989 silver badges110110 bronze badges
+asked Apr 23, 2012 at 12:48
+Hellnar's user avatar
+Hellnar
+62.9k7979 gold badges205205 silver badges281281 bronze badges
+Add a comment
+4 Answers
+Sorted by:
+
+Highest score (default)
+90
+
+So here is the long version to your question. Tested on Django 1.4 thru 1.7.1:
+
+In settings.py …
+
+Add to MIDDLEWARE_CLASSES, locale, it enables language selection based on request:
+
+'django.middleware.locale.LocaleMiddleware',
+Add LOCALE_PATHS, this is where your translation files will be stored:
+
+LOCALE_PATHS = (
+    os.path.join(PROJECT_PATH, 'locale/'),
+)
+Enable i18N
+
+USE_I18N = True
+Set LANGUAGES that you will be translating the site to:
+
+ugettext = lambda s: s
+LANGUAGES = (
+    ('en', ugettext('English')),
+    ('pl', ugettext('Polish')),
+)
+Add i18n template context processor, requests will now include LANGUAGES and LANGUAGE_CODE:
+
+For Django <1.8 put it here:
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    ....
+    'django.core.context_processors.i18n', # this one
+)
+For Django >= 1.8 put it here:
+
+TEMPLATES = [
+    {
+        'OPTIONS':
+            {'context_processors': [
+                'django.template.context_processors.i18n',  # this one
+            ]}
+    }
+]
+Nest, in urls.py :
+
+In url_patterns, add the below, it will enable the set language redirect view:
+
+url(r'^i18n/', include('django.conf.urls.i18n')),
+See Miscellaneous in Translations for more on this.
+
+Add the following imports, and encapsulate the urls you want translated with i18n_patterns. Here is what mine looks like:
+
+from django.conf.urls.i18n import i18n_patterns
+from django.utils.translation import ugettext_lazy as _
+
+urlpatterns = patterns('',
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^i18n/', include('django.conf.urls.i18n')),
+)
+
+urlpatterns += i18n_patterns('',
+    (_(r'^dual-lang/'), include('duallang.urls')),
+    (r'^', include('home.urls')),
+)
+Note: You can also drop your admin urls into the i18n_patterns.
+
+Wrap your text with lazytext! import lazytext (as above) and wrap every string with it like so _('text'), you can even go to your other urls.py files and do url translation like so:
+
+url(_(r'^dual_language/$'), landing, name='duallang_landing'),
+You can wrap text that you want translated in your other files, such as models.py, views.py etc.. Here is an example model field with translations for label and help_text:
+
+name = models.CharField(_('name'), max_length=255, unique=True, help_text=_("Name of the FAQ Topic"))
+Django translation docs are great for this!
+
+In your html templates...
+
+Now you can go into your templates and load the i18n templatetag and use trans and transblock on the static stuff you want to translate. Here is an example:
+
+{% load i18n %}
+
+{% trans "This is a translation" %}<br><br>
+{% blocktrans with book_t='book title'|title author_t='an author'|title %}
+This is {{ book_t }} by {{ author_t }}. Block trans is powerful!
+{% endblocktrans %}
+Now run a makemessages for each of your locales:
+
+./manage.py makemessages -l pl
+And now all is left is to go into your /locales folder, and edit each of the .po files. Fill in the data for each msgstr. Here is one such example of that:
+
+msgid "English"
+msgstr "Angielski"
+And finally compile the messages:
+
+./manage.py compilemessages
+There is a lot more to learn with translations and internationalization is closely related to this topic, so check out the docs for it too. I also recommend checking out some of the internationalization packages available for Django like django-rosetta, and django-linguo. They help translate model content, django-rosetta does not create new entries for this in your database, while django-linguo does.
+
+I also created a django translation demo for those interested to look at a full working solution.
+
+If you followed this you should be off to a good start. I believe this is the most standardized way to get your site running in multiple languages. Cheers!
+
+Share
+Follow
+edited Feb 10, 2020 at 2:00
+answered Oct 23, 2014 at 1:49
+radtek's user avatar
+radtek
+34.8k1212 gold badges144144 silver badges112112 bronze badges
+Great answer! I just have one quick question: why define ugettext if it just returns the string itself? why not just do ('en', 'english')? –
+Fabio
+ Aug 31, 2015 at 20:30
+So it gets picked up as as something you can translate. –
+radtek
+ Sep 1, 2015 at 18:33
+A closing curly bracket is missing for TEMPLATES. –
+J0ANMM
+ Jun 12, 2017 at 9:08
+Add a comment
+44
+
+As I see it, you have two main options here:
+
+(1) You can keep two separate copies of the site as different Django apps and simply have your urlconf point to those apps-- so url(r'^/en/', include(myproject.en)) would be in your urlconf to point to your English app, and the other for the other language. This would involve maintaining different sets of urlconfs and different html templates, etc for the two apps, which could be useful if you're interested in having the URLs themselves also reflect the different languages (eg Spanish "/pagina/uno" vs English "/page/one").
+
+(2) You record the language preference in a cookie (which you should really do anyway) using Django sessions, and then have the template deliver the appropriate version of the text however you like from that cookie. The code for this could be:
+
+# views.py
+
+# default to your native language
+request.session['lang'] = 'tr'
+
+# someone clicks the link to change to English
+def switch_to_English_link(request):
+    request.session['lang'] = 'en'
+And then in the templates, to gather this information, you'd use:
+
+<!-- my_django_template.html -->
+<div>
+  <span>
+     {% if request.session.lang == "en" %}
+        This is my text in English!
+     {% else %}
+        Şimdi benim sitede Türk var!
+     {% endif %}
+  </span>
+</div>
+Share
+Follow
+edited Apr 23, 2012 at 21:26
+answered Apr 23, 2012 at 13:17
+jdotjdot's user avatar
+jdotjdot
+16.4k1313 gold badges6666 silver badges118118 bronze badges
+7
+Thank you!, Also, "Şimdi benim sitede Türk var!" made my day :) –
+Hellnar
+ Apr 23, 2012 at 21:20
+4
+Actually, better read radtek's answer which explains the correct way of doing this in Django. Which might seem a long read, but actually in the long run is much better because of adding languages for instance, of using rosetta, etcetera. –
+Wim Feijen
+ May 30, 2015 at 10:44
+1
+This is correct. My answer is a hack and not suitable for a site that plans to do lots of translation, whether across many pages or across countries etc –
+jdotjdot
+ May 31, 2015 at 21:29
+1
+@Hellnar Google says not to use cookies to deliver different templates. They say to use 2 different urls because the crawler uses the visible text to determine the language of the page, so it can index the 2 pages as being different languages for the search results. support.google.com/webmasters/answer/182192?hl=en –
+Fabio
+ Aug 31, 2015 at 18:28
+Since sessions will expire on a logout/login. Is it better to keep language parameter in cookies? –
+MSH
+ Feb 20, 2022 at 22:59
+Add a comment
+3
+
+You could use translatable URL patterns, which are available since 1.4.
+
+https://docs.djangoproject.com/en/dev/topics/i18n/translation/#url-internationalization
+
+Share
+Follow
+edited Apr 23, 2012 at 13:00
+answered Apr 23, 2012 at 12:54
+user1349830
+Add a comment
+2
+
+You should go for the django-localeurl app if you need to to specify the language of a page in the URL. I.e. specifically what you're doing in your example. The default Django translation machinery just prefixes your URLs which can be ineffective in your SEO strategy. django-localeurl just fixes the URL handling part, whilst playing nice with the rest of the default Django translation machinery.
+
+Share
+Follow
+answered Apr 23, 2012 at 13:25
+Joseph Victor Zammit's user avatar
+Joseph Victor Zammit
+14.9k1111 gold badges7676 silver badges103103 bronze badges
+Add a comment
+Your Answer
+Sign up or log in
+Post as a guest
+Name
+Email
+Required, but never shown
+
+By clicking “Post Your Answer”, you agree to our terms of service and acknowledge that you have read and understand our privacy policy and code of conduct.
+
+Not the answer you're looking for? Browse other questions tagged djangomultilingual or ask your own question.
+Featured on Meta
+Update to our Advertising Guidelines
+Temporary policy: Generative AI (e.g., ChatGPT) is banned
+
+Report this ad
+
+Report this ad
+Linked
+0
+URL rendered as home_page after internationalization
+1
+Convert webpage in other language?
+1
+Django 2.1 Site With Two (or More) Languages
+Related
+5
+Django: Running site on many languages
+1
+Using multilingual and localeurl in django
+8
+The easiest way to have a multilingual django sites?
+2
+Django models and multilingual websites
+4
+django multilingual site and subdomain
+2
+Issues with multiple languages
+1
+Implementation of Multiple language based on url specific
+3
+Django multi-lingual site : how to?
+1
+How to structure a multilanguage Website in Django 1.6
+1
+How to add multiple language to Django project?
+Hot Network Questions
+How many Carlitz compositions are there?
+How to move a set of files named as numbers in ascending order to another directory?
+What are common mistakes that students will make when solving "What's the original price" percentage problems?
+What did SULFNBK.EXE actually do?
+'Free will' as a 'confused concept': Is Ned Block correct?
+Finding the smallest set of values that make an exponent of a known value.
+When are Jupyter Notebooks used to solve optimization problems in Operations Research?
+Building multiple fonds while cooking/multiple deglazing
+How to get the data of a recent year
+Elf eye proportions, feasible?
+What did God Create Genesis 1:1 - Heavens or Heaven?
+What Does 'It's on' Mean When Used in Anger?
+What sources imply that the office of President was deliberately excluded from the 14th amendment?
+Is the Emergency Travel Passport in France ONLY available to French citizens?
+Steering wheel feels loose without any play
+Convert an array of strings into datetimes with different formats
+What does の何? mean when used like this?
+"Both the local authority and <myself> <me> <I> have gone to the minister." — Do all these pronouns work here?
+What is the earliest explicit reference to the "Talmud" after it was compiled?
+Origin of "cut a voluntary" meaning "to fall from one's horse when hunting"
+Inductor datasheet: What is "Typ. (MHz)"?
+People gathering in a cavern to launch a spacecraft(?)
+Binomial summation including de moivre's theorem
+2nd day at new job, still no contract (UK)
+ Question feed
+
+STACK OVERFLOW
+Questions
+Help
+PRODUCTS
+Teams
+Advertising
+Collectives
+Talent
+COMPANY
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Terms of Service
+Contact Us
+Cookie Settings
+Cookie Policy
+STACK EXCH

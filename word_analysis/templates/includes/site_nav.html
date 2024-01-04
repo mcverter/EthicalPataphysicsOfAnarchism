@@ -3,29 +3,30 @@
         <ul class="navbar-nav align-items-baseline">
             <li {% if request.resolver_match.url_name|lower == 'summary' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="/summary">{% fe_vertical "Résumé du projet@Project Summary" %}</a>
+                <a class="nav-link" href="/summary">{% bilingual_vertical "Résumé du projet@Project Summary" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'words' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="/words">{% fe_vertical "Liste de mots@Word list" %}</a>
+                <a class="nav-link" href="/words">{% bilingual_vertical "Liste de mots@Word list" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'genres' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link"
-                   href="/genres">{% fe_vertical "Genres Thématiques (GT)@Thematic Genres" %}</a>
+                   href="/genres">{% bilingual_vertical "Genres Thématiques (GT)@Thematic Genres" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'membership' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="/membership">{% fe_vertical "Appartenance à un genre@Genre membership" %}</a>
+                <a class="nav-link"
+                   href="/membership">{% bilingual_vertical "Appartenance à un genre@Genre membership" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'relations' %}class="active"{% endif %}
                 class="nav-item">
                 <a class="nav-link"
-                   href="/relations">{% fe_vertical "Relations internes et externes (IR/ER)@Internal and external relations" %}</a>
+                   href="/relations">{% bilingual_vertical "Relations internes et externes (IR/ER)@Internal and external relations" %}</a>
             </li>
             <li {% if request.resolver_match.url_name|lower == 'technical' %}class="active"{% endif %}
                 class="nav-item">
-                <a class="nav-link" href="/technical">{% fe_vertical "Notes techniques@Technical notes" %}</a>
+                <a class="nav-link" href="/technical">{% bilingual_vertical "Notes techniques@Technical notes" %}</a>
             </li>
         </ul>
     </nav>

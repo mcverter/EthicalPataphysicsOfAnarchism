@@ -3,8 +3,6 @@
 {% block content %}
     <div class="card">
         <div class="card-body">
-
-
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Infinitives and Racines étymologiques | Infinitives and Etymological
@@ -29,28 +27,10 @@
                         of maintenir, to maintain.
                         Words with the same infinitive and the same etymological roots belong to the same Thematic Genre
                     </p>
-                    {% for name, words in genres.items %}
-                        {% if name == "TENIR" %}
-                            <div>
-                                {% genre_btn words|length|stringformat:'i'|add:"@"|add:name %}
-                                <div class="collapse" id="collapse-{{ name }}">
-                                    <div class="card card-body">
-                                        <div class=" d-flex flex-wrap">
-                                            {% for word in words %}
-                                                {% word_btn word %}
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
+                    {% genre_btn_collapse "TENIR" %}
                 </div>
-
             </div>
         </div>
-
-
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Thèmes sémantiques | Semantic themes</h4>
@@ -73,17 +53,7 @@
             <h4 class="card-title">Parties du discours | Parts of speech</h4>
             <p class="card-text"></div>
     </div>
-
-    {% for name, words in genres.items %}
-        <div>
-            {% genre_btn words|length|stringformat:'i'|add:"@"|add:name %}
-            <div class="collapse" id="collapse-{{ name }}">
-                <div class="card card-body  d-flex flex-wrap">
-                    {% for word in words %}
-                        {% word_btn word %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+    {% for genre in genres %}
+        {% genre_btn_collapse genre %}
     {% endfor %}
 {% endblock %}

@@ -15,8 +15,15 @@ def genre_detail(request, genre):
 
 def genre_list(request):
     return render(request, 'pages/genre_list_page.html', {
-        "genres": all_genres_to_words,
+        "genres": all_genres_to_words(),
     })
+
+
+def word_list_by_prefix(request, prefix):
+    context = {
+        "words": all_words,
+    }
+    return render(request, 'pages/word_list_page.html', context)
 
 
 def word_list(request):
