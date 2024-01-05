@@ -1,21 +1,38 @@
 {% extends "base_page.html" %}
-{% block subtitle %}Notes techniques | {% endblock %}
+{% load static %}
+{% load i18n %}
+{% block subtitle %}{% trans "Technical notes" %} | {% endblock %}
 {% block content %}
     <div class="card">
         <div class="card-body">
-            <h2 class="card-title"> Notes techniques | Technical notes </h2>
-
+            <h2 class="card-title"> {% trans "Technical notes" %}</h2>
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title"> Auteur | Author </h4>
+                    <h4 class="card-title">{% trans "Author" %}</h4>
                     <p class="card-text"> Mitchell Verter
                     </p></div>
             </div>
 
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title"> Email </h4>
-                    <a href="mailto:vertm098@newschool.edu">mailto:vertm098@newschool.edu</a>
+                    <h4 class="card-title">Email </h4>
+                    <div class="d-flex align-center align-self-center mt-20 mb-20">
+                        <span>
+                            <a href="mailto:vertm098@newschool.edu">mitchell.verter@gmail.com</a>
+                        </span>
+                        <span>&nbsp;{% trans 'or' %}&nbsp;</span>
+                        <div class="text-h4">
+                            <a href="mailto:roadrunner@waste.org">
+                                <span>
+                                roadrunner@waste.org
+                            </span>
+                                <span>
+                                    <img src="{% static 'images/roadrunnerAtWaste.jpg' %}" height="25" width="100"/>
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -37,22 +54,22 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title"> Sources </h4>
-                    <ul>
-                        <li>Français
+                    <ul class="list-group ml-4">
+                        <li class="list-group-item">Français
                             <ol>
                                 <li> {{ titles.ti.long.french }}. Livres de Poche, Paris.</li>
                                 <li> {{ titles.otb.long.french }}. Livres de Poche, Paris.</li>
                             </ol>
                         </li>
-                        <li> English
+                        <li class="list-group-item"> English
                             <ol>
                                 <li> {{ titles.ti.long.english }}, tr. Alphonso Lingis. Duquesne University Press</li>
                                 <li> {{ titles.otb.long.englis }}, tr. Alphonso Lingis. Duquense University Press</li>
                             </ol>
                         </li>
-                        <li> Diccionaires | Dictionaries
+                        <li class="list-group-item"> Diccionaires | Dictionaries
                             <ul>
-                                <li> Français
+                                <li class="list-group-item" class="list-group-item"> Français
                                     <ul>
                                         <li><a href="https://www.cnrtl.fr/" target="_blank">Centre National de
                                             Ressources Textuelles et Lexicales</a></li>
@@ -80,45 +97,23 @@
                 </div>
             </div>
 
-            <ul class="list-group">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <ul class="list-group">
-                <li>Jarry, Alfred. <cite>Gestes et opinions du docteur Faustroll, pataphysicien</cite></li>
-                <li>Verter, Mitchell. "Levinas, Perverter"</li>
-                <li>Derrida, Jacques. Violence and Metaphysics</li>
-                <li>Rolland, Jacques. The Ethics of Ambiguity</li>
-                <li>Llewelyn, John. Emmanuel Levinas: The Geneaology of Ethics</li>
-                <li>Lingis, Alphonso. Preface to Otherwise than Being</li>
-                <li>Peperzak, Adriaan. To the Other.</li>
-                <li>Verter, Mitchell. Chronology of Levinas's Metaphorics</li>
-                <li>Blanchot on ex</li>
-                <li>Susskind, Leonard</li>
-                <li>Smith, David Eugene. A History of Modern Mathematics</li>
-                <li>Einstein Albert General Relativity</li>
-                <li>Paper on Curvature</li>
-                <li>deBroglie, Louis</li>
-                <li>Smith, David Woodruff.</li>
-                <li>Rolland, Jacques. Introduction to De L'evasion</li>
-                <li>Lyotard, Jean-Francois. Le Logique de Levinas</li>
-                <li>Brunschvicg, Léon. Les étapes de la philosophie mathématique, Paris, Félix Alcan, 1912.</li>
-                <li>Bergson</li>
-                <li>Russell, Bertrand</li>
-                <li>Husserl, Edmund</li>
-                <li>Deleuze, Gilles and Felix Guattari, A thousand Plateaus.</li>
-                <li>Deleuze, Gilles. Difference and Repitition.</li>
-                <li>Husserl. Ideas
-                </li>
-                <li>Philosophy of arithmetic</li>
-                <li>Reimann abelian surfaces</li>
-                <li>riemann bernhard Ueber die Hypothesen, welche der Geometrie zu Grunde liegen.</li>
-                <li>https://www.deutschestextarchiv.de/book/view/riemann_hypothesen_1867?p=7</li>
-                <li>de Broglie, Louis. Ondes et quanta (1923)</li>
-                <li>https://www.academie-sciences.fr/pdf/dossiers/Broglie/Broglie_pdf/CR1923_p507.pdf</li>
+            <ul class="list-group ml-4">
+                {% for book in books %}
+                    <li class="list-group-item">
+                        {{ book.author }}.
+                        <cite>{{ book.title }}.</cite>
+                        {% if book.publisher %}
+                            {{ book.publisher }}
+                            {% if book.year %}
+                                , {{ book.year }}
+                            {% endif %}
+                            .
+                        {% endif %}
+                        {% if book.link %}
+                            {{ book.link }}
+                        {% endif %}
+                    </li>
+                {% endfor %}
             </ul>
             <div class="card">
                 <div class="card-body">
@@ -142,3 +137,11 @@
     manifolds, e.g.,‘ +’ is not the sign for numerical addition, but for any connection for which
     laws of the form a + b = b + a, etc., hold.
 </div>
+
+
+itself. To
+speak, in a word, is to seek the source of meaning in the prefix that the words
+exile, exodus, existence, exteriority, and estrangement are committed to unfolding
+in various modes of experience; a prefix that for us designates distance and
+separation as the origin of all "positive value."
+Assuredly, it would be rash to claim to represent Judaism by all

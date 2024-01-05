@@ -3,6 +3,7 @@ from django.utils.translation import gettext as _
 
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words
+from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_data import all_words, proportion_ti_to_otb
 from .models import Word
 
@@ -82,4 +83,7 @@ def summary(request):
 
 
 def technical(request):
-    return render(request, 'pages/technical_page.html')
+    books = [
+
+    ]
+    return render(request, 'pages/technical_page.html', {"books": ALL_REFERENCE_BOOKS})
