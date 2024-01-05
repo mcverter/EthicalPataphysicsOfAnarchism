@@ -100,17 +100,17 @@
             <ul class="list-group ml-4">
                 {% for book in books %}
                     <li class="list-group-item">
-                        {{ book.author }}.
+                        {{ book.author }}
+                        {% if book.year %}
+                            ({{ book.year }})
+                        {% endif %}
+                        .
                         <cite>{{ book.title }}.</cite>
                         {% if book.publisher %}
-                            {{ book.publisher }}
-                            {% if book.year %}
-                                , {{ book.year }}
-                            {% endif %}
-                            .
+                            {{ book.publisher }}.
                         {% endif %}
                         {% if book.link %}
-                            {{ book.link }}
+                            <a href="{{ book.link }}">{{ book.link }}</a>
                         {% endif %}
                     </li>
                 {% endfor %}
