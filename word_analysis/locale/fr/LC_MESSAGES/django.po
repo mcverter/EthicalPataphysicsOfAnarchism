@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 15:20-0500\n"
+"POT-Creation-Date: 2024-01-05 12:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,85 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-#: .\pages\word_detail_page.html:5
-msgid "hello"
-msgstr "Bonjour"
+
+#: .\templates\includes\info\count_alerts.html:3
+msgid "Word counts are approximate."
+msgstr "Les quantités de mots sont approximatives"
+
+#: .\templates\includes\info\count_alerts.html:23
+msgid "Formula for \"Proportion\""
+msgstr "Formule de \"Proportion\""
+
+#: .\templates\includes\site_nav.html:7
+msgid "Project Summary"
+msgstr "Résumé du projet"
+
+#: .\templates\includes\site_nav.html:12
+msgid "Word list"
+msgstr "Liste de mots"
+
+#: .\templates\includes\site_nav.html:18
+#, fuzzy
+#| msgid "Thematic Genres"
+msgid "Thematic Genres (GT)"
+msgstr "Genres Thématiques (GT)"
+
+#: .\templates\includes\site_nav.html:23
+msgid "Internal and external relations"
+msgstr ""
+
+#: .\templates\includes\site_nav.html:27
+#: .\templates\pages\technical_page.html:4
+#: .\templates\pages\technical_page.html:8
+msgid "Technical notes"
+msgstr "Notes techniques"
+
+#: .\templates\includes\word_page\counts.html:9
+#: .\templates\pages\word_list_page.html:11
+msgid "Sum"
+msgstr "Somme"
+
+#: .\templates\includes\word_page\counts.html:12
+msgid "Proportion"
+msgstr ""
+
+#: .\templates\pages\technical_page.html:11
+msgid "Author"
+msgstr "Auteur"
+
+#: .\templates\pages\technical_page.html:23
+msgid "or"
+msgstr "ou"
+
+#: .\templates\pages\word_detail_page.html:6
+msgid "for"
+msgstr "pour"
+
+#: .\templates\pages\word_list_page.html:8
+msgid "Word"
+msgstr "Mot"
+
+#: .\templates\pages\word_list_page.html:9
+#: .\templates\pages\word_list_page.html:10
+msgid "Quantity"
+msgstr "Quantité"
+
+#: .\templates\pages\word_list_page.html:9
+#: .\templates\pages\word_list_page.html:10
+msgid "in"
+msgstr "en"
+
+#: .\templates\pages\word_list_page.html:9
+msgid "Totality"
+msgstr "Totalité"
+
+#: .\templates\pages\word_list_page.html:10
+msgid "Otherwise"
+msgstr "Autrement"
+
+#: .\templates\pages\word_list_page.html:13
+msgid "More information and texts"
+msgstr "Plus d'information et textes"
+
+#~ msgid "Genre membership"
+#~ msgstr "Appartenance à un genre"

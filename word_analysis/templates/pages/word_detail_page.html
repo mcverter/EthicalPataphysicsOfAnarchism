@@ -3,7 +3,7 @@
 {% load radical_empricism_filters %}
 {% block subtitle %}Information for {{ word.french }} | {% endblock %}
 {% block content %}
-    <h1> {% trans "Information for" %}
+    <h1> Information for {% trans "for" %}
         {{ word.french }}
         {% if request.LANGUAGE_CODE|does_not_start_with:"fr" %}
             ({{ word.english }})

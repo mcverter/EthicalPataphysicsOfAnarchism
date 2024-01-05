@@ -1,7 +1,7 @@
 from django.urls import re_path
 
 from .views import debug_test, word_detail, word_list, bilingual_content_page, technical, summary, relations, \
-    membership, genre_list, genre_detail
+    genre_list, genre_detail
 
 urlpatterns = [
     re_path(r"^words|mots$", word_list, name="words"),
@@ -27,7 +27,6 @@ urlpatterns = [
 
     # TODO: move these to BCP
     re_path(r"^relations$", relations, name="relations"),
-    re_path(r"^membership$", membership, name="membership"),
     re_path(r"^summary|resume$", summary, name="summary"),
     re_path(r"^technical|technique$", technical, name="technical"),
 ]

@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.utils.translation import gettext as _
 
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words
@@ -46,7 +45,6 @@ def word_detail(request, word):
     otb_lines = book_word.book_line.all().order_by('line').filter(book=OTB)
     ti_lines = book_word.book_line.all().order_by('line').filter(book=TI)
     context = {
-        'hello': _('Hello'),
         "word": book_word,
         "sum": book_word.ti + book_word.otb,
         "proportion": proportion_ti_to_otb(book_word.ti, book_word.otb),
@@ -67,11 +65,6 @@ def bilingual_content_page(request):
 # for on-the-fly UI testing
 def debug_test(request):
     return render(request, 'pages/debug_test.html')
-
-
-# refactor these all to bilingualW
-def membership(request):
-    return render(request, 'pages/membership_page.html')
 
 
 def relations(request):

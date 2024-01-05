@@ -1,10 +1,14 @@
+{% load i18n %}
 <div class="alert alert-warning">
-    {% bilingual_vertical "Les quantités de mots sont approximatives@Word counts are approximate." %}
-    {% bilingual_vertical "Il y a eu quelques erreurs mineures d'analyse de texte qui seront corrigées dans une prochaine version.@There were a few minor text parsing errors which will be fixed in a future release" %}
+    {% trans "Word counts are approximate." %}
+
+    {% trans "Il y a eu quelques erreurs mineures d'analyse de texte qui seront corrigées dans une prochaine
+    version.@There were a few minor text parsing errors which will be fixed in a future release" %}
 </div>
 
 <div class="alert alert-warning">
-    {% bilingual_vertical "Plusieurs relations n'ont pas encore été capturés@Several relations have not yet been captured" %}
+    {% trans "Plusieurs relations n'ont pas encore été capturés@Several relations have not yet been
+    captured" %}
     <ol>
         <li>Capitalisation -- eg "Autrui" vs "autrui"</li>
         <li>Reflexives -- eg "s'exprimer", "se monter"</li>
@@ -16,8 +20,7 @@
     </ol>
 </div>
 <div class="alert alert-info">
-    {% bilingual_vertical 'Formule de "Proportion"@Formula for "Proportion"' %}
-
+    {% trans 'Formula for "Proportion"' %}
     <pre><code>
     TOTAL_TI_WORDS = 108498
     TOTAL_OTB_WORDS = 80797

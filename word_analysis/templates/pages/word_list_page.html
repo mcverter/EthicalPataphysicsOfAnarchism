@@ -1,15 +1,16 @@
 {% extends "base_page.html" %}
+{% load i18n %}
 {% block subtitle %}Liste de mots | {% endblock %}
 {% block content %}
     <table id="word_listing" class="display table-striped table-bordered compact border-top border-dark rounded mt-20">
         <thead class="thead-dark">
         <tr>
-            <th>{% bilingual_vertical "Mot@Word" %}</th>
-            <th>{% bilingual_vertical 'Quantité en "Totalité"@Quantity in "Totality"' %}</th>
-            <th>{% bilingual_vertical 'Quantité en "Autrement"@Quantity in "Otherwise"' %}</th>
-            <th>{% bilingual_vertical "Somme@Sum" %}</th>
-            <th>{% bilingual_vertical "Proportion@Proportion" %}</th>
-            <th>{% bilingual_vertical "Plus d'information et textes@More information and texts" %}</th>
+            <th>{% trans "Word" %}</th>
+            <th>{% trans "Quantity" %} {% trans "in" %} <cite>{% trans "Totality" %}</cite></th>
+            <th>{% trans "Quantity" %} {% trans "in" %} <cite>{% trans "Otherwise" %}</cite></th>
+            <th>{% trans "Sum" %}</th>
+            <th>Proportion</th>
+            <th>{% trans "More information and texts" %}</th>
         </tr>
         </thead>
         <tbody>
