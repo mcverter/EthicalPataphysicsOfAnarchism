@@ -1,8 +1,14 @@
 {% extends "base_page.html" %}
-{% block subtitle %}Information for {{ word.french }}{% endblock %}
+{% load i18n %}
+{% load radical_empricism_filters %}
+{% block subtitle %}Information for {{ word.french }} | {% endblock %}
 {% block content %}
-    <h1> Information for {{ word.french }} ({{ word.english }})</h1>
-
+    <h1> {% trans "Information for" %}
+        {{ word.french }}
+        {% if request.LANGUAGE_CODE|does_not_start_with:"fr" %}
+            ({{ word.english }})
+        {% endif %}
+    </h1>
     <nav>
         <div class="nav nav-tabs" id="word-nav-tab" role="tablist">
             <button class="nav-link active" id="nav-counts-tab" data-bs-toggle="tab" data-bs-target="#nav-counts"
