@@ -1,15 +1,15 @@
 import re
+
 import requests
 from bs4 import BeautifulSoup
 
+from business_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from business_logic.logger.db_logger import log_and_print_error
 from constants import (TABLE_WORD,
                        COLUMN_ENGLISH,
                        COLUMN_ETYMOLOGY,
                        COLUMN_ENGLISH_EXPLANATION,
-                       SITE_ENGLISH_ETYMOLOGY)
-
-from business_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
-from business_logic.logger.db_logger import log_and_print_error
+                       SITE_ENGLISH_ETYMOLOGY_URL)
 
 OFFSET: int = 10600
 
@@ -34,7 +34,7 @@ class EnglishEtymologyUpdater(ForeignKeyUpdater):
 
     def get_fk_value_from_main_where_value(self, where_value):
         if where_value:
-            english_url = f'{SITE_ENGLISH_ETYMOLOGY}{where_value}'
+            english_url = f'{SITE_ENGLISH_ETYMOLOGY_URL}{where_value}'
             page = requests.get(english_url, timeout=10)
             soup = BeautifulSoup(page.content, "html.parser")
             results = soup.find_all('div')

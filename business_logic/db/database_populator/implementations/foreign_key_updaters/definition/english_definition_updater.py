@@ -3,15 +3,16 @@ import functools
 import requests
 from bs4 import BeautifulSoup
 
-from constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
-    SITE_ENGLISH_DEFINITIONS, COLUMN_ENGLISH_EXPLANATION
 from business_logic.db.database_populator.foreign_key_updater import ForeignKeyUpdater
+from constants import TABLE_WORD, COLUMN_DEFINITION, COLUMN_ENGLISH, \
+    SITE_ENGLISH_DEFINITIONS_URL, COLUMN_ENGLISH_EXPLANATION
+
 # TODO: this should be an arg to the constructor
 OFFSET: int = 0
 
 
 def find_english_definition(english):
-    url = SITE_ENGLISH_DEFINITIONS + english
+    url = SITE_ENGLISH_DEFINITIONS_URL + english
     page = requests.get(url, timeout=60)
     soup = BeautifulSoup(page.content, "html.parser")
     results = soup.find_all('div', {"class": "sense-content"})

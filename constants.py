@@ -62,9 +62,12 @@ TI_FRENCH_SENTENCES = os.path.join(PATH_SENTENCES, 'ti_french_sentences.json')
 OTB_ENGLISH_SENTENCES = os.path.join(PATH_SENTENCES, 'otb_english_sentences.json')
 TI_ENGLISH_SENTENCES = os.path.join(PATH_SENTENCES, 'ti_english_sentences.json')
 
-SITE_FRENCH_DDF_ETYMOLOGY = "https://www.dictionnairedesfrancophones.org/form/"
-SITE_FRENCH_DDF_TOKEN = "jss104"
-SITE_ENGLISH_ETYMOLOGY = "https://www.etymonline.com/search?q="
-SITE_ENGLISH_DEFINITIONS = "https://www.merriam-webster.com/dictionary/"
-SITE_FRENCH_CNRTL_ETYMOLOGY = "https://www.cnrtl.fr/etymologie/"
+SITE_ENGLISH_ETYMOLOGY_URL = "https://www.etymonline.com/search?q="
+SITE_FRENCH_DEFINITIONS_URL = "https://www.larousse.fr/dictionnaires/francais/"
+SITE_ENGLISH_DEFINITIONS_URL = "https://www.merriam-webster.com/dictionary/"
+SITE_FRENCH_ETYMOLOGY_URL = "https://www.cnrtl.fr/etymologie/"
 SITE_FRENCH_CNRTL_TOKEN = "tlf_cvedette"
+SITE_ENGLISH_ETYMOLOGY_NAME = "Etymonline - Online  Etymology Dictionary"
+SITE_ENGLISH_DEFINITIONS_NAME = "Merriam Webster"
+SITE_FRENCH_ETYMOLOGY_NAME = "Centre National de Ressources Textuelles et Lexicales"
+SITE_FRENCH_DEFINITIONS_NAME = "Larousse"

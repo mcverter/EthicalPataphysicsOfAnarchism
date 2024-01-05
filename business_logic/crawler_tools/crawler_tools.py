@@ -3,7 +3,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from constants import SITE_FRENCH_CNRTL_ETYMOLOGY
+from constants import SITE_FRENCH_ETYMOLOGY_URL
 
 
 def get_soup_from_url(url):
@@ -18,7 +18,7 @@ def get_single_div_using_bs4(url, token):
 
 
 def get_cntrl_eymology(word):
-    page = requests.get(SITE_FRENCH_CNRTL_ETYMOLOGY + word, timeout=10)
+    page = requests.get(SITE_FRENCH_ETYMOLOGY_URL + word, timeout=10)
     text = page.text
     start = text.find('Étymol. et Hist.')
     end = text.find('</div', start)

@@ -1,7 +1,9 @@
-from constants import OTB_FULL_FRENCH_TITLE, OTB_FULL_ENGLISH_TITLE, TI_FULL_FRENCH_TITLE, \
-    TI_FULL_ENGLISH_TITLE, \
-    OTB_SHORT_FRENCH_TITLE, OTB_SHORT_ENGLISH_TITLE, TI_SHORT_FRENCH_TITLE, TI_SHORT_ENGLISH_TITLE, \
-    TI, OTB
+from constants import (OTB_FULL_FRENCH_TITLE, OTB_FULL_ENGLISH_TITLE, TI_FULL_FRENCH_TITLE, \
+                       TI_FULL_ENGLISH_TITLE, \
+                       OTB_SHORT_FRENCH_TITLE, OTB_SHORT_ENGLISH_TITLE, TI_SHORT_FRENCH_TITLE, TI_SHORT_ENGLISH_TITLE, \
+                       TI, OTB, SITE_ENGLISH_ETYMOLOGY_URL, SITE_FRENCH_ETYMOLOGY_URL, SITE_FRENCH_ETYMOLOGY_NAME,
+                       SITE_ENGLISH_DEFINITIONS_NAME, SITE_FRENCH_DEFINITIONS_URL, SITE_FRENCH_DEFINITIONS_NAME,
+                       SITE_ENGLISH_DEFINITIONS_URL, SITE_ENGLISH_ETYMOLOGY_NAME)
 
 
 def messages_context(request):
@@ -13,6 +15,29 @@ def messages_context(request):
 
 
 def title_context(request):
+    sources = {
+        "definition": {
+            "french": {
+                "url": SITE_FRENCH_DEFINITIONS_URL,
+                "name": SITE_FRENCH_DEFINITIONS_NAME,
+            },
+            "english": {
+                "url": SITE_ENGLISH_DEFINITIONS_URL,
+                "name": SITE_ENGLISH_DEFINITIONS_NAME
+            }
+        },
+        "etymology": {
+            "french": {
+                "url": SITE_FRENCH_ETYMOLOGY_URL,
+                "name": SITE_FRENCH_ETYMOLOGY_NAME,
+            },
+            "english": {
+                "url": SITE_ENGLISH_ETYMOLOGY_URL,
+                "name": SITE_ENGLISH_ETYMOLOGY_NAME,
+            }
+        }
+    }
+
     titles = {
         TI: {
             "short": {
@@ -37,7 +62,7 @@ def title_context(request):
         }
 
     }
-    return {"titles": titles}
+    return {"titles": titles, "sources": sources}
 
 
 '''

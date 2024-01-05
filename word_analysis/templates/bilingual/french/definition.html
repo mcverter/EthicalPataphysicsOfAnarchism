@@ -1,6 +1,19 @@
-<h4 class="card-title"> Définition </h4>
 {% if word.definition.french_explanation %}
-    <p class="card-text"> {{ word.definition.french_explanation }}</p>
+    <h4 class="card-title"> Étymologie </h4>
+    <div>
+        <blockquote class="blockquote">
+            <p class="mb-4">{{ word.definition.french_explanation }}</p>
+
+            <footer class="blockquote-footer">
+                {{ sources.definition.french.name }}
+                <cite title="Source Title">
+                    <a href="{{ sources.definition.french.url }}{{ word }}" target="_blank">
+                        {{ sources.definition.french.url }}{{ word }}
+                    </a>
+                </cite>
+            </footer>
+        </blockquote>
+    </div>
 {% else %}
     {{ sysmsg.no_value_yet_fr }}
 {% endif %}
