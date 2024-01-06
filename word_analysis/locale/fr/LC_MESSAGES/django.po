@@ -64,12 +64,6 @@ msgstr "Appartenance à un genre"
 msgid "Internal and external relations"
 msgstr "Relations internes et externes"
 
-#: .\templates\bilingual\english\abstract.html:22
-#, fuzzy
-#|
-msgid "Technical notes"
-msgstr "Notes techniques"
-
 #: .\templates\bilingual\english\combination.html:2
 msgid "Combinations"
 msgstr "Combinations"
