@@ -76,7 +76,4 @@ def summary(request):
 
 
 def technical(request):
-    books = [
-
-    ]
     return render(request, 'pages/technical_page.html', {"books": ALL_REFERENCE_BOOKS})

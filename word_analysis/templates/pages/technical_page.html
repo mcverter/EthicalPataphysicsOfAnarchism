@@ -69,7 +69,7 @@
                         </li>
                         <li class="list-group-item"> Diccionaires | Dictionaries
                             <ul>
-                                <li class="list-group-item" class="list-group-item"> Français
+                                <li class="list-group-item" class="list-group-item">Français
                                     <ul>
                                         <li><a href="https://www.cnrtl.fr/" target="_blank">Centre National de
                                             Ressources Textuelles et Lexicales</a></li>
@@ -107,8 +107,9 @@
                         .
                         <cite>{{ book.title }}.</cite>
                         {% if book.publisher %}
-                            {{ book.publisher }}.
+                            {{ book.publisher }}
                         {% endif %}
+                        <span>.</span>
                         {% if book.link %}
                             <a href="{{ book.link }}">{{ book.link }}</a>
                         {% endif %}

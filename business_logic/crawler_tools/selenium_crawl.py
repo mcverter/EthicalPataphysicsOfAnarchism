@@ -5,9 +5,6 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-from constants import (SITE_FRENCH_DDF_ETYMOLOGY,
-                       SITE_FRENCH_DDF_TOKEN)
-
 driver = webdriver.Chrome(service=ChromeService(
     ChromeDriverManager().install()))
 driver.implicitly_wait(20)  # gives an implicit wait for 20 seconds
@@ -31,7 +28,3 @@ def get_single_div_using_selenium(url, token):
         except Exception as error2:
             print(f"Second Selenium Exception {error2}, {type(error2)}")
             return None
-
-
-def get_dictionaire_des_francophone_etymology(word):
-    return get_single_div_using_selenium(SITE_FRENCH_DDF_ETYMOLOGY + word, SITE_FRENCH_DDF_TOKEN)

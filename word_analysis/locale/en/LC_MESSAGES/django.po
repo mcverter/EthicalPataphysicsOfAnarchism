@@ -16,37 +16,36 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: .\templates\includes\info\count_alerts.html:3
 msgid "Word counts are approximate."
-msgstr "Les quantités de mots sont approximatives"
+msgstr ""
 
 #: .\templates\includes\info\count_alerts.html:23
 msgid "Formula for \"Proportion\""
-msgstr "Formule de \"Proportion\""
+msgstr ""
 
 #: .\templates\includes\site_header.html:6
 msgid "Radical Empiricism"
-msgstr "Empirisme Radical"
+msgstr ""
 
 #: .\templates\includes\site_header.html:10
-msgid "A topological analysis of metaphorical manifolds in the texts of Emmanuel Levinas"
-msgstr "Une analyse topologique des variétés métaphoriques dans les textes d'Emmanuel Levinas"
+msgid ""
+"A topological analysis of metaphorical manifolds in the texts of Emmanuel "
+"Levinas"
+msgstr ""
 
 #: .\templates\includes\site_nav.html:7
 msgid "Project Summary"
-msgstr "Résumé du projet"
+msgstr ""
 
 #: .\templates\includes\site_nav.html:12
 msgid "Word list"
-msgstr "Liste de mots"
+msgstr ""
 
 #: .\templates\includes\site_nav.html:18
-#, fuzzy
-#| msgid "Thematic Genres"
 msgid "Thematic Genres (GT)"
-msgstr "Genres Thématiques (GT)"
+msgstr ""
 
 #: .\templates\includes\site_nav.html:23
 msgid "Internal and external relations"
@@ -56,12 +55,12 @@ msgstr ""
 #: .\templates\pages\technical_page.html:4
 #: .\templates\pages\technical_page.html:8
 msgid "Technical notes"
-msgstr "Notes techniques"
+msgstr ""
 
 #: .\templates\includes\word_page\counts.html:9
 #: .\templates\pages\word_list_page.html:11
 msgid "Sum"
-msgstr "Somme"
+msgstr ""
 
 #: .\templates\includes\word_page\counts.html:12
 msgid "Proportion"
@@ -69,41 +68,38 @@ msgstr ""
 
 #: .\templates\pages\technical_page.html:11
 msgid "Author"
-msgstr "Auteur"
+msgstr ""
 
 #: .\templates\pages\technical_page.html:23
 msgid "or"
-msgstr "ou"
+msgstr ""
 
 #: .\templates\pages\word_detail_page.html:6
 msgid "for"
-msgstr "pour"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:8
 msgid "Word"
-msgstr "Mot"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:9
 #: .\templates\pages\word_list_page.html:10
 msgid "Quantity"
-msgstr "Quantité"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:9
 #: .\templates\pages\word_list_page.html:10
 msgid "in"
-msgstr "en"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:9
 msgid "Totality"
-msgstr "Totalité"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:10
 msgid "Otherwise"
-msgstr "Autrement"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:13
 msgid "More information and texts"
-msgstr "Plus d'information et textes"
-
-#~ msgid "Genre membership"
-#~ msgstr "Appartenance à un genre"
+msgstr ""
