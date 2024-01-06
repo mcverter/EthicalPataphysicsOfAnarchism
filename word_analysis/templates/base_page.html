@@ -5,24 +5,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{% static 'images/alien.jpg' %}">
-    <link rel="stylesheet" href="{% static '/scss/bootstrap5.3.2.min.css' %}">
-    <link rel="stylesheet" href="{% static '/scss/bootstrap5.3.2.min.css' %}">
-    <link rel="stylesheet" href="{% static '/scss/fontawesome6.1.2.min.css' %}">
-    <link rel="stylesheet" href="{% static '/scss/datatables1.11.5.min.css' %}">
-    <link rel="stylesheet" href="{% static '/scss/app.css' %}">
-    <script src="{% static 'js/jquery3.7.1.js' %}"></script>
+    <link rel="icon" href="{% static "images/alien.jpg" %}">
+    <link rel="stylesheet" href="{% static "/scss/bootstrap5.3.2.min.css" %}">
+    <link rel="stylesheet" href="{% static "/scss/bootstrap5.3.2.min.css" %}">
+    <link rel="stylesheet" href="{% static "/scss/fontawesome6.1.2.min.css" %}">
+    <link rel="stylesheet" href="{% static "/scss/datatables1.11.5.min.css" %}">
+    <link rel="stylesheet" href="{% static "/scss/app.css" %}">
+    <script src="{% static "js/jquery3.7.1.js" %}"></script>
     <title>{% block subtitle %}  {% endblock %} Emmanuel Levinas: Empirisme radical</title>
     {% block css_files %}{% endblock %}
-    <script src="{% static 'js/jquery3.7.1.js' %}"></script>
+    <script src="{% static "js/jquery3.7.1.js" %}"></script>
 </head>
 <body>
 <div class="container">
-    {% include 'includes/site_header.html' %}
+    {% include "includes/site_header.html" %}
     {% block content %}
     {% endblock %}
 </div>
-<script src="{% static 'js/bootstrap5.3.2.bundle.min.js' %}"></script>
-<script src="{% static 'js/datatables1.11.5.min.js' %}"></script>
+<script src="{% static "js/bootstrap5.3.2.bundle.min.js" %}"></script>
+<script src="{% static "js/datatables1.11.5.min.js" %}"></script>
 </body>
 </html>
