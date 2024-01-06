@@ -5,80 +5,78 @@
 # 
 #, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-06 15:42-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-01-06 15:42-0500\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: .\templates\bilingual\english\abstract.html:2
 msgid "Abstract"
-msgstr ""
+msgstr "Resume"
 
 #: .\templates\bilingual\english\abstract.html:3
-msgid ""
-"Levinas's work can be understood better by mapping the relations within and "
-"between multiple dimensions of topological manifolds that describe the "
-"thematic tensor transformations within and between various Thematic Genres "
-"(GT)."
-msgstr ""
+msgid "Levinas's work can be understood better by mapping the relations within and between multiple dimensions of topological manifolds that describe the thematic tensor transformations within and between various Thematic Genres (GT)."
+msgstr "Le travail de Levinas peut être mieux compris en cartographiant les relations
+    au sein et entre
+    plusieurs dimensions de
+    topologique
+    variétés qui décrivent les transformations tensorielles thématiques au sein et entre diverses
+    thématiques
+    Genres (GT)"
 
 #: .\templates\bilingual\english\abstract.html:4
-msgid ""
-"Many great works have been written mapping the relations between Levinas's "
-"language and those of other philosophers such as Heidegger, Husserl, or "
-"Hegel."
-msgstr ""
+msgid "Many great works have been written mapping the relations between Levinas's language and those of other philosophers such as Heidegger, Husserl, or Hegel."
+msgstr "De nombreux grands ouvrages ont été écrits décrivant les relations entre la
+    langue de Levinas et
+    ceux des autres
+    philosophes
+    comme Heidegger, Husserl ou Hegel"
 
 #: .\templates\bilingual\english\abstract.html:5
-msgid ""
-"However, there remains much work to be done to investigate the structure of "
-"Levinas's books, the structure of his sentences and phrases, the rules for "
-"the functional transformations of terms, the patterns that govern their "
-"periodic recurrence and their juxtaposition against other metaphoric terms."
-msgstr ""
+msgid "However, there remains much work to be done to investigate the structure of Levinas's books, the structure of his sentences and phrases, the rules for the functional transformations of terms, the patterns that govern their periodic recurrence and their juxtaposition against other metaphoric terms."
+msgstr "Cependant, il reste beaucoup de travail à faire pour étudier la structure du
+    système de Levinas.
+    livres, la structure de
+    son
+    les phrases et les expressions, les règles de transformations fonctionnelles des termes, les
+    modèles qui régissent leur
+    récurrence périodique et leur juxtaposition avec d’autres termes métaphoriques"
 
 #: .\templates\bilingual\english\abstract.html:6
-msgid ""
-"Already in his earliest published works, Levinas displays extraordinary "
-"attention to linguistic morphemes and their metaphorical dimensions. In his "
-"1932 article that introduced Heidegger to the francophone world, Martin "
-"Heidegger et l'ontologie, Levinas explains his decision to translate "
-"Heidegger's term Zuhandenheit as maniabilite because he wishes to 'take this "
-"term in its etymological sense' 35, preserving the root's reference to the "
-"hand. In a conversation shortly after the end of the second world war, "
-"Levinas explicitly reflects upon the importance of morphemes in Heidegger's "
-"thought, explaining that what Heidegger's linguistic constructions Being-in-"
-"the-world, Being-towards-death, and Being-with add to our philosophical "
-"awareness 'is that these prepositions 'in', 'for', and 'with' are in the "
-"root of the verb 'to be' (as 'ex' is in the root of the verb 'to exist')'."
-msgstr ""
+msgid "Already in his earliest published works, Levinas displays extraordinary attention to linguistic morphemes and their metaphorical dimensions. In his 1932 article that introduced Heidegger to the francophone world, Martin Heidegger et l'ontologie, Levinas explains his decision to translate Heidegger's term Zuhandenheit as maniabilite because he wishes to 'take this term in its etymological sense' 35, preserving the root's reference to the hand. In a conversation shortly after the end of the second world war, Levinas explicitly reflects upon the importance of morphemes in Heidegger's thought, explaining that what Heidegger's linguistic constructions Being-in-the-world, Being-towards-death, and Being-with add to our philosophical awareness 'is that these prepositions 'in', 'for', and 'with' are in the root of the verb 'to be' (as 'ex' is in the root of the verb 'to exist')'."
+msgstr "Déjà dans ses premiers ouvrages publiés, Levinas manifeste une attention
+    extraordinaire à
+    morphèmes linguistiques
+    et leurs dimensions métaphoriques. Dans son article de 1932 qui présentait Heidegger au monde
+    francophone,
+    Martin Heidegger et
+    l’ontologie, Levinas explique sa décision de traduire le terme heideggerien Zuhandenheit par
+    maniabilité parce que
+    il souhaite « prendre ce terme dans son sens étymologique »35,
+    en préservant la référence de la racine à la main. Lors d'une conversation peu après
+    Après la fin de la Seconde Guerre mondiale, Levinas réfléchit explicitement à l'importance de
+    morphèmes dans la pensée de Heidegger, expliquant que ce que sont les morphèmes linguistiques de
+    Heidegger
+    Les constructions Être-au-monde, Être-vers-la-mort et Être-avec ajoutent à notre
+    La conscience philosophique « est que ces prépositions « dans », « pour » et « avec » sont au
+    racine du verbe « être » (comme « ex » est à la racine du verbe « exister ») »"
 
 #: .\templates\bilingual\english\abstract.html:7
-msgid ""
-"We should therefore assume that Levinas thinks deliberately about all "
-"aspects of language: of roots, prefixes, and suffixes; of the nominal, "
-"verbal, prepositional, adjectival, and adverbial parts of speech; of the "
-"active, middle, and passive voices; of the nominative, vocative, dative, "
-"genitive, ablative, accusative and even locative cases."
-msgstr ""
+msgid "We should therefore assume that Levinas thinks deliberately about all aspects of language: of roots, prefixes, and suffixes; of the nominal, verbal, prepositional, adjectival, and adverbial parts of speech; of the active, middle, and passive voices; of the nominative, vocative, dative, genitive, ablative, accusative and even locative cases."
+msgstr "Nous devrions donc supposer que Levinas réfléchit délibérément à tous les
+    aspects de
+    langue : de
+    racines, préfixes et suffixes ; du nominal, du verbal, du prépositionnel, de l'adjectival et
+    parties adverbiales du discours ; des voix actives, moyennes et passives ; du nominatif, du
+    vocatif, du datif,
+    cas génitif, ablatif, accusatif et même locatif."
 
 #: .\templates\bilingual\english\abstract.html:8
-msgid ""
-"This project endeavors to map out the topology of the manifold of these "
-"Thematic Genres(TG)"
-msgstr ""
+msgid "This project endeavors to map out the topology of the manifold of these Thematic Genres(TG)"
+msgstr "Ce projet s'efforce de cartographier la topologie de la diversité de ces
+    thématiques.
+    Genres (TG)"
 
 #: .\templates\bilingual\english\abstract.html:9
 msgid "The site is divided into the following sections:"
-msgstr ""
+msgstr "Le site est divisé en les sections suivantes"
 
 #: .\templates\bilingual\english\abstract.html:12
 #: .\templates\includes\site_nav.html:7
@@ -103,7 +101,7 @@ msgstr "Appartenance à un genre"
 #: .\templates\bilingual\english\abstract.html:20
 #: .\templates\includes\site_nav.html:23
 msgid "Internal and external relations"
-msgstr ""
+msgstr "Relations internes et externes"
 
 #: .\templates\bilingual\english\abstract.html:22
 #, fuzzy
@@ -113,42 +111,39 @@ msgstr "Notes techniques"
 
 #: .\templates\bilingual\english\combination.html:2
 msgid "Combinations"
-msgstr ""
+msgstr "Combinations"
 
 #: .\templates\bilingual\english\combination.html:3
-msgid ""
-"Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, "
-"adjectival and adverbial combinations all belong to various THEMATIC_GENRES. "
-"This enables a single word to envelop an N-ply manifold of THEMATIC_GENRES"
-msgstr ""
+msgid "Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, adjectival and adverbial combinations all belong to various THEMATIC_GENRES. This enables a single word to envelop an N-ply manifold of THEMATIC_GENRES"
+msgstr "Préfixes, suffixes, prépositions, racines étymologiques et
+    verbales, nominales, adjectivales et adverbiales
+    les combinaisons appartiennent toutes à différents THEMATIC_GENRES. Cela permet à un seul
+    mot d'envelopper un collecteur à N plis
+    de THEMATIC_GENRES."
 
 #: .\templates\bilingual\english\combination.html:5
 msgid "For example, the word"
-msgstr ""
+msgstr "Par exemple, le mot"
 
 #: .\templates\bilingual\english\combination.html:7
-msgid ""
-"belongs to the genre GENESIS because the etymological root is 'vivre'. It "
-"belongs to the genre MATHEMATICS because the prefix 'sur' connotes height"
+msgid "belongs to the genre GENESIS because the etymological root is 'vivre'. It belongs to the genre MATHEMATICS because the prefix 'sur' connotes height"
 msgstr ""
 
 #: .\templates\bilingual\english\combination.html:10
 msgid "The birth of the son is referred to as a"
-msgstr ""
+msgstr "La naissance du fils est appelée une"
 
 #: .\templates\bilingual\english\combination.html:12
-msgid ""
-"because it again rises (surgir) again (re), thus combining 'height' and "
-"'recurrence' from MATHEMATICS"
-msgstr ""
+msgid "because it again rises (surgir) again (re), thus combining 'height' and 'recurrence' from MATHEMATICS"
+msgstr "car elle monte (surgir) à nouveau (re), combinant ainsi "hauteur" et "récurrence" de MATHEMATICS"
 
 #: .\templates\bilingual\english\constellation.html:2
 msgid "Metaphorical constellations"
-msgstr ""
+msgstr "Constellations métaphoriques"
 
 #: .\templates\bilingual\english\constellation.html:3
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: .\templates\bilingual\english\constellation.html:8
 msgid "Analysis"
@@ -161,11 +156,13 @@ msgstr "Mot"
 
 #: .\templates\bilingual\english\constellation.html:13
 msgid "Categories"
-msgstr ""
+msgstr "Catégories"
 
 #: .\templates\bilingual\english\constellation.html:20
 msgid "GENESIS -- feminine, MATHEMATICS -- singular, also a homonym for "
-msgstr ""
+msgstr "GENESIS -- féminin, MATHEMATICS -- singulier, également homonyme de 'là' 
+            en français,
+            donc GEOMETRY"
 
 #: .\templates\bilingual\english\constellation.html:25
 #: .\templates\bilingual\english\constellation.html:40
@@ -174,12 +171,12 @@ msgstr ""
 
 #: .\templates\bilingual\english\constellation.html:30
 msgid "MATHEMATICS (a conjunction)"
-msgstr ""
+msgstr "MATHEMATICS (une conjonction)"
 
 #: .\templates\bilingual\english\constellation.html:35
 #: .\templates\bilingual\english\constellation.html:60
 msgid "See above"
-msgstr ""
+msgstr "Voir ci-dessus"
 
 #: .\templates\bilingual\english\constellation.html:45
 msgid "ONTOLOGY_PT -- relation"
@@ -187,17 +184,16 @@ msgstr ""
 
 #: .\templates\bilingual\english\constellation.html:50
 msgid "PHYSICS -- spacetime"
-msgstr ""
+msgstr "PHYSICS -- espace-temps"
 
 #: .\templates\bilingual\english\constellation.html:55
-msgid ""
-"Zero-dimensional space-time. GEOMETRY -- points on a map, PHYSICS -- points "
-"of time"
-msgstr ""
+msgid "Zero-dimensional space-time. GEOMETRY -- points on a map, PHYSICS -- points of time"
+msgstr "Espace-temps à dimension zéro. GEOMETRY -- points sur une carte, PHYSICS --
+            points de temps"
 
 #: .\templates\bilingual\english\constellation.html:63
 msgid "l'intervalle"
-msgstr ""
+msgstr "GEOMETRY -- Espace unidimensionnel"
 
 #: .\templates\bilingual\english\constellation.html:64
 msgid "GEOMETRY -- One-dimensional space"
@@ -221,19 +217,21 @@ msgid "GEOMETRY"
 msgstr ""
 
 #: .\templates\bilingual\english\constellation.html:85
-msgid ""
-"ONTOLOGY -- reflexive verbs have their own logic related to the reflexivity "
-"of the reduction, to the asymmetry that occurs because one can never see "
-"oneself from the outside: The Self can only see the Other. Only the Other "
-"can see the Self. The Self can never view the Self from the inside. The Self "
-"can only view the Self as an Other"
-msgstr ""
+msgid "ONTOLOGY -- reflexive verbs have their own logic related to the reflexivity of the reduction, to the asymmetry that occurs because one can never see oneself from the outside: The Self can only see the Other. Only the Other can see the Self. The Self can never view the Self from the inside. The Self can only view the Self as an Other"
+msgstr "ONTOLOGY -- les verbes réfléchis ont leur propre logique liée à la réflexivité de
+            la réduction,
+            à l'asymétrie qui se produit parce qu'on ne peut jamais se voir de l'extérieur : le
+            Soi peut
+            voir seulement l'Autre. Seul l'Autre peut voir le Soi. Le Soi ne peut jamais se voir
+            depuis le
+            à l'intérieur. Le Soi ne peut se considérer que comme un Autre
+        "
 
 #: .\templates\bilingual\english\constellation.html:90
-msgid ""
-"PHSYICS, GENESIS -- both space time intervals or geodesic neigborhoods, as "
-"well as a home for the family"
-msgstr ""
+msgid "PHSYICS, GENESIS -- both space time intervals or geodesic neigborhoods, as well as a home for the family"
+msgstr "PHSYICS, GENESIS -- à la fois des intervalles spatio-temporels ou des
+            voisinages géodésiques, ainsi qu'une maison
+            pour la famille"
 
 #: .\templates\bilingual\english\constellation.html:95
 msgid "GEOMETRY - within"
@@ -262,24 +260,22 @@ msgid "ONTOLOGY"
 msgstr ""
 
 #: .\templates\bilingual\english\constellation.html:139
-msgid ""
-"MATHEMATICS, GENESIS, GEOMETRY. The survivor is the one who lives on top of "
-"the one who died, who lives out the Beyond of the one who he has murdered, "
-"the father of the past"
-msgstr ""
+msgid "MATHEMATICS, GENESIS, GEOMETRY. The survivor is the one who lives on top of the one who died, who lives out the Beyond of the one who he has murdered, the father of the past"
+msgstr "MATHEMATICS, GENESIS, GEOMETRY. Le survivant est celui qui vit au-dessus de
+            celui qui
+            mort, qui vit l'Au-delà de celui qu'il a assassiné, le père du passé.
+        "
 
 #: .\templates\bilingual\english\doubling.html:2
 msgid "The principle of duality"
-msgstr ""
+msgstr "Le principe de dualité"
 
 #: .\templates\bilingual\english\doubling.html:3
 msgid "Reciprocal polars and the Principle of duality"
-msgstr ""
+msgstr "Polars réciproques et principe de dualité"
 
 #: .\templates\bilingual\english\doubling.html:5
-msgid ""
-"Levinas's logic can be examined using principles established by the 19th "
-"century descriptive, symmetric, and projective geometry as eleaborated by"
+msgid "Levinas's logic can be examined using principles established by the 19th century descriptive, symmetric, and projective geometry as eleaborated by"
 msgstr ""
 
 #: .\templates\bilingual\english\doubling.html:15
@@ -291,323 +287,297 @@ msgid "in French"
 msgstr ""
 
 #: .\templates\bilingual\english\doubling.html:26
-msgid ""
-"He refers to this repeatedly, in discussions of ambguity, ambphibology, "
-"contradictions, paradoxes, and so on.  It is apparent in his usage of "
-"oppositions such as 'totality' and 'infinity', 'self' and 'other'"
+msgid "He refers to this repeatedly, in discussions of ambguity, ambphibology, contradictions, paradoxes, and so on.  It is apparent in his usage of oppositions such as 'totality' and 'infinity', 'self' and 'other'"
 msgstr ""
 
 #: .\templates\bilingual\english\doubling.html:27
-msgid ""
-"The nature of this polar relationship is one of the most misunderstood "
-"aspects of Levinas's writing. It is often dialectics practiced according to "
-"the logic of friend against enemy, a struggle unto death.  Even Jean-"
-"François Lyotard speaks of 'The hatred of the neutral constantly evinced by "
-"Levinas.'"
+msgid "The nature of this polar relationship is one of the most misunderstood aspects of Levinas's writing. It is often dialectics practiced according to the logic of friend against enemy, a struggle unto death.  Even Jean-François Lyotard speaks of 'The hatred of the neutral constantly evinced by Levinas.'"
 msgstr ""
 
 #: .\templates\bilingual\english\doubling.html:28
-msgid ""
-"This reading of polarity as animosity has had an alarming effect on Levinas "
-"scholarship: a tendency to read his ethical phenomenology as an ethics of "
-"ressentiment.  When Richard Cohen asserts that Levinas's 'battle cry would "
-"be 'Against evil, for the good!'' we must ask whether such polemics express "
-"Levinas's thinking or whether Cohen even understands what the words 'good' "
-"and 'evil' mean in Levinas's writing. For Levinas, the 'good' refers to the "
-"novelty positivity of the future, the 'plus one'; the 'evil' refers to the "
-"novel negativity of the future. Cohen's usage of these terms, however, "
-"evokes a different genealogy of morals"
-msgstr ""
+msgid "This reading of polarity as animosity has had an alarming effect on Levinas scholarship: a tendency to read his ethical phenomenology as an ethics of ressentiment.  When Richard Cohen asserts that Levinas's 'battle cry would be 'Against evil, for the good!'' we must ask whether such polemics express Levinas's thinking or whether Cohen even understands what the words 'good' and 'evil' mean in Levinas's writing. For Levinas, the 'good' refers to the novelty positivity of the future, the 'plus one'; the 'evil' refers to the novel negativity of the future. Cohen's usage of these terms, however, evokes a different genealogy of morals"
+msgstr "    Cette lecture de la polarité comme de l'animosité a eu un effet alarmant sur la recherche de Levina : une tendance à
+    lire son
+    La phénoménologie éthique comme éthique du ressentiment.
+    Quand Richard Cohen affirme que « le cri de guerre de Levinas serait « Contre le mal, pour le bien ! » » il faut
+    se demander si de telles polémiques expriment la pensée de Levinas ou si Cohen comprend même ce que signifient les
+    mots « bon » et
+    « mal » signifie dans les écrits de Levinas. Pour Levinas, le « bien » fait référence à la nouveauté positive du
+    futur, le « plus »
+    le « mal » fait référence à la nouvelle négativité du futur. L'utilisation de ces termes par Cohen évoque cependant
+    un
+    généalogie différente des mœurs.
+"
 
 #: .\templates\bilingual\english\doubling.html:29
-msgid ""
-"But this is a misreading of polarity. Such an interpretation would figure "
-"negativity as the primary relation between poles. But for Levinas, negation "
-"already implies a positive relationship, in which each term maintains its "
-"own specific gravity. For this reason, the negation of a negation is neither "
-"a tautology nor a direct reflection nor a Hegelian <em>Aufhebung</em>but "
-"rather a warped, inflected image produced by the light refracted by this "
-"gravitational excess. Because the apparent negations within Levinas's texts "
-"are made possible by a prior positivity, one should not reduce his work to a "
-"set of polemical polarities and formulations of his thought as violence"
-msgstr ""
+msgid "But this is a misreading of polarity. Such an interpretation would figure negativity as the primary relation between poles. But for Levinas, negation already implies a positive relationship, in which each term maintains its own specific gravity. For this reason, the negation of a negation is neither a tautology nor a direct reflection nor a Hegelian <em>Aufhebung</em>but rather a warped, inflected image produced by the light refracted by this gravitational excess. Because the apparent negations within Levinas's texts are made possible by a prior positivity, one should not reduce his work to a set of polemical polarities and formulations of his thought as violence"
+msgstr "Mais c'est une mauvaise lecture de la polarité. Une telle interprétation considérerait la
+    négativité comme la principale
+    relation entre les pôles. Mais pour Levinas, la négation implique déjà une relation positive, dans laquelle chaque
+    terme
+    conserve sa propre gravité spécifique. Pour cette raison, la négation d'une négation n'est ni une tautologie ni une
+    conséquence directe.
+    réflexion ni une "
 
 #: .\templates\bilingual\english\doubling.html:30
-msgid ""
-"Polar relations are always reciprocal relations between two positive poles"
+msgid "Polar relations are always reciprocal relations between two positive poles"
 msgstr ""
 
 #: .\templates\bilingual\english\doubling.html:31
 msgid "AND-relations"
-msgstr ""
+msgstr "Relations: ET."
 
 #: .\templates\bilingual\english\doubling.html:32
-msgid ""
-"Levinas relates terms through the conjunction 'and'. Gilles Deleuze and "
-"Felix Guattari explain the meaning of this word in their explanation of the "
-"Rhizome:"
-msgstr ""
+msgid "Levinas relates terms through the conjunction 'and'. Gilles Deleuze and Felix Guattari explain the meaning of this word in their explanation of the Rhizome:"
+msgstr "Levinas relie les termes à travers la conjonction « et ». Gilles Deleuze et Félix Guattari expliquent le sens de
+    cette
+    mot dans leur explication du rhizome"
 
 #: .\templates\bilingual\english\doubling.html:33
-msgid ""
-"A rhizome has no beginning or end; it is always in the middle, between "
-"things, interbeing, intermezzo. The tree is filiation, but the rhizome is "
-"alliance, uniquely alliance. The tree imposes the verb 'to be,' but the "
-"fabric of the rhizome is the conjunction, 'and. . . and.. . and. . .' This "
-"conjunction carries enough force to shake and uproot the verb 'to be.' Where "
-"are you going? Where are you coming from? What are you heading for? These "
-"are totally useless questions. Making a clean slate, starting or beginning "
-"again from ground zero, seeking a beginning or a foundation—all imply a "
-"false conception of voyage and movement (a conception that is methodical, "
-"pedagogical, initiatory, symbolic...)"
-msgstr ""
+msgid "A rhizome has no beginning or end; it is always in the middle, between things, interbeing, intermezzo. The tree is filiation, but the rhizome is alliance, uniquely alliance. The tree imposes the verb 'to be,' but the fabric of the rhizome is the conjunction, 'and. . . and.. . and. . .' This conjunction carries enough force to shake and uproot the verb 'to be.' Where are you going? Where are you coming from? What are you heading for? These are totally useless questions. Making a clean slate, starting or beginning again from ground zero, seeking a beginning or a foundation—all imply a false conception of voyage and movement (a conception that is methodical, pedagogical, initiatory, symbolic...)"
+msgstr "Un rhizome n’a ni début ni fin ; c'est toujours au milieu, entre
+    choses, inter-être, intermezzo. L'arbre est filiation, mais le rhizome est alliance,
+    alliance unique. L'arbre impose le verbe "être", mais le tissu de
+    le rhizome est la conjonction « et… et… et… ». Cette conjonction
+    porte suffisamment de force pour ébranler et déraciner le verbe « être ». Où es-tu
+    en allant? D'où viens-tu? Vers quoi vas-tu ? Ceux-ci sont
+    questions totalement inutiles. Faire table rase, recommencer ou recommencer
+    partir de zéro, chercher un début ou une fondation – tout cela implique un faux
+    conception du voyage et du mouvement (conception méthodique, pédagogique,
+    initiatique, symbolique...)"
 
 #: .\templates\bilingual\english\doubling.html:34
 msgid "Deleuze takes this from Jean Wahl"
-msgstr ""
+msgstr "Deleuze prend cela de Jean Wahl"
 
 #: .\templates\bilingual\english\doubling.html:35
-msgid ""
-"32. 'And' has an especially important role in English literature, as a "
-"function not only of the Old Testament but also of the 'minorities' at work "
-"on the language: one case in point is J. M. Synge (see Francois Regnault's "
-"remarks on coordination in Anglo-Irish in the French translation of Playboy "
-"of the Western World, Baladin du monde occidental [Paris: Biblio-theque du "
-"Graphe]). It should not be thought adequate to analyze the 'and' as a "
-"conjunction; rather, 'and' is a special form of every possible conjunction "
-"and brings into play a logic of language. Jean Wahl's works contain profound "
-"reflections on this sense of 'and,' on the way it challenges the primacy of "
-"the verb 'to be.' 33. Hjelmslev, Language: An Introduction, trans. Francis"
-msgstr ""
+msgid "32. 'And' has an especially important role in English literature, as a function not only of the Old Testament but also of the 'minorities' at work on the language: one case in point is J. M. Synge (see Francois Regnault's remarks on coordination in Anglo-Irish in the French translation of Playboy of the Western World, Baladin du monde occidental [Paris: Biblio-theque du Graphe]). It should not be thought adequate to analyze the 'and' as a conjunction; rather, 'and' is a special form of every possible conjunction and brings into play a logic of language. Jean Wahl's works contain profound reflections on this sense of 'and,' on the way it challenges the primacy of the verb 'to be.' 33. Hjelmslev, Language: An Introduction, trans. Francis"
+msgstr "32. « And » joue un rôle particulièrement important dans la littérature anglaise, en fonction non seulement de
+    l'Ancien Testament mais aussi des « minorités » à l'œuvre sur la langue : un exemple typique est celui de J.
+    M. Synge (voir les remarques de François Regnault sur la coordination en anglo-irlandais dans la version
+    française
+    traduction de Playboy of the Western World, Baladin du monde occidental [Paris:
+    Biblio-thèque du Graphe]). Il ne faut pas penser qu'il est adéquat d'analyser le « et » comme un
+    conjonction; au contraire, « et » est une forme particulière de chaque conjonction possible et met en jeu un
+    logique du langage. Les œuvres de Jean Wahl contiennent de profondes réflexions sur ce sens du « et », sur
+    dans la manière dont il remet en question la primauté du verbe « être ».
+    33. Hjelmslev, Langue : une introduction, trad. Francis"
 
 #: .\templates\bilingual\english\doubling.html:37
 msgid "2 >1"
 msgstr ""
 
 #: .\templates\bilingual\english\doubling.html:38
-msgid ""
-"The importance of doubling should be understood in light of the "
-"misunderstood slogan 'ethics is first philosophy.'     Rather than urging us "
-"to embrace the rank of priority, Levinas invites us to question the priority "
-"of priority, to understand how priority is always secondary to the "
-"relationship to a second party. The second party is the other, who is also a "
-"singularity, but placed in a position of juxtapostion or proximity or "
-"seriality"
-msgstr ""
+msgid "The importance of doubling should be understood in light of the misunderstood slogan 'ethics is first philosophy.'     Rather than urging us to embrace the rank of priority, Levinas invites us to question the priority of priority, to understand how priority is always secondary to the relationship to a second party. The second party is the other, who is also a singularity, but placed in a position of juxtapostion or proximity or seriality"
+msgstr "L'importance du doublement doit être comprise à la lumière des
+    slogan mal compris « l’éthique est la première philosophie ».
+    Plutôt que de nous inciter à occuper le rang de priorité, Levinas nous invite à nous interroger
+    la priorité de la priorité, pour comprendre
+    comment la priorité est toujours secondaire par rapport à la relation avec une seconde partie. La deuxième fête
+    est l'autre, qui est aussi une singularité, mais placée
+    en position de juxtapostion ou de proximité ou de sérialité"
 
 #: .\templates\bilingual\english\doubling.html:39
-msgid ""
-"The ontological predication Ethics is First Philosophy should be read "
-"alongside Levinas's usage of numeration.  Numeration in Levinas does not "
-"follow the standard rules of ordinality, where each successive term can be "
-"produced by adding an increment to it. Each transition already refers to an "
-"ethical transmutation between (0) nothingness, (1) the subjective first-"
-"person, (2) the second-person dyad, and (3)     the third-person who refers "
-"to (∞) an infinite multiplicity. To understand the phrase First Philosophy, "
-"one must already question the priority of priority, how the first principle "
-"archē is already disturbed by the anarchy of these numerous relationships"
-msgstr ""
+msgid "The ontological predication Ethics is First Philosophy should be read alongside Levinas's usage of numeration.  Numeration in Levinas does not follow the standard rules of ordinality, where each successive term can be produced by adding an increment to it. Each transition already refers to an ethical transmutation between (0) nothingness, (1) the subjective first-person, (2) the second-person dyad, and (3)     the third-person who refers to (∞) an infinite multiplicity. To understand the phrase First Philosophy, one must already question the priority of priority, how the first principle archē is already disturbed by the anarchy of these numerous relationships"
+msgstr "La prédication ontologique L’éthique est la première philosophie doit être lue
+    parallèlement à l’utilisation de la numération par Levinas. La numération en Levinas ne suit pas le
+    règles standard d'ordinanalité, où chaque terme successif peut être produit en ajoutant
+    un incrément à celui-ci. Chaque transition renvoie déjà à une transmutation éthique entre
+    (0) le néant, (1) la première personne subjective, (2) la dyade à la deuxième personne, et (3)
+    la troisième personne qui fait référence à (∞) une multiplicité infinie. Pour comprendre la phrase
+    Philosophie première, il faut déjà s'interroger sur la priorité de la priorité, comment la première
+    Le principe archē est déjà perturbé par l'anarchie de ces nombreuses relations"
 
 #: .\templates\bilingual\english\doubling.html:40
-msgid ""
-"Within Totality and Infinity, Levinas expresses this logic of polarity most "
-"clearly through metaphors of gender"
-msgstr ""
+msgid "Within Totality and Infinity, Levinas expresses this logic of polarity most clearly through metaphors of gender"
+msgstr "Dans Totalité et Infini, Levinas exprime très clairement cette logique de polarité à travers des métaphores de
+    genre."
 
 #: .\templates\bilingual\english\doubling.html:41
-msgid ""
-"I would in fact suggest that Levinas not only gives this polarity a gender "
-"but gives this gendered Feminine a proper name, a biblical name. It is not "
-"one of the feminine names Levinas gives in 'Judaism and the Feminine' such "
-"as Miriam or Tamar or Leah (DF 31), but it is perhaps the most frequently "
-"used name in the bible"
-msgstr ""
+msgid "I would in fact suggest that Levinas not only gives this polarity a gender but gives this gendered Feminine a proper name, a biblical name. It is not one of the feminine names Levinas gives in 'Judaism and the Feminine' such as Miriam or Tamar or Leah (DF 31), but it is perhaps the most frequently used name in the bible"
+msgstr "Je suggérerais en fait que Levinas donne non seulement un genre à cette polarité, mais donne également à ce Féminin
+    genré un genre propre.
+    nom, un nom biblique. Ce n’est pas un des noms féminins que Lévinas donne dans « Le Judaïsme et le Féminin » comme
+    Miriam ou Tamar ou Léa (DF 31), mais c'est peut-être le nom le plus fréquemment utilisé dans la Bible."
 
 #: .\templates\bilingual\english\doubling.html:42
-msgid ""
-"It should be noted that the number two has special significance in Judaism. "
-"Books of Talmud always open on the second page. The first book of creation, "
-"Genesis, starts with the word B'RAISHIT. The root of the word 'ROSH' means "
-"the head or the first. The prefix 'B'' means the number two, as well as noun "
-"home, as well as the locative relation 'inside'.  The most popular female "
-"name in the bible is, in fact, 'Beth' as in 'Bethlehem'"
-msgstr ""
+msgid "It should be noted that the number two has special significance in Judaism. Books of Talmud always open on the second page. The first book of creation, Genesis, starts with the word B'RAISHIT. The root of the word 'ROSH' means the head or the first. The prefix 'B'' means the number two, as well as noun home, as well as the locative relation 'inside'.  The most popular female name in the bible is, in fact, 'Beth' as in 'Bethlehem'"
+msgstr "Il convient de noter que le chiffre deux a une signification particulière dans
+    Judaïsme. Livres du Talmud
+    toujours ouvert sur la deuxième page. Le premier livre de la création, la Genèse, commence par le
+    mot B'RAISHIT. La racine du mot
+    « ROSH » signifie le chef ou le premier. Le préfixe « B » signifie le chiffre deux, ainsi que
+    nom maison, ainsi que la relation locative « à l'intérieur ».
+    Le prénom féminin le plus populaire dans la Bible est en fait « Beth » comme dans « Bethléem »"
 
 #: .\templates\bilingual\english\doubling.html:43
-msgid ""
-"There are multiple reasons why it is useful to express the Feminine as being "
-"named 'Beth.' In Hebrew, 'Beth' signifies not only a proper name, but also "
-"the second letter of the alphabet, בּ. It can function as a locative prefix "
-"indicating 'inside,' perhaps even 'interiority.' Although בּ is the second "
-"letter of the alphabet, it is the first letter of creation, the first letter "
-"in the first word of the first parshah of the first book of Torah: בְּרֵאשִׁית, "
-"'In the beginning.' Already in this very word, the root רֹאשׁ--which can be "
-"translated as 'head' or 'first' or even 'ἀρχή'-- is preceded by the "
-"secondary letter בּ. 'Beth' in Hebrew signifies not only the letter בּ, but "
-"also the word בַּיִת, which translates as 'house,' even as 'dwelling.' For this "
-"reason, 'Beth' is the most frequently used feminine name in the Bible, as a "
-"locative signifier in place names such as 'Bethel' and 'Beth Israel.' Again, "
-"the first word of Torah, בְּרֵאשִׁית, houses the primary רֹאשׁ within the בַּיִת"
-msgstr ""
+msgid "There are multiple reasons why it is useful to express the Feminine as being named 'Beth.' In Hebrew, 'Beth' signifies not only a proper name, but also the second letter of the alphabet, בּ. It can function as a locative prefix indicating 'inside,' perhaps even 'interiority.' Although בּ is the second letter of the alphabet, it is the first letter of creation, the first letter in the first word of the first parshah of the first book of Torah: בְּרֵאשִׁית, 'In the beginning.' Already in this very word, the root רֹאשׁ--which can be translated as 'head' or 'first' or even 'ἀρχή'-- is preceded by the secondary letter בּ. 'Beth' in Hebrew signifies not only the letter בּ, but also the word בַּיִת, which translates as 'house,' even as 'dwelling.' For this reason, 'Beth' is the most frequently used feminine name in the Bible, as a locative signifier in place names such as 'Bethel' and 'Beth Israel.' Again, the first word of Torah, בְּרֵאשִׁית, houses the primary רֹאשׁ within the בַּיִת"
+msgstr "    Il existe de multiples raisons pour lesquelles il est utile d’exprimer le féminin par le nom « Beth ». En hébreu, «
+    Beth »
+    signifie non seulement un nom propre, mais aussi la deuxième lettre de l'alphabet, בּ. Il peut fonctionner comme un
+    locatif
+    préfixe indiquant « l’intérieur », peut-être même « l’intériorité ». Bien que בּ soit la deuxième lettre de
+    l’alphabet, c’est la
+    première lettre de la création, la première lettre du premier mot de la première paracha du premier livre de la
+    Torah :
+    בְּרֵאשִׁית, "Au commencement". Déjà dans ce mot même, la racine רֹאשׁ – qui peut être traduite par « tête » ou
+    « premier » ou même « ἀρχή » -- est précédé de la lettre secondaire בּ. « Beth » en hébreu ne signifie pas seulement
+    la lettre בּ,
+    mais aussi le mot בַּיִת, qui se traduit par « maison », voire par « habitation ». Pour cette raison, « Beth » est
+    le plus
+    nom féminin fréquemment utilisé dans la Bible, comme signifiant locatif dans les noms de lieux tels que « Bethel »
+    et « Beth ».
+    Israël." Encore une fois, le premier mot de la Torah, בְּרֵאשִׁית, abrite le principal רֹאשׁ au sein du בַּיִת."
 
 #: .\templates\bilingual\english\doubling.html:44
-msgid ""
-"There is something almost Pythagorean in his thought, in the sense that "
-"numbers are not used merely for counting, but themselves describe certain "
-"configurations of Being. A thorough investigation will require additional "
-"study, but we can begin to account for his numbers here"
-msgstr ""
+msgid "There is something almost Pythagorean in his thought, in the sense that numbers are not used merely for counting, but themselves describe certain configurations of Being. A thorough investigation will require additional study, but we can begin to account for his numbers here"
+msgstr "Il y a quelque chose de presque pythagoricien dans sa pensée, dans le sens où les nombres ne servent pas seulement à
+    compter,
+    mais décrivent eux-mêmes certaines configurations de l'Être. Une enquête approfondie nécessitera une étude
+    supplémentaire, mais
+    nous pouvons commencer à expliquer ses chiffres ici."
 
 #: .\templates\bilingual\english\doubling.html:45
-msgid ""
-"In addition to these various linguistic meanings, בּ also has a mathematical "
-"signification: Because Hebrew uses letters to represent numbers, בּ also "
-"signifies the number 2. One of the motifs that most pervasively underlies "
-"the Levinas's work is the question of number. Like many philosophers before "
-"him, Levinas confronts a perennial mathematical problem: when we think of a "
-"certain quantity of things, we generally conceive of a singularity rather "
-"than a multiplicity. That is, when we contemplate 'twenty dogs,' we "
-"typically consider this as a single genre of twenty rather than thinking the "
-"twenty-ness of the twenty itself. Levinas expresses this problem through "
-"meditations on plurality and multiplicity 'The plural is given to a number. "
-"Unity alone is ontologically privileged. Multiple is, but in synthesis is no "
-"more' (TI 274)"
-msgstr ""
+msgid "In addition to these various linguistic meanings, בּ also has a mathematical signification: Because Hebrew uses letters to represent numbers, בּ also signifies the number 2. One of the motifs that most pervasively underlies the Levinas's work is the question of number. Like many philosophers before him, Levinas confronts a perennial mathematical problem: when we think of a certain quantity of things, we generally conceive of a singularity rather than a multiplicity. That is, when we contemplate 'twenty dogs,' we typically consider this as a single genre of twenty rather than thinking the twenty-ness of the twenty itself. Levinas expresses this problem through meditations on plurality and multiplicity 'The plural is given to a number. Unity alone is ontologically privileged. Multiple is, but in synthesis is no more' (TI 274)"
+msgstr "En plus de ces diverses significations linguistiques, בּ a également une signification mathématique : Parce que
+    l'hébreu utilise
+    lettres pour représenter les chiffres, בּ signifie également le chiffre 2. L'un des motifs qui sous-tend le plus
+    largement le
+    L’œuvre de Levinas est une question de nombre. Comme beaucoup de philosophes avant lui, Levinas est confronté à une
+    problématique
+    problème mathématique : quand on pense à une certaine quantité de choses, on conçoit généralement une singularité
+    plutôt
+    qu'une multiplicité. Autrement dit, lorsque nous envisageons « vingt chiens », nous considérons généralement cela
+    comme un seul genre de chiens.
+    vingt plutôt que de penser à la vingtaine des vingt eux-mêmes. Levinas exprime ce problème à travers des méditations
+    sur la pluralité et la multiplicité « Le pluriel est donné à un nombre. Seule l’unité est ontologiquement
+    privilégiée. Plusieurs
+    est, mais en synthèse n’est plus » (TI 274)."
 
 #: .\templates\bilingual\english\doubling.html:46
-msgid ""
-"Before I produce this woman before you, let me begin by suggesting that, in "
-"his early work, Levinas states that 'all philosophy is perhaps a meditation "
-"on Shakespeare' (TO 72). In contrast to the tragic Greek heroes who confront "
-"death as part of their fate and destiny in a Heideggerean Being-towards-"
-"Death, Levinas discusses man's confrontation with death through the "
-"character of Macbeth. Macbeth not only wishes that the world would die along "
-"with him, 'he wishes that the nothingness of death be a void as total as "
-"that which would have reigned had the world never been created' (TI 231, my "
-"italics). Two important things must be said about this dramatic person who "
-"opposes origination. First of all, he is warned by the witches--the Moirae, "
-"the Fates--that his death will come at the hands of an Other who is 'not of "
-"woman born,' his friend MacDuff. Second, in order to understand who Macbeth "
-"himself is, we must understand that 'Mac' is a common Gaelic prefix for 'son "
-"of.' 'MacBeth' is quite an unusual name because generally these names are "
-"patronymic, such as 'Johnson' for the son of John or 'MacDonald' for the son "
-"of Donald, but in this case it would appear that this familiar character is "
-"the son of a woman named 'Beth'"
-msgstr ""
+msgid "Before I produce this woman before you, let me begin by suggesting that, in his early work, Levinas states that 'all philosophy is perhaps a meditation on Shakespeare' (TO 72). In contrast to the tragic Greek heroes who confront death as part of their fate and destiny in a Heideggerean Being-towards-Death, Levinas discusses man's confrontation with death through the character of Macbeth. Macbeth not only wishes that the world would die along with him, 'he wishes that the nothingness of death be a void as total as that which would have reigned had the world never been created' (TI 231, my italics). Two important things must be said about this dramatic person who opposes origination. First of all, he is warned by the witches--the Moirae, the Fates--that his death will come at the hands of an Other who is 'not of woman born,' his friend MacDuff. Second, in order to understand who Macbeth himself is, we must understand that 'Mac' is a common Gaelic prefix for 'son of.' 'MacBeth' is quite an unusual name because generally these names are patronymic, such as 'Johnson' for the son of John or 'MacDonald' for the son of Donald, but in this case it would appear that this familiar character is the son of a woman named 'Beth'"
+msgstr "Avant de produire ça
+    femme avant vous, permettez-moi de commencer par suggérer que, dans ses premiers travaux, Levinas affirme que «
+    toute philosophie est peut-être
+    une méditation sur Shakespeare » (TO 72). Contrairement aux héros grecs tragiques qui affrontent la mort dans le
+    cadre de leur
+    destin et destin dans un Être-vers-la-mort heideggerien, Levinas évoque la confrontation de l’homme avec la mort à
+    travers le
+    personnage de Macbeth. Macbeth souhaite non seulement que le monde meure avec lui, « il souhaite que le
+    que le néant de la mort soit un vide aussi total que celui qui aurait régné si le monde n'avait jamais été créé »
+    (TI 231,
+    mes italiques). Deux choses importantes doivent être dites à propos de ce personnage dramatique qui s’oppose à
+    l’origination. Tout d'abord, il
+    est averti par les sorcières – les Moirae, les Destins – que sa mort viendra des mains d'un Autre qui « n'est pas de
+    femme née », son ami MacDuff. Deuxièmement, pour comprendre qui est Macbeth lui-même, nous devons comprendre que
+    « Mac » est un préfixe gaélique courant pour « fils de ». « MacBeth » est un nom assez inhabituel car généralement
+    ces noms sont
+    patronyme, comme « Johnson » pour le fils de John ou « MacDonald » pour le fils de Donald, mais dans ce cas il
+    s'agirait
+    Il semblerait que ce personnage familier soit le fils d'une femme nommée « Beth » --"
 
 #: .\templates\bilingual\english\doubling.html:48
 msgid "0 before 1"
-msgstr ""
+msgstr "0 avant 1"
 
 #: .\templates\bilingual\english\doubling.html:49
 msgid "Levinas's primary innovaton in Otherwise than Being is to focus on how"
-msgstr ""
+msgstr "La principale innovation de Levinas dans Autrement qu'être est de se concentrer sur la manière dont l'"
 
 #: .\templates\bilingual\english\doubling.html:50
 msgid "anarchy"
-msgstr ""
+msgstr "anarchie"
 
 #: .\templates\bilingual\english\doubling.html:50
-msgid ""
-"precedes subjectvity. The relationship explored is between 0 and 1, not "
-"between 1 and 2"
-msgstr ""
+msgid "precedes subjectvity. The relationship explored is between 0 and 1, not between 1 and 2"
+msgstr "précède
+    subjectivité. La relation explorée est comprise entre 0 et 1 et non entre 1 et 2"
 
 #: .\templates\bilingual\english\flat.html:2
-msgid ""
-"Levinas's work is most typically associated with the critique of the flat "
-"projection the grid of points plotted on a map in Euclidean rectilinear "
-"space, in a Cartesian grid, arrayed in a totality that can be integrated "
-"into a whole"
-msgstr ""
+msgid "Levinas's work is most typically associated with the critique of the flat projection the grid of points plotted on a map in Euclidean rectilinear space, in a Cartesian grid, arrayed in a totality that can be integrated into a whole"
+msgstr "Le travail de Levinas est le plus souvent associé à la critique de la projection plate, la grille
+    de points tracés sur une carte dans l'espace rectiligne euclidien, dans une grille cartésienne,
+    disposés en une totalité intégrable dans un tout. "
 
 #: .\templates\bilingual\english\flat.html:3
-msgid ""
-"He borrows the notion of space time curvature from General Relativity. As "
-"elaborated by Einstein, Poincare, and Minkowski, general Relativity explains "
-"how masses, composed of mass and energy, curve the space, time and light. "
-"The most simplest illustration of this is the way that mass curves space. If "
-"you put a heavy ball in the middle of a sheet, it will bend the sheet around "
-"it. By doing so, it creates least-energy pathways around it. In a similar "
-"manner, the massiveness of the sun bends the space around it such that "
-"planets find the least-action path as elliptical paths around it"
-msgstr ""
+msgid "He borrows the notion of space time curvature from General Relativity. As elaborated by Einstein, Poincare, and Minkowski, general Relativity explains how masses, composed of mass and energy, curve the space, time and light. The most simplest illustration of this is the way that mass curves space. If you put a heavy ball in the middle of a sheet, it will bend the sheet around it. By doing so, it creates least-energy pathways around it. In a similar manner, the massiveness of the sun bends the space around it such that planets find the least-action path as elliptical paths around it"
+msgstr "Il emprunte la notion de courbure espace-temps à la Relativité Générale. Telle qu'élaborée par
+    Einstein, Poincaré et Minkowski, la relativité générale explique comment les masses, composées
+    de masse et d'énergie, courbent l'espace, le temps et la lumière. L’illustration la plus simple
+    est la façon dont la masse courbe l’espace. Si vous placez une balle lourde au milieu d’une
+    feuille, elle pliera la feuille autour d’elle. Ce faisant, il crée des voies de moindre énergie
+    autour de lui. De la même manière, la massivité du Soleil courbe l'espace qui l'entoure de telle
+    sorte que les planètes trouvent le chemin le moins actif sous forme de chemins elliptiques
+    autour de lui"
 
 #: .\templates\bilingual\english\flat.html:4
-msgid ""
-"We can see a similar dynamic in Levinas's usage of the idea of 'curvature' "
-"effected by height and weight"
-msgstr ""
+msgid "We can see a similar dynamic in Levinas's usage of the idea of 'curvature' effected by height and weight"
+msgstr "Nous pouvons observer une dynamique similaire dans l'utilisation par Levinas de l'idée de «
+    courbure » affectée par la taille et le poids"
 
 #: .\templates\bilingual\english\flat.html:5
-msgid ""
-"In 'Time and the Other', Levinas describes the establishment of a place, the"
-msgstr ""
+msgid "In 'Time and the Other', Levinas describes the establishment of a place, the"
+msgstr "Dans « Le Temps et l'Autre », Levinas décrit l'instauration d'un lieu, le "
 
 #: .\templates\bilingual\english\flat.html:6
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: .\templates\bilingual\english\flat.html:9
-msgid ""
-"for a person through the double movement of hypostasis. This is a doubling "
-"of the Me and the Self. It is also a dimensional doubling: to maintain a "
-"position in space, to erect oneself as homo erectus, as a virile man with an "
-"erection, one stands up in space, extending oneself in height. At the same "
-"time, this upwards movement is doubled by a downwards movement, one's weight "
-"that drags oneself back to one's body, a gravity produced by one's own "
-"material mass"
-msgstr ""
+msgid "for a person through the double movement of hypostasis. This is a doubling of the Me and the Self. It is also a dimensional doubling: to maintain a position in space, to erect oneself as homo erectus, as a virile man with an erection, one stands up in space, extending oneself in height. At the same time, this upwards movement is doubled by a downwards movement, one's weight that drags oneself back to one's body, a gravity produced by one's own material mass"
+msgstr "pour une personne à travers le double mouvement de l'hypostase. C'est un dédoublement du Moi et
+    du Soi. C'est aussi un dédoublement dimensionnel : pour maintenir une position dans l'espace,
+    pour s'ériger en homo erectus, en homme viril en érection, on se dresse dans l'espace, en
+    s'étendant en hauteur. En même temps, ce mouvement vers le haut est doublé d'un mouvement vers
+    le bas, le poids qui se ramène vers le corps, une gravité produite par sa propre masse
+    matérielle"
 
 #: .\templates\bilingual\english\intersection.html:3
 msgid "For example the word"
-msgstr ""
+msgstr "Par exemple le mot"
 
 #: .\templates\bilingual\english\intersection.html:5
-msgid ""
-"belongs to MATHEMATICS and GENESIS. One can observe parallel motion along "
-"these metaphorical vectors"
-msgstr ""
+msgid "belongs to MATHEMATICS and GENESIS. One can observe parallel motion along these metaphorical vectors"
+msgstr "appartient à MATHEMATICS et
+    GENÈSE. On peut observer un mouvement parallèle le long de ces vecteurs métaphoriques"
 
 #: .\templates\bilingual\english\objective.html:2
-msgid ""
-"To map the relations within and between multiple dimensions of topological "
-"manifolds that describe the thematic tensor transformations within and "
-"between various Thematic Genres (GT). Relations will be traced by detemining "
-"a flat projections, doubles and by 2x2 perspecitval and conversational "
-"conversions, and by considering how various etymological and semantic genres "
-"are transformed into various word forms"
-msgstr ""
+msgid "To map the relations within and between multiple dimensions of topological manifolds that describe the thematic tensor transformations within and between various Thematic Genres (GT). Relations will be traced by detemining a flat projections, doubles and by 2x2 perspecitval and conversational conversions, and by considering how various etymological and semantic genres are transformed into various word forms"
+msgstr "Cartographier les relations au sein et entre les multiples dimensions des
+    variétés topologiques qui décrivent le transformations tensorielles thématiques au sein et entre
+    divers genres thématiques (GT). Les relations seront retracées par détermination d'une projection
+    plate, double et par 2x2 conversions perspectives et conversationnelles, et par en considérant
+    comment divers genres étymologiques et sémantiques sont transformés en diverses formes de mots"
 
 #: .\templates\bilingual\english\opposition.html:3
 msgid "Certain doublings are opposed to each other"
-msgstr ""
+msgstr "Certains dédoublements s'opposent les uns aux autres"
 
 #: .\templates\bilingual\english\opposition.html:4
-msgid ""
-"Totality and Infinity narrates the recurrent cyclings of these doubles. "
-"Different sections of the book invert or bend these double relations. In one "
-"section, the Self occupies a place of height looking at the depth of the "
-"destitute other. In another section, the Other occupies a place of height "
-"looking down at the subject self in hypostasis and substitution. Other "
-"sections apply other metaphorical curvature tensors to warp the space furter"
-msgstr ""
+msgid "Totality and Infinity narrates the recurrent cyclings of these doubles. Different sections of the book invert or bend these double relations. In one section, the Self occupies a place of height looking at the depth of the destitute other. In another section, the Other occupies a place of height looking down at the subject self in hypostasis and substitution. Other sections apply other metaphorical curvature tensors to warp the space furter"
+msgstr "Totalité et Infini raconte les cycles récurrents de ces doubles. Différent
+    des sections du livre s'inversent ou se plient
+    ces doubles relations. Dans une section, le Soi occupe une place de hauteur
+    au fond de l’autre démuni. Dans une autre rubrique,
+    l'Autre occupe une place de hauteur regardant le sujet moi en hypostase
+    et substitution. D'autres sections appliquent d'autres tenseurs de courbure métaphoriques
+    pour déformer davantage l'espace"
 
 #: .\templates\bilingual\english\opposition.html:5
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 #: .\templates\bilingual\english\parallelism.html:3
 msgid "Certain"
-msgstr ""
+msgstr "Certaines"
 
 #: .\templates\bilingual\english\parallelism.html:4
 msgid "manifolds"
-msgstr ""
+msgstr "variétés"
 
 #: .\templates\bilingual\english\parallelism.html:5
 msgid "have"
-msgstr ""
+msgstr "avoir"
 
 #: .\templates\bilingual\english\parallelism.html:8
 msgid "and their"
@@ -615,23 +585,28 @@ msgstr ""
 
 #: .\templates\bilingual\english\parallelism.html:10
 msgid "transformations occur in parallel to each other"
-msgstr ""
+msgstr "et
+    leurs transformations tensorelle
+    se produisent dans
+    parallèle à
+    les uns les autres"
 
 #: .\templates\bilingual\english\parallelism.html:12
-msgid ""
-"For example, when Levinas disusses NIETZSCHE_PT, he typically invokes "
-"metaphors such as"
-msgstr ""
+msgid "For example, when Levinas disusses NIETZSCHE_PT, he typically invokes metaphors such as"
+msgstr "Par exemple, lorsque Levinas parle de NIETZSCHE_PT, il invoque généralement des
+    métaphores telles
+    que"
 
 #: .\templates\bilingual\english\parallelism.html:14
-msgid ""
-"from GENESIS. When Levinas discusses HEIDEGGER_PT, he typically invokes "
-"metaphors of"
-msgstr ""
+msgid "from GENESIS. When Levinas discusses HEIDEGGER_PT, he typically invokes metaphors of"
+msgstr "de GENESIS. Lorsque Levinas parle de HEIDEGGER_PT, il invoque
+    généralement
+    métaphores
+    de la"
 
 #: .\templates\bilingual\english\parallelism.html:16
 msgid "from GENESIS"
-msgstr ""
+msgstr "de GENESIS"
 
 #: .\templates\includes\info\count_alerts.html:3
 msgid "Word counts are approximate."
@@ -646,12 +621,8 @@ msgid "Radical Empiricism"
 msgstr "Empirisme Radical"
 
 #: .\templates\includes\site_header.html:10
-msgid ""
-"A topological analysis of metaphorical manifolds in the texts of Emmanuel "
-"Levinas"
-msgstr ""
-"Une analyse topologique des variétés métaphoriques dans les textes "
-"d'Emmanuel Levinas"
+msgid "A topological analysis of metaphorical manifolds in the texts of Emmanuel Levinas"
+msgstr "Une analyse topologique des variétés métaphoriques dans les textes d'Emmanuel Levinas"
 
 #: .\templates\includes\site_nav.html:18
 #, fuzzy
