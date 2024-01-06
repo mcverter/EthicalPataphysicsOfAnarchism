@@ -17,8 +17,12 @@ def genre_btn_collapse(genre: str):
 
 @register.inclusion_tag('tags/bilingual_card.html')
 def bilingual_card(value: str):
-    return {"component_name": value}
+    return {"component": value}
 
+
+@register.inclusion_tag('tags/translation_card.html')
+def translation_card(value: str):
+    return {"component": value}
 
 @register.inclusion_tag('tags/bilingual_vertical.html')
 def bilingual_vertical(value: str):

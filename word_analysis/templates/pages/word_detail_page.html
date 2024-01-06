@@ -34,8 +34,8 @@
         <div class="tab-pane fade show active" id="nav-counts" role="tabpanel"
              aria-labelledby="nav-counts-tab">
             <div>{% include "includes/word_page/counts.html" %}</div>
-            {% include "tags/bilingual_card.html" with component="definition" %}
-            {% include "tags/bilingual_card.html" with component="etymology" %}
+            {% translation_card "definition" %}
+            {% translation_card "etymology" %}
         </div>
         <div class="tab-pane fade" id="nav-ti-lines" role="tabpanel"
              aria-labelledby="ti-lines">
