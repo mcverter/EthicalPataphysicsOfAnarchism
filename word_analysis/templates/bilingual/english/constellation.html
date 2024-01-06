@@ -1,112 +1,143 @@
 {% load i18n %}
-<h4 class="card-title">Metaphorical constellations</h4>
-<h5>Example</h5>
+<h4 class="card-title">{% trans "Metaphorical constellations" %}</h4>
+<h5>{% trans "Example" %}</h5>
 <blockquote class="blockquote">La naissance et la mort comme moments ponctuels et l'intervalle qui les sépare se logent dans ce temps universel de l'historien qui est un survivan
-<footer>
-<cite>Totalité et infini : essai sur l'extériorité, p. 48</cite></footer></blockquote>
-<h5>Analysis</h5>
+    <footer>
+        <cite>Totalité et infini : essai sur l'extériorité, p. 48</cite></footer>
+</blockquote>
+<h5>{% trans "Analysis" %}</h5>
 <table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th>Word</th>
-<th>Categories</th></tr></thead>
-<tbody>
-<tr>
-<td>
-<a href='/word/la'>La</a></td>
-<td>GENESIS -- feminine, MATHEMATICS -- singular, also a homonym for "there" (la) in french, so GEOMETRY</td></tr>
-<tr>
-<td>
-<a href='/word/naissance'>naissance</a></td>
-<td>GENESIS</td></tr>
-<tr>
-<td>
-<a href='/word/et'>et</a></td>
-<td>MATHEMATICS (a conjunction)</td></tr>
-<tr>
-<td>
-<a href='/word/la'>la</a></td>
-<td>See above</td></tr>
-<tr>
-<td>
-<a href='/word/mort'>mort</a></td>
-<td>GENESIS</td></tr>
-<tr>
-<td>
-<a href='/word/comme'>comme</a></td>
-<td>ONTOLOGY_PT -- relation</td></tr>
-<tr>
-<td>
-<a href='/word/moments'>moments</a></td>
-<td>PHYSICS -- spacetime</td></tr>
-<tr>
-<td>
-<a href='/word/ponctuels'>ponctuels</a></td>
-<td>Zero-dimensional space-time. GEOMETRY -- points on a map, PHYSICS -- points of time</td></tr>
-<tr>
-<td>
-<a href='/word/et'>et</a></td>
-<td>See above</td></tr>
-<tr>
-<td>l'intervalle</td>
-<td>GEOMETRY -- One-dimensional space</td></tr>
-<tr>
-<td>
-<a href='/word/qui'>qui</a></td>
-<td>ONTOLOGY_PT</td></tr>
-<tr>
-<td>
-<a href='/word/les'>les</a></td>
-<td>MATHEMATICS</td></tr>
-<tr>
-<td>
-<a href='/word/separe'>sépare</a></td>
-<td>sépare</td>
-<td>GEOMETRY</td></tr>
-<tr>
-<td>
-<a href='/word/se'>se</a></td>
-<td>ONTOLOGY -- reflexive verbs have their own logic related to the reflexivity of the reduction, to the asymmetry that occurs because one can never see oneself from the outside: The Self can only see the Other. Only the Other can see the Self. The Self can never view the Self from the inside. The Self can only view the Self as an Other</td></tr>
-<tr>
-<td>
-<a href='/word/logent'>logent</a></td>
-<td>PHSYICS, GENESIS -- both space time intervals or geodesic neigborhoods, as well as a home for the family</td></tr>
-<tr>
-<td>
-<a href='/word/dans'>dans</a></td>
-<td>GEOMETRY - within</td></tr>
-<tr>
-<td>
-<a href='/word/ce'>ce</a></td>
-<td>MATHEMATICS</td></tr>
-<tr>
-<td>
-<a href='/word/temps'>temps</a></td>
-<td>PHYSICS</td></tr>
-<tr>
-<td>
-<a href='/word/universel'>universel</a></td>
-<td>ONTOLOGY, MATHEMATICS</td></tr>
-<tr>
-<td>
-<a href='/word/de'>de</a></td>
-<td>ONTOLOGY, GENESIS</td></tr>
-<tr>
-<td>l'historien</td>
-<td></td></tr>
-<tr>
-<td>
-<a href='/word/qui'>qui</a></td>
-<td>ONTOLOGY</td></tr>
-<tr>
-<td>
-<a href='/word/est'>est</a></td>
-<td>ONTOLOGY</td></tr>
-<tr>
-<td>
-<a href='/word/un'>un</a></td>
-<td>ONTOLOGY, MATHEMATICS</td></tr>
-<tr>
-<td>
-<a href='/word/survivan'>survivan</a></td>
-<td>MATHEMATICS, GENESIS, GEOMETRY. The survivor is the one who lives on top of the one who died, who lives out the Beyond of the one who he has murdered, the father of the past</td>.</tr></tbody></table>
+    <thead>
+    <tr>
+        <th>{% trans "Word" %}</th>
+        <th>{% trans "Categories" %}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <a href='/word/la'>La</a></td>
+        <td>{% trans "GENESIS -- feminine, MATHEMATICS -- singular, also a homonym for "there" (la) in french, so GEOMETRY" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/naissance'>naissance</a></td>
+        <td>{% trans "GENESIS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/et'>et</a></td>
+        <td>{% trans "MATHEMATICS (a conjunction)" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/la'>la</a></td>
+        <td>{% trans "See above" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/mort'>mort</a></td>
+        <td>{% trans "GENESIS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/comme'>comme</a></td>
+        <td>{% trans "ONTOLOGY_PT -- relation" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/moments'>moments</a></td>
+        <td>{% trans "PHYSICS -- spacetime" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/ponctuels'>ponctuels</a></td>
+        <td>{% trans "Zero-dimensional space-time. GEOMETRY -- points on a map, PHYSICS -- points of time" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/et'>et</a></td>
+        <td>{% trans "See above" %}</td>
+    </tr>
+    <tr>
+        <td>{% trans "l'intervalle" %}</td>
+        <td>{% trans "GEOMETRY -- One-dimensional space" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/qui'>qui</a></td>
+        <td>{% trans "ONTOLOGY_PT" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/les'>les</a></td>
+        <td>{% trans "MATHEMATICS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/separe'>sépare</a></td>
+        <td>{% trans "sépare" %}</td>
+        <td>{% trans "GEOMETRY" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/se'>se</a></td>
+        <td>{% trans "ONTOLOGY -- reflexive verbs have their own logic related to the reflexivity of the reduction, to the asymmetry that occurs because one can never see oneself from the outside: The Self can only see the Other. Only the Other can see the Self. The Self can never view the Self from the inside. The Self can only view the Self as an Other" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/logent'>logent</a></td>
+        <td>{% trans "PHSYICS, GENESIS -- both space time intervals or geodesic neigborhoods, as well as a home for the family" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/dans'>dans</a></td>
+        <td>{% trans "GEOMETRY - within" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/ce'>ce</a></td>
+        <td>{% trans "MATHEMATICS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/temps'>temps</a></td>
+        <td>{% trans "PHYSICS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/universel'>universel</a></td>
+        <td>{% trans "ONTOLOGY, MATHEMATICS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/de'>de</a></td>
+        <td>{% trans "ONTOLOGY, GENESIS" %}</td>
+    </tr>
+    <tr>
+        <td>{% trans "l'historien" %}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/qui'>qui</a></td>
+        <td>{% trans "ONTOLOGY" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/est'>est</a></td>
+        <td>{% trans "ONTOLOGY" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/un'>un</a></td>
+        <td>{% trans "ONTOLOGY, MATHEMATICS" %}</td>
+    </tr>
+    <tr>
+        <td>
+            <a href='/word/survivan'>survivan</a></td>
+        <td>{% trans "MATHEMATICS, GENESIS, GEOMETRY. The survivor is the one who lives on top of the one who died, who lives out the Beyond of the one who he has murdered, the father of the past" %}</td>
+        .
+    </tr>
+    </tbody>
+</table>
