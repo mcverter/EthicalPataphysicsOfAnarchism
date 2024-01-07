@@ -1,7 +1,7 @@
 {% extends "base_page.html" %}
 {% load i18n %}
 {% load radical_empricism_filters %}
-{% block subtitle %}Information for {{ word.french }} | {% endblock %}
+{% block subtitle %}{% trans "Information for" %} {{ word.french }} | {% endblock %}
 {% block content %}
     <h1> Information for {% trans "for" %}
         {{ word.french }}
@@ -13,19 +13,19 @@
         <div class="nav nav-tabs" id="word-nav-tab" role="tablist">
             <button class="nav-link active" id="nav-counts-tab" data-bs-toggle="tab" data-bs-target="#nav-counts"
                     type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
-                Word Information
+                {% trans "Word Information" %}
             </button>
             <button class="nav-link" id="nav-ti-lines-tab" data-bs-toggle="tab" data-bs-target="#nav-ti-lines"
                     type="button" role="tab" aria-controls="nav-ti-lines" aria-selected="false">
-                TI Lines
+                {% trans "TI Lines" %}
             </button>
             <button class="nav-link" id="nav-otb-lines-tab" data-bs-toggle="tab" data-bs-target="#nav-otb-lines"
                     type="button" role="tab" aria-controls="nav-otb-lines" aria-selected="false">
-                OTB Lines
+                {% trans "OTB Lines" %}
             </button>
             <button class="nav-link" id="nav-cnrtl-tab" data-bs-toggle="tab" data-bs-target="#nav-cnrtl"
                     type="button" role="tab" aria-controls="nav-otb-lines" aria-selected="false">
-                Word Proximities
+                {% trans="Word Proximities" %}
             </button>
         </div>
     </nav>

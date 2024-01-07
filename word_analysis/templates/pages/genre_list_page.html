@@ -1,50 +1,32 @@
 {% extends "base_page.html" %}
-{% block subtitle %}  Liste de genres thematiques | {% endblock %}
+{% load i18n %}
+{% block subtitle %}  List of Genre Sets {% endblock %}
 {% block content %}
-
-    For example
+{% trans "For example" %}
     <ul>
-        <li>Suffix: In {{ titles.otb.short.english }} suffix "ance" denotes nominalization whereas the infinitive is
-            both nominal and verbal. All words with this suffix belong to ONTOLOGY
+        <li>{% trans "Suffix" %}: {% trans "In"  %}
+            {{ titles.otb.short.english }}
+{% trans "suffix 'ance' denotes nominalization whereas the infinitive is both nominal and verbal. All words with this suffix belong to ONTOLOGY" %}
         </li>
-        <li>Prefix: The prefix "sur" means above and connotes height. All words that begin with this prefix belong to
-            MATHEMATICS. For example: <a href="/word/survivor">"survivor"</a> or <a href="/word/resurrection">"resurrection"</a>
+        <li>{% trans "Prefix" %}: {% trans "The prefix 'sur' means above and connotes height. All words that begin with this prefix belong to MATHEMATICS." %} {% trans "For example" %}: <a href="/word/survivor">"survivor"</a> {% trans "or" %} <a href="/word/resurrection">"resurrection"</a>
     </ul>
-    Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, adjectival and adverbial combinations all
-    belong to various THEMATIC_GENRES.  This enables a single word to envelop an N-ply manifold of THEMATIC_GENRES.
-
-    conjugations, noun declensions, and etymological roots all are Combinations (survivre = sur (height) + vivre (Family
-    Genre)
-
-    conjugations, noun declensions, and etymological roots all are Combinations (survivre = sur (height) + vivre
-    (Family Genre)
-
-
+{% trans "Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, adjectival and adverbial combinations all belong to various THEMATIC_GENRES.  This enables a single word to envelop an N-ply manifold of THEMATIC_GENRES.  conjugations, noun declensions, and etymological roots all are Combinations (survivre = sur + vivre) " %}
+    <div>
+    {% trans "HEIGHT"  %}  + {% trans "VIVRE"  %}  
+    </div>
     <div class="card">
         <div class="card-body">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Infinitives and Racines étymologiques | Infinitives and Etymological
-                        roots</h4>
+                    <h4 class="card-title">{% trans "Infinitives and Etymological roots" %}</h4>
                     <p class="card-text">
-                        In his 1932 article that introduced Heidegger to the
-                        francophone world,
-                        Martin Heidegger et
-                        l’ontologie, Levinas explains his decision to translate Heidegger’s term
-                        Zuhandenheit as
-                       “maniabilite” because
-                        he wishes to “take this term in its etymological sense”35
+{% trans "In his 1932 article that introduced Heidegger to the francophone world, Martin Heidegger et l’ontologie, Levinas explains his decision to translate Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take this term in its etymological sense”35" %}
                     </p>
                     <p class="card-text">
-                        In his later works critical of Heidegger, he will critique the notion of the hand as being the
-                        primary mode through which relation with the world is effectuated. Instead, he makes a twofold
-                        division.
-                        The primary mode of relation with the world is through the mouth.
+{% trans "In his later works critical of Heidegger, he will critique the notion of the hand as being the primary mode through which relation with the world is effectuated. Instead, he makes a twofold division.  The primary mode of relation with the world is through the mouth" %}.
                     </p>
                     <p class="card-text">
-                        He secondary relationhip to the world as exterioirty is explored through the hand in the sense
-                        of maintenir, to maintain.
-                        Words with the same infinitive and the same etymological roots belong to the same Thematic Genre
+{% trans "He secondary relationhip to the world as exterioirty is explored through the hand in the sense of maintenir, to maintain.  Words with the same infinitive and the same etymological roots belong to the same Thematic Genre" %}
                     </p>
                     {% genre_btn_collapse "TENIR" %}
                 </div>
@@ -52,23 +34,23 @@
         </div>
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Thèmes sémantiques | Semantic themes</h4>
+                <h4 class="card-title">{% trans "Semantic themes" %}</h4>
                 <p class="card-text"></div>
         </div>
     </div>
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Préfixes | Prefixes</h4>
+            <h4 class="card-title">{% trans "Prefixes" %}</h4>
             <p class="card-text"></div>
     </div>
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Suffixes | Suffixes</h4>
+            <h4 class="card-title">{% trans "Suffixes" %}</h4>
             <p class="card-text"></div>
     </div>
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Parties du discours | Parts of speech</h4>
+            <h4 class="card-title">{% trans "Parts of speech" %}</h4>
             <p class="card-text"></div>
     </div>
     {% for genre in genres %}

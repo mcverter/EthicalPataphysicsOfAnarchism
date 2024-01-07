@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 00:04-0500\n"
+"POT-Creation-Date: 2024-01-07 08:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,6 +123,7 @@ msgid "Genre Sets"
 msgstr "Ensembles De Genres"
 
 #: .\templates\bilingual\abstract.html:18
+#: .\templates\includes\summary\membership.html:5
 msgid "Genre membership"
 msgstr "Appartenance à un genre"
 
@@ -162,8 +162,6 @@ msgstr ""
 
 #: .\templates\bilingual\combination.html:3
 #: .\templates\includes\site_nav.html:18
-#, fuzzy
-#| msgid "Genre Sets (GS)"
 msgid "Genre Sets (GS)"
 msgstr "Ensembles De Genres (ES)"
 
@@ -179,9 +177,9 @@ msgstr "appartient au genre"
 #: .\templates\bilingual\constellation.html:20
 #: .\templates\bilingual\constellation.html:25
 #: .\templates\bilingual\constellation.html:40
-#: .\templates\bilingual\constellation.html:90
-#: .\templates\bilingual\constellation.html:115
-#: .\templates\bilingual\constellation.html:139
+#: .\templates\bilingual\constellation.html:89
+#: .\templates\bilingual\constellation.html:114
+#: .\templates\bilingual\constellation.html:138
 msgid "GENESIS"
 msgstr "GENESIS"
 
@@ -194,12 +192,8 @@ msgstr ""
 "appartient au genre GENESIS car la racine étymologique est “vivre”. Il "
 
 #: .\templates\bilingual\combination.html:7
-#, fuzzy
-#| msgid ""
-#| "belongs to the genre MATHEMATICS because the prefix “sur” connotes height"
 msgid "MATHEMATICS because the prefix “sur” connotes height"
 msgstr ""
-"belongs to the genre MATHEMATICS because the prefix “sur” connotes height"
 
 #: .\templates\bilingual\combination.html:10
 msgid "The birth of the son is referred to as a"
@@ -245,10 +239,10 @@ msgstr "féminine"
 #: .\templates\bilingual\constellation.html:20
 #: .\templates\bilingual\constellation.html:30
 #: .\templates\bilingual\constellation.html:74
-#: .\templates\bilingual\constellation.html:100
-#: .\templates\bilingual\constellation.html:110
-#: .\templates\bilingual\constellation.html:134
-#: .\templates\bilingual\constellation.html:139
+#: .\templates\bilingual\constellation.html:99
+#: .\templates\bilingual\constellation.html:109
+#: .\templates\bilingual\constellation.html:133
+#: .\templates\bilingual\constellation.html:138
 msgid "MATHEMATICS"
 msgstr "MATHÉMATIQUES"
 
@@ -259,9 +253,9 @@ msgstr "singulier, également homonyme de “là” en français, donc"
 #: .\templates\bilingual\constellation.html:20
 #: .\templates\bilingual\constellation.html:55
 #: .\templates\bilingual\constellation.html:64
-#: .\templates\bilingual\constellation.html:80
-#: .\templates\bilingual\constellation.html:95
-#: .\templates\bilingual\constellation.html:139
+#: .\templates\bilingual\constellation.html:79
+#: .\templates\bilingual\constellation.html:94
+#: .\templates\bilingual\constellation.html:138
 msgid "GEOMETRY"
 msgstr "GÉOMÉTRIE"
 
@@ -276,12 +270,12 @@ msgstr "Voir ci-dessus"
 
 #: .\templates\bilingual\constellation.html:45
 #: .\templates\bilingual\constellation.html:69
-#: .\templates\bilingual\constellation.html:85
-#: .\templates\bilingual\constellation.html:110
-#: .\templates\bilingual\constellation.html:115
-#: .\templates\bilingual\constellation.html:124
-#: .\templates\bilingual\constellation.html:129
-#: .\templates\bilingual\constellation.html:134
+#: .\templates\bilingual\constellation.html:84
+#: .\templates\bilingual\constellation.html:109
+#: .\templates\bilingual\constellation.html:114
+#: .\templates\bilingual\constellation.html:123
+#: .\templates\bilingual\constellation.html:128
+#: .\templates\bilingual\constellation.html:133
 msgid "ONTOLOGY"
 msgstr "ONTOLOGIE"
 
@@ -293,7 +287,7 @@ msgstr "Relations: ET"
 
 #: .\templates\bilingual\constellation.html:50
 #: .\templates\bilingual\constellation.html:55
-#: .\templates\bilingual\constellation.html:105
+#: .\templates\bilingual\constellation.html:104
 msgid "PHYSICS"
 msgstr "PHYSIQUE"
 
@@ -317,7 +311,7 @@ msgstr "points par moment"
 msgid "One-dimensional space"
 msgstr "Espace unidimensionnel"
 
-#: .\templates\bilingual\constellation.html:85
+#: .\templates\bilingual\constellation.html:84
 msgid ""
 "reflexive verbs have their own logic related to the reflexivity of the "
 "reduction, to the asymmetry that occurs because one can never see oneself "
@@ -331,11 +325,11 @@ msgstr ""
 "Soi. Le Soi ne peut jamais voir le Soi de l'intérieur. Le Soi ne peut se "
 "voir que comme un Autre."
 
-#: .\templates\bilingual\constellation.html:90
+#: .\templates\bilingual\constellation.html:89
 msgid "PHSYICS"
 msgstr "LA PHYSIQUE"
 
-#: .\templates\bilingual\constellation.html:90
+#: .\templates\bilingual\constellation.html:89
 msgid ""
 "both space intervals, time intervals, geodesic neigborhoods, as well as a "
 "home for the family"
@@ -343,11 +337,11 @@ msgstr ""
 "à la fois des intervalles spatiaux, des intervalles de temps, des quartiers "
 "géodésiques, ainsi qu'une maison pour la famille"
 
-#: .\templates\bilingual\constellation.html:95
+#: .\templates\bilingual\constellation.html:94
 msgid "within"
 msgstr "dans"
 
-#: .\templates\bilingual\constellation.html:139
+#: .\templates\bilingual\constellation.html:138
 msgid ""
 "The survivor is the one who lives on top of the one who died, who lives out "
 "the Beyond of the one who he has murdered, the father of the past"
@@ -383,9 +377,9 @@ msgstr "en français"
 #: .\templates\bilingual\duality.html:25
 #, fuzzy
 #| msgid ""
-#| "He refers to this repeatedly, in discussions of ambguity, "
-#| "ambphibologycontradictions, paradoxes, and so on.  It is apparent in his "
-#| "usage of oppositions such as “totality” and “infinity”,“self” and “other”"
+#| "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
+#| "contradictions, paradoxes, and so on. It is apparent in his usage of "
+#| "oppositions such as “totality” and “infinity”, “self” and “other”"
 msgid ""
 "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
 "contradictions, paradoxes, and so on.  It is apparent in his usage of "
@@ -414,14 +408,13 @@ msgstr ""
 #| msgid ""
 #| "This reading of polarity as animosity has had an alarming effect on "
 #| "Levinas scholarship: a tendency to read his ethical phenomenology as an "
-#| "ethics of ressentiment.  When Richard Cohen asserts that Levinas’s "
-#| "“battle cry would be ”Against evil, for the good!’ we must ask whether "
-#| "such polemics express Levinas’s thinking or whether Cohen even "
-#| "understands what the words “good” and “evil” mean in Levinas’s writing. "
-#| "For Levinas, the “good” refers to the novelty positivity of the future, "
-#| "the “plus one”; the “evil” refers to the novel negativity of the future. "
-#| "Cohen’s usage of these terms, however, evokes a different genealogy of "
-#| "morals"
+#| "ethics of ressentiment. When Richard Cohen asserts that Levinas’s “battle "
+#| "cry would be “Against evil, for the good!” we must ask whether such "
+#| "polemics express Levinas’s thinking or whether Cohen even understands "
+#| "what the words “good” and “evil” mean in Levinas’s writing. For Levinas, "
+#| "the “good” refers to the novelty positivity of the future, the “plus "
+#| "one”; the “evil” refers to the novel negativity of the future. Cohen’s "
+#| "usage of these terms, however, evokes a different genealogy of morals"
 msgid ""
 "This reading of polarity as animosity has had an alarming effect on Levinas "
 "scholarship: a tendency to read his ethical phenomenology as an ethics of "
@@ -466,18 +459,15 @@ msgstr ""
 #: .\templates\bilingual\duality.html:29
 msgid ""
 "Polar relations are always reciprocal relations between two positive poles"
-msgstr "Les relations polaires sont toujours des relations réciproques entre deux pôles positifs"
+msgstr ""
+"Les relations polaires sont toujours des relations réciproques entre deux "
+"pôles positifs"
 
 #: .\templates\bilingual\duality.html:30
 msgid "AND-relations"
 msgstr "Relations: ET"
 
 #: .\templates\bilingual\duality.html:31
-#, fuzzy
-#| msgid ""
-#| "Levinas relates terms through the conjunction “and”. Gilles Deleuze and "
-#| "Felix Guattari explain the meaning of this word in their explanation of "
-#| "the Rhizome:"
 msgid ""
 "Levinas relates terms through the conjunction “and”. Gilles Deleuze and "
 "Felix Guattari explain the meaning of this word in their explanation of the "
@@ -488,18 +478,6 @@ msgstr ""
 "rhizome"
 
 #: .\templates\bilingual\duality.html:32
-#, fuzzy
-#| msgid ""
-#| "A rhizome has no beginning or end; it is always in the middle, between "
-#| "things, interbeing, intermezzo. The tree is filiation, but the rhizome is "
-#| "alliance, uniquely alliance. The tree imposes the verb “to be,” but the "
-#| "fabric of the rhizome is the conjunction, “and. . . and.. . and. . .” "
-#| "This conjunction carries enough force to shake and uproot the verb “to "
-#| "be.” Where are you going? Where are you coming from? What are you heading "
-#| "for? These are totally useless questions. Making a clean slate, starting "
-#| "or beginning again from ground zero, seeking a beginning or a foundation—"
-#| "all imply a false conception of voyage and movement (a conception that is "
-#| "methodical, pedagogical, initiatory, symbolic...)"
 msgid ""
 "A rhizome has no beginning or end; it is always in the middle, between "
 "things, interbeing, intermezzo. The tree is filiation, but the rhizome is "
@@ -528,19 +506,6 @@ msgid "Deleuze takes this from Jean Wahl"
 msgstr "Deleuze prend cela de Jean Wahl"
 
 #: .\templates\bilingual\duality.html:34
-#, fuzzy
-#| msgid ""
-#| "32. “And” has an especially important role in English literature, as a "
-#| "function not only of the Old Testament but also of the “minorities” at "
-#| "work on the language: one case in point is J. M. Synge (see Francois "
-#| "Regnault’s remarks on coordination in Anglo-Irish in the French "
-#| "translation of Playboy of the Western World, Baladin du monde occidental "
-#| "[Paris: Biblio-theque du Graphe]). It should not be thought adequate to "
-#| "analyze the “and” as a conjunction; rather, “and” is a special form of "
-#| "every possible conjunction and brings into play a logic of language. Jean "
-#| "Wahl’s works contain profound reflections on this sense of “and,” on the "
-#| "way it challenges the primacy of the verb “to be.” 33. Hjelmslev, "
-#| "Language: An Introduction, trans. Francis"
 msgid ""
 "32.“And” has an especially important role in English literature, as a "
 "function not only of the Old Testament but also of the “minorities” at work "
@@ -551,7 +516,7 @@ msgid ""
 "conjunction; rather,“and” is a special form of every possible conjunction "
 "and brings into play a logic of language. Jean Wahl’s works contain profound "
 "reflections on this sense of “and,” on the way it challenges the primacy of "
-"the verb “to be.” 33. Hjelmslev, Language: An Introduction, trans. Francis"
+"the verb “to be.”"
 msgstr ""
 "32. « And » joue un rôle particulièrement important dans la littérature "
 "anglaise, en fonction non seulement de l’Ancien Testament mais aussi des « "
@@ -563,23 +528,13 @@ msgstr ""
 "conjonction; au contraire, « et » est une forme particulière de chaque "
 "conjonction possible et met en jeu un logique du langage. Les œuvres de Jean "
 "Wahl contiennent de profondes réflexions sur ce sens du « et », sur dans la "
-"manière dont il remet en question la primauté du verbe « être ». 33. "
-"Hjelmslev, Langue : une introduction, trad. Francis"
+"manière dont il remet en question la primauté du verbe « être ». "
 
 #: .\templates\bilingual\duality.html:36
 msgid "2 >1"
 msgstr ""
 
 #: .\templates\bilingual\duality.html:37
-#, fuzzy
-#| msgid ""
-#| "The importance of duality should be understood in light of the "
-#| "misunderstood slogan “ethics is first philosophy.”     Rather than urging "
-#| "us to embrace the rank of priority, Levinas invites us to question the "
-#| "priority of priority, to understand how priority is always secondary to "
-#| "the relationship to a second party. The second party is the other, who is "
-#| "also a singularity, but placed in a position of juxtapostion or proximity "
-#| "or seriality"
 msgid ""
 "The importance of duality should be understood in light of the misunderstood "
 "slogan “ethics is first philosophy.”     Rather than urging us to embrace "
@@ -629,13 +584,6 @@ msgstr ""
 "polarité à travers des métaphores de genre"
 
 #: .\templates\bilingual\duality.html:40
-#, fuzzy
-#| msgid ""
-#| "I would in fact suggest that Levinas not only gives this polarity a "
-#| "gender but gives this gendered Feminine a proper name, a biblical name. "
-#| "It is not one of the feminine names Levinas gives in “Judaism and the "
-#| "Feminine” such as Miriam or Tamar or Leah (DF 31), but it is perhaps the "
-#| "most frequently used name in the bible"
 msgid ""
 "I would in fact suggest that Levinas not only gives this polarity a gender "
 "but gives this gendered Feminine a proper name, a biblical name. It is not "
@@ -650,15 +598,6 @@ msgstr ""
 "peut-être le nom le plus fréquemment utilisé dans la Bible"
 
 #: .\templates\bilingual\duality.html:41
-#, fuzzy
-#| msgid ""
-#| "It should be noted that the number two has special significance in "
-#| "Judaism. Books of Talmud always open on the second page. The first book "
-#| "of creation, Genesis, starts with the word B “RAISHIT. The root of the "
-#| "word ”ROSH “means the head or the first. The prefix ”B’ means the number "
-#| "two, as well as noun home, as well as the locative relation “inside”.  "
-#| "The most popular female name in the bible is, in fact, “Beth” as in "
-#| "“Bethlehem”"
 msgid ""
 "It should be noted that the number two has special significance in Judaism. "
 "Books of Talmud always open on the second page. The first book of creation, "
@@ -676,22 +615,6 @@ msgstr ""
 "Bible est en fait « Beth » comme dans « Bethléem »"
 
 #: .\templates\bilingual\duality.html:42
-#, fuzzy
-#| msgid ""
-#| "There are multiple reasons why it is useful to express the Feminine as "
-#| "being named “Beth.” In Hebrew, “Beth” signifies not only a proper name, "
-#| "but also the second letter of the alphabet, בּ. It can function as a "
-#| "locative prefix indicating “inside,” perhaps even “interiority.” Although "
-#| "בּ is the second letter of the alphabet, it is the first letter of "
-#| "creation, the first letter in the first word of the first parshah of the "
-#| "first book of Torah: בְּרֵאשִׁית, “In the beginning.” Already in this very "
-#| "word, the root רֹאשׁ--which can be translated as “head” or “first” or even "
-#| "“ἀρχή”-- is preceded by the secondary letter בּ. “Beth” in Hebrew "
-#| "signifies not only the letter בּ, but also the word בַּיִת, which translates "
-#| "as “house,” even as “dwelling.” For this reason, “Beth” is the most "
-#| "frequently used feminine name in the Bible, as a locative signifier in "
-#| "place names such as “Bethel” and “Beth Israel.” Again, the first word of "
-#| "Torah, בְּרֵאשִׁית, houses the primary רֹאשׁ within the בַּיִת"
 msgid ""
 "There are multiple reasons why it is useful to express the Feminine as being "
 "named “Beth.” In Hebrew,“Beth” signifies not only a proper name, but also "
@@ -737,21 +660,6 @@ msgstr ""
 "ici"
 
 #: .\templates\bilingual\duality.html:44
-#, fuzzy
-#| msgid ""
-#| "In addition to these various linguistic meanings, בּ also has a "
-#| "mathematical signification: Because Hebrew uses letters to represent "
-#| "numbers, בּ also signifies the number 2. One of the motifs that most "
-#| "pervasively underlies the Levinas’s work is the question of number. Like "
-#| "many philosophers before him, Levinas confronts a perennial mathematical "
-#| "problem: when we think of a certain quantity of things, we generally "
-#| "conceive of a singularity rather than a multiplicity. That is, when we "
-#| "contemplate “twenty dogs,” we typically consider this as a single genre "
-#| "of twenty rather than thinking the twenty-ness of the twenty itself. "
-#| "Levinas expresses this problem through meditations on plurality and "
-#| "multiplicity “The plural is given to a number. Unity alone is "
-#| "ontologically privileged. Multiple is, but in synthesis is no more” (TI "
-#| "274)"
 msgid ""
 "In addition to these various linguistic meanings, בּ also has a mathematical "
 "signification: Because Hebrew uses letters to represent numbers, בּ also "
@@ -781,26 +689,6 @@ msgstr ""
 "privilégiée. Plusieurs est, mais en synthèse n’est plus » (TI 274)"
 
 #: .\templates\bilingual\duality.html:45
-#, fuzzy
-#| msgid ""
-#| "Before I produce this woman before you, let me begin by suggesting that, "
-#| "in his early work, Levinas states that “all philosophy is perhaps a "
-#| "meditation on Shakespeare” (TO 72). In contrast to the tragic Greek "
-#| "heroes who confront death as part of their fate and destiny in a "
-#| "Heideggerean Being-towards-Death, Levinas discusses man’s confrontation "
-#| "with death through the character of Macbeth. Macbeth not only wishes that "
-#| "the world would die along with him, “he wishes that the nothingness of "
-#| "death be a void as total as that which would have reigned had the world "
-#| "never been created” (TI 231, my italics). Two important things must be "
-#| "said about this dramatic person who opposes origination. First of all, he "
-#| "is warned by the witches--the Moirae, the Fates--that his death will come "
-#| "at the hands of an Other who is “not of woman born,” his friend MacDuff. "
-#| "Second, in order to understand who Macbeth himself is, we must understand "
-#| "that “Mac” is a common Gaelic prefix for “son of.” “MacBeth” is quite an "
-#| "unusual name because generally these names are patronymic, such as "
-#| "“Johnson” for the son of John or “MacDonald” for the son of Donald, but "
-#| "in this case it would appear that this familiar character is the son of a "
-#| "woman named “Beth”"
 msgid ""
 "Before I produce this woman before you, let me begin by suggesting that, in "
 "his early work, Levinas states that “all philosophy is perhaps a meditation "
@@ -820,25 +708,25 @@ msgid ""
 "of Donald, but in this case it would appear that this familiar character is "
 "the son of a woman named “Beth”"
 msgstr ""
-"Avant de produire ça femme avant vous, permettez-moi de commencer par "
-"suggérer que, dans ses premiers travaux, Levinas affirme que « toute "
+"Avant de présenter cette femme devant vous, permettez-moi de commencer par "
+"suggérer que, dans ses premiers travaux, Levinas déclare que « toute "
 "philosophie est peut-être une méditation sur Shakespeare » (TO 72). "
-"Contrairement aux héros grecs tragiques qui affrontent la mort dans le cadre "
-"de leur destin et destin dans un Être-vers-la-mort heideggerien, Levinas "
-"évoque la confrontation de l’homme avec la mort à travers le personnage de "
-"Macbeth. Macbeth souhaite non seulement que le monde meure avec lui, « il "
-"souhaite que le que le néant de la mort soit un vide aussi total que celui "
-"qui aurait régné si le monde n “avait jamais été créé » (TI 231, mes "
-"italiques). Deux choses importantes doivent être dites à propos de ce "
-"personnage dramatique qui s’oppose à l’origination. Tout d”abord, il est "
+"Contrairement aux héros grecs tragiques qui affrontent la mort comme faisant "
+"partie de leur destin dans un être-vers-la-mort heideggerien, Levinas "
+"discute de la confrontation de l’homme avec la mort à travers le personnage "
+"de Macbeth. Macbeth ne souhaite pas seulement que le monde meure avec lui, « "
+"il souhaite que le néant de la mort soit un vide aussi total que celui qui "
+"aurait régné si le monde n'avait jamais été créé » (TI 231, c'est moi qui "
+"souligne). Deux choses importantes doivent être dites à propos de ce "
+"personnage dramatique qui s’oppose à l’origination. Tout d’abord, il est "
 "averti par les sorcières – les Moirae, les Destins – que sa mort viendra des "
-"mains d “un Autre qui « n”est pas de femme née », son ami MacDuff. "
-"Deuxièmement, pour comprendre qui est Macbeth lui-même, nous devons "
+"mains d’un Autre qui « n’est pas né d’une femme », son ami MacDuff. "
+"Deuxièmement, afin de comprendre qui est Macbeth lui-même, nous devons "
 "comprendre que « Mac » est un préfixe gaélique courant pour « fils de ». « "
-"MacBeth » est un nom assez inhabituel car généralement ces noms sont "
-"patronyme, comme « Johnson » pour le fils de John ou « MacDonald » pour le "
-"fils de Donald, mais dans ce cas il s “agirait Il semblerait que ce "
-"personnage familier soit le fils d”une femme nommée « Beth » --"
+"MacBeth » est un nom assez inhabituel car généralement ces noms sont des "
+"patronymes, comme « Johnson » pour le fils de John ou « MacDonald » pour le "
+"fils de Donald, mais dans ce cas il semblerait que ce personnage familier "
+"soit le fils d'une femme nommée « Beth »"
 
 #: .\templates\bilingual\duality.html:46
 msgid "Mac Beatha meaning “son of life”"
@@ -901,10 +789,6 @@ msgstr ""
 "autour de lui"
 
 #: .\templates\bilingual\flat.html:4
-#, fuzzy
-#| msgid ""
-#| "We can see a similar dynamic in Levinas’s usage of the idea of "
-#| "“curvature” effected by height and weight"
 msgid ""
 "We can see a similar dynamic in Levinas’s usage of the idea of “curvature” "
 "effected by height and weight"
@@ -913,10 +797,6 @@ msgstr ""
 "de l’idée de « courbure » affectée par la taille et le poids"
 
 #: .\templates\bilingual\flat.html:5
-#, fuzzy
-#| msgid ""
-#| "In “Time and the Other”, Levinas describes the establishment of a place, "
-#| "the"
 msgid ""
 "In “Time and the Other”, Levinas describes the establishment of a place, the"
 msgstr ""
@@ -1098,6 +978,11 @@ msgstr "Variations et répétitions formelles"
 msgid "Formula for “Proportion”"
 msgstr "Formule de “Proportion”"
 
+#: .\templates\includes\lines\otblines.html:7
+#: .\templates\includes\lines\tilines.html:7
+msgid "Line"
+msgstr "Ligne"
+
 #: .\templates\includes\site_header.html:6
 msgid "Radical Empiricism"
 msgstr "Empirisme Radical"
@@ -1110,6 +995,60 @@ msgstr ""
 "Une analyse topologique des variétés métaphoriques dans les textes "
 "d'Emmanuel Levinas"
 
+#: .\templates\includes\summary\membership.html:7
+#, fuzzy
+#| msgid "Metaphorical constellations"
+msgid "Metaphorical"
+msgstr "Constellations métaphoriques"
+
+#: .\templates\includes\summary\membership.html:8
+msgid "CONSCIENCE"
+msgstr ""
+
+#: .\templates\includes\summary\membership.html:18
+msgid "Etymological roots"
+msgstr "Racines étymologiques"
+
+#: .\templates\includes\summary\membership.html:21
+#: .\templates\pages\genre_list_page.html:43
+msgid "Prefixes"
+msgstr "Préfixes"
+
+#: .\templates\includes\summary\membership.html:25
+#: .\templates\pages\genre_list_page.html:48
+msgid "Suffixes"
+msgstr ""
+
+#: .\templates\includes\summary\membership.html:28
+#: .\templates\pages\genre_list_page.html:53
+msgid "Parts of speech"
+msgstr "Suffixes"
+
+#: .\templates\includes\summary\membership.html:31
+#: .\templates\pages\genre_list_page.html:37
+msgid "Semantic themes"
+msgstr ""
+
+#: .\templates\includes\summary\membership.html:33
+msgid ""
+"Many of these genres are topologically homologous to each other and can be "
+"mapped onto each other. For example, the relations within the "
+"Appearance_Genre can be correlated to the Faciality_Genre. The formula for "
+"transfomation is being investigated by this research"
+msgstr ""
+"Beaucoup de ces genres sont topologiquement homologues les uns aux autres et "
+"peuvent être  mappés les uns sur les autres. Par exemple, les relations au "
+"sein du Appearance_Genre peut être corrélé au Faciality_Genre. La formule "
+"pour la transformation est étudiée par cette recherche"
+
+#: .\templates\includes\word_page\cnrtl.html:2
+msgid "Word Proximity Map"
+msgstr "Carte de proximité de mots"
+
+#: .\templates\includes\word_page\counts.html:4
+msgid "Quantities"
+msgstr "Quantités"
+
 #: .\templates\includes\word_page\counts.html:9
 #: .\templates\pages\word_list_page.html:11
 msgid "Sum"
@@ -1119,13 +1058,115 @@ msgstr "Somme"
 msgid "Proportion"
 msgstr "Proportion"
 
-#: .\templates\pages\technical_page.html:11
-msgid "Author"
-msgstr "Auteur"
+#: .\templates\pages\genre_list_page.html:5
+#: .\templates\pages\genre_list_page.html:11
+#, fuzzy
+#| msgid "For example the word"
+msgid "For example"
+msgstr "Par exemple le mot"
 
+#: .\templates\pages\genre_list_page.html:7
+msgid "Suffix"
+msgstr "Suffixe"
+
+#: .\templates\pages\genre_list_page.html:7
+msgid "In"
+msgstr "En"
+
+#: .\templates\pages\genre_list_page.html:9
+msgid ""
+"suffix 'ance' denotes nominalization whereas the infinitive is both nominal "
+"and verbal. All words with this suffix belong to ONTOLOGY"
+msgstr ""
+"le suffixe 'ance' dénote une nominalisation alors que l'infinitif est à la "
+"fois nominalet verbal. Tous les mots avec ce suffixe appartiennent à "
+"l'ONTOLOGIE"
+
+#: .\templates\pages\genre_list_page.html:11
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: .\templates\pages\genre_list_page.html:11
+msgid ""
+"The prefix 'sur' means above and connotes height. All words that begin with "
+"this prefix belong to MATHEMATICS."
+msgstr ""
+"Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
+"commençant par ce préfixe appartient aux MATHÉMATIQUES."
+
+#: .\templates\pages\genre_list_page.html:11
 #: .\templates\pages\technical_page.html:23
 msgid "or"
 msgstr "ou"
+
+#: .\templates\pages\genre_list_page.html:13
+#, fuzzy
+#| msgid ""
+#| "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
+#| "nominal, adjectival and adverbial combinations all belong to various "
+#| "GENRE_SETS. This enables a single word to envelop an N-ply manifold of "
+#| "Ensembles De Genres (ES)"
+msgid ""
+"Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, "
+"adjectival and adverbial combinations all belong to various "
+"THEMATIC_GENRES.  This enables a single word to envelop an N-ply manifold of "
+"THEMATIC_GENRES.  conjugations, noun declensions, and etymological roots all "
+"are Combinations (survivre = sur + vivre) "
+msgstr ""
+"Les préfixes, suffixes, prépositions, racines étymologiques et combinaisons "
+"verbales, nominales, adjectivales et adverbiales appartiennent tous à divers "
+"GENRE_SETS. Cela permet à un seul mot d'envelopper une variété N-ply "
+"d'ensembles de genres (ES)"
+
+#: .\templates\pages\genre_list_page.html:15
+msgid "HEIGHT"
+msgstr "HAUTEUR"
+
+#: .\templates\pages\genre_list_page.html:15
+msgid "VIVRE"
+msgstr "VIVRE"
+
+#: .\templates\pages\genre_list_page.html:21
+msgid "Infinitives and Etymological roots"
+msgstr "Infinitifs et racines étymologiques"
+
+#: .\templates\pages\genre_list_page.html:23
+msgid ""
+"In his 1932 article that introduced Heidegger to the francophone world, "
+"Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
+"Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take "
+"this term in its etymological sense”35"
+msgstr ""
+"Dans son article de 1932 qui présentait Heidegger au monde francophone,"
+"Martin Heidegger et l'ontologie, Levinas explique sa décision de "
+"traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
+"souhaite “prendrece terme dans son sens étymologique”35"
+
+#: .\templates\pages\genre_list_page.html:26
+msgid ""
+"In his later works critical of Heidegger, he will critique the notion of the "
+"hand as being the primary mode through which relation with the world is "
+"effectuated. Instead, he makes a twofold division.  The primary mode of "
+"relation with the world is through the mouth"
+msgstr ""
+"Dans ses derniers travaux critiques à l'égard de Heidegger, il critiquera la "
+"notion de la main comme étant le mode premier par lequel s'effectue la "
+"relation avec le mondeeffectué. Au lieu de cela, il fait une double "
+"division. Le mode principal de la relation avec le monde passe par la bouche"
+
+#: .\templates\pages\genre_list_page.html:29
+msgid ""
+"He secondary relationhip to the world as exterioirty is explored through the "
+"hand in the sense of maintenir, to maintain.  Words with the same infinitive "
+"and the same etymological roots belong to the same Thematic Genre"
+msgstr ""
+"La relation secondaire au monde en tant qu'extérieur est explorée à travers "
+"le main au sens de maintenir, maintenir. Mots avec le même infinitifet les "
+"mêmes racines étymologiques appartiennent au même genre thématique"
+
+#: .\templates\pages\technical_page.html:11
+msgid "Author"
+msgstr "Auteur"
 
 #: .\templates\pages\technical_page.html:131
 msgid ""
@@ -1144,18 +1185,20 @@ msgid ""
 "connection for which laws of the form a + b = b + a, etc., hold."
 msgstr ""
 "Le corrélat objectif du concept d'une théorie possible déterminé uniquement "
-"par rapport à la forme [Forme] est le concept d'un champ possible de connaissance "
-"[Erkenntnisgebiet] sur lequel régira une théorie d'une telle forme. Un tel "
-"le champ [Gebiet] est cependant connu dans les cercles mathématiques comme une variété"
-"[Mannigfaltigkeit]. Il s'agit donc d'un domaine qui est unique et uniquement "
-"déterminé en relevant d'une théorie d'une telle forme, dont les objets sont tels"
-"pour permettre certaines connexions [Verknüpfungen] qui relèvent de certaines "
-"des lois fondamentales de telle ou telle forme déterminée. … Ces lois donc, telles qu'elles "
-"déterminer le champ [Gebiet] ou encore la forme du champ"
-"[Gebietsform], déterminez également la théorie à construire, ou, plus "
-"correctement, la forme de la théorie [Theoriensform]. Dans la théorie de "
-"les variétés, par exemple, '+' n'est pas le signe de l'addition numérique, mais de tout "
-"connexion pour laquelle les lois de la forme a + b = b + a, etc., sont valables."
+"par rapport à la forme [Forme] est le concept d'un champ possible de "
+"connaissance [Erkenntnisgebiet] sur lequel régira une théorie d'une telle "
+"forme. Un tel le champ [Gebiet] est cependant connu dans les cercles "
+"mathématiques comme une variété[Mannigfaltigkeit]. Il s'agit donc d'un "
+"domaine qui est unique et uniquement déterminé en relevant d'une théorie "
+"d'une telle forme, dont les objets sont telspour permettre certaines "
+"connexions [Verknüpfungen] qui relèvent de certaines des lois fondamentales "
+"de telle ou telle forme déterminée. … Ces lois donc, telles qu'elles "
+"déterminer le champ [Gebiet] ou encore la forme du champ[Gebietsform], "
+"déterminez également la théorie à construire, ou, plus correctement, la "
+"forme de la théorie [Theoriensform]. Dans la théorie de les variétés, par "
+"exemple, '+' n'est pas le signe de l'addition numérique, mais de tout "
+"connexion pour laquelle les lois de la forme a + b = b + a, etc., sont "
+"valables."
 
 #: .\templates\pages\technical_page.html:135
 msgid ""
@@ -1165,15 +1208,34 @@ msgid ""
 "distance and separation as the origin of all “positive value”. Assuredly, it "
 "would be rash to claim to represent Judaism by all"
 msgstr ""
-"Parler, en un mot, c'est chercher la source du sens dans le préfixe que le "
-"« les mots exil, exode, existence, extériorité et éloignement sont commis »"
-"au déploiement dans divers modes d'expérience; un préfixe qui désigne pour nous"
-"la distance et la séparation comme origine de toute « valeur positive ». Assurément, cela "
-"il serait téméraire de prétendre représenter le judaïsme par tous"
+"Parler, en un mot, c'est chercher la source du sens dans le préfixe que le « "
+"les mots exil, exode, existence, extériorité et éloignement sont commis »au "
+"déploiement dans divers modes d'expérience; un préfixe qui désigne pour "
+"nousla distance et la séparation comme origine de toute « valeur positive ». "
+"Assurément, cela il serait téméraire de prétendre représenter le judaïsme "
+"par tous"
+
+#: .\templates\pages\word_detail_page.html:4
+msgid "Information for"
+msgstr ""
 
 #: .\templates\pages\word_detail_page.html:6
 msgid "for"
 msgstr "pour"
+
+#: .\templates\pages\word_detail_page.html:16
+#, fuzzy
+#| msgid "More information and texts"
+msgid "Word Information"
+msgstr "Plus d'information et textes"
+
+#: .\templates\pages\word_detail_page.html:20
+msgid "TI Lines"
+msgstr ""
+
+#: .\templates\pages\word_detail_page.html:24
+msgid "OTB Lines"
+msgstr ""
 
 #: .\templates\pages\word_list_page.html:9
 #: .\templates\pages\word_list_page.html:10
@@ -1197,35 +1259,6 @@ msgstr "Autrement"
 msgid "More information and texts"
 msgstr "Plus d'information et textes"
 
-#~ msgid "l'intervalle"
-#~ msgstr "GEOMETRY -- Espace unidimensionnel"
-
-#, fuzzy
-#~| msgid "Technical notes"
-#~ msgid "Technical notes</a>"
-#~ msgstr "Notes techniques"
-
-#~ msgid "MATHEMATICS (a conjunction)"
-#~ msgstr "MATHEMATICS (une conjonction)"
-
-#, fuzzy
-#~| msgid "AND-relations"
-#~ msgid "ONTOLOGY -- relation"
-#~ msgstr "Relations: ET"
-
-#~ msgid ""
-#~ "Zero-dimensional space-time. GEOMETRY -- points on a map, PHYSICS -- "
-#~ "points of time"
-#~ msgstr ""
-#~ "Espace-temps à dimension zéro. GEOMETRY -- points sur une carte, PHYSICS "
-#~ "-- points de temps"
-
-#~ msgid ""
-#~ "from GENESIS. When Levinas discusses HEIDEGGER_PT, he typically invokes "
-#~ "metaphors of"
-#~ msgstr ""
-#~ "de GENESIS. Lorsque Levinas parle de HEIDEGGER_PT, il invoque "
-#~ "généralement métaphores de la"
-
-#~ msgid "from GENESIS"
-#~ msgstr "de GENESIS"
+#: .\templates\pages\word_list_page.html:24
+msgid "Information about"
+msgstr "Des informations sur"
