@@ -40,7 +40,7 @@
                         <h5>{% trans "Categories" %}</h5>
 
                         {% for genre in genres %}
-                            {% include 'tags/genre_btn_collapse.html' with genre=genre %}
+                            {% genre_btn_collapse genre %}
                         {% endfor %}
                     </div>
                 </div>
