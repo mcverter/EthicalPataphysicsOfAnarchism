@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 08:29-0500\n"
+"POT-Creation-Date: 2024-01-07 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,21 +144,14 @@ msgid "Combinations"
 msgstr "Combinations"
 
 #: .\templates\bilingual\combination.html:3
-#, fuzzy
-#| msgid ""
-#| "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
-#| "nominal, adjectival and adverbial combinations all belong to various "
-#| "GENRE_SETS. This enables a single word to envelop an N-ply manifold of "
-#| "GENRE_SETS"
 msgid ""
 "Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, "
 "adjectival and adverbial combinations all belong to various GENRE_SETS. This "
 "enables a single word to envelop an N-ply manifold of"
 msgstr ""
-"Préfixes, suffixes, prépositions, racines étymologiques et verbales, "
-"nominales, adjectivales et adverbiales les combinaisons appartiennent toutes "
-"à différents GENRE_SETS. Cela permet à un seul mot d'envelopper un "
-"collecteur à N plis de GENRE_SETS"
+"Les préfixes, suffixes, prépositions, racines étymologiques et combinaisons "
+"verbales, nominales, adjectivales et adverbiales appartiennent tous à divers "
+"GENRE_SETS. Cela permet à un seul mot d'envelopper une variété à N plis de"
 
 #: .\templates\bilingual\combination.html:3
 #: .\templates\includes\site_nav.html:18
@@ -370,25 +363,38 @@ msgstr ""
 msgid "and others: namely ideas such as"
 msgstr "et d'autres : à savoir des idées telles que"
 
+#: .\templates\bilingual\duality.html:19 .\templates\bilingual\duality.html:21
+msgid "and"
+msgstr ""
+
+#: .\templates\bilingual\duality.html:21
+msgid "the"
+msgstr ""
+
+#: .\templates\bilingual\duality.html:21
+msgid "also called"
+msgstr ""
+
 #: .\templates\bilingual\duality.html:23
 msgid "in French"
 msgstr "en français"
 
+#: .\templates\bilingual\duality.html:24
+#: .\templates\pages\genre_list_page.html:11
+#: .\templates\pages\technical_page.html:23
+msgid "or"
+msgstr "ou"
+
 #: .\templates\bilingual\duality.html:25
-#, fuzzy
-#| msgid ""
-#| "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
-#| "contradictions, paradoxes, and so on. It is apparent in his usage of "
-#| "oppositions such as “totality” and “infinity”, “self” and “other”"
 msgid ""
 "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
 "contradictions, paradoxes, and so on.  It is apparent in his usage of "
 "oppositions such as “totality” and “infinity”, “self” and “other”"
 msgstr ""
 "Il y fait référence à plusieurs reprises, dans des discussions sur "
-"l'ambiguïté, l'ambhibologiedes contradictions, des paradoxes, etc. Cela "
-"ressort clairement de son utilisation de « des oppositions telles que « "
-"totalité » et « infini », « soi » et « autre » "
+"l'ambiguïté, l'ambhibologie, les contradictions, les paradoxes, etc. Cela se "
+"voit dans son utilisation d’oppositions telles que « totalité » et « infini "
+"», « soi » et « autre »."
 
 #: .\templates\bilingual\duality.html:26
 msgid ""
@@ -404,17 +410,6 @@ msgstr ""
 "Lyotard parle de  « La haine du neutre constamment manifestée par »Lévinas."
 
 #: .\templates\bilingual\duality.html:27
-#, fuzzy
-#| msgid ""
-#| "This reading of polarity as animosity has had an alarming effect on "
-#| "Levinas scholarship: a tendency to read his ethical phenomenology as an "
-#| "ethics of ressentiment. When Richard Cohen asserts that Levinas’s “battle "
-#| "cry would be “Against evil, for the good!” we must ask whether such "
-#| "polemics express Levinas’s thinking or whether Cohen even understands "
-#| "what the words “good” and “evil” mean in Levinas’s writing. For Levinas, "
-#| "the “good” refers to the novelty positivity of the future, the “plus "
-#| "one”; the “evil” refers to the novel negativity of the future. Cohen’s "
-#| "usage of these terms, however, evokes a different genealogy of morals"
 msgid ""
 "This reading of polarity as animosity has had an alarming effect on Levinas "
 "scholarship: a tendency to read his ethical phenomenology as an ethics of "
@@ -426,16 +421,16 @@ msgid ""
 "novel negativity of the future. Cohen’s usage of these terms, however, "
 "evokes a different genealogy of morals"
 msgstr ""
-"Cette lecture de la polarité comme de l’animosité a eu un effet alarmant sur "
-"la recherche de Levina : une tendance à lire son La phénoménologie éthique "
-"comme éthique du ressentiment. Quand Richard Cohen affirme que « le cri de "
-"guerre de Levinas serait « Contre le mal, pour le bien ! » » il faut se "
+"Cette lecture de la polarité comme animosité a eu un effet alarmant sur la "
+"recherche de Levina : une tendance à lire sa phénoménologie éthique comme "
+"une éthique du ressentiment. Quand Richard Cohen affirme que le « cri de "
+"guerre de Levinas serait « Contre le mal, pour le bien ! nous devons nous "
 "demander si de telles polémiques expriment la pensée de Levinas ou si Cohen "
-"comprend même ce que signifient les mots « bon » et « mal » signifie dans "
-"les écrits de Levinas. Pour Levinas, le « bien » fait référence à la "
-"nouveauté positive du futur, le « plus » le « mal » fait référence à la "
-"nouvelle négativité du futur. l’utilisation de ces termes par Cohen évoque "
-"cependant un généalogie différente des mœurs"
+"comprend même ce que signifient les mots « bien » et « mal » dans les écrits "
+"de Levinas. Pour Levinas, le « bien » fait référence à la nouveauté positive "
+"du futur, le « plus un » ; le « mal » fait référence à la nouvelle "
+"négativité du futur. L’usage que fait Cohen de ces termes évoque cependant "
+"une généalogie différente de la morale."
 
 #: .\templates\bilingual\duality.html:28
 msgid ""
@@ -1010,22 +1005,22 @@ msgid "Etymological roots"
 msgstr "Racines étymologiques"
 
 #: .\templates\includes\summary\membership.html:21
-#: .\templates\pages\genre_list_page.html:43
+#: .\templates\pages\genre_list_page.html:42
 msgid "Prefixes"
 msgstr "Préfixes"
 
 #: .\templates\includes\summary\membership.html:25
-#: .\templates\pages\genre_list_page.html:48
+#: .\templates\pages\genre_list_page.html:47
 msgid "Suffixes"
 msgstr ""
 
 #: .\templates\includes\summary\membership.html:28
-#: .\templates\pages\genre_list_page.html:53
+#: .\templates\pages\genre_list_page.html:52
 msgid "Parts of speech"
 msgstr "Suffixes"
 
 #: .\templates\includes\summary\membership.html:31
-#: .\templates\pages\genre_list_page.html:37
+#: .\templates\pages\genre_list_page.html:36
 msgid "Semantic themes"
 msgstr ""
 
@@ -1060,10 +1055,8 @@ msgstr "Proportion"
 
 #: .\templates\pages\genre_list_page.html:5
 #: .\templates\pages\genre_list_page.html:11
-#, fuzzy
-#| msgid "For example the word"
 msgid "For example"
-msgstr "Par exemple le mot"
+msgstr "Par exemple"
 
 #: .\templates\pages\genre_list_page.html:7
 msgid "Suffix"
@@ -1094,43 +1087,19 @@ msgstr ""
 "Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
 "commençant par ce préfixe appartient aux MATHÉMATIQUES."
 
-#: .\templates\pages\genre_list_page.html:11
-#: .\templates\pages\technical_page.html:23
-msgid "or"
-msgstr "ou"
-
-#: .\templates\pages\genre_list_page.html:13
-#, fuzzy
-#| msgid ""
-#| "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
-#| "nominal, adjectival and adverbial combinations all belong to various "
-#| "GENRE_SETS. This enables a single word to envelop an N-ply manifold of "
-#| "Ensembles De Genres (ES)"
-msgid ""
-"Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, "
-"adjectival and adverbial combinations all belong to various "
-"THEMATIC_GENRES.  This enables a single word to envelop an N-ply manifold of "
-"THEMATIC_GENRES.  conjugations, noun declensions, and etymological roots all "
-"are Combinations (survivre = sur + vivre) "
-msgstr ""
-"Les préfixes, suffixes, prépositions, racines étymologiques et combinaisons "
-"verbales, nominales, adjectivales et adverbiales appartiennent tous à divers "
-"GENRE_SETS. Cela permet à un seul mot d'envelopper une variété N-ply "
-"d'ensembles de genres (ES)"
-
-#: .\templates\pages\genre_list_page.html:15
+#: .\templates\pages\genre_list_page.html:14
 msgid "HEIGHT"
 msgstr "HAUTEUR"
 
-#: .\templates\pages\genre_list_page.html:15
+#: .\templates\pages\genre_list_page.html:14
 msgid "VIVRE"
 msgstr "VIVRE"
 
-#: .\templates\pages\genre_list_page.html:21
+#: .\templates\pages\genre_list_page.html:20
 msgid "Infinitives and Etymological roots"
 msgstr "Infinitifs et racines étymologiques"
 
-#: .\templates\pages\genre_list_page.html:23
+#: .\templates\pages\genre_list_page.html:22
 msgid ""
 "In his 1932 article that introduced Heidegger to the francophone world, "
 "Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
@@ -1142,7 +1111,7 @@ msgstr ""
 "traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
 "souhaite “prendrece terme dans son sens étymologique”35"
 
-#: .\templates\pages\genre_list_page.html:26
+#: .\templates\pages\genre_list_page.html:25
 msgid ""
 "In his later works critical of Heidegger, he will critique the notion of the "
 "hand as being the primary mode through which relation with the world is "
@@ -1154,7 +1123,7 @@ msgstr ""
 "relation avec le mondeeffectué. Au lieu de cela, il fait une double "
 "division. Le mode principal de la relation avec le monde passe par la bouche"
 
-#: .\templates\pages\genre_list_page.html:29
+#: .\templates\pages\genre_list_page.html:28
 msgid ""
 "He secondary relationhip to the world as exterioirty is explored through the "
 "hand in the sense of maintenir, to maintain.  Words with the same infinitive "
@@ -1262,3 +1231,20 @@ msgstr "Plus d'information et textes"
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur"
+
+#, fuzzy
+#~| msgid ""
+#~| "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
+#~| "nominal, adjectival and adverbial combinations all belong to various "
+#~| "GENRE_SETS. This enables a single word to envelop an N-ply manifold of"
+#~ msgid ""
+#~ "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
+#~ "nominal, adjectival and adverbial combinations all belong to various "
+#~ "THEMATIC_GENRES.  This enables a single word to envelop an N-ply manifold "
+#~ "of THEMATIC_GENRES.  conjugations, noun declensions, and etymological "
+#~ "roots all are Combinations (survivre = sur + vivre) "
+#~ msgstr ""
+#~ "Les préfixes, suffixes, prépositions, racines étymologiques et "
+#~ "combinaisons verbales, nominales, adjectivales et adverbiales "
+#~ "appartiennent tous à divers GENRE_SETS. Cela permet à un seul mot "
+#~ "d'envelopper une variété à N plis de"
