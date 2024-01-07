@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 11:07-0500\n"
+"POT-Creation-Date: 2024-01-07 11:12-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,7 +381,7 @@ msgstr "en français"
 
 #: .\templates\bilingual\duality.html:24
 #: .\templates\pages\genre_list_page.html:11
-#: .\templates\pages\technical_page.html:23
+#: .\templates\pages\technical_page.html:31
 msgid "or"
 msgstr "ou"
 
@@ -1295,15 +1295,23 @@ msgstr ""
 "le main au sens de maintenir, maintenir. Mots avec le même infinitifet les "
 "mêmes racines étymologiques appartiennent au même genre thématique"
 
-#: .\templates\pages\technical_page.html:11
+#: .\templates\pages\technical_page.html:12
+msgid "Dedication"
+msgstr "Dédicace"
+
+#: .\templates\pages\technical_page.html:13
+msgid "For"
+msgstr "Pour"
+
+#: .\templates\pages\technical_page.html:19
 msgid "Author"
 msgstr "Auteur"
 
-#: .\templates\pages\technical_page.html:94
+#: .\templates\pages\technical_page.html:102
 msgid "Suggested Reading"
 msgstr "Lecture suggérée"
 
-#: .\templates\pages\technical_page.html:131
+#: .\templates\pages\technical_page.html:139
 msgid ""
 "The objective correlate of the concept of a possible theory determined only "
 "in respect of form [Form] is the concept of a possible field of knowledge "
@@ -1335,7 +1343,7 @@ msgstr ""
 "connexion pour laquelle les lois de la forme a + b = b + a, etc., sont "
 "valables."
 
-#: .\templates\pages\technical_page.html:135
+#: .\templates\pages\technical_page.html:143
 msgid ""
 "To speak, in a word, is to seek the source of meaning in the prefix that the "
 "words exile, exodus, existence, exteriority, and estrangement are committed "
