@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-06 23:21-0500\n"
+"POT-Creation-Date: 2024-01-07 00:04-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,6 +258,7 @@ msgstr "singulier, également homonyme de “là” en français, donc"
 
 #: .\templates\bilingual\constellation.html:20
 #: .\templates\bilingual\constellation.html:55
+#: .\templates\bilingual\constellation.html:64
 #: .\templates\bilingual\constellation.html:80
 #: .\templates\bilingual\constellation.html:95
 #: .\templates\bilingual\constellation.html:139
@@ -302,7 +303,7 @@ msgstr "espace-temps"
 
 #: .\templates\bilingual\constellation.html:55
 msgid "Zero-dimensional space-time."
-msgstr ""
+msgstr "Espace-temps de dimension zéro."
 
 #: .\templates\bilingual\constellation.html:55
 msgid "points on a map"
@@ -310,24 +311,13 @@ msgstr ""
 
 #: .\templates\bilingual\constellation.html:55
 msgid "points of time"
-msgstr ""
-
-#: .\templates\bilingual\constellation.html:63
-msgid "l'intervalle"
-msgstr "GEOMETRY -- Espace unidimensionnel"
+msgstr "points par moment"
 
 #: .\templates\bilingual\constellation.html:64
-msgid "GEOMETRY -- One-dimensional space"
-msgstr ""
+msgid "One-dimensional space"
+msgstr "Espace unidimensionnel"
 
 #: .\templates\bilingual\constellation.html:85
-#, fuzzy
-#| msgid ""
-#| "ONTOLOGY -- reflexive verbs have their own logic related to the "
-#| "reflexivity of the reduction, to the asymmetry that occurs because one "
-#| "can never see oneself from the outside: The Self can only see the Other. "
-#| "Only the Other can see the Self. The Self can never view the Self from "
-#| "the inside. The Self can only view the Self as an Other"
 msgid ""
 "reflexive verbs have their own logic related to the reflexivity of the "
 "reduction, to the asymmetry that occurs because one can never see oneself "
@@ -335,15 +325,15 @@ msgid ""
 "the Self. The Self can never view the Self from the inside. The Self can "
 "only view the Self as an Other"
 msgstr ""
-"ONTOLOGY -- les verbes réfléchis ont leur propre logique liée à la "
-"réflexivité de la réduction, à l’asymétrie qui se produit parce qu'on ne "
-"peut jamais se voir de l’extérieur : le Soi peut voir seulement l’Autre. "
-"Seul l’Autre peut voir le Soi. Le Soi ne peut jamais se voir depuis le à "
-"l’intérieur. Le Soi ne peut se considérer que comme un Autre"
+"Les verbes réfléchis ont leur propre logique liée à la réflexivité de la "
+"réduction, à l'asymétrie qui se produit parce qu'on ne peut jamais se voir "
+"de l'extérieur : Le Soi ne peut voir que l'Autre. Seul l'Autre peut voir le "
+"Soi. Le Soi ne peut jamais voir le Soi de l'intérieur. Le Soi ne peut se "
+"voir que comme un Autre."
 
 #: .\templates\bilingual\constellation.html:90
 msgid "PHSYICS"
-msgstr ""
+msgstr "LA PHYSIQUE"
 
 #: .\templates\bilingual\constellation.html:90
 msgid ""
@@ -355,11 +345,7 @@ msgstr ""
 
 #: .\templates\bilingual\constellation.html:95
 msgid "within"
-msgstr ""
-
-#: .\templates\bilingual\constellation.html:118
-msgid "l'historien"
-msgstr ""
+msgstr "dans"
 
 #: .\templates\bilingual\constellation.html:139
 msgid ""
@@ -979,12 +965,12 @@ msgid ""
 "conversions, and by considering how various etymological and semantic genres "
 "are transformed into various word forms"
 msgstr ""
-"Cartographier les relations au sein et entre les multiples dimensions des "
-"variétés topologiques qui décrivent le transformations tensorielles "
-"thématiques au sein et entre divers ensembles de genres (ES). Les relations "
-"seront retracées par détermination d'une projection plate, double et par 2x2 "
-"conversions perspectives et conversationnelles, et par en considérant "
-"comment divers genres étymologiques et sémantiques sont transformés en "
+"Cartographe les relations au sein et entre les multiples dimensions des "
+"variétés topologiques qui décrivent les transformations tensorielles "
+"thématiques au sein et entre divers ensembles de genres (GS). Les relations "
+"seront tracées en déterminant des projections plates, des doubles et par des "
+"conversions perspectives et conversationnelles 2x2, et par considérant "
+"comment divers genres étymologiques et sémantiques se transforment en "
 "diverses formes de mots"
 
 #: .\templates\bilingual\opposition.html:3
@@ -1192,6 +1178,9 @@ msgstr "Autrement"
 #: .\templates\pages\word_list_page.html:13
 msgid "More information and texts"
 msgstr "Plus d'information et textes"
+
+#~ msgid "l'intervalle"
+#~ msgstr "GEOMETRY -- Espace unidimensionnel"
 
 #, fuzzy
 #~| msgid "Technical notes"
