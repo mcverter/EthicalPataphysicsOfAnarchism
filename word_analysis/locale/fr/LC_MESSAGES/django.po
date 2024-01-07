@@ -173,7 +173,7 @@ msgstr "Par exemple, le mot"
 
 #: .\templates\bilingual\combination.html:7
 msgid "belongs to the genre"
-msgstr ""
+msgstr "appartient au genre"
 
 #: .\templates\bilingual\combination.html:7
 #: .\templates\bilingual\constellation.html:20
@@ -240,7 +240,7 @@ msgstr "Catégories"
 
 #: .\templates\bilingual\constellation.html:20
 msgid "feminine"
-msgstr ""
+msgstr "féminine"
 
 #: .\templates\bilingual\constellation.html:20
 #: .\templates\bilingual\constellation.html:30
@@ -250,7 +250,7 @@ msgstr ""
 #: .\templates\bilingual\constellation.html:134
 #: .\templates\bilingual\constellation.html:139
 msgid "MATHEMATICS"
-msgstr ""
+msgstr "MATHÉMATIQUES"
 
 #: .\templates\bilingual\constellation.html:20
 msgid "singular, also a homonym for “there” (là) in French, so "
@@ -263,11 +263,11 @@ msgstr "singulier, également homonyme de “là” en français, donc"
 #: .\templates\bilingual\constellation.html:95
 #: .\templates\bilingual\constellation.html:139
 msgid "GEOMETRY"
-msgstr ""
+msgstr "GÉOMÉTRIE"
 
 #: .\templates\bilingual\constellation.html:30
 msgid "conjunction"
-msgstr ""
+msgstr "conjonction"
 
 #: .\templates\bilingual\constellation.html:35
 #: .\templates\bilingual\constellation.html:60
@@ -283,7 +283,7 @@ msgstr "Voir ci-dessus"
 #: .\templates\bilingual\constellation.html:129
 #: .\templates\bilingual\constellation.html:134
 msgid "ONTOLOGY"
-msgstr ""
+msgstr "ONTOLOGIE"
 
 #: .\templates\bilingual\constellation.html:45
 #, fuzzy
@@ -295,7 +295,7 @@ msgstr "Relations: ET"
 #: .\templates\bilingual\constellation.html:55
 #: .\templates\bilingual\constellation.html:105
 msgid "PHYSICS"
-msgstr ""
+msgstr "PHYSIQUE"
 
 #: .\templates\bilingual\constellation.html:50
 msgid "spacetime"
@@ -307,7 +307,7 @@ msgstr "Espace-temps de dimension zéro."
 
 #: .\templates\bilingual\constellation.html:55
 msgid "points on a map"
-msgstr ""
+msgstr "points sur une carte"
 
 #: .\templates\bilingual\constellation.html:55
 msgid "points of time"
@@ -466,7 +466,7 @@ msgstr ""
 #: .\templates\bilingual\duality.html:29
 msgid ""
 "Polar relations are always reciprocal relations between two positive poles"
-msgstr ""
+msgstr "Les relations polaires sont toujours des relations réciproques entre deux pôles positifs"
 
 #: .\templates\bilingual\duality.html:30
 msgid "AND-relations"
@@ -842,7 +842,7 @@ msgstr ""
 
 #: .\templates\bilingual\duality.html:46
 msgid "Mac Beatha meaning “son of life”"
-msgstr ""
+msgstr "Mac Beatha signifiant « fils de la vie »"
 
 #: .\templates\bilingual\duality.html:47
 msgid "0 before 1"
@@ -1143,6 +1143,19 @@ msgid ""
 "manifolds, e.g.,‘ +’ is not the sign for numerical addition, but for any "
 "connection for which laws of the form a + b = b + a, etc., hold."
 msgstr ""
+"Le corrélat objectif du concept d'une théorie possible déterminé uniquement "
+"par rapport à la forme [Forme] est le concept d'un champ possible de connaissance "
+"[Erkenntnisgebiet] sur lequel régira une théorie d'une telle forme. Un tel "
+"le champ [Gebiet] est cependant connu dans les cercles mathématiques comme une variété"
+"[Mannigfaltigkeit]. Il s'agit donc d'un domaine qui est unique et uniquement "
+"déterminé en relevant d'une théorie d'une telle forme, dont les objets sont tels"
+"pour permettre certaines connexions [Verknüpfungen] qui relèvent de certaines "
+"des lois fondamentales de telle ou telle forme déterminée. … Ces lois donc, telles qu'elles "
+"déterminer le champ [Gebiet] ou encore la forme du champ"
+"[Gebietsform], déterminez également la théorie à construire, ou, plus "
+"correctement, la forme de la théorie [Theoriensform]. Dans la théorie de "
+"les variétés, par exemple, '+' n'est pas le signe de l'addition numérique, mais de tout "
+"connexion pour laquelle les lois de la forme a + b = b + a, etc., sont valables."
 
 #: .\templates\pages\technical_page.html:135
 msgid ""
@@ -1152,6 +1165,11 @@ msgid ""
 "distance and separation as the origin of all “positive value”. Assuredly, it "
 "would be rash to claim to represent Judaism by all"
 msgstr ""
+"Parler, en un mot, c'est chercher la source du sens dans le préfixe que le "
+"« les mots exil, exode, existence, extériorité et éloignement sont commis »"
+"au déploiement dans divers modes d'expérience; un préfixe qui désigne pour nous"
+"la distance et la séparation comme origine de toute « valeur positive ». Assurément, cela "
+"il serait téméraire de prétendre représenter le judaïsme par tous"
 
 #: .\templates\pages\word_detail_page.html:6
 msgid "for"

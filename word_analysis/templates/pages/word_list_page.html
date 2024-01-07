@@ -21,7 +21,7 @@
                 <td>{{ word.otb }}</td>
                 <td> {{ word.sum }} </td>
                 <td>{{ word.proportion }}</td>
-                <td><a href="mot/{{ word.french }}" target="_blank"> Information about "{{ word.french }}"</a></td>
+                <td><a href="mot/{{ word.french }}" target="_blank"> {% trans "Information about" %} "{{ word.french }}"</a></td>
             </tr>
         {% endfor %}
         </tbody>
