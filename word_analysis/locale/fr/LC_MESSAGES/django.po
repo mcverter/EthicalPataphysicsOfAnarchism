@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 10:22-0500\n"
+"POT-Creation-Date: 2024-01-07 11:07-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -923,6 +923,168 @@ msgstr "Quand Levinas discute"
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de"
 
+#: .\templates\bilingual\two_dimensional.html:2
+msgid "Two-Dimensional Curvature"
+msgstr "Courbure bidimensionnelle"
+
+#: .\templates\bilingual\two_dimensional.html:3
+msgid "Tensors"
+msgstr "Les tenseurs"
+
+#: .\templates\bilingual\two_dimensional.html:7
+msgid "Position of Self"
+msgstr "Position de Soi"
+
+#: .\templates\bilingual\two_dimensional.html:8
+msgid "Position of Other"
+msgstr "Position d'Autre"
+
+#: .\templates\bilingual\two_dimensional.html:13
+#: .\templates\bilingual\two_dimensional.html:18
+msgid "High"
+msgstr "Haute"
+
+#: .\templates\bilingual\two_dimensional.html:14
+#: .\templates\bilingual\two_dimensional.html:17
+msgid "Low"
+msgstr "Bas"
+
+#: .\templates\bilingual\two_dimensional.html:23
+msgid "In the Self is High,"
+msgstr "Dans le Soi est Haut,"
+
+#: .\templates\bilingual\two_dimensional.html:24
+msgid "Other is Low destitute,"
+msgstr "L'autre est faiblement démuni,"
+
+#: .\templates\bilingual\two_dimensional.html:25
+msgid "Self is Low, Other is High height,"
+msgstr "Le soi est bas, l'autre est de grande taille,"
+
+#: .\templates\bilingual\two_dimensional.html:26
+msgid "Other is Low, Self is High survivor, resurrection,"
+msgstr "L'Autre est Bas, le Soi est Haut survivant, résurrection,"
+
+#: .\templates\bilingual\two_dimensional.html:27
+msgid "Other is High, Self is Low"
+msgstr "L'autre est élevé, le soi est faible"
+
+#: .\templates\bilingual\two_dimensional.html:28
+msgid "Flat projection of curvature"
+msgstr "Projection plate de courbure"
+
+#: .\templates\bilingual\two_dimensional.html:31
+msgid ""
+"The first perspective is an inversion of this subjective point of view, in "
+"which I gaze upwards at the Other. The perspective is the most noticeable "
+"one in Totality and Infinity, articulated in Levinas’s description of the "
+"visage as revealed ”in the dimension of height86 and in the motif of "
+"transcendence that animates much of the text. Levinas’s usage of the "
+"superlative adverb most and suffix –est is 77 Levinas: Totality…, op. cit., "
+"p. 36. 78 Ibid., p. 39. 79 Ibid., p. 141. 80 Ibid., determined by this "
+"perspective as are his employment of prefixes such as ex– and sur– to "
+"describe, for example, how the other person exceeds or surpasses as an "
+"“absolute surplus”.87 The Other’s height is articulated through correlate "
+"attributes such as mastery, which is manifested in a variety of ways, for "
+"example as the one who commands “you shall not commit murder”88 and who "
+"teaches the lesson of his exteriority to consciousness.89 This mastery can "
+"also exhibit malevolence as the “transcendence of the antagonist”90 who "
+"threatens me with death that “comes from the other as a tyranny”.91"
+msgstr ""
+"La première perspective est une inversion de ce point de vue subjectif, en "
+"que je regarde vers le haut vers l'Autre. La perspective est la plus "
+"perceptibleun dans la Totalité et l'Infini, articulé dans la description de "
+"Levinas du  « visage tel que révélé » dans la dimension de hauteur86 et dans "
+"le motif de transcendance qui anime une grande partie du texte. "
+"L'utilisation par Levinas du L'adverbe superlatif most et le suffixe –est "
+"sont 77 Levinas : Totalité…, op. cit., p. 36. 78 Ibid., p. 39. 79 Ibid., p. "
+"141. 80 Ibid., déterminé par ceci de même que son emploi de préfixes tels "
+"que ex- et sur- to décrire, par exemple, comment l'autre personne dépasse ou "
+"dépasse en tant que  « surplus absolu ».87 La hauteur de l’Autre s’articule "
+"à travers des corrélats »des attributs tels que la maîtrise, qui se "
+"manifestent de diverses manières, car exemple comme celui qui ordonne « tu "
+"ne commettras pas de meurtre »88 et qui  « enseigne la leçon de son "
+"extériorité à la conscience.89 Cette maîtrise peut  font également preuve de "
+"malveillance comme « transcendance de l’antagoniste »90 qui  « me menace "
+"d'une mort qui « vient de l'autre comme une tyrannie ».91"
+
+#: .\templates\bilingual\two_dimensional.html:32
+msgid ""
+"The second perspective, perversion, occurs when I look downwards at the "
+"other person from my relative height, such as when I perceive the "
+"”defenseless eyes92 of the other emanating from a depth. This perspective is "
+"similarly indicated whenever I regard the other person in an embodied "
+"materiality, in misery and destitution, as naked and hungry.93 From my "
+"height, I perceive this material poverty as an “appeal to my powers”94, "
+"appealing to my sovereign subjectivity to provide material assistance."
+msgstr ""
+"La deuxième perspective, la perversion, se produit lorsque je regarde "
+"l’autre vers le bas depuis ma hauteur relative, comme lorsque je perçois les "
+"« yeux sans défense92 » de l’autre émanant d’une profondeur. Cette "
+"perspective est également indiquée chaque fois que je considère l’autre dans "
+"une matérialité incarnée, dans la misère et le dénuement, comme nu et "
+"affamé93. Du haut de ma hauteur, je perçois cette pauvreté matérielle comme "
+"un « appel à mes pouvoirs »94, faisant appel à mon souverain. subjectivité "
+"pour fournir une aide matérielle."
+
+#: .\templates\bilingual\two_dimensional.html:33
+msgid ""
+"The third perspective, subversion, occurs when the other person views the "
+"self in its lowness. The dynamic of being-underneath can already be "
+"understood in the terms ”subjectivity and “hypostasis”, which etymologically "
+"connote being thrown-under and standing-under. Within Totality and Infinity, "
+"Levinas mentions this aspect when he describes the nascent self relating to "
+"the environmental element as “a wave that engulfs and submerges and "
+"drowns”.95 Levinas intensifies this analysis in Otherwise than Being by "
+"applying to subjectivity vivid metaphors of material poverty; for example, "
+"as a “denuding beyond the skin, to the wounds one dies from, denuding to "
+"death, being as a vulnerability”.96"
+msgstr ""
+"La troisième perspective, la subversion, se produit lorsque l’autre personne "
+"se voit dans sa faiblesse. La dynamique de l’être-en-dessous peut déjà être "
+"comprise dans les termes « subjectivité et « hypostase », qui évoquent "
+"étymologiquement être jeté-en-dessous et se tenir-en-dessous. Dans Totalité "
+"et Infini, Levinas évoque cet aspect lorsqu'il décrit le moi naissant lié à "
+"l'élément environnemental comme « une vague qui engloutit, submerge et noie "
+"».95 Levinas intensifie cette analyse dans Autrement qu'être en appliquant à "
+"la subjectivité de vives métaphores de la pauvreté matérielle. ; par "
+"exemple, comme « une mise à nu au-delà de la peau, des blessures dont on "
+"meurt, une mise à nu jusqu'à la mort, l'être comme une vulnérabilité »96."
+
+#: .\templates\bilingual\two_dimensional.html:35
+msgid ""
+"The fourth perspective, reversion, occurs when the self is viewed in its "
+"height"
+msgstr ""
+"La quatrième perspective, la réversion, se produit lorsque le soi est vu à "
+"sa hauteur."
+
+#: .\templates\bilingual\two_dimensional.html:36
+msgid ""
+"From the viewpoint of the Other, the self-assertion of subjective mastery "
+"comes under judgment such that it manifests as ”the imperialism of the "
+"same.97 This external 87 Ibid., p. 97. 88 Ibid., p. 199. 89 Ibid., p. 204. "
+"90 Ibid., p. 222. 91 Ibid., p. perspective demonstrates that the first-"
+"person of subjectivity is already secondary and that the birth of the "
+"subject is already a rebirth. For this reason, the dynamics of subject-"
+"formation often appear through the prefix re, as repetitions and returnings, "
+"the “reversion”98 of interiority that “reabsorbs”99 the alterity of the "
+"world in a present of representation through the remembrance of memory100, "
+"an achievement of subjectivity expressed as “recurrence”101 within Otherwise "
+"than Being"
+msgstr ""
+"Du point de vue de l'Autre, l'affirmation de soi de la maîtrise subjective "
+"est soumise à un jugement tel qu'elle se manifeste comme « l'impérialisme du "
+"Même97 ». Cette 87 Ibid., p. 97. 88 Ibid., p. 199. 89 Ibid., p. 204. 90 "
+"Ibid., p. 222. 91 Ibid., p. Cette perspective démontre que la première "
+"personne de la subjectivité est déjà secondaire et que la naissance du sujet "
+"est déjà une renaissance. Pour cette raison, les dynamiques de formation du "
+"sujet apparaissent souvent à travers le préfixe re, comme répétitions et "
+"retours, la « réversion »98 de l'intériorité qui « réabsorbe »99 l'altérité "
+"du monde dans un présent de représentation à travers la remémoration de la "
+"mémoire100, un acquis de subjectivité exprimé comme « récurrence »101 au "
+"sein d’Autrement qu’Être"
+
 #: .\templates\includes\info\count_alerts.html:4
 msgid "Word counts are approximate"
 msgstr "Les quantités de mots sont approximatives"
@@ -1137,6 +1299,10 @@ msgstr ""
 msgid "Author"
 msgstr "Auteur"
 
+#: .\templates\pages\technical_page.html:94
+msgid "Suggested Reading"
+msgstr "Lecture suggérée"
+
 #: .\templates\pages\technical_page.html:131
 msgid ""
 "The objective correlate of the concept of a possible theory determined only "
@@ -1231,20 +1397,3 @@ msgstr "Plus d'information et textes"
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur"
-
-#, fuzzy
-#~| msgid ""
-#~| "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
-#~| "nominal, adjectival and adverbial combinations all belong to various "
-#~| "GENRE_SETS. This enables a single word to envelop an N-ply manifold of"
-#~ msgid ""
-#~ "Prefixes, suffixes, prepositions, etymological roots, and verbal, "
-#~ "nominal, adjectival and adverbial combinations all belong to various "
-#~ "THEMATIC_GENRES.  This enables a single word to envelop an N-ply manifold "
-#~ "of THEMATIC_GENRES.  conjugations, noun declensions, and etymological "
-#~ "roots all are Combinations (survivre = sur + vivre) "
-#~ msgstr ""
-#~ "Les préfixes, suffixes, prépositions, racines étymologiques et "
-#~ "combinaisons verbales, nominales, adjectivales et adverbiales "
-#~ "appartiennent tous à divers GENRE_SETS. Cela permet à un seul mot "
-#~ "d'envelopper une variété à N plis de"
