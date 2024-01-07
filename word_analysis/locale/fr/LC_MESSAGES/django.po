@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 11:12-0500\n"
+"POT-Creation-Date: 2024-01-07 12:35-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1198,7 +1198,7 @@ msgstr ""
 "sein du Appearance_Genre peut être corrélé au Faciality_Genre. La formule "
 "pour la transformation est étudiée par cette recherche"
 
-#: .\templates\includes\word_page\cnrtl.html:2
+#: .\templates\includes\word_page\cnrtl.html:3
 msgid "Word Proximity Map"
 msgstr "Carte de proximité de mots"
 
@@ -1379,6 +1379,12 @@ msgstr ""
 #: .\templates\pages\word_detail_page.html:24
 msgid "OTB Lines"
 msgstr ""
+
+#: .\templates\pages\word_detail_page.html:28
+#, fuzzy
+#| msgid "Word Proximity Map"
+msgid "Word Proximities"
+msgstr "Carte de proximité de mots"
 
 #: .\templates\pages\word_list_page.html:9
 #: .\templates\pages\word_list_page.html:10
