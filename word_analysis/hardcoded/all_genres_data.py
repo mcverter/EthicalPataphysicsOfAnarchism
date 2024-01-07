@@ -16,7 +16,12 @@ def all_words_to_categories():
 
 
 ALL_CATEGORIES_TO_WORDS = {
-    "TENIR": [
+    "DANS": {'maison', 'dans', 'chez', 'interiorite'},
+    "RELATION": {'relation'},
+    "CONJONCTION": {'et'},
+    "PHYSIQUE": {'force'},
+    "FÉMININE": {'maison'},
+    "TENIR": {
         "contente",
         "entrietiens",
         "impatient",
@@ -41,7 +46,7 @@ ALL_CATEGORIES_TO_WORDS = {
         "contenir",
         "contentement",
         "contenter",
-    ],
+    },
     "APPEARANCE": {
         "présence",
         "absence",
@@ -55,8 +60,9 @@ ALL_CATEGORIES_TO_WORDS = {
         "surface",
         "tergiversation",
         "masque",
-    }, "GENESIS": {
-        "genesis",
+    },
+    "GENÈSES": {
+        "genèses",
         "origine",
         "mort",
         "résurrection",
@@ -87,7 +93,8 @@ ALL_CATEGORIES_TO_WORDS = {
         "manger",
         "remords",
         "nourrit",
-    }, "THEATER": {
+    },
+    "THEATER": {
         "drame",
         "acte",
         "scene",
@@ -105,7 +112,8 @@ ALL_CATEGORIES_TO_WORDS = {
         "plaisir",
         "MacBeth",
         "Shakespeare",
-    }, "MATHÉMATIQUES": {
+    },
+    "MATHÉMATIQUES": {
         "zero",
         "null",
         "une",
@@ -132,7 +140,8 @@ ALL_CATEGORIES_TO_WORDS = {
         "serie",
         "proximite",
         "prochain",
-    }, "GÉOMÉTRIE": {
+    },
+    "GÉOMÉTRIE": {
         "origine",
         "point",
         "intervalle",
@@ -146,7 +155,8 @@ ALL_CATEGORIES_TO_WORDS = {
         "hauteur",
         "profondeur",
         "droiture",
-    }, "PHYSIQUE": {
+    },
+    "PHYSIQUE": {
         "substance",
         "element",
         "pese",
@@ -154,24 +164,28 @@ ALL_CATEGORIES_TO_WORDS = {
         "force",
         "gravité",
         "ondes",
-    }, "ONTOLOGIE": {
+    },
+    "ONTOLOGIE": {
         "ontologie",
         "etre",
         "état",
         "autre",
         "essence",
-    }, "EPISTEMOLOGIE": {
+    },
+    "EPISTEMOLOGIE": {
         "savoir",
         "doute",
         "scepticisme",
-    }, "ETHIQUE": {
+    },
+    "ETHIQUE": {
         "ethique",
         "bien",
         "bonté",
         "mal",
         "valeur",
         "devrait",
-    }, "PLATON": {
+    },
+    "PLATON": {
         "être",
         "essence",
         "vérité",
@@ -179,33 +193,40 @@ ALL_CATEGORIES_TO_WORDS = {
         "genèse",
         "forme",
         "matière",
-    }, "BERGSON": {
+    },
+    "BERGSON": {
         "création",
         "durée",
-    }, "HEGEL": {
+    },
+    "HEGEL": {
         "totalité",
         "état",
         "autre",
         "soi",
-    }, "HUSSERL": {
+    },
+    "HUSSERL": {
         "apparence",
         "passivité",
         "activité",
         "remplissement",
-    }, "HEIDEGGER": {
+    },
+    "HEIDEGGER": {
         "ontologie",
         "être",
         "essence",
         "existence",
         "outil",
-    }, "DESCARTES": {
+    },
+    "DESCARTES": {
         "idée",
         "infini",
         "scepticisme",
-    }, "LEIBNIZ": {
+    },
+    "LEIBNIZ": {
         "monade",
         "intégration",
-    }, "NIETZSCHE": {
+    },
+    "NIETZSCHE": {
         "rire",
         "au-delà",
         "recurrence",
@@ -217,4 +238,5 @@ ALL_CATEGORIES_TO_WORDS = {
         "jouir",
         "gratuite",
         "jouissance",
-    }}
+    }
+}

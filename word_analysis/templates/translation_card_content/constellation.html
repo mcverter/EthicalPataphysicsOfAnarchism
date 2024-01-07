@@ -1,7 +1,8 @@
 {% load i18n %}
 <h4 class="card-title">{% trans "Metaphorical constellations" %}</h4>
 <h5>{% trans "Example" %}</h5>
-<blockquote class="blockquote">La naissance et la mort comme moments ponctuels et l’intervalle qui les sépare se logent dans ce temps universel de l’historien qui est un survivan
+<blockquote class="blockquote">La naissance et la mort comme moments ponctuels et l’intervalle qui les sépare se logent
+    dans ce temps universel de l’historien qui est un survivan
     <footer>
         <cite>Totalité et infini : essai sur l’extériorité, p. 48</cite></footer>
 </blockquote>
@@ -17,17 +18,32 @@
     <tr>
         <td>
             <a href='/word/la'>La</a></td>
-        <td>{% trans "GENESIS" %} -- {% trans "feminine" %} , {% trans "MATHEMATICS" %} -- {% trans "singular, also a homonym for “there” (là) in French, so " %} {% trans "GEOMETRY" %}</td>
+        <td>
+            {% genre_btn_collapse "GENÈSES" %}
+            --
+            {% genre_btn_collapse "FÉMININE" %}
+            ,
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+            -- {% trans "singular, also a homonym for “there” (là) in French, so " %}
+            {% genre_btn_collapse "GÉOMÉTRIE" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/naissance'>naissance</a></td>
-        <td> {% trans "GENESIS" %}</td>
+        <td>
+            {% genre_btn_collapse "GENÈSES" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/et'>et</a></td>
-        <td>{% trans "MATHEMATICS" %} ({% trans "conjunction" %})</td>
+        <td>
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+            (
+            {% genre_btn_collapse "CONJONCTION" %}
+            )
+        </td>
     </tr>
     <tr>
         <td>
@@ -37,22 +53,32 @@
     <tr>
         <td>
             <a href='/word/mort'>mort</a></td>
-        <td> {% trans "GENESIS" %}</td>
+        <td>
+            {% genre_btn_collapse "GENÈSES" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/comme'>comme</a></td>
-        <td>{% trans "ONTOLOGY" %} -- {% trans "relation" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+            --
+            {% genre_btn_collapse "RELATION" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/moments'>moments</a></td>
-        <td>{% trans "PHYSICS"  %} -- {% trans "spacetime"  %}</td>
+        <td>{% trans "PHYSIQUE" %} -- {% trans "spacetime" %}</td>
     </tr>
     <tr>
         <td>
             <a href='/word/ponctuels'>ponctuels</a></td>
-        <td>{% trans "Zero-dimensional space-time." %} {% trans "GEOMETRY" %} -- {% trans "points on a map" %} , {% trans "PHYSICS" %} -- {% trans "points of time" %}</td>
+        <td>{% trans "Zero-dimensional space-time." %}
+            {% genre_btn_collapse "GÉOMÉTRIE" %}
+            -- {% trans "points on a map" %} ,
+            {% genre_btn_collapse "PHYSIQUE" %}
+            -- {% trans "points of time" %}</td>
     </tr>
     <tr>
         <td>
@@ -61,57 +87,87 @@
     </tr>
     <tr>
         <td>l'intervalle</td>
-        <td>{% trans "GEOMETRY" %} -- {% trans "One-dimensional space" %}</td>
+        <td>
+            {% genre_btn_collapse "GÉOMÉTRIE" %}
+            -- {% trans "One-dimensional space" %}</td>
     </tr>
     <tr>
         <td>
             <a href='/word/qui'>qui</a></td>
-        <td> {% trans "ONTOLOGY" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/les'>les</a></td>
-        <td>{% trans "MATHEMATICS" %}</td>
+        <td>
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/separe'>sépare</a></td>
-        <td>{% trans "GEOMETRY" %}</td>
+        <td>
+            {% genre_btn_collapse "GÉOMÉTRIE" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/se'>se</a></td>
-        <td>{% trans "ONTOLOGY" %} -- {%  trans "reflexive verbs have their own logic related to the reflexivity of the reduction, to the asymmetry that occurs because one can never see oneself from the outside: The Self can only see the Other. Only the Other can see the Self. The Self can never view the Self from the inside. The Self can only view the Self as an Other" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+            -- {% trans "reflexive verbs have their own logic related to the reflexivity of the reduction, to the asymmetry that occurs because one can never see oneself from the outside: The Self can only see the Other. Only the Other can see the Self. The Self can never view the Self from the inside. The Self can only view the Self as an Other" %}</td>
     </tr>
     <tr>
         <td>
             <a href='/word/logent'>logent</a></td>
-        <td>{% trans "PHSYICS" %}, {% trans "GENESIS" %} -- {% trans "both space intervals, time intervals, geodesic neigborhoods, as well as a home for the family" %}</td>
+        <td>
+            {% genre_btn_collapse "PHYSIQUE" %}
+            ,
+            {% genre_btn_collapse "GENÈSES" %}
+            -- {% trans "both space intervals, time intervals, geodesic neigborhoods, as well as a home for the family" %}</td>
     </tr>
     <tr>
         <td>
             <a href='/word/dans'>dans</a></td>
-        <td>{% trans "GEOMETRY" %} - {% trans "within" %}</td>
+        <td>
+            {% genre_btn_collapse "GÉOMÉTRIE" %}
+            -
+            {% genre_btn_collapse "DANS" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/ce'>ce</a></td>
-        <td>{% trans "MATHEMATICS" %}</td>
+        <td>
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/temps'>temps</a></td>
-        <td>{% trans "PHYSICS" %}</td>
+        <td>
+            {% genre_btn_collapse "PHYSIQUE" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/universel'>universel</a></td>
-        <td> {% trans "ONTOLOGY" %}, {% trans "MATHEMATICS" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+            ,
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/de'>de</a></td>
-        <td> {% trans "ONTOLOGY" %}, {% trans "GENESIS" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+            ,
+            {% genre_btn_collapse "GENÈSES" %}
+        </td>
     </tr>
     <tr>
         <td>l'historien</td>
@@ -120,22 +176,36 @@
     <tr>
         <td>
             <a href='/word/qui'>qui</a></td>
-        <td> {% trans "ONTOLOGY" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/est'>est</a></td>
-        <td> {% trans "ONTOLOGY" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/un'>un</a></td>
-        <td> {% trans "ONTOLOGY" %}, {% trans "MATHEMATICS" %}</td>
+        <td>
+            {% genre_btn_collapse "ONTOLOGIE" %}
+            ,
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+        </td>
     </tr>
     <tr>
         <td>
             <a href='/word/survivan'>survivan</a></td>
-        <td>{% trans "MATHEMATICS" %}, {% trans "GENESIS" %}, {% trans "GEOMETRY" %}. {% trans "The survivor is the one who lives on top of the one who died, who lives out the Beyond of the one who he has murdered, the father of the past" %}</td>
+        <td>
+            {% genre_btn_collapse "MATHÉMATIQUES" %}
+            ,
+            {% genre_btn_collapse "GENÈSES" %}
+            ,
+            {% genre_btn_collapse "GÉOMÉTRIE" %}
+            . {% trans "The survivor is the one who lives on top of the one who died, who lives out the Beyond of the one who he has murdered, the father of the past" %}</td>
         .
     </tr>
     </tbody>
