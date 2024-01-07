@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 from constants import OTB, TI
-from .hardcoded.all_genres_data import all_genres_to_words
+from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_data import all_words, proportion_ti_to_otb
 from .models import Word
@@ -44,6 +44,8 @@ def word_detail(request, word):
     definition = book_word.definition
     otb_lines = book_word.book_line.all().order_by('line').filter(book=OTB)
     ti_lines = book_word.book_line.all().order_by('line').filter(book=TI)
+    genres = all_words_to_genres(book_word)
+
     context = {
         "word": book_word,
         "sum": book_word.ti + book_word.otb,
@@ -52,6 +54,7 @@ def word_detail(request, word):
             "otb": otb_lines,
             "ti": ti_lines,
         },
+        "genres": genres,
         "etymology": etymology,
         "definition": definition
     }

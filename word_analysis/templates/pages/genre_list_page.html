@@ -2,16 +2,17 @@
 {% load i18n %}
 {% block subtitle %}  List of Genre Sets {% endblock %}
 {% block content %}
-{% trans "For example" %}
+    {% trans "For example" %}
     <ul>
-        <li>{% trans "Suffix" %}: {% trans "In"  %}
+        <li>{% trans "Suffix" %}: {% trans "In" %}
             {{ titles.otb.short.english }}
-{% trans "suffix 'ance' denotes nominalization whereas the infinitive is both nominal and verbal. All words with this suffix belong to ONTOLOGY" %}
+            {% trans "suffix 'ance' denotes nominalization whereas the infinitive is both nominal and verbal. All words with this suffix belong to ONTOLOGY" %}
         </li>
-        <li>{% trans "Prefix" %}: {% trans "The prefix 'sur' means above and connotes height. All words that begin with this prefix belong to MATHEMATICS." %} {% trans "For example" %}: <a href="/word/survivor">"survivor"</a> {% trans "or" %} <a href="/word/resurrection">"resurrection"</a>
+        <li>{% trans "Prefix" %}: {% trans "The prefix 'sur' means above and connotes height. All words that begin with this prefix belong to MATHEMATICS." %} {% trans "For example" %}:
+            <a href="/word/survivor">"survivor"</a> {% trans "or" %} <a href="/word/resurrection">"resurrection"</a>
     </ul>
     <div>
-    {% trans "HEIGHT"  %}  + {% trans "VIVRE"  %}  
+        {% genre_btn_collapse "GÉOMÉTRIE" %} + {% genre_btn_collapse "GENÈSES" %}
     </div>
     <div class="card">
         <div class="card-body">
@@ -19,13 +20,13 @@
                 <div class="card-body">
                     <h4 class="card-title">{% trans "Infinitives and Etymological roots" %}</h4>
                     <p class="card-text">
-{% trans "In his 1932 article that introduced Heidegger to the francophone world, Martin Heidegger et l’ontologie, Levinas explains his decision to translate Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take this term in its etymological sense”35" %}
+                        {% trans "In his 1932 article that introduced Heidegger to the francophone world, Martin Heidegger et l’ontologie, Levinas explains his decision to translate Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take this term in its etymological sense”35" %}
                     </p>
                     <p class="card-text">
-{% trans "In his later works critical of Heidegger, he will critique the notion of the hand as being the primary mode through which relation with the world is effectuated. Instead, he makes a twofold division.  The primary mode of relation with the world is through the mouth" %}.
+                        {% trans "In his later works critical of Heidegger, he will critique the notion of the hand as being the primary mode through which relation with the world is effectuated. Instead, he makes a twofold division.  The primary mode of relation with the world is through the mouth" %}.
                     </p>
                     <p class="card-text">
-{% trans "He secondary relationhip to the world as exterioirty is explored through the hand in the sense of maintenir, to maintain.  Words with the same infinitive and the same etymological roots belong to the same Thematic Genre" %}
+                        {% trans "He secondary relationhip to the world as exterioirty is explored through the hand in the sense of maintenir, to maintain.  Words with the same infinitive and the same etymological roots belong to the same Thematic Genre" %}
                     </p>
                     {% genre_btn_collapse "TENIR" %}
                 </div>

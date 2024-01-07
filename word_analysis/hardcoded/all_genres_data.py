@@ -4,18 +4,21 @@ def all_genres_to_words(genre=''):
     return ALL_CATEGORIES_TO_WORDS[genre]
 
 
-def all_words_to_categories():
+def all_words_to_genres(word):
     word_to_category_dict = {}
-    for category, words in ALL_CATEGORIES_TO_WORDS:
+    for category, words in ALL_CATEGORIES_TO_WORDS.items():
         for word in words:
             if word not in word_to_category_dict:
                 word_to_category_dict[word] = []
             word_to_category_dict[word].append(category)
 
-    return word_to_category_dict
+    if not word:
+        return word_to_category_dict
+    return word_to_category_dict[word]
 
 
 ALL_CATEGORIES_TO_WORDS = {
+    "ESPACE_TEMPS": {"ici", "maintenant"},
     "DANS": {'maison', 'dans', 'chez', 'interiorite'},
     "RELATION": {'relation'},
     "CONJONCTION": {'et'},

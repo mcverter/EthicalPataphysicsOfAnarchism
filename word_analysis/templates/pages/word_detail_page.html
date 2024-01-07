@@ -34,6 +34,17 @@
         <div class="tab-pane fade show active" id="nav-counts" role="tabpanel"
              aria-labelledby="nav-counts-tab">
             <div>{% include "includes/word_page/counts.html" %}</div>
+            <div class="card">
+                <div class="card-body">
+                    <div>
+                        <h5>{% trans "Categories" %}</h5>
+
+                        {% for genre in genres %}
+                            {% include 'tags/genre_btn_collapse.html' with genre=genre %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
             {% include 'tags/bilingual_card.html' with word=word component="definition" %}
             {% include 'tags/bilingual_card.html' with word=word component="etymology" %}
         </div>
