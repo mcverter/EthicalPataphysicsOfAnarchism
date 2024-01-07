@@ -1,20 +1,23 @@
 {% load i18n %}
 <div class="alert alert-warning">
-    {% trans "Word counts are approximate." %}
-
-    {% trans "There were a few minor text parsing errors which will be fixed in a future release" %}
+    <div>
+    {% trans "Word counts are approximate" %}.
+    </div>
+    <div>
+        {% trans "There were a few minor text parsing errors which will be fixed in a future release" %}
+    </div>
 </div>
 
 <div class="alert alert-warning">
     {% trans "Several relations have not yet been captured" %}
     <ol>
-        <li>{% trans "Capitalisation"  %}-- eg "Autrui" vs "autrui"</li>
-        <li>{% trans "Reflexives" %} -- eg "s'exprimer", "se monter"</li>
-        <li>{% trans "Negatives" %} -- eg "n'est", "ne voit"</li>
-        <li>{% trans "Prepositions" %} -- eg "d'etre", "vivre de"</li>
-        <li>{% trans "Articles" %} -- eg "l'autre", "une visage"</li>
+        <li>{% trans "Capitalisation"  %} -- {% trans eg  %} "Autrui" / "autrui"</li>
+        <li>{% trans "Reflexives" %} -- {% trans eg  %} "s'exprimer", "se monter"</li>
+        <li>{% trans "Negatives" %} -- {% trans eg  %} "n'est", "ne voit"</li>
+        <li>{% trans "Prepositions" %} -- {% trans eg  %} "d'etre", "vivre de"</li>
+        <li>{% trans "Articles" %} -- {% trans eg  %} "l'autre", "une visage"</li>
         <li>{% trans "Word distances"  %}</li>
-        <li>{% trans "Formal variations and repetitions" %} -- eg "abandon", "abandonnant", "abandonne", "abandonnee"</li>
+        <li>{% trans "Formal variations and repetitions" %} -- {% trans eg  %} "abandon", "abandonnant", "abandonne", "abandonnee"</li>
     </ol>
 </div>
 <div class="alert alert-info">

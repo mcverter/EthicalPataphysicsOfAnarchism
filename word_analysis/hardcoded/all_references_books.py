@@ -21,6 +21,8 @@ ALL_REFERENCE_BOOKS = [
      "link": "https://einsteinpapers.press.princeton.edu/vol6-doc/31"},
     {"author": "Einstein, Albert", "year": "1920", "title": "Relativity: The Special and The General Theory",
      "link": "https://www.gutenberg.org/cache/epub/5001/pg5001-images.html"},
+    {"author": "Flood, Raymond", "year": "1920", "title": "Lectures on the History of Maths",
+     "link": "https://www.gresham.ac.uk/speakers/professor-raymond-flood"},
     {"author": "Husserl", "year": "1891", "title": "Philosophy of arithmetic"},
     {"author": "Husserl", "year": "1913", "title": "deas: General Introduction to Pure Phenomenology", "link": ""},
     {"author": "Jarry, Alfred", "year": "1898", "title": "Gestes et opinions du docteur Faustroll, pataphysicien",

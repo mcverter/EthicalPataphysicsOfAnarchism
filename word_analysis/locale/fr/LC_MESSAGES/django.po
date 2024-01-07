@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-06 20:59-0500\n"
+"POT-Creation-Date: 2024-01-06 21:08-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\templates\bilingual\english\abstract.html:2
+#: .\templates\bilingual\abstract.html:2
 msgid "Abstract"
 msgstr "Resume"
 
-#: .\templates\bilingual\english\abstract.html:3
+#: .\templates\bilingual\abstract.html:3
 msgid ""
 "Levinas’s work can be understood better by mapping the relations within and "
 "between multiple dimensions of topological manifolds that describe the "
@@ -33,7 +33,7 @@ msgstr ""
 "décrivent les transformations tensorielles thématiques au sein et entre "
 "diverses ensembles de genres (ES)"
 
-#: .\templates\bilingual\english\abstract.html:4
+#: .\templates\bilingual\abstract.html:4
 msgid ""
 "Many great works have been written mapping the relations between Levinas’s "
 "language and those of other philosophers such as Heidegger, Husserl, or Hegel"
@@ -42,7 +42,7 @@ msgstr ""
 "langue de Levinas et ceux des autres philosophes comme Heidegger, Husserl ou "
 "Hegel"
 
-#: .\templates\bilingual\english\abstract.html:5
+#: .\templates\bilingual\abstract.html:5
 msgid ""
 "However, there remains much work to be done to investigate the structure of "
 "Levinas’s books, the structure of his sentences and phrases, the rules for "
@@ -55,7 +55,7 @@ msgstr ""
 "modèles qui régissent leur récurrence périodique et leur juxtaposition avec "
 "d’autres termes métaphoriques"
 
-#: .\templates\bilingual\english\abstract.html:6
+#: .\templates\bilingual\abstract.html:6
 #, fuzzy
 #| msgid ""
 #| "Already in his earliest published works, Levinas displays extraordinary "
@@ -99,7 +99,7 @@ msgstr ""
 "que ces prépositions « dans », « pour » et « avec » sont au racine du verbe "
 "« être » (comme « ex » est à la racine du verbe « exister ») »"
 
-#: .\templates\bilingual\english\abstract.html:7
+#: .\templates\bilingual\abstract.html:7
 msgid ""
 "We should therefore assume that Levinas thinks deliberately about all "
 "aspects of language: of roots, prefixes, and suffixes; of the nominal, "
@@ -113,7 +113,7 @@ msgstr ""
 "discours ; des voix actives, moyennes et passives ; du nominatif, du "
 "vocatif, du datif, cas génitif, ablatif, accusatif et même locatif"
 
-#: .\templates\bilingual\english\abstract.html:8
+#: .\templates\bilingual\abstract.html:8
 msgid ""
 "This project endeavors to map out the topology of the manifold of these "
 "Genre Sets(TG)"
@@ -121,46 +121,45 @@ msgstr ""
 "Ce projet s'efforce de cartographier la topologie de la diversité de ces "
 "thématiques. Genres (TG)"
 
-#: .\templates\bilingual\english\abstract.html:9
+#: .\templates\bilingual\abstract.html:9
 msgid "The site is divided into the following sections:"
 msgstr "Le site est divisé en les sections suivantes"
 
-#: .\templates\bilingual\english\abstract.html:12
-#: .\templates\includes\site_nav.html:7
+#: .\templates\bilingual\abstract.html:12 .\templates\includes\site_nav.html:7
 msgid "Project Summary"
 msgstr "Résumé du projet"
 
-#: .\templates\bilingual\english\abstract.html:14
+#: .\templates\bilingual\abstract.html:14
 #: .\templates\includes\site_nav.html:12
 msgid "Word list"
 msgstr "Liste de mots"
 
-#: .\templates\bilingual\english\abstract.html:16
+#: .\templates\bilingual\abstract.html:16
 #, fuzzy
 #| msgid "Genre Sets (GS)"
 msgid "Genre Sets"
 msgstr "Ensembles De Genres (ES)"
 
-#: .\templates\bilingual\english\abstract.html:18
+#: .\templates\bilingual\abstract.html:18
 msgid "Genre membership"
 msgstr "Appartenance à un genre"
 
-#: .\templates\bilingual\english\abstract.html:20
+#: .\templates\bilingual\abstract.html:20
 #: .\templates\includes\site_nav.html:23
 msgid "Internal and external relations"
 msgstr "Relations internes et externes"
 
-#: .\templates\bilingual\english\abstract.html:22
+#: .\templates\bilingual\abstract.html:22
 #, fuzzy
 #| msgid "Technical notes"
 msgid "Technical notes</a>"
 msgstr "Notes techniques"
 
-#: .\templates\bilingual\english\combination.html:2
+#: .\templates\bilingual\combination.html:2
 msgid "Combinations"
 msgstr "Combinations"
 
-#: .\templates\bilingual\english\combination.html:3
+#: .\templates\bilingual\combination.html:3
 msgid ""
 "Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, "
 "adjectival and adverbial combinations all belong to various GENRE_SETS. This "
@@ -171,11 +170,11 @@ msgstr ""
 "à différents GENRE_SETS. Cela permet à un seul mot d'envelopper un "
 "collecteur à N plis de GENRE_SETS"
 
-#: .\templates\bilingual\english\combination.html:5
+#: .\templates\bilingual\combination.html:5
 msgid "For example, the word"
 msgstr "Par exemple, le mot"
 
-#: .\templates\bilingual\english\combination.html:7
+#: .\templates\bilingual\combination.html:7
 #, fuzzy
 #| msgid ""
 #| "belongs to the genre GENESIS because the etymological root is “vivre”. It "
@@ -185,11 +184,11 @@ msgid ""
 msgstr ""
 "appartient au genre GENESIS car la racine étymologique est “vivre”. Il "
 
-#: .\templates\bilingual\english\combination.html:10
+#: .\templates\bilingual\combination.html:10
 msgid "The birth of the son is referred to as a"
 msgstr "La naissance du fils est appelée une"
 
-#: .\templates\bilingual\english\combination.html:12
+#: .\templates\bilingual\combination.html:12
 #, fuzzy
 #| msgid ""
 #| "because it again rises (surgir) again (re), thus combining “height” and "
@@ -201,28 +200,28 @@ msgstr ""
 "car elle monte (surgir) à nouveau (re), combinant ainsi “hauteur” et "
 "“récurrence” de MATHEMATICS"
 
-#: .\templates\bilingual\english\constellation.html:2
+#: .\templates\bilingual\constellation.html:2
 msgid "Metaphorical constellations"
 msgstr "Constellations métaphoriques"
 
-#: .\templates\bilingual\english\constellation.html:3
+#: .\templates\bilingual\constellation.html:3
 msgid "Example"
 msgstr "Exemple"
 
-#: .\templates\bilingual\english\constellation.html:8
+#: .\templates\bilingual\constellation.html:8
 msgid "Analysis"
 msgstr "Analyse"
 
-#: .\templates\bilingual\english\constellation.html:12
+#: .\templates\bilingual\constellation.html:12
 #: .\templates\pages\word_list_page.html:8
 msgid "Word"
 msgstr "Mot"
 
-#: .\templates\bilingual\english\constellation.html:13
+#: .\templates\bilingual\constellation.html:13
 msgid "Categories"
 msgstr "Catégories"
 
-#: .\templates\bilingual\english\constellation.html:20
+#: .\templates\bilingual\constellation.html:20
 #, fuzzy
 #| msgid "GENESIS -- feminine, MATHEMATICS -- singular, also a homonym for "
 msgid ""
@@ -232,31 +231,31 @@ msgstr ""
 "GENESIS -- féminin, MATHEMATICS -- singulier, également homonyme de “là” en "
 "français, donc GEOMETRY"
 
-#: .\templates\bilingual\english\constellation.html:25
-#: .\templates\bilingual\english\constellation.html:40
+#: .\templates\bilingual\constellation.html:25
+#: .\templates\bilingual\constellation.html:40
 msgid "GENESIS"
 msgstr "GENESIS"
 
-#: .\templates\bilingual\english\constellation.html:30
+#: .\templates\bilingual\constellation.html:30
 msgid "MATHEMATICS (a conjunction)"
 msgstr "MATHEMATICS (une conjonction)"
 
-#: .\templates\bilingual\english\constellation.html:35
-#: .\templates\bilingual\english\constellation.html:60
+#: .\templates\bilingual\constellation.html:35
+#: .\templates\bilingual\constellation.html:60
 msgid "See above"
 msgstr "Voir ci-dessus"
 
-#: .\templates\bilingual\english\constellation.html:45
+#: .\templates\bilingual\constellation.html:45
 #, fuzzy
 #| msgid "AND-relations"
 msgid "ONTOLOGY -- relation"
 msgstr "Relations: ET"
 
-#: .\templates\bilingual\english\constellation.html:50
+#: .\templates\bilingual\constellation.html:50
 msgid "PHYSICS -- spacetime"
 msgstr "PHYSICS -- espace-temps"
 
-#: .\templates\bilingual\english\constellation.html:55
+#: .\templates\bilingual\constellation.html:55
 msgid ""
 "Zero-dimensional space-time. GEOMETRY -- points on a map, PHYSICS -- points "
 "of time"
@@ -264,34 +263,34 @@ msgstr ""
 "Espace-temps à dimension zéro. GEOMETRY -- points sur une carte, PHYSICS -- "
 "points de temps"
 
-#: .\templates\bilingual\english\constellation.html:63
+#: .\templates\bilingual\constellation.html:63
 msgid "l'intervalle"
 msgstr "GEOMETRY -- Espace unidimensionnel"
 
-#: .\templates\bilingual\english\constellation.html:64
+#: .\templates\bilingual\constellation.html:64
 msgid "GEOMETRY -- One-dimensional space"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:69
-#: .\templates\bilingual\english\constellation.html:124
-#: .\templates\bilingual\english\constellation.html:129
+#: .\templates\bilingual\constellation.html:69
+#: .\templates\bilingual\constellation.html:124
+#: .\templates\bilingual\constellation.html:129
 msgid "ONTOLOGY"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:74
-#: .\templates\bilingual\english\constellation.html:100
+#: .\templates\bilingual\constellation.html:74
+#: .\templates\bilingual\constellation.html:100
 msgid "MATHEMATICS"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:79
+#: .\templates\bilingual\constellation.html:79
 msgid "sépare"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:80
+#: .\templates\bilingual\constellation.html:80
 msgid "GEOMETRY"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:85
+#: .\templates\bilingual\constellation.html:85
 msgid ""
 "ONTOLOGY -- reflexive verbs have their own logic related to the reflexivity "
 "of the reduction, to the asymmetry that occurs because one can never see "
@@ -305,7 +304,7 @@ msgstr ""
 "Seul l’Autre peut voir le Soi. Le Soi ne peut jamais se voir depuis le à "
 "l’intérieur. Le Soi ne peut se considérer que comme un Autre"
 
-#: .\templates\bilingual\english\constellation.html:90
+#: .\templates\bilingual\constellation.html:90
 msgid ""
 "PHSYICS, GENESIS -- both space time intervals or geodesic neigborhoods, as "
 "well as a home for the family"
@@ -313,28 +312,28 @@ msgstr ""
 "PHSYICS, GENESIS -- à la fois des intervalles spatio-temporels ou des "
 "voisinages géodésiques, ainsi qu'une maison pour la famille"
 
-#: .\templates\bilingual\english\constellation.html:95
+#: .\templates\bilingual\constellation.html:95
 msgid "GEOMETRY - within"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:105
+#: .\templates\bilingual\constellation.html:105
 msgid "PHYSICS"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:110
-#: .\templates\bilingual\english\constellation.html:134
+#: .\templates\bilingual\constellation.html:110
+#: .\templates\bilingual\constellation.html:134
 msgid "ONTOLOGY, MATHEMATICS"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:115
+#: .\templates\bilingual\constellation.html:115
 msgid "ONTOLOGY, GENESIS"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:118
+#: .\templates\bilingual\constellation.html:118
 msgid "l'historien"
 msgstr ""
 
-#: .\templates\bilingual\english\constellation.html:139
+#: .\templates\bilingual\constellation.html:139
 msgid ""
 "MATHEMATICS, GENESIS, GEOMETRY. The survivor is the one who lives on top of "
 "the one who died, who lives out the Beyond of the one who he has murdered, "
@@ -344,36 +343,36 @@ msgstr ""
 "celui qui mort, qui vit l’Au-delà de celui qu'il a assassiné, le père du "
 "passé"
 
-#: .\templates\bilingual\english\doubling.html:2
+#: .\templates\bilingual\doubling.html:2
 msgid "The principle of duality"
 msgstr "Le principe de dualité"
 
-#: .\templates\bilingual\english\doubling.html:3
+#: .\templates\bilingual\doubling.html:3
 msgid "Reciprocal polars and the Principle of duality"
 msgstr "Polars réciproques et principe de dualité"
 
-#: .\templates\bilingual\english\doubling.html:5
+#: .\templates\bilingual\doubling.html:5
 msgid ""
 "Levinas’s logic can be examined using principles established by the 19th "
 "century descriptive, symmetric, and projective geometry as eleaborated by"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:15
+#: .\templates\bilingual\doubling.html:15
 msgid "and others: namely ideas such as"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:24
+#: .\templates\bilingual\doubling.html:24
 msgid "in French"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:26
+#: .\templates\bilingual\doubling.html:26
 msgid ""
 "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
 "contradictions, paradoxes, and so on.  It is apparent in his usage of "
 "oppositions such as“totality” and“infinity”,“self” and“other”"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:27
+#: .\templates\bilingual\doubling.html:27
 msgid ""
 "The nature of this polar relationship is one of the most misunderstood "
 "aspects of Levinas’s writing. It is often dialectics practiced according to "
@@ -382,7 +381,7 @@ msgid ""
 "Levinas.”"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:28
+#: .\templates\bilingual\doubling.html:28
 #, fuzzy
 #| msgid ""
 #| "This reading of polarity as animosity has had an alarming effect on "
@@ -417,7 +416,7 @@ msgstr ""
 "nouvelle négativité du futur. l’utilisation de ces termes par Cohen évoque "
 "cependant un généalogie différente des mœurs"
 
-#: .\templates\bilingual\english\doubling.html:29
+#: .\templates\bilingual\doubling.html:29
 msgid ""
 "But this is a misreading of polarity. Such an interpretation would figure "
 "negativity as the primary relation between poles. But for Levinas, negation "
@@ -436,16 +435,16 @@ msgstr ""
 "raison, la négation d”une négation n'est ni une tautologie ni une "
 "conséquence directe. réflexion ni une "
 
-#: .\templates\bilingual\english\doubling.html:30
+#: .\templates\bilingual\doubling.html:30
 msgid ""
 "Polar relations are always reciprocal relations between two positive poles"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:31
+#: .\templates\bilingual\doubling.html:31
 msgid "AND-relations"
 msgstr "Relations: ET"
 
-#: .\templates\bilingual\english\doubling.html:32
+#: .\templates\bilingual\doubling.html:32
 #, fuzzy
 #| msgid ""
 #| "Levinas relates terms through the conjunction “and”. Gilles Deleuze and "
@@ -460,7 +459,7 @@ msgstr ""
 "Félix Guattari expliquent le sens de cette mot dans leur explication du "
 "rhizome"
 
-#: .\templates\bilingual\english\doubling.html:33
+#: .\templates\bilingual\doubling.html:33
 #, fuzzy
 #| msgid ""
 #| "A rhizome has no beginning or end; it is always in the middle, between "
@@ -495,11 +494,11 @@ msgstr ""
 "début ou une fondation – tout cela implique un faux conception du voyage et "
 "du mouvement (conception méthodique, pédagogique, initiatique, symbolique...)"
 
-#: .\templates\bilingual\english\doubling.html:34
+#: .\templates\bilingual\doubling.html:34
 msgid "Deleuze takes this from Jean Wahl"
 msgstr "Deleuze prend cela de Jean Wahl"
 
-#: .\templates\bilingual\english\doubling.html:35
+#: .\templates\bilingual\doubling.html:35
 #, fuzzy
 #| msgid ""
 #| "32. “And” has an especially important role in English literature, as a "
@@ -538,11 +537,11 @@ msgstr ""
 "manière dont il remet en question la primauté du verbe « être ». 33. "
 "Hjelmslev, Langue : une introduction, trad. Francis"
 
-#: .\templates\bilingual\english\doubling.html:37
+#: .\templates\bilingual\doubling.html:37
 msgid "2 >1"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:38
+#: .\templates\bilingual\doubling.html:38
 #, fuzzy
 #| msgid ""
 #| "The importance of doubling should be understood in light of the "
@@ -569,7 +568,7 @@ msgstr ""
 "fête est l’autre, qui est aussi une singularité, mais placée en position de "
 "juxtapostion ou de proximité ou de sérialité"
 
-#: .\templates\bilingual\english\doubling.html:39
+#: .\templates\bilingual\doubling.html:39
 msgid ""
 "The ontological predication Ethics is First Philosophy should be read "
 "alongside Levinas’s usage of numeration.  Numeration in Levinas does not "
@@ -593,7 +592,7 @@ msgstr ""
 "Le principe archē est déjà perturbé par l’anarchie de ces nombreuses "
 "relations"
 
-#: .\templates\bilingual\english\doubling.html:40
+#: .\templates\bilingual\doubling.html:40
 msgid ""
 "Within Totality and Infinity, Levinas expresses this logic of polarity most "
 "clearly through metaphors of gender"
@@ -601,7 +600,7 @@ msgstr ""
 "Dans Totalité et Infini, Levinas exprime très clairement cette logique de "
 "polarité à travers des métaphores de genre"
 
-#: .\templates\bilingual\english\doubling.html:41
+#: .\templates\bilingual\doubling.html:41
 #, fuzzy
 #| msgid ""
 #| "I would in fact suggest that Levinas not only gives this polarity a "
@@ -622,7 +621,7 @@ msgstr ""
 "Judaïsme et le Féminin » comme Miriam ou Tamar ou Léa (DF 31), mais c'est "
 "peut-être le nom le plus fréquemment utilisé dans la Bible"
 
-#: .\templates\bilingual\english\doubling.html:42
+#: .\templates\bilingual\doubling.html:42
 #, fuzzy
 #| msgid ""
 #| "It should be noted that the number two has special significance in "
@@ -648,7 +647,7 @@ msgstr ""
 "locative « à l’intérieur ». Le prénom féminin le plus populaire dans la "
 "Bible est en fait « Beth » comme dans « Bethléem »"
 
-#: .\templates\bilingual\english\doubling.html:43
+#: .\templates\bilingual\doubling.html:43
 #, fuzzy
 #| msgid ""
 #| "There are multiple reasons why it is useful to express the Feminine as "
@@ -696,7 +695,7 @@ msgstr ""
 "» et « Bethlehem. Encore une fois, le premier mot de la Torah, בְּרֵאשִׁית, "
 "abrite le principal רֹאשׁ au sein du בַּיִת"
 
-#: .\templates\bilingual\english\doubling.html:44
+#: .\templates\bilingual\doubling.html:44
 msgid ""
 "There is something almost Pythagorean in his thought, in the sense that "
 "numbers are not used merely for counting, but themselves describe certain "
@@ -709,7 +708,7 @@ msgstr ""
 "étude supplémentaire, mais nous pouvons commencer à expliquer ses chiffres "
 "ici"
 
-#: .\templates\bilingual\english\doubling.html:45
+#: .\templates\bilingual\doubling.html:45
 #, fuzzy
 #| msgid ""
 #| "In addition to these various linguistic meanings, בּ also has a "
@@ -753,7 +752,7 @@ msgstr ""
 "pluriel est donné à un nombre. Seule l’unité est ontologiquement "
 "privilégiée. Plusieurs est, mais en synthèse n’est plus » (TI 274)"
 
-#: .\templates\bilingual\english\doubling.html:46
+#: .\templates\bilingual\doubling.html:46
 #, fuzzy
 #| msgid ""
 #| "Before I produce this woman before you, let me begin by suggesting that, "
@@ -813,25 +812,25 @@ msgstr ""
 "fils de Donald, mais dans ce cas il s“agirait Il semblerait que ce "
 "personnage familier soit le fils d”une femme nommée « Beth » --"
 
-#: .\templates\bilingual\english\doubling.html:47
+#: .\templates\bilingual\doubling.html:47
 msgid "Mac Beatha meaning “son of life”"
 msgstr ""
 
-#: .\templates\bilingual\english\doubling.html:48
+#: .\templates\bilingual\doubling.html:48
 msgid "0 before 1"
 msgstr "0 avant 1"
 
-#: .\templates\bilingual\english\doubling.html:49
+#: .\templates\bilingual\doubling.html:49
 msgid "Levinas’s primary innovaton in Otherwise than Being is to focus on how"
 msgstr ""
 "La principale innovation de Levinas dans Autrement qu'être est de se "
 "concentrer sur la manière dont l’"
 
-#: .\templates\bilingual\english\doubling.html:50
+#: .\templates\bilingual\doubling.html:50
 msgid "anarchy"
 msgstr "anarchie"
 
-#: .\templates\bilingual\english\doubling.html:50
+#: .\templates\bilingual\doubling.html:50
 msgid ""
 "precedes subjectvity. The relationship explored is between 0 and 1, not "
 "between 1 and 2"
@@ -839,7 +838,7 @@ msgstr ""
 "précède subjectivité. La relation explorée est comprise entre 0 et 1 et non "
 "entre 1 et 2"
 
-#: .\templates\bilingual\english\flat.html:2
+#: .\templates\bilingual\flat.html:2
 msgid ""
 "Levinas’s work is most typically associated with the critique of the flat "
 "projection the grid of points plotted on a map in Euclidean rectilinear "
@@ -851,7 +850,7 @@ msgstr ""
 "rectiligne euclidien, dans une grille cartésienne, disposés en une totalité "
 "intégrable dans un tout. "
 
-#: .\templates\bilingual\english\flat.html:3
+#: .\templates\bilingual\flat.html:3
 msgid ""
 "He borrows the notion of space time curvature from General Relativity. As "
 "elaborated by Einstein, Poincare, and Minkowski, general Relativity explains "
@@ -873,7 +872,7 @@ msgstr ""
 "planètes trouvent le chemin le moins actif sous forme de chemins elliptiques "
 "autour de lui"
 
-#: .\templates\bilingual\english\flat.html:4
+#: .\templates\bilingual\flat.html:4
 #, fuzzy
 #| msgid ""
 #| "We can see a similar dynamic in Levinas’s usage of the idea of "
@@ -885,7 +884,7 @@ msgstr ""
 "Nous pouvons observer une dynamique similaire dans l’utilisation par Levinas "
 "de l’idée de « courbure » affectée par la taille et le poids"
 
-#: .\templates\bilingual\english\flat.html:5
+#: .\templates\bilingual\flat.html:5
 #, fuzzy
 #| msgid ""
 #| "In “Time and the Other”, Levinas describes the establishment of a place, "
@@ -895,11 +894,11 @@ msgid ""
 msgstr ""
 "Dans « Le Temps et l’Autre », Levinas décrit l’instauration d'un lieu, le "
 
-#: .\templates\bilingual\english\flat.html:6
+#: .\templates\bilingual\flat.html:6
 msgid "of"
 msgstr "de"
 
-#: .\templates\bilingual\english\flat.html:9
+#: .\templates\bilingual\flat.html:9
 msgid ""
 "for a person through the double movement of hypostasis. This is a doubling "
 "of the Me and the Self. It is also a dimensional doubling: to maintain a "
@@ -917,11 +916,11 @@ msgstr ""
 "vers le bas, le poids qui se ramène vers le corps, une gravité produite par "
 "sa propre masse matérielle"
 
-#: .\templates\bilingual\english\intersection.html:3
+#: .\templates\bilingual\intersection.html:3
 msgid "For example the word"
 msgstr "Par exemple le mot"
 
-#: .\templates\bilingual\english\intersection.html:5
+#: .\templates\bilingual\intersection.html:5
 msgid ""
 "belongs to MATHEMATICS and GENESIS. One can observe parallel motion along "
 "these metaphorical vectors"
@@ -929,7 +928,7 @@ msgstr ""
 "appartient à MATHEMATICS et GENÈSE. On peut observer un mouvement parallèle "
 "le long de ces vecteurs métaphoriques"
 
-#: .\templates\bilingual\english\objective.html:2
+#: .\templates\bilingual\objective.html:2
 #, fuzzy
 #| msgid ""
 #| "To map the relations within and between multiple dimensions of "
@@ -954,11 +953,11 @@ msgstr ""
 "comment divers genres étymologiques et sémantiques sont transformés en "
 "diverses formes de mots"
 
-#: .\templates\bilingual\english\opposition.html:3
+#: .\templates\bilingual\opposition.html:3
 msgid "Certain doublings are opposed to each other"
 msgstr "Certains dédoublements s'opposent les uns aux autres"
 
-#: .\templates\bilingual\english\opposition.html:4
+#: .\templates\bilingual\opposition.html:4
 msgid ""
 "Totality and Infinity narrates the recurrent cyclings of these doubles. "
 "Different sections of the book invert or bend these double relations. In one "
@@ -974,41 +973,41 @@ msgstr ""
 "sujet moi en hypostase et substitution. D”autres sections appliquent "
 "d'autres tenseurs de courbure métaphoriques pour déformer davantage l’espace"
 
-#: .\templates\bilingual\english\opposition.html:5
+#: .\templates\bilingual\opposition.html:5
 msgid "Examples"
 msgstr "Exemples"
 
-#: .\templates\bilingual\english\parallelism.html:3
+#: .\templates\bilingual\parallelism.html:3
 msgid "Certain"
 msgstr "Certaines"
 
-#: .\templates\bilingual\english\parallelism.html:4
+#: .\templates\bilingual\parallelism.html:4
 msgid "manifolds have"
 msgstr "variétés ont"
 
-#: .\templates\bilingual\english\parallelism.html:5
+#: .\templates\bilingual\parallelism.html:5
 msgid "homologous"
 msgstr "homologues"
 
-#: .\templates\bilingual\english\parallelism.html:6
+#: .\templates\bilingual\parallelism.html:6
 msgid "topologies"
 msgstr "topologies"
 
-#: .\templates\bilingual\english\parallelism.html:7
+#: .\templates\bilingual\parallelism.html:7
 msgid "and their"
 msgstr "et leurs"
 
-#: .\templates\bilingual\english\parallelism.html:8
+#: .\templates\bilingual\parallelism.html:8
 msgid "tensor"
 msgstr "tenseur"
 
-#: .\templates\bilingual\english\parallelism.html:9
+#: .\templates\bilingual\parallelism.html:9
 msgid "transformations occur in parallel to each other"
 msgstr ""
 "et leurs transformations tensorelle se produisent dans parallèle à les uns "
 "les autres"
 
-#: .\templates\bilingual\english\parallelism.html:11
+#: .\templates\bilingual\parallelism.html:11
 msgid ""
 "For example, when Levinas disusses NIETZSCHE, he typically invokes metaphors "
 "such as"
@@ -1016,16 +1015,16 @@ msgstr ""
 "Par exemple, lorsque Levinas parle de NIETZSCHE_PT, il invoque généralement "
 "des métaphores telles que"
 
-#: .\templates\bilingual\english\parallelism.html:13
-#: .\templates\bilingual\english\parallelism.html:15
+#: .\templates\bilingual\parallelism.html:13
+#: .\templates\bilingual\parallelism.html:15
 msgid "from"
 msgstr "de"
 
-#: .\templates\bilingual\english\parallelism.html:13
+#: .\templates\bilingual\parallelism.html:13
 msgid "When Levinas discusses"
 msgstr "Quand Levinas discute"
 
-#: .\templates\bilingual\english\parallelism.html:13
+#: .\templates\bilingual\parallelism.html:13
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de"
 
