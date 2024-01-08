@@ -1,0 +1,22 @@
+{
+  "name": "radical_empiricism",
+  "version": "1.0.0",
+  "description": "This is two projects:  A morphological analysis engine (RADICAL EMPIRICISM) and a written dissertation.  Below is  1.  Description of Radical Empiricism in French 2.  Description of Radical Empirism in English  3.  Dissertation Work in Progress is available below: [A guide for exceptional guttersnipes Traité du savoir-vivre à l'usage des guttersnipes exceptionelles -- https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki](https://github.com/mcverter/EthicalPataphysicsOfAnarchism/wiki).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcverter/EthicalPataphysicsOfAnarchism.git"
+  },
+  "author": "Mitchell Cowen Verter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcverter/EthicalPataphysicsOfAnarchism/issues"
+  },
+  "homepage": "https://github.com/mcverter/EthicalPataphysicsOfAnarchism#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
