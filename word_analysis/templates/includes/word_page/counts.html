@@ -3,21 +3,17 @@
     <div class="card-body">
         <h4 class="card-title"> {% trans 'Quantities' %}</h4>
         <div class="container">
-            <div class="row">
-                <div class="col-sm">{{ titles.ti.short.french }}</div>
-                <div class="col-sm">{{ titles.otb.short.french }}</div>
-                <div class="col-sm">{% trans "Sum" %}</div>
-                Somme
-
-                <div class="col-sm">{% trans "Proportion" %}</div>
-                Proportion
-
+            <div class="row bg-light">
+                <div class="col-sm text-center">{{ titles.ti.short.french }}</div>
+                <div class="col-sm text-center">{{ titles.otb.short.french }}</div>
+                <div class="col-sm text-center">{% trans "Sum" %}</div>
+                <div class="col-sm text-center">{% trans "Proportion" %}</div>
             </div>
             <div class="row">
-                <div class="col-sm">{{ word.ti }}</div>
-                <div class="col-sm">{{ word.otb }}</div>
-                <div class="col-sm"> {{ sum }} </div>
-                <div class="col-sm">{{ proportion }}</div>
+                <div class="col-sm text-center">{{ word.ti }}</div>
+                <div class="col-sm text-center">{{ word.otb }}</div>
+                <div class="col-sm text-center"> {{ sum }} </div>
+                <div class="col-sm text-center">{{ proportion }}</div>
             </div>
         </div>
     </div>
