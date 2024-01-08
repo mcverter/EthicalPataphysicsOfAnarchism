@@ -36,9 +36,8 @@
             <div>{% include "includes/word_page/counts.html" %}</div>
             <div class="card">
                 <div class="card-body">
-                    <div>
-                        <h5>{% trans "Categories" %}</h5>
-
+                    <h5 class="card-title">{% trans "Categories" %}</h5>
+                    <div class="d-flex flex-wrap">
                         {% for genre in genres %}
                             {% genre_btn_collapse genre %}
                         {% endfor %}
