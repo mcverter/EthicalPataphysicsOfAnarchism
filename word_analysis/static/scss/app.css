@@ -119,7 +119,7 @@ div.groupe-thematique > div.card {
 }
 
 p.card-text {
-  margin: 13px 0;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=app.css.map */
