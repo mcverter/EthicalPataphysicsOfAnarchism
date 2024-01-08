@@ -1,14 +1,15 @@
 <div class="card">
     <div class="card-body m-3">
-        <div class="nav bilingual d-flex align-items-baseline mb-2" id="{{ component }}-tab" role="tablist">
+        <div class="nav bilingual d-flex align-items-baseline justify-content-around mb-2" id="{{ component }}-tab" role="tablist">
             <div>
-                <a class="nav-link active" id="french-{{ component }}-tab" data-bs-toggle="tab"
+                <a class="nav-link active btn" id="french-{{ component }}-tab" data-bs-toggle="tab"
                    data-bs-target="#french-{{ component }}"
                    type="button" role="tab" aria-controls="nav-{{ component }}" aria-selected="true">
                     Français
-                </a></div>
+                </a>
+            </div>
             <div>
-                <a class="nav-link" id="english-{{ component }}-tab" data-bs-toggle="tab"
+                <a class="nav-link btn btn-info" id="english-{{ component }}-tab" data-bs-toggle="tab"
                    data-bs-target="#english-{{ component }}"
                    type="button" role="tab" aria-controls="nav-{{ component }}" aria-selected="true">
                     English

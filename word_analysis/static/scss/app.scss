@@ -1,5 +1,7 @@
+$secondary: #432874;
+$info: #055160;
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
-@import url('bootstrap_colors.scss');
+@import "../bootstrap_5_scss/bootstrap.scss";
 
 * {
   box-sizing: border-box;
@@ -75,8 +77,6 @@ h3 {
 }
 
 .d-flex.flex-column.row-hl.align-items-baseline:hover {
-  background-color: #495057;
-  --bs-navbar-color: whitesmoke;
   color: whitesmoke;
   padding: 10px;
 }
@@ -97,7 +97,7 @@ button.nav-link {
 }
 
 div.groupe-thematique > div.card {
-  background-color: #495057;
+  background-color: blue;
   color: whitesmoke;
 }
 
@@ -107,8 +107,8 @@ div.groupe-thematique > div.card {
   }
 
   a {
-    color: #495057;
-    background-color: whitesmoke;
+    color: darkcyan;
+    background-color: white;
     border: 1px dotted #495057;
 
     &:hover {
@@ -119,9 +119,9 @@ div.groupe-thematique > div.card {
   }
 
   a.active {
-    background-color: #495057;
-    color: whitesmoke;
-    border: 1px dotted whitesmoke;
+    border: 1px dotted #495057;
+    background-color: darkcyan;
+    color: white;
   }
 }
 
