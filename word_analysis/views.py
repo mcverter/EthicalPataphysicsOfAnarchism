@@ -3,7 +3,7 @@ from django.shortcuts import render
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
-from .hardcoded.all_words_data import all_words, proportion_ti_to_otb
+from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
 from .models import Word
 
 
@@ -22,14 +22,14 @@ def genre_list(request):
 
 def word_list_by_prefix(request, prefix):
     context = {
-        "words": all_words,
+        "words": all_words_with_counts(),
     }
     return render(request, 'pages/word_list_page.html', context)
 
 
 def word_list(request):
     context = {
-        "words": all_words,
+        "words": all_words_with_counts(),
     }
     return render(request, 'pages/word_list_page.html', context)
 
