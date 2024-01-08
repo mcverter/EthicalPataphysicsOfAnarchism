@@ -204,3 +204,5 @@ business_logic/logs/
 0001_initial.py
 
 tableapp/
+
+package-lock.json
