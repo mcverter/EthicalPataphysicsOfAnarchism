@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-07 13:58-0500\n"
+"POT-Creation-Date: 2024-01-07 18:40-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,31 +122,27 @@ msgstr "Appartenance à un genre"
 msgid "Metaphorical"
 msgstr "Constellations métaphoriques"
 
-#: .\templates\includes\summary\membership.html:8
-msgid "CONSCIENCE"
-msgstr ""
-
 #: .\templates\includes\summary\membership.html:18
 msgid "Etymological roots"
 msgstr "Racines étymologiques"
 
 #: .\templates\includes\summary\membership.html:21
-#: .\templates\pages\genre_list_page.html:42
+#: .\templates\pages\genre_list_page.html:43
 msgid "Prefixes"
 msgstr "Préfixes"
 
 #: .\templates\includes\summary\membership.html:25
-#: .\templates\pages\genre_list_page.html:47
+#: .\templates\pages\genre_list_page.html:48
 msgid "Suffixes"
 msgstr ""
 
 #: .\templates\includes\summary\membership.html:28
-#: .\templates\pages\genre_list_page.html:52
+#: .\templates\pages\genre_list_page.html:53
 msgid "Parts of speech"
 msgstr "Suffixes"
 
 #: .\templates\includes\summary\membership.html:31
-#: .\templates\pages\genre_list_page.html:36
+#: .\templates\pages\genre_list_page.html:37
 msgid "Semantic themes"
 msgstr ""
 
@@ -213,25 +209,17 @@ msgstr ""
 "Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
 "commençant par ce préfixe appartient aux MATHÉMATIQUES."
 
-#: .\templates\pages\genre_list_page.html:11
+#: .\templates\pages\genre_list_page.html:12
 #: .\templates\pages\technical_page.html:31
 #: .\templates\translation_card_content\duality.html:24
 msgid "or"
 msgstr "ou"
 
-#: .\templates\pages\genre_list_page.html:14
-msgid "HEIGHT"
-msgstr "HAUTEUR"
-
-#: .\templates\pages\genre_list_page.html:14
-msgid "VIVRE"
-msgstr "VIVRE"
-
-#: .\templates\pages\genre_list_page.html:20
+#: .\templates\pages\genre_list_page.html:21
 msgid "Infinitives and Etymological roots"
 msgstr "Infinitifs et racines étymologiques"
 
-#: .\templates\pages\genre_list_page.html:22
+#: .\templates\pages\genre_list_page.html:23
 msgid ""
 "In his 1932 article that introduced Heidegger to the francophone world, "
 "Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
@@ -243,7 +231,7 @@ msgstr ""
 "traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
 "souhaite “prendrece terme dans son sens étymologique”35"
 
-#: .\templates\pages\genre_list_page.html:25
+#: .\templates\pages\genre_list_page.html:26
 msgid ""
 "In his later works critical of Heidegger, he will critique the notion of the "
 "hand as being the primary mode through which relation with the world is "
@@ -255,7 +243,7 @@ msgstr ""
 "relation avec le mondeeffectué. Au lieu de cela, il fait une double "
 "division. Le mode principal de la relation avec le monde passe par la bouche"
 
-#: .\templates\pages\genre_list_page.html:28
+#: .\templates\pages\genre_list_page.html:29
 msgid ""
 "He secondary relationhip to the world as exterioirty is explored through the "
 "hand in the sense of maintenir, to maintain.  Words with the same infinitive "
@@ -337,10 +325,8 @@ msgid "for"
 msgstr "pour"
 
 #: .\templates\pages\word_detail_page.html:16
-#, fuzzy
-#| msgid "More information and texts"
-msgid "Word Information"
-msgstr "Plus d'information et textes"
+msgid "More information about"
+msgstr "Des informations sur"
 
 #: .\templates\pages\word_detail_page.html:20
 msgid "TI Lines"
@@ -356,8 +342,13 @@ msgstr ""
 msgid "Word Proximities"
 msgstr "Carte de proximité de mots"
 
+#: .\templates\pages\word_detail_page.html:40
+#: .\templates\translation_card_content\constellation.html:14
+msgid "Categories"
+msgstr "Catégories"
+
 #: .\templates\pages\word_list_page.html:8
-#: .\templates\translation_card_content\constellation.html:12
+#: .\templates\translation_card_content\constellation.html:13
 msgid "Word"
 msgstr "Mot"
 
@@ -506,16 +497,6 @@ msgid "belongs to the genre"
 msgstr "appartient au genre"
 
 #: .\templates\translation_card_content\combination.html:7
-#: .\templates\translation_card_content\constellation.html:20
-#: .\templates\translation_card_content\constellation.html:25
-#: .\templates\translation_card_content\constellation.html:40
-#: .\templates\translation_card_content\constellation.html:89
-#: .\templates\translation_card_content\constellation.html:114
-#: .\templates\translation_card_content\constellation.html:138
-msgid "GENESIS"
-msgstr "GENESIS"
-
-#: .\templates\translation_card_content\combination.html:7
 #, fuzzy
 #| msgid ""
 #| "belongs to the genre GENESIS because the etymological root is “vivre”. It "
@@ -551,94 +532,36 @@ msgstr "Constellations métaphoriques"
 msgid "Example"
 msgstr "Exemple"
 
-#: .\templates\translation_card_content\constellation.html:8
+#: .\templates\translation_card_content\constellation.html:9
 msgid "Analysis"
 msgstr "Analyse"
 
-#: .\templates\translation_card_content\constellation.html:13
-msgid "Categories"
-msgstr "Catégories"
-
-#: .\templates\translation_card_content\constellation.html:20
-msgid "feminine"
-msgstr "féminine"
-
-#: .\templates\translation_card_content\constellation.html:20
-#: .\templates\translation_card_content\constellation.html:30
-#: .\templates\translation_card_content\constellation.html:74
-#: .\templates\translation_card_content\constellation.html:99
-#: .\templates\translation_card_content\constellation.html:109
-#: .\templates\translation_card_content\constellation.html:133
-#: .\templates\translation_card_content\constellation.html:138
-msgid "MATHEMATICS"
-msgstr "MATHÉMATIQUES"
-
-#: .\templates\translation_card_content\constellation.html:20
+#: .\templates\translation_card_content\constellation.html:27
 msgid "singular, also a homonym for “there” (là) in French, so "
 msgstr "singulier, également homonyme de “là” en français, donc"
 
-#: .\templates\translation_card_content\constellation.html:20
-#: .\templates\translation_card_content\constellation.html:55
-#: .\templates\translation_card_content\constellation.html:64
-#: .\templates\translation_card_content\constellation.html:79
-#: .\templates\translation_card_content\constellation.html:94
-#: .\templates\translation_card_content\constellation.html:138
-msgid "GEOMETRY"
-msgstr "GÉOMÉTRIE"
-
-#: .\templates\translation_card_content\constellation.html:30
-msgid "conjunction"
-msgstr "conjonction"
-
-#: .\templates\translation_card_content\constellation.html:35
-#: .\templates\translation_card_content\constellation.html:60
+#: .\templates\translation_card_content\constellation.html:51
+#: .\templates\translation_card_content\constellation.html:87
 msgid "See above"
 msgstr "Voir ci-dessus"
 
-#: .\templates\translation_card_content\constellation.html:45
-#: .\templates\translation_card_content\constellation.html:69
-#: .\templates\translation_card_content\constellation.html:84
-#: .\templates\translation_card_content\constellation.html:109
-#: .\templates\translation_card_content\constellation.html:114
-#: .\templates\translation_card_content\constellation.html:123
-#: .\templates\translation_card_content\constellation.html:128
-#: .\templates\translation_card_content\constellation.html:133
-msgid "ONTOLOGY"
-msgstr "ONTOLOGIE"
-
-#: .\templates\translation_card_content\constellation.html:45
-#, fuzzy
-#| msgid "AND-relations"
-msgid "relation"
-msgstr "Relations: ET"
-
-#: .\templates\translation_card_content\constellation.html:50
-#: .\templates\translation_card_content\constellation.html:55
-#: .\templates\translation_card_content\constellation.html:104
-msgid "PHYSICS"
-msgstr "PHYSIQUE"
-
-#: .\templates\translation_card_content\constellation.html:50
-msgid "spacetime"
-msgstr "espace-temps"
-
-#: .\templates\translation_card_content\constellation.html:55
+#: .\templates\translation_card_content\constellation.html:78
 msgid "Zero-dimensional space-time."
 msgstr "Espace-temps de dimension zéro."
 
-#: .\templates\translation_card_content\constellation.html:55
+#: .\templates\translation_card_content\constellation.html:80
 msgid "points on a map"
 msgstr "points sur une carte"
 
-#: .\templates\translation_card_content\constellation.html:55
+#: .\templates\translation_card_content\constellation.html:82
 msgid "points of time"
 msgstr "points par moment"
 
-#: .\templates\translation_card_content\constellation.html:64
+#: .\templates\translation_card_content\constellation.html:93
 msgid "One-dimensional space"
 msgstr "Espace unidimensionnel"
 
-#: .\templates\translation_card_content\constellation.html:84
+#: .\templates\translation_card_content\constellation.html:121
 msgid ""
 "reflexive verbs have their own logic related to the reflexivity of the "
 "reduction, to the asymmetry that occurs because one can never see oneself "
@@ -652,11 +575,7 @@ msgstr ""
 "Soi. Le Soi ne peut jamais voir le Soi de l'intérieur. Le Soi ne peut se "
 "voir que comme un Autre."
 
-#: .\templates\translation_card_content\constellation.html:89
-msgid "PHSYICS"
-msgstr "LA PHYSIQUE"
-
-#: .\templates\translation_card_content\constellation.html:89
+#: .\templates\translation_card_content\constellation.html:130
 msgid ""
 "both space intervals, time intervals, geodesic neigborhoods, as well as a "
 "home for the family"
@@ -664,11 +583,7 @@ msgstr ""
 "à la fois des intervalles spatiaux, des intervalles de temps, des quartiers "
 "géodésiques, ainsi qu'une maison pour la famille"
 
-#: .\templates\translation_card_content\constellation.html:94
-msgid "within"
-msgstr "dans"
-
-#: .\templates\translation_card_content\constellation.html:138
+#: .\templates\translation_card_content\constellation.html:209
 msgid ""
 "The survivor is the one who lives on top of the one who died, who lives out "
 "the Beyond of the one who he has murdered, the father of the past"
@@ -1161,6 +1076,10 @@ msgstr ""
 "le long de ces vecteurs métaphoriques"
 
 #: .\templates\translation_card_content\objective.html:2
+msgid "Objective"
+msgstr ""
+
+#: .\templates\translation_card_content\objective.html:3
 msgid ""
 "To map the relations within and between multiple dimensions of topological "
 "manifolds that describe the thematic tensor transformations within and "
@@ -1413,3 +1332,44 @@ msgstr ""
 "du monde dans un présent de représentation à travers la remémoration de la "
 "mémoire100, un acquis de subjectivité exprimé comme « récurrence »101 au "
 "sein d’Autrement qu’Être"
+
+#~ msgid "HEIGHT"
+#~ msgstr "HAUTEUR"
+
+#~ msgid "VIVRE"
+#~ msgstr "VIVRE"
+
+#~ msgid "GENESIS"
+#~ msgstr "GENESIS"
+
+#~ msgid "feminine"
+#~ msgstr "féminine"
+
+#~ msgid "MATHEMATICS"
+#~ msgstr "MATHÉMATIQUES"
+
+#~ msgid "GEOMETRY"
+#~ msgstr "GÉOMÉTRIE"
+
+#~ msgid "conjunction"
+#~ msgstr "conjonction"
+
+#~ msgid "ONTOLOGY"
+#~ msgstr "ONTOLOGIE"
+
+#, fuzzy
+#~| msgid "AND-relations"
+#~ msgid "relation"
+#~ msgstr "Relations: ET"
+
+#~ msgid "PHYSICS"
+#~ msgstr "PHYSIQUE"
+
+#~ msgid "spacetime"
+#~ msgstr "espace-temps"
+
+#~ msgid "PHSYICS"
+#~ msgstr "LA PHYSIQUE"
+
+#~ msgid "within"
+#~ msgstr "dans"
