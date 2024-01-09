@@ -1,5 +1,7 @@
 {% load i18n %}
 {% load static %}
+{% load livereload_tags %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +15,8 @@
     <script src="{% static "js/jquery3.7.1.js" %}"></script>
     <title>{% block subtitle %}  {% endblock %} Emmanuel Levinas: Empirisme radical</title>
     {% block css_files %}{% endblock %}
+    {% livereload_script %}
+</head>
 </head>
 <body>
 <div class="container">

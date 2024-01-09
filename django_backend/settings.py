@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "word_analysis",
     'corsheaders',
     'django_sass',
+    'livereload'
 ]
 
 MIDDLEWARE = [
@@ -63,6 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
+    'livereload.middleware.LiveReloadScript',
 ]
 
 ROOT_URLCONF = 'django_backend.urls'
