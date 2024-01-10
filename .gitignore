@@ -206,3 +206,6 @@ business_logic/logs/
 tableapp/
 
 package-lock.json
+
+*zip
+bootstrap5traversy/sampleProjects/
