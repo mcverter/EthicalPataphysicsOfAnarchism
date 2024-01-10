@@ -20,9 +20,10 @@ def bilingual_card(value: str):
     return {"component": value}
 
 
-@register.inclusion_tag('tags/translation_card.html')
-def translation_card(value: str):
+@register.inclusion_tag('tags/content_card.html')
+def content_card(value: str):
     return {"component": value}
+
 
 @register.inclusion_tag('tags/bilingual_vertical.html')
 def bilingual_vertical(value: str):
