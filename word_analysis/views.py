@@ -61,8 +61,8 @@ def word_detail(request, word):
     return render(request, 'pages/word_detail_page.html', context)
 
 
-def translation_content_page(request):
-    return render(request, 'pages/translation_content_page.html')
+def content_page(request, content):
+    return render(request, 'pages/content_page.html', {'content': content})
 
 
 # for on-the-fly UI testing

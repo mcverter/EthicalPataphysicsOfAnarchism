@@ -1,5 +1,0 @@
-{% extends "base_page.html" %}
-{% block content %}
-    {% translation_card  request.path|slice:"1:" %}
-    { include "tags/bilingual_card.html" with component=request.path|slice:"1:" %}
-{% endblock %}
