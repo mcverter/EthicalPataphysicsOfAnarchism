@@ -1,0 +1,23 @@
+{% load i18n %}
+<div>
+    <div>
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th> {% trans 'Line' %} #</th>
+                <th>{{ book.fr }}</th>
+                <th>{{ book.en }}</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for line in lines %}
+                <tr>
+                    <td>{{ line.num }}</td>
+                    <td>{{ line.sentence.fr }}</td>
+                    <td>{{ line.sentence.en }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -35,15 +35,17 @@ def word_list(request):
 
 
 def word_detail(request, word):
-    book_word = Word.objects.get(french=word)
+    book_word = Word.objects.select_related('etymology', 'definition').get(french=word)
     if book_word is None:
-        book_word = Word.objects.get(english=word)
+        book_word = Word.objects.select_related('etymology', 'definition').get(english=word)
     if book_word is None:
         return "could not find that word"
     etymology = book_word.etymology
     definition = book_word.definition
-    otb_lines = book_word.book_line.all().order_by('line').filter(book=OTB)
-    ti_lines = book_word.book_line.all().order_by('line').filter(book=TI)
+
+    all_lines = book_word.book_line.all()
+    otb_lines = all_lines.order_by('line').filter(book=OTB)
+    ti_lines = all_lines.order_by('line').filter(book=TI)
     genres = all_words_to_genres(book_word)
 
     context = {

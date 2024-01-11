@@ -26,6 +26,16 @@ OTB_SHORT_FRENCH_TITLE = "Autrement"
 TI_SHORT_FRENCH_TITLE = "Totalité"
 OTB_SHORT_ENGLISH_TITLE = "Otherwise"
 TI_SHORT_ENGLISH_TITLE = 'Totality'
+ABBREV_TO_FULL_TITLE_MAP = {
+    "ti": {
+        "fr": TI_FULL_FRENCH_TITLE,
+        "en": TI_FULL_ENGLISH_TITLE,
+    },
+    "otb": {
+        "fr": OTB_FULL_FRENCH_TITLE,
+        "en": OTB_FULL_ENGLISH_TITLE,
+    },
+}
 
 COLUMN_FRENCH = "french"
 COLUMN_FRENCH_EXPLANATION = "french_explanation"

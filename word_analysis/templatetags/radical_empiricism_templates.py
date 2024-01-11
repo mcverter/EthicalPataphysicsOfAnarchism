@@ -1,8 +1,20 @@
 from django import template
 
+from constants import ABBREV_TO_FULL_TITLE_MAP
 from word_analysis.hardcoded.all_genres_data import all_genres_to_words
+from word_analysis.hardcoded.sentences.get_sentence import get_sentence
 
 register = template.Library()
+
+
+@register.inclusion_tag('tags/book_lines.html')
+def book_line_display(book, line):
+    return {
+        "book": ABBREV_TO_FULL_TITLE_MAP[book],
+        "lines": [{
+            "num": line,
+            "sentence": get_sentence(book, line)
+        }]}
 
 
 @register.inclusion_tag('tags/word_btn.html')

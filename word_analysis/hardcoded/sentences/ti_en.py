@@ -577,7 +577,7 @@ TI_EN = [
     "Totalization is accomplished only in history—in the history of the historiographers, that is, among the survivors.",
     "It rests on the affirmation and the conviction that the chronological order of the history of the historians outlines the plot of being in itself, analogous to nature.",
     "The time of universal history remains as the ontological ground in which particular existences are lost, are computed, and in which at least their essences are recapitulated.",
-    "Birth arid death as punctual moments, and the interval that separates thefft, are lodged iq this universal time of the historian, who is a survivor.",
+    "Birth arid death as punctual moments, and the interval that separates thefft, are lodged in this universal time of the historian, who is a survivor.",
     "Interiority as such is a \"nothing,\" \"pure thought,\" nothing but thought.",
     "In the titrie of the historiographer interiority is the nonbeing in which everything is possible, for in it nothing is impossible—the \"everything is possible\" of madriess.",
     "This possibility is not an essence, that is, is not the possibility of a being.",
