@@ -14,8 +14,13 @@ def nav_bar():
     return {"nav_items": nav_items}
 
 
-@register.inclusion_tag('nav/nav_bar_link.html')
-def nav_bar_link(item):
+@register.inclusion_tag('nav/nav_bar_item.html')
+def nav_bar_item(item):
+    return {"item": item}
+
+
+@register.inclusion_tag('nav/nav_bar_item_with_subitems.html')
+def nav_bar_item_with_subitems(item):
     return {"item": item}
 
 

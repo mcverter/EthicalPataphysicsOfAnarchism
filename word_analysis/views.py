@@ -63,8 +63,9 @@ def word_detail(request, word):
     return render(request, 'pages/word_detail_page.html', context)
 
 
-def content_page(request, content):
-    return render(request, 'pages/content_page.html', {'content': content})
+def content_page(request, name):
+    print('content',name)
+    return render(request, 'pages/content_page.html', {'content': name})
 
 
 # for on-the-fly UI testing

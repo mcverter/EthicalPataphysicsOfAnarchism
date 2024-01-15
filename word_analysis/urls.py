@@ -21,22 +21,30 @@ urlpatterns = [
     re_path("^genre|genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
 
     re_path(r"^$", summary, name="summary"),
-    re_path("^abstract$", content_page, name="abstract"),
-    re_path("^addition$", content_page, name="addition"),
-    re_path("^combination$", content_page, name="combination"),
-    re_path("^constellation$", content_page, name="constellation"),
-    re_path("^(curvature|courbure)$", content_page, name="constellation"),
+    re_path("^abstract$", content_page, {"name": "abstract"}),
+    re_path("^addition$", content_page, {"name": "addition"}),
+    re_path("^combination$", content_page, {"name": "combination"}),
+
+    re_path("^(curvature|courbure)$", content_page, {"name": "constellation"}),
+
+    re_path("^constellation$", content_page, {"name": "constellation"}),
     re_path("^(deux|duality|two)$", content_page, name="duality"),
-    re_path("^euclid$", content_page, name="euclid"),
-    re_path("^flat$", content_page, name="flat"),
-    re_path("^intersection$", content_page, name="intersection"),
-    re_path("^numbers$", content_page, name="numbers"),
-    re_path("^objective$", content_page, name="objective"),
-    re_path("^opposition$", content_page, name="opposition"),
-    re_path("^parallelism$", content_page, name="parallelism"),
+
+
+
+    re_path("^euclid$", content_page, {"name": "euclid"}),
+
+    re_path("^flat$", content_page, {"name": "flat"}),
+
+
+    re_path("^intersection$", content_page, {"name": "intersection"}),
+    re_path("^numbers$", content_page, {"name": "numbers"}),
+    re_path("^objective$", content_page, {"name": "objective"}),
+    re_path("^opposition$", content_page, {"name": "opposition"}),
+    re_path("^parallelism$", content_page, {"name": "parallelism"}),
     re_path("^definition$", content_page, name="definition"),
     re_path("^etymology$", content_page, name="etymology"),
-    re_path("^two_dimensional$", content_page, name="two_dimensional"),
+    re_path("^two_dimensional$", content_page, {"name": "two_dimensional"}),
     re_path("^(un|one)$", content_page, name="un"),
     re_path("^(zero|null)$", content_page, name="zero"),
     re_path("^(trois|three)$", content_page, name="trois"),

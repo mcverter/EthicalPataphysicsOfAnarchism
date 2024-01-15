@@ -3,7 +3,11 @@
     <nav class=" navbar navbar-expand-sm navbar-light bg-light justify-content-end mb-20">
         <ul class="navbar-nav align-items-baseline">
             {% for item in nav_items %}
-                {% nav_bar_link item %}
+                {% if item.subitems %}
+                    {% nav_bar_item_with_subitems item %}
+                {% else %}
+                    {% nav_bar_item item %}
+                {% endif %}
             {% endfor %}
         </ul>
     </nav>

@@ -1,0 +1,16 @@
+<!-- Split Button -->
+<div class="btn-group">
+    <button class="btn btn-danger">{% nav_bar_item item %}</button>
+    <button
+            class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+    >
+        <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+        {% for subitem in item.subitems %}
+            {% nav_bar_item subitem %}
+        {% endfor %}
+    </ul>
+</div>
+
