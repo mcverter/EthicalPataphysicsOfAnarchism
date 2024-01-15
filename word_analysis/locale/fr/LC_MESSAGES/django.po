@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-15 06:06-0500\n"
+"POT-Creation-Date: 2024-01-15 17:35-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,11 +111,12 @@ msgstr ""
 msgid "The site is divided into the following sections:"
 msgstr "Le site est divisé en les sections suivantes"
 
-#: .\templates\content\abstract.html:12 .\templates\nav\site_nav.html:7
+#: .\templates\content\abstract.html:12
+#: .\templates\nav\bootstrap_experiments\nav_item_with_dropdown.html:12
 msgid "Project Summary"
 msgstr "Résumé du projet"
 
-#: .\templates\content\abstract.html:14 .\templates\nav\site_nav.html:12
+#: .\templates\content\abstract.html:14
 msgid "Word list"
 msgstr "Liste de mots"
 
@@ -128,11 +129,11 @@ msgstr "Ensembles De Genres"
 msgid "Genre membership"
 msgstr "Appartenance à un genre"
 
-#: .\templates\content\abstract.html:20 .\templates\nav\site_nav.html:23
+#: .\templates\content\abstract.html:20
 msgid "Internal and external relations"
 msgstr "Relations internes et externes"
 
-#: .\templates\content\abstract.html:22 .\templates\nav\site_nav.html:27
+#: .\templates\content\abstract.html:22
 #: .\templates\pages\technical_page.html:4
 #: .\templates\pages\technical_page.html:8
 msgid "Technical notes"
@@ -152,7 +153,7 @@ msgstr ""
 "verbales, nominales, adjectivales et adverbiales appartiennent tous à divers "
 "GENRE_SETS. Cela permet à un seul mot d'envelopper une variété à N plis de"
 
-#: .\templates\content\combination.html:3 .\templates\nav\site_nav.html:18
+#: .\templates\content\combination.html:3
 msgid "Genre Sets (GS)"
 msgstr "Ensembles De Genres (EG)"
 
@@ -193,14 +194,17 @@ msgstr ""
 "“récurrence” de MATHEMATICS"
 
 #: .\templates\content\constellation.html:3
+#: .\templates\tags\constellation_example.html:4
 msgid "A constellational analysis of metaphorical manifolds"
 msgstr "Une analyse constellationnelle de variétés métaphoriques"
 
 #: .\templates\content\constellation.html:4
+#: .\templates\tags\constellation_example.html:5
 msgid "Example"
 msgstr "Exemple"
 
 #: .\templates\content\constellation.html:7
+#: .\templates\tags\constellation_example.html:8
 #, fuzzy
 #| msgid "Prepositions"
 msgid "Group Decomposition"
@@ -218,7 +222,7 @@ msgstr "Catégories"
 
 #: .\templates\content\constellation.html:17
 msgid "Notes"
-msgstr ""
+msgstr "Remarques"
 
 #: .\templates\content\constellation.html:29
 msgid "singular, also a homonym for “there” (là) in French, so "
@@ -299,15 +303,15 @@ msgstr "et d'autres : à savoir des idées telles que"
 #: .\templates\content\duality.html:19 .\templates\content\duality.html:21
 #: .\templates\content\objectivebackup.html:6
 msgid "and"
-msgstr ""
+msgstr "et"
 
 #: .\templates\content\duality.html:21
 msgid "the"
-msgstr ""
+msgstr "le"
 
 #: .\templates\content\duality.html:21
 msgid "also called"
-msgstr ""
+msgstr "aussi appelé"
 
 #: .\templates\content\duality.html:23
 msgid "in French"
@@ -768,23 +772,25 @@ msgstr ""
 #: .\templates\content\objective.html:2
 #: .\templates\content\objectivebackup.html:2
 msgid "Objective"
-msgstr ""
+msgstr "L'objectif"
 
 #: .\templates\content\objective.html:4
 msgid ""
 "To map the relations within and between multiple dimensions of Levinas's "
 "metaphorical terminology, both within and between his two major texts"
 msgstr ""
+" Cartographier les relations au sein et entre les multiples dimensions de Levinas "
+"terminologie métaphorique, à la fois à l'intérieur et entre ses deux textes majeurs"
 
 #: .\templates\content\objective.html:4
 #: .\templates\content\objectivebackup.html:5
 msgid "Totality and Infinity"
-msgstr ""
+msgstr "Totalité et infini"
 
 #: .\templates\content\objective.html:5
 #: .\templates\content\objectivebackup.html:7
 msgid "Otherwise than Being, or Beyond Essence"
-msgstr ""
+msgstr "Autrement que l'être, ou au-delà de l'essence"
 
 #: .\templates\content\objective.html:6
 #: .\templates\content\objectivebackup.html:16
@@ -795,6 +801,11 @@ msgid ""
 "maternity, and so on.  The tendency to reduce Levinas's  the predicative, "
 "ontological slogan 'Ethics is first philosohy' "
 msgstr ""
+"Trop de littérature secondaire décrit une compréhension unidimensionnelle de"
+"cette dynamique, une ligne reliant deux pôles antagonistes, Levinas contra"
+"Hegel, ontologie contre l'éthique, totalité contre l'infini, paternité contre"
+"maternité, etc. La tendance à réduire le prédicatif de Levinas, "
+"slogan ontologique 'L'éthique est la première philosophie'"
 
 #: .\templates\content\objective.html:11
 #: .\templates\content\objectivebackup.html:19
@@ -864,10 +875,12 @@ msgid ""
 "One such example is Levinas's metaphorics of the home.  Levinas figures the "
 "home as idea of place, as 'there"
 msgstr ""
+"Un tel exemple est la métaphore de Levinas sur la maison. Levinas représente le "
+"la maison comme idée de lieu, comme 'là-bas'"
 
 #: .\templates\content\objectivebackup.html:28
 msgid "Thematic genres become related to each other in various ways"
-msgstr ""
+msgstr "Les genres thématiques sont liés les uns aux autres de diverses manières"
 
 #: .\templates\content\objectivebackup.html:31
 msgid ""
@@ -877,6 +890,12 @@ msgid ""
 "just with the 'living' in the infinitive form but as a male substantive, a "
 "virile subjectivity that stands up erect."
 msgstr ""
+"Tout d'abord, ils peuvent se croiser en un seul mot, comme dans le terme "
+"'survivant' qui ajoute le préfixe 'sur' au mot 'vivant', ainsi "
+"liant le genre du HAUTEUR au genre du VIVRE, de la hauteur au non"
+"juste avec le 'vivant' à la forme infinitive mais comme substantif masculin, un "
+" une subjectivité virile qui se tient debout."
+
 
 #: .\templates\content\opposition.html:3
 msgid "Certain dualities are opposed to each other"
@@ -953,18 +972,93 @@ msgstr "Quand Levinas discute"
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de"
 
-#: .\templates\content\recurrence.html:1
+#: .\templates\content\repetition.html:4
+msgid "Repetition of the same word in different context"
+msgstr "Répétition du même mot dans un contexte différent"
+
+#: .\templates\content\repetition.html:6
 msgid ""
 "The first thing to notice about Levinas's terminology is that they recur "
 "periodically throughout the text,  words in Levinas's text is that they "
-"recur periodically throughout.  For example the motif of 'depth' is used "
-"within Totality and Infinity to describe not only the relationship to the "
-"element but also the fright of recognizing oneself as an other, the distance "
-"in depth of the face-to-face, the depth of the absence of the il y a, the "
-"infinite depths of the past, the fathomless depth of the disquieting future, "
-"the depth of materiality, the secret depths of feminine being, the depth of "
-"erotic tenderness"
+"recur periodically throughout in different contexts."
 msgstr ""
+"La première chose à remarquer dans la terminologie de Levinas, c'est qu'elle est récurrente"
+"Périodiquement tout au long du texte, les mots du texte de Levinas sont qu'ils "
+"se reproduisent périodiquement dans différents contextes."
+
+#: .\templates\content\repetition.html:8
+msgid ""
+"Acknowledging Levinas’s perspectivism provides a key to understanding the "
+"storyline that animates Totality and Infinity. Each section of the book can "
+"be understood as a shifted perspective on the becoming of a temporal moment, "
+"as can be noticed by the recurrence of the same word in different "
+"orientations to describe different ethical-phenomenological events"
+msgstr ""
+"Reconnaître le perspectivisme de Levinas constitue une clé pour comprendre"
+"scénario qui anime Totalité et Infini. Chaque section du livre peut "
+"être compris comme une perspective décalée sur le devenir d'un moment temporel,"
+"comme on peut le remarquer par la récurrence du même mot dans différents "
+"des orientations pour décrire différents événements éthiques-phénoménologiques"
+
+#: .\templates\content\repetition.html:12
+msgid "The relationship to the element"
+msgstr "Le rapport à l'élément"
+
+#: .\templates\content\repetition.html:16
+msgid "The fright of recognizing oneself as an other"
+msgstr "La peur de se reconnaître comme un autre"
+
+#: .\templates\content\repetition.html:20
+msgid "The distance in depth of the face-to-face"
+msgstr "La distance en profondeur du face-à-face"
+
+#: .\templates\content\repetition.html:25
+msgid "The depth of the absence of the il y a"
+msgstr "La profondeur de l'absence de l'il y a"
+
+#: .\templates\content\repetition.html:30
+msgid "The infinite depths of the past"
+msgstr "Les profondeurs infinies du passé"
+
+#: .\templates\content\repetition.html:35
+msgid "The fathomless depth of the disquieting future"
+msgstr "La profondeur insondable d'un futur inquiétant"
+
+#: .\templates\content\repetition.html:39
+msgid "The depth of materiality"
+msgstr "La profondeur de la matérialité"
+
+#: .\templates\content\repetition.html:44
+msgid "The secret depths of feminine being"
+msgstr "Les profondeurs secrètes de l'être féminin"
+
+#: .\templates\content\repetition.html:50
+msgid "The depth of erotic tenderness"
+msgstr "La profondeur de la tendresse érotique"
+
+#: .\templates\content\repetition.html:55
+msgid "Depth as defencelessness"
+msgstr "La profondeur comme absence de défense"
+
+#: .\templates\content\repetition.html:60
+msgid "Depth and murder"
+msgstr "Profondeur et meurtre"
+
+#: .\templates\content\repetition.html:65
+msgid "Depth as death, the tomb"
+msgstr "Profondeur comme la mort, le tombeau"
+
+#: .\templates\content\repetition.html:70
+msgid "Depth as the child"
+msgstr "Profondeur comme l'enfant"
+
+#: .\templates\content\repetition.html:75
+msgid " The depth of silence"
+msgstr "La profondeur du silence"
+
+#: .\templates\content\repetition.html:80
+msgid "The depth of the mythical"
+msgstr "La profondeur du mythique"
 
 #: .\templates\content\two_dimensional.html:2
 msgid "Two-Dimensional Curvature"
