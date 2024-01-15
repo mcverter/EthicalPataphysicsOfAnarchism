@@ -3,6 +3,7 @@ from django import template
 from constants import ABBREV_TO_FULL_TITLE_MAP
 from word_analysis.hardcoded.all_genres_data import all_genres_to_words
 from word_analysis.hardcoded.sentences.get_sentence import get_sentence
+from word_analysis.hardcoded.constellation_example_data import constellation_example_data
 
 register = template.Library()
 
@@ -15,6 +16,11 @@ def book_line_display(book, line):
             "num": line,
             "sentence": get_sentence(book, line)
         }]}
+
+
+@register.inclusion_tag('tags/constellation_example.html')
+def constellation_example():
+    return {"constellation_example": constellation_example_data}
 
 
 @register.inclusion_tag('tags/word_categorization_card.html')

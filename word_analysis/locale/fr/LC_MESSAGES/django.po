@@ -3,11 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#: .\templates\content\objectivebackup.html:25
+#: .\templates\content\objectivebackup.html:32
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 14:16-0500\n"
+"POT-Creation-Date: 2024-01-15 06:06-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,60 +192,60 @@ msgstr ""
 "car elle monte (surgir) à nouveau (re), combinant ainsi “hauteur” et "
 "“récurrence” de MATHEMATICS"
 
-#: .\templates\content\constellation.html:2
 #: .\templates\content\constellation.html:3
+msgid "A constellational analysis of metaphorical manifolds"
+msgstr "Une analyse constellationnelle de variétés métaphoriques"
+
+#: .\templates\content\constellation.html:4
 msgid "Example"
 msgstr "Exemple"
 
-#: .\templates\content\constellation.html:2
-msgid "A constellational analysis of metaphorical manifolds"
-msgstr ""
-"Une analyse constellationnelle de variétés métaphoriques"
+#: .\templates\content\constellation.html:7
+#, fuzzy
+#| msgid "Prepositions"
+msgid "Group Decomposition"
+msgstr "Prépositions"
 
-#: .\templates\content\constellation.html:5
-msgid "Analysis"
-msgstr "Analyse"
-
-#: .\templates\content\constellation.html:9
+#: .\templates\content\constellation.html:15
 #: .\templates\pages\word_list_page.html:8
 msgid "Word"
 msgstr "Mot"
 
-#: .\templates\content\constellation.html:10
+#: .\templates\content\constellation.html:16
 #: .\templates\pages\word_detail_page.html:39
 msgid "Categories"
 msgstr "Catégories"
 
-#: .\templates\content\constellation.html:11
+#: .\templates\content\constellation.html:17
 msgid "Notes"
 msgstr ""
 
-#: .\templates\content\constellation.html:23
+#: .\templates\content\constellation.html:29
 msgid "singular, also a homonym for “there” (là) in French, so "
 msgstr "singulier, également homonyme de “là” en français, donc"
 
-#: .\templates\content\constellation.html:50
-#: .\templates\content\constellation.html:103
+#: .\templates\content\constellation.html:56
+#: .\templates\content\constellation.html:109
 msgid "See above"
 msgstr "Voir ci-dessus"
 
-#: .\templates\content\constellation.html:94
+#: .\templates\content\constellation.html:100
 msgid "Zero-dimensional space-time."
 msgstr "Espace-temps de dimension zéro."
 
-#: .\templates\content\constellation.html:95
+#: .\templates\content\constellation.html:101
 msgid "points on a map"
 msgstr "points sur une carte"
 
-#: .\templates\content\constellation.html:96
+#: .\templates\content\constellation.html:102
 msgid "points of time"
 msgstr "points par moment"
 
-#: .\templates\content\constellation.html:114
+#: .\templates\content\constellation.html:120
 msgid "One-dimensional space"
 msgstr "Espace unidimensionnel"
 
-#: .\templates\content\constellation.html:154
+#: .\templates\content\constellation.html:160
 msgid ""
 "reflexive verbs have their own logic related to the reflexivity of the "
 "reduction, to the asymmetry that occurs because one can never see oneself "
@@ -257,7 +259,7 @@ msgstr ""
 "Soi. Le Soi ne peut jamais voir le Soi de l'intérieur. Le Soi ne peut se "
 "voir que comme un Autre."
 
-#: .\templates\content\constellation.html:168
+#: .\templates\content\constellation.html:174
 msgid ""
 "both space intervals, time intervals, geodesic neigborhoods, as well as a "
 "home for the family"
@@ -265,7 +267,7 @@ msgstr ""
 "à la fois des intervalles spatiaux, des intervalles de temps, des quartiers "
 "géodésiques, ainsi qu'une maison pour la famille"
 
-#: .\templates\content\constellation.html:265
+#: .\templates\content\constellation.html:271
 msgid ""
 "The survivor is the one who lives on top of the one who died, who lives out "
 "the Beyond of the one who he has murdered, the father of the past"
@@ -295,6 +297,7 @@ msgid "and others: namely ideas such as"
 msgstr "et d'autres : à savoir des idées telles que"
 
 #: .\templates\content\duality.html:19 .\templates\content\duality.html:21
+#: .\templates\content\objectivebackup.html:6
 msgid "and"
 msgstr ""
 
@@ -763,17 +766,60 @@ msgstr ""
 "le long de ces vecteurs métaphoriques"
 
 #: .\templates\content\objective.html:2
+#: .\templates\content\objectivebackup.html:2
 msgid "Objective"
 msgstr ""
 
-#: .\templates\content\objective.html:3
+#: .\templates\content\objective.html:4
 msgid ""
-"To map the relations within and between multiple dimensions of topological "
-"manifolds that describe the thematic tensor transformations within and "
-"between various Genre Groups (GG). Relations will be traced by detemining a "
-"flat projections, doubles and by 2x2 perspecitval and conversational "
-"conversions, and by considering how various etymological and semantic genres "
-"are transformed into various word forms"
+"To map the relations within and between multiple dimensions of Levinas's "
+"metaphorical terminology, both within and between his two major texts"
+msgstr ""
+
+#: .\templates\content\objective.html:4
+#: .\templates\content\objectivebackup.html:5
+msgid "Totality and Infinity"
+msgstr ""
+
+#: .\templates\content\objective.html:5
+#: .\templates\content\objectivebackup.html:7
+msgid "Otherwise than Being, or Beyond Essence"
+msgstr ""
+
+#: .\templates\content\objective.html:6
+#: .\templates\content\objectivebackup.html:16
+msgid ""
+"Too much secondary literature describes a one-dimensional understanding of "
+"these dynamics, a line connecting two antagonistic poles, Levinas contra "
+"Hegel, ontology contra ethics, totality contra infinity, paternity contra "
+"maternity, and so on.  The tendency to reduce Levinas's  the predicative, "
+"ontological slogan 'Ethics is first philosohy' "
+msgstr ""
+
+#: .\templates\content\objective.html:11
+#: .\templates\content\objectivebackup.html:19
+msgid ""
+"Many of the techniques and concepts applied from the various subfields of "
+"mathemamatics, in particularr using exploring the rmeaning of curvature and "
+"particularly non-Euclidean geometry and graph theory, as well as meditations "
+"on numbers, zero, and infinity,  from prehistoric times, and relativity "
+"phhysics, waves to think about  ."
+msgstr ""
+
+#: .\templates\content\objective.html:14
+#, fuzzy
+#| msgid ""
+#| "To map the relations within and between multiple dimensions of "
+#| "topological manifolds that describe the thematic tensor transformations "
+#| "within and between various Genre Groups (GG). Relations will be traced by "
+#| "detemining a flat projections, doubles and by 2x2 perspecitval and "
+#| "conversational conversions, and by considering how various etymological "
+#| "and semantic genres are transformed into various word forms"
+msgid ""
+"within terminological GGs both within texts and between his Relations will "
+"be traced by detemining a flat projections, doubles and by 2x2 perspecitval "
+"and conversational conversions, and by considering how various etymological "
+"and semantic genres are transformed into various word forms"
 msgstr ""
 "Cartographe les relations au sein et entre les multiples dimensions des "
 "variétés topologiques qui décrivent les transformations tensorielles "
@@ -782,6 +828,55 @@ msgstr ""
 "conversions perspectives et conversationnelles 2x2, et par considérant "
 "comment divers genres étymologiques et sémantiques se transforment en "
 "diverses formes de mots"
+
+#: .\templates\content\objectivebackup.html:4
+msgid ""
+"This project seeks to map the relations that obtain between and among a "
+"manifold of dimensions that comprise terminology contained in his two major "
+"works"
+msgstr ""
+
+#: .\templates\content\objectivebackup.html:22
+#, fuzzy
+#| msgid ""
+#| "To map the relations within and between multiple dimensions of "
+#| "topological manifolds that describe the thematic tensor transformations "
+#| "within and between various Genre Groups (GG). Relations will be traced by "
+#| "detemining a flat projections, doubles and by 2x2 perspecitval and "
+#| "conversational conversions, and by considering how various etymological "
+#| "and semantic genres are transformed into various word forms"
+msgid ""
+"within terminological GSes both within texts and between his Relations will "
+"be traced by detemining a flat projections, doubles and by 2x2 perspecitval "
+"and conversational conversions, and by considering how various etymological "
+"and semantic genres are transformed into various word forms"
+msgstr ""
+"Cartographe les relations au sein et entre les multiples dimensions des "
+"variétés topologiques qui décrivent les transformations tensorielles "
+"thématiques au sein et entre divers groupes de genres (GG). Les relations "
+"seront tracées en déterminant des projections plates, des doubles et par des "
+"conversions perspectives et conversationnelles 2x2, et par considérant "
+"comment divers genres étymologiques et sémantiques se transforment en "
+"diverses formes de mots"
+
+#: .\templates\content\objectivebackup.html:26
+msgid ""
+"One such example is Levinas's metaphorics of the home.  Levinas figures the "
+"home as idea of place, as 'there"
+msgstr ""
+
+#: .\templates\content\objectivebackup.html:28
+msgid "Thematic genres become related to each other in various ways"
+msgstr ""
+
+#: .\templates\content\objectivebackup.html:31
+msgid ""
+"First of all, they can intersect in a single word, as in the term "
+"'survivant' which appends the prefix 'sur' to the word 'vivant', thereby "
+"linking the genre of HAUTEUR with the genre of VIVRE, of height with not "
+"just with the 'living' in the infinitive form but as a male substantive, a "
+"virile subjectivity that stands up erect."
+msgstr ""
 
 #: .\templates\content\opposition.html:3
 msgid "Certain dualities are opposed to each other"
@@ -857,6 +952,19 @@ msgstr "Quand Levinas discute"
 #: .\templates\content\parallelism.html:13
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de"
+
+#: .\templates\content\recurrence.html:1
+msgid ""
+"The first thing to notice about Levinas's terminology is that they recur "
+"periodically throughout the text,  words in Levinas's text is that they "
+"recur periodically throughout.  For example the motif of 'depth' is used "
+"within Totality and Infinity to describe not only the relationship to the "
+"element but also the fright of recognizing oneself as an other, the distance "
+"in depth of the face-to-face, the depth of the absence of the il y a, the "
+"infinite depths of the past, the fathomless depth of the disquieting future, "
+"the depth of materiality, the secret depths of feminine being, the depth of "
+"erotic tenderness"
+msgstr ""
 
 #: .\templates\content\two_dimensional.html:2
 msgid "Two-Dimensional Curvature"
@@ -1333,6 +1441,9 @@ msgstr "Plus d'information et textes"
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur"
+
+#~ msgid "Analysis"
+#~ msgstr "Analyse"
 
 #~ msgid "Metaphorical constellations"
 #~ msgstr "Constellations métaphoriques"

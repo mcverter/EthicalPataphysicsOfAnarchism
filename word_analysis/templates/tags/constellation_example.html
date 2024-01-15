@@ -1,0 +1,13 @@
+{% load i18n %}
+
+<h4 class="card-title">
+    {% trans "A constellational analysis of metaphorical manifolds" %}
+    ({% trans "Example" %})
+</h4>
+{% book_line_display "ti" 578 %}
+<h5>{% trans "Group Decomposition" %}</h5>
+<div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
+    {% for wc in constellation_example %}
+        {% word_categorization_card wc %}
+    {% endfor %}
+</div>
