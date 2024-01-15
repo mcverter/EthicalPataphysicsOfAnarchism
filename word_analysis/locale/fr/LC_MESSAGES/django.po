@@ -25,12 +25,12 @@ msgstr "Resume"
 msgid ""
 "Levinas’s work can be understood better by mapping the relations within and "
 "between multiple dimensions of topological manifolds that describe the "
-"thematic tensor transformations within and between various Genre Sets (GS)"
+"thematic tensor transformations within and between various Genre Groups (GG)"
 msgstr ""
 "Le travail de Levinas peut être mieux compris en cartographiant les "
 "relations au sein et entre plusieurs dimensions de topologique variétés qui "
 "décrivent les transformations tensorielles thématiques au sein et entre "
-"diverses ensembles de genres (ES)"
+"diverses groupes de genres (GG)"
 
 #: .\templates\content\abstract.html:4
 msgid ""
@@ -100,7 +100,7 @@ msgstr ""
 #: .\templates\content\abstract.html:8
 msgid ""
 "This project endeavors to map out the topology of the manifold of these "
-"Genre Sets(TG)"
+"Genre Groups(TG)"
 msgstr ""
 "Ce projet s'efforce de cartographier la topologie de la diversité de ces "
 "thématiques. Genres (TG)"
@@ -118,8 +118,8 @@ msgid "Word list"
 msgstr "Liste de mots"
 
 #: .\templates\content\abstract.html:16
-msgid "Genre Sets"
-msgstr "Ensembles De Genres"
+msgid "Genre Groups"
+msgstr "Groupes De Genres"
 
 #: .\templates\content\abstract.html:18
 #: .\templates\includes\summary\membership.html:5
@@ -151,8 +151,8 @@ msgstr ""
 "GENRE_SETS. Cela permet à un seul mot d'envelopper une variété à N plis de"
 
 #: .\templates\content\combination.html:3 .\templates\nav\site_nav.html:18
-msgid "Genre Sets (GS)"
-msgstr "Ensembles De Genres (ES)"
+msgid "Genre Groups (GG)"
+msgstr "Groupes De Genres (GG)"
 
 #: .\templates\content\combination.html:5
 msgid "For example, the word"
@@ -770,14 +770,14 @@ msgstr ""
 msgid ""
 "To map the relations within and between multiple dimensions of topological "
 "manifolds that describe the thematic tensor transformations within and "
-"between various Genre Sets (GS). Relations will be traced by detemining a "
+"between various Genre Groups (GG). Relations will be traced by detemining a "
 "flat projections, doubles and by 2x2 perspecitval and conversational "
 "conversions, and by considering how various etymological and semantic genres "
 "are transformed into various word forms"
 msgstr ""
 "Cartographe les relations au sein et entre les multiples dimensions des "
 "variétés topologiques qui décrivent les transformations tensorielles "
-"thématiques au sein et entre divers ensembles de genres (GS). Les relations "
+"thématiques au sein et entre divers groupes de genres (GG). Les relations "
 "seront tracées en déterminant des projections plates, des doubles et par des "
 "conversions perspectives et conversationnelles 2x2, et par considérant "
 "comment divers genres étymologiques et sémantiques se transforment en "

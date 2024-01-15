@@ -17,6 +17,11 @@ def book_line_display(book, line):
         }]}
 
 
+@register.inclusion_tag('tags/word_categorization_card.html')
+def word_categorization_card(wc: str):
+    return {"wc": wc}
+
+
 @register.inclusion_tag('tags/word_btn.html')
 def word_btn(value: str):
     return {"word": value}

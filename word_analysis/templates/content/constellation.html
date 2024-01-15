@@ -4,7 +4,11 @@
     ({% trans "Example" %})
 </h4>
 {% book_line_display "ti" 578 %}
-<h5>{% trans "Analysis" %}</h5>
+<h5>{% trans "Group Decomposition" %}</h5>
+{% for wc in word_categorizations %}
+    {% word_categorization_card wc %}
+{% endfor %}
+
 <table class="table table-bordered table-striped">
     <thead>
     <tr>
