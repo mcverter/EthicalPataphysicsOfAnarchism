@@ -1,0 +1,10 @@
+{% load i18n %}
+<div class="border-black border-top border-bottom">
+    <nav class=" navbar navbar-expand-sm navbar-light bg-light justify-content-end mb-20">
+        <ul class="navbar-nav align-items-baseline">
+            {% for item in nav_items %}
+                {% nav_bar_link item %}
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

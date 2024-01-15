@@ -4,8 +4,19 @@ from constants import ABBREV_TO_FULL_TITLE_MAP
 from word_analysis.hardcoded.all_genres_data import all_genres_to_words
 from word_analysis.hardcoded.sentences.get_sentence import get_sentence
 from word_analysis.hardcoded.constellation_example_data import constellation_example_data
+from word_analysis.hardcoded.site_nav_data import nav_items
 
 register = template.Library()
+
+
+@register.inclusion_tag('nav/nav_bar.html')
+def nav_bar():
+    return {"nav_items": nav_items}
+
+
+@register.inclusion_tag('nav/nav_bar_link.html')
+def nav_bar_link(item):
+    return {"item": item}
 
 
 @register.inclusion_tag('tags/book_lines.html')
