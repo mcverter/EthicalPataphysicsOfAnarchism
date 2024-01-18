@@ -13,8 +13,8 @@ urlpatterns = [
     re_path("^words|mots/(?P<prefix>.*)/$", word_list, name="words"),
     re_path("^mot/(?P<word>.*)/$", word_detail, name="word"),
     re_path("^word/(?P<word>.*)/$", word_detail, name="word"),
-    re_path(r"^genres|genres$", genre_list, name="genre_list"),
-    re_path("^genre|genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
+    re_path(r"^genres$", genre_list, name="genre_list"),
+    re_path("^genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
 
     # Composite Pages
     re_path(r"^relations$", composite_page, {"name": "relations"}),
