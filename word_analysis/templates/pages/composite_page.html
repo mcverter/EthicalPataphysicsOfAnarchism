@@ -1,0 +1,6 @@
+{% extends "base_page.html" %}
+{% block content %}
+    {% for accordion in accordions %}
+        {% content_accordion accordion %}
+    {% endfor %}
+{% endblock %}

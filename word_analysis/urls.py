@@ -1,31 +1,30 @@
 from django.urls import re_path
 
 from .views import debug_test, word_detail, word_list, technical, summary, relations, \
-    genre_list, genre_detail, content_page
+    genre_list, genre_detail, content_page, composite_page
 
-'''
-zzzzzt
-debug_test.html         genre_list_page.html  relations_page.html  technical_page.html            word_detail_page.html
-genre_detail_page.html    summary_page.html    content_page.html  word_list_page.html
-
-
-  
-addition.html 
-  
-'''
 urlpatterns = [
+    # Index
+    re_path(r"^$", summary, name="summary"),
+    re_path(r"^summary|resume$", summary, name="summary"),
+
+    # List and Detail Views
     re_path(r"^words|mots$", word_list, name="words"),
     re_path("^words|mots/(?P<prefix>.*)/$", word_list, name="words"),
     re_path("^word|mot/(?P<word>.*)/$", word_detail, name="word"),
     re_path(r"^genres|genres$", genre_list, name="genre_list"),
     re_path("^genre|genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
 
-    re_path(r"^$", summary, name="summary"),
+    # Composite Pages
+    re_path(r"^relations$", composite_page, {"name": "relations"}),
+    re_path(r"^math$", composite_page, {"name": "mathematics"}),
+
+    # Content Pages
     re_path("^abstract$", content_page, {"name": "abstract"}),
     re_path("^addition$", content_page, {"name": "addition"}),
     re_path("^combination$", content_page, {"name": "combination"}),
     re_path("^constellation$", content_page, {"name": "constellation"}),
-    re_path("^(curvature|courbure)$", content_page, {"name": "constellation"}),
+    re_path("^(curvature|courbure)$", content_page, {"name": "curvature"}),
     re_path("^(deux|duality|two)$", content_page, name="duality"),
     re_path("^euclid$", content_page, {"name": "euclid"}),
     re_path("^flat$", content_page, {"name": "flat"}),
@@ -50,9 +49,18 @@ urlpatterns = [
     re_path("^perspectivism$", content_page, name="perspectivism"),
 
     # TODO: move these to BCP
-    re_path(r"^relations$", relations, name="relations"),
-    re_path(r"^summary|resume$", summary, name="summary"),
     re_path(r"^technical|technique$", technical, name="technical"),
 
     re_path(r"^debug_test$", debug_test, name="debug_test"),
 ]
+
+'''
+zzzzzt
+debug_test.html         genre_list_page.html  relations_page.html  technical_page.html            word_detail_page.html
+genre_detail_page.html    summary_page.html    content_page.html  word_list_page.html
+
+
+
+addition.html 
+
+'''

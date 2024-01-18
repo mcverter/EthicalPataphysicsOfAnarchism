@@ -9,6 +9,11 @@ from word_analysis.hardcoded.site_nav_data import nav_items
 register = template.Library()
 
 
+@register.inclusion_tag('tags/content_accordion.html')
+def content_accordion(accordion):
+    return {"accordion": accordion}
+
+
 @register.inclusion_tag('nav/nav_bar.html')
 def nav_bar():
     return {"nav_items": nav_items}

@@ -4,7 +4,16 @@ from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
+from .hardcoded.site_nav_data import nav_items
 from .models import Word
+
+
+def composite_page(request, name):
+    named_item = next(item for item in nav_items if item["route"] == name)
+    accordions = named_item["subitems"]
+    return render(request, 'pages/composite_page.html', {
+        "accordions": accordions
+    })
 
 
 def genre_detail(request, genre):
@@ -64,7 +73,7 @@ def word_detail(request, word):
 
 
 def content_page(request, name):
-    print('content',name)
+    print('content', name)
     return render(request, 'pages/content_page.html', {'content': name})
 
 
