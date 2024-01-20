@@ -1,9 +1,13 @@
 {% extends "base_page.html" %}
 {% block content %}
-    {% content_card "duality" %}
-    {% content_card "combination" %}
-    {% content_card "parallelism" %}
-    {% content_card "intersection" %}
-    {% content_card "flat" %}
-    {% content_card "two_dimensional" %}
+    {% content_accordion "genre_set_intro" %}
+    {% content_accordion "duality" %}
+    {% content_accordion "combination" %}
+    {% content_accordion "repetition" %}
+    {% content_accordion "opposition" %}
+    {% content_accordion "intersection" %}
+    {% content_accordion "parallelism" %}
+    {% content_accordion "flat" %}
+    {% content_accordion "two_dimensional" %}
+    {% content_accordion "Constellation" %}
 {% endblock %}

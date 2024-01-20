@@ -11958,9 +11958,15 @@ div.card {
 }
 div.card div.card {
   margin: 1rem 0.5rem;
-  border: 0.25rem solid plum;
+  border: 0.25rem solid #2C0B0E;
   padding: 0.5rem;
   background-color: #FFF3CD;
+}
+div.card div.card div.card {
+  margin: 1rem 0.5rem;
+  border: 0.25rem solid plum;
+  padding: 0.5rem;
+  background-color: #D2F4EA;
 }
 
 .bilingual :first-child a {
