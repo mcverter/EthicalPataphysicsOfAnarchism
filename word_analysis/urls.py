@@ -1,12 +1,16 @@
 from django.urls import re_path
 
 from .views import debug_test, word_detail, word_list, technical, summary, relations, \
-    genre_list, genre_detail, content_page, composite_page
+    genre_list, genre_detail, content_page
 
 urlpatterns = [
     # Index
     re_path(r"^$", summary, name="summary"),
+    # Top-Level Pages
     re_path(r"^summary|resume$", summary, name="summary"),
+    re_path(r"^relations$", relations, name="relations"),
+    re_path(r"^technical|technique$", technical, name="technical"),
+    re_path(r"^debug_test$", debug_test, name="debug_test"),
 
     # List and Detail Views
     re_path(r"^words|mots$", word_list, name="words"),
@@ -15,10 +19,6 @@ urlpatterns = [
     re_path("^word/(?P<word>.*)/$", word_detail, name="word"),
     re_path(r"^genres$", genre_list, name="genre_list"),
     re_path("^genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
-
-    # Composite Pages
-    re_path(r"^relations$", composite_page, {"name": "relations"}),
-    re_path(r"^math$", composite_page, {"name": "mathematics"}),
 
     # Content Pages
     re_path("^abstract$", content_page, {"name": "abstract"}),
@@ -50,9 +50,6 @@ urlpatterns = [
     re_path("^perspectivism$", content_page, name="perspectivism"),
 
     # TODO: move these to BCP
-    re_path(r"^technical|technique$", technical, name="technical"),
-
-    re_path(r"^debug_test$", debug_test, name="debug_test"),
 ]
 
 '''

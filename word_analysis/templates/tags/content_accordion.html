@@ -1,21 +1,21 @@
-<div id="accordion-{{ accordion.route }}" class="accordion">
+<div id="accordion-{{ route }}" class="accordion">
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button
                     class="accordion-button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapse-{{ accordion.route }}"
+                    data-bs-target="#collapse-{{ route }}"
             >
-                {{ accordion.title }}
+                {{ title }}
             </button>
         </h2>
         <div
-                id="collapse-{{ accordion.route }}"
+                id="collapse-{{ route }}"
                 class="accordion-collapse collapse"
-                data-bs-parent="#accordion-{{ accordion.route }}"
+                data-bs-parent="#accordion-{{ route }}"
         >
             <div class="accordion-body">
-                {% content_card accordion.route %}
+                {% content_card route %}
             </div>
         </div>
     </div>
