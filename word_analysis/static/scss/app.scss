@@ -95,9 +95,18 @@ button.nav-link {
   font-size: 125%;
 }
 
-div.groupe-thematique > div.card {
-  background-color: blue;
-  color: whitesmoke;
+div.card {
+  margin: 1rem 0.5rem;
+  border: 0.25rem solid #664D03;
+  padding: 0.5rem;
+  background-color: hsl(261, 52%, 98%);
+
+  div.card {
+    margin: 1rem 0.5rem;
+    border: 0.25rem solid plum;
+    padding: 0.5rem;
+    background-color: #FFF3CD;
+  }
 }
 
 .bilingual {
