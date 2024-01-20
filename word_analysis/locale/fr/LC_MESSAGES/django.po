@@ -3,13 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#: .\templates\content\objectivebackup.html:25
-#: .\templates\content\objectivebackup.html:32
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-15 17:35-0500\n"
+"POT-Creation-Date: 2024-01-20 09:00-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,7 +173,7 @@ msgstr ""
 
 #: .\templates\content\combination.html:7
 msgid "MATHEMATICS because the prefix “sur” connotes height"
-msgstr ""
+msgstr "MATHEMATIQUES car le préfixe “sur” évoque la hauteur"
 
 #: .\templates\content\combination.html:10
 msgid "The birth of the son is referred to as a"
@@ -301,7 +299,7 @@ msgid "and others: namely ideas such as"
 msgstr "et d'autres : à savoir des idées telles que"
 
 #: .\templates\content\duality.html:19 .\templates\content\duality.html:21
-#: .\templates\content\objectivebackup.html:6
+#: .\templates\content\objective.html:8 .\templates\content\objective.html:13
 msgid "and"
 msgstr "et"
 
@@ -313,17 +311,17 @@ msgstr "le"
 msgid "also called"
 msgstr "aussi appelé"
 
-#: .\templates\content\duality.html:23
+#: .\templates\content\duality.html:24
 msgid "in French"
 msgstr "en français"
 
-#: .\templates\content\duality.html:24
+#: .\templates\content\duality.html:25
 #: .\templates\pages\genre_list_page.html:12
 #: .\templates\pages\technical_page.html:31
 msgid "or"
 msgstr "ou"
 
-#: .\templates\content\duality.html:25
+#: .\templates\content\duality.html:26
 msgid ""
 "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
 "contradictions, paradoxes, and so on.  It is apparent in his usage of "
@@ -334,7 +332,7 @@ msgstr ""
 "voit dans son utilisation d’oppositions telles que « totalité » et « infini "
 "», « soi » et « autre »."
 
-#: .\templates\content\duality.html:26
+#: .\templates\content\duality.html:27
 msgid ""
 "The nature of this polar relationship is one of the most misunderstood "
 "aspects of Levinas’s writing. It is often dialectics practiced according to "
@@ -347,7 +345,7 @@ msgstr ""
 "la logique de l'ami contre l'ennemi, une lutte à mort. Même Jean-François "
 "Lyotard parle de  « La haine du neutre constamment manifestée par »Lévinas."
 
-#: .\templates\content\duality.html:27
+#: .\templates\content\duality.html:28
 msgid ""
 "This reading of polarity as animosity has had an alarming effect on Levinas "
 "scholarship: a tendency to read his ethical phenomenology as an ethics of "
@@ -370,7 +368,7 @@ msgstr ""
 "négativité du futur. L’usage que fait Cohen de ces termes évoque cependant "
 "une généalogie différente de la morale."
 
-#: .\templates\content\duality.html:28
+#: .\templates\content\duality.html:29
 msgid ""
 "But this is a misreading of polarity. Such an interpretation would figure "
 "negativity as the primary relation between poles. But for Levinas, negation "
@@ -389,18 +387,18 @@ msgstr ""
 "raison, la négation d”une négation n'est ni une tautologie ni une "
 "conséquence directe. réflexion ni une "
 
-#: .\templates\content\duality.html:29
+#: .\templates\content\duality.html:30
 msgid ""
 "Polar relations are always reciprocal relations between two positive poles"
 msgstr ""
 "Les relations polaires sont toujours des relations réciproques entre deux "
 "pôles positifs"
 
-#: .\templates\content\duality.html:30
+#: .\templates\content\duality.html:31
 msgid "AND-relations"
 msgstr "Relations: ET"
 
-#: .\templates\content\duality.html:31
+#: .\templates\content\duality.html:32
 msgid ""
 "Levinas relates terms through the conjunction “and”. Gilles Deleuze and "
 "Felix Guattari explain the meaning of this word in their explanation of the "
@@ -410,7 +408,7 @@ msgstr ""
 "Félix Guattari expliquent le sens de cette mot dans leur explication du "
 "rhizome"
 
-#: .\templates\content\duality.html:32
+#: .\templates\content\duality.html:34
 msgid ""
 "A rhizome has no beginning or end; it is always in the middle, between "
 "things, interbeing, intermezzo. The tree is filiation, but the rhizome is "
@@ -434,11 +432,11 @@ msgstr ""
 "conception du voyage et du mouvement (conception méthodique, pédagogique, "
 "initiatique, symbolique...)"
 
-#: .\templates\content\duality.html:33
+#: .\templates\content\duality.html:35
 msgid "Deleuze takes this from Jean Wahl"
 msgstr "Deleuze prend cela de Jean Wahl"
 
-#: .\templates\content\duality.html:34
+#: .\templates\content\duality.html:37
 msgid ""
 "32.“And” has an especially important role in English literature, as a "
 "function not only of the Old Testament but also of the “minorities” at work "
@@ -463,11 +461,11 @@ msgstr ""
 "Wahl contiennent de profondes réflexions sur ce sens du « et », sur dans la "
 "manière dont il remet en question la primauté du verbe « être ». "
 
-#: .\templates\content\duality.html:36
+#: .\templates\content\duality.html:40
 msgid "2 >1"
 msgstr ""
 
-#: .\templates\content\duality.html:37
+#: .\templates\content\duality.html:41
 msgid ""
 "The importance of duality should be understood in light of the misunderstood "
 "slogan “ethics is first philosophy.”     Rather than urging us to embrace "
@@ -484,7 +482,7 @@ msgstr ""
 "fête est l’autre, qui est aussi une singularité, mais placée en position de "
 "juxtapostion ou de proximité ou de sérialité"
 
-#: .\templates\content\duality.html:38
+#: .\templates\content\duality.html:42
 msgid ""
 "The ontological predication Ethics is First Philosophy should be read "
 "alongside Levinas’s usage of numeration.  Numeration in Levinas does not "
@@ -508,7 +506,7 @@ msgstr ""
 "Le principe archē est déjà perturbé par l’anarchie de ces nombreuses "
 "relations"
 
-#: .\templates\content\duality.html:39
+#: .\templates\content\duality.html:43
 msgid ""
 "Within Totality and Infinity, Levinas expresses this logic of polarity most "
 "clearly through metaphors of gender"
@@ -516,7 +514,7 @@ msgstr ""
 "Dans Totalité et Infini, Levinas exprime très clairement cette logique de "
 "polarité à travers des métaphores de genre"
 
-#: .\templates\content\duality.html:40
+#: .\templates\content\duality.html:44
 msgid ""
 "I would in fact suggest that Levinas not only gives this polarity a gender "
 "but gives this gendered Feminine a proper name, a biblical name. It is not "
@@ -530,7 +528,7 @@ msgstr ""
 "Judaïsme et le Féminin » comme Miriam ou Tamar ou Léa (DF 31), mais c'est "
 "peut-être le nom le plus fréquemment utilisé dans la Bible"
 
-#: .\templates\content\duality.html:41
+#: .\templates\content\duality.html:45
 msgid ""
 "It should be noted that the number two has special significance in Judaism. "
 "Books of Talmud always open on the second page. The first book of creation, "
@@ -547,7 +545,7 @@ msgstr ""
 "locative « à l’intérieur ». Le prénom féminin le plus populaire dans la "
 "Bible est en fait « Beth » comme dans « Bethléem »"
 
-#: .\templates\content\duality.html:42
+#: .\templates\content\duality.html:46
 msgid ""
 "There are multiple reasons why it is useful to express the Feminine as being "
 "named “Beth.” In Hebrew,“Beth” signifies not only a proper name, but also "
@@ -579,7 +577,7 @@ msgstr ""
 "» et « Bethlehem. Encore une fois, le premier mot de la Torah, בְּרֵאשִׁית, "
 "abrite le principal רֹאשׁ au sein du בַּיִת"
 
-#: .\templates\content\duality.html:43
+#: .\templates\content\duality.html:47
 msgid ""
 "There is something almost Pythagorean in his thought, in the sense that "
 "numbers are not used merely for counting, but themselves describe certain "
@@ -592,7 +590,7 @@ msgstr ""
 "étude supplémentaire, mais nous pouvons commencer à expliquer ses chiffres "
 "ici"
 
-#: .\templates\content\duality.html:44
+#: .\templates\content\duality.html:48
 msgid ""
 "In addition to these various linguistic meanings, בּ also has a mathematical "
 "signification: Because Hebrew uses letters to represent numbers, בּ also "
@@ -621,7 +619,7 @@ msgstr ""
 "pluriel est donné à un nombre. Seule l’unité est ontologiquement "
 "privilégiée. Plusieurs est, mais en synthèse n’est plus » (TI 274)"
 
-#: .\templates\content\duality.html:45
+#: .\templates\content\duality.html:49
 msgid ""
 "Before I produce this woman before you, let me begin by suggesting that, in "
 "his early work, Levinas states that “all philosophy is perhaps a meditation "
@@ -661,25 +659,25 @@ msgstr ""
 "fils de Donald, mais dans ce cas il semblerait que ce personnage familier "
 "soit le fils d'une femme nommée « Beth »"
 
-#: .\templates\content\duality.html:46
+#: .\templates\content\duality.html:51
 msgid "Mac Beatha meaning “son of life”"
 msgstr "Mac Beatha signifiant « fils de la vie »"
 
-#: .\templates\content\duality.html:47
+#: .\templates\content\duality.html:52
 msgid "0 before 1"
 msgstr "0 avant 1"
 
-#: .\templates\content\duality.html:48
+#: .\templates\content\duality.html:53
 msgid "Levinas’s primary innovaton in Otherwise than Being is to focus on how"
 msgstr ""
 "La principale innovation de Levinas dans Autrement qu'être est de se "
 "concentrer sur la manière dont l’"
 
-#: .\templates\content\duality.html:49
+#: .\templates\content\duality.html:54
 msgid "anarchy"
 msgstr "anarchie"
 
-#: .\templates\content\duality.html:49
+#: .\templates\content\duality.html:54
 msgid ""
 "precedes subjectvity. The relationship explored is between 0 and 1, not "
 "between 1 and 2"
@@ -769,133 +767,676 @@ msgstr ""
 "appartient à MATHEMATICS et GENÈSE. On peut observer un mouvement parallèle "
 "le long de ces vecteurs métaphoriques"
 
-#: .\templates\content\objective.html:2
-#: .\templates\content\objectivebackup.html:2
+#: .\templates\content\objective.html:4
 msgid "Objective"
 msgstr "L'objectif"
 
-#: .\templates\content\objective.html:4
+#: .\templates\content\objective.html:6
 msgid ""
 "To map the relations within and between multiple dimensions of Levinas's "
 "metaphorical terminology, both within and between his two major texts"
 msgstr ""
-" Cartographier les relations au sein et entre les multiples dimensions de Levinas "
-"terminologie métaphorique, à la fois à l'intérieur et entre ses deux textes majeurs"
+" Cartographier les relations au sein et entre les multiples dimensions de "
+"Levinas terminologie métaphorique, à la fois à l'intérieur et entre ses deux "
+"textes majeurs"
 
-#: .\templates\content\objective.html:4
-#: .\templates\content\objectivebackup.html:5
+#: .\templates\content\objective.html:7 .\templates\content\objective.html:61
 msgid "Totality and Infinity"
 msgstr "Totalité et infini"
 
-#: .\templates\content\objective.html:5
-#: .\templates\content\objectivebackup.html:7
-msgid "Otherwise than Being, or Beyond Essence"
-msgstr "Autrement que l'être, ou au-delà de l'essence"
+#: .\templates\content\objective.html:9
+msgid "Otherwise than Being"
+msgstr "Autrement que l'être"
 
-#: .\templates\content\objective.html:6
-#: .\templates\content\objectivebackup.html:16
+#: .\templates\content\objective.html:10
 msgid ""
-"Too much secondary literature describes a one-dimensional understanding of "
-"these dynamics, a line connecting two antagonistic poles, Levinas contra "
-"Hegel, ontology contra ethics, totality contra infinity, paternity contra "
-"maternity, and so on.  The tendency to reduce Levinas's  the predicative, "
-"ontological slogan 'Ethics is first philosohy' "
+"We will do so by sorting the words in Levinas's texts into Genre Sets (GS) "
+"which correspond to the thematics that he explores in his work such as "
+"GENESIS and GEOMETRY/ MATHEMATICS.  When we do so, we can better notice "
+"that, throughout his texts, the words contained in these Genre Sets "
+"transform in characteristic patterns"
 msgstr ""
-"Trop de littérature secondaire décrit une compréhension unidimensionnelle de"
-"cette dynamique, une ligne reliant deux pôles antagonistes, Levinas contra"
-"Hegel, ontologie contre l'éthique, totalité contre l'infini, paternité contre"
-"maternité, etc. La tendance à réduire le prédicatif de Levinas, "
-"slogan ontologique 'L'éthique est la première philosophie'"
+"Nous le ferons en triant les mots des textes de Levinas en Genre Sets "
+"(GS)qui correspondent aux thématiques qu'il explore dans son travail telles "
+"queGENÈSE et GÉOMÉTRIE/MATHEMATIQUES. Quand nous le faisons, nous pouvons "
+"mieux remarquerque, tout au long de ses textes, les mots contenus dans ces "
+"Genrestransformer selon des modèles caractéristiques"
 
-#: .\templates\content\objective.html:11
-#: .\templates\content\objectivebackup.html:19
+#: .\templates\content\objective.html:12
+msgid "Discussion"
+msgstr "Discussion"
+
+#: .\templates\content\objective.html:13
 msgid ""
-"Many of the techniques and concepts applied from the various subfields of "
-"mathemamatics, in particularr using exploring the rmeaning of curvature and "
-"particularly non-Euclidean geometry and graph theory, as well as meditations "
-"on numbers, zero, and infinity,  from prehistoric times, and relativity "
-"phhysics, waves to think about  ."
+"Two examples of such patterns are parallelism and intersection. Words from "
+"different Genre Sets often transform in parallel. For example, Levinas "
+"coordinates {'positive', 'negative'} and {'birth', 'death'}, members the GSes"
 msgstr ""
+"Deux exemples de tels modèles sont le parallélisme et l'intersection. Mots "
+"de Différents Genre Sets se transforment souvent en parallèle. Par exemple, "
+"Levinas coordonnées {'positif', 'négatif'} et {'naissance', 'décès'}, "
+"membres des GS"
+
+#: .\templates\content\objective.html:13
+msgid ""
+"such that the words 'positive' and 'birth' occur similarly and the words "
+"'negative' and 'death' occur similarly."
+msgstr ""
+"de telle sorte que les mots « positif » et « naissance » apparaissent de la "
+"même manière et que les mots« négatif » et « mort» se produisent de la même "
+"manière."
 
 #: .\templates\content\objective.html:14
-#, fuzzy
-#| msgid ""
-#| "To map the relations within and between multiple dimensions of "
-#| "topological manifolds that describe the thematic tensor transformations "
-#| "within and between various Genre Sets (GS). Relations will be traced by "
-#| "detemining a flat projections, doubles and by 2x2 perspecitval and "
-#| "conversational conversions, and by considering how various etymological "
-#| "and semantic genres are transformed into various word forms"
+msgid ""
+"Genre Sets also can intersect in single words: for example, the word "
+"'survivant' expresses a combination of the theme of height from"
+msgstr ""
+"Les ensembles de genres peuvent également se croiser en des mots simples : "
+"par exemple, le mot 'survivant' exprime une combinaison du thème de la "
+"hauteur de"
+
+#: .\templates\content\objective.html:14
+msgid "and combines it with the theme of living from"
+msgstr "et le combine avec le thème de vivre de"
+
+#: .\templates\content\objective.html:15
+msgid ""
+"We can summarize our these examples of parallelism and combination among "
+"Genre Sets  as follows:"
+msgstr ""
+"Nous pouvons résumer nos exemples de parallélisme et de combinaison entre "
+"Les genres sont définis comme suite:"
+
+#: .\templates\content\objective.html:16
+msgid ""
+"Levinas considers birth to be a positivity, the “plus one” of the Good, that "
+"establishes the height of a living substantive subject."
+msgstr ""
+" Levinas considère la naissance comme une positivité, le « plus un » du "
+"Bien, qui établit la hauteur d'un sujet substantiel vivant."
+
+#: .\templates\content\objective.html:17
+msgid ""
+"Most importantly, each important thematic in Levinas's text is paired with a "
+"polar opposite -- height with depth, maternity with paternity, and so on. "
+"How does polarity function in Levinas's text? Too much secondary literature "
+"expresses a one-dimensional understanding of these dynamics, a line "
+"connecting two antagonistic poles: ontology contra ethics, totality contra "
+"infinity, paternity contra maternity. Such antagonistic analyses often lead "
+"to bellicose declarations, such as Jean-François Lyotard's description of "
+"“the hatred of the neutral constantly evinced by Levinas” or the unrelenting "
+"violence of RA Cohen who murderously declares that “Levinas cannot live with "
+"either Hegel or Derrida” and so on. "
+msgstr ""
+"Plus important encore, chaque thématique importante du texte de Levinas est "
+"associée à un l'opposé polaire -- la hauteur avec la profondeur, la "
+"maternité avec la paternité, et ainsi de suite.Comment fonctionne la "
+"polarité dans le texte de Levinas ? Trop de littérature secondaireexprime "
+"une compréhension unidimensionnelle de ces dynamiques, une ligne reliant "
+"deux pôles antagonistes : ontologie contre éthique, totalité contre "
+"l'infini, la paternité contre la maternité. De telles analyses antagonistes "
+"conduisent souventaux déclarations belliqueuses, comme la description de "
+"Jean-François Lyotard de“la haine du neutre constamment manifestée par "
+"Levinas” ou l'implacableviolence de RA Cohen qui déclare de manière "
+"meurtrière que “Levinas ne peut pas vivre avecsoit Hegel, soit Derrida” et "
+"ainsi de suite. "
+
+#: .\templates\content\objective.html:18
+msgid ""
+"This misunderstanding of polar opposition also affects many earnest attempts "
+"to understand Levinas as well. For example, a myriad of papers and books "
+"have either supported or defended the idea that Levinas privileges the "
+"masculine over the feminine or that he intially priviledges the paternal and "
+"then privileges the maternal, or some other such argument that asserts "
+"Levinas promotes one pole of a given opposition to the detriment of the "
+"other pole."
+msgstr ""
+"Cette incompréhension de l'opposition polaire affecte également de "
+"nombreuses tentatives sérieusespour comprendre Levinas aussi. Par exemple, "
+"une myriade d'articles et de livresont soit soutenu, soit défendu l'idée "
+"selon laquelle Levinas privilégie le masculin sur le féminin ou qu'il "
+"privilégie dans un premier temps le paternel etprivilégie alors l'argument "
+"maternel, ou tout autre argument similaire qui affirme  Levinas promeut un "
+"pôle d'une opposition donnée au détriment du autre pôle."
+
+#: .\templates\content\objective.html:19
+msgid ""
+"However, such a reading of polarity in Levinas as hatred or murder or "
+"privilege mistakenly introduces the idea of rank into opposition. But the "
+"idea of rank is precisely what Levinas challenges in his Preface to Totality "
+"and Infinity, arguing against both Heraclitus's Fragment 53 that declares "
+"Being and knowledge emerge as war, a struggle that determines the ranking of "
+"beings into masters and slaves, as well as Nietzsche's adaptation of "
+"Heraclitus in his refutatoin of morality with a Will to Power which derives "
+"initially from the “pathos of distance” that ranks the strong against the "
+"weak."
+msgstr ""
+"Cependant, une telle lecture de la polarité chez Levinas comme la haine ou "
+"le meurtre ou Le privilège introduit à tort l'idée de rang en opposition. "
+"Mais le l'idée de rang est précisément ce que Lévinas conteste dans sa "
+"Préface à la Totalitéet Infinity, argumentant contre le Fragment 53 "
+"d'Héraclite qui déclareL'être et le savoir émergent comme une guerre, une "
+"lutte qui détermine le classement des des êtres en maîtres et en esclaves, "
+"ainsi que l'adaptation de Nietzsche de Héraclite dans sa réfutation de la "
+"moralité avec une volonté de puissance qui en dérived'abord du “pathos de la "
+"distance” qui oppose le fort au faible."
+
+#: .\templates\content\objective.html:20
+msgid ""
+"We disavow any reading of Levinas that operates according to a logic of rank "
+"and domination or which construes his work as a series of attacks."
+msgstr ""
+"Nous désavouons toute lecture de Levinas qui s'opère selon une logique de "
+"ranget de domination ou qui construit son œuvre comme une série d'attaques."
+
+#: .\templates\content\objective.html:21
+msgid ""
+"That said, we must express our sympathy for those who read Levinas in this "
+"manner because he himself seems to employ heirarchical metaphors within "
+"Totality and Infinity, most promiently the metaphor of “height” (a member of "
+msgstr ""
+"Cela dit, nous devons exprimer notre sympathie à ceux qui lisent Levinas "
+"dans ce de manière parce qu'il semble lui-même employer des métaphores "
+"hiérarchiques à l'intérieurTotalité et Infini, la métaphore de la "
+"“hauteur” (membre de "
+
+#: .\templates\content\objective.html:21
+msgid ") and the metaphor of “first” (a member of "
+msgstr ") et la métaphore de “premier” (un membre de "
+
+#: .\templates\content\objective.html:21
+msgid ""
+"But it is overwhelmingly clear that Levinas's project throughout is to "
+"question the prioirty of unitary being and of first-person subjectivity, "
+"showing how both are disrupted by linear and hyperbolic relations with the "
+"second-person intimate feminine other and the third-person masculine plural "
+"social other. Furthermore, readings that base their interpretations on the "
+"ranking by height overlook the essential clandestine element of depth, a "
+"metaphoric that is seemingly hidden in plain sight within the text of "
+"Totality and Infinity "
+msgstr ""
+"Mais il est extrêmement clair que le projet de Levinas est de remettre en "
+"question la priorité de l'être unitaire et de la subjectivité à la première "
+"personne,montrant comment les deux sont perturbés par des relations "
+"linéaires et hyperboliques avec le à la deuxième personne du féminin intime "
+"autre et à la troisième personne du masculin pluriell'autre social. De plus, "
+"des lectures qui fondent leurs interprétations sur le Le classement par "
+"hauteur néglige l'élément clandestin essentiel de la profondeur, un "
+"métaphorique qui est apparemment cachée à la vue de tous dans le texte "
+"deTotalité et Infini"
+
+#: .\templates\content\objective.html:22
+msgid ""
+"Here it is useful to notice that Levinas explicitly expresses his "
+"overturning of this heirarchy, his subversion of the motif of height within "
+"<em>Otherwise than Being.</em> He cites Jean Wahl:"
+msgstr ""
+"Ici, il est utile de remarquer que Levinas exprime explicitement son "
+"renversement de cette hiérarchie, sa subversion du motif de la hauteur "
+"intérieure<em>Autrement que l'Être.</em> Il cite Jean Wahl :"
+
+#: .\templates\content\objective.html:23
+msgid ""
+"There is something to be said, Novalis wrote, in favor of passivity. It is "
+"significant that one of Novalis’ contemporaries, Maine de Brain, who wished "
+"to be the philosopher of activity, will remain essentially the philosopher "
+"of two passivities, the lower and the higher. But is the lower lower than "
+"the higher?"
+msgstr ""
+"Il y a quelque chose à dire, écrit Novalis, en faveur de la passivité. C'est "
+"significatif qu'un des contemporains de Novalis, Maine de Brain, qui "
+"souhaitait être le philosophe de l'activité, restera essentiellement le "
+"philosophede deux passivités, la plus basse et la plus haute. Mais la plus "
+"basse est-elle inférieure à le plus haut?"
+
+#: .\templates\content\objective.html:24
+msgid ""
+"How then should we understand polar opposites in the work of Levinas? "
+"Perhaps we can first notice that alredy the word “opposite” implies the "
+"establishment of a position in space and time and also an irreducible "
+"positivity. Secondly, we can notice that Levinas's entire phenomenological "
+"project entails a description of how thematic elements transform into their "
+"opposites: from birth to death to rebirth, from self to other to self, from "
+"height to destitution to height."
+msgstr ""
+"Comment alors comprendre les pôles opposés dans l'œuvre de Levinas ?Peut-"
+"être pouvons-nous d'abord remarquer que déjà le mot “opposé” implique le "
+"établissement d'une position dans l'espace et dans le temps et aussi d'un "
+"irréductiblepositivité. Deuxièmement, on peut remarquer que toute la "
+"phénoménologie de Levinas le projet implique une description de la manière "
+"dont les éléments thématiques se transforment en leur opposés : de la "
+"naissance à la mort à la renaissance, de soi à l'autre à soi, de de la "
+"hauteur à la misère jusqu'à la hauteur."
+
+#: .\templates\content\objective.html:25
+msgid ""
+"We can go further in our understanding by employing noticing that Levinas "
+"employs the term “curvature” and “dimension” taken from the non-Euclidean "
+"geometry of Bernard Reimann and others. Levinas describes several dimensions "
+"in Totality and Infinity, most notably for our current discussion, the "
+"dimensions of height and depth. "
+msgstr ""
+"On peut aller plus loin dans notre compréhension en remarquant que "
+"Levinasemploie les termes « courbure » et « dimension » tirés du non-"
+"euclidien géométrie de Bernard Reimann et autres. Levinas décrit plusieurs "
+"dimensions dans Totalité et Infini, notamment pour notre discussion "
+"actuelle, le dimensions de hauteur et de profondeur."
+
+#: .\templates\content\objective.html:27
+msgid ""
+"When we explore the notion of curvature we notice the importance of how, "
+"throughout Totality and Infinity, Levinas is constantly shifting "
+"perspectives in ways that can be described by the tensor transformations "
+"within and between the topological manifolds comprised by various Genre "
+"Sets. Levinas alludes to this perspectivism throughout Totality and Infinity "
+"when he describes metaphysical asymmetry as the impossiblity of direct self-"
+"reflction."
+msgstr ""
+"Lorsque nous explorons la notion de courbure, nous remarquons l'importance "
+"du comment,à travers Totalité et Infini, Levinas est en constante "
+"évolutiondes perspectives d'une manière qui peut être décrite par les "
+"transformations tensoriellesà l'intérieur et entre les variétés topologiques "
+"comprises dans divers genresEnsembles. Levinas fait allusion à ce "
+"perspectivisme à travers Totalité et Infiniquand il décrit l'asymétrie "
+"métaphysique comme l'impossibilité du soi direct-réflexion."
+
+#: .\templates\content\objective.html:29
+msgid ""
+"This polarity is effectuated by the confrontation of two separate points of "
+"gravity and transform the tensors of the terms around them"
+msgstr ""
+"Cette polarité s'effectue par la confrontation de deux points distincts de "
+"la gravité et transformer les tenseurs des termes qui les entourent"
+
+#: .\templates\content\objective.html:30
+msgid ""
+"Two dimensions are in movement through the the relatonship with the opposite "
+"constructs a polar relationship between these which affect the gravity of "
+"terms around it. We can also use this notion of curvature to trace the "
+"transformation of the Genre SEts through the transmutation of metaphors"
+msgstr ""
+"Deux dimensions sont en mouvement par la relation avec l'opposéconstruit une "
+"relation polaire entre ceux-ci qui affecte la gravité determes qui "
+"l'entourent. On peut aussi utiliser cette notion de courbure pour tracer le "
+"transformation des Genre SEts par la transmutation des métaphores"
+
+#: .\templates\content\objective.html:31
+msgid "Let us examine this topic by revisiting the notion of the Genre Set"
+msgstr "Examinons ce sujet en revisitant la notion de Genre Set"
+
+#: .\templates\content\objective.html:31
+msgid ""
+", a genre set that encompasses the words 'birth' and 'death'.  How do these "
+"two words function in the narrative described by Levinas.  The narrative "
+"plotline that circles through Totality and Infinity is one of genesis: the "
+"story of how, after a certain death, out of nothing, someone is born, lives "
+"and then dies, but is resurrected in a new birth.  But this narrative is "
+"laid out as a story of Genesis, borrowing motifs taken from the the Bible "
+"and the Greeks and thus tells a coming-of-age story as a series of steps "
+"that conform to these patriarchal mythologies. This story describes how one "
+"is born into a womblike or infantile elemental state, oceanic and womblike, "
+"then recollects himself as an individual by marrying himself to a woman and "
+"positioning himself in a house, from which he performs the activity of labor "
+"that produces works and wastes, objects that are alienated from him until he "
+"as he ages and deterioirates, drifiging drifts off towards a the "
+"unfathomable not-yet of death. Yet he is saved from death by intercourse "
+"with this same feminine, and becomes the father of a child who is "
+"resurrected as a brother among brothers. "
+msgstr ""
+", un ensemble de genres qui englobe les mots “naissance” et “mort”. Comment "
+"ces Deux mots fonctionnent dans le récit décrit par Levinas. Le "
+"récitl'intrigue qui tourne à travers la Totalité et l'Infini est celle de la "
+"genèse : le l'histoire de comment, après une mort certaine, de rien, "
+"quelqu'un naît, vit puis meurt, mais est ressuscité dans une nouvelle "
+"naissance. Mais ce récit est constitué comme un récit de la Genèse, "
+"empruntant des motifs tirés de la Bibleet les Grecs et raconte ainsi une "
+"histoire de passage à l'âge adulte comme une série d'étapesqui se conforment "
+"à ces mythologies patriarcales. Cette histoire décrit comment on naît dans "
+"un état élémentaire utérin ou infantile, océanique et utérin,puis se "
+"souvient de lui-même en tant qu'individu en se mariant avec une femme etse "
+"positionner dans une maison à partir de laquelle il exerce une activité de "
+"travailqui produit des œuvres et des déchets, des objets qui lui sont "
+"aliénés jusqu'à ce qu'il à mesure qu'il vieillit et se détériore, la dérive "
+"dérive vers un insondable pas encore de mort. Pourtant, il est sauvé de la "
+"mort par les rapports sexuelsavec ce même féminin, et devient père d'un "
+"enfant qui estressuscité comme un frère parmi des frères."
+
+#: .\templates\content\objective.html:32
+msgid ""
+"Several things must be said about this narrative. First, each stage "
+"described in this process entails a certain shift in perspective and "
+"therefore we can observe certain tensor transformations in the metaphors "
+"employs to describe them. That is, Levinas employs the same Genre Sets "
+"throughout all stages of this narrative, but alters the positions of both "
+"poles in a determinate manner."
+msgstr ""
+"Plusieurs choses doivent être dites sur ce récit. D'abord, chaque "
+"étapedécrit dans ce processus implique un certain changement de perspective "
+"eton peut donc observer certaines transformations tensorielles dans les "
+"métaphoresemploie pour les décrire. Autrement dit, Levinas emploie les mêmes "
+"ensembles de genres à toutes les étapes de ce récit, mais modifie les "
+"positions des deuxpôles d'une manière déterminée."
+
+#: .\templates\content\objective.html:33
+msgid ""
+"The purpose of the current project is to enumerate these tensor "
+"transformations"
+msgstr "Le but du projet actuel est d'énumérer ces tenseurstransformations"
+
+#: .\templates\content\objective.html:34
+msgid "We can outline several important transformations"
+msgstr "Nous pouvons décrire plusieurs transformations importantes"
+
+#: .\templates\content\objective.html:35
+msgid ""
+"First, it is important to point out that two of the most important polar "
+"terms, Self and Other, (1) always assume both positions of each pole, and "
+"(2) the configuration and relative polarities of these positions affects the "
+"particular perspective in a two-dimensional manner."
+msgstr ""
+"Tout d'abord, il est important de souligner que deux des polaires les plus "
+"importantesles termes Soi et Autre (1) assument toujours les deux positions "
+"de chaque pôle, et (2) la configuration et les polarités relatives de ces "
+"positions affectent le une perspective particulière de manière "
+"bidimensionnelle."
+
+#: .\templates\content\objective.html:36
+msgid "Let's take these proposals one at a time."
+msgstr "Prenons ces propositions une par une."
+
+#: .\templates\content\objective.html:37
+msgid ""
+"The ambiguity of assuming both positions is a recurrent theme throughout "
+"Levinas's texts. It is perhaps most obvious in Levinas's discussions of his "
+"polar discussions of gender, when he discusses the confusion of the virility "
+"of subjectivity undergoing the voluptousity of eros"
+msgstr ""
+"L'ambiguïté d'assumer les deux positions est un thème récurrent partoutLes "
+"textes de Levinas. C'est peut-être le plus évident dans les discussions de "
+"Levinas sur son des discussions polaires sur le genre, quand il évoque la "
+"confusion de la virilitéde la subjectivité subissant la volupté de l'éros"
+
+#: .\templates\content\objective.html:39
+msgid ""
+"But this gender doubling occurs well before his discussion of Eros. For "
+"example, Levinas introduces the idea of the feminine as welcome, saying:"
+msgstr ""
+"Mais ce dédoublement de genre se produit bien avant sa discussion sur Eros. "
+"CarPar exemple, Levinas introduit l'idée du féminin comme bienvenu en "
+"disant :"
+
+#: .\templates\content\objective.html:41
+msgid ""
+"We can then only assume that the it is the Self who is positioned as the "
+"feminine with respect to the masculine Other sseveral pages later: "
+msgstr ""
+"Nous ne pouvons alors que supposer que c'est le Soi qui se positionne comme "
+"le féminin par rapport au masculin Autres plusieurs pages plus tard : "
+
+#: .\templates\content\objective.html:47
 msgid ""
 "within terminological GGs both within texts and between his Relations will "
 "be traced by detemining a flat projections, doubles and by 2x2 perspecitval "
 "and conversational conversions, and by considering how various etymological "
 "and semantic genres are transformed into various word forms"
 msgstr ""
-"Cartographe les relations au sein et entre les multiples dimensions des "
-"variétés topologiques qui décrivent les transformations tensorielles "
-"thématiques au sein et entre divers ensembles de genres (EG). Les relations "
-"seront tracées en déterminant des projections plates, des doubles et par des "
-"conversions perspectives et conversationnelles 2x2, et par considérant "
-"comment divers genres étymologiques et sémantiques se transforment en "
-"diverses formes de mots"
 
-#: .\templates\content\objectivebackup.html:4
+#: .\templates\content\objective.html:54
+msgid "An introduction to Genre Sets(GS)"
+msgstr "Une introduction aux Ensembles de Genres (ES)"
+
+#: .\templates\content\objective.html:57
+msgid "A simple Genre Set"
+msgstr "Un Ensemble de Genres simple"
+
+#: .\templates\content\objective.html:59
 msgid ""
-"This project seeks to map the relations that obtain between and among a "
-"manifold of dimensions that comprise terminology contained in his two major "
-"works"
+"This project will sort each of the terms in Levinas's texts into a "
+"collection of Genre Sets that correspond to the various thematics that he "
+"subjects to analysis.  In its most general form, a Genre Set (GS) can be "
+"defined as a mapping of a single term to collection of terms.  There are "
+"several rules to assembling this collection."
 msgstr ""
+"Ce projet va trier chacun des termes des textes de Levinas dans un "
+"collection de Genres qui correspondent aux différentes thématiques qu'il "
+"sous réserve d'analyse. Dans sa forme la plus générale, un Genre Set (GS) "
+"peut êtredéfini comme le mappage d'un terme unique à un ensemble de termes. "
+"Il existeplusieurs règles pour constituer cette collection."
 
-#: .\templates\content\objectivebackup.html:22
-#, fuzzy
-#| msgid ""
-#| "To map the relations within and between multiple dimensions of "
-#| "topological manifolds that describe the thematic tensor transformations "
-#| "within and between various Genre Sets (GS). Relations will be traced by "
-#| "detemining a flat projections, doubles and by 2x2 perspecitval and "
-#| "conversational conversions, and by considering how various etymological "
-#| "and semantic genres are transformed into various word forms"
+#: .\templates\content\objective.html:61
+msgid "For example, let's start with a term that appears frequently in"
+msgstr "Par exemple, commençons par un terme qui apparaît fréquemment dans"
+
+#: .\templates\content\objective.html:61
+msgid "Height"
+msgstr "Hauteur"
+
+#: .\templates\content\objective.html:62
 msgid ""
-"within terminological GSes both within texts and between his Relations will "
-"be traced by detemining a flat projections, doubles and by 2x2 perspecitval "
-"and conversational conversions, and by considering how various etymological "
-"and semantic genres are transformed into various word forms"
+"For now we don't have any members for the Genre Set of HEIGHT except for "
+"itself so we can represent it as follows:"
 msgstr ""
-"Cartographe les relations au sein et entre les multiples dimensions des "
-"variétés topologiques qui décrivent les transformations tensorielles "
-"thématiques au sein et entre divers ensembles de genres (EG). Les relations "
-"seront tracées en déterminant des projections plates, des doubles et par des "
-"conversions perspectives et conversationnelles 2x2, et par considérant "
-"comment divers genres étymologiques et sémantiques se transforment en "
-"diverses formes de mots"
+"Pour l'instant, nous n'avons aucun membre pour le genre HEIGHT, à "
+"l'exception de lui-même donc nous pouvons le représenter comme suit :"
 
-#: .\templates\content\objectivebackup.html:26
+#: .\templates\content\objective.html:73
+msgid "Adding synonyms to Genre Sets"
+msgstr "Ajout de synonymes aux ensembles de genres"
+
+#: .\templates\content\objective.html:74
 msgid ""
-"One such example is Levinas's metaphorics of the home.  Levinas figures the "
-"home as idea of place, as 'there"
+"We can add other forms of this word to the GS such as “hauteur” as well as "
+"“haut”. We can add to this set words that are synonymous with HEIGHT, such "
+"as “elevation” and phrases such as 'the most high'.  We can also include "
+"other terms that relate somehow to the effectuation of height, such as "
+"standing, 'se tenir'"
 msgstr ""
-"Un tel exemple est la métaphore de Levinas sur la maison. Levinas représente le "
-"la maison comme idée de lieu, comme 'là-bas'"
+"On peut ajouter d'autres formes de ce mot au GS comme “hauteur” ainsi que « "
+"haut ». On peut ajouter à cet ensemble des mots synonymes de HAUTEUR, tels "
+"que  comme « élévation » et des expressions telles que « le plus haut ». "
+"Nous pouvons également inclure d'autres termes qui se rapportent d'une "
+"manière ou d'une autre à l'effectuation de la hauteur, tels que debout, 'se "
+"tenir'"
 
-#: .\templates\content\objectivebackup.html:28
-msgid "Thematic genres become related to each other in various ways"
-msgstr "Les genres thématiques sont liés les uns aux autres de diverses manières"
+#: .\templates\content\objective.html:87
+msgid "Adding morphemically similar terms to Genre Sets"
+msgstr "Ajout de termes morphémiquement similaires aux ensembles de genres"
 
-#: .\templates\content\objectivebackup.html:31
+#: .\templates\content\objective.html:88
 msgid ""
-"First of all, they can intersect in a single word, as in the term "
-"'survivant' which appends the prefix 'sur' to the word 'vivant', thereby "
-"linking the genre of HAUTEUR with the genre of VIVRE, of height with not "
-"just with the 'living' in the infinitive form but as a male substantive, a "
-"virile subjectivity that stands up erect."
+"We are can also include into this set words that are related to HEIGHT "
+"through common etymological roots, or which use the the theme of height in "
+"their suffix, prefix or elsewhere in their morphology.  For example, we can "
+"add words that include the morpheme “sur” in this set such as “surgir”, "
+"“surplus” and “surmonte” -- as well as “surface”, “survivant”, and "
+"“resurrection”"
 msgstr ""
-"Tout d'abord, ils peuvent se croiser en un seul mot, comme dans le terme "
-"'survivant' qui ajoute le préfixe 'sur' au mot 'vivant', ainsi "
-"liant le genre du HAUTEUR au genre du VIVRE, de la hauteur au non"
-"juste avec le 'vivant' à la forme infinitive mais comme substantif masculin, un "
-" une subjectivité virile qui se tient debout."
+"Nous pouvons également inclure dans cet ensemble des mots liés à la TAILLEà "
+"travers des racines étymologiques communes, ou qui reprennent le thème de la "
+"hauteur dans  leur suffixe, préfixe ou ailleurs dans leur morphologie. Par "
+"exemple, on peut ajouter des mots qui incluent le morphème “sur” dans cet "
+"ensemble comme “surgir”, “surplus” et “surmonte” -- ainsi que “surface”, "
+"“survivant” et “résurrection”"
 
+#: .\templates\content\objective.html:107
+msgid "Combinations of Genre Sets: Intersections "
+msgstr "Combinaisons d'ensembles de genres : intersections "
+
+#: .\templates\content\objective.html:108
+msgid ""
+"Each of the above terms signifies an intersection that effectuates a "
+"combination between HEIGHT and other GSes"
+msgstr ""
+"Chacun des termes ci-dessus signifie une intersection qui effectue un "
+"combinaison entre HEIGHT et d'autres GS"
+
+#: .\templates\content\objective.html:142
+msgid "Homologous Genre Sets and Parallel Transport"
+msgstr "Ensembles de genres homologues et transport parallèle"
+
+#: .\templates\content\objective.html:144
+msgid ""
+"How do these intersected sets relate to each other? In many ways. Such sets "
+"are often homologous to each other. Thus they often appear in constellated "
+"in similar sentences to each other -- for example a sentence about the "
+"“positivity” can also be understood as a sentence about the 'survivor,' the "
+"living being who manifests in a dimension of height."
+msgstr ""
+"Comment ces ensembles croisés sont-ils liés les uns aux autres ? À bien des "
+"égards. De tels ensembles sont souvent homologues les uns des autres. Ils "
+"apparaissent donc souvent sous forme de constellationsdans des phrases "
+"similaires les unes aux autres -- par exemple une phrase sur le « positivité "
+"» peut également être comprise comme une phrase sur le « survivant », leêtre "
+"vivant qui se manifeste dans une dimension de hauteur."
+
+#: .\templates\content\objective.html:145
+msgid ""
+"These homologous sets transport metaphors in directions parallel to each "
+"other. By parallel transport, we mean to indicate that recurrent thematics "
+"such as “height” are always paired with polar opposites such as depth. We "
+"can thus pair these with expand our sets to include negative values"
+msgstr ""
+"Ces ensembles homologues transportent des métaphores dans des directions "
+"parallèles à chacuneautre. Par transport parallèle, nous entendons indiquer "
+"que des thématiques récurrentestels que la“ hauteur ”sont toujours associés "
+"à des pôles opposés tels que la profondeur. Nous peut ainsi les associer à "
+"élargir nos ensembles pour inclure des valeurs négatives"
+
+#: .\templates\content\objective.html:175
+msgid ""
+"We might also want to expand other sets to include polar opposite values"
+msgstr ""
+"Nous pourrions également vouloir étendre d'autres ensembles pour inclure des "
+"valeurs polaires opposées"
+
+#: .\templates\content\objective.html:203
+msgid "The MATHÉMATIQUES Genre Set"
+msgstr "L'ensemble des genres MATHÉMATIQUES"
+
+#: .\templates\content\objective.html:205
+msgid ""
+"In fact, we would argue that the we might consider creating a new set to "
+"connote the union of the polar opposites, HEIGHT and DEPTH. Let's call this "
+"provisional GS “VERTICAL”. But then we notice right away that the “vertical” "
+"can be opposed to the “horizontal”, a word that connotes the "
+"phenomenological concept of the horizon as the plane upon which a something "
+"given as a manifestation can be understood. Furthermore, all themes can be "
+"encompassed in the another provisional GS, DIMENSION. To this GS we can also "
+"add the Cartesian dimension of measure, extension."
+msgstr ""
+"En fait, nous dirions que nous pourrions envisager de créer un nouvel "
+"ensemble pourconnote l'union des pôles opposés, HAUTEUR et PROFONDEUR. "
+"Appelons celaGS provisoire “VERTICAL”. Mais alors on remarque tout de suite "
+"que le “vertical”  peut être opposé à « l’horizontal », mot qui connote le "
+"concept phénoménologique de l'horizon comme plan sur lequel quelque "
+"chosedonné comme manifestation peut être compris. De plus, tous les thèmes "
+"peuvent être englobé dans l'autre GS provisoire, DIMENSION. A cette GS nous "
+"pouvons aussi ajoutez la dimension cartésienne de la mesure, de l'extension."
+
+#: .\templates\content\objective.html:206
+msgid ""
+"What would the word “dimension” have meant for Levinas? Two of Levinas's "
+"primary intellectual influences, Henri Bergson and Edmund Husserl, were both "
+"mathematicians and philosophers, whose early thinking had been shaped by "
+"considerations of the idea of a manifold taken from the non-Euclidean "
+"analytic geometry of Bernhard Reimann. Additionally, Levinas would most "
+"likely have read books such as Leon Brunschvicg's 1912 book Les etapes de la "
+"philosophie mathematique that whose final chapters are “Le probleme des "
+"dimensions”and “La position du probleme non euclidien”. "
+msgstr ""
+"Qu'aurait signifié le mot “dimension” pour Levinas ? Deux des Les "
+"principales influences intellectuelles, Henri Bergson et Edmund Husserl, "
+"étaient tous deuxdes mathématiciens et des philosophes dont les premières "
+"réflexions ont été façonnées parconsidérations sur l'idée de variété tirées "
+"du non-euclidiengéométrie analytique de Bernhard Reimann. De plus, "
+"Levinasont probablement lu des livres tels que le livre de Léon Brunschvicg "
+"de 1912, <em>Les étapes de la philosophie mathématique</em> dont les "
+"derniers chapitres sont “Le problème des dimensions” et “La position du "
+"problème non euclidien”. "
+
+#: .\templates\content\objective.html:207
+msgid ""
+"Levinas's knowledge of non-euclidean geometry is exposed most prominently in "
+"his usage of the word “curvature”, a term whose provenance is the non-"
+"Euclidean geometry of Reimann, Gauss, and others; and by extension in the "
+"theories of spacetime articulated by Albert Einstein's theories of general "
+"and special relativity. "
+msgstr ""
+"Les connaissances de Levinas en matière de géométrie non euclidienne sont "
+"exposées de manière plus visible dansson utilisation du mot “courbure”, un "
+"terme dont la provenance est le non-Géométrie euclidienne de Reimann, Gauss "
+"et autres ; et par extension dans le les théories de l'espace-temps "
+"articulées par Albert Einstein"
+
+#: .\templates\content\objective.html:208
+msgid ""
+"Let us consider a sentence from Totality and Infinity against one from "
+"Einstein's 1914 paper <em>On the Principle of Relativity.</em>"
+msgstr ""
+" Considérons une phrase de Totalité et Infini contre une phrase de L'article "
+"d'Einstein <em>Sur le principe de relativité</em>"
+
+#: .\templates\content\objective.html:210
+msgid ""
+"According to this theory, light rays suffer a curvature in a gravitational "
+"field"
+msgstr ""
+"Selon cette théorie, les rayons lumineux subissent une courbure gravitationnelle"
+"champ"
+
+#: .\templates\content\objective.html:214
+msgid ""
+"On first glance, it may seem like Levinas is saying that Levinas is saying "
+"that the Height of the Other is the cause of curvature. But that is because "
+"we are reading too quickly and failing to recognize the polar inversion "
+"already located in the phrase: “La dimension de hauteur où se place Autrui”. "
+"The intervening “ou se place” already discusses location and the "
+"establishment of oneself at a particular point in space and in time, in the "
+"refexive self-placement. From “Time and the Other”, we know this self-"
+"positing dynamic as hypostasis, which doubles the me with the self, "
+"spiritual height with material weight, material gravity"
+msgstr ""
+"À première vue, il peut sembler que Levinas dit que Levinas dit que la "
+"Hauteur de l'Autre est la cause de la courbure. Mais c'est parce que nous "
+"lisons trop vite et ne reconnaissons pas l'inversion polairedéjà situé dans "
+"la phrase : « La dimension de hauteur où se place Autrui ». Le « ou se place "
+"» intermédiaire discute déjà de l'emplacement et du établissement de soi en "
+"un point particulier de l'espace et du temps, dans le Le placement de soi "
+"réflexif. Depuis <em>Le Temps et l'Autre</em>, nous connaissons ce soi-"
+"posant la dynamique comme une hypostase, qui dédouble le moi avec le soi,"
+"hauteur spirituelle avec poids matériel, gravité matérielle"
+
+#: .\templates\content\objective.html:215
+msgid ""
+"It should be further noted that Levinas seems to shift his metaphors between "
+"books. Whereas Totaltiy and Infinity treats of the Infinite as a maximal "
+"value, Otherwise than Being instead considers the infinitesimal spaces that "
+"disrupt continuity. Otherwise than Being also emphasizes the notion of "
+"quantum idea of standing waves -- that waves interrupt and intersect "
+"themselves to form stable forms. However, all of these discussions can be "
+"traced back to earlier discussions in Totality and Infinity. and terminology "
+"from topology such as “node”, “knot”, “fold”, “plot”. "
+msgstr ""
+"Il convient en outre de noter que Levinas semble déplacer ses métaphores "
+"entre des livres. Alors que Totaltiy et Infinity traitent l'Infini comme un "
+"maximalvaleur, Autrement que l'Être considère plutôt les espaces "
+"infinitésimaux qui perturber la continuité. Autrement que l'Etre met aussi "
+"l'accent sur la notion de Idée quantique des ondes stationnaires -- que les "
+"ondes s'interrompent et se croisenteux-mêmes pour former des formes stables. "
+"Cependant, toutes ces discussions peuvent être remonte à des discussions "
+"antérieures dans Totalité et Infini. et à la terminologieà partir d'une "
+"topologie telle que “nœud”, “pli”, “tracé”. "
+
+#: .\templates\content\objective.html:216
+msgid ""
+"Given the prevalence of so many terms from various subfields of mathmatics "
+"and physics in Levinas's lexicon, we can therefore expand the GS of "
+"mathematics for now to include"
+msgstr ""
+"Étant donné la prévalence de tant de termes provenant de divers sous-"
+"domaines des mathématiques et la physique dans le lexique de Levinas, on "
+"peut donc élargir le GS de les mathématiques doivent être incluses pour "
+"l'instant"
 
 #: .\templates\content\opposition.html:3
 msgid "Certain dualities are opposed to each other"
@@ -982,9 +1523,9 @@ msgid ""
 "periodically throughout the text,  words in Levinas's text is that they "
 "recur periodically throughout in different contexts."
 msgstr ""
-"La première chose à remarquer dans la terminologie de Levinas, c'est qu'elle est récurrente"
-"Périodiquement tout au long du texte, les mots du texte de Levinas sont qu'ils "
-"se reproduisent périodiquement dans différents contextes."
+"La première chose à remarquer dans la terminologie de Levinas, c'est qu'elle "
+"est récurrentePériodiquement tout au long du texte, les mots du texte de "
+"Levinas sont qu'ils se reproduisent périodiquement dans différents contextes."
 
 #: .\templates\content\repetition.html:8
 msgid ""
@@ -994,11 +1535,12 @@ msgid ""
 "as can be noticed by the recurrence of the same word in different "
 "orientations to describe different ethical-phenomenological events"
 msgstr ""
-"Reconnaître le perspectivisme de Levinas constitue une clé pour comprendre"
-"scénario qui anime Totalité et Infini. Chaque section du livre peut "
-"être compris comme une perspective décalée sur le devenir d'un moment temporel,"
-"comme on peut le remarquer par la récurrence du même mot dans différents "
-"des orientations pour décrire différents événements éthiques-phénoménologiques"
+"Reconnaître le perspectivisme de Levinas constitue une clé pour "
+"comprendrescénario qui anime Totalité et Infini. Chaque section du livre "
+"peut être compris comme une perspective décalée sur le devenir d'un moment "
+"temporel,comme on peut le remarquer par la récurrence du même mot dans "
+"différents des orientations pour décrire différents événements éthiques-"
+"phénoménologiques"
 
 #: .\templates\content\repetition.html:12
 msgid "The relationship to the element"
@@ -1296,17 +1838,17 @@ msgstr "Préfixes"
 #: .\templates\includes\summary\membership.html:25
 #: .\templates\pages\genre_list_page.html:48
 msgid "Suffixes"
-msgstr ""
+msgstr "Suffixes"
 
 #: .\templates\includes\summary\membership.html:28
 #: .\templates\pages\genre_list_page.html:53
 msgid "Parts of speech"
-msgstr "Suffixes"
+msgstr "Parties du discours"
 
 #: .\templates\includes\summary\membership.html:31
 #: .\templates\pages\genre_list_page.html:37
 msgid "Semantic themes"
-msgstr ""
+msgstr "Thèmes sémantiques"
 
 #: .\templates\includes\summary\membership.html:33
 msgid ""
@@ -1486,7 +2028,7 @@ msgstr ""
 
 #: .\templates\pages\word_detail_page.html:4
 msgid "Information for"
-msgstr ""
+msgstr "Des informations sur"
 
 #: .\templates\pages\word_detail_page.html:6
 msgid "for"
@@ -1498,17 +2040,15 @@ msgstr "Des informations sur"
 
 #: .\templates\pages\word_detail_page.html:20
 msgid "TI Lines"
-msgstr ""
+msgstr "Lignes de TI"
 
 #: .\templates\pages\word_detail_page.html:24
 msgid "OTB Lines"
-msgstr ""
+msgstr "Lignes de AE"
 
 #: .\templates\pages\word_detail_page.html:28
-#, fuzzy
-#| msgid "Word Proximity Map"
 msgid "Word Proximities"
-msgstr "Carte de proximité de mots"
+msgstr "Proximité de mots"
 
 #: .\templates\pages\word_list_page.html:9
 #: .\templates\pages\word_list_page.html:10
@@ -1536,6 +2076,74 @@ msgstr "Plus d'information et textes"
 msgid "Information about"
 msgstr "Des informations sur"
 
+#~ msgid "Otherwise than Being, or Beyond Essence"
+#~ msgstr "Autrement que l'être, ou au-delà de l'essence"
+
+#, fuzzy
+#~| msgid "MATHEMATICS"
+#~ msgid "The MATHEMATICS Genre Set"
+#~ msgstr "MATHÉMATIQUES"
+
+#~ msgid ""
+#~ "Too much secondary literature describes a one-dimensional understanding "
+#~ "of these dynamics, a line connecting two antagonistic poles, Levinas "
+#~ "contra Hegel, ontology contra ethics, totality contra infinity, paternity "
+#~ "contra maternity, and so on.  The tendency to reduce Levinas's  the "
+#~ "predicative, ontological slogan 'Ethics is first philosohy' "
+#~ msgstr ""
+#~ "Trop de littérature secondaire décrit une compréhension unidimensionnelle "
+#~ "decette dynamique, une ligne reliant deux pôles antagonistes, Levinas "
+#~ "contraHegel, ontologie contre l'éthique, totalité contre l'infini, "
+#~ "paternité contrematernité, etc. La tendance à réduire le prédicatif de "
+#~ "Levinas, slogan ontologique 'L'éthique est la première philosophie'"
+
+#, fuzzy
+#~| msgid ""
+#~| "To map the relations within and between multiple dimensions of "
+#~| "topological manifolds that describe the thematic tensor transformations "
+#~| "within and between various Genre Sets (GS). Relations will be traced by "
+#~| "detemining a flat projections, doubles and by 2x2 perspecitval and "
+#~| "conversational conversions, and by considering how various etymological "
+#~| "and semantic genres are transformed into various word forms"
+#~ msgid ""
+#~ "within terminological GSes both within texts and between his Relations "
+#~ "will be traced by detemining a flat projections, doubles and by 2x2 "
+#~ "perspecitval and conversational conversions, and by considering how "
+#~ "various etymological and semantic genres are transformed into various "
+#~ "word forms"
+#~ msgstr ""
+#~ "Cartographe les relations au sein et entre les multiples dimensions des "
+#~ "variétés topologiques qui décrivent les transformations tensorielles "
+#~ "thématiques au sein et entre divers ensembles de genres (EG). Les "
+#~ "relations seront tracées en déterminant des projections plates, des "
+#~ "doubles et par des conversions perspectives et conversationnelles 2x2, et "
+#~ "par considérant comment divers genres étymologiques et sémantiques se "
+#~ "transforment en diverses formes de mots"
+
+#~ msgid ""
+#~ "One such example is Levinas's metaphorics of the home.  Levinas figures "
+#~ "the home as idea of place, as 'there"
+#~ msgstr ""
+#~ "Un tel exemple est la métaphore de Levinas sur la maison. Levinas "
+#~ "représente le la maison comme idée de lieu, comme 'là-bas'"
+
+#~ msgid "Thematic genres become related to each other in various ways"
+#~ msgstr ""
+#~ "Les genres thématiques sont liés les uns aux autres de diverses manières"
+
+#~ msgid ""
+#~ "First of all, they can intersect in a single word, as in the term "
+#~ "'survivant' which appends the prefix 'sur' to the word 'vivant', thereby "
+#~ "linking the genre of HAUTEUR with the genre of VIVRE, of height with not "
+#~ "just with the 'living' in the infinitive form but as a male substantive, "
+#~ "a virile subjectivity that stands up erect."
+#~ msgstr ""
+#~ "Tout d'abord, ils peuvent se croiser en un seul mot, comme dans le terme "
+#~ "'survivant' qui ajoute le préfixe 'sur' au mot 'vivant', ainsi liant le "
+#~ "genre du HAUTEUR au genre du VIVRE, de la hauteur au nonjuste avec le "
+#~ "'vivant' à la forme infinitive mais comme substantif masculin, un  une "
+#~ "subjectivité virile qui se tient debout."
+
 #~ msgid "Analysis"
 #~ msgstr "Analyse"
 
@@ -1553,9 +2161,6 @@ msgstr "Des informations sur"
 
 #~ msgid "feminine"
 #~ msgstr "féminine"
-
-#~ msgid "MATHEMATICS"
-#~ msgstr "MATHÉMATIQUES"
 
 #~ msgid "GEOMETRY"
 #~ msgstr "GÉOMÉTRIE"

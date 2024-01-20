@@ -3,12 +3,23 @@
     <div class="card-body">
         <h2 class="card-title">{% trans "Objective" %}</h2>
         <p class="card-text">
-            {% trans "To map the relations within and between multiple dimensions of Levinas's metaphorical terminology, both within and between his two major texts" %}{% trans "Totality and Infinity" %}
-            {% trans "and" %} {% trans "Otherwise than Being, or Beyond Essence" %}.
-            {% trans "We will do so by sorting the words in Levinas's texts into Genre Sets which correspond to the thematics that he explores in his work such as GENESIS and GEOMETRY and MATHEMATICS more broadly.  When we do so, we can better notice that, throughout his texts, words transform in characteristic patterns" %}.
+            {% trans "To map the relations within and between multiple dimensions of Levinas's metaphorical terminology, both within and between his two major texts" %}
+            <cite>{% trans "Totality and Infinity" %}</cite>
+            {% trans "and" %}
+            <cite>{% trans "Otherwise than Being" %}.</cite>
+            {% trans "We will do so by sorting the words in Levinas's texts into Genre Sets (GS) which correspond to the thematics that he explores in his work such as GENESIS and GEOMETRY/ MATHEMATICS.  When we do so, we can better notice that, throughout his texts, the words contained in these Genre Sets transform in characteristic patterns" %}.
         </p>
-        <p class="card-text">{% trans "Two examples of such patterns are parallelism and intersection. Words from different Genre Sets often transform in parallel. For example, Levinas coordinates {'positive', 'negative'} from the MATHEMATICS GS and {'birth', 'death'} from the GENESE GS such that the words 'positive' and 'birth' occur similarly and the words 'negative' and 'death' occur similarly.  Genre Sets also can intersect in single words: for example, the word 'survivant' expresses a combination of the theme of height from GEOMETRY and combines it with the theme of living from GENESE. We can summarize our these examples of parallelism and combination among Genre Sets  as follows:" %}</p>
-        <blockquote>{% trans "Levinas considers birth to be a positivity, the plus one of the Good, that establishes the height of a living substantive subject." %}</blockquote>
+        <h2 class="card-title">{% trans "Discussion" %}</h2>
+        <p class="card-text">{% trans "Two examples of such patterns are parallelism and intersection. Words from different Genre Sets often transform in parallel. For example, Levinas coordinates {'positive', 'negative'} and {'birth', 'death'}, members the GSes" %} {% genre_btn_collapse "MATHÉMATIQUES" %} {% trans "and" %} {% genre_btn_collapse "GENÈSES" %} {% trans "such that the words 'positive' and 'birth' occur similarly and the words 'negative' and 'death' occur similarly." %}</p>
+        <p class="card-text">{% trans "Genre Sets also can intersect in single words: for example, the word 'survivant' expresses a combination of the theme of height from" %} {% genre_btn_collapse "GÉOMÉTRIE" %} {% trans "and combines it with the theme of living from" %} {% genre_btn_collapse "GENÈSES" %}". </p>
+        <p>{% trans "We can summarize our these examples of parallelism and combination among Genre Sets  as follows:" %}</p>
+        <blockquote>{% trans "Levinas considers birth to be a positivity, the “plus one” of the Good, that establishes the height of a living substantive subject." %}</blockquote>
+        <p class="card-text">{% trans "Most importantly, each important thematic in Levinas's text is paired with a polar opposite -- height with depth, maternity with paternity, and so on. How does polarity function in Levinas's text? Too much secondary literature expresses a one-dimensional understanding of these dynamics, a line connecting two antagonistic poles: ontology contra ethics, totality contra infinity, paternity contra maternity. Such antagonistic analyses often lead to bellicose declarations, such as Jean-François Lyotard's description of “the hatred of the neutral constantly evinced by Levinas” or the unrelenting violence of RA Cohen who murderously declares that “Levinas cannot live with either Hegel or Derrida” and so on. " %}</p>
+        <p class="card-text">{% trans "This misunderstanding of polar opposition also affects many earnest attempts to understand Levinas as well. For example, a myriad of papers and books have either supported or defended the idea that Levinas privileges the masculine over the feminine or that he intially priviledges the paternal and then privileges the maternal, or some other such argument that asserts Levinas promotes one pole of a given opposition to the detriment of the other pole." %}</p>
+        <p class="card-text">{% trans "However, such a reading of polarity in Levinas as hatred or murder or privilege mistakenly introduces the idea of rank into opposition. But the idea of rank is precisely what Levinas challenges in his Preface to Totality and Infinity, arguing against both Heraclitus's Fragment 53 that declares Being and knowledge emerge as war, a struggle that determines the ranking of beings into masters and slaves, as well as Nietzsche's adaptation of Heraclitus in his refutatoin of morality with a Will to Power which derives initially from the “pathos of distance” that ranks the strong against the weak." %}</p>
+        <p class="card-text">{% trans "We disavow any reading of Levinas that operates according to a logic of rank and domination or which construes his work as a series of attacks." %}</p>
+        <p class="card-text">{% trans "That said, we must express our sympathy for those who read Levinas in this manner because he himself seems to employ heirarchical metaphors within Totality and Infinity, most promiently the metaphor of “height” (a member of " %} {% genre_btn_collapse "GÉOMÉTRIE" %} {% trans ") and the metaphor of “first” (a member of " %} {% genre_btn_collapse "MATHÉMATIQUES" %}.) {% trans "But it is overwhelmingly clear that Levinas's project throughout is to question the prioirty of unitary being and of first-person subjectivity, showing how both are disrupted by linear and hyperbolic relations with the second-person intimate feminine other and the third-person masculine plural social other. Furthermore, readings that base their interpretations on the ranking by height overlook the essential clandestine element of depth, a metaphoric that is seemingly hidden in plain sight within the text of Totality and Infinity " %}</p>
+        <p class="card-text">{% trans "Here it is useful to notice that Levinas explicitly expresses his overturning of this heirarchy, his subversion of the motif of height within <em>Otherwise than Being.</em> He cites Jean Wahl:" %}</p>
         <blockquote>{% trans "There is something to be said, Novalis wrote, in favor of passivity. It is significant that one of Novalis’ contemporaries, Maine de Brain, who wished to be the philosopher of activity, will remain essentially the philosopher of two passivities, the lower and the higher. But is the lower lower than the higher?" %}</blockquote>
         <p class="card-text">{% trans "How then should we understand polar opposites in the work of Levinas? Perhaps we can first notice that alredy the word “opposite” implies the establishment of a position in space and time and also an irreducible positivity. Secondly, we can notice that Levinas's entire phenomenological project entails a description of how thematic elements transform into their opposites: from birth to death to rebirth, from self to other to self, from height to destitution to height." %}</p>
         <p class="card-text">{% trans "We can go further in our understanding by employing noticing that Levinas employs the term “curvature” and “dimension” taken from the non-Euclidean geometry of Bernard Reimann and others. Levinas describes several dimensions in Totality and Infinity, most notably for our current discussion, the dimensions of height and depth. " %}</p>
@@ -17,8 +28,7 @@
         {% book_line_display "ti" 543 %}
         <p class="card-text">{% trans "This polarity is effectuated by the confrontation of two separate points of gravity and transform the tensors of the terms around them" %}</p>
         <p class="card-text">{% trans "Two dimensions are in movement through the the relatonship with the opposite constructs a polar relationship between these which affect the gravity of terms around it. We can also use this notion of curvature to trace the transformation of the Genre SEts through the transmutation of metaphors" %}</p>
-
-        <p class="card-text">{% trans "Let us examine this topic by revisiting the notion of the Genre Set GENSESE, a genre set that encompasses the words 'birth' and 'death'.  How do these two words function in the narrative described by Levinas.  The narrative plotline that circles through Totality and Infinity is one of genesis: the story of how, after a certain death, out of nothing, someone is born, lives and then dies, but is resurrected in a new birth.  But this narrative is laid out as a story of Genesis, borrowing motifs taken from the the Bible and the Greeks and thus tells a coming-of-age story as a series of steps that conform to these patriarchal mythologies. This story describes how one is born into a womblike or infantile elemental state, oceanic and womblike, then recollects himself as an individual by marrying himself to a woman and positioning himself in a house, from which he performs the activity of labor that produces works and wastes, objects that are alienated from him until he as he ages and deterioirates, drifiging drifts off towards a the unfathomable not-yet of death. Yet he is saved from death by intercourse with this same feminine, and becomes the father of a child who is resurrected as a brother among brothers. " %}</p>
+        <p class="card-text">{% trans "Let us examine this topic by revisiting the notion of the Genre Set" %} {% genre_btn_collapse "GENÈSES" %} {% trans ", a genre set that encompasses the words 'birth' and 'death'.  How do these two words function in the narrative described by Levinas.  The narrative plotline that circles through Totality and Infinity is one of genesis: the story of how, after a certain death, out of nothing, someone is born, lives and then dies, but is resurrected in a new birth.  But this narrative is laid out as a story of Genesis, borrowing motifs taken from the the Bible and the Greeks and thus tells a coming-of-age story as a series of steps that conform to these patriarchal mythologies. This story describes how one is born into a womblike or infantile elemental state, oceanic and womblike, then recollects himself as an individual by marrying himself to a woman and positioning himself in a house, from which he performs the activity of labor that produces works and wastes, objects that are alienated from him until he as he ages and deterioirates, drifiging drifts off towards a the unfathomable not-yet of death. Yet he is saved from death by intercourse with this same feminine, and becomes the father of a child who is resurrected as a brother among brothers. " %}</p>
         <p>{% trans "Several things must be said about this narrative. First, each stage described in this process entails a certain shift in perspective and therefore we can observe certain tensor transformations in the metaphors employs to describe them. That is, Levinas employs the same Genre Sets throughout all stages of this narrative, but alters the positions of both poles in a determinate manner." %} </p>
         <p>{% trans "The purpose of the current project is to enumerate these tensor transformations" %}</p>
         <p>{% trans "We can outline several important transformations" %}</p>
@@ -30,9 +40,11 @@
         {% book_line_display "ti" 2765 %}
         <p>{% trans "We can then only assume that the it is the Self who is positioned as the feminine with respect to the masculine Other sseveral pages later: " %}</p>
         {% book_line_display "ti" 2773 %}
-What we wish to point out here is that the not just a polarity but a
 
-        {% trans "within terminological GGs both within texts and between his Relations will be traced by detemining a flat projections, doubles and by 2x2 perspecitval and conversational conversions, and by considering how various etymological and semantic genres are transformed into various word forms" %}.
+        <p>
+            What we wish to point out here is that the not just a polarity but a
+
+            {% trans "within terminological GGs both within texts and between his Relations will be traced by detemining a flat projections, doubles and by 2x2 perspecitval and conversational conversions, and by considering how various etymological and semantic genres are transformed into various word forms" %}.
         </p>
     </div>
 </div>
@@ -111,7 +123,7 @@ What we wish to point out here is that the not just a polarity but a
                         <a target="_blank" href="/mot/surplus">surplus</a>,
                         <a target="_blank" href="/mot/positive">positive</a>}
                     </code></li>
-                    <li><code>GENESE = {
+                    <li><code>GENÈSES = {
                         <a target="_blank" href="/mot/vivre">vivre</a>,
                         <a target="_blank" href="/mot/vivant">vivant</a>,
                         <a target="_blank" href="/mot/survivant">survivant</a>,
@@ -168,7 +180,7 @@ What we wish to point out here is that the not just a polarity but a
                     <a target="_blank" href="/mot/positive">positive</a>,
                     <a target="_blank" href="/mot/negative">negative</a>,'}
                 </code></li>
-                <li><code>GENESE = {
+                <li><code>GENÈSES = {
                     <a target="_blank" href="/mot/vivre">vivre</a>,
                     <a target="_blank" href="/mot/vivant">vivant</a>,
                     <a target="_blank" href="/mot/survivant">survivant</a>,
@@ -188,14 +200,14 @@ What we wish to point out here is that the not just a polarity but a
         </div>
         <div class="card">
             <div class="card-body">
-                <h3 class="card-title">{% trans "The MATHEMATICS Genre Set" %}</h3>
+                <h3 class="card-title">{% trans "The MATHÉMATIQUES Genre Set" %}</h3>
 
                 <p class="card-text">{% trans "In fact, we would argue that the we might consider creating a new set to connote the union of the polar opposites, HEIGHT and DEPTH. Let's call this provisional GS “VERTICAL”. But then we notice right away that the “vertical” can be opposed to the “horizontal”, a word that connotes the phenomenological concept of the horizon as the plane upon which a something given as a manifestation can be understood. Furthermore, all themes can be encompassed in the another provisional GS, DIMENSION. To this GS we can also add the Cartesian dimension of measure, extension." %}</p>
                 <p class="card-text">{% trans "What would the word “dimension” have meant for Levinas? Two of Levinas's primary intellectual influences, Henri Bergson and Edmund Husserl, were both mathematicians and philosophers, whose early thinking had been shaped by considerations of the idea of a manifold taken from the non-Euclidean analytic geometry of Bernhard Reimann. Additionally, Levinas would most likely have read books such as Leon Brunschvicg's 1912 book Les etapes de la philosophie mathematique that whose final chapters are “Le probleme des dimensions”and “La position du probleme non euclidien”. " %}</p>
                 <p class="card-text">{% trans "Levinas's knowledge of non-euclidean geometry is exposed most prominently in his usage of the word “curvature”, a term whose provenance is the non-Euclidean geometry of Reimann, Gauss, and others; and by extension in the theories of spacetime articulated by Albert Einstein's theories of general and special relativity. " %}</p>
-                <p class="card-text">{% trans "Let us consider a sentence from Totality and Infinity against one from Einstein's paper “On the Principle of Relativity.”" %}</p>
+                <p class="card-text">{% trans "Let us consider a sentence from Totality and Infinity against one from Einstein's 1914 paper <em>On the Principle of Relativity.</em>" %}</p>
                 <blockquote>
-                    According to this theory, light rays suffer a curvature in a gravitational field”
+                    {% trans "According to this theory, light rays suffer a curvature in a gravitational field" %}
                 </blockquote>
                 {% book_line_display "ti" 1179 %}
 
