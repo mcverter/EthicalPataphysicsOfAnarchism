@@ -165,7 +165,6 @@ msgstr "appartient au genre"
 
 #: .\templates\content\combination.html:7
 msgid "because the etymological root is “vivre”. It belongs to the genre"
-msgstr ""
 msgstr "car la racine étymologique est « vivre ». Elle appartient au genre"
 
 #: .\templates\content\combination.html:7
@@ -1194,7 +1193,7 @@ msgstr ""
 "53 qui déclare que l'Etre et la connaissance émergent comme une guerre, une lutte qui "
 "détermine le classement des êtres en maîtres et esclaves, ainsi que"
 "L'adaptation par Nietzsche d'Héraclite dans sa réfutation de la morale avec un "
-"Une volonté de puissance qui découle initialement du "pathos de la distance" qui "
+"Une volonté de puissance qui découle initialement du “pathos de la distance” qui "
 "classe les forts contre les faibles."
 
 #: .\templates\content\objective.html:52
@@ -1241,7 +1240,7 @@ msgid ""
 "<em>Totality and Infinity</em> "
 msgstr ""
 "Mais il est extrêmement clair que le projet de Levinas est de "
-"remettre en question la priorité de l'être unitaire et de la subjectivité à la première personne",
+"remettre en question la priorité de l'être unitaire et de la subjectivité à la première personne,"
 "montrant comment les deux sont perturbés par des relations linéaires et hyperboliques avec le "
 "à la deuxième personne du féminin intime autre et à la troisième personne du masculin pluriel"
 "l'autre social. De plus, des lectures qui fondent leurs interprétations sur le "
@@ -1332,7 +1331,7 @@ msgid ""
 "Infinity</em> when he describes metaphysical asymmetry as the impossiblity "
 "of direct self-reflction."
 msgstr ""
-"Lorsque nous explorons la notion de courbure, nous remarquons l'importance du comment",
+"Lorsque nous explorons la notion de courbure, nous remarquons l'importance du comment,"
 "à travers <em>Totalité et Infini</em>, Levinas est en constante évolution"
 "des perspectives d'une manière qui peut être décrite par les transformations tensorielles"
 "à l'intérieur et entre les variétés topologiques comprises dans divers genres"
@@ -1403,7 +1402,7 @@ msgid ""
 "intercourse with this same feminine, and becomes the father of a child who "
 "is resurrected as a brother among brothers. "
 msgstr ""
-", un ensemble de genres qui englobe les mots "naissance" et "mort". Comment ces "
+", un ensemble de genres qui englobe les mots “naissance” et “mort”. Comment ces "
 "Deux mots fonctionnent dans le récit décrit par Levinas. Le récit"
 "l'intrigue qui traverse <em>la Totalité et l'Infini</em> est l'une des "
 "Genèse : l'histoire de la façon dont, après une mort certaine, à partir de rien, quelqu'un est "
@@ -2231,4 +2230,3 @@ msgstr "Plus d'information et textes"
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur"
-
