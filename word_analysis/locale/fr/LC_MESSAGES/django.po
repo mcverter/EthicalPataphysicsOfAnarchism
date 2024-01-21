@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-21 13:04-0500\n"
+"POT-Creation-Date: 2024-01-21 14:07-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,28 +17,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\hardcoded\site_nav_data.py:5 .\templates\content\abstract.html:12
+#: .\hardcoded\site_nav_data.py:4 .\templates\content\abstract.html:12
 #: .\templates\nav\bootstrap_experiments\nav_item_with_dropdown.html:13
 msgid "Project Summary"
 msgstr "Résumé du projet"
+
+#: .\hardcoded\site_nav_data.py:5
+msgid ""
+"A discussion of the Radical Empiricism Project, in which the advantages of a "
+"multidimensional tensor analysis of metaphorical manifolds is dimensionaland "
+"the errors of unidimensional assertions of rank are critiqued"
+msgstr ""
+"Une discussion sur le projet d'empirisme radical, dans lequel les avantages d'un"
+"L'analyse tensorielle multidimensionnelle des variétés métaphoriques est dimensionnelle et"
+"les erreurs des affirmations unidimensionnelles de rang sont critiquées"
+
 
 #: .\hardcoded\site_nav_data.py:6
 msgid "Theory of Genre Sets"
 msgstr "Théorie des ensembles de genres"
 
-#: .\hardcoded\site_nav_data.py:7 .\templates\content\abstract.html:14
+#: .\hardcoded\site_nav_data.py:7
+msgid ""
+"This page features many discussion: (1) An Introduction to Genre Sets, (2) "
+"An example analysis of a sentence from Totality and Infinity as a "
+"constellation of Genre Sets, (3) Genre Set Membership Rules [suffixes, "
+"prefixes, etymological roots, infinities, other morphemic roots, semantic "
+"themes], (4)Internal and External Relations [duality, combination, "
+"repetition, opposition, intersection], (5) Non-Euclidean Relations "
+"[parallelism, flat, two_dimensional, constellation, curvature ], (5) Other "
+"mathematical and scientific topics [addition, positive, negative, 0, 1, 2, "
+"3, 4, infinity, set theory, continuity and infinitesimals, topology, "
+"Mikowski/Einstein space-time, wave and quantum theory  ] (6) Perspectivism "
+"[perversion, inversion, subversion, reversion] (7) Reading Totality and "
+"Infinity as Genesis and Otherwise than Being as Exodus"
+msgstr ""
+"Cette page présente de nombreuses discussions: (1) Une introduction aux ensembles de genres, (2)"
+"Un exemple d'analyse d'une phrase de Totalité et Infini comme"
+"constellation d'ensembles de genres, (3) Règles d'adhésion aux ensembles de genres [suffixes,"
+"préfixes, racines étymologiques, infinis, autres racines morphémiques, sémantiques"
+"thèmes], (4)Relations internes et externes [dualité, combinaison, "
+"répétition, opposition, intersection], (5) Relations non euclidiennes "
+"[parallélisme, plat, bidimensionnel, constellation, courbure], (5) Autre "
+"sujets mathématiques et scientifiques [addition, positif, négatif, 0, 1, 2, "
+"3, 4, infini, théorie des ensembles, continuité et infinitésimaux, topologie,"
+" Théorie de l'espace-temps, des ondes et des quantiques de Mikowski/Einstein] (6) Perspectivisme "
+"[perversion, inversion, subversion, réversion] (7) Lecture Totalité et "
+"L'infini comme genèse et autrement que l'être comme exode"
+
+
+#: .\hardcoded\site_nav_data.py:8 .\templates\content\abstract.html:14
 msgid "Word list"
 msgstr "Liste de mots"
 
-#: .\hardcoded\site_nav_data.py:8
+#: .\hardcoded\site_nav_data.py:9
+msgid ""
+"A list of all 16000 words in both Totality and Otherwise. Links to "
+"information pages about each word, including definitions and etymologies in "
+"English and French, as well as frequencies and lines from both texts"
+msgstr ""
+"Une liste des 16 000 mots dans Totalité et autrement. Liens vers "
+"des pages d'informations sur chaque mot, y compris les définitions et les étymologies dans "
+"Anglais et français, ainsi que les fréquences et lignes des deux textes"
+
+#: .\hardcoded\site_nav_data.py:10
 msgid "List of Genre Sets"
 msgstr "Liste des ensembles de genres"
 
-#: .\hardcoded\site_nav_data.py:9 .\templates\content\abstract.html:22
+#: .\hardcoded\site_nav_data.py:10
+msgid "A list of Genre Sets."
+msgstr "Une liste de groupes de genres."
+
+#: .\hardcoded\site_nav_data.py:11 .\templates\content\abstract.html:22
 #: .\templates\pages\technical_page.html:4
 #: .\templates\pages\technical_page.html:8
 msgid "Technical notes"
 msgstr "Notes techniques"
+
+#: .\hardcoded\site_nav_data.py:12
+msgid ""
+"Contact information, sources, current project status and future direction"
+msgstr ""
+"Coordonnées, sources, état actuel du projet et orientation future"
 
 #: .\templates\content\abstract.html:2
 msgid "Abstract"
@@ -1786,6 +1846,10 @@ msgstr "La profondeur du silence"
 #: .\templates\content\repetition.html:80
 msgid "The depth of the mythical"
 msgstr "La profondeur du mythique"
+
+#: .\templates\content\site_map_summary.html:4
+msgid "Website Map"
+msgstr "Plan du site Web"
 
 #: .\templates\content\two_dimensional.html:2
 msgid "Two-Dimensional Curvature"
