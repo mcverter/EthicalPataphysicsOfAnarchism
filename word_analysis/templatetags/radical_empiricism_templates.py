@@ -15,6 +15,11 @@ def content_accordion(route):
     return {"route": route, "title": accordion_route_to_title_data[route]}
 
 
+@register.inclusion_tag('nav/site_map_accordion.html')
+def site_map_accordion():
+    return {"nav_items": nav_items}
+
+
 @register.inclusion_tag('nav/nav_bar.html')
 def nav_bar():
     return {"nav_items": nav_items}
