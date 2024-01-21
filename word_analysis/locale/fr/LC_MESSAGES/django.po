@@ -451,10 +451,6 @@ msgstr ""
 "Wahl contiennent de profondes réflexions sur ce sens du « et », sur dans la "
 "manière dont il remet en question la primauté du verbe « être ». "
 
-#: .\templates\content\duality.html:40
-msgid "2 >1"
-msgstr ""
-
 #: .\templates\content\duality.html:41
 msgid ""
 "The importance of duality should be understood in light of the misunderstood "
@@ -1059,7 +1055,7 @@ msgstr "Discussion"
 
 #: .\templates\content\objective.html:18
 msgid "Tensor Transformation Patterns: Parallelism"
-msgstr ""
+msgstr "Modèles de transformation tensorielle: Parallélisme"
 
 #: .\templates\content\objective.html:19
 msgid ""
@@ -1083,7 +1079,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:24
 msgid "Tensor Transformation Patterns: Intersection"
-msgstr ""
+msgstr "Modèles de transformation tensorielle: intersection"
 
 #: .\templates\content\objective.html:25
 msgid ""
@@ -1100,7 +1096,7 @@ msgstr "et le combine avec le thème de vivre de"
 
 #: .\templates\content\objective.html:29
 msgid "Summary of tensor analysis"
-msgstr ""
+msgstr "Résumé de l'analyse tensorielle"
 
 #: .\templates\content\objective.html:30
 msgid ""
@@ -1120,7 +1116,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:35
 msgid "Polar opposition distinguished from war"
-msgstr ""
+msgstr "L'opposition polaire se distingue de la guerre"
 
 #: .\templates\content\objective.html:36
 msgid ""
@@ -1150,7 +1146,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:41
 msgid "Polar opposition distinguished from privilege"
-msgstr ""
+msgstr "L'opposition polaire se distingue du privilège"
 
 #: .\templates\content\objective.html:42
 msgid ""
@@ -1172,7 +1168,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:46
 msgid "Polar opposition distinguished from rank"
-msgstr ""
+msgstr "L'opposition polaire se distingue du rang"
 
 #: .\templates\content\objective.html:47
 msgid ""
@@ -1198,7 +1194,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:52
 msgid "Rank, Domination, and Violence do not belong in Levinas commentary"
-msgstr ""
+msgstr "Le rang, la domination et la violence n'ont pas leur place dans le commentaire de Levinas"
 
 #: .\templates\content\objective.html:53
 msgid ""
@@ -1210,7 +1206,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:58
 msgid "How do we understand Levinas's apparently heirarchical language?"
-msgstr ""
+msgstr "Comment comprenons-nous le langage apparemment hiérarchique de Levinas ?"
 
 #: .\templates\content\objective.html:59
 msgid ""
@@ -1250,7 +1246,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:63
 msgid "Levinas's subversion of heirarchy"
-msgstr ""
+msgstr "La subversion de la hiérarchie par Levinas"
 
 #: .\templates\content\objective.html:64
 msgid ""
@@ -1278,7 +1274,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:69
 msgid "Opposite as polar positive positions"
-msgstr ""
+msgstr "Opposé aux positions polaires positives"
 
 #: .\templates\content\objective.html:70
 msgid ""
@@ -1319,7 +1315,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:80
 msgid "Curvature and asymmetry"
-msgstr ""
+msgstr "Courbure et asymétrie"
 
 #: .\templates\content\objective.html:81
 msgid ""
@@ -1341,7 +1337,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:86
 msgid "Gravitational / Magnetic polarities"
-msgstr ""
+msgstr "Polarités gravitationnelles/magnétiques"
 
 #: .\templates\content\objective.html:87
 msgid ""
@@ -1356,10 +1352,12 @@ msgid ""
 "Levinas expresses this idea in terms of electromagnetics rather than "
 "gravitation in <em>Totality and Infinity</em>"
 msgstr ""
+" Levinas exprime cette idée en termes d'électromagnétique plutôt que "
+"gravitation dans <em>Totalité et Infini</em>"
 
 #: .\templates\content\objective.html:93
 msgid "Tensor bundles of metaphoric transformation"
-msgstr ""
+msgstr "Faisceaux tensoriels de transformation métaphorique"
 
 #: .\templates\content\objective.html:94
 msgid ""
@@ -1377,7 +1375,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:98
 msgid "Metaphoric Transformations of GENÈSES"
-msgstr ""
+msgstr "Transformations métaphoriques de GENÈSES"
 
 #: .\templates\content\objective.html:99
 msgid "Let us examine this topic by revisiting the notion of the Genre Set"
@@ -1441,7 +1439,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:108
 msgid "Tensor bundle enumeration"
-msgstr ""
+msgstr "Énumération du bundle de tenseurs"
 
 #: .\templates\content\objective.html:109
 msgid ""
@@ -1476,7 +1474,7 @@ msgstr "Prenons ces propositions une par une."
 
 #: .\templates\content\objective.html:120
 msgid "Ambiguity and ambisexuality"
-msgstr ""
+msgstr "Ambiguïté et ambisexualité"
 
 #: .\templates\content\objective.html:121
 msgid ""
@@ -1517,7 +1515,7 @@ msgstr ""
 
 #: .\templates\content\objective.html:138
 msgid "Home and Position"
-msgstr ""
+msgstr "Maison et Position"
 
 #: .\templates\content\objective.html:139
 msgid ""
@@ -1528,28 +1526,40 @@ msgid ""
 "establishes subjectivity, sustance, and identity, in the dimension of height "
 "of a posited subject in a definitive position in space-time"
 msgstr ""
+" Que signifie la maison pour Levinas ? Pour Levinas, la maison signifie le "
+"position de toute entité positive, Soi ou Autre. C'est le"
+"«là» dans laquelle se retrouve la subjectivité, une position d'intimité, en contraste"
+"« au « Da » impersonnel ou au « Dasien » de Heidegger. La maison est quoi "
+"établit la subjectivité, la substance et l'identité, dans la dimension de la hauteur"
+"d'un sujet posé dans une position définitive dans l'espace-temps"
 
 #: .\templates\content\objective.html:143
 msgid "The nourishing womb"
-msgstr ""
+msgstr "La matrice nourrissant"
 
 #: .\templates\content\objective.html:144
 msgid ""
 "We can understand this home not only as the place for the adult married man "
 "but also as the womb for the child"
 msgstr ""
+"Nous pouvons comprendre cette maison non seulement comme le lieu réservé à l'homme marié adulte"
+"mais aussi comme ventre pour l'enfant"
 
 #: .\templates\content\objective.html:145
 msgid ""
 "We can understand the element as the oceanic womb that nourishes in "
 "<em>Totality and Infinity</em>"
 msgstr ""
+"Nous pouvons comprendre l'élément comme le ventre océanique qui se nourrit"
+"<em>Totalité et infini</em>"
 
 #: .\templates\content\objective.html:147
 msgid ""
 "We can understand this metaphor of the womb in the for-the-other in "
 "<em>Otherwise than Being</em>"
 msgstr ""
+"On peut comprendre cette métaphore de la matrice dans le pour-l'autre dans "
+"<em>Autrement que l'Être</em>"
 
 #: .\templates\content\objective.html:152
 msgid "Impregnation"
@@ -1581,13 +1591,15 @@ msgstr ""
 
 #: .\templates\content\objective.html:160
 msgid "In Totality and Infinity, he uses this word to characterize the subject"
-msgstr ""
+msgstr "Dans Totalité et Infini, il utilise ce mot pour caractériser le sujet"
 
 #: .\templates\content\objective.html:162
 msgid ""
 "In Otherwise than Being, he uses this word to characterize the subject as "
 "vulnerability"
 msgstr ""
+" Dans Autrement qu'être, il utilise ce mot pour caractériser le sujet comme "
+"vulnérabilité"
 
 #: .\templates\content\objective.html:170
 msgid ""
