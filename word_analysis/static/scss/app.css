@@ -11906,11 +11906,6 @@ h3,
   color: white;
 }
 
-.french {
-  font-family: Verdana, Tahoma, sans-serif;
-  border-bottom: black 1px dotted;
-}
-
 .english {
   font-family: Georgia, Garamond, serif;
   border-top: black 1px dotted;
@@ -11997,6 +11992,11 @@ blockquote {
   width: 80%;
   margin: 1.5rem auto;
   font-size: 125%;
+}
+
+#site-map-summary {
+  background-color: hsl(191, 66%, 98%);
+  border: 10px solid #D1E7DD;
 }
 
 /*# sourceMappingURL=app.css.map */
