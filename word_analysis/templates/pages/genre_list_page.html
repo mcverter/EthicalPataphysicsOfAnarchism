@@ -2,58 +2,73 @@
 {% load i18n %}
 {% block subtitle %}  List of Genre Sets {% endblock %}
 {% block content %}
-    {% trans "For example" %}
-    <ul>
-        <li>{% trans "Suffix" %}: {% trans "In" %}
-            {{ titles.otb.short.english }}
-            {% trans "suffix 'ance' denotes nominalization whereas the infinitive is both nominal and verbal. All words with this suffix belong to ONTOLOGY" %}
-        </li>
-        <li>{% trans "Prefix" %}: {% trans "The prefix 'sur' means above and connotes height. All words that begin with this prefix belong to MATHEMATICS." %} {% trans "For example" %}:
-            <a href="/word/survivor">"survivor"</a> {% trans "or" %} <a href="/word/resurrection">"resurrection"</a>
-    </ul>
-    <div>
-        {% genre_btn_collapse "GÉOMÉTRIE" %} + {% genre_btn_collapse "GENÈSES" %}
-    </div>
     <div class="card">
         <div class="card-body">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">{% trans "Infinitives and Etymological roots" %}</h4>
-                    <p class="card-text">
-                        {% trans "In his 1932 article that introduced Heidegger to the francophone world, Martin Heidegger et l’ontologie, Levinas explains his decision to translate Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take this term in its etymological sense”35" %}
-                    </p>
-                    <p class="card-text">
-                        {% trans "In his later works critical of Heidegger, he will critique the notion of the hand as being the primary mode through which relation with the world is effectuated. Instead, he makes a twofold division.  The primary mode of relation with the world is through the mouth" %}.
-                    </p>
-                    <p class="card-text">
-                        {% trans "He secondary relationhip to the world as exterioirty is explored through the hand in the sense of maintenir, to maintain.  Words with the same infinitive and the same etymological roots belong to the same Thematic Genre" %}
-                    </p>
-                    {% genre_btn_collapse "TENIR" %}
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">{% trans "Semantic themes" %}</h4>
-                <p class="card-text"></div>
+            <h2 class="card-title">{% trans "Introduction" %}</h2>
+            <p class=card-text">{% trans "Below are some of the Genre Sets which I have manually assembled. They will be replaced once I have developed a better way to analyse word morphemes programatically" %}
+                <br>
+                {% trans "Genre sets have been assembled according to morphemic (suffixes, prefixes, etymological roots, etc) and semantic similarites." %}
+                <br>
+                {% trans "For an in depth explanation of these rules for assembling Genre Sets, please read the  <a href='/genre_theory' target='_blank'> Theory of Genre Sets page</a>" %}
+            </p>
         </div>
     </div>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">{% trans "Prefixes" %}</h4>
-            <p class="card-text"></div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "TENIR" %}</div>
     </div>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">{% trans "Suffixes" %}</h4>
-            <p class="card-text"></div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "APPEARANCE" %}</div>
     </div>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">{% trans "Parts of speech" %}</h4>
-            <p class="card-text"></div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "GENÈSES" %}</div>
     </div>
-    {% for genre in genres %}
-        {% genre_btn_collapse genre %}
-    {% endfor %}
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "ORALITY" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "THEATER" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "MATHÉMATIQUES" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "GÉOMÉTRIE" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "PHYSIQUE" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "ONTOLOGIE" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "EPISTEMOLOGIE" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "ETHIQUE" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "PLATON" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "BERGSON" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "HEGEL" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "HUSSERL" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "HEIDEGGER" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "DESCARTES" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "LEIBNIZ" %}</div>
+    </div>
+    <div class="card genre-explanation-card">
+        <div class="card-body">{% genre_btn_collapse "NIETZSCHE" %}</div>
+    </div>
 {% endblock %}
+ 

@@ -1,16 +1,16 @@
 from django.urls import re_path
 
-from .views import debug_test, word_detail, word_list, technical, summary, relations, \
+from .views import debug_test, word_detail, word_list, technical, summary, genre_theory, \
     genre_list, genre_detail, content_page
 
 urlpatterns = [
     # Index
     re_path(r"^$", summary, name="summary"),
+    
     # Top-Level Pages
     re_path(r"^summary|resume$", summary, name="summary"),
-    re_path(r"^relations$", relations, name="relations"),
+    re_path(r"^genre_theory$", genre_theory, name="genre_theory"),
     re_path(r"^technical|technique$", technical, name="technical"),
-    re_path(r"^debug_test$", debug_test, name="debug_test"),
 
     # List and Detail Views
     re_path(r"^words|mots$", word_list, name="words"),
@@ -36,7 +36,6 @@ urlpatterns = [
     re_path("^parallelism$", content_page, {"name": "parallelism"}),
     re_path("^repetition$", content_page, {"name": "repetition"}),
     re_path("^two_dimensional$", content_page, {"name": "two_dimensional"}),
-
     re_path("^definition$", content_page, name="definition"),
     re_path("^etymology$", content_page, name="etymology"),
     re_path("^(un|one)$", content_page, name="un"),
@@ -49,16 +48,6 @@ urlpatterns = [
     re_path("^(quatre|four|square|carre)$", content_page, name="four"),
     re_path("^perspectivism$", content_page, name="perspectivism"),
 
-    # TODO: move these to BCP
+    # Debug Page
+    re_path(r"^debug_test$", debug_test, name="debug_test"),
 ]
-
-'''
-zzzzzt
-debug_test.html         genre_list_page.html  relations_page.html  technical_page.html            word_detail_page.html
-genre_detail_page.html    summary_page.html    content_page.html  word_list_page.html
-
-
-
-addition.html 
-
-'''

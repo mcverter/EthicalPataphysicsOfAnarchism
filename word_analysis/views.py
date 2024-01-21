@@ -7,26 +7,20 @@ from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
 from .models import Word
 
 
-def genre_detail(request, genre):
-    return render(request, 'pages/genre_list_page.html', {
-        "genres": all_genres_to_words,
-        "genre": genre
-    })
+# top level pages
+def genre_theory(request):
+    return render(request, 'pages/genre_theory.html')
 
 
-def genre_list(request):
-    return render(request, 'pages/genre_list_page.html', {
-        "genres": all_genres_to_words(),
-    })
+def summary(request):
+    return render(request, 'pages/summary_page.html')
 
 
-def word_list_by_prefix(request, prefix):
-    context = {
-        "words": all_words_with_counts(),
-    }
-    return render(request, 'pages/word_list_page.html', context)
+def technical(request):
+    return render(request, 'pages/technical_page.html', {"books": ALL_REFERENCE_BOOKS})
 
 
+# list and detail views
 def word_list(request):
     context = {
         "words": all_words_with_counts(),
@@ -63,23 +57,32 @@ def word_detail(request, word):
     return render(request, 'pages/word_detail_page.html', context)
 
 
+def genre_detail(request, genre):
+    return render(request, 'pages/genre_list_page.html', {
+        "genres": all_genres_to_words,
+        "genre": genre
+    })
+
+
+def genre_list(request):
+    return render(request, 'pages/genre_list_page.html', {
+        "genres": all_genres_to_words(),
+    })
+
+
+def word_list_by_prefix(request, prefix):
+    context = {
+        "words": all_words_with_counts(),
+    }
+    return render(request, 'pages/word_list_page.html', context)
+
+
+# to display templates/content as a separate page
 def content_page(request, name):
     print('content', name)
     return render(request, 'pages/content_page.html', {'content': name})
 
 
-# for on-the-fly UI testing
+# for debugging UI
 def debug_test(request):
     return render(request, 'pages/debug_test.html')
-
-
-def relations(request):
-    return render(request, 'pages/relations_page.html')
-
-
-def summary(request):
-    return render(request, 'pages/summary_page.html')
-
-
-def technical(request):
-    return render(request, 'pages/technical_page.html', {"books": ALL_REFERENCE_BOOKS})

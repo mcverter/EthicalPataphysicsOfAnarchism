@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-20 16:12-0500\n"
+"POT-Creation-Date: 2024-01-21 13:04-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\hardcoded\site_nav_data.py:5 .\templates\content\abstract.html:12
+#: .\templates\nav\bootstrap_experiments\nav_item_with_dropdown.html:13
+msgid "Project Summary"
+msgstr "Résumé du projet"
+
+#: .\hardcoded\site_nav_data.py:6
+msgid "Theory of Genre Sets"
+msgstr "Théorie des ensembles de genres"
+
+#: .\hardcoded\site_nav_data.py:7 .\templates\content\abstract.html:14
+msgid "Word list"
+msgstr "Liste de mots"
+
+#: .\hardcoded\site_nav_data.py:8
+msgid "List of Genre Sets"
+msgstr "Liste des ensembles de genres"
+
+#: .\hardcoded\site_nav_data.py:9 .\templates\content\abstract.html:22
+#: .\templates\pages\technical_page.html:4
+#: .\templates\pages\technical_page.html:8
+msgid "Technical notes"
+msgstr "Notes techniques"
 
 #: .\templates\content\abstract.html:2
 msgid "Abstract"
@@ -109,15 +132,6 @@ msgstr ""
 msgid "The site is divided into the following sections:"
 msgstr "Le site est divisé en les sections suivantes"
 
-#: .\templates\content\abstract.html:12
-#: .\templates\nav\bootstrap_experiments\nav_item_with_dropdown.html:13
-msgid "Project Summary"
-msgstr "Résumé du projet"
-
-#: .\templates\content\abstract.html:14
-msgid "Word list"
-msgstr "Liste de mots"
-
 #: .\templates\content\abstract.html:16
 msgid "Genre Sets"
 msgstr "Ensembles De Genres"
@@ -130,12 +144,6 @@ msgstr "Appartenance à un genre"
 #: .\templates\content\abstract.html:20
 msgid "Internal and external relations"
 msgstr "Relations internes et externes"
-
-#: .\templates\content\abstract.html:22
-#: .\templates\pages\technical_page.html:4
-#: .\templates\pages\technical_page.html:8
-msgid "Technical notes"
-msgstr "Notes techniques"
 
 #: .\templates\content\combination.html:2
 msgid "Combinations"
@@ -180,8 +188,8 @@ msgid ""
 "because it again rises (surgir) again (re), thus combining “height” and "
 "“recurrence” from "
 msgstr ""
-" parce qu'il monte à nouveau (surgir) à nouveau (re), combinant ainsi “hauteur” et "
-"“récidive” de "
+" parce qu'il monte à nouveau (surgir) à nouveau (re), combinant ainsi "
+"“hauteur” et “récidive” de "
 
 #: .\templates\content\constellation.html:3
 #: .\templates\tags\constellation_example.html:4
@@ -305,8 +313,7 @@ msgstr "aussi appelé"
 msgid "in French"
 msgstr "en français"
 
-#: .\templates\content\duality.html:25
-#: .\templates\pages\genre_list_page.html:12
+#: .\templates\content\duality.html:25 .\templates\pages\genre_theory.html:11
 #: .\templates\pages\technical_page.html:31
 msgid "or"
 msgstr "ou"
@@ -1182,19 +1189,21 @@ msgid ""
 "Will to Power which derives initially from the “pathos of distance” that "
 "ranks the strong against the weak."
 msgstr ""
-"Cependant, une telle lecture de la polarité chez Levinas comme la haine ou le meurtre ou "
-"Le privilège introduit à tort l'idée de rang en opposition. Mais le "
-"La notion de rang est précisément ce que Lévinas conteste dans sa Préface à "
-"<em>Totalité et Infini</em>, argumentant contre le Fragment d'Héraclite"
-"53 qui déclare que l'Etre et la connaissance émergent comme une guerre, une lutte qui "
-"détermine le classement des êtres en maîtres et esclaves, ainsi que"
-"L'adaptation par Nietzsche d'Héraclite dans sa réfutation de la morale avec un "
-"Une volonté de puissance qui découle initialement du “pathos de la distance” qui "
-"classe les forts contre les faibles."
+"Cependant, une telle lecture de la polarité chez Levinas comme la haine ou "
+"le meurtre ou Le privilège introduit à tort l'idée de rang en opposition. "
+"Mais le La notion de rang est précisément ce que Lévinas conteste dans sa "
+"Préface à <em>Totalité et Infini</em>, argumentant contre le Fragment "
+"d'Héraclite53 qui déclare que l'Etre et la connaissance émergent comme une "
+"guerre, une lutte qui détermine le classement des êtres en maîtres et "
+"esclaves, ainsi queL'adaptation par Nietzsche d'Héraclite dans sa réfutation "
+"de la morale avec un Une volonté de puissance qui découle initialement du "
+"“pathos de la distance” qui classe les forts contre les faibles."
 
 #: .\templates\content\objective.html:52
 msgid "Rank, Domination, and Violence do not belong in Levinas commentary"
-msgstr "Le rang, la domination et la violence n'ont pas leur place dans le commentaire de Levinas"
+msgstr ""
+"Le rang, la domination et la violence n'ont pas leur place dans le "
+"commentaire de Levinas"
 
 #: .\templates\content\objective.html:53
 msgid ""
@@ -1206,7 +1215,8 @@ msgstr ""
 
 #: .\templates\content\objective.html:58
 msgid "How do we understand Levinas's apparently heirarchical language?"
-msgstr "Comment comprenons-nous le langage apparemment hiérarchique de Levinas ?"
+msgstr ""
+"Comment comprenons-nous le langage apparemment hiérarchique de Levinas ?"
 
 #: .\templates\content\objective.html:59
 msgid ""
@@ -1215,10 +1225,10 @@ msgid ""
 "<em>Totality and Infinity</em>, most promiently the metaphor of “height” (a "
 "member of "
 msgstr ""
-"Cela dit, nous devons exprimer notre sympathie à ceux qui lisent Levinas dans ce "
-"de manière parce qu'il semble lui-même employer des métaphores hiérarchiques à l'intérieur"
-"<em>Totalité et infini</em>, la métaphore de la “hauteur” (une "
-"membre de "
+"Cela dit, nous devons exprimer notre sympathie à ceux qui lisent Levinas "
+"dans ce de manière parce qu'il semble lui-même employer des métaphores "
+"hiérarchiques à l'intérieur<em>Totalité et infini</em>, la métaphore de la "
+"“hauteur” (une membre de "
 
 #: .\templates\content\objective.html:59
 msgid ") and the metaphor of “first” (a member of "
@@ -1235,14 +1245,15 @@ msgid ""
 "metaphoric that is seemingly hidden in plain sight within the text of "
 "<em>Totality and Infinity</em> "
 msgstr ""
-"Mais il est extrêmement clair que le projet de Levinas est de "
-"remettre en question la priorité de l'être unitaire et de la subjectivité à la première personne,"
-"montrant comment les deux sont perturbés par des relations linéaires et hyperboliques avec le "
-"à la deuxième personne du féminin intime autre et à la troisième personne du masculin pluriel"
-"l'autre social. De plus, des lectures qui fondent leurs interprétations sur le "
-"Le classement par hauteur néglige l'élément clandestin essentiel de la profondeur, un "
-"métaphorique qui est apparemment cachée à la vue de tous dans le texte de"
-"<em>Totalité et Infini</em> "
+"Mais il est extrêmement clair que le projet de Levinas est de remettre en "
+"question la priorité de l'être unitaire et de la subjectivité à la première "
+"personne,montrant comment les deux sont perturbés par des relations "
+"linéaires et hyperboliques avec le à la deuxième personne du féminin intime "
+"autre et à la troisième personne du masculin pluriell'autre social. De plus, "
+"des lectures qui fondent leurs interprétations sur le Le classement par "
+"hauteur néglige l'élément clandestin essentiel de la profondeur, un "
+"métaphorique qui est apparemment cachée à la vue de tous dans le texte "
+"de<em>Totalité et Infini</em> "
 
 #: .\templates\content\objective.html:63
 msgid "Levinas's subversion of heirarchy"
@@ -1255,8 +1266,8 @@ msgid ""
 "<em>Otherwise than Being</em>. He cites Jean Wahl:"
 msgstr ""
 "Ici, il est utile de remarquer que Levinas exprime explicitement son "
-"renversement de cette hiérarchie, sa subversion du motif de la hauteur intérieure"
-"<em>Autrement que l'Être</em>. Il cite Jean Wahl :"
+"renversement de cette hiérarchie, sa subversion du motif de la hauteur "
+"intérieure<em>Autrement que l'Être</em>. Il cite Jean Wahl :"
 
 #: .\templates\content\objective.html:65
 msgid ""
@@ -1307,11 +1318,11 @@ msgid ""
 "in <em>Totality and Infinity</em>, most notably for our current discussion, "
 "the dimensions of height and depth. "
 msgstr ""
-"On peut aller plus loin dans notre compréhension en remarquant que Levinas"
-"emploie les termes « courbure » et « dimension » tirés du non-euclidien "
-"géométrie de Bernard Reimann et autres. Levinas décrit plusieurs dimensions"
-"dans <em>Totalité et Infini</em>, notamment pour notre discussion actuelle, "
-"les dimensions de hauteur et de profondeur."
+"On peut aller plus loin dans notre compréhension en remarquant que "
+"Levinasemploie les termes « courbure » et « dimension » tirés du non-"
+"euclidien géométrie de Bernard Reimann et autres. Levinas décrit plusieurs "
+"dimensionsdans <em>Totalité et Infini</em>, notamment pour notre discussion "
+"actuelle, les dimensions de hauteur et de profondeur."
 
 #: .\templates\content\objective.html:80
 msgid "Curvature and asymmetry"
@@ -1327,13 +1338,13 @@ msgid ""
 "Infinity</em> when he describes metaphysical asymmetry as the impossiblity "
 "of direct self-reflction."
 msgstr ""
-"Lorsque nous explorons la notion de courbure, nous remarquons l'importance du comment,"
-"à travers <em>Totalité et Infini</em>, Levinas est en constante évolution"
-"des perspectives d'une manière qui peut être décrite par les transformations tensorielles"
-"à l'intérieur et entre les variétés topologiques comprises dans divers genres"
-"Ensembles. Levinas fait allusion à ce perspectivisme à travers <em>Totalité et "
-"Infini</em> quand il décrit l'asymétrie métaphysique comme l'impossibilité"
-"d'auto-réflexion directe."
+"Lorsque nous explorons la notion de courbure, nous remarquons l'importance "
+"du comment,à travers <em>Totalité et Infini</em>, Levinas est en constante "
+"évolutiondes perspectives d'une manière qui peut être décrite par les "
+"transformations tensoriellesà l'intérieur et entre les variétés topologiques "
+"comprises dans divers genresEnsembles. Levinas fait allusion à ce "
+"perspectivisme à travers <em>Totalité et Infini</em> quand il décrit "
+"l'asymétrie métaphysique comme l'impossibilitéd'auto-réflexion directe."
 
 #: .\templates\content\objective.html:86
 msgid "Gravitational / Magnetic polarities"
@@ -1367,9 +1378,9 @@ msgid ""
 "trace the transformation of the Genre Sets through the transmutation of "
 "metaphors"
 msgstr ""
-"Deux dimensions sont en mouvement à travers la relation avec le "
-" l'opposé construit une relation polaire entre ceux-ci qui affectent le "
-"la gravité des termes qui l'entourent. On peut aussi utiliser cette notion de courbure pour "
+"Deux dimensions sont en mouvement à travers la relation avec le  l'opposé "
+"construit une relation polaire entre ceux-ci qui affectent le la gravité des "
+"termes qui l'entourent. On peut aussi utiliser cette notion de courbure pour "
 "retracer la transformation des Genres à travers la transmutation de "
 "métaphores"
 
@@ -1400,22 +1411,23 @@ msgid ""
 "intercourse with this same feminine, and becomes the father of a child who "
 "is resurrected as a brother among brothers. "
 msgstr ""
-", un ensemble de genres qui englobe les mots “naissance” et “mort”. Comment ces "
-"Deux mots fonctionnent dans le récit décrit par Levinas. Le récit"
-"l'intrigue qui traverse <em>la Totalité et l'Infini</em> est l'une des "
-"Genèse : l'histoire de la façon dont, après une mort certaine, à partir de rien, quelqu'un est "
-"naît, vit puis meurt, mais ressuscite dans une nouvelle naissance. Mais ceci"
-"le récit est présenté comme une histoire de la Genèse, empruntant des motifs tirés du "
-"la Bible et les Grecs et raconte ainsi une histoire de passage à l'âge adulte sous la forme d'une série de "
-"des étapes conformes à ces mythologies patriarcales. Cette histoire décrit"
-"comment on naît dans un état élémentaire utérin ou infantile, océanique et"
-"comme un utérus, puis se souvient de lui-même en tant qu'individu en se mariant avec un"
-"femme et se positionnant dans une maison, à partir de laquelle il effectue le "
-"activité de travail qui produit des œuvres et des déchets, des objets aliénés"
-"de lui jusqu'à ce qu'à mesure qu'il vieillit et se détériore, la dérive dérive vers"
-"un insondable pas encore de la mort. Pourtant il est sauvé de la mort par "
-"des rapports sexuels avec ce même féminin, et devient père d'un enfant qui"
-"est ressuscité comme un frère parmi des frères."
+", un ensemble de genres qui englobe les mots “naissance” et “mort”. Comment "
+"ces Deux mots fonctionnent dans le récit décrit par Levinas. Le "
+"récitl'intrigue qui traverse <em>la Totalité et l'Infini</em> est l'une des "
+"Genèse : l'histoire de la façon dont, après une mort certaine, à partir de "
+"rien, quelqu'un est naît, vit puis meurt, mais ressuscite dans une nouvelle "
+"naissance. Mais cecile récit est présenté comme une histoire de la Genèse, "
+"empruntant des motifs tirés du la Bible et les Grecs et raconte ainsi une "
+"histoire de passage à l'âge adulte sous la forme d'une série de des étapes "
+"conformes à ces mythologies patriarcales. Cette histoire décritcomment on "
+"naît dans un état élémentaire utérin ou infantile, océanique etcomme un "
+"utérus, puis se souvient de lui-même en tant qu'individu en se mariant avec "
+"unfemme et se positionnant dans une maison, à partir de laquelle il effectue "
+"le activité de travail qui produit des œuvres et des déchets, des objets "
+"aliénésde lui jusqu'à ce qu'à mesure qu'il vieillit et se détériore, la "
+"dérive dérive versun insondable pas encore de la mort. Pourtant il est sauvé "
+"de la mort par des rapports sexuels avec ce même féminin, et devient père "
+"d'un enfant quiest ressuscité comme un frère parmi des frères."
 
 #: .\templates\content\objective.html:103
 msgid "Perspectival transformations"
@@ -1527,11 +1539,11 @@ msgid ""
 "of a posited subject in a definitive position in space-time"
 msgstr ""
 " Que signifie la maison pour Levinas ? Pour Levinas, la maison signifie le "
-"position de toute entité positive, Soi ou Autre. C'est le"
-"«là» dans laquelle se retrouve la subjectivité, une position d'intimité, en contraste"
-"« au « Da » impersonnel ou au « Dasien » de Heidegger. La maison est quoi "
-"établit la subjectivité, la substance et l'identité, dans la dimension de la hauteur"
-"d'un sujet posé dans une position définitive dans l'espace-temps"
+"position de toute entité positive, Soi ou Autre. C'est le«là» dans laquelle "
+"se retrouve la subjectivité, une position d'intimité, en contraste« au « Da "
+"» impersonnel ou au « Dasien » de Heidegger. La maison est quoi établit la "
+"subjectivité, la substance et l'identité, dans la dimension de la "
+"hauteurd'un sujet posé dans une position définitive dans l'espace-temps"
 
 #: .\templates\content\objective.html:143
 msgid "The nourishing womb"
@@ -1542,16 +1554,16 @@ msgid ""
 "We can understand this home not only as the place for the adult married man "
 "but also as the womb for the child"
 msgstr ""
-"Nous pouvons comprendre cette maison non seulement comme le lieu réservé à l'homme marié adulte"
-"mais aussi comme ventre pour l'enfant"
+"Nous pouvons comprendre cette maison non seulement comme le lieu réservé à "
+"l'homme marié adultemais aussi comme ventre pour l'enfant"
 
 #: .\templates\content\objective.html:145
 msgid ""
 "We can understand the element as the oceanic womb that nourishes in "
 "<em>Totality and Infinity</em>"
 msgstr ""
-"Nous pouvons comprendre l'élément comme le ventre océanique qui se nourrit"
-"<em>Totalité et infini</em>"
+"Nous pouvons comprendre l'élément comme le ventre océanique qui se "
+"nourrit<em>Totalité et infini</em>"
 
 #: .\templates\content\objective.html:147
 msgid ""
@@ -1567,7 +1579,9 @@ msgstr "Imprégnation"
 
 #: .\templates\content\objective.html:153
 msgid "Similarly we can find references to impregnation throughout the text"
-msgstr "De même, nous pouvons trouver des références à l'imprégnation dans tout le texte"
+msgstr ""
+"De même, nous pouvons trouver des références à l'imprégnation dans tout le "
+"texte"
 
 #: .\templates\content\objective.html:157
 msgid "Host and Hostage"
@@ -1578,16 +1592,16 @@ msgid ""
 "We can also use the metaphor of the house to explore some of Levinas's more "
 "hyperbolic language in <em>Otherwise than Being</em>"
 msgstr ""
-"On peut aussi utiliser la métaphore de la maison pour explorer certaines des plus de Levinas"
-"langage hyperbolique en <em>Autrement qu'Être</em>"
+"On peut aussi utiliser la métaphore de la maison pour explorer certaines des "
+"plus de Levinaslangage hyperbolique en <em>Autrement qu'Être</em>"
 
 #: .\templates\content\objective.html:159
 msgid ""
 "In French, the word “host” is contronym, a word that means it opposite.  It "
 "signifies both the person who welcomes and the person who is welcomed"
 msgstr ""
-"En français, le mot « hôte » est un contronyme, un mot qui signifie son contraire."
-"signifie à la fois celui qui accueille et celui qui est accueilli"
+"En français, le mot « hôte » est un contronyme, un mot qui signifie son "
+"contraire.signifie à la fois celui qui accueille et celui qui est accueilli"
 
 #: .\templates\content\objective.html:160
 msgid "In Totality and Infinity, he uses this word to characterize the subject"
@@ -1998,22 +2012,22 @@ msgid "Etymological roots"
 msgstr "Racines étymologiques"
 
 #: .\templates\includes\summary\membership.html:21
-#: .\templates\pages\genre_list_page.html:43
+#: .\templates\pages\genre_theory.html:42
 msgid "Prefixes"
 msgstr "Préfixes"
 
 #: .\templates\includes\summary\membership.html:25
-#: .\templates\pages\genre_list_page.html:48
+#: .\templates\pages\genre_theory.html:47
 msgid "Suffixes"
 msgstr "Suffixes"
 
 #: .\templates\includes\summary\membership.html:28
-#: .\templates\pages\genre_list_page.html:53
+#: .\templates\pages\genre_theory.html:52
 msgid "Parts of speech"
 msgstr "Parties du discours"
 
 #: .\templates\includes\summary\membership.html:31
-#: .\templates\pages\genre_list_page.html:37
+#: .\templates\pages\genre_theory.html:36
 msgid "Semantic themes"
 msgstr "Thèmes sémantiques"
 
@@ -2058,20 +2072,52 @@ msgstr ""
 "Une analyse topologique des variétés métaphoriques dans les textes "
 "d'Emmanuel Levinas"
 
-#: .\templates\pages\genre_list_page.html:5
-#: .\templates\pages\genre_list_page.html:11
+#: .\templates\pages\genre_list_page.html:7
+msgid "Introduction"
+msgstr "Introduction"
+
+#: .\templates\pages\genre_list_page.html:8
+msgid ""
+"Below are some of the Genre Sets which I have manually assembled. They will "
+"be replaced once I have developed a better way to analyse word morphemes "
+"programatically"
+msgstr ""
+"Vous trouverez ci-dessous quelques-uns des ensembles de genres que j'ai "
+"assemblés manuellement. Ils être remplacé une fois que j'aurai développé une "
+"meilleure façon d'analyser les morphèmes des motspar programmation"
+
+#: .\templates\pages\genre_list_page.html:10
+msgid ""
+"Genre sets have been assembled according to morphemic (suffixes, prefixes, "
+"etymological roots, etc) and semantic similarites."
+msgstr ""
+"Les ensembles de genres ont été assemblés selon des morphèmes (suffixes, "
+"préfixes, racines étymologiques, etc.) et similitudes sémantiques."
+
+#: .\templates\pages\genre_list_page.html:12
+msgid ""
+"For an in depth explanation of these rules for assembling Genre Sets, please "
+"read the  <a href='/genre_theory' target='_blank'> Theory of Genre Sets "
+"page</a>"
+msgstr ""
+"Pour une explication détaillée de ces règles d'assemblage des ensembles de "
+"genres, veuillez lisez la <a href='/genre_theory' target='_blank'> théorie "
+"des ensembles de genrespage</a>"
+
+#: .\templates\pages\genre_theory.html:4
+#: .\templates\pages\genre_theory.html:10
 msgid "For example"
 msgstr "Par exemple"
 
-#: .\templates\pages\genre_list_page.html:7
+#: .\templates\pages\genre_theory.html:6
 msgid "Suffix"
 msgstr "Suffixe"
 
-#: .\templates\pages\genre_list_page.html:7
+#: .\templates\pages\genre_theory.html:6
 msgid "In"
 msgstr "En"
 
-#: .\templates\pages\genre_list_page.html:9
+#: .\templates\pages\genre_theory.html:8
 msgid ""
 "suffix 'ance' denotes nominalization whereas the infinitive is both nominal "
 "and verbal. All words with this suffix belong to ONTOLOGY"
@@ -2080,11 +2126,11 @@ msgstr ""
 "fois nominalet verbal. Tous les mots avec ce suffixe appartiennent à "
 "l'ONTOLOGIE"
 
-#: .\templates\pages\genre_list_page.html:11
+#: .\templates\pages\genre_theory.html:10
 msgid "Prefix"
 msgstr "Préfixe"
 
-#: .\templates\pages\genre_list_page.html:11
+#: .\templates\pages\genre_theory.html:10
 msgid ""
 "The prefix 'sur' means above and connotes height. All words that begin with "
 "this prefix belong to MATHEMATICS."
@@ -2092,11 +2138,11 @@ msgstr ""
 "Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
 "commençant par ce préfixe appartient aux MATHÉMATIQUES."
 
-#: .\templates\pages\genre_list_page.html:21
+#: .\templates\pages\genre_theory.html:20
 msgid "Infinitives and Etymological roots"
 msgstr "Infinitifs et racines étymologiques"
 
-#: .\templates\pages\genre_list_page.html:23
+#: .\templates\pages\genre_theory.html:22
 msgid ""
 "In his 1932 article that introduced Heidegger to the francophone world, "
 "Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
@@ -2108,7 +2154,7 @@ msgstr ""
 "traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
 "souhaite “prendrece terme dans son sens étymologique”35"
 
-#: .\templates\pages\genre_list_page.html:26
+#: .\templates\pages\genre_theory.html:25
 msgid ""
 "In his later works critical of Heidegger, he will critique the notion of the "
 "hand as being the primary mode through which relation with the world is "
@@ -2120,7 +2166,7 @@ msgstr ""
 "relation avec le mondeeffectué. Au lieu de cela, il fait une double "
 "division. Le mode principal de la relation avec le monde passe par la bouche"
 
-#: .\templates\pages\genre_list_page.html:29
+#: .\templates\pages\genre_theory.html:28
 msgid ""
 "He secondary relationhip to the world as exterioirty is explored through the "
 "hand in the sense of maintenir, to maintain.  Words with the same infinitive "
