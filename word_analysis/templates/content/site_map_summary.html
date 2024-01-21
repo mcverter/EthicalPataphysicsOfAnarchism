@@ -4,7 +4,7 @@
         <h2 class="card-title">{% trans "Website Map" %}</h2>
         <ul>
             {% for item in nav_items %}
-                <li><a href="/{{ item.route }}">{{ item.title }}</a>: {{ item.explanation }}</li>
+                <li><a href="/{{ item.route }}">{% trans item.title %}</a>: {% trans item.explanation %}</li>
             {% endfor %}
         </ul>
     </div>
