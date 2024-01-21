@@ -4,105 +4,103 @@
 {% block subtitle %}{% trans "Technical notes" %} | {% endblock %}
 {% block content %}
     <div class="card">
-        <div class="card-body">
-            <h2 class="card-title"> {% trans "Technical notes" %}</h2>
+    <div class="card-body">
+        <h2 class="card-title"> {% trans "Technical notes" %}</h2>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">{% trans "Dedication" %}</h4>
-                    <p class="card-text"> {% trans "For" %} Georges Hansel
-                    </p></div>
-            </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{% trans "Dedication" %}</h4>
+                <p class="card-text"> {% trans "For" %} Georges Hansel
+                </p></div>
+        </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">{% trans "Author" %}</h4>
-                    <p class="card-text"> Mitchell Verter
-                    </p></div>
-            </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{% trans "Author" %}</h4>
+                <p class="card-text"> Mitchell Verter
+                </p></div>
+        </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">{% trans "Translator" %}</h4>
-                    <p class="card-text"><a href="translate.google.com" target="_blank"> Google Translate</a>
-                    </p></div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Email </h4>
-                    <div class="d-flex align-center align-self-center mt-20 mb-20">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Email </h4>
+                <div class="d-flex align-center align-self-center mt-20 mb-20">
                         <span>
                             <a href="mailto:vertm098@newschool.edu">mitchell.verter@gmail.com</a>
                         </span>
-                        <span>&nbsp;{% trans 'or' %}&nbsp;</span>
-                        <div class="text-h4">
-                            <a href="mailto:roadrunner@waste.org">
+                    <span>&nbsp;{% trans 'or' %}&nbsp;</span>
+                    <div class="text-h4">
+                        <a href="mailto:roadrunner@waste.org">
                                 <span>
                                 roadrunner@waste.org
                             </span>
-                                <span>
+                            <span>
                                     <img src="{% static "images/roadrunnerAtWaste.jpg" %}" height="25" width="100"/>
                                 </span>
-                            </a>
+                        </a>
 
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title"> Github </h4>
-                    <a href="https://github.com/mcverter/EthicalPataphysicsOfAnarchism">https://github.com/mcverter/EthicalPataphysicsOfAnarchism</a>
-                </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> Github </h4>
+                <a href="https://github.com/mcverter/EthicalPataphysicsOfAnarchism">https://github.com/mcverter/EthicalPataphysicsOfAnarchism</a>
             </div>
+        </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title"> Version </h4>
-                    <p>95 -- January 21, 2024</p>
-                </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> Version </h4>
+                <p>95 -- January 21, 2024</p>
             </div>
+        </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title"> Sources </h4>
-                    <ul class="list-group ml-4">
-                        <li class="list-group-item">Français
-                            <ol>
-                                <li> {{ titles.ti.long.french }}. Livres de Poche, Paris.</li>
-                                <li> {{ titles.otb.long.french }}. Livres de Poche, Paris.</li>
-                            </ol>
-                        </li>
-                        <li class="list-group-item"> English
-                            <ol>
-                                <li> {{ titles.ti.long.english }}, tr. Alphonso Lingis. Duquesne University Press</li>
-                                <li> {{ titles.otb.long.englis }}, tr. Alphonso Lingis. Duquense University Press</li>
-                            </ol>
-                        </li>
-                        <li class="list-group-item"> Diccionaires | Dictionaries
-                            <ul>
-                                <li class="list-group-item" class="list-group-item">Français
-                                    <ul>
-                                        <li><a href="https://www.cnrtl.fr/" target="_blank">Centre National de
-                                            Ressources Textuelles et Lexicales</a></li>
-                                        <li><a href="https://www.larousse.fr/" target="_blank">Larousse</a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="https://www.merriam-webster.com/"
-                                               target="_blank">Merriam-Webster</a></li>
-                                        <li><a href="https://www.etymonline.com/" target="_blank">Etymonline - Online
-                                            Etymology Dictionary</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> Sources </h4>
+                <ul class="list-group ml-4">
+                    <li class="list-group-item">Français
+                        <ol>
+                            <li> {{ titles.ti.long.french }}. Livres de Poche, Paris.</li>
+                            <li> {{ titles.otb.long.french }}. Livres de Poche, Paris.</li>
+                        </ol>
+                    </li>
+                    <li class="list-group-item"> English
+                        <ol>
+                            <li> {{ titles.ti.long.english }}, tr. Alphonso Lingis. Duquesne University Press</li>
+                            <li> {{ titles.otb.long.englis }}, tr. Alphonso Lingis. Duquense University Press</li>
+                        </ol>
+                    </li>
+                    <li class="list-group-item"> Diccionaires | Dictionaries
+                        <ul>
+                            <li class="list-group-item" class="list-group-item">Français
+                                <ul>
+                                    <li><a href="https://www.cnrtl.fr/" target="_blank">Centre National de
+                                        Ressources Textuelles et Lexicales</a></li>
+                                    <li><a href="https://www.larousse.fr/" target="_blank">Larousse</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://www.merriam-webster.com/"
+                                           target="_blank">Merriam-Webster</a></li>
+                                    <li><a href="https://www.etymonline.com/" target="_blank">Etymonline - Online
+                                        Etymology Dictionary</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item"> {% trans "Translations" %}
+                        <ul>
+                            <li><a href="https://translate.google.com"
+                                   target="_blank"> {% trans "Google Translate" %}</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
             <div class="card">
                 <div class="card-body">
