@@ -4,7 +4,7 @@ from constants import ABBREV_TO_FULL_TITLE_MAP
 from word_analysis.hardcoded.all_genres_data import all_genres_to_words
 from word_analysis.hardcoded.sentences.get_sentence import get_sentence
 from word_analysis.hardcoded.constellation_example_data import constellation_example_data
-from word_analysis.hardcoded.site_nav_data import nav_items
+from word_analysis.hardcoded.site_nav_data import nav_items, get_page_title_for_route
 from word_analysis.hardcoded.accordion_data import accordion_route_to_title_data
 
 register = template.Library()
@@ -76,5 +76,5 @@ def bilingual_card(value: str):
 
 
 @register.inclusion_tag('tags/content_card.html')
-def content_card(value: str):
-    return {"component": value}
+def content_card(route: str):
+    return {"route": route, "title": get_page_title_for_route(route)}

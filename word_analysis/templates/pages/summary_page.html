@@ -1,9 +1,9 @@
 {% extends "base_page.html" %}
 {% block content %}
     {% page_toc page_title toc_sections %}
-    {% include "content/objective.html" %}
-    {% include "content/two_dimensional.html" %}
-    {% include "content/perspectivism.html" %}
-    {% include "content/flat.html" %}
-    {% include "content/three.html" %}
+    {% content_card "objective" %}
+    {% content_card "two_dimensional" %}
+    {% content_card "perspectivism" %}
+    {% content_card "flat" %}
+    {% content_card "three" %}
 {% endblock %}

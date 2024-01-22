@@ -1,6 +1,9 @@
-<div class="card  m-3 p-3 border-dark-subtle">
+<a id="{{ route }}"></a>
+<div class="card">
+    <div class="card-header">{{ title }}</div>
     <div class="card-body">
-        {% include 'content/'|add:component|add:'.html' %}
+        <h2 class="card-title">{{ title }}</h2>
+        {% include 'content/'|add:route|add:'.html' %}
     </div>
+    <div class="card-footer">{{ title }}</div>
 </div>
-

@@ -1,155 +1,150 @@
 {% load i18n %}
-<a id="two_dimensional"></a>
-<div class="card">
-    <div class="card-header">{% trans "Two-Dimensional Polar Relations and Two-by-Two Matrices" %} </div>
-    <div class="card-body">
-        <h2 class="card-title">{% trans "Two-Dimensional Polar Relations and Two-by-Two Matrices" %} </h2>
-        <p class="card-text">
-            {% trans "“Welcoming” is a passivity that can be suffered by either the feminine Self or the feminine Other -- and by extension of the “welcomed” guest as either the masculine Other or the masculine Self allows us to observe a two-dimensional analysis, in which a polar position can take be inhabited by either Self or Other." %}
-        </p>
-        <h3 class="card-title">{% trans "Matrices" %}</h3>
-        <p class="card-text">{% trans "We can observe a 2x2 matrix of different perspectives that determine the metaphorical tensors employed in the text" %}</p>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">{% trans "The tensors of the following four terms are parallel to each other" %}</h4>
-                <table class="table table-bordered">
-                    <tr>
-                        <td>{% trans "Person who is welcomed" %}</td>
-                        <td>{% trans "Masculine" %}</td>
-                        <td>{% trans "High" %}</td>
-                        <td>{% trans "Subject" %}</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">{% trans "The tensors of their polar opposite are also parallel to each other" %}</h4>
-                <table class="table table-bordered">
-                    <tr>
-                        <td>{% trans "Person who welcomes" %}</td>
-                        <td>{% trans "Feminine" %}</td>
-                        <td>{% trans "Low" %}</td>
-                        <td>{% trans "Object" %}</td>
+<div class="section-content">
 
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">{% trans "There is a homology between the Genre Sets containing the following polar pairs:" %}</h4>
-                <table class="table table-bordered">
-                    <thead class="thead-dark">
-                    <tr>
-                        <th>{% trans "Positive" %}</th>
-                        <th>{% trans "Negative" %}</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>{% trans "Person who is welcomed" %}</td>
-                        <td>{% trans "Person who welcomes" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "Masculine" %}</td>
-                        <td>{% trans "Feminine" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "High" %}</td>
-                        <td>{% trans "Low" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "Subject" %}</td>
-                        <td>{% trans "Object" %}</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">We can construct the following matrices</h4>
-                <h5>{% trans "Welcome Matrix" %}</h5>
-                <table class="table table-striped table-bordered">
-                    <thead class="thead-dark">
-                    <tr>
-                        <th>{% trans "Position of Self" %}</th>
-                        <th>{% trans "Position of Other" %}</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>{% trans "Person who is welcomed" %}</td>
-                        <td>{% trans "Person who welcomes" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "Person who welcomes" %}</td>
-                        <td>{% trans "Person who is welcomed" %}</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <h5>{% trans "Gender Matrix" %}</h5>
-                <table class="table table-striped table-bordered">
-                    <thead class="thead-dark">
-                    <tr>
-                        <th>{% trans "Position of Self" %}</th>
-                        <th>{% trans "Position of Other" %}</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>{% trans "Feminine" %}</td>
-                        <td>{% trans "Masculine" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "Masculine" %}</td>
-                        <td>{% trans "Feminine" %}</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <h5>{% trans "Height Matrix" %}</h5>
-                <table class="table table-striped table-bordered">
-                    <thead class="thead-dark">
-                    <tr>
-                        <th>{% trans "Position of Self" %}</th>
-                        <th>{% trans "Position of Other" %}</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>{% trans "Low" %}</td>
-                        <td>{% trans "High" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "High" %}</td>
-                        <td>{% trans "Low" %}</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <h5>{% trans "Logical Position Matrix" %}</h5>
-                <table class="table table-striped table-bordered">
-                    <thead class="thead-dark">
-                    <tr>
-                        <th>{% trans "Position of Self" %}</th>
-                        <th>{% trans "Position of Other" %}</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>{% trans "Subject" %}</td>
-                        <td>{% trans "Object" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% trans "Object" %}</td>
-                        <td>{% trans "Subject" %}</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
+    <p class="card-text">
+        {% trans "“Welcoming” is a passivity that can be suffered by either the feminine Self or the feminine Other -- and by extension of the “welcomed” guest as either the masculine Other or the masculine Self allows us to observe a two-dimensional analysis, in which a polar position can take be inhabited by either Self or Other." %}
+    </p>
+    <h3 class="card-title">{% trans "Matrices" %}</h3>
+    <p class="card-text">{% trans "We can observe a 2x2 matrix of different perspectives that determine the metaphorical tensors employed in the text" %}</p>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{% trans "The tensors of the following four terms are parallel to each other" %}</h4>
+            <table class="table table-bordered">
+                <tr>
+                    <td>{% trans "Person who is welcomed" %}</td>
+                    <td>{% trans "Masculine" %}</td>
+                    <td>{% trans "High" %}</td>
+                    <td>{% trans "Subject" %}</td>
+                </tr>
+            </table>
         </div>
     </div>
-    <div class="card-footer">{% trans "Two-Dimensional Polar Relations and Two-by-Two Matrices" %} </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{% trans "The tensors of their polar opposite are also parallel to each other" %}</h4>
+            <table class="table table-bordered">
+                <tr>
+                    <td>{% trans "Person who welcomes" %}</td>
+                    <td>{% trans "Feminine" %}</td>
+                    <td>{% trans "Low" %}</td>
+                    <td>{% trans "Object" %}</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{% trans "There is a homology between the Genre Sets containing the following polar pairs:" %}</h4>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>{% trans "Positive" %}</th>
+                    <th>{% trans "Negative" %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{% trans "Person who is welcomed" %}</td>
+                    <td>{% trans "Person who welcomes" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "Masculine" %}</td>
+                    <td>{% trans "Feminine" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "High" %}</td>
+                    <td>{% trans "Low" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "Subject" %}</td>
+                    <td>{% trans "Object" %}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">We can construct the following matrices</h4>
+            <h5>{% trans "Welcome Matrix" %}</h5>
+            <table class="table table-striped table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>{% trans "Position of Self" %}</th>
+                    <th>{% trans "Position of Other" %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{% trans "Person who is welcomed" %}</td>
+                    <td>{% trans "Person who welcomes" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "Person who welcomes" %}</td>
+                    <td>{% trans "Person who is welcomed" %}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>{% trans "Gender Matrix" %}</h5>
+            <table class="table table-striped table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>{% trans "Position of Self" %}</th>
+                    <th>{% trans "Position of Other" %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{% trans "Feminine" %}</td>
+                    <td>{% trans "Masculine" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "Masculine" %}</td>
+                    <td>{% trans "Feminine" %}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>{% trans "Height Matrix" %}</h5>
+            <table class="table table-striped table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>{% trans "Position of Self" %}</th>
+                    <th>{% trans "Position of Other" %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{% trans "Low" %}</td>
+                    <td>{% trans "High" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "High" %}</td>
+                    <td>{% trans "Low" %}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>{% trans "Logical Position Matrix" %}</h5>
+            <table class="table table-striped table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>{% trans "Position of Self" %}</th>
+                    <th>{% trans "Position of Other" %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{% trans "Subject" %}</td>
+                    <td>{% trans "Object" %}</td>
+                </tr>
+                <tr>
+                    <td>{% trans "Object" %}</td>
+                    <td>{% trans "Subject" %}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
