@@ -22,7 +22,10 @@
                         <ul>
                             {% for item in toc_sections %}
                                 <li>
-                                    <a href="#{{ item.route }}">{% trans item.title %}</a>: {% trans item.explanation %}
+                                    <a href="#{{ item.route }}">{% trans item.title %}</a>
+                                    {% if item.explanation %}
+                                        : {% trans item.explanation %}
+                                    {% endif %}
                                 </li>
                             {% endfor %}
                         </ul>
