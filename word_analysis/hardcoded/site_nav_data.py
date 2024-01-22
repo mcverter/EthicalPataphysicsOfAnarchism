@@ -19,11 +19,11 @@ nav_items = [
         "A discussion of the Radical Empiricism Project, in which the advantages of a multidimensional tensor analysis of metaphorical manifolds is dimensionaland the errors of unidimensional assertions of rank are critiqued"),
      "subitems": [
          {"route": "objective", "title": _("Objective"), "explanation": _("Objective")},
-         {"route": "ambisexuality", "title": _("Ambisexuality"), "explanation": _("Ambisexuality")},
-         {"route": "home_and_position", "title": _("home_and_position"), "explanation": _("home_and_position")},
-         {"route": "womb", "title": _("womb"), "explanation": _("womb")},
-         {"route": "hostage", "title": _("hostage"), "explanation": _("hostage")},
-
+         {"route": "ambisexuality", "title": _("Ambiguity and ambisexuality"),
+          "explanation": _("Ambiguity and ambisexuality")},
+         {"route": "home_and_position", "title": _("Home and Position"), "explanation": _("Home and Position")},
+         {"route": "womb", "title": _("The nourishing womb"), "explanation": _("The nourishing womb")},
+         {"route": "hostage", "title": _("Host and Hostage"), "explanation": _("Host and Hostage")},
          {"route": "two_dimensional", "title": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
           "explanation": _("Two-Dimensional Polar Relations and Two-by-Two Matrices")},
          {"route": "flat", "title": _("The flat space of totality"), "explanation": _("The flat space of totality")},

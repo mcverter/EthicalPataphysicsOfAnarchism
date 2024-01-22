@@ -6,7 +6,7 @@ from .views import debug_test, word_detail, word_list, technical, summary, genre
 urlpatterns = [
     # Index
     re_path(r"^$", summary, name="summary"),
-    
+
     # Top-Level Pages
     re_path(r"^summary|resume$", summary, name="summary"),
     re_path(r"^genre_theory$", genre_theory, name="genre_theory"),
@@ -21,8 +21,20 @@ urlpatterns = [
     re_path("^genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
 
     # Content Pages
+    # Summary Page
     re_path("^abstract$", content_page, {"name": "abstract"}),
     re_path("^addition$", content_page, {"name": "addition"}),
+    re_path("^objective$", content_page, {"name": "objective"}),
+    re_path("^ambisexuality$", content_page, {"name": "ambisexuality"}),
+    re_path("^home_and_position$", content_page, {"name": "home_and_position"}),
+    re_path("^womb$", content_page, {"name": "womb"}),
+    re_path("^hostage$", content_page, {"name": "hostage"}),
+    re_path("^two_dimensional$", content_page, {"name": "two_dimensional"}),
+    re_path("^discussion$", content_page, {"name": "discussion"}),
+    re_path("^flat$", content_page, {"name": "flat"}),
+    re_path("^three$", content_page, {"name": "three"}),
+
+    # Genre Theory Page
     re_path("^combination$", content_page, {"name": "combination"}),
     re_path("^constellation$", content_page, {"name": "constellation"}),
     re_path("^(curvature|courbure)$", content_page, {"name": "curvature"}),
