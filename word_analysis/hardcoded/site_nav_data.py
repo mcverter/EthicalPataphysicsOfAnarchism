@@ -27,8 +27,8 @@ nav_items = [
     {"route": "genre_theory", "title": _("Theory of Genre Sets"), "explanation": _(
         "This page features many discussion: (1) An Introduction to Genre Sets, (2) An example analysis of a sentence from Totality and Infinity as a constellation of Genre Sets, (3) Genre Set Membership Rules [suffixes, prefixes, etymological roots, infinities, other morphemic roots, semantic themes], (4)Internal and External Relations [duality, combination, repetition, opposition, intersection], (5) Non-Euclidean Relations [parallelism, flat, two_dimensional, constellation, curvature ], (5) Other mathematical and scientific topics [addition, positive, negative, 0, 1, 2, 3, 4, infinity, set theory, continuity and infinitesimals, topology, Mikowski/Einstein space-time, wave and quantum theory  ] (6) Perspectivism [perversion, inversion, subversion, reversion] (7) Reading Totality and Infinity as Genesis and Otherwise than Being as Exodus"),
      "subitems": [
-         {"route": "constellation_example", "title": _("Constellational Analysis of a Kallidescopic Sentence"),
-          "explanation": _("Constellational Analysis of a Kallidescopic Sentence")},
+         {"route": "constellation", "title": _("A Constellational Analysis of a Metaphorically Kallidescopic Sentence"),
+          "explanation": _("")},
          {"route": "membership", "title": _("Group Set Membership"), "explanation": _("")},
          {"route": "abstract", "title": _("Abstract"), "explanation": _("")},
          {"route": "genre_set_intro", "title": _("Introduction to Genre Sets"), "explanation": _("")},
