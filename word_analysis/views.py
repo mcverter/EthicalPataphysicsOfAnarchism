@@ -4,7 +4,7 @@ from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
-from .hardcoded.site_nav_data import nav_items
+from .hardcoded.site_nav_data import nav_items, get_subitems
 from .models import Word
 
 
@@ -14,7 +14,7 @@ def genre_theory(request):
 
 
 def summary(request):
-    return render(request, 'pages/summary_page.html', {"nav_items": nav_items})
+    return render(request, 'pages/summary_page.html', {"nav_items": nav_items, "toc_sections": get_subitems("summary")})
 
 
 def technical(request):

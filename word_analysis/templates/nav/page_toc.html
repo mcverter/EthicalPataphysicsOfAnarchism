@@ -1,27 +1,28 @@
 {% load i18n %}
 
-<div id="accordion-site-map-summary" class="accordion">
+<div id="accordion-page-toc" class="accordion">
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button
                     class="accordion-button m-4"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapse-site-map-summary"
+                    data-bs-target="#collapse-page-toc"
             >
-                <h2> {% trans "Website Map" %}</h2>
+                <h2> {% trans "Table of Contents for" %} {{ page_name }} {% trans "Page" %}</h2>
             </button>
         </h2>
         <div
-                id="collapse-site-map-summary"
+                id="collapse-page-toc"
                 class="accordion-collapse collapse"
-                data-bs-parent="#accordion-site-map-summary"
+                data-bs-parent="#accordion-page-toc"
         >
             <div class="english">
-                <div class="card english" id="site-map-summary">
+                <div class="card english" id="page-toc">
                     <div class="card-body">
                         <ul>
-                            {% for item in nav_items %}
-                                <li><a href="/{{ item.route }}">{% trans item.title %}</a>: {% trans item.explanation %}
+                            {% for item in toc_sections %}
+                                <li>
+                                    <a href="#{{ item.route }}">{% trans item.title %}</a>: {% trans item.explanation %}
                                 </li>
                             {% endfor %}
                         </ul>

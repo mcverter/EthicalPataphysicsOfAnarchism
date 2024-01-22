@@ -1,5 +1,10 @@
 from django.utils.translation import gettext as _
 
+
+def get_subitems(route):
+    return [nav for nav in nav_items if nav["route"] == route][0]["subitems"]
+
+
 nav_items = [
     {"route": "summary", "title": _("Project Summary"), "explanation": _(
         "A discussion of the Radical Empiricism Project, in which the advantages of a multidimensional tensor analysis of metaphorical manifolds is dimensionaland the errors of unidimensional assertions of rank are critiqued"),
