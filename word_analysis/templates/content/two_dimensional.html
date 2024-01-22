@@ -1,38 +1,147 @@
 {% load i18n %}
 <h4>{% trans "Two-Dimensional Curvature" %}</h4>
 {% trans "Tensors" %}
-<table>
-    <thead>
-    <tr>
-    <th>{% trans "Position of Self" %}</th>
-    <th>{% trans "Position of Other" %}</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>{% trans "High" %}</td>
-        <td>{% trans "Low" %}</td>
-    </tr>
-    <tr>
-        <td>{% trans "Low" %}</td>
-        <td>{% trans "High" %}</td>
-    </tr>
-    </tbody>
-</table>
-<pre>
-{% trans "In the Self is High," %}
-{% trans "Other is Low destitute," %}
-{% trans "Self is Low, Other is High height," %}
-{% trans "Other is Low, Self is High survivor, resurrection," %}
-{% trans "Other is High, Self is Low" %}
-{% trans "Flat projection of curvature" %}
-</pre>
-<ul class="list-group">
-    <li class="list-item"><p class="card-text">{% trans "The first perspective is an inversion of this subjective point of view, in which I gaze upwards at the Other. The perspective is the most noticeable one in Totality and Infinity, articulated in Levinas’s description of the visage as revealed ”in the dimension of height86 and in the motif of transcendence that animates much of the text. Levinas’s usage of the superlative adverb most and suffix –est is 77 Levinas: Totality…, op. cit., p. 36. 78 Ibid., p. 39. 79 Ibid., p. 141. 80 Ibid., determined by this perspective as are his employment of prefixes such as ex– and sur– to describe, for example, how the other person exceeds or surpasses as an “absolute surplus”.87 The Other’s height is articulated through correlate attributes such as mastery, which is manifested in a variety of ways, for example as the one who commands “you shall not commit murder”88 and who teaches the lesson of his exteriority to consciousness.89 This mastery can also exhibit malevolence as the “transcendence of the antagonist”90 who threatens me with death that “comes from the other as a tyranny”.91" %}</p></li>
-<li class="list-item"><p class="card-text">{% trans "The second perspective, perversion, occurs when I look downwards at the other person from my relative height, such as when I perceive the ”defenseless eyes92 of the other emanating from a depth. This perspective is similarly indicated whenever I regard the other person in an embodied materiality, in misery and destitution, as naked and hungry.93 From my height, I perceive this material poverty as an “appeal to my powers”94, appealing to my sovereign subjectivity to provide material assistance." %}</li>
-    <li class="list-item"><p class="card-text">{% trans "The third perspective, subversion, occurs when the other person views the self in its lowness. The dynamic of being-underneath can already be understood in the terms ”subjectivity and “hypostasis”, which etymologically connote being thrown-under and standing-under. Within Totality and Infinity, Levinas mentions this aspect when he describes the nascent self relating to the environmental element as “a wave that engulfs and submerges and drowns”.95 Levinas intensifies this analysis in Otherwise than Being by applying to subjectivity vivid metaphors of material poverty; for example, as a “denuding beyond the skin, to the wounds one dies from, denuding to death, being as a vulnerability”.96" %}</p>
-<li class="list-item">
-    <p class="card-text">{% trans "The fourth perspective, reversion, occurs when the self is viewed in its height" %}. </p>
-    <p class="card-text">{% trans "From the viewpoint of the Other, the self-assertion of subjective mastery comes under judgment such that it manifests as ”the imperialism of the same.97 This external 87 Ibid., p. 97. 88 Ibid., p. 199. 89 Ibid., p. 204. 90 Ibid., p. 222. 91 Ibid., p. perspective demonstrates that the first-person of subjectivity is already secondary and that the birth of the subject is already a rebirth. For this reason, the dynamics of subject-formation often appear through the prefix re, as repetitions and returnings, the “reversion”98 of interiority that “reabsorbs”99 the alterity of the world in a present of representation through the remembrance of memory100, an achievement of subjectivity expressed as “recurrence”101 within Otherwise than Being" %}</p>
-</li>
-    </ul>
+<p>We can observe a 2x2 matrix of different perspectives that determine the metaphorical tensors employed in the
+    text</p>
+<div class="card">
+    <div class="card-body">
+        <h4>The tensors of the following four terms are parallel to each other</h4>
+        <table class="table table-bordered">
+            <tr>
+                <td>{% trans "Person who is welcomed" %}</td>
+                <td>{% trans "Masculine" %}</td>
+                <td>{% trans "High" %}</td>
+                <td>{% trans "Subject" %}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h4>The tensors of their polar opposite are also parallel to each other</h4>
+        <table class="table table-bordered">
+            <tr>
+                <td>{% trans "Person who welcomes" %}</td>
+                <td>{% trans "Feminine" %}</td>
+                <td>{% trans "Low" %}</td>
+                <td>{% trans "Object" %}</td>
+
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h4>There is a homology between the Genre Sets containing the following polar pairs:</h4>
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>{% trans "Positive" %}</th>
+                <th>{% trans "Negative" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{% trans "Person who is welcomed" %}</td>
+                <td>{% trans "Person who welcomes" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "Masculine" %}</td>
+                <td>{% trans "Feminine" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "High" %}</td>
+                <td>{% trans "Low" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "Subject" %}</td>
+                <td>{% trans "Object" %}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">We can construct the following matrices</h4>
+        <h5>Welcome Matrix</h5>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>{% trans "Position of Self" %}</th>
+                <th>{% trans "Position of Other" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{% trans "Person who is welcomed" %}</td>
+                <td>{% trans "Person who welcomes" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "Person who welcomes" %}</td>
+                <td>{% trans "Person who is welcomed" %}</td>
+            </tr>
+            </tbody>
+        </table>
+        <h5>Gender Matrix</h5>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>{% trans "Position of Self" %}</th>
+                <th>{% trans "Position of Other" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{% trans "Feminine" %}</td>
+                <td>{% trans "Masculine" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "Masculine" %}</td>
+                <td>{% trans "Feminine" %}</td>
+            </tr>
+            </tbody>
+        </table>
+        <h5>Height Matrix</h5>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>{% trans "Position of Self" %}</th>
+                <th>{% trans "Position of Other" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{% trans "Low" %}</td>
+                <td>{% trans "High" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "High" %}</td>
+                <td>{% trans "Low" %}</td>
+            </tr>
+            </tbody>
+        </table>
+        <h5>Logical Position Matrix</h5>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>{% trans "Position of Self" %}</th>
+                <th>{% trans "Position of Other" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{% trans "Subject" %}</td>
+                <td>{% trans "Object" %}</td>
+            </tr>
+            <tr>
+                <td>{% trans "Object" %}</td>
+                <td>{% trans "Subject" %}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

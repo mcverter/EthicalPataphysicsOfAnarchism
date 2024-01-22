@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-21 14:07-0500\n"
+"POT-Creation-Date: 2024-01-21 19:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,10 +28,10 @@ msgid ""
 "multidimensional tensor analysis of metaphorical manifolds is dimensionaland "
 "the errors of unidimensional assertions of rank are critiqued"
 msgstr ""
-"Une discussion sur le projet d'empirisme radical, dans lequel les avantages d'un"
-"L'analyse tensorielle multidimensionnelle des variétés métaphoriques est dimensionnelle et"
-"les erreurs des affirmations unidimensionnelles de rang sont critiquées"
-
+"Une discussion sur le projet d'empirisme radical, dans lequel les avantages "
+"d'unL'analyse tensorielle multidimensionnelle des variétés métaphoriques est "
+"dimensionnelle etles erreurs des affirmations unidimensionnelles de rang "
+"sont critiquées"
 
 #: .\hardcoded\site_nav_data.py:6
 msgid "Theory of Genre Sets"
@@ -52,19 +52,19 @@ msgid ""
 "[perversion, inversion, subversion, reversion] (7) Reading Totality and "
 "Infinity as Genesis and Otherwise than Being as Exodus"
 msgstr ""
-"Cette page présente de nombreuses discussions: (1) Une introduction aux ensembles de genres, (2)"
-"Un exemple d'analyse d'une phrase de Totalité et Infini comme"
-"constellation d'ensembles de genres, (3) Règles d'adhésion aux ensembles de genres [suffixes,"
-"préfixes, racines étymologiques, infinis, autres racines morphémiques, sémantiques"
-"thèmes], (4)Relations internes et externes [dualité, combinaison, "
-"répétition, opposition, intersection], (5) Relations non euclidiennes "
-"[parallélisme, plat, bidimensionnel, constellation, courbure], (5) Autre "
-"sujets mathématiques et scientifiques [addition, positif, négatif, 0, 1, 2, "
-"3, 4, infini, théorie des ensembles, continuité et infinitésimaux, topologie,"
-" Théorie de l'espace-temps, des ondes et des quantiques de Mikowski/Einstein] (6) Perspectivisme "
+"Cette page présente de nombreuses discussions: (1) Une introduction aux "
+"ensembles de genres, (2)Un exemple d'analyse d'une phrase de Totalité et "
+"Infini commeconstellation d'ensembles de genres, (3) Règles d'adhésion aux "
+"ensembles de genres [suffixes,préfixes, racines étymologiques, infinis, "
+"autres racines morphémiques, sémantiquesthèmes], (4)Relations internes et "
+"externes [dualité, combinaison, répétition, opposition, intersection], (5) "
+"Relations non euclidiennes [parallélisme, plat, bidimensionnel, "
+"constellation, courbure], (5) Autre sujets mathématiques et scientifiques "
+"[addition, positif, négatif, 0, 1, 2, 3, 4, infini, théorie des ensembles, "
+"continuité et infinitésimaux, topologie, Théorie de l'espace-temps, des "
+"ondes et des quantiques de Mikowski/Einstein] (6) Perspectivisme "
 "[perversion, inversion, subversion, réversion] (7) Lecture Totalité et "
 "L'infini comme genèse et autrement que l'être comme exode"
-
 
 #: .\hardcoded\site_nav_data.py:8 .\templates\content\abstract.html:14
 msgid "Word list"
@@ -76,9 +76,9 @@ msgid ""
 "information pages about each word, including definitions and etymologies in "
 "English and French, as well as frequencies and lines from both texts"
 msgstr ""
-"Une liste des 16 000 mots dans Totalité et autrement. Liens vers "
-"des pages d'informations sur chaque mot, y compris les définitions et les étymologies dans "
-"Anglais et français, ainsi que les fréquences et lignes des deux textes"
+"Une liste des 16 000 mots dans Totalité et autrement. Liens vers des pages "
+"d'informations sur chaque mot, y compris les définitions et les étymologies "
+"dans Anglais et français, ainsi que les fréquences et lignes des deux textes"
 
 #: .\hardcoded\site_nav_data.py:10
 msgid "List of Genre Sets"
@@ -97,8 +97,7 @@ msgstr "Notes techniques"
 #: .\hardcoded\site_nav_data.py:12
 msgid ""
 "Contact information, sources, current project status and future direction"
-msgstr ""
-"Coordonnées, sources, état actuel du projet et orientation future"
+msgstr "Coordonnées, sources, état actuel du projet et orientation future"
 
 #: .\templates\content\abstract.html:2
 msgid "Abstract"
@@ -1675,13 +1674,26 @@ msgstr ""
 " Dans Autrement qu'être, il utilise ce mot pour caractériser le sujet comme "
 "vulnérabilité"
 
-#: .\templates\content\objective.html:170
+#: .\templates\content\objective.html:166
+#: .\templates\content\objective.html:177
+msgid "Two-Dimensional Perspectival Analysis"
+msgstr "Analyse perspective bidimensionnelle"
+
+#: .\templates\content\objective.html:189
+msgid "The flat space of totality"
+msgstr "L'espace plat de la totalité"
+
+#: .\templates\content\objective.html:193
 msgid ""
 "within terminological GGs both within texts and between his Relations will "
 "be traced by detemining a flat projections, doubles and by 2x2 perspecitval "
 "and conversational conversions, and by considering how various etymological "
 "and semantic genres are transformed into various word forms"
 msgstr ""
+
+#: .\templates\content\objective.html:199
+msgid "The dimension of the third"
+msgstr "La dimension du tiers"
 
 #: .\templates\content\opposition.html:3
 msgid "Certain dualities are opposed to each other"
@@ -1757,6 +1769,131 @@ msgstr "Quand Levinas discute"
 #: .\templates\content\parallelism.html:13
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de"
+
+#: .\templates\content\perspectivism.html:5
+msgid "Four perspectives on every genre"
+msgstr "Quatre perspectives sur chaque genre"
+
+#: .\templates\content\perspectivism.html:7
+msgid "Inversion"
+msgstr "Inversion"
+
+#: .\templates\content\perspectivism.html:8
+msgid ""
+"The first perspective is an inversion of this subjective point of view, in "
+"which I gaze upwards at the Other. The perspective is the most noticeable "
+"one in Totality and Infinity, articulated in Levinas’s description of the "
+"visage as revealed “in the dimension of height86 and in the motif of "
+"transcendence that animates much of the text. Levinas’s usage of the "
+"superlative adverb most and suffix “–est determined by this perspective as "
+"are his employment of prefixes such as ex– and sur– to describe, for "
+"example, how the other person exceeds or surpasses as an “absolute surplus”. "
+"The Other’s height is articulated through correlate attributes such as "
+"mastery, which is manifested in a variety of ways, for example as the one "
+"who commands “you shall not commit murder” and who teaches the lesson of his "
+"exteriority to consciousness. This mastery can also exhibit malevolence as "
+"the “transcendence of the antagonist” who threatens me with death that "
+"“comes from the other as a tyranny”."
+msgstr ""
+"La première perspective est une inversion de ce point de vue subjectif, en "
+"que je regarde vers le haut vers l'Autre. La perspective est la plus perceptible"
+"un dans la Totalité et l'Infini, articulé dans la description de Levinas du "
+"visage tel que révélé “dans la dimension de hauteur” et dans le motif de "
+"“transcendance” qui anime une grande partie du texte. L'utilisation par Levinas du "
+"adverbe superlatif most et suffixe « –est déterminé par cette perspective comme "
+"est-ce qu'il emploie des préfixes tels que ex– et sur– pour décrire, pour "
+"exemple, comment l'autre personne dépasse ou dépasse comme un “excédent absolu”. "
+"La taille de l'Autre s'articule à travers des attributs corrélés tels que"
+"la maîtrise, qui se manifeste de diverses manières, par exemple comme celle"
+"qui ordonne “tu ne commettras pas de meurtre” et qui enseigne la leçon de son "
+"l'extériorité à la conscience. Cette maîtrise peut aussi manifester de la malveillance comme"
+"la “transcendance de l'antagoniste” qui me menace de mort qui "
+"“ vient de l'autre comme une tyrannie ”."
+
+
+#: .\templates\content\perspectivism.html:12
+msgid "Perversion"
+msgstr "Perversion"
+
+#: .\templates\content\perspectivism.html:13
+msgid ""
+"The second perspective, perversion, occurs when I look downwards at the "
+"other person from my relative height, such as when I perceive the "
+"“defenseless eyes” of the other emanating from a depth. This perspective is "
+"similarly indicated whenever I regard the other person in an embodied "
+"materiality, in misery and destitution, as naked and hungry. From my height, "
+"I perceive this material poverty as an “appeal to my powers”, appealing to "
+"my sovereign subjectivity to provide material assistance."
+msgstr ""
+"La deuxième perspective, la perversion, se produit lorsque je regarde vers le bas"
+"une autre personne de ma taille relative, par exemple lorsque je perçois le "
+"Des « yeux sans défense » de l’autre émanant des profondeurs. Cette perspective est"
+"indiqué de la même manière chaque fois que je considère l'autre personne dans un mode incarné"
+"matérialité, dans la misère et le dénuement, comme nue et affamée. De ma hauteur, "
+"Je perçois cette pauvreté matérielle comme un “appel à mes pouvoirs”, un appel à "
+"ma subjectivité souveraine pour apporter une aide matérielle."
+
+#: .\templates\content\perspectivism.html:17
+msgid "Subversion"
+msgstr "Subversion"
+
+#: .\templates\content\perspectivism.html:18
+msgid ""
+"The third perspective, subversion, occurs when the other person views the "
+"self in its lowness. The dynamic of being-underneath can already be "
+"understood in the terms ”subjectivity and “hypostasis”, which etymologically "
+"connote being thrown-under and standing-under. Within Totality and Infinity, "
+"Levinas mentions this aspect when he describes the nascent self relating to "
+"the environmental element as “a wave that engulfs and submerges and drowns”. "
+"Levinas intensifies this analysis in Otherwise than Being by applying to "
+"subjectivity vivid metaphors of material poverty; for example, as a "
+"“denuding beyond the skin, to the wounds one dies from, denuding to death, "
+"being as a vulnerability”."
+msgstr ""
+"La troisième perspective, la subversion, se produit lorsque l'autre personne perçoit le "
+"soi dans sa bassesse. La dynamique de l'être-en-dessous peut déjà être"
+"compris dans les termes de « subjectivité et d'hypostase », qui étymologiquement"
+"signifie être jeté en dessous et se tenir en dessous. Dans la Totalité et l'Infini, "
+" Levinas mentionne cet aspect lorsqu'il décrit le moi naissant relatif à "
+"l'élément environnemental comme “une vague qui engloutit, submerge et noie”. "
+" Levinas intensifie cette analyse dans Autrement qu'être en s'appliquant à "
+"subjectivité métaphores vives de la pauvreté matérielle ; par exemple, en tant que"
+"“dénuder au-delà de la peau, jusqu'aux blessures dont on meurt, dénuder jusqu'à la mort, "
+"être comme une vulnérabilité.”"
+
+#: .\templates\content\perspectivism.html:22
+msgid "Reversion"
+msgstr "Reversion"
+
+#: .\templates\content\perspectivism.html:23
+msgid ""
+"The fourth perspective, reversion, occurs when the self is viewed in its "
+"height"
+msgstr ""
+"La quatrième perspective, la réversion, se produit lorsque le soi est vu à "
+"sa hauteur."
+
+#: .\templates\content\perspectivism.html:24
+msgid ""
+"From the viewpoint of the Other, the self-assertion of subjective mastery "
+"comes under judgment such that it manifests as ”the imperialism of the "
+"same.” This external perspective demonstrates that the first-person of "
+"subjectivity is already secondary and that the birth of the subject is "
+"already a rebirth. For this reason, the dynamics of subject-formation often "
+"appear through the prefix re, as repetitions and returnings, the “reversion” "
+"of interiority that “reabsorbs” the alterity of the world in a present of "
+"representation through the remembrance of memory, an achievement of "
+"subjectivity expressed as “recurrence” within Otherwise than Being"
+msgstr ""
+"Du point de vue de l'Autre, l'affirmation de soi d'une maîtrise subjective"
+"est soumis à un jugement tel qu'il se manifeste comme “l'impérialisme du "
+"même.” Cette perspective externe démontre que la première personne de"
+"la subjectivité est déjà secondaire et que la naissance du sujet est"
+"déjà une renaissance. Pour cette raison, la dynamique de la formation du sujet souvent"
+"apparaissent à travers le préfixe re, au fur et à mesure des répétitions et des retours, la “réversion”"
+"d'intériorité qui “réabsorbe” l'altérité du monde dans un présent de "
+"la représentation par la remémoration de la mémoire, une réalisation de"
+"subjectivité exprimée comme « récurrence » au sein d’Autrement qu’Être"
 
 #: .\templates\content\repetition.html:4
 msgid "Repetition of the same word in different context"
@@ -1847,10 +1984,6 @@ msgstr "La profondeur du silence"
 msgid "The depth of the mythical"
 msgstr "La profondeur du mythique"
 
-#: .\templates\content\site_map_summary.html:4
-msgid "Website Map"
-msgstr "Plan du site Web"
-
 #: .\templates\content\two_dimensional.html:2
 msgid "Two-Dimensional Curvature"
 msgstr "Courbure bidimensionnelle"
@@ -1859,159 +1992,84 @@ msgstr "Courbure bidimensionnelle"
 msgid "Tensors"
 msgstr "Les tenseurs"
 
-#: .\templates\content\two_dimensional.html:7
-msgid "Position of Self"
-msgstr "Position de Soi"
+#: .\templates\content\two_dimensional.html:11
+#: .\templates\content\two_dimensional.html:46
+#: .\templates\content\two_dimensional.html:79
+#: .\templates\content\two_dimensional.html:84
+msgid "Person who is welcomed"
+msgstr "Personne accueillie"
 
-#: .\templates\content\two_dimensional.html:8
-msgid "Position of Other"
-msgstr "Position d'Autre"
+#: .\templates\content\two_dimensional.html:12
+#: .\templates\content\two_dimensional.html:50
+#: .\templates\content\two_dimensional.html:99
+#: .\templates\content\two_dimensional.html:102
+msgid "Masculine"
+msgstr "Masculin"
 
 #: .\templates\content\two_dimensional.html:13
-#: .\templates\content\two_dimensional.html:18
+#: .\templates\content\two_dimensional.html:54
+#: .\templates\content\two_dimensional.html:118
+#: .\templates\content\two_dimensional.html:121
 msgid "High"
 msgstr "Haute"
 
 #: .\templates\content\two_dimensional.html:14
-#: .\templates\content\two_dimensional.html:17
+#: .\templates\content\two_dimensional.html:58
+#: .\templates\content\two_dimensional.html:136
+#: .\templates\content\two_dimensional.html:141
+#| msgid "Objective"
+msgid "Subject"
+msgstr "Sujet"
+
+#: .\templates\content\two_dimensional.html:24
+#: .\templates\content\two_dimensional.html:47
+#: .\templates\content\two_dimensional.html:80
+#: .\templates\content\two_dimensional.html:83
+msgid "Person who welcomes"
+msgstr "Personne qui accueille"
+
+#: .\templates\content\two_dimensional.html:25
+#: .\templates\content\two_dimensional.html:51
+#: .\templates\content\two_dimensional.html:98
+#: .\templates\content\two_dimensional.html:103
+msgid "Feminine"
+msgstr "Féminin"
+
+#: .\templates\content\two_dimensional.html:26
+#: .\templates\content\two_dimensional.html:55
+#: .\templates\content\two_dimensional.html:117
+#: .\templates\content\two_dimensional.html:122
 msgid "Low"
 msgstr "Bas"
 
-#: .\templates\content\two_dimensional.html:23
-msgid "In the Self is High,"
-msgstr "Dans le Soi est Haut,"
-
-#: .\templates\content\two_dimensional.html:24
-msgid "Other is Low destitute,"
-msgstr "L'autre est faiblement démuni,"
-
-#: .\templates\content\two_dimensional.html:25
-msgid "Self is Low, Other is High height,"
-msgstr "Le soi est bas, l'autre est de grande taille,"
-
-#: .\templates\content\two_dimensional.html:26
-msgid "Other is Low, Self is High survivor, resurrection,"
-msgstr "L'Autre est Bas, le Soi est Haut survivant, résurrection,"
-
 #: .\templates\content\two_dimensional.html:27
-msgid "Other is High, Self is Low"
-msgstr "L'autre est élevé, le soi est faible"
+#: .\templates\content\two_dimensional.html:59
+#: .\templates\content\two_dimensional.html:137
+#: .\templates\content\two_dimensional.html:140
+msgid "Object"
+msgstr "Objet"
 
-#: .\templates\content\two_dimensional.html:28
-msgid "Flat projection of curvature"
-msgstr "Projection plate de courbure"
+#: .\templates\content\two_dimensional.html:40
+msgid "Positive"
+msgstr "Positif"
 
-#: .\templates\content\two_dimensional.html:31
-msgid ""
-"The first perspective is an inversion of this subjective point of view, in "
-"which I gaze upwards at the Other. The perspective is the most noticeable "
-"one in Totality and Infinity, articulated in Levinas’s description of the "
-"visage as revealed ”in the dimension of height86 and in the motif of "
-"transcendence that animates much of the text. Levinas’s usage of the "
-"superlative adverb most and suffix –est is 77 Levinas: Totality…, op. cit., "
-"p. 36. 78 Ibid., p. 39. 79 Ibid., p. 141. 80 Ibid., determined by this "
-"perspective as are his employment of prefixes such as ex– and sur– to "
-"describe, for example, how the other person exceeds or surpasses as an "
-"“absolute surplus”.87 The Other’s height is articulated through correlate "
-"attributes such as mastery, which is manifested in a variety of ways, for "
-"example as the one who commands “you shall not commit murder”88 and who "
-"teaches the lesson of his exteriority to consciousness.89 This mastery can "
-"also exhibit malevolence as the “transcendence of the antagonist”90 who "
-"threatens me with death that “comes from the other as a tyranny”.91"
-msgstr ""
-"La première perspective est une inversion de ce point de vue subjectif, en "
-"que je regarde vers le haut vers l'Autre. La perspective est la plus "
-"perceptibleun dans la Totalité et l'Infini, articulé dans la description de "
-"Levinas du  « visage tel que révélé » dans la dimension de hauteur86 et dans "
-"le motif de transcendance qui anime une grande partie du texte. "
-"L'utilisation par Levinas du L'adverbe superlatif most et le suffixe –est "
-"sont 77 Levinas : Totalité…, op. cit., p. 36. 78 Ibid., p. 39. 79 Ibid., p. "
-"141. 80 Ibid., déterminé par ceci de même que son emploi de préfixes tels "
-"que ex- et sur- to décrire, par exemple, comment l'autre personne dépasse ou "
-"dépasse en tant que  « surplus absolu ».87 La hauteur de l’Autre s’articule "
-"à travers des corrélats »des attributs tels que la maîtrise, qui se "
-"manifestent de diverses manières, car exemple comme celui qui ordonne « tu "
-"ne commettras pas de meurtre »88 et qui  « enseigne la leçon de son "
-"extériorité à la conscience.89 Cette maîtrise peut  font également preuve de "
-"malveillance comme « transcendance de l’antagoniste »90 qui  « me menace "
-"d'une mort qui « vient de l'autre comme une tyrannie ».91"
+#: .\templates\content\two_dimensional.html:41
+msgid "Negative"
+msgstr "Négatif"
 
-#: .\templates\content\two_dimensional.html:32
-msgid ""
-"The second perspective, perversion, occurs when I look downwards at the "
-"other person from my relative height, such as when I perceive the "
-"”defenseless eyes92 of the other emanating from a depth. This perspective is "
-"similarly indicated whenever I regard the other person in an embodied "
-"materiality, in misery and destitution, as naked and hungry.93 From my "
-"height, I perceive this material poverty as an “appeal to my powers”94, "
-"appealing to my sovereign subjectivity to provide material assistance."
-msgstr ""
-"La deuxième perspective, la perversion, se produit lorsque je regarde "
-"l’autre vers le bas depuis ma hauteur relative, comme lorsque je perçois les "
-"« yeux sans défense92 » de l’autre émanant d’une profondeur. Cette "
-"perspective est également indiquée chaque fois que je considère l’autre dans "
-"une matérialité incarnée, dans la misère et le dénuement, comme nu et "
-"affamé93. Du haut de ma hauteur, je perçois cette pauvreté matérielle comme "
-"un « appel à mes pouvoirs »94, faisant appel à mon souverain. subjectivité "
-"pour fournir une aide matérielle."
+#: .\templates\content\two_dimensional.html:73
+#: .\templates\content\two_dimensional.html:92
+#: .\templates\content\two_dimensional.html:111
+#: .\templates\content\two_dimensional.html:130
+msgid "Position of Self"
+msgstr "Position de Soi"
 
-#: .\templates\content\two_dimensional.html:33
-msgid ""
-"The third perspective, subversion, occurs when the other person views the "
-"self in its lowness. The dynamic of being-underneath can already be "
-"understood in the terms ”subjectivity and “hypostasis”, which etymologically "
-"connote being thrown-under and standing-under. Within Totality and Infinity, "
-"Levinas mentions this aspect when he describes the nascent self relating to "
-"the environmental element as “a wave that engulfs and submerges and "
-"drowns”.95 Levinas intensifies this analysis in Otherwise than Being by "
-"applying to subjectivity vivid metaphors of material poverty; for example, "
-"as a “denuding beyond the skin, to the wounds one dies from, denuding to "
-"death, being as a vulnerability”.96"
-msgstr ""
-"La troisième perspective, la subversion, se produit lorsque l’autre personne "
-"se voit dans sa faiblesse. La dynamique de l’être-en-dessous peut déjà être "
-"comprise dans les termes « subjectivité et « hypostase », qui évoquent "
-"étymologiquement être jeté-en-dessous et se tenir-en-dessous. Dans Totalité "
-"et Infini, Levinas évoque cet aspect lorsqu'il décrit le moi naissant lié à "
-"l'élément environnemental comme « une vague qui engloutit, submerge et noie "
-"».95 Levinas intensifie cette analyse dans Autrement qu'être en appliquant à "
-"la subjectivité de vives métaphores de la pauvreté matérielle. ; par "
-"exemple, comme « une mise à nu au-delà de la peau, des blessures dont on "
-"meurt, une mise à nu jusqu'à la mort, l'être comme une vulnérabilité »96."
-
-#: .\templates\content\two_dimensional.html:35
-msgid ""
-"The fourth perspective, reversion, occurs when the self is viewed in its "
-"height"
-msgstr ""
-"La quatrième perspective, la réversion, se produit lorsque le soi est vu à "
-"sa hauteur."
-
-#: .\templates\content\two_dimensional.html:36
-msgid ""
-"From the viewpoint of the Other, the self-assertion of subjective mastery "
-"comes under judgment such that it manifests as ”the imperialism of the "
-"same.97 This external 87 Ibid., p. 97. 88 Ibid., p. 199. 89 Ibid., p. 204. "
-"90 Ibid., p. 222. 91 Ibid., p. perspective demonstrates that the first-"
-"person of subjectivity is already secondary and that the birth of the "
-"subject is already a rebirth. For this reason, the dynamics of subject-"
-"formation often appear through the prefix re, as repetitions and returnings, "
-"the “reversion”98 of interiority that “reabsorbs”99 the alterity of the "
-"world in a present of representation through the remembrance of memory100, "
-"an achievement of subjectivity expressed as “recurrence”101 within Otherwise "
-"than Being"
-msgstr ""
-"Du point de vue de l'Autre, l'affirmation de soi de la maîtrise subjective "
-"est soumise à un jugement tel qu'elle se manifeste comme « l'impérialisme du "
-"Même97 ». Cette 87 Ibid., p. 97. 88 Ibid., p. 199. 89 Ibid., p. 204. 90 "
-"Ibid., p. 222. 91 Ibid., p. Cette perspective démontre que la première "
-"personne de la subjectivité est déjà secondaire et que la naissance du sujet "
-"est déjà une renaissance. Pour cette raison, les dynamiques de formation du "
-"sujet apparaissent souvent à travers le préfixe re, comme répétitions et "
-"retours, la « réversion »98 de l'intériorité qui « réabsorbe »99 l'altérité "
-"du monde dans un présent de représentation à travers la remémoration de la "
-"mémoire100, un acquis de subjectivité exprimé comme « récurrence »101 au "
-"sein d’Autrement qu’Être"
+#: .\templates\content\two_dimensional.html:74
+#: .\templates\content\two_dimensional.html:93
+#: .\templates\content\two_dimensional.html:112
+#: .\templates\content\two_dimensional.html:131
+msgid "Position of Other"
+msgstr "Position d'Autre"
 
 #: .\templates\includes\info\count_alerts.html:4
 msgid "Word counts are approximate"
@@ -2136,6 +2194,11 @@ msgstr ""
 "Une analyse topologique des variétés métaphoriques dans les textes "
 "d'Emmanuel Levinas"
 
+#: .\templates\nav\site_map_accordion.html:11
+#: .\templates\nav\site_map_accordion.html:22
+msgid "Website Map"
+msgstr "Plan du site Web"
+
 #: .\templates\pages\genre_list_page.html:7
 msgid "Introduction"
 msgstr "Introduction"
@@ -2252,11 +2315,19 @@ msgstr "Pour"
 msgid "Author"
 msgstr "Auteur"
 
-#: .\templates\pages\technical_page.html:102
+#: .\templates\pages\technical_page.html:97
+msgid "Translations"
+msgstr "Traductions"
+
+#: .\templates\pages\technical_page.html:100
+msgid "Google Translate"
+msgstr "Google Traduction"
+
+#: .\templates\pages\technical_page.html:107
 msgid "Suggested Reading"
 msgstr "Lecture suggérée"
 
-#: .\templates\pages\technical_page.html:139
+#: .\templates\pages\technical_page.html:143
 msgid ""
 "The objective correlate of the concept of a possible theory determined only "
 "in respect of form [Form] is the concept of a possible field of knowledge "
@@ -2288,7 +2359,7 @@ msgstr ""
 "connexion pour laquelle les lois de la forme a + b = b + a, etc., sont "
 "valables."
 
-#: .\templates\pages\technical_page.html:143
+#: .\templates\pages\technical_page.html:147
 msgid ""
 "To speak, in a word, is to seek the source of meaning in the prefix that the "
 "words exile, exodus, existence, exteriority, and estrangement are committed "
@@ -2352,3 +2423,21 @@ msgstr "Plus d'information et textes"
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur"
+
+#~ msgid "In the Self is High,"
+#~ msgstr "Dans le Soi est Haut,"
+
+#~ msgid "Other is Low destitute,"
+#~ msgstr "L'autre est faiblement démuni,"
+
+#~ msgid "Self is Low, Other is High height,"
+#~ msgstr "Le soi est bas, l'autre est de grande taille,"
+
+#~ msgid "Other is Low, Self is High survivor, resurrection,"
+#~ msgstr "L'Autre est Bas, le Soi est Haut survivant, résurrection,"
+
+#~ msgid "Other is High, Self is Low"
+#~ msgstr "L'autre est élevé, le soi est faible"
+
+#~ msgid "Flat projection of curvature"
+#~ msgstr "Projection plate de courbure"
