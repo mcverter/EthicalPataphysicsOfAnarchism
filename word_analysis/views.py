@@ -10,7 +10,8 @@ from .models import Word
 
 # top level pages
 def genre_theory(request):
-    return render(request, 'pages/genre_theory.html')
+    return render(request, 'pages/genre_theory.html',
+                  {"nav_items": nav_items, "toc_sections": get_subitems("genre_theory")})
 
 
 def summary(request):
