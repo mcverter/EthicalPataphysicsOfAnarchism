@@ -15,7 +15,7 @@ def genre_theory(request):
 
 
 def summary(request):
-    return render(request, 'pages/summary_page.html', {"nav_items": nav_items, "toc_sections": get_subitems("summary")})
+    return render(request, 'pages/summary_page.html', {"toc_sections": get_subitems("summary")})
 
 
 def technical(request):

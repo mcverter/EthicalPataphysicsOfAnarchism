@@ -4,134 +4,145 @@
 {% block subtitle %}{% trans "Technical notes" %} | {% endblock %}
 {% block content %}
     <div class="card">
-    <div class="card-body">
-        <h2 class="card-title"> {% trans "Technical notes" %}</h2>
+        <div class="card-body">
+            <h2 class="card-title"> {% trans "Technical notes" %}</h2>
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">{% trans "Dedication" %}</h4>
-                <p class="card-text"> {% trans "For" %} Georges Hansel
-                </p></div>
-        </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{% trans "Dedication" %}</h4>
+                    <p class="card-text"> {% trans "For" %} Georges Hansel
+                    </p></div>
+            </div>
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">{% trans "Author" %}</h4>
-                <p class="card-text"> Mitchell Verter
-                </p></div>
-        </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{% trans "Author" %}</h4>
+                    <p class="card-text"> Mitchell Verter
+                    </p></div>
+            </div>
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Email </h4>
-                <div class="d-flex align-center align-self-center mt-20 mb-20">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Email </h4>
+                    <div class="d-flex align-center align-self-center mt-20 mb-20">
                         <span>
                             <a href="mailto:vertm098@newschool.edu">mitchell.verter@gmail.com</a>
                         </span>
-                    <span>&nbsp;{% trans 'or' %}&nbsp;</span>
-                    <div class="text-h4">
-                        <a href="mailto:roadrunner@waste.org">
+                        <span>&nbsp;{% trans 'or' %}&nbsp;</span>
+                        <div class="text-h4">
+                            <a href="mailto:roadrunner@waste.org">
                                 <span>
                                 roadrunner@waste.org
                             </span>
-                            <span>
+                                <span>
                                     <img src="{% static "images/roadrunnerAtWaste.jpg" %}" height="25" width="100"/>
                                 </span>
-                        </a>
+                            </a>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title"> Github </h4>
-                <a href="https://github.com/mcverter/EthicalPataphysicsOfAnarchism">https://github.com/mcverter/EthicalPataphysicsOfAnarchism</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title"> Version </h4>
-                <p>95 -- January 21, 2024</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title"> Sources </h4>
-                <ul class="list-group ml-4">
-                    <li class="list-group-item">Français
-                        <ol>
-                            <li> {{ titles.ti.long.french }}. Livres de Poche, Paris.</li>
-                            <li> {{ titles.otb.long.french }}. Livres de Poche, Paris.</li>
-                        </ol>
-                    </li>
-                    <li class="list-group-item"> English
-                        <ol>
-                            <li> {{ titles.ti.long.english }}, tr. Alphonso Lingis. Duquesne University Press</li>
-                            <li> {{ titles.otb.long.englis }}, tr. Alphonso Lingis. Duquense University Press</li>
-                        </ol>
-                    </li>
-                    <li class="list-group-item"> Diccionaires | Dictionaries
-                        <ul>
-                            <li class="list-group-item" class="list-group-item">Français
-                                <ul>
-                                    <li><a href="https://www.cnrtl.fr/" target="_blank">Centre National de
-                                        Ressources Textuelles et Lexicales</a></li>
-                                    <li><a href="https://www.larousse.fr/" target="_blank">Larousse</a>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li><a href="https://www.merriam-webster.com/"
-                                           target="_blank">Merriam-Webster</a></li>
-                                    <li><a href="https://www.etymonline.com/" target="_blank">Etymonline - Online
-                                        Etymology Dictionary</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="list-group-item"> {% trans "Translations" %}
-                        <ul>
-                            <li><a href="https://translate.google.com"
-                                   target="_blank"> {% trans "Google Translate" %}</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">{% trans "Suggested Reading" %}</h4>
-                    <ul class="list-group ml-4">
-                        {% for book in books %}
-                            <li class="list-group-item">
-                                {{ book.author }}
-                                {% if book.year %}
-                                    ({{ book.year }})
-                                {% endif %}
-                                .
-                                <cite>{{ book.title }}.</cite>
-                                {% if book.publisher %}
-                                    {{ book.publisher }}
-                                {% endif %}
-                                <span>.</span>
-                                {% if book.link %}
-                                    <a href="{{ book.link }}">{{ book.link }}</a>
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-
+                    <h4 class="card-title"> Github </h4>
+                    <a href="https://github.com/mcverter/EthicalPataphysicsOfAnarchism">https://github.com/mcverter/EthicalPataphysicsOfAnarchism</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title"> Notes </h4>
-                    {% include "includes/info/count_alerts.html" %}
+                    <h4 class="card-title"> Version </h4>
+                    <p>95 -- January 21, 2024</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"> Sources </h4>
+                    <ul class="list-group ml-4">
+                        <li class="list-group-item">Français
+                            <ol>
+                                <li> {{ titles.ti.long.french }}. Livres de Poche, Paris.</li>
+                                <li> {{ titles.otb.long.french }}. Livres de Poche, Paris.</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item"> English
+                            <ol>
+                                <li> {{ titles.ti.long.english }}, tr. Alphonso Lingis. Duquesne University Press</li>
+                                <li> {{ titles.otb.long.englis }}, tr. Alphonso Lingis. Duquense University Press</li>
+                            </ol>
+                        </li>
+                        <li class="list-group-item"> Diccionaires | Dictionaries
+                            <ul>
+                                <li class="list-group-item" class="list-group-item">Français
+                                    <ul>
+                                        <li><a href="https://www.cnrtl.fr/" target="_blank">Centre National de
+                                            Ressources Textuelles et Lexicales</a></li>
+                                        <li><a href="https://www.larousse.fr/" target="_blank">Larousse</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="https://www.merriam-webster.com/"
+                                               target="_blank">Merriam-Webster</a></li>
+                                        <li><a href="https://www.etymonline.com/" target="_blank">Etymonline - Online
+                                            Etymology Dictionary</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"> {% trans "Translations" %}
+                            <ul>
+                                <li><a href="https://translate.google.com"
+                                       target="_blank"> {% trans "Google Translate" %}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">{% trans "Suggested Reading" %}</h4>
+                        <ul class="list-group ml-4">
+                            {% for book in books %}
+                                <li class="list-group-item">
+                                    {{ book.author }}
+                                    {% if book.year %}
+                                        ({{ book.year }})
+                                    {% endif %}
+                                    .
+                                    <cite>{{ book.title }}.</cite>
+                                    {% if book.publisher %}
+                                        {{ book.publisher }}
+                                    {% endif %}
+                                    <span>.</span>
+                                    {% if book.link %}
+                                        <a href="{{ book.link }}">{{ book.link }}</a>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"> Notes </h4>
+                        {% include "includes/info/count_alerts.html" %}
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    {% trans "The objective correlate of the concept of a possible theory determined only in respect of form [Form] is the concept of a possible field of knowledge [Erkenntnisgebiet] over which a theory of such form will govern. Such a field [Gebiet] is, however, known in mathematical circles as a manifold [Mannigfaltigkeit]. It is accordingly a field which is uniquely and solely determined by falling under a theory of such a form, whose objects are such as to permit of certain connections [Verknüpfungen] which fall under certain basic laws of this or that determinate form. … These laws then, as they determine the field [Gebiet] or moreover the form of the field [Gebietsform], likewise determine the theory to be constructed, or, more correctly, the form of the theory [Theoriensform]. In the theory of manifolds, e.g.,‘ +’ is not the sign for numerical addition, but for any connection for which laws of the form a + b = b + a, etc., hold." %}
+                </div>
+
+                <h5>Blanchot</h5>
+                <div>
+                    {% trans "To speak, in a word, is to seek the source of meaning in the prefix that the words exile, exodus, existence, exteriority, and estrangement are committed to unfolding in various modes of experience; a prefix that for us designates distance and separation as the origin of all “positive value”. Assuredly, it would be rash to claim to represent Judaism by all" %}
                 </div>
             </div>
         </div>
@@ -139,9 +150,3 @@
 {% endblock %}
 
 
-<div>
-    {% trans "The objective correlate of the concept of a possible theory determined only in respect of form [Form] is the concept of a possible field of knowledge [Erkenntnisgebiet] over which a theory of such form will govern. Such a field [Gebiet] is, however, known in mathematical circles as a manifold [Mannigfaltigkeit]. It is accordingly a field which is uniquely and solely determined by falling under a theory of such a form, whose objects are such as to permit of certain connections [Verknüpfungen] which fall under certain basic laws of this or that determinate form. … These laws then, as they determine the field [Gebiet] or moreover the form of the field [Gebietsform], likewise determine the theory to be constructed, or, more correctly, the form of the theory [Theoriensform]. In the theory of manifolds, e.g.,‘ +’ is not the sign for numerical addition, but for any connection for which laws of the form a + b = b + a, etc., hold." %}
-</div>
-
-<h5>Blanchot</h5>
-{% trans "To speak, in a word, is to seek the source of meaning in the prefix that the words exile, exodus, existence, exteriority, and estrangement are committed to unfolding in various modes of experience; a prefix that for us designates distance and separation as the origin of all “positive value”. Assuredly, it would be rash to claim to represent Judaism by all" %}

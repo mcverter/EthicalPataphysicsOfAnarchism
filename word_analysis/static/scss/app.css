@@ -11999,4 +11999,18 @@ blockquote {
   border: 10px solid #D1E7DD;
 }
 
+.toc-button,
+.site-map-button {
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.site-map-button {
+  color: #3D0A91;
+}
+
+.toc-button {
+  color: #944A0C;
+}
+
 /*# sourceMappingURL=app.css.map */
