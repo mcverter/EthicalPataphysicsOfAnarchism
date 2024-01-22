@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-21 21:20-0500\n"
+"POT-Creation-Date: 2024-01-21 22:03-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1675,25 +1675,24 @@ msgstr ""
 "vulnérabilité"
 
 #: .\templates\content\objective.html:190
-#: .\templates\content\objective.html:202
-msgid "Two-Dimensional Perspectival Analysis"
-msgstr "Analyse perspective bidimensionnelle"
+msgid "Two-Dimensional Polar Relations"
+msgstr "Relations polaires bidimensionnelles"
 
-#: .\templates\content\objective.html:215
+#: .\templates\content\objective.html:202
+msgid "Four Perspectival Analyses"
+msgstr "Quatre analyses de perspective"
+
+#: .\templates\content\objective.html:221
 msgid "The flat space of totality"
 msgstr "L'espace plat de la totalité"
 
-#: .\templates\content\objective.html:219
+#: .\templates\content\objective.html:225
 msgid ""
 "within terminological GGs both within texts and between his Relations will "
 "be traced by detemining a flat projections, doubles and by 2x2 perspecitval "
 "and conversational conversions, and by considering how various etymological "
 "and semantic genres are transformed into various word forms"
 msgstr ""
-
-#: .\templates\content\objective.html:226
-msgid "The dimension of the third"
-msgstr "La dimension du tiers"
 
 #: .\templates\content\opposition.html:3
 msgid "Certain dualities are opposed to each other"
@@ -2000,9 +1999,9 @@ msgid ""
 "Interiority and Economy</em>"
 msgstr ""
 "L'innovation la plus significative de <em>Autrement que l'Être</em> est de "
-"reconsidérer l'élémentaire et le négatif en mettant en avant les métaphores qui"
-"étaient clandestins -- cachés à la vue de tous -- dans le texte de Totalité"
-" et Infinity</em>, notamment ceux relatifs à la <em>SECTION II. "
+"reconsidérer l'élémentaire et le négatif en mettant en avant les métaphores "
+"quiétaient clandestins -- cachés à la vue de tous -- dans le texte de "
+"Totalité et Infinity</em>, notamment ceux relatifs à la <em>SECTION II. "
 "Intériorité et économie</em>"
 
 #: .\templates\content\three.html:7
@@ -2026,8 +2025,8 @@ msgid ""
 "With this rotated perspective, the flatness of the planar totality displays "
 "more clearly the curvature of the third dimension"
 msgstr ""
-"Avec cette perspective tournée, la planéité de la totalité planaire apparaît"
-"plus clairement la courbure de la troisième dimension"
+"Avec cette perspective tournée, la planéité de la totalité planaire "
+"apparaîtplus clairement la courbure de la troisième dimension"
 
 #: .\templates\content\three.html:10
 msgid "The mathematics of three"
@@ -2038,8 +2037,9 @@ msgid ""
 "The words “three” in English, “tres” and “trois” in French, and “tres” in "
 "Spanish all derive etymologically from “trans”, meaning “beyond”"
 msgstr ""
-"Les mots « three » en anglais, « tres » et « trois » en français, et « tres » en "
-"Les Espagnols dérivent tous étymologiquement de “trans”, qui signifie “au-delà”"
+"Les mots « three » en anglais, « tres » et « trois » en français, et « tres "
+"» en Les Espagnols dérivent tous étymologiquement de “trans”, qui signifie "
+"“au-delà”"
 
 #: .\templates\content\three.html:12
 msgid ""
@@ -2048,16 +2048,16 @@ msgid ""
 "“very” (compare Old Italian trafreddo “very cold”)."
 msgstr ""
 "tres (adv.) “très”, 1815, du français très, du vieux français tres “droit, "
-"précisément, complètement, très”, du latin trans “au-delà” (voir trans-), plus tard "
-"“très” (comparez le vieux trafreddo italien “très froid”)."
+"précisément, complètement, très”, du latin trans “au-delà” (voir trans-), "
+"plus tard “très” (comparez le vieux trafreddo italien “très froid”)."
 
 #: .\templates\content\three.html:13
 msgid ""
 "Wikipedia explains that the derivation of the number “three” from “trans” / "
 "“beyond” might be rooted in our prehistoric understanding of number"
 msgstr ""
-" Wikipédia explique que la dérivation du nombre « trois » de « trans » / "
-"«au-delà» pourrait être enraciné dans notre compréhension préhistorique du nombre"
+" Wikipédia explique que la dérivation du nombre « trois » de « trans » / «au-"
+"delà» pourrait être enraciné dans notre compréhension préhistorique du nombre"
 
 #: .\templates\content\three.html:14
 msgid ""
@@ -2070,49 +2070,55 @@ msgid ""
 "jungles, where western civilization's explorers have historical records of "
 "their first encounters with these indigenous people.[5]"
 msgstr ""
-"Il existe des preuves suggérant que les premiers hommes auraient pu utiliser le comptage"
-"des systèmes qui consistaient en “Un, Deux, Trois” et ensuite “Plusieurs” pour "
-"décrit les limites de comptage. Les premiers peuples avaient un mot pour décrire les "
-"les quantités de un, deux et trois, mais toute quantité au-delà était simplement désignée"
-"comme “Beaucoup”. Ceci est très probablement basé sur la prévalence de ce phénomène "
-"parmi les habitants de régions aussi disparates que l'Amazonie profonde et Bornéo"
-"des jungles, où les explorateurs de la civilisation occidentale ont des archives historiques sur"
-"leurs premières rencontres avec ces peuples indigènes.[5]"
-
+"Il existe des preuves suggérant que les premiers hommes auraient pu utiliser "
+"le comptagedes systèmes qui consistaient en “Un, Deux, Trois” et ensuite "
+"“Plusieurs” pour décrit les limites de comptage. Les premiers peuples "
+"avaient un mot pour décrire les les quantités de un, deux et trois, mais "
+"toute quantité au-delà était simplement désignéecomme “Beaucoup”. Ceci est "
+"très probablement basé sur la prévalence de ce phénomène parmi les habitants "
+"de régions aussi disparates que l'Amazonie profonde et Bornéodes jungles, où "
+"les explorateurs de la civilisation occidentale ont des archives historiques "
+"surleurs premières rencontres avec ces peuples indigènes.[5]"
 
 #: .\templates\content\three.html:15
 msgid ""
 "For Pythagoras, the Triad represented Harmony. Three is the sum of one "
 "(Unity) and two (Diversity). It is the first masculine number."
 msgstr ""
-"Pour Pythagore, la Triade représentait l'Harmonie. Trois est la somme d'un"
-"(Unité) et deux (Diversité). C'est le premier nombre masculin."
+"Pour Pythagore, la Triade représentait l'Harmonie. Trois est la somme "
+"d'un(Unité) et deux (Diversité). C'est le premier nombre masculin."
 
 #: .\templates\content\three.html:16
 msgid ""
 "For Euclid, two points determine a line. Three non-collinear points "
 "determine a triangle or a plane."
 msgstr ""
-"Pour Euclide, deux points déterminent une droite. Trois points non colinéaires"
-"déterminer un triangle ou un plan."
-
+"Pour Euclide, deux points déterminent une droite. Trois points non "
+"colinéairesdéterminer un triangle ou un plan."
 
 #: .\templates\content\three.html:17
 msgid ""
 "Levinas reorients the analyses of flatness by reconsidering all of its "
 "metaphors from the third-dimensional perspective of “the third”"
 msgstr ""
-"Levinas réoriente les analyses de la planéité en reconsidérant l'ensemble de ses "
-"métaphores du point de vue tridimensionnel du « tiers »"
+"Levinas réoriente les analyses de la planéité en reconsidérant l'ensemble de "
+"ses métaphores du point de vue tridimensionnel du « tiers »"
 
+#: .\templates\content\two_dimensional.html:4
+msgid "Two-by-Two Matrices"
+msgstr "Matrices deux par deux"
 
-#: .\templates\content\two_dimensional.html:2
-msgid "Two-Dimensional Curvature"
-msgstr "Courbure bidimensionnelle"
+#: .\templates\content\two_dimensional.html:5
+msgid ""
+"We can observe a 2x2 matrix of different perspectives that determine the "
+"metaphorical tensors employed in the text"
+msgstr ""
+"Nous pouvons observer une matrice 2x2 de différentes perspectives qui déterminent le "
+"tenseurs métaphoriques employés dans le texte"
 
-#: .\templates\content\two_dimensional.html:3
-msgid "Tensors"
-msgstr "Les tenseurs"
+#: .\templates\content\two_dimensional.html:8
+msgid "The tensors of the following four terms are parallel to each other"
+msgstr "Les tenseurs des quatre termes suivants sont parallèles entre eux"
 
 #: .\templates\content\two_dimensional.html:11
 #: .\templates\content\two_dimensional.html:46
@@ -2142,6 +2148,10 @@ msgstr "Haute"
 msgid "Subject"
 msgstr "Sujet"
 
+#: .\templates\content\two_dimensional.html:21
+msgid "The tensors of their polar opposite are also parallel to each other"
+msgstr "Les tenseurs de leur pôle opposé sont également parallèles entre eux"
+
 #: .\templates\content\two_dimensional.html:24
 #: .\templates\content\two_dimensional.html:47
 #: .\templates\content\two_dimensional.html:80
@@ -2170,6 +2180,14 @@ msgstr "Bas"
 msgid "Object"
 msgstr "Objet"
 
+#: .\templates\content\two_dimensional.html:36
+msgid ""
+"There is a homology between the Genre Sets containing the following polar "
+"pairs:"
+msgstr ""
+"Il existe une homologie entre les Genre Sets contenant le polaire suivant"
+"paires:"
+
 #: .\templates\content\two_dimensional.html:40
 msgid "Positive"
 msgstr "Positif"
@@ -2177,6 +2195,10 @@ msgstr "Positif"
 #: .\templates\content\two_dimensional.html:41
 msgid "Negative"
 msgstr "Négatif"
+
+#: .\templates\content\two_dimensional.html:69
+msgid "Welcome Matrix"
+msgstr "Matrice de bienvenue"
 
 #: .\templates\content\two_dimensional.html:73
 #: .\templates\content\two_dimensional.html:92
@@ -2191,6 +2213,18 @@ msgstr "Position de Soi"
 #: .\templates\content\two_dimensional.html:131
 msgid "Position of Other"
 msgstr "Position d'Autre"
+
+#: .\templates\content\two_dimensional.html:88
+msgid "Gender Matrix"
+msgstr "Matrice de Genre"
+
+#: .\templates\content\two_dimensional.html:107
+msgid "Height Matrix"
+msgstr "Matrice de hauteur"
+
+#: .\templates\content\two_dimensional.html:126
+msgid "Logical Position Matrix"
+msgstr "Matrice de Position Logique"
 
 #: .\templates\includes\info\count_alerts.html:4
 msgid "Word counts are approximate"
@@ -2544,6 +2578,12 @@ msgstr "Plus d'information et textes"
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur"
+
+#~ msgid "The dimension of the third"
+#~ msgstr "La dimension du tiers"
+
+#~ msgid "Tensors"
+#~ msgstr "Les tenseurs"
 
 #~ msgid "In the Self is High,"
 #~ msgstr "Dans le Soi est Haut,"
