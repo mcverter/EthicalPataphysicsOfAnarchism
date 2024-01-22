@@ -2,9 +2,7 @@
 <a id="toc"></a>
 {% block content %}
     {% page_toc page_title toc_sections %}
-    {% content_card "objective" %}
-    {% content_card "two_dimensional" %}
-    {% content_card "perspectivism" %}
-    {% content_card "flat" %}
-    {% content_card "three" %}
+    {% for section in toc_sections %}
+        {% content_card section.route %}
+    {% endfor %}
 {% endblock %}
