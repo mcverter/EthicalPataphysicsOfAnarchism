@@ -75,6 +75,6 @@ def bilingual_card(value: str):
     return {"component": value}
 
 
-@register.inclusion_tag('tags/../templates/content/base/content_card.html')
+@register.inclusion_tag('content/base/content_card.html')
 def content_card(route: str):
     return {"route": route, "title": get_page_title_for_route(route)}
