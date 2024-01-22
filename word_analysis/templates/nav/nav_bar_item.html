@@ -1,7 +1,7 @@
-<li
+<li data-toggle="tooltip" data-popper-placement="right" title="{{ item.explanation }}"
         {% if request.resolver_match.url_name|lower == item.route %}
-            class="active"
+    class="active"
         {% endif %}
-            class="nav-item">
+    class="nav-item">
     <a class="nav-link {{ classes }}" href="/{{ item.route }}">{{ item.title }}</a>
 </li>
