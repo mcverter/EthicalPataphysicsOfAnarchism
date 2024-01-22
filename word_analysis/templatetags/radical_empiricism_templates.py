@@ -16,8 +16,8 @@ def content_accordion(route):
 
 
 @register.inclusion_tag('nav/page_toc.html')
-def page_toc(page_name, toc_sections):
-    return {"page_name": page_name, "toc_sections": toc_sections}
+def page_toc(page_title, toc_sections):
+    return {"page_title": page_title, "toc_sections": toc_sections}
 
 
 @register.inclusion_tag('nav/site_map_accordion.html')

@@ -1,21 +1,30 @@
 from django.shortcuts import render
+from django.utils.translation import gettext as _
 
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
-from .hardcoded.site_nav_data import nav_items, get_subitems
+from .hardcoded.site_nav_data import get_subitems, get_page_title
 from .models import Word
 
 
 # top level pages
 def genre_theory(request):
-    return render(request, 'pages/genre_theory.html',
-                  {"nav_items": nav_items, "toc_sections": get_subitems("genre_theory")})
+    return render(request,
+                  'pages/genre_theory.html',
+                  {"toc_sections": get_subitems("genre_theory"),
+                   "page_title": get_page_title("genre_theory")
+                   })
 
 
 def summary(request):
-    return render(request, 'pages/summary_page.html', {"toc_sections": get_subitems("summary")})
+    return render(request,
+                  'pages/summary_page.html',
+                  {
+                      "toc_sections": get_subitems("summary"),
+                      "page_title": get_page_title("summary")
+                  })
 
 
 def technical(request):
