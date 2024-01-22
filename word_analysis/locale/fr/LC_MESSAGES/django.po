@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 01:03-0500\n"
+"POT-Creation-Date: 2024-01-22 11:40-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\hardcoded\site_nav_data.py:9 .\templates\content\abstract.html:12
+#: .\hardcoded\site_nav_data.py:18 .\templates\content\abstract.html:12
 #: .\templates\nav\bootstrap_experiments\nav_item_with_dropdown.html:13
 msgid "Project Summary"
 msgstr "Résumé du projet"
 
-#: .\hardcoded\site_nav_data.py:10
+#: .\hardcoded\site_nav_data.py:19
 msgid ""
 "A discussion of the Radical Empiricism Project, in which the advantages of a "
 "multidimensional tensor analysis of metaphorical manifolds is dimensionaland "
@@ -33,31 +33,28 @@ msgstr ""
 "dimensionnelle etles erreurs des affirmations unidimensionnelles de rang "
 "sont critiquées "
 
-#: .\hardcoded\site_nav_data.py:12 .\templates\content\objective.html:5
+#: .\hardcoded\site_nav_data.py:21 .\templates\content\objective.html:4
+#: .\templates\content\objective.html:6 .\templates\content\objective.html:15
 msgid "Objective"
 msgstr "L'objectif "
 
-#: .\hardcoded\site_nav_data.py:13 .\templates\content\two_dimensional.html:5
+#: .\hardcoded\site_nav_data.py:22 .\hardcoded\site_nav_data.py:23
 msgid "Two-Dimensional Polar Relations and Two-by-Two Matrices"
 msgstr "Relations polaires bidimensionnelles et matrices deux par deux "
 
-#: .\hardcoded\site_nav_data.py:14
-msgid "Two-Dimensional Polar Relations"
-msgstr "Relations polaires bidimensionnelles "
-
-#: .\hardcoded\site_nav_data.py:15 .\templates\content\flat.html:7
+#: .\hardcoded\site_nav_data.py:24
 msgid "The flat space of totality"
 msgstr "L'espace plat de la totalité "
 
-#: .\hardcoded\site_nav_data.py:16 .\templates\content\three.html:5
+#: .\hardcoded\site_nav_data.py:25
 msgid "Three-Dimensional Analysis"
 msgstr "Analyse tridimensionnelle "
 
-#: .\hardcoded\site_nav_data.py:18
+#: .\hardcoded\site_nav_data.py:27
 msgid "Theory of Genre Sets"
 msgstr "Théorie des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:19
+#: .\hardcoded\site_nav_data.py:28
 msgid ""
 "This page features many discussion: (1) An Introduction to Genre Sets, (2) "
 "An example analysis of a sentence from Totality and Infinity as a "
@@ -86,11 +83,92 @@ msgstr ""
 "[perversion, inversion, subversion, réversion] (7) Lecture Totalité et "
 "L'infini comme genèse et autrement que l'être comme exode "
 
-#: .\hardcoded\site_nav_data.py:20 .\templates\content\abstract.html:14
+#: .\hardcoded\site_nav_data.py:31
+msgid "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
+msgstr ""
+"Une analyse constellationnelle d'une phrase métaphoriquement kallidescopique"
+
+#: .\hardcoded\site_nav_data.py:32
+msgid "Group Set Membership"
+msgstr "Adhésion au groupe"
+
+#: .\hardcoded\site_nav_data.py:33 .\templates\content\abstract.html:2
+msgid "Abstract"
+msgstr "Resume "
+
+#: .\hardcoded\site_nav_data.py:34
+msgid "Introduction to Genre Sets"
+msgstr "Introduction aux ensembles de genres"
+
+#: .\hardcoded\site_nav_data.py:35
+msgid "Combination"
+msgstr "Combinaison"
+
+#: .\hardcoded\site_nav_data.py:36
+msgid "Repetition"
+msgstr "Répétition"
+
+#: .\hardcoded\site_nav_data.py:37
+msgid "Opposition"
+msgstr "Opposition"
+
+#: .\hardcoded\site_nav_data.py:38
+msgid "Intersection"
+msgstr "Intersection"
+
+#: .\hardcoded\site_nav_data.py:39
+msgid "Parallelism"
+msgstr "Parallélisme"
+
+#: .\hardcoded\site_nav_data.py:40
+msgid "Flat"
+msgstr "Plat"
+
+#: .\hardcoded\site_nav_data.py:41
+msgid "Two Dimensional"
+msgstr "Bidimensionnel"
+
+#: .\hardcoded\site_nav_data.py:42
+msgid "Curvature"
+msgstr "Courbure"
+
+#: .\hardcoded\site_nav_data.py:43
+msgid "Numbers"
+msgstr "Nombres"
+
+#: .\hardcoded\site_nav_data.py:44
+msgid "Addition"
+msgstr "Ajout"
+
+#: .\hardcoded\site_nav_data.py:45
+msgid "Perspectivism"
+msgstr "Perspectivisme"
+
+#: .\hardcoded\site_nav_data.py:46
+msgid "Zero"
+msgstr "Zéro"
+
+#: .\hardcoded\site_nav_data.py:47
+msgid "One"
+msgstr "Un"
+
+#: .\hardcoded\site_nav_data.py:48
+msgid "Duality"
+msgstr "Dualité"
+
+#: .\hardcoded\site_nav_data.py:49
+msgid "Three"
+msgstr "Trois"
+
+#: .\hardcoded\site_nav_data.py:50
+msgid "Four"
+msgstr "Quatre"
+
+#: .\hardcoded\site_nav_data.py:52 .\templates\content\abstract.html:14
 msgid "Word list"
 msgstr "Liste de mots "
 
-#: .\hardcoded\site_nav_data.py:21
+#: .\hardcoded\site_nav_data.py:53
 msgid ""
 "A list of all 16000 words in both Totality and Otherwise. Links to "
 "information pages about each word, including definitions and etymologies in "
@@ -100,28 +178,24 @@ msgstr ""
 "d'informations sur chaque mot, y compris les définitions et les étymologies "
 "dans Anglais et français, ainsi que les fréquences et lignes des deux textes "
 
-#: .\hardcoded\site_nav_data.py:22
+#: .\hardcoded\site_nav_data.py:54
 msgid "List of Genre Sets"
 msgstr "Liste des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:22
+#: .\hardcoded\site_nav_data.py:54
 msgid "A list of Genre Sets."
 msgstr "Une liste de groupes de genres. "
 
-#: .\hardcoded\site_nav_data.py:23 .\templates\content\abstract.html:22
+#: .\hardcoded\site_nav_data.py:55 .\templates\content\abstract.html:22
 #: .\templates\pages\technical_page.html:4
 #: .\templates\pages\technical_page.html:8
 msgid "Technical notes"
 msgstr "Notes techniques "
 
-#: .\hardcoded\site_nav_data.py:24
+#: .\hardcoded\site_nav_data.py:56
 msgid ""
 "Contact information, sources, current project status and future direction"
 msgstr "Coordonnées, sources, état actuel du projet et orientation future "
-
-#: .\templates\content\abstract.html:2
-msgid "Abstract"
-msgstr "Resume "
 
 #: .\templates\content\abstract.html:3
 msgid ""
@@ -270,90 +344,6 @@ msgstr ""
 " parce qu'il monte à nouveau (surgir) à nouveau (re), combinant ainsi "
 "“hauteur” et “récidive” de "
 
-#: .\templates\content\constellation.html:3
-#: .\templates\tags\constellation_example.html:4
-msgid "A constellational analysis of metaphorical manifolds"
-msgstr "Une analyse constellationnelle de variétés métaphoriques "
-
-#: .\templates\content\constellation.html:4
-#: .\templates\tags\constellation_example.html:5
-msgid "Example"
-msgstr "Exemple "
-
-#: .\templates\content\constellation.html:7
-#: .\templates\tags\constellation_example.html:8
-msgid "Group Decomposition"
-msgstr "Décomposition du groupe "
-
-#: .\templates\content\constellation.html:15
-#: .\templates\pages\word_list_page.html:8
-msgid "Word"
-msgstr "Mot "
-
-#: .\templates\content\constellation.html:16
-#: .\templates\pages\word_detail_page.html:39
-msgid "Categories"
-msgstr "Catégories "
-
-#: .\templates\content\constellation.html:17
-msgid "Notes"
-msgstr "Remarques "
-
-#: .\templates\content\constellation.html:29
-msgid "singular, also a homonym for “there” (là) in French, so "
-msgstr "singulier, également homonyme de “là” en français, donc "
-
-#: .\templates\content\constellation.html:56
-#: .\templates\content\constellation.html:109
-msgid "See above"
-msgstr "Voir ci-dessus "
-
-#: .\templates\content\constellation.html:100
-msgid "Zero-dimensional space-time."
-msgstr "Espace-temps de dimension zéro. "
-
-#: .\templates\content\constellation.html:101
-msgid "points on a map"
-msgstr "points sur une carte "
-
-#: .\templates\content\constellation.html:102
-msgid "points of time"
-msgstr "points par moment "
-
-#: .\templates\content\constellation.html:120
-msgid "One-dimensional space"
-msgstr "Espace unidimensionnel "
-
-#: .\templates\content\constellation.html:160
-msgid ""
-"reflexive verbs have their own logic related to the reflexivity of the "
-"reduction, to the asymmetry that occurs because one can never see oneself "
-"from the outside: The Self can only see the Other. Only the Other can see "
-"the Self. The Self can never view the Self from the inside. The Self can "
-"only view the Self as an Other"
-msgstr ""
-" Les verbes réfléchis ont leur propre logique liée à la réflexivité de la "
-"réduction, à l'asymétrie qui se produit parce qu'on ne peut jamais se voir "
-"de l'extérieur : Le Soi ne peut voir que l'Autre. Seul l'Autre peut voir le "
-"Soi. Le Soi ne peut jamais voir le Soi de l'intérieur. Le Soi ne peut se "
-"voir que comme un Autre. "
-
-#: .\templates\content\constellation.html:174
-msgid ""
-"both space intervals, time intervals, geodesic neigborhoods, as well as a "
-"home for the family"
-msgstr ""
-" à la fois des intervalles spatiaux, des intervalles de temps, des quartiers "
-"géodésiques, ainsi qu'une maison pour la famille "
-
-#: .\templates\content\constellation.html:271
-msgid ""
-"The survivor is the one who lives on top of the one who died, who lives out "
-"the Beyond of the one who he has murdered, the father of the past"
-msgstr ""
-" Le survivant est celui qui vit au-dessus de celui qui mort, qui vit l’Au- "
-"delà de celui qu'il a assassiné, le père du passé "
-
 #: .\templates\content\duality.html:2
 msgid "The principle of duality"
 msgstr "Le principe de dualité "
@@ -376,7 +366,7 @@ msgid "and others: namely ideas such as"
 msgstr "et d'autres : à savoir des idées telles que "
 
 #: .\templates\content\duality.html:19 .\templates\content\duality.html:21
-#: .\templates\content\objective.html:9 .\templates\content\objective.html:21
+#: .\templates\content\objective.html:10 .\templates\content\objective.html:25
 msgid "and"
 msgstr "et "
 
@@ -392,7 +382,7 @@ msgstr "aussi appelé "
 msgid "in French"
 msgstr "en français "
 
-#: .\templates\content\duality.html:25 .\templates\pages\genre_theory.html:11
+#: .\templates\content\duality.html:25 .\templates\content\membership.html:10
 #: .\templates\pages\technical_page.html:31
 msgid "or"
 msgstr "ou "
@@ -758,7 +748,7 @@ msgstr ""
 " précède subjectivité. La relation explorée est comprise entre 0 et 1 et non "
 "entre 1 et 2 "
 
-#: .\templates\content\flat.html:4
+#: .\templates\content\flat.html:3
 msgid ""
 "What we wish to point out here is that the not just a polarity but a within "
 "terminological GGs both within texts and between his Relations will be "
@@ -767,7 +757,7 @@ msgid ""
 "semantic genres are transformed into various word forms"
 msgstr " "
 
-#: .\templates\content\flat.html:8
+#: .\templates\content\flat.html:5
 msgid ""
 "Levinas’s work is most typically associated with the critique of the flat "
 "projection the grid of points plotted on a map in Euclidean rectilinear "
@@ -779,7 +769,7 @@ msgstr ""
 "rectiligne euclidien, dans une grille cartésienne, disposés en une totalité "
 "intégrable dans un tout. "
 
-#: .\templates\content\flat.html:10
+#: .\templates\content\flat.html:7
 msgid ""
 "He borrows the notion of space time curvature from General Relativity. As "
 "elaborated by Einstein, Poincare, and Minkowski, general Relativity explains "
@@ -801,7 +791,7 @@ msgstr ""
 "planètes trouvent le chemin le moins actif sous forme de chemins elliptiques "
 "autour de lui "
 
-#: .\templates\content\flat.html:12
+#: .\templates\content\flat.html:9
 msgid ""
 "We can see a similar dynamic in Levinas’s usage of the idea of “curvature” "
 "effected by height and weight"
@@ -809,17 +799,17 @@ msgstr ""
 " Nous pouvons observer une dynamique similaire dans l’utilisation par "
 "Levinas de l’idée de « courbure » affectée par la taille et le poids "
 
-#: .\templates\content\flat.html:14
+#: .\templates\content\flat.html:11
 msgid ""
 "In “Time and the Other”, Levinas describes the establishment of a place, the"
 msgstr ""
 " Dans « Le Temps et l’Autre », Levinas décrit l’instauration d'un lieu, le "
 
-#: .\templates\content\flat.html:15
+#: .\templates\content\flat.html:12
 msgid "of"
 msgstr "de "
 
-#: .\templates\content\flat.html:18
+#: .\templates\content\flat.html:15
 msgid ""
 "for a person through the double movement of hypostasis. This is a duality of "
 "the Me and the Self. It is also a dimensional duality: to maintain a "
@@ -1110,7 +1100,98 @@ msgstr ""
 " appartient à MATHEMATICS et GENÈSE. On peut observer un mouvement parallèle "
 "le long de ces vecteurs métaphoriques "
 
-#: .\templates\content\objective.html:7
+#: .\templates\content\membership.html:3 .\templates\content\membership.html:9
+msgid "For example"
+msgstr "Par exemple "
+
+#: .\templates\content\membership.html:5
+msgid "Suffix"
+msgstr "Suffixe "
+
+#: .\templates\content\membership.html:5
+msgid "In"
+msgstr "En "
+
+#: .\templates\content\membership.html:7
+msgid ""
+"suffix 'ance' denotes nominalization whereas the infinitive is both nominal "
+"and verbal. All words with this suffix belong to ONTOLOGY"
+msgstr ""
+" le suffixe 'ance' dénote une nominalisation alors que l'infinitif est à la "
+"fois nominalet verbal. Tous les mots avec ce suffixe appartiennent à "
+"l'ONTOLOGIE "
+
+#: .\templates\content\membership.html:9
+msgid "Prefix"
+msgstr "Préfixe "
+
+#: .\templates\content\membership.html:9
+msgid ""
+"The prefix 'sur' means above and connotes height. All words that begin with "
+"this prefix belong to MATHEMATICS."
+msgstr ""
+" Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
+"commençant par ce préfixe appartient aux MATHÉMATIQUES. "
+
+#: .\templates\content\membership.html:19
+msgid "Infinitives and Etymological roots"
+msgstr "Infinitifs et racines étymologiques "
+
+#: .\templates\content\membership.html:21
+msgid ""
+"In his 1932 article that introduced Heidegger to the francophone world, "
+"Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
+"Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take "
+"this term in its etymological sense”35"
+msgstr ""
+" Dans son article de 1932 qui présentait Heidegger au monde francophone, "
+"Martin Heidegger et l'ontologie, Levinas explique sa décision de "
+"traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
+"souhaite “prendrece terme dans son sens étymologique”35 "
+
+#: .\templates\content\membership.html:24
+msgid ""
+"In his later works critical of Heidegger, he will critique the notion of the "
+"hand as being the primary mode through which relation with the world is "
+"effectuated. Instead, he makes a twofold division.  The primary mode of "
+"relation with the world is through the mouth"
+msgstr ""
+" Dans ses derniers travaux critiques à l'égard de Heidegger, il critiquera "
+"la notion de la main comme étant le mode premier par lequel s'effectue la "
+"relation avec le mondeeffectué. Au lieu de cela, il fait une double "
+"division. Le mode principal de la relation avec le monde passe par la bouche "
+
+#: .\templates\content\membership.html:27
+msgid ""
+"He secondary relationhip to the world as exterioirty is explored through the "
+"hand in the sense of maintenir, to maintain.  Words with the same infinitive "
+"and the same etymological roots belong to the same Thematic Genre"
+msgstr ""
+" La relation secondaire au monde en tant qu'extérieur est explorée à travers "
+"le main au sens de maintenir, maintenir. Mots avec le même infinitifet les "
+"mêmes racines étymologiques appartiennent au même genre thématique "
+
+#: .\templates\content\membership.html:35
+#: .\templates\includes\summary\membership.html:31
+msgid "Semantic themes"
+msgstr "Thèmes sémantiques "
+
+#: .\templates\content\membership.html:41
+#: .\templates\includes\summary\membership.html:21
+msgid "Prefixes"
+msgstr "Préfixes "
+
+#: .\templates\content\membership.html:46
+#: .\templates\includes\summary\membership.html:25
+msgid "Suffixes"
+msgstr "Suffixes "
+
+#: .\templates\content\membership.html:51
+#: .\templates\includes\summary\membership.html:28
+msgid "Parts of speech"
+msgstr "Parties du discours "
+
+#: .\templates\content\objective.html:8
 msgid ""
 "To map the relations within and between multiple dimensions of Levinas's "
 "metaphorical terminology, both within and between his two major texts"
@@ -1119,15 +1200,15 @@ msgstr ""
 "Levinas terminologie métaphorique, à la fois à l'intérieur et entre ses deux "
 "textes majeurs "
 
-#: .\templates\content\objective.html:8
+#: .\templates\content\objective.html:9
 msgid "<em>Totality and Infinity</em>"
 msgstr "<em>Totalité et infini</em> "
 
-#: .\templates\content\objective.html:10
+#: .\templates\content\objective.html:11
 msgid "<em>Otherwise than Being</em>"
 msgstr "<em>Autrement que l'être</em> "
 
-#: .\templates\content\objective.html:11
+#: .\templates\content\objective.html:12
 msgid ""
 "We will do so by sorting the words in Levinas's texts into Genre Sets (GS) "
 "which correspond to the thematics that he explores in his work such as "
@@ -1141,15 +1222,16 @@ msgstr ""
 "mieux remarquerque, tout au long de ses textes, les mots contenus dans ces "
 "Genrestransformer selon des modèles caractéristiques "
 
-#: .\templates\content\objective.html:17
+#: .\templates\content\objective.html:19 .\templates\content\objective.html:21
+#: .\templates\content\objective.html:138
 msgid "Discussion"
 msgstr "Discussion "
 
-#: .\templates\content\objective.html:20
+#: .\templates\content\objective.html:24
 msgid "Tensor Transformation Patterns: Parallelism"
 msgstr "Modèles de transformation tensorielle: Parallélisme "
 
-#: .\templates\content\objective.html:21
+#: .\templates\content\objective.html:25
 msgid ""
 "Two examples of such patterns are parallelism and intersection. Words from "
 "different Genre Sets often transform in parallel. For example, Levinas "
@@ -1160,7 +1242,7 @@ msgstr ""
 "Levinas coordonnées {'positif', 'négatif'} et {'naissance', 'décès'}, "
 "membres des GS "
 
-#: .\templates\content\objective.html:21
+#: .\templates\content\objective.html:25
 msgid ""
 "such that the words 'positive' and 'birth' occur similarly and the words "
 "'negative' and 'death' occur similarly."
@@ -1169,11 +1251,11 @@ msgstr ""
 "même manière et que les mots« négatif » et « mort» se produisent de la même "
 "manière. "
 
-#: .\templates\content\objective.html:26
+#: .\templates\content\objective.html:30
 msgid "Tensor Transformation Patterns: Intersection"
 msgstr "Modèles de transformation tensorielle: intersection "
 
-#: .\templates\content\objective.html:27
+#: .\templates\content\objective.html:31
 msgid ""
 "Genre Sets also can intersect in single words: for example, the word "
 "'survivant' expresses a combination of the theme of height from"
@@ -1182,15 +1264,15 @@ msgstr ""
 "par exemple, le mot 'survivant' exprime une combinaison du thème de la "
 "hauteur de "
 
-#: .\templates\content\objective.html:27
+#: .\templates\content\objective.html:31
 msgid "and combines it with the theme of living from"
 msgstr "et le combine avec le thème de vivre de "
 
-#: .\templates\content\objective.html:32
+#: .\templates\content\objective.html:36
 msgid "Summary of tensor analysis"
 msgstr "Résumé de l'analyse tensorielle "
 
-#: .\templates\content\objective.html:33
+#: .\templates\content\objective.html:37
 msgid ""
 "We can summarize our these examples of parallelism and combination among "
 "Genre Sets  as follows:"
@@ -1198,7 +1280,7 @@ msgstr ""
 " Nous pouvons résumer nos exemples de parallélisme et de combinaison entre "
 "Les genres sont définis comme suite: "
 
-#: .\templates\content\objective.html:34
+#: .\templates\content\objective.html:38
 msgid ""
 "Levinas considers birth to be a positivity, the “plus one” of the Good, that "
 "establishes the height of a living substantive subject."
@@ -1206,11 +1288,11 @@ msgstr ""
 " Levinas considère la naissance comme une positivité, le « plus un » du "
 "Bien, qui établit la hauteur d'un sujet substantiel vivant. "
 
-#: .\templates\content\objective.html:39
+#: .\templates\content\objective.html:43
 msgid "Polar opposition distinguished from war"
 msgstr "L'opposition polaire se distingue de la guerre "
 
-#: .\templates\content\objective.html:40
+#: .\templates\content\objective.html:44
 msgid ""
 "Most importantly, each important thematic in Levinas's text is paired with a "
 "polar opposite -- height with depth, maternity with paternity, and so on. "
@@ -1236,11 +1318,11 @@ msgstr ""
 "meurtrière que “Levinas ne peut pas vivre avecsoit Hegel, soit Derrida” et "
 "ainsi de suite. "
 
-#: .\templates\content\objective.html:45
+#: .\templates\content\objective.html:49
 msgid "Polar opposition distinguished from privilege"
 msgstr "L'opposition polaire se distingue du privilège "
 
-#: .\templates\content\objective.html:46
+#: .\templates\content\objective.html:50
 msgid ""
 "This misunderstanding of polar opposition also affects many earnest attempts "
 "to understand Levinas as well. For example, a myriad of papers and books "
@@ -1258,11 +1340,11 @@ msgstr ""
 "maternel, ou tout autre argument similaire qui affirme  Levinas promeut un "
 "pôle d'une opposition donnée au détriment du autre pôle. "
 
-#: .\templates\content\objective.html:51
+#: .\templates\content\objective.html:55
 msgid "Polar opposition distinguished from rank"
 msgstr "L'opposition polaire se distingue du rang "
 
-#: .\templates\content\objective.html:52
+#: .\templates\content\objective.html:56
 msgid ""
 "However, such a reading of polarity in Levinas as hatred or murder or "
 "privilege mistakenly introduces the idea of rank into opposition. But the "
@@ -1284,13 +1366,13 @@ msgstr ""
 "de la morale avec un Une volonté de puissance qui découle initialement du "
 "“pathos de la distance” qui classe les forts contre les faibles. "
 
-#: .\templates\content\objective.html:57
+#: .\templates\content\objective.html:61
 msgid "Rank, Domination, and Violence do not belong in Levinas commentary"
 msgstr ""
 " Le rang, la domination et la violence n'ont pas leur place dans le "
 "commentaire de Levinas "
 
-#: .\templates\content\objective.html:58
+#: .\templates\content\objective.html:62
 msgid ""
 "We disavow any reading of Levinas that operates according to a logic of rank "
 "and domination or which construes his work as a series of attacks."
@@ -1298,12 +1380,12 @@ msgstr ""
 " Nous désavouons toute lecture de Levinas qui s'opère selon une logique de "
 "ranget de domination ou qui construit son œuvre comme une série d'attaques. "
 
-#: .\templates\content\objective.html:63
+#: .\templates\content\objective.html:67
 msgid "How do we understand Levinas's apparently heirarchical language?"
 msgstr ""
 " Comment comprenons-nous le langage apparemment hiérarchique de Levinas ? "
 
-#: .\templates\content\objective.html:64
+#: .\templates\content\objective.html:68
 msgid ""
 "That said, we must express our sympathy for those who read Levinas in this "
 "manner because he himself seems to employ heirarchical metaphors within "
@@ -1315,11 +1397,11 @@ msgstr ""
 "hiérarchiques à l'intérieur<em>Totalité et infini</em>, la métaphore de la "
 "“hauteur” (une membre de "
 
-#: .\templates\content\objective.html:64
+#: .\templates\content\objective.html:68
 msgid ") and the metaphor of “first” (a member of "
 msgstr ") et la métaphore de “premier” (un membre de "
 
-#: .\templates\content\objective.html:64
+#: .\templates\content\objective.html:68
 msgid ""
 "But it is overwhelmingly clear that Levinas's project throughout is to "
 "question the prioirty of unitary being and of first-person subjectivity, "
@@ -1340,11 +1422,11 @@ msgstr ""
 "métaphorique qui est apparemment cachée à la vue de tous dans le texte "
 "de<em>Totalité et Infini</em> "
 
-#: .\templates\content\objective.html:69
+#: .\templates\content\objective.html:73
 msgid "Levinas's subversion of heirarchy"
 msgstr "La subversion de la hiérarchie par Levinas "
 
-#: .\templates\content\objective.html:70
+#: .\templates\content\objective.html:74
 msgid ""
 "Here it is useful to notice that Levinas explicitly expresses his "
 "overturning of this heirarchy, his subversion of the motif of height within "
@@ -1354,7 +1436,7 @@ msgstr ""
 "renversement de cette hiérarchie, sa subversion du motif de la hauteur "
 "intérieure<em>Autrement que l'Être</em>. Il cite Jean Wahl : "
 
-#: .\templates\content\objective.html:71
+#: .\templates\content\objective.html:75
 msgid ""
 "There is something to be said, Novalis wrote, in favor of passivity. It is "
 "significant that one of Novalis’ contemporaries, Maine de Brain, who wished "
@@ -1368,11 +1450,11 @@ msgstr ""
 "philosophede deux passivités, la plus basse et la plus haute. Mais la plus "
 "basse est-elle inférieure à le plus haut? "
 
-#: .\templates\content\objective.html:76
+#: .\templates\content\objective.html:80
 msgid "Opposite as polar positive positions"
 msgstr "Opposé aux positions polaires positives "
 
-#: .\templates\content\objective.html:77
+#: .\templates\content\objective.html:81
 msgid ""
 "How then should we understand polar opposites in the work of Levinas? "
 "Perhaps we can first notice that alredy the word “opposite” implies the "
@@ -1391,11 +1473,11 @@ msgstr ""
 "naissance à la mort à la renaissance, de soi à l'autre à soi, de de la "
 "hauteur à la misère jusqu'à la hauteur. "
 
-#: .\templates\content\objective.html:82
+#: .\templates\content\objective.html:86
 msgid "Non-Euclidean Curvature"
 msgstr "Courbure non euclidienne "
 
-#: .\templates\content\objective.html:83
+#: .\templates\content\objective.html:87
 msgid ""
 "We can go further in our understanding by employing noticing that Levinas "
 "employs the term “curvature” and “dimension” taken from the non-Euclidean "
@@ -1409,11 +1491,11 @@ msgstr ""
 "dimensionsdans <em>Totalité et Infini</em>, notamment pour notre discussion "
 "actuelle, les dimensions de hauteur et de profondeur. "
 
-#: .\templates\content\objective.html:89
+#: .\templates\content\objective.html:93
 msgid "Curvature and asymmetry"
 msgstr "Courbure et asymétrie "
 
-#: .\templates\content\objective.html:90
+#: .\templates\content\objective.html:94
 msgid ""
 "When we explore the notion of curvature we notice the importance of how, "
 "throughout <em>Totality and Infinity</em>, Levinas is constantly shifting "
@@ -1431,11 +1513,11 @@ msgstr ""
 "perspectivisme à travers <em>Totalité et Infini</em> quand il décrit "
 "l'asymétrie métaphysique comme l'impossibilitéd'auto-réflexion directe. "
 
-#: .\templates\content\objective.html:96
+#: .\templates\content\objective.html:100
 msgid "Gravitational / Magnetic polarities"
 msgstr "Polarités gravitationnelles/magnétiques "
 
-#: .\templates\content\objective.html:97
+#: .\templates\content\objective.html:101
 msgid ""
 "This polarity is effectuated by the confrontation of two separate points of "
 "gravity and transform the tensors of the terms around them"
@@ -1443,7 +1525,7 @@ msgstr ""
 " Cette polarité s'effectue par la confrontation de deux points distincts de "
 "la gravité et transformer les tenseurs des termes qui les entourent "
 
-#: .\templates\content\objective.html:98
+#: .\templates\content\objective.html:102
 msgid ""
 "Levinas expresses this idea in terms of electromagnetics rather than "
 "gravitation in <em>Totality and Infinity</em>"
@@ -1451,11 +1533,11 @@ msgstr ""
 " Levinas exprime cette idée en termes d'électromagnétique plutôt que "
 "gravitation dans <em>Totalité et Infini</em> "
 
-#: .\templates\content\objective.html:104
+#: .\templates\content\objective.html:108
 msgid "Tensor bundles of metaphoric transformation"
 msgstr "Faisceaux tensoriels de transformation métaphorique "
 
-#: .\templates\content\objective.html:105
+#: .\templates\content\objective.html:109
 msgid ""
 "Two dimensions are in movement through the the relationship with the "
 "opposite constructs a polar relationship between these which affect the "
@@ -1469,15 +1551,15 @@ msgstr ""
 "retracer la transformation des Genres à travers la transmutation de "
 "métaphores "
 
-#: .\templates\content\objective.html:110
+#: .\templates\content\objective.html:114
 msgid "Metaphoric Transformations of GENÈSES"
 msgstr "Transformations métaphoriques de GENÈSES "
 
-#: .\templates\content\objective.html:111
+#: .\templates\content\objective.html:115
 msgid "Let us examine this topic by revisiting the notion of the Genre Set"
 msgstr "Examinons ce sujet en revisitant la notion de Genre Set "
 
-#: .\templates\content\objective.html:111
+#: .\templates\content\objective.html:115
 msgid ""
 ", a genre set that encompasses the words 'birth' and 'death'.  How do these "
 "two words function in the narrative described by Levinas.  The narrative "
@@ -1514,11 +1596,11 @@ msgstr ""
 "de la mort par des rapports sexuels avec ce même féminin, et devient père "
 "d'un enfant quiest ressuscité comme un frère parmi des frères. "
 
-#: .\templates\content\objective.html:116
+#: .\templates\content\objective.html:120
 msgid "Perspectival transformations"
 msgstr "Transformations de perspective "
 
-#: .\templates\content\objective.html:117
+#: .\templates\content\objective.html:121
 msgid ""
 "Several things must be said about this narrative. First, each stage "
 "described in this process entails a certain shift in perspective and "
@@ -1534,25 +1616,25 @@ msgstr ""
 "ensembles de genres à toutes les étapes de ce récit, mais modifie les "
 "positions des deuxpôles d'une manière déterminée. "
 
-#: .\templates\content\objective.html:122
+#: .\templates\content\objective.html:126
 msgid "Tensor bundle enumeration"
 msgstr "Énumération du bundle de tenseurs "
 
-#: .\templates\content\objective.html:123
+#: .\templates\content\objective.html:127
 msgid ""
 "The purpose of the current project is to enumerate these tensor "
 "transformations"
 msgstr "Le but du projet actuel est d'énumérer ces tenseurstransformations "
 
-#: .\templates\content\objective.html:128
+#: .\templates\content\objective.html:132
 msgid "Some important transformations"
 msgstr "Quelques transformations importantes "
 
-#: .\templates\content\objective.html:129
+#: .\templates\content\objective.html:133
 msgid "We can outline several important transformations"
 msgstr "Nous pouvons décrire plusieurs transformations importantes "
 
-#: .\templates\content\objective.html:130
+#: .\templates\content\objective.html:134
 msgid ""
 "First, it is important to point out that two of the most important polar "
 "terms, Self and Other, (1) always assume both positions of each pole, and "
@@ -1565,15 +1647,17 @@ msgstr ""
 "positions affectent le une perspective particulière de manière "
 "bidimensionnelle. "
 
-#: .\templates\content\objective.html:131
+#: .\templates\content\objective.html:135
 msgid "Let's take these proposals one at a time."
 msgstr "Prenons ces propositions une par une. "
 
-#: .\templates\content\objective.html:136
+#: .\templates\content\objective.html:142
+#: .\templates\content\objective.html:144
+#: .\templates\content\objective.html:148
 msgid "Ambiguity and ambisexuality"
 msgstr "Ambiguïté et ambisexualité "
 
-#: .\templates\content\objective.html:137
+#: .\templates\content\objective.html:145
 msgid ""
 "The ambiguity of assuming both positions is a recurrent theme throughout "
 "Levinas's texts. It is perhaps most obvious in Levinas's discussions of his "
@@ -1585,11 +1669,13 @@ msgstr ""
 "Levinas sur son des discussions polaires sur le genre, quand il évoque la "
 "confusion de la virilitéde la subjectivité subissant la volupté de l'éros "
 
-#: .\templates\content\objective.html:143
+#: .\templates\content\objective.html:152
+#: .\templates\content\objective.html:154
+#: .\templates\content\objective.html:158
 msgid "The welcome of the feminine Other"
 msgstr "L'accueil de l'Autre féminin "
 
-#: .\templates\content\objective.html:144
+#: .\templates\content\objective.html:155
 msgid ""
 "But this gender doubling occurs well before his discussion of Eros. For "
 "example, Levinas introduces the idea of the feminine as welcome, saying:"
@@ -1598,11 +1684,13 @@ msgstr ""
 "CarPar exemple, Levinas introduit l'idée du féminin comme bienvenu en "
 "disant : "
 
-#: .\templates\content\objective.html:150
+#: .\templates\content\objective.html:162
+#: .\templates\content\objective.html:164
+#: .\templates\content\objective.html:168
 msgid "The welcome of the feminine Self"
 msgstr "L'accueil du Soi féminin "
 
-#: .\templates\content\objective.html:151
+#: .\templates\content\objective.html:165
 msgid ""
 "We can then only assume that the it is the Self who is positioned as the "
 "feminine with respect to the masculine Other sseveral pages later: "
@@ -1610,11 +1698,13 @@ msgstr ""
 " Nous ne pouvons alors que supposer que c'est le Soi qui se positionne comme "
 "le féminin par rapport au masculin Autres plusieurs pages plus tard : "
 
-#: .\templates\content\objective.html:157
+#: .\templates\content\objective.html:172
+#: .\templates\content\objective.html:174
+#: .\templates\content\objective.html:177
 msgid "Home and Position"
 msgstr "Maison et Position "
 
-#: .\templates\content\objective.html:158
+#: .\templates\content\objective.html:175
 msgid ""
 "What does the home signify for Levinas?  For Levinas, the home signifies the "
 "position of any positive entity, Self or Other.  It is the “there” or the "
@@ -1630,11 +1720,13 @@ msgstr ""
 "subjectivité, la substance et l'identité, dans la dimension de la "
 "hauteurd'un sujet posé dans une position définitive dans l'espace-temps "
 
-#: .\templates\content\objective.html:163
+#: .\templates\content\objective.html:181
+#: .\templates\content\objective.html:183
+#: .\templates\content\objective.html:190
 msgid "The nourishing womb"
 msgstr "La matrice nourrissant "
 
-#: .\templates\content\objective.html:164
+#: .\templates\content\objective.html:184
 msgid ""
 "We can understand this home not only as the place for the adult married man "
 "but also as the womb for the child"
@@ -1642,7 +1734,7 @@ msgstr ""
 " Nous pouvons comprendre cette maison non seulement comme le lieu réservé à "
 "l'homme marié adultemais aussi comme ventre pour l'enfant "
 
-#: .\templates\content\objective.html:165
+#: .\templates\content\objective.html:185
 msgid ""
 "We can understand the element as the oceanic womb that nourishes in "
 "<em>Totality and Infinity</em>"
@@ -1650,7 +1742,7 @@ msgstr ""
 " Nous pouvons comprendre l'élément comme le ventre océanique qui se "
 "nourrit<em>Totalité et infini</em> "
 
-#: .\templates\content\objective.html:167
+#: .\templates\content\objective.html:187
 msgid ""
 "We can understand this metaphor of the womb in the for-the-other in "
 "<em>Otherwise than Being</em>"
@@ -1658,21 +1750,25 @@ msgstr ""
 " On peut comprendre cette métaphore de la matrice dans le pour-l'autre dans "
 "<em>Autrement que l'Être</em> "
 
-#: .\templates\content\objective.html:173
+#: .\templates\content\objective.html:194
+#: .\templates\content\objective.html:196
+#: .\templates\content\objective.html:199
 msgid "Impregnation"
 msgstr "Imprégnation "
 
-#: .\templates\content\objective.html:174
+#: .\templates\content\objective.html:197
 msgid "Similarly we can find references to impregnation throughout the text"
 msgstr ""
 " De même, nous pouvons trouver des références à l'imprégnation dans tout le "
 "texte "
 
-#: .\templates\content\objective.html:179
+#: .\templates\content\objective.html:203
+#: .\templates\content\objective.html:205
+#: .\templates\content\objective.html:213
 msgid "Host and Hostage"
 msgstr "Hôte et otage "
 
-#: .\templates\content\objective.html:180
+#: .\templates\content\objective.html:206
 msgid ""
 "We can also use the metaphor of the house to explore some of Levinas's more "
 "hyperbolic language in <em>Otherwise than Being</em>"
@@ -1680,7 +1776,7 @@ msgstr ""
 " On peut aussi utiliser la métaphore de la maison pour explorer certaines "
 "des plus de Levinaslangage hyperbolique en <em>Autrement qu'Être</em> "
 
-#: .\templates\content\objective.html:181
+#: .\templates\content\objective.html:207
 msgid ""
 "In French, the word “host” is contronym, a word that means it opposite.  It "
 "signifies both the person who welcomes and the person who is welcomed"
@@ -1688,11 +1784,11 @@ msgstr ""
 " En français, le mot « hôte » est un contronyme, un mot qui signifie son "
 "contraire.signifie à la fois celui qui accueille et celui qui est accueilli "
 
-#: .\templates\content\objective.html:182
+#: .\templates\content\objective.html:208
 msgid "In Totality and Infinity, he uses this word to characterize the subject"
 msgstr "Dans Totalité et Infini, il utilise ce mot pour caractériser le sujet "
 
-#: .\templates\content\objective.html:184
+#: .\templates\content\objective.html:210
 msgid ""
 "In Otherwise than Being, he uses this word to characterize the subject as "
 "vulnerability"
@@ -1775,11 +1871,7 @@ msgstr "Quand Levinas discute "
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de "
 
-#: .\templates\content\perspectivism.html:5
-msgid "Four perspectives on every genre"
-msgstr "Quatre perspectives sur chaque genre "
-
-#: .\templates\content\perspectivism.html:7
+#: .\templates\content\perspectivism.html:4
 msgid ""
 "The two-by-two matrices discussed above,in which a polar position can take "
 "be inhabited by either Self or Other, can be broken down into four distinct "
@@ -1805,11 +1897,11 @@ msgstr ""
 "d'opposition peut aussi être comprise comme un quadruple retournement. Le la "
 "conversation avec l'autre délimite un ensemble de perspectives conversions "
 
-#: .\templates\content\perspectivism.html:11
+#: .\templates\content\perspectivism.html:8
 msgid "Inversion"
 msgstr "Inversion "
 
-#: .\templates\content\perspectivism.html:12
+#: .\templates\content\perspectivism.html:9
 msgid ""
 "The first perspective is an inversion of this subjective point of view, in "
 "which I gaze upwards at the Other. The perspective is the most noticeable "
@@ -1842,11 +1934,11 @@ msgstr ""
 "“transcendance de l'antagoniste” qui me menace de mort qui “ vient de "
 "l'autre comme une tyrannie ”. "
 
-#: .\templates\content\perspectivism.html:16
+#: .\templates\content\perspectivism.html:13
 msgid "Perversion"
 msgstr "Perversion "
 
-#: .\templates\content\perspectivism.html:17
+#: .\templates\content\perspectivism.html:14
 msgid ""
 "The second perspective, perversion, occurs when I look downwards at the "
 "other person from my relative height, such as when I perceive the "
@@ -1865,11 +1957,11 @@ msgstr ""
 "matérielle comme un “appel à mes pouvoirs”, un appel à ma subjectivité "
 "souveraine pour apporter une aide matérielle. "
 
-#: .\templates\content\perspectivism.html:21
+#: .\templates\content\perspectivism.html:18
 msgid "Subversion"
 msgstr "Subversion "
 
-#: .\templates\content\perspectivism.html:22
+#: .\templates\content\perspectivism.html:19
 msgid ""
 "The third perspective, subversion, occurs when the other person views the "
 "self in its lowness. The dynamic of being-underneath can already be "
@@ -1894,11 +1986,11 @@ msgstr ""
 "jusqu'aux blessures dont on meurt, dénuder jusqu'à la mort, être comme une "
 "vulnérabilité.” "
 
-#: .\templates\content\perspectivism.html:26
+#: .\templates\content\perspectivism.html:23
 msgid "Reversion"
 msgstr "Reversion "
 
-#: .\templates\content\perspectivism.html:27
+#: .\templates\content\perspectivism.html:24
 msgid ""
 "The fourth perspective, reversion, occurs when the self is viewed in its "
 "height"
@@ -1906,7 +1998,7 @@ msgstr ""
 " La quatrième perspective, la réversion, se produit lorsque le soi est vu à "
 "sa hauteur. "
 
-#: .\templates\content\perspectivism.html:28
+#: .\templates\content\perspectivism.html:25
 msgid ""
 "From the viewpoint of the Other, the self-assertion of subjective mastery "
 "comes under judgment such that it manifests as ”the imperialism of the "
@@ -2019,7 +2111,7 @@ msgstr "La profondeur du silence "
 msgid "The depth of the mythical"
 msgstr "La profondeur du mythique "
 
-#: .\templates\content\three.html:6
+#: .\templates\content\three.html:3
 msgid ""
 "The most significant innovation of <em>Otherwise than Being</em> is to "
 "reconsider the elemental and the negative by highlighting the metaphors that "
@@ -2033,7 +2125,7 @@ msgstr ""
 "Totalité et Infinity</em>, notamment ceux relatifs à la <em>SECTION II. "
 "Intériorité et économie</em> "
 
-#: .\templates\content\three.html:7
+#: .\templates\content\three.html:4
 msgid ""
 "Whereas <em>Totality and Infinity</em> considered the infinity of "
 "countability -- Cantor's <span> 0-א</span>"
@@ -2041,7 +2133,7 @@ msgstr ""
 " Alors que <em>Totalité et Infini</em> considéraient l'infinité de "
 "comptabilité -- <span> 0-א</span> de Cantor "
 
-#: .\templates\content\three.html:8
+#: .\templates\content\three.html:5
 msgid ""
 "<em>Otherwise than Being</em> explores the infinity of infinitesimals, the "
 "continuity of the real numbers, Cantor's <span> 1-א</span>"
@@ -2049,7 +2141,7 @@ msgstr ""
 " <em>Autrement que l'Être</em> explore l'infinité des infinitésimaux, le "
 "continuité des nombres réels, <span> 1-א</span> de Cantor "
 
-#: .\templates\content\three.html:9
+#: .\templates\content\three.html:6
 msgid ""
 "With this rotated perspective, the flatness of the planar totality displays "
 "more clearly the curvature of the third dimension"
@@ -2057,11 +2149,11 @@ msgstr ""
 " Avec cette perspective tournée, la planéité de la totalité planaire "
 "apparaîtplus clairement la courbure de la troisième dimension "
 
-#: .\templates\content\three.html:10
+#: .\templates\content\three.html:7
 msgid "The mathematics of three"
 msgstr "Les mathématiques de trois "
 
-#: .\templates\content\three.html:11
+#: .\templates\content\three.html:8
 msgid ""
 "The words “three” in English, “tres” and “trois” in French, and “tres” in "
 "Spanish all derive etymologically from “trans”, meaning “beyond”"
@@ -2070,7 +2162,7 @@ msgstr ""
 "» en Les Espagnols dérivent tous étymologiquement de “trans”, qui signifie "
 "“au-delà” "
 
-#: .\templates\content\three.html:12
+#: .\templates\content\three.html:9
 msgid ""
 "tres (adv.) “very,” 1815, from French très, from Old French tres “right, "
 "precisely, completely, very,” from Latin trans “beyond” (see trans-), later "
@@ -2080,7 +2172,7 @@ msgstr ""
 "précisément, complètement, très”, du latin trans “au-delà” (voir trans-), "
 "plus tard “très” (comparez le vieux trafreddo italien “très froid”). "
 
-#: .\templates\content\three.html:13
+#: .\templates\content\three.html:10
 msgid ""
 "Wikipedia explains that the derivation of the number “three” from “trans” / "
 "“beyond” might be rooted in our prehistoric understanding of number"
@@ -2089,7 +2181,7 @@ msgstr ""
 "«au- delà» pourrait être enraciné dans notre compréhension préhistorique du "
 "nombre "
 
-#: .\templates\content\three.html:14
+#: .\templates\content\three.html:11
 msgid ""
 "There is some evidence to suggest that early man may have used counting "
 "systems which consisted of “One, Two, Three” and thereafter “Many” to "
@@ -2110,7 +2202,7 @@ msgstr ""
 "jungles, où les explorateurs de la civilisation occidentale ont des archives "
 "historiques surleurs premières rencontres avec ces peuples indigènes.[5] "
 
-#: .\templates\content\three.html:15
+#: .\templates\content\three.html:12
 msgid ""
 "For Pythagoras, the Triad represented Harmony. Three is the sum of one "
 "(Unity) and two (Diversity). It is the first masculine number."
@@ -2118,7 +2210,7 @@ msgstr ""
 " Pour Pythagore, la Triade représentait l'Harmonie. Trois est la somme "
 "d'un(Unité) et deux (Diversité). C'est le premier nombre masculin. "
 
-#: .\templates\content\three.html:16
+#: .\templates\content\three.html:13
 msgid ""
 "For Euclid, two points determine a line. Three non-collinear points "
 "determine a triangle or a plane."
@@ -2126,7 +2218,7 @@ msgstr ""
 " Pour Euclide, deux points déterminent une droite. Trois points non "
 "colinéairesdéterminer un triangle ou un plan. "
 
-#: .\templates\content\three.html:17
+#: .\templates\content\three.html:14
 msgid ""
 "Levinas reorients the analyses of flatness by reconsidering all of its "
 "metaphors from the third-dimensional perspective of “the third”"
@@ -2134,7 +2226,7 @@ msgstr ""
 " Levinas réoriente les analyses de la planéité en reconsidérant l'ensemble "
 "de ses métaphores du point de vue tridimensionnel du « tiers » "
 
-#: .\templates\content\two_dimensional.html:7
+#: .\templates\content\two_dimensional.html:5
 msgid ""
 "“Welcoming” is a passivity that can be suffered by either the feminine Self "
 "or the feminine Other -- and by extension of the “welcomed” guest as either "
@@ -2148,11 +2240,11 @@ msgstr ""
 "deux- analyse dimensionnelle, dans laquelle une position polaire peut être "
 "habitée par soit Soi, soit Autrui. "
 
-#: .\templates\content\two_dimensional.html:9
+#: .\templates\content\two_dimensional.html:7
 msgid "Matrices"
 msgstr "Matrices "
 
-#: .\templates\content\two_dimensional.html:10
+#: .\templates\content\two_dimensional.html:8
 msgid ""
 "We can observe a 2x2 matrix of different perspectives that determine the "
 "metaphorical tensors employed in the text"
@@ -2160,71 +2252,71 @@ msgstr ""
 " Nous pouvons observer une matrice 2x2 de différentes perspectives qui "
 "déterminent le tenseurs métaphoriques employés dans le texte "
 
-#: .\templates\content\two_dimensional.html:13
+#: .\templates\content\two_dimensional.html:11
 msgid "The tensors of the following four terms are parallel to each other"
 msgstr "Les tenseurs des quatre termes suivants sont parallèles entre eux "
 
-#: .\templates\content\two_dimensional.html:16
-#: .\templates\content\two_dimensional.html:51
-#: .\templates\content\two_dimensional.html:84
-#: .\templates\content\two_dimensional.html:89
+#: .\templates\content\two_dimensional.html:14
+#: .\templates\content\two_dimensional.html:49
+#: .\templates\content\two_dimensional.html:82
+#: .\templates\content\two_dimensional.html:87
 msgid "Person who is welcomed"
 msgstr "Personne accueillie "
 
-#: .\templates\content\two_dimensional.html:17
-#: .\templates\content\two_dimensional.html:55
-#: .\templates\content\two_dimensional.html:104
-#: .\templates\content\two_dimensional.html:107
+#: .\templates\content\two_dimensional.html:15
+#: .\templates\content\two_dimensional.html:53
+#: .\templates\content\two_dimensional.html:102
+#: .\templates\content\two_dimensional.html:105
 msgid "Masculine"
 msgstr "Masculin "
 
-#: .\templates\content\two_dimensional.html:18
-#: .\templates\content\two_dimensional.html:59
-#: .\templates\content\two_dimensional.html:123
-#: .\templates\content\two_dimensional.html:126
+#: .\templates\content\two_dimensional.html:16
+#: .\templates\content\two_dimensional.html:57
+#: .\templates\content\two_dimensional.html:121
+#: .\templates\content\two_dimensional.html:124
 msgid "High"
 msgstr "Haute "
 
-#: .\templates\content\two_dimensional.html:19
-#: .\templates\content\two_dimensional.html:63
-#: .\templates\content\two_dimensional.html:141
-#: .\templates\content\two_dimensional.html:146
+#: .\templates\content\two_dimensional.html:17
+#: .\templates\content\two_dimensional.html:61
+#: .\templates\content\two_dimensional.html:139
+#: .\templates\content\two_dimensional.html:144
 msgid "Subject"
 msgstr "Sujet "
 
-#: .\templates\content\two_dimensional.html:26
+#: .\templates\content\two_dimensional.html:24
 msgid "The tensors of their polar opposite are also parallel to each other"
 msgstr "Les tenseurs de leur pôle opposé sont également parallèles entre eux "
 
-#: .\templates\content\two_dimensional.html:29
-#: .\templates\content\two_dimensional.html:52
-#: .\templates\content\two_dimensional.html:85
-#: .\templates\content\two_dimensional.html:88
+#: .\templates\content\two_dimensional.html:27
+#: .\templates\content\two_dimensional.html:50
+#: .\templates\content\two_dimensional.html:83
+#: .\templates\content\two_dimensional.html:86
 msgid "Person who welcomes"
 msgstr "Personne qui accueille "
 
-#: .\templates\content\two_dimensional.html:30
-#: .\templates\content\two_dimensional.html:56
-#: .\templates\content\two_dimensional.html:103
-#: .\templates\content\two_dimensional.html:108
+#: .\templates\content\two_dimensional.html:28
+#: .\templates\content\two_dimensional.html:54
+#: .\templates\content\two_dimensional.html:101
+#: .\templates\content\two_dimensional.html:106
 msgid "Feminine"
 msgstr "Féminin "
 
-#: .\templates\content\two_dimensional.html:31
-#: .\templates\content\two_dimensional.html:60
-#: .\templates\content\two_dimensional.html:122
-#: .\templates\content\two_dimensional.html:127
+#: .\templates\content\two_dimensional.html:29
+#: .\templates\content\two_dimensional.html:58
+#: .\templates\content\two_dimensional.html:120
+#: .\templates\content\two_dimensional.html:125
 msgid "Low"
 msgstr "Bas "
 
-#: .\templates\content\two_dimensional.html:32
-#: .\templates\content\two_dimensional.html:64
-#: .\templates\content\two_dimensional.html:142
-#: .\templates\content\two_dimensional.html:145
+#: .\templates\content\two_dimensional.html:30
+#: .\templates\content\two_dimensional.html:62
+#: .\templates\content\two_dimensional.html:140
+#: .\templates\content\two_dimensional.html:143
 msgid "Object"
 msgstr "Objet "
 
-#: .\templates\content\two_dimensional.html:41
+#: .\templates\content\two_dimensional.html:39
 msgid ""
 "There is a homology between the Genre Sets containing the following polar "
 "pairs:"
@@ -2232,41 +2324,41 @@ msgstr ""
 " Il existe une homologie entre les Genre Sets contenant le polaire "
 "suivantpaires: "
 
-#: .\templates\content\two_dimensional.html:45
+#: .\templates\content\two_dimensional.html:43
 msgid "Positive"
 msgstr "Positif "
 
-#: .\templates\content\two_dimensional.html:46
+#: .\templates\content\two_dimensional.html:44
 msgid "Negative"
 msgstr "Négatif "
 
-#: .\templates\content\two_dimensional.html:74
+#: .\templates\content\two_dimensional.html:72
 msgid "Welcome Matrix"
 msgstr "Matrice de bienvenue "
 
-#: .\templates\content\two_dimensional.html:78
-#: .\templates\content\two_dimensional.html:97
-#: .\templates\content\two_dimensional.html:116
-#: .\templates\content\two_dimensional.html:135
+#: .\templates\content\two_dimensional.html:76
+#: .\templates\content\two_dimensional.html:95
+#: .\templates\content\two_dimensional.html:114
+#: .\templates\content\two_dimensional.html:133
 msgid "Position of Self"
 msgstr "Position de Soi "
 
-#: .\templates\content\two_dimensional.html:79
-#: .\templates\content\two_dimensional.html:98
-#: .\templates\content\two_dimensional.html:117
-#: .\templates\content\two_dimensional.html:136
+#: .\templates\content\two_dimensional.html:77
+#: .\templates\content\two_dimensional.html:96
+#: .\templates\content\two_dimensional.html:115
+#: .\templates\content\two_dimensional.html:134
 msgid "Position of Other"
 msgstr "Position d'Autre "
 
-#: .\templates\content\two_dimensional.html:93
+#: .\templates\content\two_dimensional.html:91
 msgid "Gender Matrix"
 msgstr "Matrice de Genre "
 
-#: .\templates\content\two_dimensional.html:112
+#: .\templates\content\two_dimensional.html:110
 msgid "Height Matrix"
 msgstr "Matrice de hauteur "
 
-#: .\templates\content\two_dimensional.html:131
+#: .\templates\content\two_dimensional.html:129
 msgid "Logical Position Matrix"
 msgstr "Matrice de Position Logique "
 
@@ -2332,26 +2424,6 @@ msgstr "Métaphorique "
 msgid "Etymological roots"
 msgstr "Racines étymologiques "
 
-#: .\templates\includes\summary\membership.html:21
-#: .\templates\pages\genre_theory.html:42
-msgid "Prefixes"
-msgstr "Préfixes "
-
-#: .\templates\includes\summary\membership.html:25
-#: .\templates\pages\genre_theory.html:47
-msgid "Suffixes"
-msgstr "Suffixes "
-
-#: .\templates\includes\summary\membership.html:28
-#: .\templates\pages\genre_theory.html:52
-msgid "Parts of speech"
-msgstr "Parties du discours "
-
-#: .\templates\includes\summary\membership.html:31
-#: .\templates\pages\genre_theory.html:36
-msgid "Semantic themes"
-msgstr "Thèmes sémantiques "
-
 #: .\templates\includes\summary\membership.html:33
 msgid ""
 "Many of these genres are topologically homologous to each other and can be "
@@ -2401,7 +2473,7 @@ msgstr ""
 " Une analyse topologique des variétés métaphoriques dans les textes "
 "d'Emmanuel Levinas "
 
-#: .\templates\nav\site_map_accordion.html:11
+#: .\templates\nav\site_map_accordion.html:12
 msgid "Website Map"
 msgstr "Plan du site Web "
 
@@ -2437,78 +2509,6 @@ msgstr ""
 "genres, veuillez lisez la <a href='/genre_theory' target='_blank'> théorie "
 "des ensembles de genrespage</a> "
 
-#: .\templates\pages\genre_theory.html:4
-#: .\templates\pages\genre_theory.html:10
-msgid "For example"
-msgstr "Par exemple "
-
-#: .\templates\pages\genre_theory.html:6
-msgid "Suffix"
-msgstr "Suffixe "
-
-#: .\templates\pages\genre_theory.html:6
-msgid "In"
-msgstr "En "
-
-#: .\templates\pages\genre_theory.html:8
-msgid ""
-"suffix 'ance' denotes nominalization whereas the infinitive is both nominal "
-"and verbal. All words with this suffix belong to ONTOLOGY"
-msgstr ""
-" le suffixe 'ance' dénote une nominalisation alors que l'infinitif est à la "
-"fois nominalet verbal. Tous les mots avec ce suffixe appartiennent à "
-"l'ONTOLOGIE "
-
-#: .\templates\pages\genre_theory.html:10
-msgid "Prefix"
-msgstr "Préfixe "
-
-#: .\templates\pages\genre_theory.html:10
-msgid ""
-"The prefix 'sur' means above and connotes height. All words that begin with "
-"this prefix belong to MATHEMATICS."
-msgstr ""
-" Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
-"commençant par ce préfixe appartient aux MATHÉMATIQUES. "
-
-#: .\templates\pages\genre_theory.html:20
-msgid "Infinitives and Etymological roots"
-msgstr "Infinitifs et racines étymologiques "
-
-#: .\templates\pages\genre_theory.html:22
-msgid ""
-"In his 1932 article that introduced Heidegger to the francophone world, "
-"Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
-"Heidegger’s term Zuhandenheit as  “maniabilite” because he wishes to “take "
-"this term in its etymological sense”35"
-msgstr ""
-" Dans son article de 1932 qui présentait Heidegger au monde francophone, "
-"Martin Heidegger et l'ontologie, Levinas explique sa décision de "
-"traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
-"souhaite “prendrece terme dans son sens étymologique”35 "
-
-#: .\templates\pages\genre_theory.html:25
-msgid ""
-"In his later works critical of Heidegger, he will critique the notion of the "
-"hand as being the primary mode through which relation with the world is "
-"effectuated. Instead, he makes a twofold division.  The primary mode of "
-"relation with the world is through the mouth"
-msgstr ""
-" Dans ses derniers travaux critiques à l'égard de Heidegger, il critiquera "
-"la notion de la main comme étant le mode premier par lequel s'effectue la "
-"relation avec le mondeeffectué. Au lieu de cela, il fait une double "
-"division. Le mode principal de la relation avec le monde passe par la bouche "
-
-#: .\templates\pages\genre_theory.html:28
-msgid ""
-"He secondary relationhip to the world as exterioirty is explored through the "
-"hand in the sense of maintenir, to maintain.  Words with the same infinitive "
-"and the same etymological roots belong to the same Thematic Genre"
-msgstr ""
-" La relation secondaire au monde en tant qu'extérieur est explorée à travers "
-"le main au sens de maintenir, maintenir. Mots avec le même infinitifet les "
-"mêmes racines étymologiques appartiennent au même genre thématique "
-
 #: .\templates\pages\technical_page.html:12
 msgid "Dedication"
 msgstr "Dédicace "
@@ -2533,7 +2533,7 @@ msgstr "Google Traduction "
 msgid "Suggested Reading"
 msgstr "Lecture suggérée "
 
-#: .\templates\pages\technical_page.html:143
+#: .\templates\pages\technical_page.html:140
 msgid ""
 "The objective correlate of the concept of a possible theory determined only "
 "in respect of form [Form] is the concept of a possible field of knowledge "
@@ -2565,7 +2565,7 @@ msgstr ""
 "connexion pour laquelle les lois de la forme a + b = b + a, etc., sont "
 "valables. "
 
-#: .\templates\pages\technical_page.html:147
+#: .\templates\pages\technical_page.html:145
 msgid ""
 "To speak, in a word, is to seek the source of meaning in the prefix that the "
 "words exile, exodus, existence, exteriority, and estrangement are committed "
@@ -2604,6 +2604,14 @@ msgstr "Lignes de AE "
 msgid "Word Proximities"
 msgstr "Proximité de mots "
 
+#: .\templates\pages\word_detail_page.html:39
+msgid "Categories"
+msgstr "Catégories "
+
+#: .\templates\pages\word_list_page.html:8
+msgid "Word"
+msgstr "Mot "
+
 #: .\templates\pages\word_list_page.html:9
 #: .\templates\pages\word_list_page.html:10
 msgid "Quantity"
@@ -2629,3 +2637,66 @@ msgstr "Plus d'information et textes "
 #: .\templates\pages\word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur "
+
+#: .\templates\tags\constellation_example.html:4
+msgid "A constellational analysis of metaphorical manifolds"
+msgstr "Une analyse constellationnelle de variétés métaphoriques "
+
+#: .\templates\tags\constellation_example.html:5
+msgid "Example"
+msgstr "Exemple "
+
+#: .\templates\tags\constellation_example.html:8
+msgid "Group Decomposition"
+msgstr "Décomposition du groupe "
+
+#~ msgid "Notes"
+#~ msgstr "Remarques "
+
+#~ msgid "singular, also a homonym for “there” (là) in French, so "
+#~ msgstr "singulier, également homonyme de “là” en français, donc "
+
+#~ msgid "See above"
+#~ msgstr "Voir ci-dessus "
+
+#~ msgid "Zero-dimensional space-time."
+#~ msgstr "Espace-temps de dimension zéro. "
+
+#~ msgid "points on a map"
+#~ msgstr "points sur une carte "
+
+#~ msgid "points of time"
+#~ msgstr "points par moment "
+
+#~ msgid "One-dimensional space"
+#~ msgstr "Espace unidimensionnel "
+
+#~ msgid ""
+#~ "reflexive verbs have their own logic related to the reflexivity of the "
+#~ "reduction, to the asymmetry that occurs because one can never see oneself "
+#~ "from the outside: The Self can only see the Other. Only the Other can see "
+#~ "the Self. The Self can never view the Self from the inside. The Self can "
+#~ "only view the Self as an Other"
+#~ msgstr ""
+#~ " Les verbes réfléchis ont leur propre logique liée à la réflexivité de la "
+#~ "réduction, à l'asymétrie qui se produit parce qu'on ne peut jamais se "
+#~ "voir de l'extérieur : Le Soi ne peut voir que l'Autre. Seul l'Autre peut "
+#~ "voir le Soi. Le Soi ne peut jamais voir le Soi de l'intérieur. Le Soi ne "
+#~ "peut se voir que comme un Autre. "
+
+#~ msgid ""
+#~ "both space intervals, time intervals, geodesic neigborhoods, as well as a "
+#~ "home for the family"
+#~ msgstr ""
+#~ " à la fois des intervalles spatiaux, des intervalles de temps, des "
+#~ "quartiers géodésiques, ainsi qu'une maison pour la famille "
+
+#~ msgid ""
+#~ "The survivor is the one who lives on top of the one who died, who lives "
+#~ "out the Beyond of the one who he has murdered, the father of the past"
+#~ msgstr ""
+#~ " Le survivant est celui qui vit au-dessus de celui qui mort, qui vit "
+#~ "l’Au- delà de celui qu'il a assassiné, le père du passé "
+
+#~ msgid "Four perspectives on every genre"
+#~ msgstr "Quatre perspectives sur chaque genre "
