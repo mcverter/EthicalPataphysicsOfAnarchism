@@ -214,3 +214,5 @@ bootstrap4traversy/sampleProjects
 # makemessages in wrong directory
 *.txt.py
 *html.py
+
+__MACOSX
