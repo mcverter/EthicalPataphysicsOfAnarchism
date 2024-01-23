@@ -55,8 +55,6 @@ ALL_REFERENCE_BOOKS = [
     {"author": "Rolland, Jacques", "year": "1986", "title": "L'ethique de Ambiguite",
      "link": "https://archive.org/details/autrementquesavo0000unse"},
     {"author": "Russell, Bertrand", "year": "1897", "title": "An essay on the foundations of geometry", "link": ""},
-    {"author": "du Sautoy, Marcus", "title": "A Brief History of Mathematics",
-     "link": "https://www.bbc.co.uk/programmes/b00srz5b/"},
     {"author": "Seife, Charles", "year": "1982", "title": "Zero: The Biography of a Dangerous Idea"},
     {"author": "Smith, David Eugene", "year": "1906", "title": "A History of Modern Mathematics",
      "link": "https://www.gutenberg.org/ebooks/8746"},
