@@ -72,7 +72,7 @@ ROOT_URLCONF = 'django_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'content'],
+        'DIRS': [BASE_DIR / 'word_analysis/content'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
