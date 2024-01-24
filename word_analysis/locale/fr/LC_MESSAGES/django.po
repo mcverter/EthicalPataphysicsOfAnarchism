@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:12-0500\n"
+"POT-Creation-Date: 2024-01-24 16:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgstr "Le site est divisé en les sections suivantes "
 msgid "Project Summary"
 msgstr "Résumé du projet"
 
-#: .\content\abstract.html:15 .\hardcoded\site_nav_data.py:70
+#: .\content\abstract.html:15 .\hardcoded\site_nav_data.py:66
 msgid "Word list"
 msgstr "Liste de mots "
 
@@ -126,7 +126,7 @@ msgstr "Appartenance à un genre "
 msgid "Internal and external relations"
 msgstr "Relations internes et externes "
 
-#: .\content\abstract.html:23 .\hardcoded\site_nav_data.py:73
+#: .\content\abstract.html:23 .\hardcoded\site_nav_data.py:69
 #: .\templates\pages\technical_page.html:4
 #: .\templates\pages\technical_page.html:8
 msgid "Technical notes"
@@ -2243,7 +2243,7 @@ msgstr ""
 msgid "Objective"
 msgstr "L'objectif "
 
-#: .\hardcoded\site_nav_data.py:22 .\hardcoded\site_nav_data.py:45
+#: .\hardcoded\site_nav_data.py:22
 msgid "Abstract"
 msgstr "Resume "
 
@@ -2312,92 +2312,92 @@ msgstr ""
 "[perversion, inversion, subversion, réversion] (7) Lecture Totalité et "
 "L'infini comme genèse et autrement que l'être comme exode "
 
+#: .\hardcoded\site_nav_data.py:42
+msgid "Introduction to Genre Sets"
+msgstr "Introduction aux ensembles de genres"
+
 #: .\hardcoded\site_nav_data.py:43
+msgid "Group Set Membership"
+msgstr "Adhésion au groupe"
+
+#: .\hardcoded\site_nav_data.py:45
 msgid "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
 msgstr ""
 "Une analyse constellationnelle d'une phrase métaphoriquement kallidescopique"
 
-#: .\hardcoded\site_nav_data.py:44
-msgid "Group Set Membership"
-msgstr "Adhésion au groupe"
-
 #: .\hardcoded\site_nav_data.py:46
-msgid "Introduction to Genre Sets"
-msgstr "Introduction aux ensembles de genres"
-
-#: .\hardcoded\site_nav_data.py:47
 msgid "Combination"
 msgstr "Combinaison"
 
-#: .\hardcoded\site_nav_data.py:48
+#: .\hardcoded\site_nav_data.py:47
 msgid "Repetition of the same word in different context"
 msgstr "Répétition du même mot dans un contexte différent "
 
-#: .\hardcoded\site_nav_data.py:49
+#: .\hardcoded\site_nav_data.py:48
 msgid "Opposition"
 msgstr "Opposition"
 
-#: .\hardcoded\site_nav_data.py:50
+#: .\hardcoded\site_nav_data.py:49
 msgid "Intersection"
 msgstr "Intersection"
 
-#: .\hardcoded\site_nav_data.py:51
+#: .\hardcoded\site_nav_data.py:50
 msgid "Parallelism"
 msgstr "Parallélisme"
 
-#: .\hardcoded\site_nav_data.py:52 .\hardcoded\site_nav_data.py:55
+#: .\hardcoded\site_nav_data.py:51 .\hardcoded\site_nav_data.py:54
 msgid "Curvature"
 msgstr "Courbure"
 
-#: .\hardcoded\site_nav_data.py:53
+#: .\hardcoded\site_nav_data.py:52
 msgid "Flat"
 msgstr "Plat"
 
-#: .\hardcoded\site_nav_data.py:54
+#: .\hardcoded\site_nav_data.py:53
 msgid "Two Dimensional"
 msgstr "Bidimensionnel"
 
-#: .\hardcoded\site_nav_data.py:56
+#: .\hardcoded\site_nav_data.py:55
 msgid "Numbers"
 msgstr "Nombres"
 
-#: .\hardcoded\site_nav_data.py:57
+#: .\hardcoded\site_nav_data.py:56
 msgid "The Good of the “Plus One”: Extension curved by the Vertical"
 msgstr "Le Bien du « Plus Un » : Extension courbée par la Verticale"
 
-#: .\hardcoded\site_nav_data.py:58
+#: .\hardcoded\site_nav_data.py:57
 msgid "Perspectivism"
 msgstr "Perspectivisme"
 
-#: .\hardcoded\site_nav_data.py:59
+#: .\hardcoded\site_nav_data.py:58
 msgid "Zero"
 msgstr "Zéro"
 
-#: .\hardcoded\site_nav_data.py:60
+#: .\hardcoded\site_nav_data.py:59
 msgid "One"
 msgstr "Un"
 
-#: .\hardcoded\site_nav_data.py:61
+#: .\hardcoded\site_nav_data.py:60
 msgid "Duality"
 msgstr "Dualité"
 
-#: .\hardcoded\site_nav_data.py:62
+#: .\hardcoded\site_nav_data.py:61
 msgid "Three"
 msgstr "Trois"
 
-#: .\hardcoded\site_nav_data.py:63
+#: .\hardcoded\site_nav_data.py:62
 msgid "Four"
 msgstr "Quatre"
 
-#: .\hardcoded\site_nav_data.py:65
+#: .\hardcoded\site_nav_data.py:63
 msgid "Quotations from d'Alembert"
 msgstr "Citations de d'Alembert"
 
-#: .\hardcoded\site_nav_data.py:67
+#: .\hardcoded\site_nav_data.py:64
 msgid "Quotations from Léon Brunschvicg"
 msgstr "Citations de Léon Brunschvicg"
 
-#: .\hardcoded\site_nav_data.py:71
+#: .\hardcoded\site_nav_data.py:67
 msgid ""
 "A list of all 16000 words in both Totality and Otherwise. Links to "
 "information pages about each word, including definitions and etymologies in "
@@ -2407,15 +2407,15 @@ msgstr ""
 "d'informations sur chaque mot, y compris les définitions et les étymologies "
 "dans Anglais et français, ainsi que les fréquences et lignes des deux textes "
 
-#: .\hardcoded\site_nav_data.py:72
+#: .\hardcoded\site_nav_data.py:68
 msgid "List of Genre Sets"
 msgstr "Liste des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:72
+#: .\hardcoded\site_nav_data.py:68
 msgid "A list of Genre Sets."
 msgstr "Une liste de groupes de genres. "
 
-#: .\hardcoded\site_nav_data.py:74
+#: .\hardcoded\site_nav_data.py:70
 msgid ""
 "Contact information, sources, current project status and future direction"
 msgstr "Coordonnées, sources, état actuel du projet et orientation future "

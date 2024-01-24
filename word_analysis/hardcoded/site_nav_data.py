@@ -39,11 +39,10 @@ nav_items = [
     {"route": "genre_theory", "title": _("Theory of Genre Sets"), "explanation": _(
         "This page features many discussion: (1) An Introduction to Genre Sets, (2) An example analysis of a sentence from Totality and Infinity as a constellation of Genre Sets, (3) Genre Set Membership Rules [suffixes, prefixes, etymological roots, infinities, other morphemic roots, semantic themes], (4)Internal and External Relations [duality, combination, repetition, opposition, intersection], (5) Non-Euclidean Relations [parallelism, flat, two_dimensional, constellation, curvature ], (5) Other mathematical and scientific topics [addition, positive, negative, 0, 1, 2, 3, 4, infinity, set theory, continuity and infinitesimals, topology, Mikowski/Einstein space-time, wave and quantum theory  ] (6) Perspectivism [perversion, inversion, subversion, reversion] (7) Reading Totality and Infinity as Genesis and Otherwise than Being as Exodus"),
      "subitems": [
+         {"route": "genre_set_intro", "title": _("Introduction to Genre Sets")},
+         {"route": "membership", "title": _("Group Set Membership")},
          {"route": "constellation",
           "title": _("A Constellational Analysis of a Metaphorically Kallidescopic Sentence")},
-         {"route": "membership", "title": _("Group Set Membership")},
-         {"route": "abstract", "title": _("Abstract")},
-         {"route": "genre_set_intro", "title": _("Introduction to Genre Sets")},
          {"route": "combination", "title": _("Combination")},
          {"route": "repetition", "title": _("Repetition of the same word in different context")},
          {"route": "opposition", "title": _("Opposition")},
@@ -61,11 +60,8 @@ nav_items = [
          {"route": "duality", "title": _("Duality")},
          {"route": "three", "title": _("Three")},
          {"route": "four", "title": _("Four")},
-
          {"route": "alembert", "title": _("Quotations from d'Alembert")},
-
          {"route": "brunschvig", "title": _("Quotations from Léon Brunschvicg")}
-
      ]},
     {"route": "mots", "title": _("Word list"), "explanation": _(
         "A list of all 16000 words in both Totality and Otherwise. Links to information pages about each word, including definitions and etymologies in English and French, as well as frequencies and lines from both texts")},
