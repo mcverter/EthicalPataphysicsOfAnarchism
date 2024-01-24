@@ -23,7 +23,7 @@ urlpatterns = [
     # Content Pages
     # Summary Page
     re_path("^abstract$", content_page, {"name": "abstract"}),
-    re_path("^addition$", content_page, {"name": "addition"}),
+    re_path("^plus_one$", content_page, {"name": "plus_one"}),
     re_path("^objective$", content_page, {"name": "objective"}),
     re_path("^ambisexuality$", content_page, {"name": "ambisexuality"}),
     re_path("^home_and_position$", content_page, {"name": "home_and_position"}),

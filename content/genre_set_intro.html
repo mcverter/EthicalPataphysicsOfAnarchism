@@ -1,225 +1,224 @@
 {% load i18n %}
-<div class="card">
-    <div class="card-body">
-        <h2 class="card-title">{% trans "An introduction to Genre Sets(GS)" %}</h2>
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">{% trans "A simple Genre Set" %}</h3>
-                <p class="card-text">
-                    {% trans "This project will sort each of the terms in Levinas's texts into a collection of Genre Sets that correspond to the various thematics that he subjects to analysis.  In its most general form, a Genre Set (GS) can be defined as a mapping of a single term to collection of terms.  There are several rules to assembling this collection." %}
-                </p>
-                <p class="card-text">{% trans "For example, let's start with a term that appears frequently in" %} {% trans "Totality and Infinity" %}: {% trans "Height" %}</p>
-                <p class="card-text">{% trans "For now we don't have any members for the Genre Set of HEIGHT except for itself so we can represent it as follows:" %}:</p>
-                <ul>
-                    <li><code>HAUTEUR = {
-                        <a target="_blank" href="/mot/hauteur">hauteur</a>}
-                    </code></li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">{% trans "Adding synonyms to Genre Sets" %}</h3>
-                <p class="card-text">{% trans "We can add other forms of this word to the GS such as “hauteur” as well as “haut”. We can add to this set words that are synonymous with HEIGHT, such as “elevation” and phrases such as 'the most high'.  We can also include other terms that relate somehow to the effectuation of height, such as standing, 'se tenir'" %}.</p>
-                <ul>
-                    <li><code>HAUTEUR = {
-                        <a target="_blank" href="/mot/hauteur">hauteur</a>,
-                        <a target="_blank" href="/mot/haut">haut</a>,
-                        <a target="_blank" href="/mot/elevation">elevation</a>,
-                        <a target="_blank" href="/mot/tenir">tenir</a>}
-                    </code></li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">{% trans "Adding morphemically similar terms to Genre Sets" %}</h3>
-                <p class="card-text">{% trans "We are can also include into this set words that are related to HEIGHT through common etymological roots, or which use the the theme of height in their suffix, prefix or elsewhere in their morphology.  For example, we can add words that include the morpheme “sur” in this set such as “surgir”, “surplus” and “surmonte” -- as well as “surface”, “survivant”, and “resurrection”" %}</p>
-                <ul>
-                    <li><code>HAUTEUR = {
-                        <a target="_blank" href="/mot/hauteur">hauteur</a>,
-                        <a target="_blank" href="/mot/elevation">elevation</a>,
-                        <a target="_blank" href="/mot/tenir">tenir</a>,
-                        <a target="_blank" href="/mot/surgir">surgir</a>,
-                        <a target="_blank" href="/mot/surplus">surplus</a>,
-                        <a target="_blank" href="/mot/surmonte">surmonte</a>,
-                        <a target="_blank" href="/mot/surface">surface</a>,
-                        <a target="_blank" href="/mot/survivant">survivant</a>,
-                        <a target="_blank" href="/mot/resurrection">resurrection</a>,
-                        }
-                    </code></li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">{% trans "Combinations of Genre Sets: Intersections " %}</h3>
-                <p class="card-text">{% trans "Each of the above terms signifies an intersection that effectuates a combination between HEIGHT and other GSes" %}</p>
-                <ul>
-                    <li><code>HAUTEUR = {
-                        <a target="_blank" href="/mot/hauteur">hauteur</a>,
-                        <a target="_blank" href="/mot/elevation">elevation</a>,
-                        <a target="_blank" href="/mot/tenir">tenir</a>,',
-                        <a target="_blank" href="/mot/surgir">surgir</a>,
-                        <a target="_blank" href="/mot/surplus">surplus</a>,
-                        <a target="_blank" href="/mot/surmonte">surmonte</a>,
-                        <a target="_blank" href="/mot/surface">surface</a>,
-                        <a target="_blank" href="/mot/survivant">survivant</a>,
-                        <a target="_blank" href="/mot/resurrection">resurrection</a>}
-                    </code></li>
-                    <li><code>MATHEMATIQUES = {
-                        <a target="_blank" href="/mot/plus">plus</a>,
-                        <a target="_blank" href="/mot/surplus">surplus</a>,
-                        <a target="_blank" href="/mot/positive">positive</a>}
-                    </code></li>
-                    <li><code>GENÈSES = {
-                        <a target="_blank" href="/mot/vivre">vivre</a>,
-                        <a target="_blank" href="/mot/vivant">vivant</a>,
-                        <a target="_blank" href="/mot/survivant">survivant</a>,
-                        <a target="_blank" href="/mot/naissance">naissance</a>}
-                    </code></li>
-                    <li><code>PRESENTATION = {
-                        <a target="_blank" href="/mot/face">face</a>,
-                        <a target="_blank" href="/mot/surface">surface</a>,
-                        <a target="_blank" href="/mot/facade">facade</a>}
-                    </code></li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">{% trans "Homologous Genre Sets and Parallel Transport" %}</h3>
-
-                <p class="card-text">{% trans "How do these intersected sets relate to each other? In many ways. Such sets are often homologous to each other. Thus they often appear in constellated in similar sentences to each other -- for example a sentence about the “positivity” can also be understood as a sentence about the 'survivor,' the living being who manifests in a dimension of height." %}</p>
-                <p class="card-text">{% trans "These homologous sets transport metaphors in directions parallel to each other. By parallel transport, we mean to indicate that recurrent thematics such as “height” are always paired with polar opposites such as depth. We can thus pair these with expand our sets to include negative values" %}</p>
-                ,
-                <ul>
-                    <li><code>HAUTEUR = {
-                        <a target="_blank" href="/mot/hauteur">hauteur</a>,
-                        <a target="_blank" href="/mot/elevation">elevation</a>,
-                        <a target="_blank" href="/mot/grande">grande</a>,
-                        <a target="_blank" href="/mot/tenir">tenir</a>,',
-                        <a target="_blank" href="/mot/surgir">surgir</a>,
-                        <a target="_blank" href="/mot/surplus">surplus</a>,
-                        <a target="_blank" href="/mot/surmonte">surmonte</a>,
-                        <a target="_blank" href="/mot/surface">surface</a>,
-
-                        <a target="_blank" href="/mot/survivant">survivant</a>,
-                        <a target="_blank" href="/mot/resurrection">resurrection</a>,}
-                    </code></li>
-                    <li><code>PROFOND = {<a target="_blank" href="/mot/profond">profond</a>,
-                        <a target="_blank" href="/mot/profondeur">profondeur</a>,
-                        '<a target="_blank" href="/mot/approfondissement">approfondissement</a>,
-                        ' <a target="_blank" href="/mot/bas">bas</a>,
-                        <a target="_blank" href="/mot/subir">subir</a>,
-                        <a target="_blank" href="/mot/subjective">subjective</a>,
-                        <a target="_blank" href="/mot/subjectivite">subjectivite</a>,
-                        <a target="_blank" href="/mot/subordonne">subordonne</a>,
-                        <a target="_blank" href="/mot/substance">substance</a>,
-                        <a target="_blank" href="/mot/substitution">substitution</a>,
-                        }
-                    </code></li>
-                </ul>
-            </div>
-            <p class="card-text">{% trans "We might also want to expand other sets to include polar opposite values" %}</p>
+<a id="genre_set_intro"></a>
+<div class="section">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{% trans "A simple Genre Set" %}</h3>
+            <p class="card-text">
+                {% trans "This project will sort each of the terms in Levinas's texts into a collection of Genre Sets that correspond to the various thematics that he subjects to analysis.  In its most general form, a Genre Set (GS) can be defined as a mapping of a single term to collection of terms.  There are several rules to assembling this collection." %}
+            </p>
+            <p class="card-text">{% trans "For example, let's start with a term that appears frequently in" %} {% trans "Totality and Infinity" %}: {% trans "Height" %}</p>
+            <p class="card-text">{% trans "For now we don't have any members for the Genre Set of HEIGHT except for itself so we can represent it as follows:" %}:</p>
             <ul>
+                <li><code>HAUTEUR = {
+                    <a target="_blank" href="/mot/hauteur">hauteur</a>}
+                </code></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{% trans "Adding synonyms to Genre Sets" %}</h3>
+            <p class="card-text">{% trans "We can add other forms of this word to the GS such as “hauteur” as well as “haut”. We can add to this set words that are synonymous with HEIGHT, such as “elevation” and phrases such as 'the most high'.  We can also include other terms that relate somehow to the effectuation of height, such as standing, 'se tenir'" %}.</p>
+            <ul>
+                <li><code>HAUTEUR = {
+                    <a target="_blank" href="/mot/hauteur">hauteur</a>,
+                    <a target="_blank" href="/mot/haut">haut</a>,
+                    <a target="_blank" href="/mot/elevation">elevation</a>,
+                    <a target="_blank" href="/mot/tenir">tenir</a>}
+                </code></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{% trans "Adding morphemically similar terms to Genre Sets" %}</h3>
+            <p class="card-text">{% trans "We are can also include into this set words that are related to HEIGHT through common etymological roots, or which use the the theme of height in their suffix, prefix or elsewhere in their morphology.  For example, we can add words that include the morpheme “sur” in this set such as “surgir”, “surplus” and “surmonte” -- as well as “surface”, “survivant”, and “resurrection”" %}</p>
+            <ul>
+                <li><code>HAUTEUR = {
+                    <a target="_blank" href="/mot/hauteur">hauteur</a>,
+                    <a target="_blank" href="/mot/elevation">elevation</a>,
+                    <a target="_blank" href="/mot/tenir">tenir</a>,
+                    <a target="_blank" href="/mot/surgir">surgir</a>,
+                    <a target="_blank" href="/mot/surplus">surplus</a>,
+                    <a target="_blank" href="/mot/surmonte">surmonte</a>,
+                    <a target="_blank" href="/mot/surface">surface</a>,
+                    <a target="_blank" href="/mot/survivant">survivant</a>,
+                    <a target="_blank" href="/mot/resurrection">resurrection</a>,
+                    }
+                </code></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{% trans "Combinations of Genre Sets: Intersections " %}</h3>
+            <p class="card-text">{% trans "Each of the above terms signifies an intersection that effectuates a combination between HEIGHT and other GSes" %}</p>
+            <ul>
+                <li><code>HAUTEUR = {
+                    <a target="_blank" href="/mot/hauteur">hauteur</a>,
+                    <a target="_blank" href="/mot/elevation">elevation</a>,
+                    <a target="_blank" href="/mot/tenir">tenir</a>,',
+                    <a target="_blank" href="/mot/surgir">surgir</a>,
+                    <a target="_blank" href="/mot/surplus">surplus</a>,
+                    <a target="_blank" href="/mot/surmonte">surmonte</a>,
+                    <a target="_blank" href="/mot/surface">surface</a>,
+                    <a target="_blank" href="/mot/survivant">survivant</a>,
+                    <a target="_blank" href="/mot/resurrection">resurrection</a>}
+                </code></li>
                 <li><code>MATHEMATIQUES = {
                     <a target="_blank" href="/mot/plus">plus</a>,
                     <a target="_blank" href="/mot/surplus">surplus</a>,
-                    <a target="_blank" href="/mot/positive">positive</a>,
-                    <a target="_blank" href="/mot/negative">negative</a>,'}
+                    <a target="_blank" href="/mot/positive">positive</a>}
                 </code></li>
                 <li><code>GENÈSES = {
                     <a target="_blank" href="/mot/vivre">vivre</a>,
                     <a target="_blank" href="/mot/vivant">vivant</a>,
                     <a target="_blank" href="/mot/survivant">survivant</a>,
-                    <a target="_blank" href="/mot/naissance">naissance</a>,
-                    <a target="_blank" href="/mot/mort">mort</a>
-                    <a target="_blank" href="/mot/mortal">mortal</a>,
-                    <a target="_blank" href="/mot/meurtre">meurtre</a>,
-                    <a target="_blank" href="/mot/tuer">tuer</a>, }
+                    <a target="_blank" href="/mot/naissance">naissance</a>}
                 </code></li>
                 <li><code>PRESENTATION = {
                     <a target="_blank" href="/mot/face">face</a>,
                     <a target="_blank" href="/mot/surface">surface</a>,
-                    <a target="_blank" href="/mot/facade">facade</a>,
-                    <a target="_blank" href="/mot/visage">visage</a>}
+                    <a target="_blank" href="/mot/facade">facade</a>}
                 </code></li>
             </ul>
         </div>
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">{% trans "The MATHÉMATIQUES Genre Set" %}</h3>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{% trans "Homologous Genre Sets and Parallel Transport" %}</h3>
 
-                <p class="card-text">{% trans "In fact, we would argue that the we might consider creating a new set to connote the union of the polar opposites, HEIGHT and DEPTH. Let's call this provisional GS “VERTICAL”. But then we notice right away that the “vertical” can be opposed to the “horizontal”, a word that connotes the phenomenological concept of the horizon as the plane upon which a something given as a manifestation can be understood. Furthermore, all themes can be encompassed in the another provisional GS, DIMENSION. To this GS we can also add the Cartesian dimension of measure, extension." %}</p>
-                <p class="card-text">{% trans "What would the word “dimension” have meant for Levinas? Two of Levinas's primary intellectual influences, Henri Bergson and Edmund Husserl, were both mathematicians and philosophers, whose early thinking had been shaped by considerations of the idea of a manifold taken from the non-Euclidean analytic geometry of Bernhard Reimann. Additionally, Levinas would most likely have read books such as Leon Brunschvicg's 1912 book Les etapes de la philosophie mathematique that whose final chapters are “Le probleme des dimensions”and “La position du probleme non euclidien”. " %}</p>
-                <p class="card-text">{% trans "Levinas's knowledge of non-euclidean geometry is exposed most prominently in his usage of the word “curvature”, a term whose provenance is the non-Euclidean geometry of Reimann, Gauss, and others; and by extension in the theories of spacetime articulated by Albert Einstein's theories of general and special relativity. " %}</p>
-                <p class="card-text">{% trans "Let us consider a sentence from Totality and Infinity against one from Einstein's 1914 paper <em>On the Principle of Relativity.</em>" %}</p>
-                <blockquote>
-                    {% trans "According to this theory, light rays suffer a curvature in a gravitational field" %}
-                </blockquote>
-                {% book_line_display "ti" 1179 %}
+            <p class="card-text">{% trans "How do these intersected sets relate to each other? In many ways. Such sets are often homologous to each other. Thus they often appear in constellated in similar sentences to each other -- for example a sentence about the “positivity” can also be understood as a sentence about the 'survivor,' the living being who manifests in a dimension of height." %}</p>
+            <p class="card-text">{% trans "These homologous sets transport metaphors in directions parallel to each other. By parallel transport, we mean to indicate that recurrent thematics such as “height” are always paired with polar opposites such as depth. We can thus pair these with expand our sets to include negative values" %}</p>
+            ,
+            <ul>
+                <li><code>HAUTEUR = {
+                    <a target="_blank" href="/mot/hauteur">hauteur</a>,
+                    <a target="_blank" href="/mot/elevation">elevation</a>,
+                    <a target="_blank" href="/mot/grande">grande</a>,
+                    <a target="_blank" href="/mot/tenir">tenir</a>,',
+                    <a target="_blank" href="/mot/surgir">surgir</a>,
+                    <a target="_blank" href="/mot/surplus">surplus</a>,
+                    <a target="_blank" href="/mot/surmonte">surmonte</a>,
+                    <a target="_blank" href="/mot/surface">surface</a>,
 
-                <p class="card-text">{% trans "On first glance, it may seem like Levinas is saying that Levinas is saying that the Height of the Other is the cause of curvature. But that is because we are reading too quickly and failing to recognize the polar inversion already located in the phrase: “La dimension de hauteur où se place Autrui”. The intervening “ou se place” already discusses location and the establishment of oneself at a particular point in space and in time, in the refexive self-placement. From “Time and the Other”, we know this self-positing dynamic as hypostasis, which doubles the me with the self, spiritual height with material weight, material gravity" %}</p>
-                <p class="card-text">{% trans "It should be further noted that Levinas seems to shift his metaphors between books. Whereas Totaltiy and Infinity treats of the Infinite as a maximal value, Otherwise than Being instead considers the infinitesimal spaces that disrupt continuity. Otherwise than Being also emphasizes the notion of quantum idea of standing waves -- that waves interrupt and intersect themselves to form stable forms. However, all of these discussions can be traced back to earlier discussions in Totality and Infinity. and terminology from topology such as “node”, “knot”, “fold”, “plot”. " %}</p>
-                <p class="card-text">{% trans "Given the prevalence of so many terms from various subfields of mathmatics and physics in Levinas's lexicon, we can therefore expand the GS of mathematics for now to include" %}</p>
-                <ul>
-                    <li><code>MATHEMATIQUES = {
-                        <a target="_blank" href="/mot/zero">zero</a>,
-                        <a target="_blank" href="/mot/null">null</a>,
-                        <a target="_blank" href="/mot/une">une</a>,
-                        <a target="_blank" href="/mot/deuxieme">deuxieme</a>,
-                        <a target="_blank" href="/mot/tiers">tiers</a>,",
-                        <a target="_blank" href="/mot/unicite">unicite</a>,
-                        <a target="_blank" href="/mot/universalite">universalite</a>,
-                        <a target="_blank" href="/mot/individualite">individualite</a>,
-                        <a target="_blank" href="/mot/dualite">dualite</a>,
-                        <a target="_blank" href="/mot/multiplicite">multiplicite</a>,
-                        <a target="_blank" href="/mot/pluralisme">pluralisme</a>,
-                        <a target="_blank" href="/mot/plus">plus</a>,
-                        <a target="_blank" href="/mot/negatif">negatif</a>,
-                        <a target="_blank" href="/mot/positif">positif</a>,
-                        <a target="_blank" href="/mot/transitivite">transitivite</a>,
-                        <a target="_blank" href="/mot/asymetrie">asymetrie</a>,
-                        <a target="_blank" href="/mot/transcendance">transcendance</a>,
-                        <a target="_blank" href="/mot/infini">infini</a>,
-                        <a target="_blank" href="/mot/Leibniz">Leibniz</a>,
-                        <a target="_blank" href="/mot/integration">integration</a>,
-                        <a target="_blank" href="/mot/continu">continu</a>,
-                        <a target="_blank" href="/mot/discontinuite">discontinuite</a>,
-                        <a target="_blank" href="/mot/serie">serie</a>,
-                        <a target="_blank" href="/mot/proximite">proximite</a>,
-                        <a target="_blank" href="/mot/prochain">prochain</a>,
-                        <a target="_blank" href="/mot/origine">origine</a>,
-                        <a target="_blank" href="/mot/point">point</a>,
-                        <a target="_blank" href="/mot/intervalle">intervalle</a>,
-                        <a target="_blank" href="/mot/Descartes">Descartes</a>,
-                        <a target="_blank" href="/mot/courbure">courbure</a>,
-                        <a target="_blank" href="/mot/parallelisme">parallelisme</a>,
-                        <a target="_blank" href="/mot/convexite">convexite</a>,
-                        <a target="_blank" href="/mot/concavite">concavite</a>,
-                        <a target="_blank" href="/mot/dimension">dimension</a>,
-                        <a target="_blank" href="/mot/niveau">niveau</a>,
-                        <a target="_blank" href="/mot/hauteur">hauteur</a>,
-                        <a target="_blank" href="/mot/profondeur">profondeur</a>,
-                        <a target="_blank" href="/mot/droiture">droiture</a>,
-                        <a target="_blank" href="/mot/substance">substance</a>,
-                        <a target="_blank" href="/mot/element">element</a>,
-                        <a target="_blank" href="/mot/pese">pese</a>,
-                        <a target="_blank" href="/mot/matiere">matiere</a>,
-                        <a target="_blank" href="/mot/force">force</a>,
-                        <a target="_blank" href="/mot/gravite">gravite</a>,
-                        <a target="_blank" href="/mot/ondes">ondes</a>,
-                        <a target="_blank" href="/mot/nœud">nœud</a>
-                        <a target="_blank" href="/mot/pli">pli</a>,
-                        <a target="_blank" href="/mot/trace">trace</a>,
-                        <a target="_blank" href="/mot/substitution">substitution</a>,
-                        <a target="_blank" href="/mot/relation">relation</a>,
-                        }
-                    </code></li>
-                </ul>
-            </div>
+                    <a target="_blank" href="/mot/survivant">survivant</a>,
+                    <a target="_blank" href="/mot/resurrection">resurrection</a>,}
+                </code></li>
+                <li><code>PROFOND = {<a target="_blank" href="/mot/profond">profond</a>,
+                    <a target="_blank" href="/mot/profondeur">profondeur</a>,
+                    '<a target="_blank" href="/mot/approfondissement">approfondissement</a>,
+                    ' <a target="_blank" href="/mot/bas">bas</a>,
+                    <a target="_blank" href="/mot/subir">subir</a>,
+                    <a target="_blank" href="/mot/subjective">subjective</a>,
+                    <a target="_blank" href="/mot/subjectivite">subjectivite</a>,
+                    <a target="_blank" href="/mot/subordonne">subordonne</a>,
+                    <a target="_blank" href="/mot/substance">substance</a>,
+                    <a target="_blank" href="/mot/substitution">substitution</a>,
+                    }
+                </code></li>
+            </ul>
+        </div>
+        <p class="card-text">{% trans "We might also want to expand other sets to include polar opposite values" %}</p>
+        <ul>
+            <li><code>MATHEMATIQUES = {
+                <a target="_blank" href="/mot/plus">plus</a>,
+                <a target="_blank" href="/mot/surplus">surplus</a>,
+                <a target="_blank" href="/mot/positive">positive</a>,
+                <a target="_blank" href="/mot/negative">negative</a>,'}
+            </code></li>
+            <li><code>GENÈSES = {
+                <a target="_blank" href="/mot/vivre">vivre</a>,
+                <a target="_blank" href="/mot/vivant">vivant</a>,
+                <a target="_blank" href="/mot/survivant">survivant</a>,
+                <a target="_blank" href="/mot/naissance">naissance</a>,
+                <a target="_blank" href="/mot/mort">mort</a>
+                <a target="_blank" href="/mot/mortal">mortal</a>,
+                <a target="_blank" href="/mot/meurtre">meurtre</a>,
+                <a target="_blank" href="/mot/tuer">tuer</a>, }
+            </code></li>
+            <li><code>PRESENTATION = {
+                <a target="_blank" href="/mot/face">face</a>,
+                <a target="_blank" href="/mot/surface">surface</a>,
+                <a target="_blank" href="/mot/facade">facade</a>,
+                <a target="_blank" href="/mot/visage">visage</a>}
+            </code></li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{% trans "The MATHÉMATIQUES Genre Set" %}</h3>
+
+            <p class="card-text">{% trans "In fact, we would argue that the we might consider creating a new set to connote the union of the polar opposites, HEIGHT and DEPTH. Let's call this provisional GS “VERTICAL”. But then we notice right away that the “vertical” can be opposed to the “horizontal”, a word that connotes the phenomenological concept of the horizon as the plane upon which a something given as a manifestation can be understood. Furthermore, all themes can be encompassed in the another provisional GS, DIMENSION. To this GS we can also add the Cartesian dimension of measure, extension." %}</p>
+            <p class="card-text">{% trans "What would the word “dimension” have meant for Levinas? Two of Levinas's primary intellectual influences, Henri Bergson and Edmund Husserl, were both mathematicians and philosophers, whose early thinking had been shaped by considerations of the idea of a manifold taken from the non-Euclidean analytic geometry of Bernhard Reimann. Additionally, Levinas would most likely have read books such as Leon Brunschvicg's 1912 book Les etapes de la philosophie mathematique that whose final chapters are “Le probleme des dimensions”and “La position du probleme non euclidien”. " %}</p>
+            <p class="card-text">{% trans "Levinas's knowledge of non-euclidean geometry is exposed most prominently in his usage of the word “curvature”, a term whose provenance is the non-Euclidean geometry of Reimann, Gauss, and others; and by extension in the theories of spacetime articulated by Albert Einstein's theories of general and special relativity. " %}</p>
+            <p class="card-text">{% trans "Let us consider a sentence from Totality and Infinity against one from Einstein's 1914 paper <em>On the Principle of Relativity.</em>" %}</p>
+            <blockquote>
+                {% trans "According to this theory, light rays suffer a curvature in a gravitational field" %}
+            </blockquote>
+            {% book_line_display "ti" 1179 %}
+
+            <p class="card-text">{% trans "On first glance, it may seem like Levinas is saying that Levinas is saying that the Height of the Other is the cause of curvature. But that is because we are reading too quickly and failing to recognize the polar inversion already located in the phrase: “La dimension de hauteur où se place Autrui”. The intervening “ou se place” already discusses location and the establishment of oneself at a particular point in space and in time, in the refexive self-placement. From “Time and the Other”, we know this self-positing dynamic as hypostasis, which doubles the me with the self, spiritual height with material weight, material gravity" %}</p>
+            <p class="card-text">{% trans "It should be further noted that Levinas seems to shift his metaphors between books. Whereas Totaltiy and Infinity treats of the Infinite as a maximal value, Otherwise than Being instead considers the infinitesimal spaces that disrupt continuity. Otherwise than Being also emphasizes the notion of quantum idea of standing waves -- that waves interrupt and intersect themselves to form stable forms. However, all of these discussions can be traced back to earlier discussions in Totality and Infinity. and terminology from topology such as “node”, “knot”, “fold”, “plot”. " %}</p>
+            <p class="card-text">{% trans "Given the prevalence of so many terms from various subfields of mathmatics and physics in Levinas's lexicon, we can therefore expand the GS of mathematics for now to include" %}</p>
+            <ul>
+                <li><code>MATHEMATIQUES = {
+                    <a target="_blank" href="/mot/zero">zero</a>,
+                    <a target="_blank" href="/mot/null">null</a>,
+                    <a target="_blank" href="/mot/une">une</a>,
+                    <a target="_blank" href="/mot/deuxieme">deuxieme</a>,
+                    <a target="_blank" href="/mot/tiers">tiers</a>,",
+                    <a target="_blank" href="/mot/unicite">unicite</a>,
+                    <a target="_blank" href="/mot/universalite">universalite</a>,
+                    <a target="_blank" href="/mot/individualite">individualite</a>,
+                    <a target="_blank" href="/mot/dualite">dualite</a>,
+                    <a target="_blank" href="/mot/multiplicite">multiplicite</a>,
+                    <a target="_blank" href="/mot/pluralisme">pluralisme</a>,
+                    <a target="_blank" href="/mot/plus">plus</a>,
+                    <a target="_blank" href="/mot/negatif">negatif</a>,
+                    <a target="_blank" href="/mot/positif">positif</a>,
+                    <a target="_blank" href="/mot/transitivite">transitivite</a>,
+                    <a target="_blank" href="/mot/asymetrie">asymetrie</a>,
+                    <a target="_blank" href="/mot/transcendance">transcendance</a>,
+                    <a target="_blank" href="/mot/infini">infini</a>,
+                    <a target="_blank" href="/mot/Leibniz">Leibniz</a>,
+                    <a target="_blank" href="/mot/integration">integration</a>,
+                    <a target="_blank" href="/mot/continu">continu</a>,
+                    <a target="_blank" href="/mot/discontinuite">discontinuite</a>,
+                    <a target="_blank" href="/mot/serie">serie</a>,
+                    <a target="_blank" href="/mot/proximite">proximite</a>,
+                    <a target="_blank" href="/mot/prochain">prochain</a>,
+                    <a target="_blank" href="/mot/origine">origine</a>,
+                    <a target="_blank" href="/mot/point">point</a>,
+                    <a target="_blank" href="/mot/intervalle">intervalle</a>,
+                    <a target="_blank" href="/mot/Descartes">Descartes</a>,
+                    <a target="_blank" href="/mot/courbure">courbure</a>,
+                    <a target="_blank" href="/mot/parallelisme">parallelisme</a>,
+                    <a target="_blank" href="/mot/convexite">convexite</a>,
+                    <a target="_blank" href="/mot/concavite">concavite</a>,
+                    <a target="_blank" href="/mot/dimension">dimension</a>,
+                    <a target="_blank" href="/mot/niveau">niveau</a>,
+                    <a target="_blank" href="/mot/hauteur">hauteur</a>,
+                    <a target="_blank" href="/mot/profondeur">profondeur</a>,
+                    <a target="_blank" href="/mot/droiture">droiture</a>,
+                    <a target="_blank" href="/mot/substance">substance</a>,
+                    <a target="_blank" href="/mot/element">element</a>,
+                    <a target="_blank" href="/mot/pese">pese</a>,
+                    <a target="_blank" href="/mot/matiere">matiere</a>,
+                    <a target="_blank" href="/mot/force">force</a>,
+                    <a target="_blank" href="/mot/gravite">gravite</a>,
+                    <a target="_blank" href="/mot/ondes">ondes</a>,
+                    <a target="_blank" href="/mot/nœud">nœud</a>
+                    <a target="_blank" href="/mot/pli">pli</a>,
+                    <a target="_blank" href="/mot/trace">trace</a>,
+                    <a target="_blank" href="/mot/substitution">substitution</a>,
+                    <a target="_blank" href="/mot/relation">relation</a>,
+                    }
+                </code></li>
+            </ul>
         </div>
     </div>
 </div>
+
 

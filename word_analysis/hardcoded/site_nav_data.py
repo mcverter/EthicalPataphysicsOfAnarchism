@@ -19,15 +19,21 @@ nav_items = [
         "A discussion of the Radical Empiricism Project, in which the advantages of a multidimensional tensor analysis of metaphorical manifolds is dimensionaland the errors of unidimensional assertions of rank are critiqued"),
      "subitems": [
          {"route": "objective", "title": _("Objective"), "explanation": _("Objective")},
+         {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
+
+         # these are all subroutes
          {"route": "ambisexuality", "title": _("Ambiguity and ambisexuality"),
           "explanation": _("Ambiguity and ambisexuality")},
          {"route": "home_and_position", "title": _("Home and Position"), "explanation": _("Home and Position")},
          {"route": "womb", "title": _("The nourishing womb"), "explanation": _("The nourishing womb")},
          {"route": "hostage", "title": _("Host and Hostage"), "explanation": _("Host and Hostage")},
+
+         # this is a collection
          {"route": "two_dimensional", "title": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
           "explanation": _("Two-Dimensional Polar Relations and Two-by-Two Matrices")},
          {"route": "flat", "title": _("The flat space of totality"), "explanation": _("The flat space of totality")},
          {"route": "three", "title": _("Three-Dimensional Analysis"), "explanation": _("Three-Dimensional Analysis")},
+
          {"route": "discussion", "title": _("Discussion"), "explanation": _("Discussion")},
      ]},
     {"route": "genre_theory", "title": _("Theory of Genre Sets"), "explanation": _(
@@ -39,21 +45,27 @@ nav_items = [
          {"route": "abstract", "title": _("Abstract")},
          {"route": "genre_set_intro", "title": _("Introduction to Genre Sets")},
          {"route": "combination", "title": _("Combination")},
-         {"route": "repetition", "title": _("Repetition")},
+         {"route": "repetition", "title": _("Repetition of the same word in different context")},
          {"route": "opposition", "title": _("Opposition")},
          {"route": "intersection", "title": _("Intersection")},
          {"route": "parallelism", "title": _("Parallelism")},
+         {"route": "curvature", "title": _("Curvature")},
          {"route": "flat", "title": _("Flat")},
          {"route": "two_dimensional", "title": _("Two Dimensional")},
          {"route": "curvature", "title": _("Curvature")},
          {"route": "numbers", "title": _("Numbers")},
-         {"route": "addition", "title": _("Addition")},
+         {"route": "plus_one", "title": _("The Good of the “Plus One”: Extension curved by the Vertical")},
          {"route": "perspectivism", "title": _("Perspectivism")},
          {"route": "zero", "title": _("Zero")},
          {"route": "one", "title": _("One")},
          {"route": "duality", "title": _("Duality")},
          {"route": "three", "title": _("Three")},
          {"route": "four", "title": _("Four")},
+
+         {"route": "alembert", "title": _("Quotations from Jean le Rond d'Alembert")},
+
+         {"route": "brunschvig", "title": _("Quotations from Léon Brunschvicg")}
+
      ]},
     {"route": "mots", "title": _("Word list"), "explanation": _(
         "A list of all 16000 words in both Totality and Otherwise. Links to information pages about each word, including definitions and etymologies in English and French, as well as frequencies and lines from both texts")},

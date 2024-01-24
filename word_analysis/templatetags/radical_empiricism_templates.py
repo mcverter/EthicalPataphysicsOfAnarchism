@@ -34,6 +34,10 @@ def nav_bar():
 def nav_bar_item(item, classes=""):
     return {"item": item, "classes": classes}
 
+@register.inclusion_tag('nav/nav_bar_subitem.html')
+def nav_bar_subitem(item, classes=""):
+    return {"item": item, "classes": classes}
+
 
 @register.inclusion_tag('nav/nav_bar_item_with_subitems.html')
 def nav_bar_item_with_subitems(item):
