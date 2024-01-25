@@ -1,8 +1,0 @@
-{% load i18n %}
-<li data-toggle="tooltip" data-popper-placement="right" title="{% trans item.explanation %}"
-        {% if request.resolver_match.url_name|lower == item.route %}
-    class="active"
-        {% endif %}
-    class="nav-item">
-    <a class="nav-link {{ classes }}" href="#{{ item.route }}">{% trans item.title %}</a>
-</li>
