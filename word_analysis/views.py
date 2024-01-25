@@ -5,7 +5,7 @@ from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
-from .hardcoded.site_nav_data import get_subitems_for_route, get_page_title_for_route
+from .hardcoded.temp_site_nav_data import get_subitems_for_route, get_page_title_for_route
 from .models import Word
 
 
