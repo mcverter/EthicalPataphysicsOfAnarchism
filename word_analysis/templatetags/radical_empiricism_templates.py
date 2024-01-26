@@ -1,5 +1,4 @@
 from django import template
-
 from constants import ABBREV_TO_FULL_TITLE_MAP
 from word_analysis.hardcoded.all_genres_data import all_genres_to_words
 from word_analysis.hardcoded.sentences.get_sentence import get_sentence
@@ -13,6 +12,14 @@ from word_analysis.hardcoded.site_nav_data import (
 from word_analysis.hardcoded.accordion_data import accordion_route_to_title_data
 
 register = template.Library()
+
+
+@register.simple_tag
+def is_active(request, url):
+    # Main idea is to check if the url and the current path is a match
+    if request.path in reverse(url):
+        return "active"
+    return ""
 
 
 @register.inclusion_tag("tags/content_accordion.html")

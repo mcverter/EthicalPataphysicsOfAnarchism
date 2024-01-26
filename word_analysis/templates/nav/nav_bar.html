@@ -3,44 +3,71 @@
     <nav class=" navbar navbar-expand-sm navbar-light bg-light justify-content-end mb-20">
         <div class="container-fluid">
             {% include 'nav/nav_brand.html' %}
-            <!-- Start Nav Items -->
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav align-items-baseline">
                     {% for item in nav_items %}
                         {% if item.subitems %}
-                            <!-- Many Items -->
-                            <li class="nav-item dropdown"
-                                    {% if request.resolver_match.url_name|lower == item.route %}
-                                class="active"
-                                    {% endif %}
-                                data-toggle="tooltip" data-popper-placement="right"
+                            <!-- Split Button -->
+                            <li class="nav-item dropdown border border-dark-subtle"
+                                {% if request.resolver_match.url_name|lower == item.route %}class="active"{% endif %}
+                                data-toggle="tooltip" data-popper-placement="top"
                                 title="{% trans item.explanation %}">
-                                <a class="nav-link dropdown-toggle" href="{{ item.route }}"
-                                   data-bs-toggle="dropdown">{% trans item.title %} </a>
-                                <ul class="dropdown-menu">
-                                    {% for subitem in item.subitems %}
-                                        {% if subitem.sub_sub_items %}
-                                            <li>
-                                                <a class="dropdown-item"
-                                                   href="{{ subitem.route }}">{% trans subitem.title %}
-                                                    &raquo;&raquo;</a>
-                                                <ul class="submenu dropdown-menu">
-                                                    {% for sub_sub in subitem.sub_sub_items %}
-                                                        <li><a class="dropdown-item"
-                                                               href="{{ sub_sub.route }}">{% trans sub_sub.title %}</a>
+
+                                <div class="btn-group">
+                                    <button class="btn btn-light ">
+                                        <!-- NAV_BAR_ITEM -->
+                                        <a class="nav-link {{ classes }}"
+                                           href="/{{ item.route }}">{% trans item.title %}</a>
+                                        <!-- END NAV_BAR_ITEM -->
+                                    </button>
+                                    <button
+                                            class="btn btn-dark dropdown-toggle dropdown-toggle-split"
+                                            data-bs-toggle="dropdown"
+                                    >
+                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                    </button>
+                                    <!-- End Split Button -->
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item dropdown"
+                                                {% if request.resolver_match.url_name|lower == item.route %}
+                                            class="active"
+                                                {% endif %}
+                                            data-toggle="tooltip" data-popper-placement="top"
+                                            title="{% trans item.explanation %}">
+                                            <a class="nav-link dropdown-toggle" href="{{ item.route }}"
+                                               data-bs-toggle="dropdown">{% trans item.title %} </a>
+
+
+                                            <ul class="dropdown-menu">
+                                                {% for subitem in item.subitems %}
+                                                    {% if subitem.sub_sub_items %}
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                               href="{{ subitem.route }}">{% trans subitem.title %}
+                                                                &raquo;&raquo;</a>
+                                                            <ul class="submenu dropdown-menu">
+                                                                {% for sub_sub in subitem.sub_sub_items %}
+                                                                    <li><a class="dropdown-item"
+                                                                           href="{{ sub_sub.route }}">{% trans sub_sub.title %}</a>
+                                                                    </li>
+                                                                {% endfor %}
+                                                            </ul>
                                                         </li>
-                                                    {% endfor %}
-                                                </ul>
-                                            </li>
-                                        {% else %}
-                                            <li><a class="dropdown-item"
-                                                   href="{{ subitem.route }}"> {% trans subitem.title %} </a></li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                                <!-- End Many Items -->
-                                {% else %}
-                            <li data-toggle="tooltip" data-popper-placement="right" title="{% trans item.explanation %}"
+                                                    {% else %}
+                                                        <li><a class="dropdown-item"
+                                                               href="{{ subitem.route }}"> {% trans subitem.title %} </a>
+                                                        </li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- End Many Items -->
+                        {% else %}
+                            <li data-toggle="tooltip" data-popper-placement="top" title="{% trans item.explanation %}"
                                     {% if request.resolver_match.url_name|lower == item.route %}
                                 class="active"
                                     {% endif %}
