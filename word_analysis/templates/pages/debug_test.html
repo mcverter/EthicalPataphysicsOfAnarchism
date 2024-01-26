@@ -2,7 +2,40 @@
 {% block subtitle %}DEBUG | {% endblock %}
 {% block content %}
 
+    {% include "nav/site_header.html" with request=request %}
+
     
-    
-    
+
+    <!-- Simple Navbar -->
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <button
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    class="navbar-toggler"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 {% endblock %}
