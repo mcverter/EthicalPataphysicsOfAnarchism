@@ -106,7 +106,6 @@ def word_list_by_prefix(request, prefix):
 
 # to display templates/content as a separate page
 def content_page(request, name):
-    print("content", name)
     return render(request, "pages/content_page.html", {"content": name})
 
 

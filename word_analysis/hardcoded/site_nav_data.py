@@ -4,17 +4,17 @@ from django.utils.translation import gettext as _
 def all_routes_and_subroutes():
     subroutes = [nav["subitems"] for nav in nav_items if "subitems" in nav][0]
     sub_sub_routes = [nav["sub_sub_items"] for nav in subroutes if "sub_sub_items" in nav]
-    print(sub_sub_routes)
     return sub_sub_routes + subroutes + nav_items + [brand_route] + brand_route["subitems"]
 
 
 def get_page_title_for_route(route):
     all_the_routes = all_routes_and_subroutes()
     print(all_the_routes)
-    return  [
+    return [
         # TODO: Check what's going on here with routes
         nav["title"] for nav in all_routes_and_subroutes() if "route" in nav and nav["route"] == route
     ][0]
+
 
 def get_subitems_for_route(route):
     return [nav for nav in nav_items if nav["route"] == route][0]["subitems"]
