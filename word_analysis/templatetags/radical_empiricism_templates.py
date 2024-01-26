@@ -1,4 +1,6 @@
 from django import template
+from django.urls import reverse
+
 from constants import ABBREV_TO_FULL_TITLE_MAP
 from word_analysis.hardcoded.all_genres_data import all_genres_to_words
 from word_analysis.hardcoded.sentences.get_sentence import get_sentence
@@ -15,9 +17,8 @@ register = template.Library()
 
 
 @register.simple_tag
-def is_active(request, url):
-    # Main idea is to check if the url and the current path is a match
-    if request.path in reverse(url):
+def active_check(request, urls):
+    if request.path in (reverse(url) for url in urls.split()):
         return "active"
     return ""
 
@@ -38,8 +39,8 @@ def site_map_accordion():
 
 
 @register.inclusion_tag("nav/nav_bar.html")
-def nav_bar():
-    return {"nav_items": nav_items}
+def nav_bar(request):
+    return {"request": request, "nav_items": nav_items}
 
 
 @register.inclusion_tag("tags/book_line_display.html")

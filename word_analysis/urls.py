@@ -1,17 +1,24 @@
 from django.urls import re_path
 
-from .views import debug_test, word_detail, word_list, technical, summary, genre_theory, \
-    genre_list, genre_detail, content_page
+from .views import (
+    debug_test,
+    word_detail,
+    word_list,
+    technical,
+    summary,
+    genre_theory,
+    genre_list,
+    genre_detail,
+    content_page,
+)
 
 urlpatterns = [
     # Index
     re_path(r"^$", summary, name="summary"),
-
     # Top-Level Pages
-    re_path(r"^summary|resume$", summary, name="summary"),
-    re_path(r"^genre_theory$", genre_theory, name="genre_theory"),
+    re_path(r"^summary|resume", summary, name="summary"),
+    re_path(r"^genre_theory", genre_theory, name="genre_theory"),
     re_path(r"^technical|technique$", technical, name="technical"),
-
     # List and Detail Views
     re_path(r"^words|mots$", word_list, name="words"),
     re_path("^words|mots/(?P<prefix>.*)/$", word_list, name="words"),
@@ -19,7 +26,6 @@ urlpatterns = [
     re_path("^word/(?P<word>.*)/$", word_detail, name="word"),
     re_path(r"^genres$", genre_list, name="genre_list"),
     re_path("^genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
-
     # Content Pages
     # Summary Page
     re_path("^abstract$", content_page, {"name": "abstract"}),
@@ -33,7 +39,6 @@ urlpatterns = [
     re_path("^discussion$", content_page, {"name": "discussion"}),
     re_path("^flat$", content_page, {"name": "flat"}),
     re_path("^three$", content_page, {"name": "three"}),
-
     # Genre Theory Page
     re_path("^combination$", content_page, {"name": "combination"}),
     re_path("^constellation$", content_page, {"name": "constellation"}),
@@ -59,7 +64,6 @@ urlpatterns = [
     re_path("^reversion$", content_page, name="reversion"),
     re_path("^(quatre|four|square|carre)$", content_page, name="four"),
     re_path("^perspectivism$", content_page, name="perspectivism"),
-
     # Debug Page
     re_path(r"^debug_test$", debug_test, name="debug_test"),
 ]

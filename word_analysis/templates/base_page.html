@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="container">
-    {% include "nav/site_header.html" %}
+    {% include "nav/site_header.html" with request=request %}
     {% site_map_accordion %}
     {% block content %}
     {% endblock %}
