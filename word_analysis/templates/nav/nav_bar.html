@@ -16,7 +16,7 @@
                 {% for item in nav_items %}
                     {% if item.subitems %}
                         <!-- Split Button -->
-                        <li class="nav-item dropdown border border-dark-subtle {% active_check request item.route %}"
+                        <li class="nav-item mx-3 dropdown border border-dark-subtle {% active_check request item.route %}"
                             {% if request.resolver_match.url_name|lower == item.route %}class="active"{% endif %}>
 
                             <div class="btn-group">
@@ -63,7 +63,7 @@
                                 {% if request.resolver_match.url_name|lower == item.route %}
                             class="active"
                                 {% endif %}
-                            class="nav-item">
+                            class="nav-item mx-2">
                             <a class="nav-link {{ classes }}" href="/{{ item.route }}">{% trans item.title %}</a>
                         </li>
                     {% endif %}
