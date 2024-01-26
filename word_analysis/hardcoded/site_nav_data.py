@@ -119,7 +119,7 @@ nav_items = [
             {"route": "three", "title": _("Three")},
             {"route": "four", "title": _("Four")},
             {"route": "alembert", "title": _("Quotations from d'Alembert")},
-            {"route": "brunschvig", "title": _("Quotations from Léon Brunschvicg")},
+            {"route": "brunschvicg", "title": _("Quotations from Léon Brunschvicg")},
         ],
     },
     {
