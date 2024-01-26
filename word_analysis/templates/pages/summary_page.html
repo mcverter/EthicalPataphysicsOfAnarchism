@@ -3,6 +3,8 @@
 {% block content %}
     {% page_toc page_title toc_sections %}
     {% for section in toc_sections %}
+        {{ section.route }}
+        
         {% content_card section.route %}
     {% endfor %}
 {% endblock %}

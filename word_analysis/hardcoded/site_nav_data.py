@@ -3,7 +3,7 @@ from django.utils.translation import gettext as _
 
 def all_routes_and_subroutes():
     subroutes = [nav["subitems"] for nav in nav_items if "subitems" in nav]
-    return sum(subroutes, nav_items)
+    return sum(subroutes, nav_items + [brand_route])
 
 
 def get_page_title_for_route(route):
@@ -16,68 +16,69 @@ def get_subitems_for_route(route):
     return [nav for nav in nav_items if nav["route"] == route][0]["subitems"]
 
 
+brand_route = {
+    "route": "summary",
+    "title": _("Project Summary"),
+    "explanation": _(
+        "A discussion of the Radical Empiricism Project, in which the advantages of a multidimensional tensor analysis of metaphorical manifolds is dimensionaland the errors of unidimensional assertions of rank are critiqued"
+    ),
+    "subitems": [
+        {
+            "route": "objective",
+            "title": _("Objective"),
+            "explanation": _("Objective"),
+        },
+        {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
+        # these are all subroutes
+        {
+            "route": "ambisexuality",
+            "title": _("Ambiguity and ambisexuality"),
+            "explanation": _("Ambiguity and ambisexuality"),
+            "sub_sub_items": [
+                {
+                    "route": "home_and_position",
+                    "title": _("Home and Position"),
+                    "explanation": _("Home and Position"),
+                },
+                {
+                    "route": "womb",
+                    "title": _("The nourishing womb"),
+                    "explanation": _("The nourishing womb"),
+                },
+                {
+                    "route": "hostage",
+                    "title": _("Host and Hostage"),
+                    "explanation": _("Host and Hostage"),
+                },
+            ],
+        },
+        # this is a collection
+        {
+            "route": "two_dimensional",
+            "title": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
+            "explanation": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
+            "sub_sub_items": [
+                {
+                    "route": "flat",
+                    "title": _("The flat space of totality"),
+                    "explanation": _("The flat space of totality"),
+                },
+                {
+                    "route": "three",
+                    "title": _("Three-Dimensional Analysis"),
+                    "explanation": _("Three-Dimensional Analysis"),
+                },
+            ],
+        },
+        {
+            "route": "discussion",
+            "title": _("Discussion"),
+            "explanation": _("Discussion"),
+        },
+    ],
+}
+
 nav_items = [
-    {
-        "route": "summary",
-        "title": _("Project Summary"),
-        "explanation": _(
-            "A discussion of the Radical Empiricism Project, in which the advantages of a multidimensional tensor analysis of metaphorical manifolds is dimensionaland the errors of unidimensional assertions of rank are critiqued"
-        ),
-        "subitems": [
-            {
-                "route": "objective",
-                "title": _("Objective"),
-                "explanation": _("Objective"),
-            },
-            {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
-            # these are all subroutes
-            {
-                "route": "ambisexuality",
-                "title": _("Ambiguity and ambisexuality"),
-                "explanation": _("Ambiguity and ambisexuality"),
-                "sub_sub_items": [
-                    {
-                        "route": "home_and_position",
-                        "title": _("Home and Position"),
-                        "explanation": _("Home and Position"),
-                    },
-                    {
-                        "route": "womb",
-                        "title": _("The nourishing womb"),
-                        "explanation": _("The nourishing womb"),
-                    },
-                    {
-                        "route": "hostage",
-                        "title": _("Host and Hostage"),
-                        "explanation": _("Host and Hostage"),
-                    },
-                ],
-            },
-            # this is a collection
-            {
-                "route": "two_dimensional",
-                "title": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
-                "explanation": _(
-                    "Two-Dimensional Polar Relations and Two-by-Two Matrices"
-                ),
-            },
-            {
-                "route": "flat",
-                "title": _("The flat space of totality"),
-                "explanation": _("The flat space of totality"),
-            },
-            {
-                "route": "three",
-                "title": _("Three-Dimensional Analysis"),
-                "explanation": _("Three-Dimensional Analysis"),
-            },
-            {
-                "route": "discussion",
-                "title": _("Discussion"),
-                "explanation": _("Discussion"),
-            },
-        ],
-    },
     {
         "route": "genre_theory",
         "title": _("Theory of Genre Sets"),
@@ -93,31 +94,44 @@ nav_items = [
                     "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
                 ),
             },
-            {"route": "combination", "title": _("Combination")},
+            # relations
             {
-                "route": "repetition",
-                "title": _("Repetition of the same word in different context"),
+                "route": "combination",
+                "title": _("Combination"),
+                "sub_sub_items": [
+                    {
+                        "route": "repetition",
+                        "title": _("Repetition of the same word in different context"),
+                    },
+                    {"route": "opposition", "title": _("Opposition")},
+                    {"route": "intersection", "title": _("Intersection")},
+                    {"route": "parallelism", "title": _("Parallelism")},
+                ],
             },
-            {"route": "opposition", "title": _("Opposition")},
-            {"route": "intersection", "title": _("Intersection")},
-            {"route": "parallelism", "title": _("Parallelism")},
-            {"route": "curvature", "title": _("Curvature")},
-            {"route": "flat", "title": _("Flat")},
-            {"route": "two_dimensional", "title": _("Two Dimensional")},
-            {"route": "curvature", "title": _("Curvature")},
+            {
+                "route": "curvature",
+                "title": _("Curvature"),
+                "sub_sub_items": [
+                    {"route": "flat", "title": _("Flat")},
+                    {"route": "two_dimensional", "title": _("Two Dimensional")},
+                    {"route": "curvature", "title": _("Curvature")},
+                ],
+            },
             {"route": "numbers", "title": _("Numbers")},
             {
                 "route": "plus_one",
                 "title": _(
                     "The Good of the “Plus One”: Extension curved by the Vertical"
                 ),
+                "sub_sub_items": [
+                    {"route": "zero", "title": _("Zero")},
+                    {"route": "one", "title": _("One")},
+                    {"route": "duality", "title": _("Duality")},
+                    {"route": "three", "title": _("Three")},
+                    {"route": "four", "title": _("Four")},
+                ],
             },
             {"route": "perspectivism", "title": _("Perspectivism")},
-            {"route": "zero", "title": _("Zero")},
-            {"route": "one", "title": _("One")},
-            {"route": "duality", "title": _("Duality")},
-            {"route": "three", "title": _("Three")},
-            {"route": "four", "title": _("Four")},
             {"route": "alembert", "title": _("Quotations from d'Alembert")},
             {"route": "brunschvicg", "title": _("Quotations from Léon Brunschvicg")},
         ],

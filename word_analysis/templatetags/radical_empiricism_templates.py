@@ -8,6 +8,7 @@ from word_analysis.hardcoded.constellation_example_data import (
     constellation_example_data,
 )
 from word_analysis.hardcoded.site_nav_data import (
+    brand_route,
     nav_items,
     get_page_title_for_route,
 )
