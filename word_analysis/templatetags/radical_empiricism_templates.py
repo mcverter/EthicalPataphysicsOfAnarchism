@@ -8,7 +8,6 @@ from word_analysis.hardcoded.constellation_example_data import (
     constellation_example_data,
 )
 from word_analysis.hardcoded.site_nav_data import (
-    brand_route,
     nav_items,
     get_page_title_for_route,
 )
@@ -72,8 +71,8 @@ def genre_btn_collapse(genre: str):
     return {"genre": genre, "words": all_genres_to_words(genre)}
 
 
-@register.inclusion_tag("tags/bilingual_card.html")
-def bilingual_card(value: str):
+@register.inclusion_tag("tags/bilingual_accordion.html")
+def bilingual_accordion(value: str):
     return {"component": value}
 
 

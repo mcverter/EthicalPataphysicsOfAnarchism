@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.utils.translation import gettext as _
 
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
@@ -76,7 +75,7 @@ def word_detail(request, word):
         "etymology": etymology,
         "definition": definition,
     }
-    return render(request, "pages/new_wdp.html", context)
+    return render(request, "pages/word_detail_page.html", context)
 
 
 def genre_detail(request, genre):

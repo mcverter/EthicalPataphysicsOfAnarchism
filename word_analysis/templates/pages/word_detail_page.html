@@ -3,57 +3,95 @@
 {% load radical_empricism_filters %}
 {% block subtitle %}{% trans "Information for" %} {{ word.french }} | {% endblock %}
 {% block content %}
-    <h1> Information for {% trans "for" %}
+    <h1>{% trans "Information for" %}
         {{ word.french }}
         {% if request.LANGUAGE_CODE|does_not_start_with:"fr" %}
             ({{ word.english }})
         {% endif %}
     </h1>
-    <nav>
-        <div class="nav nav-tabs" id="word-nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-counts-tab" data-bs-toggle="tab" data-bs-target="#nav-counts"
-                    type="button" role="tab" aria-controls="nav-counts" aria-selected="true">
-                {% trans "More information about" %} {{ word.french }}
-            </button>
-            <button class="nav-link" id="nav-ti-lines-tab" data-bs-toggle="tab" data-bs-target="#nav-ti-lines"
-                    type="button" role="tab" aria-controls="nav-ti-lines" aria-selected="false">
-                {% trans "TI Lines" %}
-            </button>
-            <button class="nav-link" id="nav-otb-lines-tab" data-bs-toggle="tab" data-bs-target="#nav-otb-lines"
-                    type="button" role="tab" aria-controls="nav-otb-lines" aria-selected="false">
-                {% trans "OTB Lines" %}
-            </button>
-            <button class="nav-link" id="nav-cnrtl-tab" data-bs-toggle="tab" data-bs-target="#nav-cnrtl"
-                    type="button" role="tab" aria-controls="nav-otb-lines" aria-selected="false">
-                {% trans "Word Proximities" %}
-            </button>
-        </div>
-    </nav>
 
-    <div class="tab-content" id="word-nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-counts" role="tabpanel"
-             aria-labelledby="nav-counts-tab">
-            <div>{% include "pages/page_components/word_detail_page/counts.html" %}</div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{% trans "Categories" %}</h5>
-                    <div class="d-flex flex-wrap">
-                        {% for genre in genres %}
-                            {% genre_btn_collapse genre %}
-                        {% endfor %}
-                    </div>
+    <!-- Word Counts -->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"> {% trans 'Quantities' %}</h4>
+            <div class="container">
+                <div class="row bg-light">
+                    <div class="col-sm text-center">{{ titles.ti.short.french }}</div>
+                    <div class="col-sm text-center">{{ titles.otb.short.french }}</div>
+                    <div class="col-sm text-center">{% trans "Sum" %}</div>
+                    <div class="col-sm text-center">{% trans "Proportion" %}</div>
+                    <div class="col-sm text-center">{% trans 'Word Proximity Map' %}</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm text-center">{{ word.ti }}</div>
+                    <div class="col-sm text-center">{{ word.otb }}</div>
+                    <div class="col-sm text-center"> {{ sum }} </div>
+                    <div class="col-sm text-center">{{ proportion }}</div>
+                    <div>
+                        <a href="https://www.cnrtl.fr/proxemie/{{ word.french }}" target="_blank" class="btn btn-info">
+                            CNRTL map for {{ word.french }} </a></div>
                 </div>
             </div>
-            {% include 'tags/bilingual_card.html' with word=word component="definition" %}
-            {% include 'tags/bilingual_card.html' with word=word component="etymology" %}
         </div>
-        <div class="tab-pane fade" id="nav-ti-lines" role="tabpanel"
-             aria-labelledby="ti-lines">
-            {% include "lines/tilines.html" %}</div>
-        <div class="tab-pane fade" id="nav-otb-lines" role="tabpanel" aria-labelledby="otb-lines">
-            {% include "lines/otblines.html" %}</div>
-        <div class="tab-pane fade" id="nav-cnrtl" role="tabpanel" aria-labelledby="otb-lines">
-            {% include "pages/page_components/word_detail_page/cnrtl.html" %}
+    </div>
+    <!-- End Word Counts -->
+
+    <!-- Definition and Etymology -->
+    <div class="card">
+        <div class="card-body">
+            <h2>{% trans "Definition and Etymology" %}</h2>
+            {% include 'tags/bilingual_accordion.html' with word=word component="definition" %}
+            {% include 'tags/bilingual_accordion.html' with word=word component="etymology" %}
+        </div>
+    </div>
+    <!-- End Definition and Etymology -->
+
+    <!-- Genre Sets -->
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{% trans "Genre Sets" %}</h5>
+            <div class="d-flex flex-wrap">
+                {% for genre in genres %}
+                    {% genre_btn_collapse genre %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- End Genre Sets -->
+
+    <!-- Lines from Text -->
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title">{% trans "Lines from texts" %}</h2>
+            <!-- word lines nav tabs -->
+            <nav>
+                <div class="nav nav-tabs" id="word-nav-tab" role="tablist">
+                    <button class="nav-link {% if word.ti >= word.otb %} active {% endif %}" id="ti-lines-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#ti-lines-content"
+                            type="button" role="tab" aria-controls="ti-lines-content" aria-selected="false">
+                        {% trans "Totality and Infinity: An Essay on Exteriority" %}
+                    </button>
+                    <button class="nav-link {% if word.otb >  word.ti %} active {% endif %}" id="otb-lines-tab"
+                            data-bs-toggle="tab" data-bs-target="#otb-lines-content"
+                            type="button" role="tab" aria-controls="otb-lines-content" aria-selected="false">
+                        {% trans "Otherwise than Being, or Beyond Essence" %}
+                    </button>
+                </div>
+            </nav>
+            <!-- end word lines nav tabs -->
+
+            <!-- word lines content -->
+            <div class="tab-content" id="word-nav-tabContent">
+                <div class="tab-pane fade {% if word.ti >= word.otb %} show active {% endif %}" id="ti-lines-content"
+                     role="tabpanel"
+                     aria-labelledby="ti-lines-content">
+                    {% include "lines/tilines.html" %}</div>
+                <div class="tab-pane fade {% if word.otb > word.ti %} show active {% endif %}" id="otb-lines-content"
+                     role="tabpanel" aria-labelledby="otb-lines-content">
+                    {% include "lines/otblines.html" %}</div>
+            </div>
+            <!-- end word lines content -->
         </div>
     </div>
 {% endblock %}
