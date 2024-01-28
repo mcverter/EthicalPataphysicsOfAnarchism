@@ -13,6 +13,7 @@ def remove_punctuation(line):
     return re.sub(PUNCTUATION_MARKS, '', line)
 
 
+# is this redundant?
 def remove_apostrophes(line):
     stems = ('l', 's', 'd', 'n', 'qu')
     for stem in stems:

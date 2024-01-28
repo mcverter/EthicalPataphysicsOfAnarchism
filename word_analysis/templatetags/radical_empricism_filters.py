@@ -16,7 +16,7 @@ def starts_with(text: str, prefix: str):
 
 @register.filter()
 def does_not_start_with(text: str, prefix: str):
-    return not text.startswith(prefix)
+    return text is not None and not text.startswith(prefix)
 
 
 @register.filter()

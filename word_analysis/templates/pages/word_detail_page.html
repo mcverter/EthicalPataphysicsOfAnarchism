@@ -5,7 +5,7 @@
 {% block content %}
     <h1>{% trans "Information for" %}
         {{ word.french }}
-        {% if request.LANGUAGE_CODE|does_not_start_with:"fr" %}
+        {% if is_not_french %}
             ({{ word.english }})
         {% endif %}
     </h1>
@@ -91,7 +91,9 @@
                         <tr>
                             <th> {% trans 'Line' %} #</th>
                             <th>{{ titles.ti.long.french }}</th>
-                            <th>{{ titles.ti.long.english }}</th>
+                            {% if is_not_french %}
+                                <th>{{ titles.ti.long.english }}</th>
+                            {% endif %}
                         </tr>
                         </thead>
                         <tbody>

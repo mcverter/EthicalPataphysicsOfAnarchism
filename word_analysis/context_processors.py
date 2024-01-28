@@ -14,6 +14,10 @@ def messages_context(request):
     return {"sysmsg": messages}
 
 
+def is_not_french(request):
+    return {"is_not_french": not request["LANGUAGE_CODE"].startswith("fr")}
+
+
 def title_context(request):
     sources = {
         "definition": {

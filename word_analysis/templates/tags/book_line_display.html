@@ -9,7 +9,9 @@
             <tr>
                 <th> {% trans 'Line' %} #</th>
                 <th>{{ book.fr }}</th>
-                <th>{{ book.en }}</th>
+                {% if is_not_french %}
+                    <th>{{ book.en }}</th>
+                {% endif %}
             </tr>
             </thead>
             <tbody>
@@ -23,7 +25,11 @@
                             {{ word }}</a>
                     {% endfor %}
                 </td>
-                <td>{{ line.english_sentence }}</td>
+                <td>{
+                    {% if is_not_french %}
+                        {{ line.english_sentence }}
+                    {% endif %}
+                </td>
             </tr>
         {% endfor %}
         {% if show_table_head %}

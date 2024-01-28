@@ -49,16 +49,18 @@ def book_line_display(book, line_num, show_table_head=True):
     # might need a better way to separate words
     french_words = sentence["fr"].split(' ')
     english_sentence = sentence["en"]
-    return {
+    context = {
         "book": ABBREV_TO_FULL_TITLE_MAP[book],
         "lines": [{"line_num": line_num,
                    "french_words": french_words,
                    "english_sentence": english_sentence,
-                   "show_table_head": show_table_head}],
+                   }],
+        "show_table_head": show_table_head
     }
+    return context
 
 
-@register.inclusion_tag("tags/constellation_example.html")
+@register.inclusion_tag("[]tags/constellation_example.html")
 def constellation_example():
     return {"constellation_example": constellation_example_data}
 
