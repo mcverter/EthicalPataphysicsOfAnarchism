@@ -1,8 +1,5 @@
 from django import template
-
-# this should go in utils library
-from business_logic.db.database_populator.implementations.inserters.french_word_inserter import remove_punctuation, \
-    remove_apostrophes, standardize_vowels
+from utils import remove_punctuation, remove_apostrophes, standardize_vowels
 
 register = template.Library()
 

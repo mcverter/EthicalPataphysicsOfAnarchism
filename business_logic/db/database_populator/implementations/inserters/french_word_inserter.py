@@ -1,6 +1,7 @@
 import codecs
 import json
 import re
+from utils import remove_punctuation, remove_apostrophes, standardize_vowels
 
 from constants import TABLE_WORD, COLUMN_FRENCH, OTB_FRENCH_SENTENCES, TI_FRENCH_SENTENCES, \
     TI, OTB, TABLE_BOOK_LINE, TI_ENGLISH_SENTENCES, OTB_ENGLISH_SENTENCES
@@ -10,8 +11,6 @@ from business_logic.db.db import insert_into_table, select_single_value, select_
     execute_and_return_multiple_values, commit_all
 from business_logic.db.sanitize_values import sanitize
 from utils import is_empty_value
-
-PUNCTUATION_MARKS = '[/.,()!?"]'
 
 '''
 THIS NEEDS TO BE ADDED BELOW
@@ -42,28 +41,6 @@ def get_french_filepath_from_book(book):
 
 def get_english_filepath_from_book(book):
     return TI_ENGLISH_SENTENCES if book == TI else OTB_ENGLISH_SENTENCES
-
-
-def remove_punctuation(line):
-    return re.sub(PUNCTUATION_MARKS, '', line)
-
-
-def remove_apostrophes(line):
-    stems = ('l', 's', 'd', 'n', 'qu')
-    for stem in stems:
-        line = re.sub(f"{stem}['’]", f'{stem}e ', line)
-    line = re.sub("['’]s", '', line)
-    return line
-
-
-def standardize_vowels(line):
-    line = re.sub('[àâ]', 'a', line)
-    line = re.sub('[éèêë]', 'e', line)
-    line = re.sub('[îï]', 'i', line)
-    line = re.sub('ô', 'o', line)
-    line = re.sub('[ûüù]', 'u', line)
-    line = re.sub('ç', 'c', line)
-    return line
 
 
 def clean_line(line):
