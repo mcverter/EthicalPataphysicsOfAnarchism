@@ -10,6 +10,7 @@ from .hardcoded.site_nav_data import (
     get_page_title_for_route,
 )
 from .models import Word
+from business_logic.db.db import execute_and_return_multiple_values
 
 
 # top level pages
@@ -48,6 +49,14 @@ def word_list(request):
 
 
 def word_detail(request, word):
+    # fetch lines locally rather than querying db.  need to improve code though
+    def get_book_lines(book_word_id):
+        FIRST_OTB_LINE = 5046
+        query = f'select book_line_id from word_analysis_word_book_line where word_id = {book_word_id}'
+        results = execute_and_return_multiple_values(query)
+        return ([result[0] for result in results if result[0] < FIRST_OTB_LINE],
+                [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
+
     book_word = Word.objects.select_related("etymology", "definition").get(french=word)
     if book_word is None:
         book_word = Word.objects.select_related("etymology", "definition").get(
@@ -58,11 +67,8 @@ def word_detail(request, word):
     etymology = book_word.etymology
     definition = book_word.definition
 
-    all_lines = book_word.book_line.all()
-    otb_lines = all_lines.order_by("line").filter(book=OTB)
-    ti_lines = all_lines.order_by("line").filter(book=TI)
+    (ti_lines, otb_lines) = get_book_lines(book_word.id)
     genres = all_words_to_genres(book_word)
-
     context = {
         "word": book_word,
         "sum": book_word.ti + book_word.otb,

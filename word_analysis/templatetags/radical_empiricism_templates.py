@@ -44,10 +44,17 @@ def nav_bar(request):
 
 
 @register.inclusion_tag("tags/book_line_display.html")
-def book_line_display(book, line):
+def book_line_display(book, line_num, show_table_head=True):
+    sentence = get_sentence(book, line_num)
+    # might need a better way to separate words
+    french_words = sentence["fr"].split(' ')
+    english_sentence = sentence["en"]
     return {
         "book": ABBREV_TO_FULL_TITLE_MAP[book],
-        "lines": [{"num": line, "sentence": get_sentence(book, line)}],
+        "lines": [{"line_num": line_num,
+                   "french_words": french_words,
+                   "english_sentence": english_sentence,
+                   "show_table_head": show_table_head}],
     }
 
 

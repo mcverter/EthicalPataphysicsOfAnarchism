@@ -1,6 +1,15 @@
 from django import template
 
+# this should go in utils library
+from business_logic.db.database_populator.implementations.inserters.french_word_inserter import remove_punctuation, \
+    remove_apostrophes, standardize_vowels
+
 register = template.Library()
+
+
+@register.filter()
+def normalize_french_word(word: str):
+    return standardize_vowels(remove_punctuation(remove_apostrophes(remove_punctuation(word))))
 
 
 @register.filter()

@@ -25,9 +25,11 @@ def get_db_cursor():
     return conn.cursor()
 
 
-def execute(query):
+def execute_and_return_multiple_values(query):
     cursor = get_db_cursor()
     cursor.execute(query)
+    results = cursor.fetchall()
+    return results
 
 
 def execute_and_return_single_value(query):
@@ -105,7 +107,7 @@ def update_foreign_key(main_table,
     if main_where_val == 'pur':
         print('break')
 
-    log_update_fk_table(main_table, main_set_column,  fk_internal_column, main_where_val)
+    log_update_fk_table(main_table, main_set_column, fk_internal_column, main_where_val)
 
     fk_id = get_fk_value_from_main_main_table(main_table, main_set_column, main_where_column, main_where_val)
     if is_empty_value(fk_id):
@@ -175,4 +177,4 @@ def update_table(table, set_column, set_value, where_column, where_value):
     if table and set_column and set_value and where_column and where_value:
         log_update_same_table(table, set_column, where_column, where_value)
         query = f"UPDATE {table} SET {set_column} = '{sanitize(set_value)}' WHERE {where_column}='{sanitize(where_value)}'"
-        execute(query)
+        execute_and_return_multiple_values(query)

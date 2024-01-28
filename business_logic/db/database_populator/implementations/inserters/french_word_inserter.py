@@ -7,7 +7,7 @@ from constants import TABLE_WORD, COLUMN_FRENCH, OTB_FRENCH_SENTENCES, TI_FRENCH
 from business_logic.db.database_populator.database_inserter import DatabaseInserter
 from business_logic.db.db import insert_into_table, select_single_value, select_composite_id, \
     insert_many_to_many, \
-    execute, commit_all
+    execute_and_return_multiple_values, commit_all
 from business_logic.db.sanitize_values import sanitize
 from utils import is_empty_value
 
@@ -28,7 +28,7 @@ def add_book_lines_text():
                     query = f"""UPDATE {TABLE_BOOK_LINE} 
                                 SET french='{sanitize(french_lines[idx])}',english='{sanitize(english_lines[idx])}'  
                                 where book='{book}' and line={idx}"""
-                    execute(query)
+                    execute_and_return_multiple_values(query)
         commit_all()
 
 

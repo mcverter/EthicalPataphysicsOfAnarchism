@@ -86,10 +86,38 @@
                 <div class="tab-pane fade {% if word.ti >= word.otb %} show active {% endif %}" id="ti-lines-content"
                      role="tabpanel"
                      aria-labelledby="ti-lines-content">
-                    {% include "lines/tilines.html" %}</div>
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th> {% trans 'Line' %} #</th>
+                            <th>{{ titles.ti.long.french }}</th>
+                            <th>{{ titles.ti.long.english }}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for line in book_lines.ti %}
+                            {% book_line_display "ti" line False %}
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
                 <div class="tab-pane fade {% if word.otb > word.ti %} show active {% endif %}" id="otb-lines-content"
                      role="tabpanel" aria-labelledby="otb-lines-content">
-                    {% include "lines/otblines.html" %}</div>
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th> {% trans 'Line' %} #</th>
+                            <th>{{ titles.ti.long.french }}</th>
+                            <th>{{ titles.ti.long.english }}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for line in book_lines.otb %}
+                            {% book_line_display "otb" line False %}
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <!-- end word lines content -->
         </div>
