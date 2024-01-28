@@ -14,24 +14,28 @@
     <div class="card">
         <div class="card-body">
             <h4 class="card-title"> {% trans 'Quantities' %}</h4>
-            <div class="container">
-                <div class="row bg-light">
-                    <div class="col-sm text-center">{{ titles.ti.short.french }}</div>
-                    <div class="col-sm text-center">{{ titles.otb.short.french }}</div>
-                    <div class="col-sm text-center">{% trans "Sum" %}</div>
-                    <div class="col-sm text-center">{% trans "Proportion" %}</div>
-                    <div class="col-sm text-center">{% trans 'Word Proximity Map' %}</div>
-                </div>
-                <div class="row">
-                    <div class="col-sm text-center">{{ word.ti }}</div>
-                    <div class="col-sm text-center">{{ word.otb }}</div>
-                    <div class="col-sm text-center"> {{ sum }} </div>
-                    <div class="col-sm text-center">{{ proportion }}</div>
-                    <div>
-                        <a href="https://www.cnrtl.fr/proxemie/{{ word.french }}" target="_blank" class="btn btn-info">
-                            CNRTL map for {{ word.french }} </a></div>
-                </div>
-            </div>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th class="text-center">{{ titles.ti.short.french }}</th>
+                    <th class="text-center">{{ titles.otb.short.french }}</th>
+                    <th class="text-center">{% trans "Sum" %}</th>
+                    <th class="text-center">{% trans "Proportion" %}</th>
+                    <th class="text-center">{% trans 'Word Proximity Map' %}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="text-center">{{ word.ti }}</td>
+                    <td class="text-center">{{ word.otb }}</td>
+                    <td class="text-center"> {{ sum }} </td>
+                    <td class="text-center">{{ proportion }}</td>
+                    <td class="text-center"><a href="https://www.cnrtl.fr/proxemie/{{ word.french }}" target="_blank">
+                        CNRTL map for {{ word.french }}
+                    </a></td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </div>
     <!-- End Word Counts -->
