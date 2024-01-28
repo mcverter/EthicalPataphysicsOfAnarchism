@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
@@ -57,31 +57,27 @@ def word_detail(request, word):
         return ([result[0] for result in results if result[0] < FIRST_OTB_LINE],
                 [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
 
-    book_word = Word.objects.select_related("etymology", "definition").get(french=word)
-    if book_word is None:
-        book_word = Word.objects.select_related("etymology", "definition").get(
-            english=word
-        )
-    if book_word is None:
-        return "could not find that word"
-    etymology = book_word.etymology
-    definition = book_word.definition
+    try:
+        book_word = Word.objects.select_related("etymology", "definition").get(french=word)
+        (ti_lines, otb_lines) = get_book_lines(book_word.id)
+        genres = all_words_to_genres(book_word)
 
-    (ti_lines, otb_lines) = get_book_lines(book_word.id)
-    genres = all_words_to_genres(book_word)
-    context = {
-        "word": book_word,
-        "sum": book_word.ti + book_word.otb,
-        "proportion": proportion_ti_to_otb(book_word.ti, book_word.otb),
-        "book_lines": {
-            "otb": otb_lines,
-            "ti": ti_lines,
-        },
-        "genres": genres,
-        "etymology": etymology,
-        "definition": definition,
-    }
-    return render(request, "pages/word_detail_page.html", context)
+        context = {
+            "word": book_word,
+            "sum": book_word.ti + book_word.otb,
+            "proportion": proportion_ti_to_otb(book_word.ti, book_word.otb),
+            "book_lines": {
+                "otb": otb_lines,
+                "ti": ti_lines,
+            },
+            "genres": genres,
+            "etymology": book_word.etymology,
+            "definition": book_word.definition,
+        }
+        return render(request, "pages/word_detail_page.html", context)
+
+    except Word.DoesNotExist:
+        return redirect('/mots')
 
 
 def genre_detail(request, genre):
