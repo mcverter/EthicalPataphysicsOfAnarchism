@@ -113,8 +113,10 @@
                         <thead>
                         <tr>
                             <th> {% trans 'Line' %} #</th>
-                            <th>{{ titles.ti.long.french }}</th>
-                            <th>{{ titles.ti.long.english }}</th>
+                            <th>{{ titles.otb.long.french }}</th>
+                            {% if is_not_french %}
+                                <th>{{ titles.otb.long.english }}</th>
+                            {% endif %}
                         </tr>
                         </thead>
                         <tbody>

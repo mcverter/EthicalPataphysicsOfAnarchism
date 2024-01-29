@@ -25,11 +25,12 @@
                             {{ word }}</a>
                     {% endfor %}
                 </td>
-                <td>{
-                    {% if is_not_french %}
+                 {% if is_not_french %}
+                   <td>{
                         {{ line.english_sentence }}
-                    {% endif %}
+                   
                 </td>
+             {% endif %}
             </tr>
         {% endfor %}
         {% if show_table_head %}
