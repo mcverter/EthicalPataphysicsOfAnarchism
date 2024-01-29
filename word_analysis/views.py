@@ -54,7 +54,7 @@ def word_detail(request, word):
         FIRST_OTB_LINE = 5046
         query = f'select book_line_id from word_analysis_word_book_line where word_id = {book_word_id}'
         results = execute_and_return_multiple_values(query)
-        return ([result[0] for result in results if result[0] < FIRST_OTB_LINE],
+        return ([result[0] - 1 for result in results if result[0] < FIRST_OTB_LINE],
                 [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
 
     try:

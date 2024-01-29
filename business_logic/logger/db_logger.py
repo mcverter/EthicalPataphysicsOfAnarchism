@@ -1,10 +1,16 @@
 import logging
+import os
 from constants import PATH_DB_POPULATE_LOG
 
+
+if not os.path.exists(PATH_DB_POPULATE_LOG):
+    os.makedirs(os.path.dirname(PATH_DB_POPULATE_LOG), exist_ok=True)
+    open(PATH_DB_POPULATE_LOG, "w+")
+
 logging.basicConfig(filename=PATH_DB_POPULATE_LOG,
-                    filemode='a',
-                    format='%(asctime)s %(message)s',
-                    level='DEBUG')
+                        filemode='a',
+                        format='%(asctime)s %(message)s',
+                        level='DEBUG')
 
 
 # '/home/mitchell/ComputerScience_Ubuntu/EthicalPataphysicsOfAnarchism/RadicalEmpiricism/src/logs/db_populate_log.txt'
