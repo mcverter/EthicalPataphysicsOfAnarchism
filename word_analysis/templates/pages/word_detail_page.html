@@ -1,13 +1,12 @@
 {% extends "base_page.html" %}
 {% load i18n %}
 {% load radical_empricism_filters %}
-{% get_current_language as LANGUAGE_CODE %}
 
 {% block subtitle %}{% trans "Information for" %} {{ word.french }} | {% endblock %}
 {% block content %}
     <h1>{% trans "Information for" %}
         {{ word.french }}
-        {% if LANGUAGE_CODE != 'fr' %}
+        {% if request.LANGUAGE_CODE != 'fr' %}
             ({{ word.english }})
         {% endif %}
     </h1>
@@ -100,7 +99,7 @@
                         <tr>
                             <th> {% trans 'Line' %} #</th>
                             <th>{{ titles.ti.long.french }}</th>
-                            {% if LANGUAGE_CODE != 'fr' %}
+                            {% if request.LANGUAGE_CODE != 'fr' %}
                                 <th>{{ titles.ti.long.english }}</th>
                             {% endif %}
                         </tr>
@@ -119,7 +118,7 @@
                         <tr>
                             <th> {% trans 'Line' %} #</th>
                             <th>{{ titles.otb.long.french }}</th>
-                            {% if LANGUAGE_CODE != 'fr' %}
+                            {% if request.LANGUAGE_CODE != 'fr' %}
                                 <th>{{ titles.otb.long.english }}</th>
                             {% endif %}
                         </tr>
