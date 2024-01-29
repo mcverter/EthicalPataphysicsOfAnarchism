@@ -1,15 +1,16 @@
 {% load i18n %}
 {% load radical_empricism_filters %}
+{% get_current_language as LANGUAGE_CODE %}
 
 <div>
     <div>
         {% if show_table_head %}
-            <table class="table table-striped table-bordered">
+            <table class="table table-striped table-bordered border-dark my-3">
             <thead>
             <tr>
                 <th> {% trans 'Line' %} #</th>
                 <th>{{ book.fr }}</th>
-                {% if is_not_french %}
+                {% if LANGUAGE_CODE != 'fr' %}
                     <th>{{ book.en }}</th>
                 {% endif %}
             </tr>
@@ -25,12 +26,12 @@
                             {{ word }}</a>
                     {% endfor %}
                 </td>
-                 {% if is_not_french %}
-                   <td>{
+                {% if LANGUAGE_CODE != 'fr' %}
+                    <td>{
                         {{ line.english_sentence }}
-                   
-                </td>
-             {% endif %}
+
+                    </td>
+                {% endif %}
             </tr>
         {% endfor %}
         {% if show_table_head %}

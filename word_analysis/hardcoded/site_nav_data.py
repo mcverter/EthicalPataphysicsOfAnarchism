@@ -9,7 +9,6 @@ def all_routes_and_subroutes():
 
 def get_page_title_for_route(route):
     all_the_routes = all_routes_and_subroutes()
-    print(all_the_routes)
     return [
         # TODO: Check what's going on here with routes
         nav["title"] for nav in all_routes_and_subroutes() if "route" in nav and nav["route"] == route
