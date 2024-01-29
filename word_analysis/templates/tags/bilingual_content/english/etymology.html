@@ -1,0 +1,16 @@
+{% if word.etymology.english_explanation %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Étymologie</h4>
+            <blockquote class="blockquote"><p class="mb-4">{{ word.etymology.english_explanation }}</p>
+                <footer class="blockquote-footer">
+                    {{ sources.etymology.english.name }}
+                    <cite title="Source Title">
+                        <a href="{{ sources.etymology.english.url }}{{ word }}" target="_blank">
+                            {{ sources.etymology.english.url }}{{ word }}</a></cite></footer>
+            </blockquote>
+        </div>
+    </div>
+{% else %}
+    {{ sysmsg.no_value_yet_en }}
+{% endif %}

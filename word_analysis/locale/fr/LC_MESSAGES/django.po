@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:34-0500\n"
+"POT-Creation-Date: 2024-01-28 22:27-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,15 +105,15 @@ msgstr ""
 msgid "The site is divided into the following sections:"
 msgstr "Le site est divisé en les sections suivantes "
 
-#: .\content\abstract.html:13 .\hardcoded\site_nav_data.py:25
+#: .\content\abstract.html:13 .\hardcoded\site_nav_data.py:24
 msgid "Project Summary"
 msgstr "Résumé du projet"
 
-#: .\content\abstract.html:15 .\hardcoded\site_nav_data.py:145
+#: .\content\abstract.html:15 .\hardcoded\site_nav_data.py:144
 msgid "Word list"
 msgstr "Liste de mots "
 
-#: .\content\abstract.html:17 .\templates\pages\word_detail_page.html:52
+#: .\content\abstract.html:17 .\templates\pages\word_detail_page.html:61
 msgid "Genre Sets"
 msgstr "Ensembles De Genres "
 
@@ -125,7 +125,7 @@ msgstr "Appartenance à un genre "
 msgid "Internal and external relations"
 msgstr "Relations internes et externes "
 
-#: .\content\abstract.html:23 .\hardcoded\site_nav_data.py:157
+#: .\content\abstract.html:23 .\hardcoded\site_nav_data.py:156
 #: .\templates\pages\technical_page.html:4
 #: .\templates\pages\technical_page.html:8
 msgid "Technical notes"
@@ -2227,7 +2227,7 @@ msgstr ""
 " De même, nous pouvons trouver des références à l'imprégnation dans tout le "
 "texte "
 
-#: .\hardcoded\site_nav_data.py:27
+#: .\hardcoded\site_nav_data.py:26
 msgid ""
 "A discussion of the Radical Empiricism Project, in which the advantages of a "
 "multidimensional tensor analysis of metaphorical manifolds is dimensionaland "
@@ -2238,51 +2238,51 @@ msgstr ""
 "dimensionnelle etles erreurs des affirmations unidimensionnelles de rang "
 "sont critiquées "
 
-#: .\hardcoded\site_nav_data.py:32 .\hardcoded\site_nav_data.py:33
+#: .\hardcoded\site_nav_data.py:31 .\hardcoded\site_nav_data.py:32
 msgid "Objective"
 msgstr "L'objectif "
 
-#: .\hardcoded\site_nav_data.py:35
+#: .\hardcoded\site_nav_data.py:34
 msgid "Abstract"
 msgstr "Resume "
 
-#: .\hardcoded\site_nav_data.py:39 .\hardcoded\site_nav_data.py:40
+#: .\hardcoded\site_nav_data.py:38 .\hardcoded\site_nav_data.py:39
 msgid "Ambiguity and ambisexuality"
 msgstr "Ambiguïté et ambisexualité "
 
-#: .\hardcoded\site_nav_data.py:44 .\hardcoded\site_nav_data.py:45
+#: .\hardcoded\site_nav_data.py:43 .\hardcoded\site_nav_data.py:44
 msgid "Home and Position"
 msgstr "Maison et Position "
 
-#: .\hardcoded\site_nav_data.py:49 .\hardcoded\site_nav_data.py:50
+#: .\hardcoded\site_nav_data.py:48 .\hardcoded\site_nav_data.py:49
 msgid "The nourishing womb"
 msgstr "La matrice nourrissant "
 
-#: .\hardcoded\site_nav_data.py:54 .\hardcoded\site_nav_data.py:55
+#: .\hardcoded\site_nav_data.py:53 .\hardcoded\site_nav_data.py:54
 msgid "Host and Hostage"
 msgstr "Hôte et otage "
 
-#: .\hardcoded\site_nav_data.py:62 .\hardcoded\site_nav_data.py:63
+#: .\hardcoded\site_nav_data.py:61 .\hardcoded\site_nav_data.py:62
 msgid "Two-Dimensional Polar Relations and Two-by-Two Matrices"
 msgstr "Relations polaires bidimensionnelles et matrices deux par deux "
 
-#: .\hardcoded\site_nav_data.py:67 .\hardcoded\site_nav_data.py:68
+#: .\hardcoded\site_nav_data.py:66 .\hardcoded\site_nav_data.py:67
 msgid "The flat space of totality"
 msgstr "L'espace plat de la totalité "
 
-#: .\hardcoded\site_nav_data.py:72 .\hardcoded\site_nav_data.py:73
+#: .\hardcoded\site_nav_data.py:71 .\hardcoded\site_nav_data.py:72
 msgid "Three-Dimensional Analysis"
 msgstr "Analyse tridimensionnelle "
 
-#: .\hardcoded\site_nav_data.py:79 .\hardcoded\site_nav_data.py:80
+#: .\hardcoded\site_nav_data.py:78 .\hardcoded\site_nav_data.py:79
 msgid "Discussion"
 msgstr "Discussion "
 
-#: .\hardcoded\site_nav_data.py:88
+#: .\hardcoded\site_nav_data.py:87
 msgid "Theory of Genre Sets"
 msgstr "Théorie des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:90
+#: .\hardcoded\site_nav_data.py:89
 msgid ""
 "This page features many discussion: (1) An Introduction to Genre Sets, (2) "
 "An example analysis of a sentence from Totality and Infinity as a "
@@ -2311,92 +2311,92 @@ msgstr ""
 "[perversion, inversion, subversion, réversion] (7) Lecture Totalité et "
 "L'infini comme genèse et autrement que l'être comme exode "
 
-#: .\hardcoded\site_nav_data.py:93
+#: .\hardcoded\site_nav_data.py:92
 msgid "Introduction to Genre Sets"
 msgstr "Introduction aux ensembles de genres"
 
-#: .\hardcoded\site_nav_data.py:94
+#: .\hardcoded\site_nav_data.py:93
 msgid "Group Set Membership"
 msgstr "Adhésion au groupe"
 
-#: .\hardcoded\site_nav_data.py:98
+#: .\hardcoded\site_nav_data.py:97
 msgid "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
 msgstr ""
 "Une analyse constellationnelle d'une phrase métaphoriquement kallidescopique"
 
-#: .\hardcoded\site_nav_data.py:104
+#: .\hardcoded\site_nav_data.py:103
 msgid "Combination"
 msgstr "Combinaison"
 
-#: .\hardcoded\site_nav_data.py:108
+#: .\hardcoded\site_nav_data.py:107
 msgid "Repetition of the same word in different context"
 msgstr "Répétition du même mot dans un contexte différent "
 
-#: .\hardcoded\site_nav_data.py:110
+#: .\hardcoded\site_nav_data.py:109
 msgid "Opposition"
 msgstr "Opposition"
 
-#: .\hardcoded\site_nav_data.py:111
+#: .\hardcoded\site_nav_data.py:110
 msgid "Intersection"
 msgstr "Intersection"
 
-#: .\hardcoded\site_nav_data.py:112
+#: .\hardcoded\site_nav_data.py:111
 msgid "Parallelism"
 msgstr "Parallélisme"
 
-#: .\hardcoded\site_nav_data.py:117 .\hardcoded\site_nav_data.py:121
+#: .\hardcoded\site_nav_data.py:116 .\hardcoded\site_nav_data.py:120
 msgid "Curvature"
 msgstr "Courbure"
 
-#: .\hardcoded\site_nav_data.py:119
+#: .\hardcoded\site_nav_data.py:118
 msgid "Flat"
 msgstr "Plat"
 
-#: .\hardcoded\site_nav_data.py:120
+#: .\hardcoded\site_nav_data.py:119
 msgid "Two Dimensional"
 msgstr "Bidimensionnel"
 
-#: .\hardcoded\site_nav_data.py:124
+#: .\hardcoded\site_nav_data.py:123
 msgid "Numbers"
 msgstr "Nombres"
 
-#: .\hardcoded\site_nav_data.py:128
+#: .\hardcoded\site_nav_data.py:127
 msgid "The Good of the “Plus One”: Extension curved by the Vertical"
 msgstr "Le Bien du « Plus Un » : Extension courbée par la Verticale"
 
-#: .\hardcoded\site_nav_data.py:131
+#: .\hardcoded\site_nav_data.py:130
 msgid "Zero"
 msgstr "Zéro"
 
-#: .\hardcoded\site_nav_data.py:132
+#: .\hardcoded\site_nav_data.py:131
 msgid "One"
 msgstr "Un"
 
-#: .\hardcoded\site_nav_data.py:133
+#: .\hardcoded\site_nav_data.py:132
 msgid "Duality"
 msgstr "Dualité"
 
-#: .\hardcoded\site_nav_data.py:134
+#: .\hardcoded\site_nav_data.py:133
 msgid "Three"
 msgstr "Trois"
 
-#: .\hardcoded\site_nav_data.py:135
+#: .\hardcoded\site_nav_data.py:134
 msgid "Four"
 msgstr "Quatre"
 
-#: .\hardcoded\site_nav_data.py:138
+#: .\hardcoded\site_nav_data.py:137
 msgid "Perspectivism"
 msgstr "Perspectivisme"
 
-#: .\hardcoded\site_nav_data.py:139
+#: .\hardcoded\site_nav_data.py:138
 msgid "Quotations from d'Alembert"
 msgstr "Citations de d'Alembert"
 
-#: .\hardcoded\site_nav_data.py:140
+#: .\hardcoded\site_nav_data.py:139
 msgid "Quotations from Léon Brunschvicg"
 msgstr "Citations de Léon Brunschvicg"
 
-#: .\hardcoded\site_nav_data.py:147
+#: .\hardcoded\site_nav_data.py:146
 msgid ""
 "A list of all 16000 words in both Totality and Otherwise. Links to "
 "information pages about each word, including definitions and etymologies in "
@@ -2406,15 +2406,15 @@ msgstr ""
 "d'informations sur chaque mot, y compris les définitions et les étymologies "
 "dans Anglais et français, ainsi que les fréquences et lignes des deux textes "
 
-#: .\hardcoded\site_nav_data.py:152
+#: .\hardcoded\site_nav_data.py:151
 msgid "List of Genre Sets"
 msgstr "Liste des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:153
+#: .\hardcoded\site_nav_data.py:152
 msgid "A list of Genre Sets."
 msgstr "Une liste de groupes de genres. "
 
-#: .\hardcoded\site_nav_data.py:159
+#: .\hardcoded\site_nav_data.py:158
 msgid ""
 "Contact information, sources, current project status and future direction"
 msgstr "Coordonnées, sources, état actuel du projet et orientation future "
@@ -2466,11 +2466,6 @@ msgstr "Variations et répétitions formelles "
 #: .\templates\info\count_alerts.html:24
 msgid "Formula for “Proportion”"
 msgstr "Formule de “Proportion” "
-
-#: .\templates\lines\otblines.html:7 .\templates\lines\tilines.html:7
-#: .\templates\tags\book_line_display.html:7
-msgid "Line"
-msgstr "Ligne "
 
 #: .\templates\nav\nav_bar.html:4
 msgid "Summary"
@@ -2540,19 +2535,19 @@ msgstr "Pour "
 msgid "Author"
 msgstr "Auteur "
 
-#: .\templates\pages\technical_page.html:97
+#: .\templates\pages\technical_page.html:98
 msgid "Translations"
 msgstr "Traductions "
 
-#: .\templates\pages\technical_page.html:100
+#: .\templates\pages\technical_page.html:101
 msgid "Google Translate"
 msgstr "Google Traduction "
 
-#: .\templates\pages\technical_page.html:107
+#: .\templates\pages\technical_page.html:108
 msgid "Suggested Reading"
 msgstr "Lecture suggérée "
 
-#: .\templates\pages\technical_page.html:140
+#: .\templates\pages\technical_page.html:141
 msgid ""
 "The objective correlate of the concept of a possible theory determined only "
 "in respect of form [Form] is the concept of a possible field of knowledge "
@@ -2584,7 +2579,7 @@ msgstr ""
 "connexion pour laquelle les lois de la forme a + b = b + a, etc., sont "
 "valables. "
 
-#: .\templates\pages\technical_page.html:145
+#: .\templates\pages\technical_page.html:146
 msgid ""
 "To speak, in a word, is to seek the source of meaning in the prefix that the "
 "words exile, exodus, existence, exteriority, and estrangement are committed "
@@ -2599,43 +2594,49 @@ msgstr ""
 "Assurément, cela il serait téméraire de prétendre représenter le judaïsme "
 "par tous "
 
-#: .\templates\pages\word_detail_page.html:4
 #: .\templates\pages\word_detail_page.html:6
+#: .\templates\pages\word_detail_page.html:8
 msgid "Information for"
 msgstr "Des informations sur "
 
-#: .\templates\pages\word_detail_page.html:16
+#: .\templates\pages\word_detail_page.html:18
 msgid "Quantities"
 msgstr "Quantités "
 
-#: .\templates\pages\word_detail_page.html:21
+#: .\templates\pages\word_detail_page.html:24
 #: .\templates\pages\word_list_page.html:11
 msgid "Sum"
 msgstr "Somme "
 
-#: .\templates\pages\word_detail_page.html:22
+#: .\templates\pages\word_detail_page.html:25
 msgid "Proportion"
 msgstr "Proportion "
 
-#: .\templates\pages\word_detail_page.html:23
+#: .\templates\pages\word_detail_page.html:26
 msgid "Word Proximity Map"
 msgstr "Carte de proximité de mots "
 
-#: .\templates\pages\word_detail_page.html:42
+#: .\templates\pages\word_detail_page.html:48
 msgid "Definition and Etymology"
 msgstr "Définition et étymologie"
 
-#: .\templates\pages\word_detail_page.html:65
+#: .\templates\pages\word_detail_page.html:74
 msgid "Lines from texts"
 msgstr "Lignes de textes"
 
-#: .\templates\pages\word_detail_page.html:73
+#: .\templates\pages\word_detail_page.html:82
 msgid "Totality and Infinity: An Essay on Exteriority"
 msgstr "Totalité et infini: essai sur l'extériorité"
 
-#: .\templates\pages\word_detail_page.html:78
+#: .\templates\pages\word_detail_page.html:87
 msgid "Otherwise than Being, or Beyond Essence"
 msgstr "Autrement qu'être, ou au-delà de l'essence"
+
+#: .\templates\pages\word_detail_page.html:101
+#: .\templates\pages\word_detail_page.html:120
+#: .\templates\tags\book_line_display.html:11
+msgid "Line"
+msgstr "Ligne "
 
 #: .\templates\pages\word_list_page.html:8
 msgid "Word"

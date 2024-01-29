@@ -1,0 +1,23 @@
+{% if word.etymology.french_explanation %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"> Étymologie </h4>
+            <div>
+                <blockquote class="blockquote">
+                    <p class="mb-4">{{ word.etymology.french_explanation }}</p>
+
+                    <footer class="blockquote-footer">
+                        {{ sources.etymology.french.name }}
+                        <cite title="Source Title">
+                            <a href="{{ sources.etymology.french.url }}{{ word }}" target="_blank">
+                                {{ sources.etymology.french.url }}{{ word }}
+                            </a>
+                        </cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+{% else %}
+    {{ sysmsg.no_value_yet_fr }}
+{% endif %}

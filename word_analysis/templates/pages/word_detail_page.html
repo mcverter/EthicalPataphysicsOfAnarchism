@@ -46,8 +46,11 @@
     <div class="card">
         <div class="card-body">
             <h2>{% trans "Definition and Etymology" %}</h2>
-            {% include 'tags/bilingual_accordion.html' with word=word component="definition" %}
-            {% include 'tags/bilingual_accordion.html' with word=word component="etymology" %}
+            <div class="d-flex justify-content-evenly">
+                <div>{% include 'tags/bilingual_accordion.html' with word=word component="definition" %}</div>
+                <div> {% include 'tags/bilingual_accordion.html' with word=word component="etymology" %}
+                </div>
+            </div>
         </div>
     </div>
     <!-- End Definition and Etymology -->
