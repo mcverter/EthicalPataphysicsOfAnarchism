@@ -5,7 +5,6 @@
 
 {% block subtitle %}{% trans "Information for" %} {{ word.french }} | {% endblock %}
 {% block content %}
-    {{ is_not_french }} is not french
     <h1>{% trans "Information for" %}
         {{ word.french }}
         {% if LANGUAGE_CODE != 'fr' %}

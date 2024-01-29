@@ -60,7 +60,7 @@ def book_line_display(book, line_num, show_table_head=True):
     return context
 
 
-@register.inclusion_tag("[]tags/constellation_example.html")
+@register.inclusion_tag("tags/constellation_example.html")
 def constellation_example():
     return {"constellation_example": constellation_example_data}
 
