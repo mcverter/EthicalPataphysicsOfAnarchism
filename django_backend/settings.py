@@ -100,11 +100,12 @@ DATABASES = {
         'PASSWORD': DB_RUNTIME_PASSWORD,
         'HOST': DB_RUNTIME_HOST,
         'PORT': DB_PORT,
+        'OPTIONS': {'sslmode': 'require'}
     }
 }
 
 # Use SSL for remote connection
-if DB_LEVEL == 'remote':
+if DB_LEVEL != 'local':
     DATABASES["default"]['OPTIONS']: {'sslmode': 'require'}
 
 # Password validation
