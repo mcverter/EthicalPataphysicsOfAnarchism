@@ -22,7 +22,7 @@
                 <td>{{ line.line_num }}</td>
                 <td>
                     {% for word in line.french_words %}
-                        <a href="/word/{{ word|normalize_french_word }}" class="link-dark" target="_blank">
+                        <a href="/mot/{{ word|normalize_french_word }}" class="link-dark" target="_blank">
                             {{ word }}</a>
                     {% endfor %}
                 </td>
