@@ -16,9 +16,7 @@
                 {% for item in nav_items %}
                     {% if item.subitems %}
                         <!-- Split Button -->
-                        <li class="nav-item mx-3 dropdown border border-dark-subtle {% active_check request item.route %}"
-                            {% if request.resolver_match.url_name|lower == item.route %}class="active"{% endif %}>
-
+                        <li class="nav-item mx-3 dropdown border border-dark-subtle {% active_check request item.route %}">
                             <div class="btn-group">
                                 <button class="btn btn-light ">
                                     <!-- NAV_BAR_ITEM -->
@@ -59,11 +57,9 @@
                         </li>
                         <!-- End Many Items -->
                     {% else %}
-                        <li data-toggle="tooltip" data-popper-placement="right" title="{% trans item.explanation %}"
-                                {% if request.resolver_match.url_name|lower == item.route %}
-                            class="active"
-                                {% endif %}
-                            class="nav-item mx-2">
+                        <li data-toggle="tooltip" data-popper-placement="right" 
+                            title="{% trans item.explanation %}"
+                            class="nav-item mx-2 {% active_check request item.route %}">
                             <a class="nav-link {{ classes }}" href="/{{ item.route }}">{% trans item.title %}</a>
                         </li>
                     {% endif %}

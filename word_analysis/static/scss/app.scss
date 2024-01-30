@@ -82,9 +82,9 @@ button.nav-link {
   padding: 13px;
 }
 
-.active {
+li.active.nav-item {
   font-size: 125%;
-  color: red;
+  font-weight: bolder;
 }
 
 div.card {

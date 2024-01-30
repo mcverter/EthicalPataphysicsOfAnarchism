@@ -27,10 +27,7 @@
                     {% endfor %}
                 </td>
                 {% if LANGUAGE_CODE != 'fr' %}
-                    <td>{
-                        {{ line.english_sentence }}
-
-                    </td>
+                    <td>{{ line.english_sentence }}</td>
                 {% endif %}
             </tr>
         {% endfor %}
