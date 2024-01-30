@@ -100,7 +100,6 @@ DATABASES = {
         'PASSWORD': DB_RUNTIME_PASSWORD,
         'HOST': DB_RUNTIME_HOST,
         'PORT': DB_PORT,
-        'OPTIONS': {'sslmode': 'require'}
     }
 }
 
