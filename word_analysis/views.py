@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.db import connection
 
 from constants import OTB, TI
 from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
@@ -10,7 +11,6 @@ from .hardcoded.site_nav_data import (
     get_page_title_for_route,
 )
 from .models import Word
-from business_logic.db.db import execute_and_return_multiple_values
 
 
 # top level pages
@@ -53,12 +53,13 @@ def word_detail(request, word):
     def get_book_lines(book_word_id):
         FIRST_OTB_LINE = 5046
 
-        query = f'select book_line_id from word_analysis_word_book_line where word_id = {book_word_id}'
-        print('before query', query)
-        results = execute_and_return_multiple_values(query)
-        print('results', results)
-        return ([result[0] - 1 for result in results if result[0] < FIRST_OTB_LINE],
-                [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
+        with connection.cursor() as cursor:
+            query = f'select book_line_id from word_analysis_word_book_line where word_id = {book_word_id}'
+            cursor.execute(query)
+            results = cursor.fetchall()
+            print('results', results)
+            return ([result[0] - 1 for result in results if result[0] < FIRST_OTB_LINE],
+                    [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
 
     try:
         book_word = Word.objects.select_related("etymology", "definition").get(french=word)
