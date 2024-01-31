@@ -76,8 +76,12 @@ def word_detail(request, word):
         }
         return render(request, "pages/word_detail_page.html", context)
 
-    except Word.DoesNotExist:
+    except Word.DoesNotExist as exception:
+        print('word does not exist', exception)
         return redirect('/mots')
+    except Exception as exception:
+        print(exception)
+        print('problemo', )
 
 
 def genre_detail(request, genre):
