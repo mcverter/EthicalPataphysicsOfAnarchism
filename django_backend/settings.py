@@ -105,8 +105,8 @@ DATABASES = {
 }
 
 # Use SSL for remote connection
-if DB_LEVEL == 'local':
-    del DATABASES["default"]['OPTIONS']['sslmode']
+# if DB_LEVEL == 'local':
+#    del DATABASES["default"]['OPTIONS']['sslmode']
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
