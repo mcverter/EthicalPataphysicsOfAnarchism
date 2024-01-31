@@ -52,8 +52,11 @@ def word_detail(request, word):
     # fetch lines locally rather than querying db.  need to improve code though
     def get_book_lines(book_word_id):
         FIRST_OTB_LINE = 5046
+
         query = f'select book_line_id from word_analysis_word_book_line where word_id = {book_word_id}'
+        print('before query', query)
         results = execute_and_return_multiple_values(query)
+        print('results', results)
         return ([result[0] - 1 for result in results if result[0] < FIRST_OTB_LINE],
                 [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
 
@@ -80,8 +83,7 @@ def word_detail(request, word):
         print('word does not exist', exception)
         return redirect('/mots')
     except Exception as exception:
-        print(exception)
-        print('problemo', )
+        print('general exception', exception)
 
 
 def genre_detail(request, genre):
