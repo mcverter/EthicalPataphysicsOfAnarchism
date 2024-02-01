@@ -17,7 +17,7 @@ from .models import Word
 def genre_theory(request):
     return render(
         request,
-        "pages/genre_theory.html",
+        "pages/composite_page.html",
         {
             "toc_sections": get_subitems_for_route("genre_theory"),
             "page_title": get_page_title_for_route("genre_theory"),
@@ -28,7 +28,7 @@ def genre_theory(request):
 def summary(request):
     return render(
         request,
-        "pages/summary_page.html",
+        "pages/composite_page.html",
         {
             "toc_sections": brand_route["subitems"],
             "page_title": brand_route["title"],
