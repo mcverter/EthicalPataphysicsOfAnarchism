@@ -1,4 +1,5 @@
 {% load i18n %}
+{% load static %}
 <a id="flat"></a>
 <div class="section">.
     {% static 'images/FlatProjection.png' %}
@@ -7,22 +8,30 @@
     <div class="card">
         <div class="card-body">
             <h3 class="card-title">What is Flatness?</h3>
-            The notion of flatness emerges out of  non-Euclidean geometry's critique of Euclid's foundational work Geometry in which he sets out five axioms which ground the rest of his straight-edge and compass constructions.  In the 19th century, thinkers such as when Nikolay Lobachevsky, János Bolyai, and Berhnard Riemann developed alternative geometries which violated Euclid's definition of a parallel line and his  fifth axiom. 
-            
+            The notion of flatness emerges out of non-Euclidean geometry's critique of Euclid's foundational work
+            Geometry in which he sets out five axioms which ground the rest of his straight-edge and compass
+            constructions. In the 19th century, thinkers such as when Nikolay Lobachevsky, János Bolyai, and Berhnard
+            Riemann developed alternative geometries which violated Euclid's definition of a parallel line and his fifth
+            axiom.
+
             Euclid defines a parallel line as follows:
-            <blockquote>Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.</blockquote>
-            
+            <blockquote>Parallel straight lines are straight lines which, being in the same plane and being produced
+                indefinitely in both directions, do not meet one another in either direction.
+            </blockquote>
+
             {% static 'images/ParallelLines.png' %}
-            
+
             His fifth axiom asserts:
 
-            <blockquote>If a line segment intersects two straight lines forming two interior angles on the same side that are
+            <blockquote>If a line segment intersects two straight lines forming two interior angles on the same side
+                that are
                 less than two right angles, then the two lines, if extended indefinitely, meet on that side on which the
-                angles sum to less than two right angles.</blockquote>
+                angles sum to less than two right angles.
+            </blockquote>
 
             {% static 'images/ParallelPostulate.png' %}
-            
-            
+
+
         </div>
     </div>
 
@@ -31,19 +40,24 @@
             <h3 class="card-title">
                 The Cartesian Grid
             </h3>
-            <p>Descartes model of a grid of points rests upon the model of Euclid's parallel lines.  Each vertical line that marks the x-direction is parallel to each other.  Each horizontal line is parallel to each other.  The two axes are always at right angles to each other.  You can shift your motion in the current direction one increment in the orthogonal direction by turning counterclockwise, moving one unit in the orthogonal direction and then turning clockwise and resuming your motion.</p>
+            <p>Descartes model of a grid of points rests upon the model of Euclid's parallel lines. Each vertical line
+                that marks the x-direction is parallel to each other. Each horizontal line is parallel to each other.
+                The two axes are always at right angles to each other. You can shift your motion in the current
+                direction one increment in the orthogonal direction by turning counterclockwise, moving one unit in the
+                orthogonal direction and then turning clockwise and resuming your motion.</p>
             {% static 'images/ParallelPostulate.png' %}
         </div>
     </div>
     <div class="card">
         <div class="card-body">
             <h3 class="card-title">Non Euclidean Curvature</h3>
-            Non Euclidean geometry investigates relationships that do not follow Euclid's version of the parallel postulate.  Below are figured Three curvatures
-            
+            Non Euclidean geometry investigates relationships that do not follow Euclid's version of the parallel
+            postulate. Below are figured Three curvatures
+
             <ul>
                 <li>Zero (flat) curvature</li>
-                <li>Positive (spherical) curvature </li>
-                <li>Negative (hyperbolic) curvature </li>
+                <li>Positive (spherical) curvature</li>
+                <li>Negative (hyperbolic) curvature</li>
             </ul>
             {% static 'images/Curvature.gif' %}
         </div>
@@ -51,40 +65,61 @@
     <div class="card">
         <div class="card-body">
             <h3 class="card-title">Curvature, Position, and Distance</h3>
-            Whereas human interactions require intersections that propel the development of grid-like bureacracies, most if not many of our interactions with the natural world occur in curved environments rather than flat ones. A simple example of this is walking up a hill.
-        
-            Let's say that you are standing at the bottom a hill, at Level-0 and at Avenue A that goes up the hill.  Your friend Panmuphle is also at the bottom, at Level-0, but he is starting from the opposite side of the hill, at Avenue Z.  To walk to Panmuphle from Level-0, you would have to walk around the base of the hill.  Let's say this distance is 1000 meters.  
-            
-            Instead of walking around the hill, you and Panmuphle decide to meet each other at the top.  You walk up Avenue A and Panmuphle walks up Avenue Z.  Because the hill is curved and both walking up slopes, the distance that separates you and Panmuphle around the hill decreases as you go upwards.  For example, let's say that when you are at Level-7, for example, the distance separating you if you walked around from Avenue A to Avenue Z is only 800 meters.  Finally, when you both reach the top of the hill, there is effectively 0 meters separating you in the around-direction.
-            
-            Because of curvature, the relative distance of other objects depends upon one's own position. 
+            Whereas human interactions require intersections that propel the development of grid-like bureacracies, most
+            if not many of our interactions with the natural world occur in curved environments rather than flat ones. A
+            simple example of this is walking up a hill.
+
+            Let's say that you are standing at the bottom a hill, at Level-0 and at Avenue A that goes up the hill. Your
+            friend Panmuphle is also at the bottom, at Level-0, but he is starting from the opposite side of the hill,
+            at Avenue Z. To walk to Panmuphle from Level-0, you would have to walk around the base of the hill. Let's
+            say this distance is 1000 meters.
+
+            Instead of walking around the hill, you and Panmuphle decide to meet each other at the top. You walk up
+            Avenue A and Panmuphle walks up Avenue Z. Because the hill is curved and both walking up slopes, the
+            distance that separates you and Panmuphle around the hill decreases as you go upwards. For example, let's
+            say that when you are at Level-7, for example, the distance separating you if you walked around from Avenue
+            A to Avenue Z is only 800 meters. Finally, when you both reach the top of the hill, there is effectively 0
+            meters separating you in the around-direction.
+
+            Because of curvature, the relative distance of other objects depends upon one's own position.
         </div>
-        
+
     </div>
 
     <div class="card">
         <div class="card-body">
             <h3 class="card-title">Gauss Curvature: Theorema Egregium and Relative position</h3>
-            The notion of curvature was developed by Gauss when he was studying what properties of spaces remain invariant when you deform them.  He expressed his conclusion af this research as his Theorema Egregium  (Remarkable Theorem)
-            <blockquote>If a curved surface is developed upon any other surface whatever, the measure of curvature in each point remains unchanged.
-</blockquote>
-            That is, you can bend a surface without changing the relative position of the points in the surface.  For example, if you draw a flower on a sheet of paper and then roll that paper into a cylinder, the distance between the points remains the same.  Thus we can say that a cylinder and a sheet of paper have the same curvature, and are both flat.
-            
-            Conversely, let's draw a smiley face on a sphere.  Is there any way we can unroll that sphere and map it onto a flat sheet of paper such that the relative positions of each point with respect to the others remains the same?
-           
-            The answer is no.  Their curvatures of a sphere and a flat piece of paper.  
-            
-            For this reason, it is impossible to perfectly replicate the surface of the Earth on a flat map.  Instead, one must use a variety of techniques to reproduce the maps that distort the areas and distances of the land masses.
+            The notion of curvature was developed by Gauss when he was studying what properties of spaces remain
+            invariant when you deform them. He expressed his conclusion af this research as his Theorema Egregium
+            (Remarkable Theorem)
+            <blockquote>If a curved surface is developed upon any other surface whatever, the measure of curvature in
+                each point remains unchanged.
+            </blockquote>
+            That is, you can bend a surface without changing the relative position of the points in the surface. For
+            example, if you draw a flower on a sheet of paper and then roll that paper into a cylinder, the distance
+            between the points remains the same. Thus we can say that a cylinder and a sheet of paper have the same
+            curvature, and are both flat.
+
+            Conversely, let's draw a smiley face on a sphere. Is there any way we can unroll that sphere and map it onto
+            a flat sheet of paper such that the relative positions of each point with respect to the others remains the
+            same?
+
+            The answer is no. Their curvatures of a sphere and a flat piece of paper.
+
+            For this reason, it is impossible to perfectly replicate the surface of the Earth on a flat map. Instead,
+            one must use a variety of techniques to reproduce the maps that distort the areas and distances of the land
+            masses.
         </div>
     </div>
     <div class="card">
         <div class="card-body">
             <h3 class="card-title"> Riemann Proximity</h3>
-            Given that the relative distance between any two points depends upon their respective positions, how can we then define the notion of measurement.
-            
-            A student of Gauss, Bernhard Riemann explained in an 1868 that measurement from 
-            
-            Geodisc proximilty neighborhood.  flat projection.  shadow of flatness. differential 
+            Given that the relative distance between any two points depends upon their respective positions, how can we
+            then define the notion of measurement.
+
+            A student of Gauss, Bernhard Riemann explained in an 1868 that measurement from
+
+            Geodisc proximilty neighborhood. flat projection. shadow of flatness. differential
         </div>
     </div>
     <div class="card">
@@ -92,8 +127,10 @@
             <h3 class="card-title">Einstein Curvature</h3>
         </div>
     </div>
-    
-        Levinas’s work is most typically associated with the critique of the flat projection the grid of points plotted on a map in Euclidean rectilinear space, in a Cartesian grid, arrayed in a totality that can be integrated into a whole" %}</p>
+
+    Levinas’s work is most typically associated with the critique of the flat projection the grid of points plotted on a
+    map in Euclidean rectilinear space, in a Cartesian grid, arrayed in a totality that can be integrated into a whole"
+    %}</p>
     .
     <p class="card-text">{% trans "He borrows the notion of space time curvature from General Relativity. As elaborated by Einstein, Poincare, and Minkowski, general Relativity explains how masses, composed of mass and energy, curve the space, time and light. The most simplest illustration of this is the way that mass curves space. If you put a heavy ball in the middle of a sheet, it will bend the sheet around it. By doing so, it creates least-energy pathways around it. In a similar manner, the massiveness of the sun bends the space around it such that planets find the least-action path as elliptical paths around it" %}</p>
     .
@@ -105,8 +142,8 @@
         <span>,</span>
         <span>{% trans "for a person through the double movement of hypostasis. This is a duality of the Me and the Self. It is also a dimensional duality: to maintain a position in space, to erect oneself as homo erectus, as a virile man with an erection, one stands up in space, extending oneself in height. At the same time, this upwards movement is doubled by a downwards movement, one’s weight that drags oneself back to one’s body, a gravity produced by one’s own material mass" %}</span>
     </p>
-    
-    
-        {% trans "What we wish to point out here is that the not just a polarity but a within terminological GGs both within texts and between his Relations will be traced by detemining a flat projections, doubles and by 2x2 perspecitval and conversational conversions, and by considering how various etymological and semantic genres are transformed into various word forms" %}
+
+
+    {% trans "What we wish to point out here is that the not just a polarity but a within terminological GGs both within texts and between his Relations will be traced by detemining a flat projections, doubles and by 2x2 perspecitval and conversational conversions, and by considering how various etymological and semantic genres are transformed into various word forms" %}
 
 </div>

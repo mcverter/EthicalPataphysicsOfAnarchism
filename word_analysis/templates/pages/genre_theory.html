@@ -3,6 +3,14 @@
 {% block content %}
     {% page_toc page_title toc_sections %}
     {% for section in toc_sections %}
-        {% content_card section.route %}
+        {{ section }}
+        {% if section.sub_sub_items %}
+            {% content_card section.route %}
+            {% for sub_sub in section.sub_sub_items %}
+                {% content_card sub_sub.route %}
+            {% endfor %}
+        {% else %}
+            {% content_card section.route %}
+        {% endif %}
     {% endfor %}
 {% endblock %}
