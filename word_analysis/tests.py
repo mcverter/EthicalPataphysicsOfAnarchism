@@ -1,7 +1,7 @@
 import os
 import re
 from django.test import TestCase, Client
-from .hardcoded.site_nav_data import nav_items
+from .hardcoded.routes import NAV_ITEMS
 
 c = Client()
 
@@ -21,7 +21,7 @@ class RouteTests(TestCase):
         return sum(all_subroutes, all_toproutes)
 
     def z_test_nav_bar_routes(self):
-        all_routes = self.gather_all_routes(nav_items)
+        all_routes = self.gather_all_routes(NAV_ITEMS)
         print(all_routes)
         for route in all_routes:
             self.route_test(route)
