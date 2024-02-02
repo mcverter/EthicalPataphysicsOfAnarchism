@@ -84,8 +84,8 @@ def genre_btn_collapse(genre: str):
 
 
 @register.inclusion_tag("tags/bilingual_accordion.html")
-def bilingual_accordion(value: str):
-    return {"component": value}
+def bilingual_accordion():
+    return {}
 
 
 @register.inclusion_tag("tags/content_card.html")

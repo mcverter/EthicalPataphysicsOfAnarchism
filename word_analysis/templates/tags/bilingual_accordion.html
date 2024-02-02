@@ -1,52 +1,66 @@
-<div id="accordion-{{ route }}" class="accordion m-4">
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button
-                    class="accordion-button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-{{ component }}"
+{% if component.french_explanation and component.english_explanation %}
+    <div id="accordion-{{ route }}" class="accordion m-4">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                        class="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse-{{ name }}"
+                >
+                    {{ name|capfirst }}
+                </button>
+            </h2>
+            <div
+                    id="collapse-{{ name }}"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion-{{ name }}"
             >
-                {{ component|capfirst }}
-            </button>
-        </h2>
-        <div
-                id="collapse-{{ component }}"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordion-{{ component }}"
-        >
-            <div class="accordion-body">
-                <div class="card">
-                    <div class="card-body m-3">
-                        <div class="nav bilingual d-flex align-items-baseline justify-content-around mb-2"
-                             id="{{ component }}-tab" role="tablist">
-                            <div>
-                                <a class="nav-link active btn" id="french-{{ component }}-tab" data-bs-toggle="tab"
-                                   data-bs-target="#french-{{ component }}"
-                                   type="button" role="tab" aria-controls="nav-{{ component }}" aria-selected="true">
-                                    Français
-                                </a>
+                <div class="accordion-body">
+                    <div class="card">
+                        <div class="card-body m-3">
+                            <div class="nav bilingual d-flex align-items-baseline justify-content-around mb-2"
+                                 id="{{ name }}-tab" role="tablist">
+
+                                {% if component.french_explanation %}
+                                    <div>
+                                        <a class="nav-link active btn" id="french-{{ name }}-tab" data-bs-toggle="tab"
+                                           data-bs-target="#french-{{ name }}"
+                                           type="button" role="tab" aria-controls="nav-{{ name }}" aria-selected="true">
+                                            Français
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% if component.english_explanation %}
+                                    <div>
+                                        <a class="nav-link btn btn-info" id="english-{{ name }}-tab"
+                                           data-bs-toggle="tab"
+                                           data-bs-target="#english-{{ name }}"
+                                           type="button" role="tab" aria-controls="nav-{{ name }}" aria-selected="true">
+                                            English
+                                        </a>
+                                    </div>
+
+                                {% endif %}
                             </div>
-                            <div>
-                                <a class="nav-link btn btn-info" id="english-{{ component }}-tab" data-bs-toggle="tab"
-                                   data-bs-target="#english-{{ component }}"
-                                   type="button" role="tab" aria-controls="nav-{{ component }}" aria-selected="true">
-                                    English
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active french" id="french-{{ component }}"
-                                     role="tabpanel"
-                                     aria-labelledby="nav-{{ component }}-tab">
-                                    {% include  'tags/bilingual_content/french/'|add:component|add:'.html' %}
-                                </div>
-                            </div>
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade english" id="english-{{ component }}" role="tabpanel"
-                                     aria-labelledby="nav-{{ component }}-tab">
-                                    {% include  'tags/bilingual_content/english/'|add:component|add:'.html' %}
-                                </div>
+                            <div class="mt-4">
+                                {% if component.french_explanation %}
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active french" id="french-{{ name }}"
+                                             role="tabpanel"
+                                             aria-labelledby="nav-{{ name }}-tab">
+                                            {{ bilingual_content_path }}
+                                            {% include  'tags/bilingual_content/french/'|add:name|add:'.html' %}
+                                        </div>
+                                    </div>
+                                {% endif %}
+                                {% if component.english_explanation %}
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade english" id="english-{{ name }}" role="tabpanel"
+                                             aria-labelledby="nav-{{ name }}-tab">
+                                            {% include  'tags/bilingual_content/english/'|add:name|add:'.html' %}
+                                        </div>
+                                    </div>
+                                {% endif %}                 
                             </div>
                         </div>
                     </div>
@@ -54,14 +68,4 @@
             </div>
         </div>
     </div>
-</div>
-
-
-
-
-
-
-
-
-
-
+{% endif %}
