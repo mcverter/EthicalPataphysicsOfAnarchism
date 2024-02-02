@@ -6,10 +6,10 @@ from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
 from .hardcoded.site_nav_data import (
-    brand_route,
     get_subitems_for_route,
     get_page_title_for_route,
 )
+from .hardcoded.routes import BRAND_ROUTE
 from .models import Word
 
 
@@ -25,13 +25,24 @@ def genre_theory(request):
     )
 
 
+def topics(request):
+    return render(
+        request,
+        "pages/composite_page.html",
+        {
+            "toc_sections": get_subitems_for_route("topics"),
+            "page_title": get_page_title_for_route("topics"),
+        },
+    )
+
+
 def summary(request):
     return render(
         request,
         "pages/composite_page.html",
         {
-            "toc_sections": brand_route["subitems"],
-            "page_title": brand_route["title"],
+            "toc_sections": BRAND_ROUTE["subitems"],
+            "page_title": BRAND_ROUTE["title"],
         },
     )
 

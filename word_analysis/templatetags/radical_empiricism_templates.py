@@ -8,9 +8,12 @@ from word_analysis.hardcoded.constellation_example_data import (
     constellation_example_data,
 )
 from word_analysis.hardcoded.site_nav_data import (
-    nav_items,
     get_page_title_for_route,
 )
+from word_analysis.hardcoded.routes import (
+    NAV_ITEMS,
+)
+
 from word_analysis.hardcoded.accordion_data import accordion_route_to_title_data
 
 register = template.Library()
@@ -35,12 +38,12 @@ def page_toc(page_title, toc_sections):
 
 @register.inclusion_tag("nav/site_map_accordion.html")
 def site_map_accordion():
-    return {"nav_items": nav_items}
+    return {"nav_items": NAV_ITEMS}
 
 
 @register.inclusion_tag("nav/nav_bar.html")
 def nav_bar(request):
-    return {"request": request, "nav_items": nav_items}
+    return {"request": request, "nav_items": NAV_ITEMS}
 
 
 @register.inclusion_tag("tags/book_line_display.html")
