@@ -99,13 +99,13 @@ def word_detail(request, word):
 
 def genre_detail(request, genre):
     def is_prefix():
-        return genre.startswith('PREFIX')
+        return genre.startswith('PREFIX:')
 
     def is_suffix():
-        return genre.startswith('SUFFIX')
+        return genre.startswith('SUFFIX:')
 
     def is_morpheme():
-        return genre.startswith('MORPHEME')
+        return genre.startswith('MORPHEME:')
 
     if is_prefix():
         render(

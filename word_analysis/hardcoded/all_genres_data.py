@@ -2,18 +2,17 @@ import re
 from .all_words_get import ALL_WORDS
 
 def genre_by_prefix(prefix):
-    return [word for word in ALL_WORDS if word.startswith(re.sub('^PREFIX', '',prefix))]
+    return [word for word in ALL_WORDS if word.startswith(re.sub('^PREFIX:', '',prefix))]
 def genre_by_suffix(suffix):
-    return [word for word in ALL_WORDS if word.endswith(re.sub('^SUFFIX', '', suffix))]
+    return [word for word in ALL_WORDS if word.endswith(re.sub('^SUFFIX:', '', suffix))]
     pass
 def genre_by_morpheme(morpheme):
-    return [word for word in ALL_WORDS if re.search(re.sub('^MORPHEME', '',morpheme))]
+    return [word for word in ALL_WORDS if re.search(re.sub('^MORPHEME:', '',morpheme))]
 
 def all_genres_to_words(genre=''):
     if not genre:
         return ALL_CATEGORIES_TO_WORDS
     return ALL_CATEGORIES_TO_WORDS[genre]
-
 
 
 def all_words_to_genres(word):
