@@ -68,7 +68,6 @@ def word_detail(request, word):
             query = f'select book_line_id from word_analysis_word_book_line where word_id = {book_word_id}'
             cursor.execute(query)
             results = cursor.fetchall()
-            print('results', results)
             return ([result[0] - 1 for result in results if result[0] < FIRST_OTB_LINE],
                     [result[0] - FIRST_OTB_LINE for result in results if result[0] >= FIRST_OTB_LINE])
 
