@@ -2,13 +2,10 @@ from django import template
 from django.urls import reverse
 
 from constants import ABBREV_TO_FULL_TITLE_MAP
-from word_analysis.hardcoded.all_genres_data import all_genres_to_words
+from word_analysis.hardcoded.all_genres_data import genre_to_words, clean_genre_name
 from word_analysis.hardcoded.sentences.get_sentence import get_sentence
 from word_analysis.hardcoded.constellation_example_data import (
     constellation_example_data,
-)
-from word_analysis.hardcoded.site_nav_data import (
-    get_page_title_for_route,
 )
 from word_analysis.hardcoded.routes import (
     NAV_ITEMS,
@@ -80,7 +77,7 @@ def word_btn(value: str):
 
 @register.inclusion_tag("tags/genre_btn_collapse.html")
 def genre_btn_collapse(genre: str):
-    return {"genre": genre, "words": all_genres_to_words(genre)}
+    return {"genre": clean_genre_name(genre), "words": genre_to_words(genre)}
 
 
 @register.inclusion_tag("tags/bilingual_accordion.html")

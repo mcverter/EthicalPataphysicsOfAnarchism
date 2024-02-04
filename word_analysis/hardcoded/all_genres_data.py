@@ -2,18 +2,29 @@ import re
 from .all_words_get import ALL_WORDS
 
 def genre_by_prefix(prefix):
-    return [word for word in ALL_WORDS if word.startswith(re.sub('^PREFIX:', '',prefix))]
-def genre_by_suffix(suffix):
-    return [word for word in ALL_WORDS if word.endswith(re.sub('^SUFFIX:', '', suffix))]
-    pass
-def genre_by_morpheme(morpheme):
-    return [word for word in ALL_WORDS if re.search(re.sub('^MORPHEME:', '',morpheme))]
+    return [word for word in ALL_WORDS if word.startswith(re.sub('^PREFIX-', '',prefix))]
 
-def all_genres_to_words(genre=''):
+def genre_by_suffix(suffix):
+    return [word for word in ALL_WORDS if word.endswith(re.sub('^SUFFIX-', '', suffix))]
+
+def genre_by_morpheme(morpheme):
+    return [word for word in ALL_WORDS if re.search(re.sub('^MORPHEME-', '',morpheme), word)]
+
+def genre_to_words(genre=''):
     if not genre:
         return ALL_CATEGORIES_TO_WORDS
+    if genre.startswith('PREFIX-'):
+         return  genre_by_prefix(genre)
+    if genre.startswith('SUFFIX-'):
+         return  genre_by_suffix(genre)
+    if genre.startswith('MORPHEME-'):
+         return  genre_by_morpheme(genre)
+
     return ALL_CATEGORIES_TO_WORDS[genre]
 
+def clean_genre_name(genre=''):
+    re.sub('^(PREFIX|SUFFIX|MORPHEME)-', '', genre)
+    return genre
 
 def all_words_to_genres(word):
     word_to_category_dict = {}
