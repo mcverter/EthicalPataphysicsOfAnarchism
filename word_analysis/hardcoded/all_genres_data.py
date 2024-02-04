@@ -2,7 +2,6 @@ import re
 from .all_words_get import ALL_WORDS
 
 def genre_by_prefix(prefix):
-    prefix = prefix.
     return [word for word in ALL_WORDS if word.startswith(re.sub('^PREFIX:', '',prefix))]
 def genre_by_suffix(suffix):
     return [word for word in ALL_WORDS if word.endswith(re.sub('^SUFFIX:', '', suffix))]
