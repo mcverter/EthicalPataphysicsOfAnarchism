@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.db import connection
 
 from constants import OTB, TI
-from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres
+from .hardcoded.all_genres_data import all_genres_to_words, all_words_to_genres, genre_by_morpheme, genre_by_prefix, genre_by_suffix
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
 from .hardcoded.site_nav_data import (
@@ -98,6 +98,33 @@ def word_detail(request, word):
 
 
 def genre_detail(request, genre):
+    def is_prefix():
+        return genre.startswith('PREFIX:')
+
+    def is_suffix():
+        return genre.startswith('SUFFIX:')
+
+    def is_morpheme():
+        return genre.startswith('MORPHEME:')
+
+    if is_prefix():
+        render(
+            request,
+            "pages/genre_list_page.html",
+            {"genres": genre_by_suffix(genre), "genre": genre},
+        )
+    if is_suffix():
+        render(
+            request,
+            "pages/genre_list_page.html",
+            {"genres": genre_by_suffix(genre), "genre": genre},
+        )
+    if is_morpheme():
+        render(
+            request,
+            "pages/genre_list_page.html",
+            {"genres": genre_by_morpheme(genre), "genre": genre},
+        )
     return render(
         request,
         "pages/genre_list_page.html",

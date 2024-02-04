@@ -6,7 +6,6 @@ from .all_words_data import ALL_WORDS
 TOTAL_TI_WORDS = 108498
 TOTAL_OTB_WORDS = 80797
 
-
 def all_words_with_counts():
     return [{
         "french": word,
