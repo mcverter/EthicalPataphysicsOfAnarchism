@@ -2,10 +2,11 @@ from django.shortcuts import render, redirect
 from django.db import connection
 
 from constants import OTB, TI
-from .hardcoded.all_genres_data import genre_to_words, all_words_to_genres, genre_by_morpheme, genre_by_prefix, genre_by_suffix
+from .hardcoded.all_genres_data import genre_to_words, all_words_to_genres, genre_by_morpheme, genre_by_prefix, \
+    genre_by_suffix
 from .hardcoded.all_references_books import ALL_REFERENCE_BOOKS
 from .hardcoded.all_words_get import all_words_with_counts, proportion_ti_to_otb
-from .hardcoded.site_nav_data import (
+from .hardcoded.route_utils import (
     get_subitems_for_route,
     get_page_title_for_route,
 )
@@ -95,6 +96,7 @@ def word_detail(request, word):
         return redirect('/mots')
     except Exception as exception:
         print('general exception', exception)
+
 
 # TODO: this can't be right ?
 def genre_detail(request, genre):

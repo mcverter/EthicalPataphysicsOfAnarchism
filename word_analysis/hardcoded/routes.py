@@ -71,6 +71,8 @@ NAV_ITEMS = [
         ),
         "subitems": [
             {"route": "genre_set_intro", "title": _("Introduction to Genre Sets")},
+            {"route": "mathematics", "title": _("The Mathematics Genre Sets")},
+
             {"route": "membership", "title": _("Group Set Membership")},
             {
                 "route": "constellation",
