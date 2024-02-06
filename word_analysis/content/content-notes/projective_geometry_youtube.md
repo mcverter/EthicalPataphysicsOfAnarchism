@@ -9,4 +9,4 @@ Poncelet
 
 transfinite transcendental numbers irrationals
 
-desargues https://www.youtube.com/watch?v=rVE1OJecEQk&list=PLCTMeyjMKRkopIFPgNQQVTKL-Ie2TO0in&index=4
+desargues https://www.youtube.com/watch?v=rVE1OJecEQk&list=PLCTMeyjMKRkopIFPgNQQVTKL-Ie2TO0in&index=4git pull

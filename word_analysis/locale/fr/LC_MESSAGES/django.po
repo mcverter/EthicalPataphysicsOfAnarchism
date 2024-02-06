@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-28 22:27-0500\n"
+"POT-Creation-Date: 2024-02-06 03:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\content\abstract.html:4
+#: content/abstract.html:4
 msgid ""
 "Levinas’s work can be understood better by mapping the relations within and "
 "between multiple dimensions of topological manifolds that describe the "
@@ -28,7 +28,7 @@ msgstr ""
 "décrivent les transformations tensorielles thématiques au sein et entre "
 "diverses ensembles de genres (EG) "
 
-#: .\content\abstract.html:5
+#: content/abstract.html:5
 msgid ""
 "Many great works have been written mapping the relations between Levinas’s "
 "language and those of other philosophers such as Heidegger, Husserl, or Hegel"
@@ -37,7 +37,7 @@ msgstr ""
 "langue de Levinas et ceux des autres philosophes comme Heidegger, Husserl ou "
 "Hegel "
 
-#: .\content\abstract.html:6
+#: content/abstract.html:6
 msgid ""
 "However, there remains much work to be done to investigate the structure of "
 "Levinas’s books, the structure of his sentences and phrases, the rules for "
@@ -50,7 +50,7 @@ msgstr ""
 "modèles qui régissent leur récurrence périodique et leur juxtaposition avec "
 "d’autres termes métaphoriques "
 
-#: .\content\abstract.html:7
+#: content/abstract.html:7
 msgid ""
 "Already in his earliest published works, Levinas displays extraordinary "
 "attention to linguistic morphemes and their metaphorical dimensions. In his "
@@ -79,7 +79,7 @@ msgstr ""
 "que ces prépositions « dans », « pour » et « avec » sont au racine du verbe "
 "« être » (comme « ex » est à la racine du verbe « exister ») » "
 
-#: .\content\abstract.html:8
+#: content/abstract.html:8
 msgid ""
 "We should therefore assume that Levinas thinks deliberately about all "
 "aspects of language: of roots, prefixes, and suffixes; of the nominal, "
@@ -93,7 +93,7 @@ msgstr ""
 "discours ; des voix actives, moyennes et passives ; du nominatif, du "
 "vocatif, du datif, cas génitif, ablatif, accusatif et même locatif "
 
-#: .\content\abstract.html:9
+#: content/abstract.html:9
 msgid ""
 "This project endeavors to map out the topology of the manifold of these "
 "Genre Sets(TG)"
@@ -101,37 +101,36 @@ msgstr ""
 " Ce projet s'efforce de cartographier la topologie de la diversité de ces "
 "thématiques. Genres (TG) "
 
-#: .\content\abstract.html:10
+#: content/abstract.html:10
 msgid "The site is divided into the following sections:"
 msgstr "Le site est divisé en les sections suivantes "
 
-#: .\content\abstract.html:13 .\hardcoded\site_nav_data.py:24
+#: content/abstract.html:13 hardcoded/routes.py:5
 msgid "Project Summary"
 msgstr "Résumé du projet"
 
-#: .\content\abstract.html:15 .\hardcoded\site_nav_data.py:144
+#: content/abstract.html:15 hardcoded/routes.py:111
 msgid "Word list"
 msgstr "Liste de mots "
 
-#: .\content\abstract.html:17 .\templates\pages\word_detail_page.html:61
+#: content/abstract.html:17 templates/pages/word_detail_page.html:60
 msgid "Genre Sets"
 msgstr "Ensembles De Genres "
 
-#: .\content\abstract.html:19 .\content\membership.html:64
+#: content/abstract.html:19 content/membership.html:64
 msgid "Genre membership"
 msgstr "Appartenance à un genre "
 
-#: .\content\abstract.html:21
+#: content/abstract.html:21
 msgid "Internal and external relations"
 msgstr "Relations internes et externes "
 
-#: .\content\abstract.html:23 .\hardcoded\site_nav_data.py:156
-#: .\templates\pages\technical_page.html:4
-#: .\templates\pages\technical_page.html:8
+#: content/abstract.html:23 hardcoded/routes.py:149
+#: templates/pages/technical_page.html:4 templates/pages/technical_page.html:8
 msgid "Technical notes"
 msgstr "Notes techniques "
 
-#: .\content\alembert.html:6
+#: content/alembert.html:6
 msgid ""
 "The definition and properties of the straight line, and therefore of  "
 "parallel lines, are the reef, and, so to speak, the scandal of the elements "
@@ -141,7 +140,7 @@ msgstr ""
 "parallèles, sont donc l’écueil, et, pour ainsi dire, le scandale des élémens "
 "de géométrie"
 
-#: .\content\ambisexuality.html:4
+#: content/ambisexuality.html:4
 msgid ""
 "The ambiguity of assuming both positions is a recurrent theme throughout "
 "Levinas's texts. It is perhaps most obvious in Levinas's discussions of his "
@@ -153,12 +152,12 @@ msgstr ""
 "Levinas sur son des discussions polaires sur le genre, quand il évoque la "
 "confusion de la virilitéde la subjectivité subissant la volupté de l'éros "
 
-#: .\content\ambisexuality.html:7 .\content\ambisexuality.html:9
-#: .\content\ambisexuality.html:13
+#: content/ambisexuality.html:7 content/ambisexuality.html:9
+#: content/ambisexuality.html:13
 msgid "The welcome of the feminine Other"
 msgstr "L'accueil de l'Autre féminin "
 
-#: .\content\ambisexuality.html:10
+#: content/ambisexuality.html:10
 msgid ""
 "But this gender doubling occurs well before his discussion of Eros. For "
 "example, Levinas introduces the idea of the feminine as welcome, saying:"
@@ -167,12 +166,12 @@ msgstr ""
 "CarPar exemple, Levinas introduit l'idée du féminin comme bienvenu en "
 "disant : "
 
-#: .\content\ambisexuality.html:16 .\content\ambisexuality.html:18
-#: .\content\ambisexuality.html:22
+#: content/ambisexuality.html:16 content/ambisexuality.html:18
+#: content/ambisexuality.html:22
 msgid "The welcome of the feminine Self"
 msgstr "L'accueil du Soi féminin "
 
-#: .\content\ambisexuality.html:19
+#: content/ambisexuality.html:19
 msgid ""
 "We can then only assume that the it is the Self who is positioned as the "
 "feminine with respect to the masculine Other sseveral pages later: "
@@ -180,7 +179,7 @@ msgstr ""
 " Nous ne pouvons alors que supposer que c'est le Soi qui se positionne comme "
 "le féminin par rapport au masculin Autres plusieurs pages plus tard : "
 
-#: .\content\brunschvicg.html:4
+#: content/brunschvicg.html:4
 msgid ""
 "Non-euclidean geometry undermines a phenomenological orientation he traces "
 "from the beginnings of geometric thought in the first Greek philosopher "
@@ -191,7 +190,7 @@ msgstr ""
 "grecThalès et le premier géomètre Euclide à travers le rationalisme de "
 "Descartes"
 
-#: .\content\brunschvicg.html:5
+#: content/brunschvicg.html:5
 msgid ""
 "Already, by release from geometric matter the general idea of the algebraic "
 "equation, by representing the different types of equations by various genres "
@@ -205,7 +204,7 @@ msgstr ""
 "philosophes à découvrir le point sur lequel la pensée abstraite dépasse "
 "l’horizon de l'intuition spatiale."
 
-#: .\content\brunschvicg.html:7
+#: content/brunschvicg.html:7
 msgid ""
 "Yet non-Euclidean better describes the world as we actually experience it "
 "than does Euclidean.  The world we experience is actually curved. We don't "
@@ -219,7 +218,7 @@ msgstr ""
 "rues suivent des courbesdes collines et des vallées. La courbure de la terre "
 "elle-même affecte la manière"
 
-#: .\content\brunschvicg.html:9
+#: content/brunschvicg.html:9
 msgid ""
 " Although this conclusion is hard enough to conceive for rudimentary "
 "psychology to which the theory of faculties has generally used us, it is not "
@@ -248,11 +247,11 @@ msgstr ""
 "terrestre augmentait jusqu'à devenir infini, comme si l’épaisseur d’une "
 "droite visible diminuait jusqu'à devenir nulle."
 
-#: .\content\combination.html:4
+#: content/combination.html:4
 msgid "Combinations"
 msgstr "Combinations "
 
-#: .\content\combination.html:5
+#: content/combination.html:5
 msgid ""
 "Prefixes, suffixes, prepositions, etymological roots, and verbal, nominal, "
 "adjectival and adverbial combinations all belong to various GENRE_SETS. This "
@@ -262,31 +261,31 @@ msgstr ""
 "verbales, nominales, adjectivales et adverbiales appartiennent tous à divers "
 "GENRE_SETS. Cela permet à un seul mot d'envelopper une variété à N plis de "
 
-#: .\content\combination.html:5
+#: content/combination.html:5
 msgid "Genre Sets (GS)"
 msgstr "Ensembles De Genres (EG) "
 
-#: .\content\combination.html:8
+#: content/combination.html:8
 msgid "For example, the word"
 msgstr "Par exemple, le mot "
 
-#: .\content\combination.html:10
+#: content/combination.html:10
 msgid "belongs to the genre"
 msgstr "appartient au genre "
 
-#: .\content\combination.html:10
+#: content/combination.html:10
 msgid "because the etymological root is “vivre”. It belongs to the genre"
 msgstr "car la racine étymologique est « vivre ». Elle appartient au genre "
 
-#: .\content\combination.html:10
+#: content/combination.html:10
 msgid "MATHEMATICS because the prefix “sur” connotes height"
 msgstr "MATHEMATIQUES car le préfixe “sur” évoque la hauteur "
 
-#: .\content\combination.html:13
+#: content/combination.html:13
 msgid "The birth of the son is referred to as a"
 msgstr "La naissance du fils est appelée une "
 
-#: .\content\combination.html:15
+#: content/combination.html:15
 msgid ""
 "because it again rises (surgir) again (re), thus combining “height” and "
 "“recurrence” from "
@@ -294,11 +293,11 @@ msgstr ""
 " parce qu'il monte à nouveau (surgir) à nouveau (re), combinant ainsi "
 "“hauteur” et “récidive” de "
 
-#: .\content\discussion.html:6
+#: content/discussion.html:6
 msgid "Tensor Transformation Patterns: Parallelism"
 msgstr "Modèles de transformation tensorielle: Parallélisme "
 
-#: .\content\discussion.html:7
+#: content/discussion.html:7
 msgid ""
 "Two examples of such patterns are parallelism and intersection. Words from "
 "different Genre Sets often transform in parallel. For example, Levinas "
@@ -309,12 +308,12 @@ msgstr ""
 "Levinas coordonnées {'positif', 'négatif'} et {'naissance', 'décès'}, "
 "membres des GS "
 
-#: .\content\discussion.html:7 .\content\duality.html:19
-#: .\content\duality.html:21 .\content\objective.html:7
+#: content/discussion.html:7 content/duality.html:19 content/duality.html:21
+#: content/objective.html:7
 msgid "and"
 msgstr "et "
 
-#: .\content\discussion.html:7
+#: content/discussion.html:7
 msgid ""
 "such that the words 'positive' and 'birth' occur similarly and the words "
 "'negative' and 'death' occur similarly."
@@ -323,11 +322,11 @@ msgstr ""
 "même manière et que les mots« négatif » et « mort» se produisent de la même "
 "manière. "
 
-#: .\content\discussion.html:12
+#: content/discussion.html:12
 msgid "Tensor Transformation Patterns: Intersection"
 msgstr "Modèles de transformation tensorielle: intersection "
 
-#: .\content\discussion.html:13
+#: content/discussion.html:13
 msgid ""
 "Genre Sets also can intersect in single words: for example, the word "
 "'survivant' expresses a combination of the theme of height from"
@@ -336,15 +335,15 @@ msgstr ""
 "par exemple, le mot 'survivant' exprime une combinaison du thème de la "
 "hauteur de "
 
-#: .\content\discussion.html:13
+#: content/discussion.html:13
 msgid "and combines it with the theme of living from"
 msgstr "et le combine avec le thème de vivre de "
 
-#: .\content\discussion.html:18
+#: content/discussion.html:18
 msgid "Summary of tensor analysis"
 msgstr "Résumé de l'analyse tensorielle "
 
-#: .\content\discussion.html:19
+#: content/discussion.html:19
 msgid ""
 "We can summarize our these examples of parallelism and combination among "
 "Genre Sets  as follows:"
@@ -352,7 +351,7 @@ msgstr ""
 " Nous pouvons résumer nos exemples de parallélisme et de combinaison entre "
 "Les genres sont définis comme suite: "
 
-#: .\content\discussion.html:20
+#: content/discussion.html:20
 msgid ""
 "Levinas considers birth to be a positivity, the “plus one” of the Good, that "
 "establishes the height of a living substantive subject."
@@ -360,11 +359,11 @@ msgstr ""
 " Levinas considère la naissance comme une positivité, le « plus un » du "
 "Bien, qui établit la hauteur d'un sujet substantiel vivant. "
 
-#: .\content\discussion.html:25
+#: content/discussion.html:25
 msgid "Polar opposition distinguished from war"
 msgstr "L'opposition polaire se distingue de la guerre "
 
-#: .\content\discussion.html:26
+#: content/discussion.html:26
 msgid ""
 "Most importantly, each important thematic in Levinas's text is paired with a "
 "polar opposite -- height with depth, maternity with paternity, and so on. "
@@ -390,11 +389,11 @@ msgstr ""
 "meurtrière que “Levinas ne peut pas vivre avecsoit Hegel, soit Derrida” et "
 "ainsi de suite. "
 
-#: .\content\discussion.html:31
+#: content/discussion.html:31
 msgid "Polar opposition distinguished from privilege"
 msgstr "L'opposition polaire se distingue du privilège "
 
-#: .\content\discussion.html:32
+#: content/discussion.html:32
 msgid ""
 "This misunderstanding of polar opposition also affects many earnest attempts "
 "to understand Levinas as well. For example, a myriad of papers and books "
@@ -412,11 +411,11 @@ msgstr ""
 "maternel, ou tout autre argument similaire qui affirme  Levinas promeut un "
 "pôle d'une opposition donnée au détriment du autre pôle. "
 
-#: .\content\discussion.html:37
+#: content/discussion.html:37
 msgid "Polar opposition distinguished from rank"
 msgstr "L'opposition polaire se distingue du rang "
 
-#: .\content\discussion.html:38
+#: content/discussion.html:38
 msgid ""
 "However, such a reading of polarity in Levinas as hatred or murder or "
 "privilege mistakenly introduces the idea of rank into opposition. But the "
@@ -438,13 +437,13 @@ msgstr ""
 "de la morale avec un Une volonté de puissance qui découle initialement du "
 "“pathos de la distance” qui classe les forts contre les faibles. "
 
-#: .\content\discussion.html:43
+#: content/discussion.html:43
 msgid "Rank, Domination, and Violence do not belong in Levinas commentary"
 msgstr ""
 " Le rang, la domination et la violence n'ont pas leur place dans le "
 "commentaire de Levinas "
 
-#: .\content\discussion.html:44
+#: content/discussion.html:44
 msgid ""
 "We disavow any reading of Levinas that operates according to a logic of rank "
 "and domination or which construes his work as a series of attacks."
@@ -452,12 +451,12 @@ msgstr ""
 " Nous désavouons toute lecture de Levinas qui s'opère selon une logique de "
 "ranget de domination ou qui construit son œuvre comme une série d'attaques. "
 
-#: .\content\discussion.html:49
+#: content/discussion.html:49
 msgid "How do we understand Levinas's apparently heirarchical language?"
 msgstr ""
 " Comment comprenons-nous le langage apparemment hiérarchique de Levinas ? "
 
-#: .\content\discussion.html:50
+#: content/discussion.html:50
 msgid ""
 "That said, we must express our sympathy for those who read Levinas in this "
 "manner because he himself seems to employ heirarchical metaphors within "
@@ -469,11 +468,11 @@ msgstr ""
 "hiérarchiques à l'intérieur<em>Totalité et infini</em>, la métaphore de la "
 "“hauteur” (une membre de "
 
-#: .\content\discussion.html:50
+#: content/discussion.html:50
 msgid ") and the metaphor of “first” (a member of "
 msgstr ") et la métaphore de “premier” (un membre de "
 
-#: .\content\discussion.html:50
+#: content/discussion.html:50
 msgid ""
 "But it is overwhelmingly clear that Levinas's project throughout is to "
 "question the prioirty of unitary being and of first-person subjectivity, "
@@ -494,11 +493,11 @@ msgstr ""
 "métaphorique qui est apparemment cachée à la vue de tous dans le texte "
 "de<em>Totalité et Infini</em> "
 
-#: .\content\discussion.html:55
+#: content/discussion.html:55
 msgid "Levinas's subversion of heirarchy"
 msgstr "La subversion de la hiérarchie par Levinas "
 
-#: .\content\discussion.html:56
+#: content/discussion.html:56
 msgid ""
 "Here it is useful to notice that Levinas explicitly expresses his "
 "overturning of this heirarchy, his subversion of the motif of height within "
@@ -508,7 +507,7 @@ msgstr ""
 "renversement de cette hiérarchie, sa subversion du motif de la hauteur "
 "intérieure<em>Autrement que l'Être</em>. Il cite Jean Wahl : "
 
-#: .\content\discussion.html:57
+#: content/discussion.html:57
 msgid ""
 "There is something to be said, Novalis wrote, in favor of passivity. It is "
 "significant that one of Novalis’ contemporaries, Maine de Brain, who wished "
@@ -522,11 +521,11 @@ msgstr ""
 "philosophede deux passivités, la plus basse et la plus haute. Mais la plus "
 "basse est-elle inférieure à le plus haut? "
 
-#: .\content\discussion.html:62
+#: content/discussion.html:62
 msgid "Opposite as polar positive positions"
 msgstr "Opposé aux positions polaires positives "
 
-#: .\content\discussion.html:63
+#: content/discussion.html:63
 msgid ""
 "How then should we understand polar opposites in the work of Levinas? "
 "Perhaps we can first notice that alredy the word “opposite” implies the "
@@ -545,11 +544,11 @@ msgstr ""
 "naissance à la mort à la renaissance, de soi à l'autre à soi, de de la "
 "hauteur à la misère jusqu'à la hauteur. "
 
-#: .\content\discussion.html:68
+#: content/discussion.html:68
 msgid "Non-Euclidean Curvature"
 msgstr "Courbure non euclidienne "
 
-#: .\content\discussion.html:69
+#: content/discussion.html:69
 msgid ""
 "We can go further in our understanding by employing noticing that Levinas "
 "employs the term “curvature” and “dimension” taken from the non-Euclidean "
@@ -563,11 +562,11 @@ msgstr ""
 "dimensionsdans <em>Totalité et Infini</em>, notamment pour notre discussion "
 "actuelle, les dimensions de hauteur et de profondeur. "
 
-#: .\content\discussion.html:75
+#: content/discussion.html:75
 msgid "Curvature and asymmetry"
 msgstr "Courbure et asymétrie "
 
-#: .\content\discussion.html:76
+#: content/discussion.html:76
 msgid ""
 "When we explore the notion of curvature we notice the importance of how, "
 "throughout <em>Totality and Infinity</em>, Levinas is constantly shifting "
@@ -585,11 +584,11 @@ msgstr ""
 "perspectivisme à travers <em>Totalité et Infini</em> quand il décrit "
 "l'asymétrie métaphysique comme l'impossibilitéd'auto-réflexion directe. "
 
-#: .\content\discussion.html:82
+#: content/discussion.html:82
 msgid "Gravitational / Magnetic polarities"
 msgstr "Polarités gravitationnelles/magnétiques "
 
-#: .\content\discussion.html:83
+#: content/discussion.html:83
 msgid ""
 "This polarity is effectuated by the confrontation of two separate points of "
 "gravity and transform the tensors of the terms around them"
@@ -597,7 +596,7 @@ msgstr ""
 " Cette polarité s'effectue par la confrontation de deux points distincts de "
 "la gravité et transformer les tenseurs des termes qui les entourent "
 
-#: .\content\discussion.html:84
+#: content/discussion.html:84
 msgid ""
 "Levinas expresses this idea in terms of electromagnetics rather than "
 "gravitation in <em>Totality and Infinity</em>"
@@ -605,11 +604,11 @@ msgstr ""
 " Levinas exprime cette idée en termes d'électromagnétique plutôt que "
 "gravitation dans <em>Totalité et Infini</em> "
 
-#: .\content\discussion.html:90
+#: content/discussion.html:90
 msgid "Tensor bundles of metaphoric transformation"
 msgstr "Faisceaux tensoriels de transformation métaphorique "
 
-#: .\content\discussion.html:91
+#: content/discussion.html:91
 msgid ""
 "Two dimensions are in movement through the the relationship with the "
 "opposite constructs a polar relationship between these which affect the "
@@ -623,15 +622,15 @@ msgstr ""
 "retracer la transformation des Genres à travers la transmutation de "
 "métaphores "
 
-#: .\content\discussion.html:96
+#: content/discussion.html:96
 msgid "Metaphoric Transformations of GENÈSES"
 msgstr "Transformations métaphoriques de GENÈSES "
 
-#: .\content\discussion.html:97
+#: content/discussion.html:97
 msgid "Let us examine this topic by revisiting the notion of the Genre Set"
 msgstr "Examinons ce sujet en revisitant la notion de Genre Set "
 
-#: .\content\discussion.html:97
+#: content/discussion.html:97
 msgid ""
 ", a genre set that encompasses the words 'birth' and 'death'.  How do these "
 "two words function in the narrative described by Levinas.  The narrative "
@@ -668,11 +667,11 @@ msgstr ""
 "de la mort par des rapports sexuels avec ce même féminin, et devient père "
 "d'un enfant quiest ressuscité comme un frère parmi des frères. "
 
-#: .\content\discussion.html:102
+#: content/discussion.html:102
 msgid "Perspectival transformations"
 msgstr "Transformations de perspective "
 
-#: .\content\discussion.html:103
+#: content/discussion.html:103
 msgid ""
 "Several things must be said about this narrative. First, each stage "
 "described in this process entails a certain shift in perspective and "
@@ -688,25 +687,25 @@ msgstr ""
 "ensembles de genres à toutes les étapes de ce récit, mais modifie les "
 "positions des deuxpôles d'une manière déterminée. "
 
-#: .\content\discussion.html:108
+#: content/discussion.html:108
 msgid "Tensor bundle enumeration"
 msgstr "Énumération du bundle de tenseurs "
 
-#: .\content\discussion.html:109
+#: content/discussion.html:109
 msgid ""
 "The purpose of the current project is to enumerate these tensor "
 "transformations"
 msgstr "Le but du projet actuel est d'énumérer ces tenseurstransformations "
 
-#: .\content\discussion.html:114
+#: content/discussion.html:114
 msgid "Some important transformations"
 msgstr "Quelques transformations importantes "
 
-#: .\content\discussion.html:115
+#: content/discussion.html:115
 msgid "We can outline several important transformations"
 msgstr "Nous pouvons décrire plusieurs transformations importantes "
 
-#: .\content\discussion.html:116
+#: content/discussion.html:116
 msgid ""
 "First, it is important to point out that two of the most important polar "
 "terms, Self and Other, (1) always assume both positions of each pole, and "
@@ -719,19 +718,19 @@ msgstr ""
 "positions affectent le une perspective particulière de manière "
 "bidimensionnelle. "
 
-#: .\content\discussion.html:117
+#: content/discussion.html:117
 msgid "Let's take these proposals one at a time."
 msgstr "Prenons ces propositions une par une. "
 
-#: .\content\duality.html:2
+#: content/duality.html:2
 msgid "The principle of duality"
 msgstr "Le principe de dualité "
 
-#: .\content\duality.html:3
+#: content/duality.html:3
 msgid "Reciprocal polars and the Principle of duality"
 msgstr "Polars réciproques et principe de dualité "
 
-#: .\content\duality.html:5
+#: content/duality.html:5
 msgid ""
 "Levinas’s logic can be examined using principles established by the 19th "
 "century descriptive, symmetric, and projective geometry as elaborated by"
@@ -740,28 +739,28 @@ msgstr ""
 "le XIXegéométrie descriptive, symétrique et projective du siècle telle "
 "qu'élaborée par "
 
-#: .\content\duality.html:14
+#: content/duality.html:14
 msgid "and others: namely ideas such as"
 msgstr "et d'autres : à savoir des idées telles que "
 
-#: .\content\duality.html:21
+#: content/duality.html:21
 msgid "the"
 msgstr "le "
 
-#: .\content\duality.html:21
+#: content/duality.html:21
 msgid "also called"
 msgstr "aussi appelé "
 
-#: .\content\duality.html:24
+#: content/duality.html:24
 msgid "in French"
 msgstr "en français "
 
-#: .\content\duality.html:25 .\content\membership.html:11
-#: .\templates\pages\technical_page.html:31
+#: content/duality.html:25 content/membership.html:11
+#: templates/pages/technical_page.html:31
 msgid "or"
 msgstr "ou "
 
-#: .\content\duality.html:27
+#: content/duality.html:27
 msgid ""
 "He refers to this repeatedly, in discussions of ambguity, ambphibology, "
 "contradictions, paradoxes, and so on.  It is apparent in his usage of "
@@ -772,7 +771,7 @@ msgstr ""
 "voit dans son utilisation d’oppositions telles que « totalité » et « infini "
 "», « soi » et « autre ». "
 
-#: .\content\duality.html:28
+#: content/duality.html:28
 msgid ""
 "The nature of this polar relationship is one of the most misunderstood "
 "aspects of Levinas’s writing. It is often dialectics practiced according to "
@@ -786,7 +785,7 @@ msgstr ""
 "François Lyotard parle de  « La haine du neutre constamment manifestée par "
 "»Lévinas. "
 
-#: .\content\duality.html:29
+#: content/duality.html:29
 msgid ""
 "This reading of polarity as animosity has had an alarming effect on Levinas "
 "scholarship: a tendency to read his ethical phenomenology as an ethics of "
@@ -809,7 +808,7 @@ msgstr ""
 "négativité du futur. L’usage que fait Cohen de ces termes évoque cependant "
 "une généalogie différente de la morale. "
 
-#: .\content\duality.html:31
+#: content/duality.html:31
 msgid ""
 "But this is a misreading of polarity. Such an interpretation would figure "
 "negativity as the primary relation between poles. But for Levinas, negation "
@@ -828,18 +827,18 @@ msgstr ""
 "raison, la négation d”une négation n'est ni une tautologie ni une "
 "conséquence directe. réflexion ni une "
 
-#: .\content\duality.html:33
+#: content/duality.html:33
 msgid ""
 "Polar relations are always reciprocal relations between two positive poles"
 msgstr ""
 " Les relations polaires sont toujours des relations réciproques entre deux "
 "pôles positifs "
 
-#: .\content\duality.html:34
+#: content/duality.html:34
 msgid "AND-relations"
 msgstr "Relations: ET "
 
-#: .\content\duality.html:35
+#: content/duality.html:35
 msgid ""
 "Levinas relates terms through the conjunction “and”. Gilles Deleuze and "
 "Felix Guattari explain the meaning of this word in their explanation of the "
@@ -849,7 +848,7 @@ msgstr ""
 "Félix Guattari expliquent le sens de cette mot dans leur explication du "
 "rhizome "
 
-#: .\content\duality.html:37
+#: content/duality.html:37
 msgid ""
 "A rhizome has no beginning or end; it is always in the middle, between "
 "things, interbeing, intermezzo. The tree is filiation, but the rhizome is "
@@ -873,11 +872,11 @@ msgstr ""
 "conception du voyage et du mouvement (conception méthodique, pédagogique, "
 "initiatique, symbolique...) "
 
-#: .\content\duality.html:39
+#: content/duality.html:39
 msgid "Deleuze takes this from Jean Wahl"
 msgstr "Deleuze prend cela de Jean Wahl "
 
-#: .\content\duality.html:41
+#: content/duality.html:41
 msgid ""
 "32.“And” has an especially important role in English literature, as a "
 "function not only of the Old Testament but also of the “minorities” at work "
@@ -902,7 +901,7 @@ msgstr ""
 "Wahl contiennent de profondes réflexions sur ce sens du « et », sur dans la "
 "manière dont il remet en question la primauté du verbe « être ». "
 
-#: .\content\duality.html:45
+#: content/duality.html:45
 msgid ""
 "The importance of duality should be understood in light of the misunderstood "
 "slogan “ethics is first philosophy.”     Rather than urging us to embrace "
@@ -919,7 +918,7 @@ msgstr ""
 "fête est l’autre, qui est aussi une singularité, mais placée en position de "
 "juxtapostion ou de proximité ou de sérialité "
 
-#: .\content\duality.html:46
+#: content/duality.html:46
 msgid ""
 "The ontological predication Ethics is First Philosophy should be read "
 "alongside Levinas’s usage of numeration.  Numeration in Levinas does not "
@@ -943,7 +942,7 @@ msgstr ""
 "Le principe archē est déjà perturbé par l’anarchie de ces nombreuses "
 "relations "
 
-#: .\content\duality.html:47
+#: content/duality.html:47
 msgid ""
 "Within Totality and Infinity, Levinas expresses this logic of polarity most "
 "clearly through metaphors of gender"
@@ -951,7 +950,7 @@ msgstr ""
 " Dans Totalité et Infini, Levinas exprime très clairement cette logique de "
 "polarité à travers des métaphores de genre "
 
-#: .\content\duality.html:48
+#: content/duality.html:48
 msgid ""
 "I would in fact suggest that Levinas not only gives this polarity a gender "
 "but gives this gendered Feminine a proper name, a biblical name. It is not "
@@ -965,7 +964,7 @@ msgstr ""
 "Judaïsme et le Féminin » comme Miriam ou Tamar ou Léa (DF 31), mais c'est "
 "peut-être le nom le plus fréquemment utilisé dans la Bible "
 
-#: .\content\duality.html:49
+#: content/duality.html:49
 msgid ""
 "It should be noted that the number two has special significance in Judaism. "
 "Books of Talmud always open on the second page. The first book of creation, "
@@ -982,7 +981,7 @@ msgstr ""
 "locative « à l’intérieur ». Le prénom féminin le plus populaire dans la "
 "Bible est en fait « Beth » comme dans « Bethléem » "
 
-#: .\content\duality.html:50
+#: content/duality.html:50
 msgid ""
 "There are multiple reasons why it is useful to express the Feminine as being "
 "named “Beth.” In Hebrew,“Beth” signifies not only a proper name, but also "
@@ -1014,7 +1013,7 @@ msgstr ""
 "» et « Bethlehem. Encore une fois, le premier mot de la Torah, בְּרֵאשִׁית, "
 "abrite le principal רֹאשׁ au sein du בַּיִת "
 
-#: .\content\duality.html:52
+#: content/duality.html:52
 msgid ""
 "There is something almost Pythagorean in his thought, in the sense that "
 "numbers are not used merely for counting, but themselves describe certain "
@@ -1027,7 +1026,7 @@ msgstr ""
 "étude supplémentaire, mais nous pouvons commencer à expliquer ses chiffres "
 "ici "
 
-#: .\content\duality.html:54
+#: content/duality.html:54
 msgid ""
 "In addition to these various linguistic meanings, בּ also has a mathematical "
 "signification: Because Hebrew uses letters to represent numbers, בּ also "
@@ -1056,7 +1055,7 @@ msgstr ""
 "pluriel est donné à un nombre. Seule l’unité est ontologiquement "
 "privilégiée. Plusieurs est, mais en synthèse n’est plus » (TI 274) "
 
-#: .\content\duality.html:56
+#: content/duality.html:56
 msgid ""
 "Before I produce this woman before you, let me begin by suggesting that, in "
 "his early work, Levinas states that “all philosophy is perhaps a meditation "
@@ -1096,25 +1095,25 @@ msgstr ""
 "fils de Donald, mais dans ce cas il semblerait que ce personnage familier "
 "soit le fils d'une femme nommée « Beth » "
 
-#: .\content\duality.html:58
+#: content/duality.html:58
 msgid "Mac Beatha meaning “son of life”"
 msgstr "Mac Beatha signifiant « fils de la vie » "
 
-#: .\content\duality.html:59
+#: content/duality.html:59
 msgid "0 before 1"
 msgstr "0 avant 1 "
 
-#: .\content\duality.html:60
+#: content/duality.html:60
 msgid "Levinas’s primary innovaton in Otherwise than Being is to focus on how"
 msgstr ""
 " La principale innovation de Levinas dans Autrement qu'être est de se "
 "concentrer sur la manière dont l’ "
 
-#: .\content\duality.html:61
+#: content/duality.html:61
 msgid "anarchy"
 msgstr "anarchie "
 
-#: .\content\duality.html:61
+#: content/duality.html:61
 msgid ""
 "precedes subjectvity. The relationship explored is between 0 and 1, not "
 "between 1 and 2"
@@ -1122,16 +1121,288 @@ msgstr ""
 " précède subjectivité. La relation explorée est comprise entre 0 et 1 et non "
 "entre 1 et 2 "
 
-#: .\content\flat.html:4
+#: content/flat.html:6
 msgid ""
-"What we wish to point out here is that the not just a polarity but a within "
-"terminological GGs both within texts and between his Relations will be "
-"traced by detemining a flat projections, doubles and by 2x2 perspecitval and "
-"conversational conversions, and by considering how various etymological and "
-"semantic genres are transformed into various word forms"
-msgstr " "
+"In his first book, Levinas opposes the idea of the personal infinity to the "
+"concrete impersonal 'totality'.  The relation between these two can best be "
+"understood as the distinction between curved space and its flat projection. "
+"In his second book, however, Levinas reorients this analysis to transform "
+"this flat surface into the third dimensionality of the third persons.  In "
+"this section, we wil explain the idea of flatness in non-Euclidean geometry, "
+"explain how non-Euclidean geometry is employed by the theory of spacetime "
+"proposed by Einstein's principle of relativity, and then discuss lines of "
+"Totality and Infinity which demonstrate Levinas's usage of these concepts"
+msgstr ""
+"Dans son premier livre, Levinas oppose l'idée de l'infini personnel à la "
+"une <em>totalité</em> concrète et impersonnelle. La meilleure relation entre ces deux peut être "
+"compris comme la distinction entre l'espace courbe et sa projection plate."
+"Dans son deuxième livre, Levinas réoriente cependant cette analyse pour transformer"
+"cette surface plane dans la troisième dimensionnalité des troisièmes personnes. Dans "
+"cette section, nous expliquerons l'idée de planéité en géométrie non euclidienne, "
+"expliquer comment la géométrie non euclidienne est employée par la théorie de l'espace-temps"
+"proposé par le principe de relativité d'Einstein, puis discutez des lignes de "
+"Totalité et Infini qui démontrent l'utilisation par Levinas de ces concepts"
 
-#: .\content\flat.html:6
+
+#: content/flat.html:11
+msgid ""
+"The notion of flatness emerges out of non-Euclidean geometry's critique of "
+"Euclid's foundational work Geometry in which he sets out five axioms which "
+"ground the rest of his straight-edge and compass constructions. In the 19th "
+"century, thinkers such as when Nikolay Lobachevsky, János Bolyai, and "
+"Berhnard Riemann developed alternative geometries which violated Euclid's "
+"definition of a parallel line and his fifth axiom."
+msgstr ""
+"La notion de planéité émerge de la critique de la géométrie non euclidienne de"
+"L'ouvrage fondateur d'Euclide, Géométrie, dans lequel il énonce cinq axiomes qui"
+" rectifie le reste de ses constructions à la règle et au compas. Au 19ème "
+" siècle, des penseurs comme Nikolay Lobachevsky, János Bolyai et "
+"Berhnard Riemann a développé des géométries alternatives qui violaient celle d'Euclide"
+"définition d'une ligne parallèle et son cinquième axiome."
+
+
+#: content/flat.html:13
+msgid "Euclid defines a parallel line as follows:"
+msgstr "Euclide définit une ligne parallèle comme suit :"
+
+#: content/flat.html:20
+msgid "His fifth axiom asserts:"
+msgstr "Son cinquième axiome affirme:"
+
+#: content/flat.html:35
+msgid "The Cartesian Grid"
+msgstr "La grille cartésienne"
+
+
+#: content/flat.html:47
+msgid ""
+"Non Euclidean geometry investigates relationships that do not follow "
+"Euclid's version of the parallel postulate. Below are figured Three "
+"curvatures"
+msgstr ""
+"La géométrie non euclidienne étudie les relations qui ne se suivent pas"
+"Version d'Euclide du postulat parallèle. Ci-dessous sont figurés Trois "
+"courbures"
+
+#: content/flat.html:60
+msgid ""
+"Whereas human interactions require intersections that propel the development "
+"of grid-like bureacracies, most if not many of our interactions with the "
+"natural world occur in curved environments rather than flat ones. A simple "
+"example of this is walking up a hill."
+msgstr ""
+"Alors que les interactions humaines nécessitent des intersections qui propulsent le développement"
+"de bureaucraties en forme de grille, la plupart sinon la plupart de nos interactions avec le"
+"Le monde naturel se produit dans des environnements courbes plutôt que plats. Un simple "
+"Un exemple en est de gravir une colline."
+
+
+#: content/flat.html:62
+msgid ""
+"Let's say that you are standing at the bottom a hill, at Level-0 and at "
+"Avenue A that goes up the hill. Your friend Panmuphle is also at the bottom, "
+"at Level-0, but he is starting from the opposite side of the hill at Avenue "
+"Z. To walk to Panmuphle from Level-0, you would have to walk around the base "
+"of the hill. Let's say this distance is 1000 meters."
+msgstr ""
+"Disons que vous vous trouvez au pied d'une colline, au niveau 0 et à "
+"Avenue A qui monte la colline. Votre ami Panmuphle est aussi en bas, "
+"au niveau 0, mais il part du côté opposé de la colline, à l'avenue"
+"Z. Pour marcher jusqu'à Panmuphle depuis le niveau 0, vous devrez faire le tour de la base"
+"de la colline. Disons que cette distance est de 1000 mètres."
+
+
+#: content/flat.html:64
+msgid ""
+"Instead of walking around the hill, you and Panmuphle decide to meet each "
+"other at the top. You walk up Avenue A and Panmuphle walks up Avenue Z. "
+"Because the hill is curved and both walking up slopes, the distance that "
+"separates you and Panmuphle around the hill decreases as you go upwards. For "
+"example, let's say that when you are at Level-7, for example, the distance "
+"separating you if you walked around from Avenue A to Avenue Z is only 800 "
+"meters. Finally, when you both reach the top of the hill, there is "
+"effectively 0 meters separating you in the around-direction."
+msgstr ""
+" Au lieu de faire le tour de la colline, vous et Panmuphle décidez de vous rencontrer "
+"L'autre en haut. Vous remontez l'avenue A et Panmuphle remonte l'avenue Z. "
+"Parce que la colline est courbe et que les deux gravissent des pentes, la distance qui "
+"vous sépare et Panmuphle autour de la colline diminue à mesure que vous montez. Car "
+"exemple, disons que lorsque vous êtes au niveau 7, par exemple, la distance "
+"vous séparer si vous vous promeniez de l'avenue A à l'avenue Z n'est que de 800"
+"mètres. Enfin, lorsque vous atteignez tous les deux le sommet de la colline, il y a "
+"En fait, 0 mètre vous sépare dans la direction environnante."
+
+
+#: content/flat.html:66
+msgid ""
+"Because of curvature, the relative distance of other objects depends upon "
+"one's own position."
+msgstr ""
+"En raison de la courbure, la distance relative des autres objets dépend de "
+"sa propre position."
+
+
+#: content/flat.html:74
+msgid ""
+"The notion of curvature was developed by Gauss when he was studying what "
+"properties of spaces remain invariant when you deform them. He expressed his "
+"conclusion af this research as his Theorema Egregium (Remarkable Theorem)"
+msgstr ""
+"La notion de courbure a été développée par Gauss alors qu'il étudiait ce que "
+"Les propriétés des espaces restent invariantes lorsqu'on les déforme. Il a exprimé son "
+"conclusion de cette recherche comme son Theorema Egregium (théorème remarquable)"
+
+
+#: content/flat.html:78
+msgid ""
+"That is, you can bend a surface without changing the relative position of "
+"the points in the surface. For example, if you draw a flower on a sheet of "
+"paper and then roll that paper into a cylinder, the distance between the "
+"points remains the same. Thus we can say that a cylinder and a sheet of "
+"paper have the same curvature, and are both flat."
+msgstr ""
+"C'est-à-dire que vous pouvez plier une surface sans changer la position relative de "
+"les points de la surface. Par exemple, si vous dessinez une fleur sur une feuille de "
+"papier, puis roulez ce papier dans un cylindre, la distance entre le "
+"les points restent les mêmes. Ainsi on peut dire qu'un cylindre et une feuille de "
+"Les papiers ont la même courbure et sont tous deux plats."
+
+
+#: content/flat.html:80
+msgid ""
+"Conversely, let's draw a smiley face on a sphere. Is there any way we can "
+"unroll that sphere and map it onto a flat sheet of paper such that the "
+"relative positions of each point with respect to the others remains the same?"
+msgstr ""
+"À l'inverse, dessinons un visage souriant sur une sphère. Y a-t-il un moyen de le faire"
+"déroulez cette sphère et tracez-la sur une feuille de papier plate de telle sorte que le "
+"les positions relatives de chaque point par rapport aux autres restent les mêmes ?"
+
+
+#: content/flat.html:82
+msgid ""
+"The answer is no. Their curvatures of a sphere and a flat piece of paper."
+msgstr ""
+"La réponse est non. Leurs courbures d'une sphère et d'un morceau de papier plat."
+
+#: content/flat.html:84
+msgid ""
+"For this reason, it is impossible to perfectly replicate the surface of the "
+"Earth on a flat map. Instead one must use a variety of techniques to "
+"reproduce the maps that distort the areas and distances of the land masses."
+msgstr ""
+"Pour cette raison, il est impossible de reproduire parfaitement la surface du "
+"La Terre sur une carte plate. Il faut plutôt utiliser diverses techniques pour "
+"reproduire les cartes qui déforment les superficies et les distances des masses continentales."
+
+#: content/flat.html:89
+msgid ""
+"As a student at the New School for Social Research in New York City, one is "
+"expected to master the art of perfect pizza holding as a prerequisite to the "
+"completion of your degree."
+msgstr ""
+"En tant qu'étudiant à la New School for Social Research de New York, je suis"
+"devrait maîtriser l'art de la tenue parfaite de la pizza comme condition préalable au"
+"obtention de votre diplôme."
+
+#: content/flat.html:91
+msgid ""
+"The best way to hold a slice of pizza is to bend it slightly down the middle "
+"while you are holding it. "
+msgstr ""
+"La meilleure façon de tenir une tranche de pizza est de la plier légèrement au milieu"
+"pendant que tu le tiens."
+
+#: content/flat.html:92
+msgid ""
+"If you don't, the top of the pizza slice will start to droop forward, making "
+"sauce and cheese drip off."
+msgstr ""
+"Si vous ne le faites pas, le dessus de la tranche de pizza commencera à s'affaisser vers l'avant, ce qui fera"
+"La sauce et le fromage s'égouttent."
+
+
+#: content/flat.html:95
+msgid ""
+"Why does this fold add to the stability of the pizza slice?  As mentioned "
+"above, Gauss's Theorem Egregrium states that the total curvature of an "
+"object is unaffected by any deformation of it.  "
+msgstr ""
+"Pourquoi ce pli ajoute-t-il à la stabilité de la tranche de pizza ? Comme mentionné "
+"ci-dessus, le théorème Egregrium de Gauss déclare que la courbure totale d'un "
+"l'objet n'est affecté par aucune déformation de celui-ci."
+
+#: content/flat.html:98
+msgid ""
+"We can calculate the curvature of an object by the product of its change in "
+"any two orthogonal directions.  "
+msgstr ""
+"On peut calculer la courbure d'un objet par le produit de sa variation de "
+"deux directions orthogonales quelconques."
+
+#: content/flat.html:100
+msgid ""
+"By length, the curvature of piece pizza is 0 and by width the curvature is "
+"also zero"
+msgstr ""
+"En longueur, la courbure du morceau de pizza est de 0 et en largeur, la courbure est de "
+"également nul"
+
+
+#: content/flat.html:103
+msgid "The total curvature is 0 x 0 = 0.  A flat object has zero curvature."
+msgstr "La courbure totale est de 0 x 0 = 0. Un objet plat a une courbure nulle."
+
+#: content/flat.html:106
+msgid ""
+"When you hold up a pizza without folding it, the curvature of the width "
+"remains zero.  Gravity pulls down the front of the pizza, which curves the "
+"length of the pizza.  But that does not affect the total curvature because "
+"any number times 0 is also 0."
+msgstr ""
+"Quand on tient une pizza sans la plier, la courbure de la largeur"
+"reste nul. La gravité abaisse le devant de la pizza, ce qui courbe le "
+"longueur de la pizza. Mais cela n'affecte pas la courbure totale car"
+"n'importe quel nombre multiplié par 0 est également 0."
+
+
+#: content/flat.html:108
+msgid ""
+"Conversely, when you slightly fold a slice, you create curvature along the "
+"width of the slice.  But the total curvature must remain 0.  Therefore, the "
+"length of the pizza is forced to be rigid and straight."
+msgstr ""
+"À l'inverse, lorsque vous pliez légèrement une tranche, vous créez une courbure le long de la "
+"largeur de la tranche. Mais la courbure totale doit rester 0. Par conséquent, le "
+"La longueur de la pizza doit être rigide et droite."
+
+#: content/flat.html:115
+msgid ""
+"Given that the relative distance between any two points depends upon their "
+"respective positions, how can we then define the notion of measurement."
+msgstr ""
+"Étant donné que la distance relative entre deux points dépend de leur "
+"positions respectives, comment peut-on alors définir la notion de mesure."
+
+
+#: content/flat.html:117
+msgid ""
+"A student of Gauss, Bernhard Riemann explained in an 1868 that measurement "
+"from"
+msgstr ""
+"Bernard Riemann, élève de Gauss, expliquait dans un ouvrage de 1868 que cette mesure"
+"depuis"
+
+
+#: content/flat.html:119
+msgid ""
+"Geodisc proximilty neighborhood. flat projection. shadow of flatness. "
+"differential"
+msgstr ""
+"Quartier de proximité géodisque. projection plate. ombre de planéité. "
+"différentiel"
+
+#: content/flat.html:128
 msgid ""
 "Levinas’s work is most typically associated with the critique of the flat "
 "projection the grid of points plotted on a map in Euclidean rectilinear "
@@ -1143,7 +1414,7 @@ msgstr ""
 "rectiligne euclidien, dans une grille cartésienne, disposés en une totalité "
 "intégrable dans un tout. "
 
-#: .\content\flat.html:8
+#: content/flat.html:130
 msgid ""
 "He borrows the notion of space time curvature from General Relativity. As "
 "elaborated by Einstein, Poincare, and Minkowski, general Relativity explains "
@@ -1165,7 +1436,7 @@ msgstr ""
 "planètes trouvent le chemin le moins actif sous forme de chemins elliptiques "
 "autour de lui "
 
-#: .\content\flat.html:10
+#: content/flat.html:132
 msgid ""
 "We can see a similar dynamic in Levinas’s usage of the idea of “curvature” "
 "effected by height and weight"
@@ -1173,17 +1444,17 @@ msgstr ""
 " Nous pouvons observer une dynamique similaire dans l’utilisation par "
 "Levinas de l’idée de « courbure » affectée par la taille et le poids "
 
-#: .\content\flat.html:12
+#: content/flat.html:134
 msgid ""
 "In “Time and the Other”, Levinas describes the establishment of a place, the"
 msgstr ""
 " Dans « Le Temps et l’Autre », Levinas décrit l’instauration d'un lieu, le "
 
-#: .\content\flat.html:13
+#: content/flat.html:135
 msgid "of"
 msgstr "de "
 
-#: .\content\flat.html:16
+#: content/flat.html:138
 msgid ""
 "for a person through the double movement of hypostasis. This is a duality of "
 "the Me and the Self. It is also a dimensional duality: to maintain a "
@@ -1201,11 +1472,20 @@ msgstr ""
 "vers le bas, le poids qui se ramène vers le corps, une gravité produite par "
 "sa propre masse matérielle "
 
-#: .\content\genre_set_intro.html:6
+#: content/flat.html:142
+msgid ""
+"What we wish to point out here is that the not just a polarity but a within "
+"terminological GGs both within texts and between his Relations will be "
+"traced by detemining a flat projections, doubles and by 2x2 perspecitval and "
+"conversational conversions, and by considering how various etymological and "
+"semantic genres are transformed into various word forms"
+msgstr " "
+
+#: content/genre_set_intro.html:6
 msgid "A simple Genre Set"
 msgstr "Un Ensemble de Genres simple "
 
-#: .\content\genre_set_intro.html:8
+#: content/genre_set_intro.html:8
 msgid ""
 "This project will sort each of the terms in Levinas's texts into a "
 "collection of Genre Sets that correspond to the various thematics that he "
@@ -1219,19 +1499,19 @@ msgstr ""
 "peut êtredéfini comme le mappage d'un terme unique à un ensemble de termes. "
 "Il existeplusieurs règles pour constituer cette collection. "
 
-#: .\content\genre_set_intro.html:10
+#: content/genre_set_intro.html:10
 msgid "For example, let's start with a term that appears frequently in"
 msgstr "Par exemple, commençons par un terme qui apparaît fréquemment dans "
 
-#: .\content\genre_set_intro.html:10
+#: content/genre_set_intro.html:10
 msgid "Totality and Infinity"
 msgstr "Totalité et infini "
 
-#: .\content\genre_set_intro.html:10
+#: content/genre_set_intro.html:10
 msgid "Height"
 msgstr "Hauteur "
 
-#: .\content\genre_set_intro.html:11
+#: content/genre_set_intro.html:11
 msgid ""
 "For now we don't have any members for the Genre Set of HEIGHT except for "
 "itself so we can represent it as follows:"
@@ -1239,11 +1519,11 @@ msgstr ""
 " Pour l'instant, nous n'avons aucun membre pour le genre HEIGHT, à "
 "l'exception de lui-même donc nous pouvons le représenter comme suit : "
 
-#: .\content\genre_set_intro.html:21
+#: content/genre_set_intro.html:21
 msgid "Adding synonyms to Genre Sets"
 msgstr "Ajout de synonymes aux ensembles de genres "
 
-#: .\content\genre_set_intro.html:22
+#: content/genre_set_intro.html:22
 msgid ""
 "We can add other forms of this word to the GS such as “hauteur” as well as "
 "“haut”. We can add to this set words that are synonymous with HEIGHT, such "
@@ -1258,11 +1538,11 @@ msgstr ""
 "manière ou d'une autre à l'effectuation de la hauteur, tels que debout, 'se "
 "tenir' "
 
-#: .\content\genre_set_intro.html:35
+#: content/genre_set_intro.html:35
 msgid "Adding morphemically similar terms to Genre Sets"
 msgstr "Ajout de termes morphémiquement similaires aux ensembles de genres "
 
-#: .\content\genre_set_intro.html:36
+#: content/genre_set_intro.html:36
 msgid ""
 "We are can also include into this set words that are related to HEIGHT "
 "through common etymological roots, or which use the the theme of height in "
@@ -1278,11 +1558,11 @@ msgstr ""
 "ensemble comme “surgir”, “surplus” et “surmonte” -- ainsi que “surface”, "
 "“survivant” et “résurrection” "
 
-#: .\content\genre_set_intro.html:55
+#: content/genre_set_intro.html:55
 msgid "Combinations of Genre Sets: Intersections "
 msgstr "Combinaisons d'ensembles de genres : intersections "
 
-#: .\content\genre_set_intro.html:56
+#: content/genre_set_intro.html:56
 msgid ""
 "Each of the above terms signifies an intersection that effectuates a "
 "combination between HEIGHT and other GSes"
@@ -1290,11 +1570,11 @@ msgstr ""
 " Chacun des termes ci-dessus signifie une intersection qui effectue un "
 "combinaison entre HEIGHT et d'autres GS "
 
-#: .\content\genre_set_intro.html:90
+#: content/genre_set_intro.html:90
 msgid "Homologous Genre Sets and Parallel Transport"
 msgstr "Ensembles de genres homologues et transport parallèle "
 
-#: .\content\genre_set_intro.html:92
+#: content/genre_set_intro.html:92
 msgid ""
 "How do these intersected sets relate to each other? In many ways. Such sets "
 "are often homologous to each other. Thus they often appear in constellated "
@@ -1309,7 +1589,7 @@ msgstr ""
 "» peut également être comprise comme une phrase sur le « survivant », leêtre "
 "vivant qui se manifeste dans une dimension de hauteur. "
 
-#: .\content\genre_set_intro.html:93
+#: content/genre_set_intro.html:93
 msgid ""
 "These homologous sets transport metaphors in directions parallel to each "
 "other. By parallel transport, we mean to indicate that recurrent thematics "
@@ -1322,18 +1602,343 @@ msgstr ""
 "à des pôles opposés tels que la profondeur. Nous peut ainsi les associer à "
 "élargir nos ensembles pour inclure des valeurs négatives "
 
-#: .\content\genre_set_intro.html:123
+#: content/genre_set_intro.html:123
 msgid ""
 "We might also want to expand other sets to include polar opposite values"
 msgstr ""
 " Nous pourrions également vouloir étendre d'autres ensembles pour inclure "
 "des valeurs polaires opposées "
 
-#: .\content\genre_set_intro.html:151
+#: content/genre_set_intro.html:151
+msgid "Metaphors as Curvature Tensors of Genres"
+msgstr "Les métaphores comme tenseurs de courbure des genres"
+
+#: content/genre_set_intro.html:152
+msgid ""
+"Our invocation of parallelism and homology are taken from the metaphors "
+"taken from analytic geometry. specifically projective and non-Euclidean "
+"geometry. These fields are described further in the section below. Without "
+"yet explaining the implications of the term 'curvature', we would like to "
+"assert that Levinas's terminology is best understood as a series of "
+"rotational transformations of a specific and enumerable set of genres, such "
+"as those of GENESE and MATHEMATICS"
+msgstr ""
+"Nos invocations du parallélisme et de l'homologie sont tirées des métaphores"
+"tiré de la géométrie analytique. spécifiquement projective et non euclidienne"
+"géométrie. Ces champs sont décrits plus en détail dans la section ci-dessous. Sans "
+"tout en expliquant les implications du terme <em>courbure</em>, nous aimerions"
+" affirment que la terminologie de Levinas est mieux comprise comme une série de "
+"transformations rotationnelles d'un ensemble spécifique et dénombrable de genres, tels que"
+"comme ceux de la GENÈSE et des MATHÉMATIQUES"
+
+#: content/genre_set_intro.html:153
+msgid ""
+"Levinas spells out a clear basis for this rotational movement as the "
+"structure of <em>Totality and Infinity</em>."
+msgstr ""
+"Levinas énonce une base claire pour ce mouvement de rotation comme"
+"structure de <em>Totalité et Infini</em>."
+
+#: content/genre_set_intro.html:154
+msgid ""
+"The two central sections of the book, <em>Interiority and Economy</em> and "
+"<em>Exteriority and the Face</em> develop metaphors which are polar "
+"opposites of each other. Most obviously, 'interioirity' and 'exteriority' "
+"move in opposite directions to each other along a line of extension or "
+"involution."
+msgstr ""
+"Les deux sections centrales du livre, <em>Intériorité et Économie</em> et "
+"<em>L'extériorité et le Visage</em> développent des métaphores polaires"
+"opposés l'un de l'autre. De toute évidence, <em>l'intériorité</em> et <em>l'extériorité</em>"
+"se déplacer dans des directions opposées l'un par rapport à l'autre le long d'une ligne d'extension ou"
+"involution."
+
+#: content/genre_set_intro.html:156
+msgid ""
+"The following pair of sentences provides us with several more examples of "
+"polar transformations"
+msgstr ""
+"La paire de phrases suivante nous fournit plusieurs autres exemples de"
+"transformations polaires"
+
+#: content/genre_set_intro.html:182
+msgid ""
+"The metaphors in <em>Otherwise than Being</em> represent further rotations "
+"upon these same Genre Sets. Most dramatically, he rotates the centripetal "
+"dynamics of interiorizing sensibility into a centrifugal force of being-"
+"affected. Thus, in the sentence below we find a transformation of Levinas's "
+"analysis of depth"
+msgstr ""
+"Les métaphores dans <em>Autrement que l'Être</em> représentent d'autres rotations"
+"sur ces mêmes ensembles de genres. Le plus dramatiquement, il fait tourner le centripète"
+"une dynamique d'intériorisation de la sensibilité en une force centrifuge de l'être-"
+"affecté. Ainsi, dans la phrase ci-dessous, nous trouvons une transformation du "
+"analyse de profondeur"
+
+#: content/genre_set_intro.html:184
+msgid ""
+"Otherwise than Being turns the clockwise metaphors of Totality and Infinity "
+"in a counterclockwise direction"
+msgstr ""
+" Autrement que l'Être tourne dans le sens des aiguilles d'une montre les métaphores de la Totalité et de l'Infini "
+"dans le sens inverse des aiguilles d'une montre"
+
+
+#: content/genre_set_intro.html:191
+msgid ""
+"The rotations discussed above are full 180 degree rotations from each other, "
+"but we would argue that there are other rotational symmetries within the "
+"text of <em>Totality and Infinity</em>. Not only are these books divided "
+"into sections, but each of these sections are divided into subsections"
+msgstr ""
+"Les rotations évoquées ci-dessus sont des rotations complètes de 180 degrés les unes par rapport aux autres,"
+"mais nous dirions qu'il existe d'autres symétries de rotation au sein du "
+"texte de <em>Totalité et Infini</em>. Non seulement ces livres sont divisés"
+"en sections, mais chacune de ces sections est divisée en sous-sections"
+
+#: content/genre_set_intro.html:192
+msgid ""
+"We would argue that it is best to understand these sections as the angular "
+"rotations of a clock. This clock represents many things. First of all is a "
+"series of shifting perspectives on and adumbrations of a singular space-time "
+"moment, what Levinas refers to as 'the chronological order that precedes the "
+"logical order. Second, it can be understood as marking out different hours "
+"of the day, with the first section on 'interiority' discussing the morning "
+"and the second section on 'exteriority' as discussing the evening. ."
+msgstr ""
+"Nous dirions qu'il est préférable de comprendre ces sections comme étant angulaires"
+"rotations d'une horloge. Cette horloge représente beaucoup de choses. Tout d'abord, c'est un "
+"série de perspectives changeantes et d'esquisses d'un espace-temps singulier"
+"moment, ce que Levinas appelle <em>l'ordre chronologique qui précède le"
+"ordre logique</em>. Deuxièmement, cela peut être compris comme le marquage de différentes heures "
+"du jour, avec la première section sur 'l'intériorité' discutant de la matinée"
+"et la deuxième section sur 'l'extériorité' en discutant de la soirée. ."
+
+#: content/genre_set_intro.html:193
+msgid ""
+"Understanding the most important clock requires us first to investigate the "
+"not just the structure but the story being narrated by <em>Totality and "
+"Infinity</em> "
+msgstr ""
+"Comprendre l'horloge la plus importante nécessite d'abord d'étudier"
+"pas seulement la structure mais l'histoire racontée par <em>Totalité et "
+"Infini</em> "
+
+#: content/genre_set_intro.html:201
+msgid ""
+"When one weaves together the metaphorical motifs in the  Totality and "
+"Infinity, one can the narrative of the book as a whole.  It is a story of "
+"continuous creation, of birth, death, and rebirth. The divisions of Totality "
+"and Infinite narrate a story of Genesis, of the generation of gendered "
+"generations, a progression of birth, maturation, adulthood, old age, death, "
+"and rebirth. Although this storyline progresses sequentially, each step "
+"resonates with others such that Levinas seems to be describing the same "
+"situation from the perspective of a different character in this family "
+"drama. <em>Otherwise than Being</em> presents this same narrative from yet "
+"other perspectives, exhibiting dynamics that were latent or implicit in the "
+"earlier text."
+msgstr ""
+"Quand on tisse les motifs métaphoriques dans la Totalité et"
+"Infini, on peut raconter le livre dans son ensemble. C'est une histoire de "
+"création continue, de naissance, de mort et de renaissance. Les divisions de la Totalité"
+"et Infinite racontent une histoire de la Genèse, de la génération des genres"
+"des générations, une progression de la naissance, de la maturation, de l'âge adulte, de la vieillesse, de la mort,"
+"et la renaissance. Bien que ce scénario progresse de manière séquentielle, chaque étape"
+" résonne avec d'autres de telle sorte que Levinas semble décrire la même chose "
+"situation du point de vue d'un personnage différent dans cette famille"
+"Drame. <em>Autrement que l'Etre</em> présente ce même récit d'encore "
+"d'autres perspectives, présentant des dynamiques latentes ou implicites dans le "
+"texte antérieur."
+
+
+#: content/genre_set_intro.html:207
+msgid ""
+"The life history narrated in this story of genesis as continuous creation is "
+"narrated in the form of a day's clock, with the sections up to and including "
+"<em>Interiority and Economy</em> as the morning clock of childhood and "
+"<em>Exteriority and the Face</em> as the evening clock of adulthood.."
+msgstr ""
+"L'histoire de la vie racontée dans cette histoire de genèse comme création continue est "
+"raconté sous la forme d'une horloge journalière, avec les sections allant jusqu'à inclusivement"
+"<em>Intériorité et économie</em> comme horloge matinale de l'enfance et "
+"<em>L'extériorité et le visage</em> comme horloge du soir de l'âge adulte.."
+
+#: content/genre_set_intro.html:209
+msgid ""
+"The dawn of the morning already presupposed the past interval of separation "
+"of death namely that it begins with the interval of separation marked by "
+"“dead time”"
+msgstr ""
+"L'aube du matin présupposait déjà l'intervalle de séparation passé"
+" de la mort à savoir qu'elle commence par l'intervalle de séparation marqué par "
+"“temps mort”"
+
+#: content/genre_set_intro.html:217
+msgid ""
+"The first section discusses the child's relation with the feminine other as "
+"mother and wife.  The maternal aspect of enjoyment is often overlooked, "
+"especially by those who only read Levinas in English who fail to recognize "
+"that he word he uses for one's relationship to the element as "
+"<em>nourissement</em> means not only <em>nourishment</em> but specifically "
+"<em>nursing</em> by a mother.  The narrative of enjoyment stats off in an "
+"oceanic state, the self bathing in the element, in the womb, unclear what "
+"differentiates it from its milieu.  It establishes its centripetal sense of "
+"selfhood by eating and incorporating the world around it.  At this point the "
+"infant babbles rather than speaks.  But over time the infant grows into a "
+"boy and the boy who gets a better sense of himself, reassembles the past "
+"retrospectively as his present consciousness.   The boy then becomes married "
+"to a woman, who welcomes him into her home and establishes the domain of "
+"economy and ecology."
+msgstr ""
+"La première section aborde la relation de l'enfant avec l'autre féminin comme "
+"mère et épouse. L'aspect maternel de la jouissance est souvent négligé,"
+"surtout par ceux qui ne lisent Levinas qu'en anglais et qui ne le reconnaissent pas"
+"c'est le mot qu'il utilise pour désigner sa relation avec l'élément comme"
+"<em>nourriture</em> signifie non seulement <em>nourriture</em> mais spécifiquement "
+"<em>l'allaitement</em> par une mère. Le récit du plaisir s'enchaîne dans un "
+"l'état océanique, le soi baignant dans l'élément, dans le ventre maternel, on ne sait pas quoi"
+"le différencie de son milieu. Il établit son sens centripète de "
+"l'individualité en mangeant et en incorporant le monde qui l'entoure. À ce stade, le "
+"le nourrisson babille plutôt qu'il ne parle. Mais avec le temps, le nourrisson devient un "
+"le garçon et le garçon qui se sent mieux, rassemble le passé"
+"rétrospectivement comme sa conscience actuelle. Le garçon se marie alors"
+"à une femme, qui l'accueille chez elle et établit le domaine de"
+"économie et écologie."
+
+
+#: content/genre_set_intro.html:219
+msgid ""
+"The second section, the evening of adulthood, occurs after this "
+"establishment of a home, which allows the self to position itself in a point "
+"of space-time and to work from its center.  And at this point the self "
+"encounters the world as a different type of exteriority from before.  "
+"Whereas the naive infant incorporated the elemental other as its own "
+"content, adulthood confront one with a world that is alien to itself.  "
+"Levinas describes this according to a distinctly Marxist storyline: the "
+"adult, worried about the morrow, gets a job.  At his job, he produces "
+"objects, both works and wastes.  These objects are alienated from him, "
+"delivered unto an other person and unto the anonymous realm of the social.  "
+"This process of self-alienation exhausts and ages the worker until the "
+"moment of its death."
+msgstr ""
+"La deuxième partie, le soir de l'âge adulte, se produit après cela"
+"mise en place d'un foyer, qui permet à soi de se positionner en un point"
+"de l'espace-temps et travailler à partir de son centre. Et à ce stade, le soi"
+" rencontre le monde comme un type d’extériorité différent d’avant. "
+"Alors que l'enfant naïf incorporait l'autre élémentaire comme sien"
+" content, l'âge adulte nous confronte à un monde qui lui est étranger. "
+" Levinas décrit cela selon un scénario nettement marxiste : le "
+"L'adulte, inquiet du lendemain, trouve un travail. A son travail, il produit"
+"des objets, à la fois des œuvres et des déchets. Ces objets lui sont aliénés,"
+"livré à une autre personne et au domaine anonyme du social."
+"Ce processus d'aliénation de soi épuise et vieillit le travailleur jusqu'à ce que "
+"le moment de sa mort."
+
+#: content/genre_set_intro.html:221
+msgid ""
+"This death can be understood through the metaphors of murder and suicide:"
+msgstr ""
+"Cette mort peut être comprise à travers les métaphores du meurtre et du suicide :"
+
+#: content/genre_set_intro.html:225
+msgid ""
+"In addition to this murder-suicide, the continuous creation through sexuality"
+msgstr ""
+"En plus de ce meurtre-suicide, la création continue à travers la sexualité"
+
+#: content/genre_set_intro.html:228
+msgid ""
+"That is to say, one's death can also be understood erotically, as is "
+"reflected in the French description of an orgasm as <em>the little death</"
+"em> or can be read in theories of Bataille or the verses of any romantic "
+"poet.  The event of sexuality produces the infinity of the future, "
+"reproducing the self into an other of a new child, a new subjectivity.  This "
+"new subjectivity also lies exposed to a new elemental domain and a new flat "
+"plane of objectivity, both of which are constructred from the otherness of "
+"works and wastes that had been produced bs the self and others who compose "
+"the social multiplicity"
+msgstr ""
+"C'est-à-dire que la mort peut aussi être comprise de manière érotique, comme c'est le cas"
+"reflété dans la description française d'un orgasme comme <em>la petite mort</"
+"em> ou peut être lu dans les théories de Bataille ou les vers de tout romantique"
+"poète. L'événement de la sexualité produit l'infini du futur,"
+"reproduire soi dans un autre d'un nouvel enfant, une nouvelle subjectivité. Ceci"
+"une nouvelle subjectivité est également exposée à un nouveau domaine élémentaire et à un nouvel appartement"
+"plan d'objectivité, tous deux construits à partir de l'altérité de"
+"des œuvres et des déchets qui ont été produits par soi-même et par les autres qui composent"
+"la multiplicité sociale"
+
+#: content/genre_set_intro.html:230
+msgid ""
+"And thus the cycle begins again with the birth of a new child, a new dawn.  "
+"But not a circle that is rotating around a fixed point of origin, but one "
+"whose origin moves forward through time interval by interval."
+msgstr ""
+"Et ainsi le cycle recommence avec la naissance d'un nouvel enfant, une nouvelle aube. "
+"Mais pas un cercle qui tourne autour d'un point d'origine fixe, mais un"
+"dont l'origine avance d'intervalle de temps en intervalle."
+
+#: content/home_and_position.html:4
+msgid ""
+"What does the home signify for Levinas?  For Levinas, the home signifies the "
+"position of any positive entity, Self or Other.  It is the “there” or the "
+"“la” in which subjectivity finds itself, a position of intimacy, in contrast "
+"to the impersonal “Da” or Heidegger's “Dasien.”  The home is what "
+"establishes subjectivity, sustance, and identity, in the dimension of height "
+"of a posited subject in a definitive position in space-time"
+msgstr ""
+" Que signifie la maison pour Levinas ? Pour Levinas, la maison signifie le "
+"position de toute entité positive, Soi ou Autre. C'est le«là» dans laquelle "
+"se retrouve la subjectivité, une position d'intimité, en contraste« au « Da "
+"» impersonnel ou au « Dasien » de Heidegger. La maison est quoi établit la "
+"subjectivité, la substance et l'identité, dans la dimension de la "
+"hauteurd'un sujet posé dans une position définitive dans l'espace-temps "
+
+#: content/hostage.html:4
+msgid ""
+"We can also use the metaphor of the house to explore some of Levinas's more "
+"hyperbolic language in <em>Otherwise than Being</em>"
+msgstr ""
+" On peut aussi utiliser la métaphore de la maison pour explorer certaines "
+"des plus de Levinaslangage hyperbolique en <em>Autrement qu'Être</em> "
+
+#: content/hostage.html:5
+msgid ""
+"In French, the word “host” is contronym, a word that means it opposite.  It "
+"signifies both the person who welcomes and the person who is welcomed"
+msgstr ""
+" En français, le mot « hôte » est un contronyme, un mot qui signifie son "
+"contraire.signifie à la fois celui qui accueille et celui qui est accueilli "
+
+#: content/hostage.html:6
+msgid "In Totality and Infinity, he uses this word to characterize the subject"
+msgstr "Dans Totalité et Infini, il utilise ce mot pour caractériser le sujet "
+
+#: content/hostage.html:8
+msgid ""
+"In Otherwise than Being, he uses this word to characterize the subject as "
+"vulnerability"
+msgstr ""
+" Dans Autrement qu'être, il utilise ce mot pour caractériser le sujet comme "
+"vulnérabilité "
+
+#: content/intersection.html:4
+msgid "For example the word"
+msgstr "Par exemple le mot "
+
+#: content/intersection.html:6
+msgid ""
+"belongs to MATHEMATICS and GENESIS. One can observe parallel motion along "
+"these metaphorical vectors"
+msgstr ""
+" appartient à MATHEMATICS et GENÈSE. On peut observer un mouvement parallèle "
+"le long de ces vecteurs métaphoriques "
+
+#: content/mathematics.html:5
 msgid "The MATHÉMATIQUES Genre Set"
 msgstr "L'ensemble des genres MATHÉMATIQUES "
 
-#: .\content\genre_set_intro.html:153
+#: content/mathematics.html:7
 msgid ""
 "In fact, we would argue that the we might consider creating a new set to "
 "connote the union of the polar opposites, HEIGHT and DEPTH. Let's call this "
@@ -1353,7 +1958,7 @@ msgstr ""
 "peuvent être englobé dans l'autre GS provisoire, DIMENSION. A cette GS nous "
 "pouvons aussi ajoutez la dimension cartésienne de la mesure, de l'extension. "
 
-#: .\content\genre_set_intro.html:154
+#: content/mathematics.html:8
 msgid ""
 "What would the word “dimension” have meant for Levinas? Two of Levinas's "
 "primary intellectual influences, Henri Bergson and Edmund Husserl, were both "
@@ -1374,7 +1979,7 @@ msgstr ""
 "derniers chapitres sont “Le problème des dimensions” et “La position du "
 "problème non euclidien”. "
 
-#: .\content\genre_set_intro.html:155
+#: content/mathematics.html:9
 msgid ""
 "Levinas's knowledge of non-euclidean geometry is exposed most prominently in "
 "his usage of the word “curvature”, a term whose provenance is the non-"
@@ -1388,7 +1993,7 @@ msgstr ""
 "et autres ; et par extension dans le les théories de l'espace-temps "
 "articulées par Albert Einstein "
 
-#: .\content\genre_set_intro.html:156
+#: content/mathematics.html:10
 msgid ""
 "Let us consider a sentence from Totality and Infinity against one from "
 "Einstein's 1914 paper <em>On the Principle of Relativity.</em>"
@@ -1396,7 +2001,7 @@ msgstr ""
 " Considérons une phrase de Totalité et Infini contre une phrase de L'article "
 "d'Einstein <em>Sur le principe de relativité</em> "
 
-#: .\content\genre_set_intro.html:158
+#: content/mathematics.html:12
 msgid ""
 "According to this theory, light rays suffer a curvature in a gravitational "
 "field"
@@ -1404,7 +2009,7 @@ msgstr ""
 " Selon cette théorie, les rayons lumineux subissent une courbure "
 "gravitationnellechamp "
 
-#: .\content\genre_set_intro.html:162
+#: content/mathematics.html:16
 msgid ""
 "On first glance, it may seem like Levinas is saying that Levinas is saying "
 "that the Height of the Other is the cause of curvature. But that is because "
@@ -1426,7 +2031,7 @@ msgstr ""
 "posant la dynamique comme une hypostase, qui dédouble le moi avec le soi, "
 "hauteur spirituelle avec poids matériel, gravité matérielle "
 
-#: .\content\genre_set_intro.html:163
+#: content/mathematics.html:17
 msgid ""
 "It should be further noted that Levinas seems to shift his metaphors between "
 "books. Whereas Totaltiy and Infinity treats of the Infinite as a maximal "
@@ -1447,7 +2052,7 @@ msgstr ""
 "antérieures dans Totalité et Infini. et à la terminologieà partir d'une "
 "topologie telle que “nœud”, “pli”, “tracé”. "
 
-#: .\content\genre_set_intro.html:164
+#: content/mathematics.html:18
 msgid ""
 "Given the prevalence of so many terms from various subfields of mathmatics "
 "and physics in Levinas's lexicon, we can therefore expand the GS of "
@@ -1458,75 +2063,19 @@ msgstr ""
 "peut donc élargir le GS de les mathématiques doivent être incluses pour "
 "l'instant "
 
-#: .\content\home_and_position.html:4
-msgid ""
-"What does the home signify for Levinas?  For Levinas, the home signifies the "
-"position of any positive entity, Self or Other.  It is the “there” or the "
-"“la” in which subjectivity finds itself, a position of intimacy, in contrast "
-"to the impersonal “Da” or Heidegger's “Dasien.”  The home is what "
-"establishes subjectivity, sustance, and identity, in the dimension of height "
-"of a posited subject in a definitive position in space-time"
-msgstr ""
-" Que signifie la maison pour Levinas ? Pour Levinas, la maison signifie le "
-"position de toute entité positive, Soi ou Autre. C'est le«là» dans laquelle "
-"se retrouve la subjectivité, une position d'intimité, en contraste« au « Da "
-"» impersonnel ou au « Dasien » de Heidegger. La maison est quoi établit la "
-"subjectivité, la substance et l'identité, dans la dimension de la "
-"hauteurd'un sujet posé dans une position définitive dans l'espace-temps "
-
-#: .\content\hostage.html:4
-msgid ""
-"We can also use the metaphor of the house to explore some of Levinas's more "
-"hyperbolic language in <em>Otherwise than Being</em>"
-msgstr ""
-" On peut aussi utiliser la métaphore de la maison pour explorer certaines "
-"des plus de Levinaslangage hyperbolique en <em>Autrement qu'Être</em> "
-
-#: .\content\hostage.html:5
-msgid ""
-"In French, the word “host” is contronym, a word that means it opposite.  It "
-"signifies both the person who welcomes and the person who is welcomed"
-msgstr ""
-" En français, le mot « hôte » est un contronyme, un mot qui signifie son "
-"contraire.signifie à la fois celui qui accueille et celui qui est accueilli "
-
-#: .\content\hostage.html:6
-msgid "In Totality and Infinity, he uses this word to characterize the subject"
-msgstr "Dans Totalité et Infini, il utilise ce mot pour caractériser le sujet "
-
-#: .\content\hostage.html:8
-msgid ""
-"In Otherwise than Being, he uses this word to characterize the subject as "
-"vulnerability"
-msgstr ""
-" Dans Autrement qu'être, il utilise ce mot pour caractériser le sujet comme "
-"vulnérabilité "
-
-#: .\content\intersection.html:4
-msgid "For example the word"
-msgstr "Par exemple le mot "
-
-#: .\content\intersection.html:6
-msgid ""
-"belongs to MATHEMATICS and GENESIS. One can observe parallel motion along "
-"these metaphorical vectors"
-msgstr ""
-" appartient à MATHEMATICS et GENÈSE. On peut observer un mouvement parallèle "
-"le long de ces vecteurs métaphoriques "
-
-#: .\content\membership.html:4 .\content\membership.html:10
+#: content/membership.html:4 content/membership.html:10
 msgid "For example"
 msgstr "Par exemple "
 
-#: .\content\membership.html:6
+#: content/membership.html:6
 msgid "Suffix"
 msgstr "Suffixe "
 
-#: .\content\membership.html:6
+#: content/membership.html:6
 msgid "In"
 msgstr "En "
 
-#: .\content\membership.html:8
+#: content/membership.html:8
 msgid ""
 "suffix 'ance' denotes nominalization whereas the infinitive is both nominal "
 "and verbal. All words with this suffix belong to ONTOLOGY"
@@ -1535,11 +2084,11 @@ msgstr ""
 "fois nominalet verbal. Tous les mots avec ce suffixe appartiennent à "
 "l'ONTOLOGIE "
 
-#: .\content\membership.html:10
+#: content/membership.html:10
 msgid "Prefix"
 msgstr "Préfixe "
 
-#: .\content\membership.html:10
+#: content/membership.html:10
 msgid ""
 "The prefix 'sur' means above and connotes height. All words that begin with "
 "this prefix belong to MATHEMATICS."
@@ -1547,11 +2096,11 @@ msgstr ""
 " Le préfixe 'sur' signifie au-dessus et évoque la hauteur. Tous les mots "
 "commençant par ce préfixe appartient aux MATHÉMATIQUES. "
 
-#: .\content\membership.html:20
+#: content/membership.html:20
 msgid "Infinitives and Etymological roots"
 msgstr "Infinitifs et racines étymologiques "
 
-#: .\content\membership.html:22
+#: content/membership.html:22
 msgid ""
 "In his 1932 article that introduced Heidegger to the francophone world, "
 "Martin Heidegger et l’ontologie, Levinas explains his decision to translate "
@@ -1563,7 +2112,7 @@ msgstr ""
 "traduireHeidegger qualifie Zuhandenheit de “maniabilité” parce qu'il "
 "souhaite “prendrece terme dans son sens étymologique”35 "
 
-#: .\content\membership.html:25
+#: content/membership.html:25
 msgid ""
 "In his later works critical of Heidegger, he will critique the notion of the "
 "hand as being the primary mode through which relation with the world is "
@@ -1575,7 +2124,7 @@ msgstr ""
 "relation avec le mondeeffectué. Au lieu de cela, il fait une double "
 "division. Le mode principal de la relation avec le monde passe par la bouche "
 
-#: .\content\membership.html:28
+#: content/membership.html:28
 msgid ""
 "He secondary relationhip to the world as exterioirty is explored through the "
 "hand in the sense of maintenir, to maintain.  Words with the same infinitive "
@@ -1585,31 +2134,31 @@ msgstr ""
 "le main au sens de maintenir, maintenir. Mots avec le même infinitifet les "
 "mêmes racines étymologiques appartiennent au même genre thématique "
 
-#: .\content\membership.html:36 .\content\membership.html:90
+#: content/membership.html:36 content/membership.html:90
 msgid "Semantic themes"
 msgstr "Thèmes sémantiques "
 
-#: .\content\membership.html:42 .\content\membership.html:80
+#: content/membership.html:42 content/membership.html:80
 msgid "Prefixes"
 msgstr "Préfixes "
 
-#: .\content\membership.html:47 .\content\membership.html:84
+#: content/membership.html:47 content/membership.html:84
 msgid "Suffixes"
 msgstr "Suffixes "
 
-#: .\content\membership.html:52 .\content\membership.html:87
+#: content/membership.html:52 content/membership.html:87
 msgid "Parts of speech"
 msgstr "Parties du discours "
 
-#: .\content\membership.html:66
+#: content/membership.html:66
 msgid "Metaphorical"
 msgstr "Métaphorique "
 
-#: .\content\membership.html:77
+#: content/membership.html:77
 msgid "Etymological roots"
 msgstr "Racines étymologiques "
 
-#: .\content\membership.html:92
+#: content/membership.html:92
 msgid ""
 "Many of these genres are topologically homologous to each other and can be "
 "mapped onto each other. For example, the relations within the "
@@ -1621,7 +2170,7 @@ msgstr ""
 "au sein du Appearance_Genre peut être corrélé au Faciality_Genre. La formule "
 "pour la transformation est étudiée par cette recherche "
 
-#: .\content\objective.html:5
+#: content/objective.html:5
 msgid ""
 "To map the relations within and between multiple dimensions of Levinas's "
 "metaphorical terminology, both within and between his two major texts"
@@ -1630,15 +2179,15 @@ msgstr ""
 "Levinas terminologie métaphorique, à la fois à l'intérieur et entre ses deux "
 "textes majeurs "
 
-#: .\content\objective.html:6
+#: content/objective.html:6
 msgid "<em>Totality and Infinity</em>"
 msgstr "<em>Totalité et infini</em> "
 
-#: .\content\objective.html:8
+#: content/objective.html:8
 msgid "<em>Otherwise than Being</em>"
 msgstr "<em>Autrement que l'être</em> "
 
-#: .\content\objective.html:9
+#: content/objective.html:9
 msgid ""
 "We will do so by sorting the words in Levinas's texts into Genre Sets (GS) "
 "which correspond to the thematics that he explores in his work such as "
@@ -1652,11 +2201,11 @@ msgstr ""
 "mieux remarquerque, tout au long de ses textes, les mots contenus dans ces "
 "Genrestransformer selon des modèles caractéristiques "
 
-#: .\content\opposition.html:3
+#: content/opposition.html:3
 msgid "Certain dualities are opposed to each other"
 msgstr "Certains dédoublements s'opposent les uns aux autres "
 
-#: .\content\opposition.html:4
+#: content/opposition.html:4
 msgid ""
 "Totality and Infinity narrates the recurrent cyclings of these doubles. "
 "Different sections of the book invert or bend these double relations. In one "
@@ -1672,41 +2221,41 @@ msgstr ""
 "sujet moi en hypostase et substitution. D”autres sections appliquent "
 "d'autres tenseurs de courbure métaphoriques pour déformer davantage l’espace "
 
-#: .\content\opposition.html:5
+#: content/opposition.html:5
 msgid "Examples"
 msgstr "Exemples "
 
-#: .\content\parallelism.html:4
+#: content/parallelism.html:4
 msgid "Certain"
 msgstr "Certaines "
 
-#: .\content\parallelism.html:5
+#: content/parallelism.html:5
 msgid "manifolds have"
 msgstr "variétés ont "
 
-#: .\content\parallelism.html:6
+#: content/parallelism.html:6
 msgid "homologous"
 msgstr "homologues "
 
-#: .\content\parallelism.html:7
+#: content/parallelism.html:7
 msgid "topologies"
 msgstr "topologies "
 
-#: .\content\parallelism.html:8
+#: content/parallelism.html:8
 msgid "and their"
 msgstr "et leurs "
 
-#: .\content\parallelism.html:9
+#: content/parallelism.html:9
 msgid "tensor"
 msgstr "tenseur "
 
-#: .\content\parallelism.html:10
+#: content/parallelism.html:10
 msgid "transformations occur in parallel to each other"
 msgstr ""
 " et leurs transformations tensorelle se produisent dans parallèle à les uns "
 "les autres "
 
-#: .\content\parallelism.html:12
+#: content/parallelism.html:12
 msgid ""
 "For example, when Levinas disusses NIETZSCHE, he typically invokes metaphors "
 "such as"
@@ -1714,19 +2263,19 @@ msgstr ""
 " Par exemple, lorsque Levinas parle de NIETZSCHE_PT, il invoque généralement "
 "des métaphores telles que "
 
-#: .\content\parallelism.html:14 .\content\parallelism.html:16
+#: content/parallelism.html:14 content/parallelism.html:16
 msgid "from"
 msgstr "de "
 
-#: .\content\parallelism.html:14
+#: content/parallelism.html:14
 msgid "When Levinas discusses"
 msgstr "Quand Levinas discute "
 
-#: .\content\parallelism.html:14
+#: content/parallelism.html:14
 msgid "he typically invokes metaphors of"
 msgstr "il invoque généralement des métaphores de "
 
-#: .\content\perspectivism.html:5
+#: content/perspectivism.html:5
 msgid ""
 "The two-by-two matrices discussed above,in which a polar position can take "
 "be inhabited by either Self or Other, can be broken down into four distinct "
@@ -1752,11 +2301,11 @@ msgstr ""
 "d'opposition peut aussi être comprise comme un quadruple retournement. Le la "
 "conversation avec l'autre délimite un ensemble de perspectives conversions "
 
-#: .\content\perspectivism.html:9
+#: content/perspectivism.html:9
 msgid "Inversion"
 msgstr "Inversion "
 
-#: .\content\perspectivism.html:10
+#: content/perspectivism.html:10
 msgid ""
 "The first perspective is an inversion of this subjective point of view, in "
 "which I gaze upwards at the Other. The perspective is the most noticeable "
@@ -1789,11 +2338,11 @@ msgstr ""
 "“transcendance de l'antagoniste” qui me menace de mort qui “ vient de "
 "l'autre comme une tyrannie ”. "
 
-#: .\content\perspectivism.html:14
+#: content/perspectivism.html:14
 msgid "Perversion"
 msgstr "Perversion "
 
-#: .\content\perspectivism.html:15
+#: content/perspectivism.html:15
 msgid ""
 "The second perspective, perversion, occurs when I look downwards at the "
 "other person from my relative height, such as when I perceive the "
@@ -1812,11 +2361,11 @@ msgstr ""
 "matérielle comme un “appel à mes pouvoirs”, un appel à ma subjectivité "
 "souveraine pour apporter une aide matérielle. "
 
-#: .\content\perspectivism.html:19
+#: content/perspectivism.html:19
 msgid "Subversion"
 msgstr "Subversion "
 
-#: .\content\perspectivism.html:20
+#: content/perspectivism.html:20
 msgid ""
 "The third perspective, subversion, occurs when the other person views the "
 "self in its lowness. The dynamic of being-underneath can already be "
@@ -1841,11 +2390,11 @@ msgstr ""
 "jusqu'aux blessures dont on meurt, dénuder jusqu'à la mort, être comme une "
 "vulnérabilité.” "
 
-#: .\content\perspectivism.html:24
+#: content/perspectivism.html:24
 msgid "Reversion"
 msgstr "Reversion "
 
-#: .\content\perspectivism.html:25
+#: content/perspectivism.html:25
 msgid ""
 "The fourth perspective, reversion, occurs when the self is viewed in its "
 "height"
@@ -1853,7 +2402,7 @@ msgstr ""
 " La quatrième perspective, la réversion, se produit lorsque le soi est vu à "
 "sa hauteur. "
 
-#: .\content\perspectivism.html:26
+#: content/perspectivism.html:26
 msgid ""
 "From the viewpoint of the Other, the self-assertion of subjective mastery "
 "comes under judgment such that it manifests as ”the imperialism of the "
@@ -1876,7 +2425,7 @@ msgstr ""
 "de la mémoire, une réalisation desubjectivité exprimée comme « récurrence » "
 "au sein d’Autrement qu’Être "
 
-#: .\content\repetition.html:5
+#: content/repetition.html:5
 msgid ""
 "The first thing to notice about Levinas's terminology is that they recur "
 "periodically throughout the text,  words in Levinas's text is that they "
@@ -1887,7 +2436,7 @@ msgstr ""
 "texte de Levinas sont qu'ils se reproduisent périodiquement dans différents "
 "contextes. "
 
-#: .\content\repetition.html:7
+#: content/repetition.html:7
 msgid ""
 "Acknowledging Levinas’s perspectivism provides a key to understanding the "
 "storyline that animates Totality and Infinity. Each section of the book can "
@@ -1902,67 +2451,67 @@ msgstr ""
 "différents des orientations pour décrire différents événements éthiques- "
 "phénoménologiques "
 
-#: .\content\repetition.html:11
+#: content/repetition.html:11
 msgid "The relationship to the element"
 msgstr "Le rapport à l'élément "
 
-#: .\content\repetition.html:15
+#: content/repetition.html:15
 msgid "The fright of recognizing oneself as an other"
 msgstr "La peur de se reconnaître comme un autre "
 
-#: .\content\repetition.html:19
+#: content/repetition.html:19
 msgid "The distance in depth of the face-to-face"
 msgstr "La distance en profondeur du face-à-face "
 
-#: .\content\repetition.html:24
+#: content/repetition.html:24
 msgid "The depth of the absence of the il y a"
 msgstr "La profondeur de l'absence de l'il y a "
 
-#: .\content\repetition.html:29
+#: content/repetition.html:29
 msgid "The infinite depths of the past"
 msgstr "Les profondeurs infinies du passé "
 
-#: .\content\repetition.html:34
+#: content/repetition.html:34
 msgid "The fathomless depth of the disquieting future"
 msgstr "La profondeur insondable d'un futur inquiétant "
 
-#: .\content\repetition.html:38
+#: content/repetition.html:38
 msgid "The depth of materiality"
 msgstr "La profondeur de la matérialité "
 
-#: .\content\repetition.html:43
+#: content/repetition.html:43
 msgid "The secret depths of feminine being"
 msgstr "Les profondeurs secrètes de l'être féminin "
 
-#: .\content\repetition.html:49
+#: content/repetition.html:49
 msgid "The depth of erotic tenderness"
 msgstr "La profondeur de la tendresse érotique "
 
-#: .\content\repetition.html:54
+#: content/repetition.html:54
 msgid "Depth as defencelessness"
 msgstr "La profondeur comme absence de défense "
 
-#: .\content\repetition.html:59
+#: content/repetition.html:59
 msgid "Depth and murder"
 msgstr "Profondeur et meurtre "
 
-#: .\content\repetition.html:64
+#: content/repetition.html:64
 msgid "Depth as death, the tomb"
 msgstr "Profondeur comme la mort, le tombeau "
 
-#: .\content\repetition.html:69
+#: content/repetition.html:69
 msgid "Depth as the child"
 msgstr "Profondeur comme l'enfant "
 
-#: .\content\repetition.html:74
+#: content/repetition.html:74
 msgid " The depth of silence"
 msgstr "La profondeur du silence "
 
-#: .\content\repetition.html:79
+#: content/repetition.html:79
 msgid "The depth of the mythical"
 msgstr "La profondeur du mythique "
 
-#: .\content\three.html:5
+#: content/three.html:5
 msgid ""
 "The most significant innovation of <em>Otherwise than Being</em> is to "
 "reconsider the elemental and the negative by highlighting the metaphors that "
@@ -1976,7 +2525,7 @@ msgstr ""
 "Totalité et Infinity</em>, notamment ceux relatifs à la <em>SECTION II. "
 "Intériorité et économie</em> "
 
-#: .\content\three.html:6
+#: content/three.html:6
 msgid ""
 "Whereas <em>Totality and Infinity</em> considered the infinity of "
 "countability -- Cantor's <span> 0-א</span>"
@@ -1984,7 +2533,7 @@ msgstr ""
 " Alors que <em>Totalité et Infini</em> considéraient l'infinité de "
 "comptabilité -- <span> 0-א</span> de Cantor "
 
-#: .\content\three.html:7
+#: content/three.html:7
 msgid ""
 "<em>Otherwise than Being</em> explores the infinity of infinitesimals, the "
 "continuity of the real numbers, Cantor's <span> 1-א</span>"
@@ -1992,7 +2541,7 @@ msgstr ""
 " <em>Autrement que l'Être</em> explore l'infinité des infinitésimaux, le "
 "continuité des nombres réels, <span> 1-א</span> de Cantor "
 
-#: .\content\three.html:8
+#: content/three.html:8
 msgid ""
 "With this rotated perspective, the flatness of the planar totality displays "
 "more clearly the curvature of the third dimension"
@@ -2000,11 +2549,11 @@ msgstr ""
 " Avec cette perspective tournée, la planéité de la totalité planaire "
 "apparaîtplus clairement la courbure de la troisième dimension "
 
-#: .\content\three.html:9
+#: content/three.html:9
 msgid "The mathematics of three"
 msgstr "Les mathématiques de trois "
 
-#: .\content\three.html:10
+#: content/three.html:10
 msgid ""
 "The words “three” in English, “tres” and “trois” in French, and “tres” in "
 "Spanish all derive etymologically from “trans”, meaning “beyond”"
@@ -2013,7 +2562,7 @@ msgstr ""
 "» en Les Espagnols dérivent tous étymologiquement de “trans”, qui signifie "
 "“au-delà” "
 
-#: .\content\three.html:11
+#: content/three.html:11
 msgid ""
 "tres (adv.) “very,” 1815, from French très, from Old French tres “right, "
 "precisely, completely, very,” from Latin trans “beyond” (see trans-), later "
@@ -2023,7 +2572,7 @@ msgstr ""
 "précisément, complètement, très”, du latin trans “au-delà” (voir trans-), "
 "plus tard “très” (comparez le vieux trafreddo italien “très froid”). "
 
-#: .\content\three.html:12
+#: content/three.html:12
 msgid ""
 "Wikipedia explains that the derivation of the number “three” from “trans” / "
 "“beyond” might be rooted in our prehistoric understanding of number"
@@ -2032,7 +2581,7 @@ msgstr ""
 "«au- delà» pourrait être enraciné dans notre compréhension préhistorique du "
 "nombre "
 
-#: .\content\three.html:13
+#: content/three.html:13
 msgid ""
 "There is some evidence to suggest that early man may have used counting "
 "systems which consisted of “One, Two, Three” and thereafter “Many” to "
@@ -2053,7 +2602,7 @@ msgstr ""
 "jungles, où les explorateurs de la civilisation occidentale ont des archives "
 "historiques surleurs premières rencontres avec ces peuples indigènes.[5] "
 
-#: .\content\three.html:14
+#: content/three.html:14
 msgid ""
 "For Pythagoras, the Triad represented Harmony. Three is the sum of one "
 "(Unity) and two (Diversity). It is the first masculine number."
@@ -2061,7 +2610,7 @@ msgstr ""
 " Pour Pythagore, la Triade représentait l'Harmonie. Trois est la somme "
 "d'un(Unité) et deux (Diversité). C'est le premier nombre masculin. "
 
-#: .\content\three.html:15
+#: content/three.html:15
 msgid ""
 "For Euclid, two points determine a line. Three non-collinear points "
 "determine a triangle or a plane."
@@ -2069,7 +2618,7 @@ msgstr ""
 " Pour Euclide, deux points déterminent une droite. Trois points non "
 "colinéairesdéterminer un triangle ou un plan. "
 
-#: .\content\three.html:16
+#: content/three.html:16
 msgid ""
 "Levinas reorients the analyses of flatness by reconsidering all of its "
 "metaphors from the third-dimensional perspective of “the third”"
@@ -2077,7 +2626,7 @@ msgstr ""
 " Levinas réoriente les analyses de la planéité en reconsidérant l'ensemble "
 "de ses métaphores du point de vue tridimensionnel du « tiers » "
 
-#: .\content\two_dimensional.html:7
+#: content/two_dimensional.html:7
 msgid ""
 "“Welcoming” is a passivity that can be suffered by either the feminine Self "
 "or the feminine Other -- and by extension of the “welcomed” guest as either "
@@ -2091,11 +2640,11 @@ msgstr ""
 "deux- analyse dimensionnelle, dans laquelle une position polaire peut être "
 "habitée par soit Soi, soit Autrui. "
 
-#: .\content\two_dimensional.html:9
+#: content/two_dimensional.html:9
 msgid "Matrices"
 msgstr "Matrices "
 
-#: .\content\two_dimensional.html:10
+#: content/two_dimensional.html:10
 msgid ""
 "We can observe a 2x2 matrix of different perspectives that determine the "
 "metaphorical tensors employed in the text"
@@ -2103,55 +2652,55 @@ msgstr ""
 " Nous pouvons observer une matrice 2x2 de différentes perspectives qui "
 "déterminent le tenseurs métaphoriques employés dans le texte "
 
-#: .\content\two_dimensional.html:13
+#: content/two_dimensional.html:13
 msgid "The tensors of the following four terms are parallel to each other"
 msgstr "Les tenseurs des quatre termes suivants sont parallèles entre eux "
 
-#: .\content\two_dimensional.html:16 .\content\two_dimensional.html:51
-#: .\content\two_dimensional.html:84 .\content\two_dimensional.html:89
+#: content/two_dimensional.html:16 content/two_dimensional.html:51
+#: content/two_dimensional.html:84 content/two_dimensional.html:89
 msgid "Person who is welcomed"
 msgstr "Personne accueillie "
 
-#: .\content\two_dimensional.html:17 .\content\two_dimensional.html:55
-#: .\content\two_dimensional.html:104 .\content\two_dimensional.html:107
+#: content/two_dimensional.html:17 content/two_dimensional.html:55
+#: content/two_dimensional.html:104 content/two_dimensional.html:107
 msgid "Masculine"
 msgstr "Masculin "
 
-#: .\content\two_dimensional.html:18 .\content\two_dimensional.html:59
-#: .\content\two_dimensional.html:123 .\content\two_dimensional.html:126
+#: content/two_dimensional.html:18 content/two_dimensional.html:59
+#: content/two_dimensional.html:123 content/two_dimensional.html:126
 msgid "High"
 msgstr "Haute "
 
-#: .\content\two_dimensional.html:19 .\content\two_dimensional.html:63
-#: .\content\two_dimensional.html:141 .\content\two_dimensional.html:146
+#: content/two_dimensional.html:19 content/two_dimensional.html:63
+#: content/two_dimensional.html:141 content/two_dimensional.html:146
 msgid "Subject"
 msgstr "Sujet "
 
-#: .\content\two_dimensional.html:26
+#: content/two_dimensional.html:26
 msgid "The tensors of their polar opposite are also parallel to each other"
 msgstr "Les tenseurs de leur pôle opposé sont également parallèles entre eux "
 
-#: .\content\two_dimensional.html:29 .\content\two_dimensional.html:52
-#: .\content\two_dimensional.html:85 .\content\two_dimensional.html:88
+#: content/two_dimensional.html:29 content/two_dimensional.html:52
+#: content/two_dimensional.html:85 content/two_dimensional.html:88
 msgid "Person who welcomes"
 msgstr "Personne qui accueille "
 
-#: .\content\two_dimensional.html:30 .\content\two_dimensional.html:56
-#: .\content\two_dimensional.html:103 .\content\two_dimensional.html:108
+#: content/two_dimensional.html:30 content/two_dimensional.html:56
+#: content/two_dimensional.html:103 content/two_dimensional.html:108
 msgid "Feminine"
 msgstr "Féminin "
 
-#: .\content\two_dimensional.html:31 .\content\two_dimensional.html:60
-#: .\content\two_dimensional.html:122 .\content\two_dimensional.html:127
+#: content/two_dimensional.html:31 content/two_dimensional.html:60
+#: content/two_dimensional.html:122 content/two_dimensional.html:127
 msgid "Low"
 msgstr "Bas "
 
-#: .\content\two_dimensional.html:32 .\content\two_dimensional.html:64
-#: .\content\two_dimensional.html:142 .\content\two_dimensional.html:145
+#: content/two_dimensional.html:32 content/two_dimensional.html:64
+#: content/two_dimensional.html:142 content/two_dimensional.html:145
 msgid "Object"
 msgstr "Objet "
 
-#: .\content\two_dimensional.html:41
+#: content/two_dimensional.html:41
 msgid ""
 "There is a homology between the Genre Sets containing the following polar "
 "pairs:"
@@ -2159,41 +2708,41 @@ msgstr ""
 " Il existe une homologie entre les Genre Sets contenant le polaire "
 "suivantpaires: "
 
-#: .\content\two_dimensional.html:45
+#: content/two_dimensional.html:45
 msgid "Positive"
 msgstr "Positif "
 
-#: .\content\two_dimensional.html:46
+#: content/two_dimensional.html:46
 msgid "Negative"
 msgstr "Négatif "
 
-#: .\content\two_dimensional.html:74
+#: content/two_dimensional.html:74
 msgid "Welcome Matrix"
 msgstr "Matrice de bienvenue "
 
-#: .\content\two_dimensional.html:78 .\content\two_dimensional.html:97
-#: .\content\two_dimensional.html:116 .\content\two_dimensional.html:135
+#: content/two_dimensional.html:78 content/two_dimensional.html:97
+#: content/two_dimensional.html:116 content/two_dimensional.html:135
 msgid "Position of Self"
 msgstr "Position de Soi "
 
-#: .\content\two_dimensional.html:79 .\content\two_dimensional.html:98
-#: .\content\two_dimensional.html:117 .\content\two_dimensional.html:136
+#: content/two_dimensional.html:79 content/two_dimensional.html:98
+#: content/two_dimensional.html:117 content/two_dimensional.html:136
 msgid "Position of Other"
 msgstr "Position d'Autre "
 
-#: .\content\two_dimensional.html:93
+#: content/two_dimensional.html:93
 msgid "Gender Matrix"
 msgstr "Matrice de Genre "
 
-#: .\content\two_dimensional.html:112
+#: content/two_dimensional.html:112
 msgid "Height Matrix"
 msgstr "Matrice de hauteur "
 
-#: .\content\two_dimensional.html:131
+#: content/two_dimensional.html:131
 msgid "Logical Position Matrix"
 msgstr "Matrice de Position Logique "
 
-#: .\content\womb.html:4
+#: content/womb.html:4
 msgid ""
 "We can understand this home not only as the place for the adult married man "
 "but also as the womb for the child"
@@ -2201,7 +2750,7 @@ msgstr ""
 " Nous pouvons comprendre cette maison non seulement comme le lieu réservé à "
 "l'homme marié adultemais aussi comme ventre pour l'enfant "
 
-#: .\content\womb.html:5
+#: content/womb.html:5
 msgid ""
 "We can understand the element as the oceanic womb that nourishes in "
 "<em>Totality and Infinity</em>"
@@ -2209,7 +2758,7 @@ msgstr ""
 " Nous pouvons comprendre l'élément comme le ventre océanique qui se "
 "nourrit<em>Totalité et infini</em> "
 
-#: .\content\womb.html:7
+#: content/womb.html:7
 msgid ""
 "We can understand this metaphor of the womb in the for-the-other in "
 "<em>Otherwise than Being</em>"
@@ -2217,17 +2766,17 @@ msgstr ""
 " On peut comprendre cette métaphore de la matrice dans le pour-l'autre dans "
 "<em>Autrement que l'Être</em> "
 
-#: .\content\womb.html:10 .\content\womb.html:12 .\content\womb.html:15
+#: content/womb.html:10 content/womb.html:12 content/womb.html:15
 msgid "Impregnation"
 msgstr "Imprégnation "
 
-#: .\content\womb.html:13
+#: content/womb.html:13
 msgid "Similarly we can find references to impregnation throughout the text"
 msgstr ""
 " De même, nous pouvons trouver des références à l'imprégnation dans tout le "
 "texte "
 
-#: .\hardcoded\site_nav_data.py:26
+#: hardcoded/routes.py:7
 msgid ""
 "A discussion of the Radical Empiricism Project, in which the advantages of a "
 "multidimensional tensor analysis of metaphorical manifolds is dimensionaland "
@@ -2238,51 +2787,51 @@ msgstr ""
 "dimensionnelle etles erreurs des affirmations unidimensionnelles de rang "
 "sont critiquées "
 
-#: .\hardcoded\site_nav_data.py:31 .\hardcoded\site_nav_data.py:32
+#: hardcoded/routes.py:12 hardcoded/routes.py:13
 msgid "Objective"
 msgstr "L'objectif "
 
-#: .\hardcoded\site_nav_data.py:34
+#: hardcoded/routes.py:15
 msgid "Abstract"
 msgstr "Resume "
 
-#: .\hardcoded\site_nav_data.py:38 .\hardcoded\site_nav_data.py:39
+#: hardcoded/routes.py:19 hardcoded/routes.py:20
 msgid "Ambiguity and ambisexuality"
 msgstr "Ambiguïté et ambisexualité "
 
-#: .\hardcoded\site_nav_data.py:43 .\hardcoded\site_nav_data.py:44
+#: hardcoded/routes.py:24 hardcoded/routes.py:25
 msgid "Home and Position"
 msgstr "Maison et Position "
 
-#: .\hardcoded\site_nav_data.py:48 .\hardcoded\site_nav_data.py:49
+#: hardcoded/routes.py:29 hardcoded/routes.py:30
 msgid "The nourishing womb"
 msgstr "La matrice nourrissant "
 
-#: .\hardcoded\site_nav_data.py:53 .\hardcoded\site_nav_data.py:54
+#: hardcoded/routes.py:34 hardcoded/routes.py:35
 msgid "Host and Hostage"
 msgstr "Hôte et otage "
 
-#: .\hardcoded\site_nav_data.py:61 .\hardcoded\site_nav_data.py:62
+#: hardcoded/routes.py:42 hardcoded/routes.py:43
 msgid "Two-Dimensional Polar Relations and Two-by-Two Matrices"
 msgstr "Relations polaires bidimensionnelles et matrices deux par deux "
 
-#: .\hardcoded\site_nav_data.py:66 .\hardcoded\site_nav_data.py:67
+#: hardcoded/routes.py:47 hardcoded/routes.py:48
 msgid "The flat space of totality"
 msgstr "L'espace plat de la totalité "
 
-#: .\hardcoded\site_nav_data.py:71 .\hardcoded\site_nav_data.py:72
+#: hardcoded/routes.py:52 hardcoded/routes.py:53
 msgid "Three-Dimensional Analysis"
 msgstr "Analyse tridimensionnelle "
 
-#: .\hardcoded\site_nav_data.py:78 .\hardcoded\site_nav_data.py:79
+#: hardcoded/routes.py:59 hardcoded/routes.py:60
 msgid "Discussion"
 msgstr "Discussion "
 
-#: .\hardcoded\site_nav_data.py:87
+#: hardcoded/routes.py:68
 msgid "Theory of Genre Sets"
 msgstr "Théorie des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:89
+#: hardcoded/routes.py:70 hardcoded/routes.py:125
 msgid ""
 "This page features many discussion: (1) An Introduction to Genre Sets, (2) "
 "An example analysis of a sentence from Totality and Infinity as a "
@@ -2311,92 +2860,60 @@ msgstr ""
 "[perversion, inversion, subversion, réversion] (7) Lecture Totalité et "
 "L'infini comme genèse et autrement que l'être comme exode "
 
-#: .\hardcoded\site_nav_data.py:92
+#: hardcoded/routes.py:73
 msgid "Introduction to Genre Sets"
 msgstr "Introduction aux ensembles de genres"
 
-#: .\hardcoded\site_nav_data.py:93
+#: hardcoded/routes.py:74
+msgid "The Mathematics Genre Sets"
+msgstr "Les ensembles de genres mathématiques"
+
+#: hardcoded/routes.py:76
 msgid "Group Set Membership"
 msgstr "Adhésion au groupe"
 
-#: .\hardcoded\site_nav_data.py:97
+#: hardcoded/routes.py:80
 msgid "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
 msgstr ""
 "Une analyse constellationnelle d'une phrase métaphoriquement kallidescopique"
 
-#: .\hardcoded\site_nav_data.py:103
+#: hardcoded/routes.py:86
 msgid "Combination"
 msgstr "Combinaison"
 
-#: .\hardcoded\site_nav_data.py:107
+#: hardcoded/routes.py:90
 msgid "Repetition of the same word in different context"
 msgstr "Répétition du même mot dans un contexte différent "
 
-#: .\hardcoded\site_nav_data.py:109
+#: hardcoded/routes.py:92
 msgid "Opposition"
 msgstr "Opposition"
 
-#: .\hardcoded\site_nav_data.py:110
+#: hardcoded/routes.py:93
 msgid "Intersection"
 msgstr "Intersection"
 
-#: .\hardcoded\site_nav_data.py:111
+#: hardcoded/routes.py:94
 msgid "Parallelism"
 msgstr "Parallélisme"
 
-#: .\hardcoded\site_nav_data.py:116 .\hardcoded\site_nav_data.py:120
+#: hardcoded/routes.py:99 hardcoded/routes.py:103
 msgid "Curvature"
 msgstr "Courbure"
 
-#: .\hardcoded\site_nav_data.py:118
+#: hardcoded/routes.py:101
 msgid "Flat"
 msgstr "Plat"
 
-#: .\hardcoded\site_nav_data.py:119
+#: hardcoded/routes.py:102
 msgid "Two Dimensional"
 msgstr "Bidimensionnel"
 
-#: .\hardcoded\site_nav_data.py:123
-msgid "Numbers"
-msgstr "Nombres"
-
-#: .\hardcoded\site_nav_data.py:127
-msgid "The Good of the “Plus One”: Extension curved by the Vertical"
-msgstr "Le Bien du « Plus Un » : Extension courbée par la Verticale"
-
-#: .\hardcoded\site_nav_data.py:130
-msgid "Zero"
-msgstr "Zéro"
-
-#: .\hardcoded\site_nav_data.py:131
-msgid "One"
-msgstr "Un"
-
-#: .\hardcoded\site_nav_data.py:132
-msgid "Duality"
-msgstr "Dualité"
-
-#: .\hardcoded\site_nav_data.py:133
-msgid "Three"
-msgstr "Trois"
-
-#: .\hardcoded\site_nav_data.py:134
-msgid "Four"
-msgstr "Quatre"
-
-#: .\hardcoded\site_nav_data.py:137
+#: hardcoded/routes.py:106
 msgid "Perspectivism"
 msgstr "Perspectivisme"
 
-#: .\hardcoded\site_nav_data.py:138
-msgid "Quotations from d'Alembert"
-msgstr "Citations de d'Alembert"
-
-#: .\hardcoded\site_nav_data.py:139
-msgid "Quotations from Léon Brunschvicg"
-msgstr "Citations de Léon Brunschvicg"
-
-#: .\hardcoded\site_nav_data.py:146
+#: hardcoded/routes.py:113
 msgid ""
 "A list of all 16000 words in both Totality and Otherwise. Links to "
 "information pages about each word, including definitions and etymologies in "
@@ -2406,24 +2923,64 @@ msgstr ""
 "d'informations sur chaque mot, y compris les définitions et les étymologies "
 "dans Anglais et français, ainsi que les fréquences et lignes des deux textes "
 
-#: .\hardcoded\site_nav_data.py:151
+#: hardcoded/routes.py:118
 msgid "List of Genre Sets"
 msgstr "Liste des ensembles de genres "
 
-#: .\hardcoded\site_nav_data.py:152
+#: hardcoded/routes.py:119
 msgid "A list of Genre Sets."
 msgstr "Une liste de groupes de genres. "
 
-#: .\hardcoded\site_nav_data.py:158
+#: hardcoded/routes.py:123
+msgid "Topics"
+msgstr "Les sujets"
+
+#: hardcoded/routes.py:128
+msgid "Numbers"
+msgstr "Nombres"
+
+#: hardcoded/routes.py:132
+msgid "The Good of the “Plus One”: Extension curved by the Vertical"
+msgstr "Le Bien du « Plus Un » : Extension courbée par la Verticale"
+
+#: hardcoded/routes.py:135
+msgid "Zero"
+msgstr "Zéro"
+
+#: hardcoded/routes.py:136
+msgid "One"
+msgstr "Un"
+
+#: hardcoded/routes.py:137
+msgid "Duality"
+msgstr "Dualité"
+
+#: hardcoded/routes.py:138
+msgid "Three"
+msgstr "Trois"
+
+#: hardcoded/routes.py:139
+msgid "Four"
+msgstr "Quatre"
+
+#: hardcoded/routes.py:140
+msgid "Quotations from d'Alembert"
+msgstr "Citations de d'Alembert"
+
+#: hardcoded/routes.py:141
+msgid "Quotations from Léon Brunschvicg"
+msgstr "Citations de Léon Brunschvicg"
+
+#: hardcoded/routes.py:151
 msgid ""
 "Contact information, sources, current project status and future direction"
 msgstr "Coordonnées, sources, état actuel du projet et orientation future "
 
-#: .\templates\info\count_alerts.html:4
+#: templates/info/count_alerts.html:4
 msgid "Word counts are approximate"
 msgstr "Les quantités de mots sont approximatives "
 
-#: .\templates\info\count_alerts.html:7
+#: templates/info/count_alerts.html:7
 msgid ""
 "There were a few minor text parsing errors which will be fixed in a future "
 "release"
@@ -2431,55 +2988,55 @@ msgstr ""
 " Quelques erreurs mineures d'analyse de texte se sont produites qui seront "
 "corrigées dans une prochaine version "
 
-#: .\templates\info\count_alerts.html:12
+#: templates/info/count_alerts.html:12
 msgid "Several relations have not yet been captured"
 msgstr "Plusieurs relations n'ont pas encore été capturées "
 
-#: .\templates\info\count_alerts.html:14
+#: templates/info/count_alerts.html:14
 msgid "Capitalisation"
 msgstr "Capitalisation "
 
-#: .\templates\info\count_alerts.html:15
+#: templates/info/count_alerts.html:15
 msgid "Reflexives"
 msgstr "Réflexifs "
 
-#: .\templates\info\count_alerts.html:16
+#: templates/info/count_alerts.html:16
 msgid "Negatives"
 msgstr "Negatifs "
 
-#: .\templates\info\count_alerts.html:17
+#: templates/info/count_alerts.html:17
 msgid "Prepositions"
 msgstr "Prépositions "
 
-#: .\templates\info\count_alerts.html:18
+#: templates/info/count_alerts.html:18
 msgid "Articles"
 msgstr "Articles "
 
-#: .\templates\info\count_alerts.html:19
+#: templates/info/count_alerts.html:19
 msgid "Word distances"
 msgstr "Distances des mots "
 
-#: .\templates\info\count_alerts.html:20
+#: templates/info/count_alerts.html:20
 msgid "Formal variations and repetitions"
 msgstr "Variations et répétitions formelles "
 
-#: .\templates\info\count_alerts.html:24
+#: templates/info/count_alerts.html:24
 msgid "Formula for “Proportion”"
 msgstr "Formule de “Proportion” "
 
-#: .\templates\nav\nav_bar.html:4
+#: templates/nav/nav_bar.html:4
 msgid "Summary"
 msgstr "Résumé"
 
-#: .\templates\nav\page_toc.html:11
+#: templates/nav/page_toc.html:11
 msgid "Table of Contents"
 msgstr "Table des matières"
 
-#: .\templates\nav\site_header.html:6
+#: templates/nav/site_header.html:6
 msgid "Radical Empiricism"
 msgstr "Empirisme Radical "
 
-#: .\templates\nav\site_header.html:10
+#: templates/nav/site_header.html:10
 msgid ""
 "A topological analysis of metaphorical manifolds in the texts of Emmanuel "
 "Levinas"
@@ -2487,15 +3044,15 @@ msgstr ""
 " Une analyse topologique des variétés métaphoriques dans les textes "
 "d'Emmanuel Levinas "
 
-#: .\templates\nav\site_map_accordion.html:12
+#: templates/nav/site_map_accordion.html:12
 msgid "Website Map"
 msgstr "Plan du site Web "
 
-#: .\templates\pages\genre_list_page.html:7
+#: templates/pages/genre_list_page.html:7
 msgid "Introduction"
 msgstr "Introduction "
 
-#: .\templates\pages\genre_list_page.html:8
+#: templates/pages/genre_list_page.html:8
 msgid ""
 "Below are some of the Genre Sets which I have manually assembled. They will "
 "be replaced once I have developed a better way to analyse word morphemes "
@@ -2505,7 +3062,7 @@ msgstr ""
 "assemblés manuellement. Ils être remplacé une fois que j'aurai développé une "
 "meilleure façon d'analyser les morphèmes des motspar programmation "
 
-#: .\templates\pages\genre_list_page.html:10
+#: templates/pages/genre_list_page.html:10
 msgid ""
 "Genre sets have been assembled according to morphemic (suffixes, prefixes, "
 "etymological roots, etc) and semantic similarites."
@@ -2513,7 +3070,7 @@ msgstr ""
 " Les ensembles de genres ont été assemblés selon des morphèmes (suffixes, "
 "préfixes, racines étymologiques, etc.) et similitudes sémantiques. "
 
-#: .\templates\pages\genre_list_page.html:12
+#: templates/pages/genre_list_page.html:12
 msgid ""
 "For an in depth explanation of these rules for assembling Genre Sets, please "
 "read the  <a href='/genre_theory' target='_blank'> Theory of Genre Sets "
@@ -2523,31 +3080,31 @@ msgstr ""
 "genres, veuillez lisez la <a href='/genre_theory' target='_blank'> théorie "
 "des ensembles de genrespage</a> "
 
-#: .\templates\pages\technical_page.html:12
+#: templates/pages/technical_page.html:12
 msgid "Dedication"
 msgstr "Dédicace "
 
-#: .\templates\pages\technical_page.html:13
+#: templates/pages/technical_page.html:13
 msgid "For"
 msgstr "Pour "
 
-#: .\templates\pages\technical_page.html:19
+#: templates/pages/technical_page.html:19
 msgid "Author"
 msgstr "Auteur "
 
-#: .\templates\pages\technical_page.html:98
+#: templates/pages/technical_page.html:98
 msgid "Translations"
 msgstr "Traductions "
 
-#: .\templates\pages\technical_page.html:101
+#: templates/pages/technical_page.html:101
 msgid "Google Translate"
 msgstr "Google Traduction "
 
-#: .\templates\pages\technical_page.html:108
+#: templates/pages/technical_page.html:108
 msgid "Suggested Reading"
 msgstr "Lecture suggérée "
 
-#: .\templates\pages\technical_page.html:141
+#: templates/pages/technical_page.html:141
 msgid ""
 "The objective correlate of the concept of a possible theory determined only "
 "in respect of form [Form] is the concept of a possible field of knowledge "
@@ -2579,7 +3136,7 @@ msgstr ""
 "connexion pour laquelle les lois de la forme a + b = b + a, etc., sont "
 "valables. "
 
-#: .\templates\pages\technical_page.html:146
+#: templates/pages/technical_page.html:146
 msgid ""
 "To speak, in a word, is to seek the source of meaning in the prefix that the "
 "words exile, exodus, existence, exteriority, and estrangement are committed "
@@ -2594,93 +3151,91 @@ msgstr ""
 "Assurément, cela il serait téméraire de prétendre représenter le judaïsme "
 "par tous "
 
-#: .\templates\pages\word_detail_page.html:6
-#: .\templates\pages\word_detail_page.html:8
+#: templates/pages/word_detail_page.html:5
+#: templates/pages/word_detail_page.html:7
 msgid "Information for"
 msgstr "Des informations sur "
 
-#: .\templates\pages\word_detail_page.html:18
+#: templates/pages/word_detail_page.html:17
 msgid "Quantities"
 msgstr "Quantités "
 
-#: .\templates\pages\word_detail_page.html:24
-#: .\templates\pages\word_list_page.html:11
+#: templates/pages/word_detail_page.html:23
+#: templates/pages/word_list_page.html:11
 msgid "Sum"
 msgstr "Somme "
 
-#: .\templates\pages\word_detail_page.html:25
+#: templates/pages/word_detail_page.html:24
 msgid "Proportion"
 msgstr "Proportion "
 
-#: .\templates\pages\word_detail_page.html:26
+#: templates/pages/word_detail_page.html:25
 msgid "Word Proximity Map"
 msgstr "Carte de proximité de mots "
 
-#: .\templates\pages\word_detail_page.html:48
+#: templates/pages/word_detail_page.html:47
 msgid "Definition and Etymology"
 msgstr "Définition et étymologie"
 
-#: .\templates\pages\word_detail_page.html:74
+#: templates/pages/word_detail_page.html:73
 msgid "Lines from texts"
 msgstr "Lignes de textes"
 
-#: .\templates\pages\word_detail_page.html:82
+#: templates/pages/word_detail_page.html:81
 msgid "Totality and Infinity: An Essay on Exteriority"
 msgstr "Totalité et infini: essai sur l'extériorité"
 
-#: .\templates\pages\word_detail_page.html:87
+#: templates/pages/word_detail_page.html:86
 msgid "Otherwise than Being, or Beyond Essence"
 msgstr "Autrement qu'être, ou au-delà de l'essence"
 
-#: .\templates\pages\word_detail_page.html:101
-#: .\templates\pages\word_detail_page.html:120
-#: .\templates\tags\book_line_display.html:11
+#: templates/pages/word_detail_page.html:100
+#: templates/pages/word_detail_page.html:119
+#: templates/tags/book_line_display.html:11
 msgid "Line"
 msgstr "Ligne "
 
-#: .\templates\pages\word_list_page.html:8
+#: templates/pages/word_list_page.html:8
 msgid "Word"
 msgstr "Mot "
 
-#: .\templates\pages\word_list_page.html:9
-#: .\templates\pages\word_list_page.html:10
+#: templates/pages/word_list_page.html:9 templates/pages/word_list_page.html:10
 msgid "Quantity"
 msgstr "Quantité "
 
-#: .\templates\pages\word_list_page.html:9
-#: .\templates\pages\word_list_page.html:10
+#: templates/pages/word_list_page.html:9 templates/pages/word_list_page.html:10
 msgid "in"
 msgstr "en "
 
-#: .\templates\pages\word_list_page.html:9
+#: templates/pages/word_list_page.html:9
 msgid "Totality"
 msgstr "Totalité "
 
-#: .\templates\pages\word_list_page.html:10
+#: templates/pages/word_list_page.html:10
 msgid "Otherwise"
 msgstr "Autrement "
 
-#: .\templates\pages\word_list_page.html:13
+#: templates/pages/word_list_page.html:13
 msgid "More information and texts"
 msgstr "Plus d'information et textes "
 
-#: .\templates\pages\word_list_page.html:24
+#: templates/pages/word_list_page.html:24
 msgid "Information about"
 msgstr "Des informations sur "
 
-#: .\templates\tags\constellation_example.html:4
+#: templates/tags/constellation_example.html:4
 msgid "A constellational analysis of metaphorical manifolds"
 msgstr "Une analyse constellationnelle de variétés métaphoriques "
 
-#: .\templates\tags\constellation_example.html:5
+#: templates/tags/constellation_example.html:5
 msgid "Example"
 msgstr "Exemple "
 
-#: .\templates\tags\constellation_example.html:8
+#: templates/tags/constellation_example.html:8
 msgid "Group Decomposition"
 msgstr "Décomposition du groupe "
 
-#: .\templates\tags\content_card.html:7 .\templates\tags\content_card.html:17
+#: templates/tags/content_card.html:7 templates/tags/content_card.html:20
 msgid "Back to Top of Page"
 msgstr "Retour en haut de la page"
 
