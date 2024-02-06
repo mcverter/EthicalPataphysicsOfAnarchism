@@ -1,0 +1,391 @@
+I want to replace a script I have that allows users to "read more" with the Bootstrap collapse accordion. My problem is that as far as I've seen the accordion is either open or closed.
+
+Does anyone know about an option to show some text in closed mode?
+
+Lenovo LP40 Thinkplus Livepods Wat...
+
+Play
+
+Unmute
+Remaining Time -9:51
+
+
+Captions
+Fullscreen
+
+Advertisement: 0:07
+Now Playing
+Lenovo LP40 Thinkplus Livepods Waterproof Earbuds User Manual
+
+LG Air Conditioner Remote Control Manual
+2:26
+
+PLC Tank Filling Mixing and Draining Logic - Delta PLC Program Example
+26:43
+
+Free Full Version iPhone Games - Free Full Game Apps for iPhone
+3:33
+
+Most Useful Excel Keyboard Shortcuts
+9:21
+
+Flutter Firebase Login with Email and Password | Flutter Firebase Tutorial | Part 3
+30:42
+
+What is a Transformer (And How Does it Work)? | Electrical4U
+4:09
+
+Understand Psychology and Location of mind | How the mind works
+7:42
+
+Django Projects With Source Code and Ideas for Beginners 2021 | Django Project Ideas for Beginners
+4:52
+
+Dart Programming for Beginners
+32:57
+Now Playing
+Lenovo LP40 Thinkplus Livepods Waterproof Earbuds User Manual
+
+LG Air Conditioner Remote Control Manual
+2:26
+
+PLC Tank Filling Mixing and Draining Logic - Delta PLC Program Example
+26:43
+
+Free Full Version iPhone Games - Free Full Game Apps for iPhone
+3:33
+
+Most Useful Excel Keyboard Shortcuts
+9:21
+
+Flutter Firebase Login with Email and Password | Flutter Firebase Tutorial | Part 3
+30:42
+
+What is a Transformer (And How Does it Work)? | Electrical4U
+4:09
+
+Understand Psychology and Location of mind | How the mind works
+7:42
+
+Django Projects With Source Code and Ideas for Beginners 2021 | Django Project Ideas for Beginners
+4:52
+
+Dart Programming for Beginners
+32:57
+Play Video
+In the script I'm using right now I can make some text visible by changing the height of the text area, but in Bootstrap this option doesn't work. When I change the height of .in or .out (the css that controls the text area height), it simply opens and closes until that height. Has anybody found a workaround for this?
+
+My HTML:
+
+<div class="accordion" id="accordion2"> 
+  <div class="accordion-group"> 
+    <div class="accordion-heading"> 
+      <a class="accordion-toggle"  href="#collapseOne"
+         data-toggle="collapse" data-parent="#accordion2">
+        TITLE OF THE COLLAPSE 
+    </a> 
+    </div> 
+    <div id="collapseOne" class="accordion-body collapse in"> 
+      <div class="accordion-inner"> 
+        DATA IN THE COLLAPSE 
+      </div> 
+    </div>
+  </div>
+</div>
+SCORE:1
+
+
+Ezoic
+I don't know if i've understood you right, but do you want to show a teaser text under the title? Why not just add the text to the panel-titel with jquery:
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        1 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        2 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+      </div>
+    </div>
+  </div>
+</div>
+
+$(function(){
+    $("#accordion .panel").each(function(){
+        var thispanel = $(this);
+        var titletext = thispanel.find(".panel-body").text().substring(1, 100) + " ... click to read more";
+        thispanel.find("h4.panel-title a").html(titletext);
+    });
+});
+
+Ezoic
+ Anja 409
+SCORE:1
+
+Here's another approach if you can't breakup your DOM into different pieces for the preview + expanded text, but have one long block of content.
+
+Bootstrap uses the selector .collapse:not(.show) to hide the accordion-body. We can override those styles to be visible, but only up to a certain height. Then, to indicate there's additional text, we can borrow some styling from How to apply a CSS gradient over a text, from a transparent to an opaque colour.
+
+Add the accordion-preview class to the top level component and add the following styles:
+
+.accordion-preview .collapse:not(.show) {
+    display: block;
+}
+.accordion-preview .collapse:not(.show) .accordion-body {
+    max-height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-preview .collapse:not(.show) .accordion-body:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top,
+       rgba(255,255,255, 1) 5%, 
+       rgba(255,255,255, 0) 60%
+    );
+    pointer-events: none; /* so the text is still selectable */
+}
+Example
+Example screenshot of Accordion with Preview
+
+Demo in Stack Snippets
+.accordion-preview .collapse:not(.show) {
+    display: block;
+}
+.accordion-preview .collapse:not(.show) .accordion-body {
+    max-height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-preview .collapse:not(.show) .accordion-body:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top,
+       rgba(255,255,255, 1) 5%, 
+       rgba(255,255,255, 0) 60%
+    );
+    pointer-events: none; /* so the text is still selectable */
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>
+
+<div class="accordion accordion-preview" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+ KyleMit 34298
+
+Ezoic
+Some more answer related to the same question
+Showing partial text in bootstrap collapse accordion
+content not showing when bootstrap accordion is set to collapse at init
+How to make a Bootstrap accordion collapse when clicking the header div?
+bootstrap 3 accordion collapse does not work on iphone
+Bootstrap Collapse accordion on hover
+Bootstrap dropdown in collapse not showing on first attempt
+Bootstrap accordion collapse height issue
+Accordion doesn't work in Bootstrap 4 collapse
+SCORE:5
+
+Sure you can! Accordions are just collapse controls that have some automatic wiring provided by bootstrap.
+
+The only thing the collapse does is toggle the visibility of specified section plus provide some animations. If you'd like something else to be visible, even when the toggled section is hidden, just put it outside the toggled section so it's always there. Collapsing won't change that.
+
+Here's an example with a teaser panel that's always visible before the main panel. You can style it however you want.
+
+Example
+Screenshot example of Accordion with preview text
+
+Demo in Stack Snippets
+<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.js"></script>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion"
+           href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Panel - Header - 1
+        </a>
+      </h4>
+    </div>
+    <div class="panel-teaser panel-body" >
+      Panel - Teaser - 1
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" 
+         role="tabpanel" aria-labelledby="headingOne">
+
+      <div class="panel-body">
+        Panel - Body - 1
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" 
+           href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Panel - Header - 2
+        </a>
+      </h4>
+    </div>
+    <div class="panel-teaser panel-body">
+      Panel - Teaser - 2
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" 
+         role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Panel - Body - 2
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+           href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Panel - Header - 3
+        </a>
+      </h4>
+    </div>
+    <div class="panel-teaser panel-body">
+      Panel - Teaser - 3
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" 
+         role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Panel - Body - 3
+      </div>
+    </div>
+  </div>
+  
+</div>
+ KyleMit 34298
+
+Reference: stackoverflow.com
+
+Ezoic
+
+POPULA POST
+Disable toggle option in Bootstrap 3 collapse accordion on large resolutions
+Bootstrap Collapse Accordion - Default Expand/Collapse?
+Bootstrap: Accordion Collapse stopped working with Bootstrap 2.0.3
+Bootstrap 3 - How to change the hyperlink title text showing as tooltip using javascript/jquery?
+How to Collapse bootstrap accordion by click check box inside it
+Twitter bootstrap accordion collapse function
+How to expand and collapse table row using Bootstrap Accordion and ASP.NET MVC?
+Bootstrap collapse only showing class .collapsed after first click
+Bootstrap accordion won't collapse other elements when one is opened
+Ajax loaded table inside Twitter Bootstrap Accordion Collapse
+Bootstrap accordion prevent collapse on postback in asp.net
+bootstrap accordion - don't collapse if clicking on open panel
+Can I specify a relative “data-target” for collapse accordion in Bootstrap 3 whilst retaining the “collapse others” functionality?
+Twitter Bootstrap - Excluding element from Accordion Collapse
+Bootstrap make accordion collapse by clicking heading?
+Bootstrap collapse isn't working; hamburger menu not showing up
+Link text changes on click. See more, See less jquery - Bootstrap accordion
+Bootstrap popover is showing the same text in all popups
+Adjust Bootstrap accordion button height based on text
+How do I use bootstrap 3 collapse for an accordion without data- markup?
+Bootstrap 3 : Collapse Accordion Not Working
+Collapse entire bootstrap accordion with Jinja2 template variables
+Bootstrap 4 Expand All / Collapse All button doesn't work when collapse element already showing
+H1 text not showing with bootstrap
+Bootstrap "read more" button - how to collapse and change button text with no time difference?
+bootstrap Accordion collapse multiple children?
+Placeholder text is not showing when using rails and bootstrap
+
+Ezoic
+How to collapse the borders in the Bootstrap 4 accordion example?
+Bootstrap 4: Card header in accordion does not make text responsive for mobile size
+Showing dropdown menu in bootstrap V3.0.3 on the top of the accordion
+Bootstrap popover not showing jQuery text input changes made before loading
+text not showing in my bootstrap textarea
+Bootstrap Accordion - change the position of top panel when collapse
+How to use Twitter Bootstrap Collapse to show some portion of the text and then the rest
+Bootstrap Collapse Button Not Showing Content When Clicked
+Accordion angularjs using bootstrap collapse
+Bootstrap accordion Collapse not working as expected when the panel is not directly under panel-group
+Remove bootstrap auto toggle in collapse accordion
+Bootstrap accordion horizontal (inline-block) - collapse issue
+Change text in a bootstrap collapse button based on whether the element is collapsed
+Bootstrap Collapse toggle show/hide in 3 column WITHOUT an accordion
+Bootstrap collapse not showing content when clicked
+
+
+Ezoic
+Featured post from same tag
+Write on bootstrap top panel line?
+Cannot read property 'childNodes' of undefined Error in AngularJS
+Resizeable Image using twitter-bootstrap
+Bootstrap col-xs-12 in HTML is not taking full width
+Unable to identify this "arrow" in Bootstrap Drop Down Menu
+How to pass a selected value in a dropdown list in one modal to another dropdown list in an
