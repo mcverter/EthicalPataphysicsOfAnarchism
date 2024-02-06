@@ -1,6 +1,21 @@
 {% extends "base_page.html" %}
 {% block subtitle %}DEBUG | {% endblock %}
 {% block content %}
+partial
+<div class="accordion partialcollapse" id="partialcollapse">
+  <div id="collapse-one" class="collapse" aria-labelledby="headingOne" data-parent="#partialcollapse">
+    <h4>Accordion Title</h4>
+    <p>CORDION PARTIAL COLLAPSE & EXPAND DEMO TEMPLATE FOR BOOTSTRAP
+Bootstrap has provided accordion “Collapse” JavaScript plugins for Bootstrap users, but has no explanation making the accordion partially expand and collapse.
+
+Below is the demo/template to build your accordion partially expand and collapse within the given height. The HTML includes CDN (content delivery network) to connect Bootstrap/Jquery’s CSS and JavaScript files, so it’s ready to be used! Click to download below.
+
+DEMO: How It Looks
 
 
+HTML</p>
+  </div>
+  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one"> </button>
+</div>
+collapse
 {% endblock %}
