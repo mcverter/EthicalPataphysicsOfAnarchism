@@ -13,6 +13,8 @@ BRAND_ROUTE = {
             "explanation": _("Objective"),
         },
         {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
+        {"route": "method", "title": _("Methodology"), "explanation": _("Methodology")},
+        {"route": "motivation", "title": _("Motivation"), "explanation": _("Motivation")},
         # these are all subroutes
         {
             "route": "ambisexuality",
