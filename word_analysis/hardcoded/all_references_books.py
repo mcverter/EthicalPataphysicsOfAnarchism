@@ -5,6 +5,11 @@ ALL_REFERENCE_BOOKS = [
     {"author": "Bergson, Henri", "year": "1896", "title": "Matter and Memory", "link": ""},
     {"author": "Bergson, Henri", "year": "1907", "title": "Time and Free Will",
      "link": "https://www.gutenberg.org/files/56852/56852-h/56852-h.htm"},
+    {"author": "Berlinski, David", "year": "2008", "title": "Infinite Ascent: A Short History of Mathematics",
+     "link": ""},
+    {"author": "Bressoud, David M", "year": "",
+     "title": "Queen of the Sciences: A History of Mathematics",
+     "link": "https://www.thegreatcourses.com/courses/queen-of-the-sciences-a-history-of-mathematics"},
     {"author": "Carslaw H. S.", "title": "Introduction to the theory of Fourier's series and integrals"},
     {"author": "de Broglie, Louis", "year": "1923", "title": "Ondes et quanta",
      "link": "https://www.academie-sciences.fr/pdf/dossiers/Broglie/Broglie_pdf/CR1923_p507.pdf"},
@@ -78,4 +83,6 @@ ALL_REFERENCE_BOOKS = [
      "link": "https://karolinum.cz/data/clanek/9828/Interpret_10_1_0142.pdf"},
     {"author": "Verter, Mitchell", "year": "2022", "title": "Levinas and Anarchism",
      "link": "https://waste.org/~roadrunner/writing/Levinas/"},
+    {"author": "Wallace, David Foster", "year": "", "title": "Everything and more: A concise history of infinity"},
+
 ]
