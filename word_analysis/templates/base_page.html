@@ -32,15 +32,15 @@
 <script>
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
-        
+
         $('.card-body-expand-toggle').click(function () {
             const expand_target = $(this).attr('href');
             const read_more_less = $(this);
             $(expand_target).toggleClass('shrunken');
             if ($(expand_target).hasClass('shrunken')) {
-                read_more_less.html('Read More');
+                read_more_less.html('Expand Section');
             } else {
-                read_more_less.html('Read Less');
+                read_more_less.html('Shrink Section');
             }
         });
     })
