@@ -1,50 +1,75 @@
+<!--
+div.card>div.card-body>h3.card-title
+-->
 {% load i18n %}
 <a id="motivation"></a>
 <div class="card">
     <div class="card-body">
-        <h2 class="card-title">A multiplicity of perspectives</h2>
-        <p class="card-text">{% trans "This investigation into the multiplicity of perspectives within Levinas's text is motivated out of a concern that too much of the secondary literature employs one-dimensional analyses of Levinas's work, an analysis which mistakenly reduces his thinking to hierarchical calculations of rank. This hierarchcal reading is widespread throughout both laudatory and critical readings of Levinas, and more generally within the much of the analytic literature. " %}
-        <p class="card-text">{% trans "The unhealthy degree of reverence with which Levinas has read been by his admirers read has long been criticized. In 2004, Simon Critchely lamented" %}
+        <h2 class="card-title">{% trans "The perspectival manifold as a corrective to one-dimensional analyses" %}</h2>
+        <p class="card-text">{% trans "This investigation into the multiplicity of perspectives within Levinas's text is motivated out of a concern that too much of the secondary literature employs one-dimensional analyses of Levinas's work, an analysis which mistakenly reduces his thinking to hierarchical calculations of rank. This hierarchical reading is widespread throughout both laudatory and critical readings of Levinas, and more generally within the much of the analytic literature. " %}</p>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">{% trans "The problem of looking up to Levinas" %}</h3>
+        <p class="card-text">{% trans "The unhealthy degree of reverence with which Levinas has read been by his admirers read has long been criticized. In 2004, Simon Critchley lamented" %}</p>
         <blockquote
                 class="blockquote">{% trans "Much of the work on Levinas tends to confine itself to exegesis, commentary, comparison with other thinkers, and, at its worst, homage. This is finally dull and produces only discipleship and scholasticism." %}</blockquote>
-        <p class="card-text">{% trans "Two years later, Samuel Moyn offered a similar assessment" %}
+        <p class="card-text">{% trans "Two years later, Samuel Moyn offered a similar assessment" %}</p>
         <blockquote
                 class="blockquote">{% trans "So much existing commentary on Levinas is offered with submissive piety" %}</blockquote>
-        <p class="card-text">{% trans "Why does Levinas interpretation tend to attract such readings of his work?  What impels certain commntators to position themselves as submissive to his higher power? Much of the fault can be attributed to the seductiveness of Levinas's language: if one can manage to wend one's way through the contortions of verbiage, it is hard not to be enchanted by its strange poetry, hypnotised by its rhythm, mesmerized by its an various intensities and extremities." %}
-        <p class="card-text">{% trans "But, as anyone who has struggled through these texts would know, the reader confronts a serious problem: how can one start to understand these texts that are so seductive yet so difficult to understand?" %}
-        <p class="card-text">{% trans "Before we present certain types of tactics that many writers employ, we wish to remark that Levinas's prose is deliberately cryptic. Throughout his analyses of manifold phenomenon, he reiterates the essentially 'hidden' or 'clandestine' aspect of that which is shown: we can know something from the outside as something known to us, but we can never completely know what that thing is from the inside. No matter how much knowledge you accumulate about another person, it's impossible to ever really know what it's like to be that person. This abyss of the unknowable appears throughout philosopical inquiry, always lurkng behind notions such as objectivity, materiality, and generality.  An object present its observable sides to us, but in so doing they hide its reverse. Materiality itself presents itself as an obscurity. We can understand matter in its forms and even the formal properties of matter but what matter is in itself has never been entirely clear: it's there but what is it? One can understand a thing through generalities but never its individuality as such. Levinas approaches language in much the same fashion: simultaneusly presenting characteristics of an event while explaining that these same characteristics conceal something unpresentable." %}
-        <p class="card-text">{% trans "Two common patterns are often employed in the secondary literature to try to navigate their way past this abyss.  The first is to seek out, among the twists and turns of language, those statements which are relatively straightforward, that are simple ontological statements connecting a subject with a predicate through the verb 'is'.  The most popular of these slogans is 'Ethics is First Philosophy'.  But not only does Levinas never use this exact expression, it misunderstands what the word 'first' means for Levinas.   To suggest, as does the first line of the entry on Levinas in the Stanford Encyclopedia of Philosophy, that 'Emmanuel Levinas’ intellectual project was to develop a first philosophy' is to make it seem that Levinas's goal is to be first, to somehow win the competition for the smartest and most righteous philosopher of all time.  Although Levinas certainly is playing with the idea of firstness expressed in  Aristotle’s <em>prote philosophia</em> and Descartes’ <em>prima philosophia</em> and Heidegger's <em>primordial</em> thinking, the overall message of his Levinas's is that unity depends upon nullity, duality, tertiaty, and infinity.  For example, the first-person position of subjectivity is already conditioned by the second person position of the interlocutor as well as the third-person plane of generality, by the zero of anonymity and the infinity of sociality.  One can only appreciate the phrase 'first philosophy' through questioning the priority of priority, by recognizing that the first principle archē is already disturbed by the anarchy of these numerous relationships.  All of these numeric terms belong to the MATHEMATICS GS" %}
-            {% genre_btn_collapse "MATHÉMATIQUES" %}
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">{% trans "Levinas's cryptic verbiage" %}</h3>
+        <p class="card-text">{% trans "Why does Levinas interpretation tend to attract such readings of his work?  What impels certain commentators to position themselves as submissive to his higher power? Much of the fault can be attributed to the seductiveness of Levinas's language: if one can manage to wend one's way through the contortions of verbiage, it is hard not to be enchanted by its strange poetry, hypnotised by its rhythm, mesmerized by its an various intensities and extremities." %}</p>
+        <p class="card-text">{% trans "But, as anyone who has struggled through these texts would know, the reader confronts a serious problem: how can one start to understand these texts that are so seductive yet so difficult to understand?" %}</p>
+        <p class="card-text">{% trans "Before we present certain types of tactics that many writers employ, we wish to remark that Levinas's prose is deliberately cryptic. Throughout his analyses of manifold phenomenon, he reiterates the essentially 'hidden' or 'clandestine' aspect of that which is shown: we can know something from the outside as something known to us, but we can never completely know what that thing is from the inside. No matter how much knowledge you accumulate about another person, it's impossible to ever really know what it's like to be that person. This abyss of the unknowable appears throughout philosophical inquiry, always lurking behind notions such as objectivity, materiality, and generality.  An object present its observable sides to us, but in so doing they hide its reverse. Materiality itself presents itself as an obscurity. We can understand matter in its forms and even the formal properties of matter but what matter is in itself has never been entirely clear: it's there but what is it? One can understand a thing through generalities but never its individuality as such. Levinas approaches language in much the same fashion: simultaneously presenting characteristics of an event while explaining that these same characteristics conceal something unpresentable." %}</p>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">{% trans "Ontological Predication (Insufficient Solution One): Clarify Obscurity with Simple Assertions" %}</h3>
+        <p class="card-text">{% trans "Two common patterns are often employed in the secondary literature to try to navigate their way past this abyss.  The first is to seek out, among the twists and turns of language, those statements which are relatively straightforward, that are simple ontological statements connecting a subject with a predicate through the verb 'is'.  The most popular of these slogans is 'Ethics is First Philosophy'.  But not only does Levinas never use this exact expression, it misunderstands what the word 'first' means for Levinas.   To suggest, as does the first line of the entry on Levinas in the Stanford Encyclopedia of Philosophy, that 'Emmanuel Levinas’ intellectual project was to develop a first philosophy' is to make it seem that Levinas's goal is to be first, to somehow win the competition for the smartest and most righteous philosopher of all time.  Although Levinas certainly is playing with the idea of firstness expressed in  Aristotle’s <em>prote philosophia</em> and Descartes’ <em>prima philosophia</em> and Heidegger's <em>primordial</em> thinking, the overall message of his Levinas's is that unity depends upon nullity, duality, tertiaty, and infinity.  For example, the first-person position of subjectivity is already conditioned by the second person position of the interlocutor as well as the third-person plane of generality, by the zero of anonymity and the infinity of sociality.  One can only appreciate the phrase 'first philosophy' through questioning the priority of priority, by recognizing that the first principle archē is already disturbed by the anarchy of these numerous relationships.  All of these numeric terms belong to the MATHEMATICS GS" %}</p>
+        {% genre_btn_collapse "MATHÉMATIQUES" %}
         <p class="card-text">{% trans "Two other such slogans that are often misunderstood as the core of Levinas's thought are 'The Other is Most High' and Levinas's citation of the sixth Biblical commandment 'Thou kill shalt not kill'.  The key words in these phrases also depend on their relations with other members of their respective GS" %}</p>
         <p class="card-text">{% trans "A proper understand the motif of 'height' requires an investigation of its relation with other terms that are members of the GEOMETRY GS, such as its polar opposite 'depth' as well as to the various geometrical terms such as 'curvature' and 'dimension', and corresponding terms coming from various subfields of mathematics and physics." %}</p>
         {% genre_btn_collapse "GÉOMÉTRIE" %}
         <p class="card-text">{% trans "To understand the motif of 'murder', one must similarly understand the entire narrative of continuous creation that Levinas unfolds from birth to childhood to marriage to laboring to old age to death to the generation of a new generation." %}</p>
         {% genre_btn_collapse "GENÈSES" %}
-        <p class="card-text">{% trans "Levinas's announcement of the ethical prohibion on murder appears during the sectoin of the narrative that meditates on the meaning of death " %}
-        <p class="card-text">{% trans "Echoing both Critchley and Moyn, Robert Bernasconi writing in 1989, twenty-five years after the publication of translation of Totality and Infinity, laments:" %}
-        <blockquote
-                class="blockquote">{% trans " During that time certain habits of reading have been established. The focus has come to fall on the thirty pages that open its third part." %}</blockquote>
-        <p class="card-text">{% trans "Bernasconi's metaphor of 'focus' is particularly apt because what precisely what Levinas does in his texts is to inspect a mutlitiude of perspectives." %}
-            {% book_line_display "ti" 1396 %}</p>
-        {% book_line_display "ti" 3529 %}
-        <p class="card-text">{% trans "Along with this oversimplification of Levinas's thought often comes a corresponding tendency to multiply obscurity. Rather than taking the time to break a word apart and to analyse the way this word function within Levinas's etymological and sematic constellations, such commentators will instead attempt to explain one cryptic terms with even more criptics terms -- to explain the idea of substitution by way of persecution by way of amphibology and so forth. In practice, this often simply paraphrasing Levinas or using muddled phrasings and terms that attempt to simluate the well-constructed complexity of Levinas's own text." %}</p>
-
     </div>
 </div>
 <div class="card">
     <div class="card-body">
+        <h3 class="card-title">{% trans "Multiplications of Complexities (Insufficient Solution #2)" %}</h3>
+        <p class="card-text">{% trans "Along with this oversimplification of Levinas's thought often comes a corresponding tendency to multiply obscurity. Rather than taking the time to break a word apart and to analyse the way this word function within Levinas's etymological and sematic constellations, such commentators will instead attempt to explain one cryptic terms with even more cryptic terms -- to explain the idea of substitution by way of persecution by way of amphibology and so forth. In practice, this often simply paraphrasing Levinas or using muddled phrasings and terms that attempt to simulate the well-constructed complexity of Levinas's own text." %}</p>
+    </div>
+</div>
+<p class="card-text">{% trans "Levinas's announcement of the ethical prohibion on murder appears during the section of the narrative that meditates on the meaning of death " %}
+<p class="card-text">{% trans "Echoing both Critchley and Moyn, Robert Bernasconi writing in 1989, twenty-five years after the publication of translation of Totality and Infinity, laments:" %}
+<blockquote
+        class="blockquote">{% trans " During that time certain habits of reading have been established. The focus has come to fall on the thirty pages that open its third part." %}</blockquote>
+<p class="card-text">{% trans "Bernasconi's metaphor of 'focus' is particularly apt because what precisely what Levinas does in his texts is to inspect a multitiude of perspectives." %}</p>
+{% book_line_display "ti" 1396 %}
+{% book_line_display "ti" 3529 %}
+<div class="card">
+    <div class="card-body">
+        that levinas thinks x is better than y . disparages x in favor of y
+        most prominent in feminist critique.
+        excellent reasons for this
+        the problem of dimension is the problem of gender. homologous to each other. the geometry is homologous to the
+        gender set
         <h3 class="card-title">The question of privilege</h3>
-
         <blockquote>paternity is the privileged model of the relation to the other</blockquote>
         <blockquote>Levinas appears to be privileging the feminine in a certain way</blockquote>
         <blockquote>Levinas does privilege sexual activity that ends in fecundity
-            <blockquote>
+        </blockquote>
     </div>
 </div>
 <!--
 Wheras unnecessary complication is another way that
 Another issue of reading and writing is that
-
 simplificaiton and obscuration
 But then how does one understand a work which is deliberately hard to understand.
 Levinas's works are deliberately dense .   He speaks repeatedly of the "opacity" and the "obsurity" and "clandestine" meanings that are always impoenatriable to understanding
@@ -55,7 +80,6 @@ Levinas's works are deliberately dense .   He speaks repeatedly of the "opacity"
 * necessary frist to speak out against the violence of certain EL readings
 * then truth, violence
 * feminine is a curvature tensor. home birth mother sex crone widow
-
 <p class="card-text">Perhaps the most egregious examples of such a worshipful reading can be found in the writings of Richard A Cohen.
     Cohen grounds his faith in his belief that Levinas can be understood through his usage of superlatives. He
     summarizes Levinas's thinking as an assertion of superlative altitude.
@@ -63,24 +87,16 @@ Levinas's works are deliberately dense .   He speaks repeatedly of the "opacity"
     of the other manifests and is manifest in a moral height which is the dimension of G-d, the revelation of G-d.
 <</blockquote>
 Cohen agressively wields this notion of rank and dominance thoughout his commentaries, repeatedly asserting not just its core imortance for the Levinas interpretation, but also using it to attack not just Levinas's philosohical interlocutors but other commentors who would dare question or criticize any aspect of Levinas's writing.
-
 He similarly characteries </p>
-
 g, Cohen expresses this contrast with astonishing violence, arguing that Levinas’s “battle cry would be ‘Against evil, for the good!’”[ . Cohen, Ethics, p. 104.]  We must ask here whether such polemics express Levinas’s thinking or whether the distinction between “good” and “evil” evokes a different genealogy of morals.  Such a polemical cry reduces Levinas’s ethics to ressentiment.
-
 Throughout his declarations of combat, Cohen reiterates this obsession with rank and dominance, repeatedly attacking other ideas and terms and writers as enemies and asserting that Levinas is superior to all of them, that in the race to be the first philosophy, ethics is the winner.
-
-
 Another goal is to question the privilege of privilege. This is what drives me a bit nuts while reading the
 secondary literature. It's the most common accusation throughout all the secondary literature, that Levinas
 privileges infinity over totality or humans over animals or childbearing over sex and so on. My belief is that these
 writers are working with a popularized understanding of Derrida's deconstruction without fully appreciating the way
 that both he and Levinas undermine the idea of privege itself Similarly, Levinas's thought is often summarized in
 the slogan "Ethics is First Philosophy". But that's misunderstanding of how cardinal numbers work in Levinas, as we
-
-
 Such problems have characterized Levinas scholarship for a very long time
-
 * Height and heirarchy. Other is the Most High
 * Ethics is first philosphy: What does that mean?
 * inability to move past his language
@@ -94,17 +110,13 @@ more
 obsure repeating his terms.
 * enchanted by his language, hypnotised by the poetry of it, seduced by the pagan flow of the sentenes
 * necessary frist to speak out against the violence of certain EL readings
-
 * Begin without recourse to EL's teminonlogy or the tradition emenies of philosophical ????
-
 revealed by a close study of the functional tensor
 transformations of thematic linguistic morphemes is motivated out of a concern that much of the secondary literature
 is plagued by one-dimensional, hierarchical analyses.
-
 that affec tthe tensor curvature of linguistic morphemes is motivated out of a concern wit t
 transformations of We are driven to develop this empirical investigation of the order to expose the
 multitude of etical-phenomenological
 This investigation into the curvature tensors of Levinas's
-
 * readers repeat his hrases but fail to analyse
 -->

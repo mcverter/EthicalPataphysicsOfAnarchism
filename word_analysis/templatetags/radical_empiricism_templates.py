@@ -84,6 +84,7 @@ def genre_btn_collapse(genre: str):
 def bilingual_accordion():
     return {}
 
+
 @register.inclusion_tag("tags/content_card.html")
 def content_card(section):
     return {"route": section["route"], "title": section["title"],
