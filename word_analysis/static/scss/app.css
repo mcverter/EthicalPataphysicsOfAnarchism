@@ -11987,6 +11987,7 @@ blockquote {
   font-style: italic;
   width: 95%;
   margin: 0.75rem auto;
+  font-size: 1rem;
 }
 
 #site-map-summary {

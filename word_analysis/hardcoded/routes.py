@@ -15,47 +15,6 @@ BRAND_ROUTE = {
         {"route": "method", "title": _("Methodology"), "explanation": _("Methodology")},
         {"route": "motivation", "title": _("Motivation"), "explanation": _("Motivation")},
         {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
-        # these are all subroutes
-        {
-            "route": "ambisexuality",
-            "title": _("Ambiguity and ambisexuality"),
-            "explanation": _("Ambiguity and ambisexuality"),
-            "sub_sub_items": [
-                {
-                    "route": "home_and_position",
-                    "title": _("Home and Position"),
-                    "explanation": _("Home and Position"),
-                },
-                {
-                    "route": "womb",
-                    "title": _("The nourishing womb"),
-                    "explanation": _("The nourishing womb"),
-                },
-                {
-                    "route": "hostage",
-                    "title": _("Host and Hostage"),
-                    "explanation": _("Host and Hostage"),
-                },
-            ],
-        },
-        # this is a collection
-        {
-            "route": "two_dimensional",
-            "title": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
-            "explanation": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
-            "sub_sub_items": [
-                {
-                    "route": "flat",
-                    "title": _("The flat space of totality"),
-                    "explanation": _("The flat space of totality"),
-                },
-                {
-                    "route": "three",
-                    "title": _("Three-Dimensional Analysis"),
-                    "explanation": _("Three-Dimensional Analysis"),
-                },
-            ],
-        },
         {
             "route": "discussion",
             "title": _("Discussion"),
@@ -106,6 +65,48 @@ NAV_ITEMS = [
                 ],
             },
             {"route": "perspectivism", "title": _("Perspectivism")},
+            # these are all subroutes
+            {
+                "route": "ambisexuality",
+                "title": _("Ambiguity and ambisexuality"),
+                "explanation": _("Ambiguity and ambisexuality"),
+                "sub_sub_items": [
+                    {
+                        "route": "home_and_position",
+                        "title": _("Home and Position"),
+                        "explanation": _("Home and Position"),
+                    },
+                    {
+                        "route": "womb",
+                        "title": _("The nourishing womb"),
+                        "explanation": _("The nourishing womb"),
+                    },
+                    {
+                        "route": "hostage",
+                        "title": _("Host and Hostage"),
+                        "explanation": _("Host and Hostage"),
+                    },
+                ],
+            },
+            # this is a collection
+            {
+                "route": "two_dimensional",
+                "title": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
+                "explanation": _("Two-Dimensional Polar Relations and Two-by-Two Matrices"),
+                "sub_sub_items": [
+                    {
+                        "route": "flat",
+                        "title": _("The flat space of totality"),
+                        "explanation": _("The flat space of totality"),
+                    },
+                    {
+                        "route": "three",
+                        "title": _("Three-Dimensional Analysis"),
+                        "explanation": _("Three-Dimensional Analysis"),
+                    },
+                ],
+            },
+
         ],
     },
     {
