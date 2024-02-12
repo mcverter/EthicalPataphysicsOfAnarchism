@@ -86,6 +86,10 @@ def bilingual_accordion():
 
 
 @register.inclusion_tag("tags/content_card.html")
-def content_card(section):
-    return {"route": section["route"], "title": section["title"],
-            "sub_sub_items": section.get("sub_sub_items")}
+def content_card(section, expandable=True):
+    return {
+        "route": section["route"],
+        "title": section["title"],
+        "sub_sub_items": section.get("sub_sub_items"),
+        "expandable": expandable
+    }

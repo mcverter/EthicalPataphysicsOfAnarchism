@@ -7,19 +7,33 @@ BRAND_ROUTE = {
         "A discussion of the Radical Empiricism Project, in which the advantages of a multidimensional tensor analysis of metaphorical manifolds is dimensionaland the errors of unidimensional assertions of rank are critiqued"
     ),
     "subitems": [
-        {
-            "route": "objective",
-            "title": _("Objective"),
-            "explanation": _("Objective"),
-        },
+        {"route": "objective", "title": _("Objective"), "explanation": _("Objective"), },
         {"route": "method", "title": _("Methodology"), "explanation": _("Methodology")},
-        {"route": "motivation", "title": _("Motivation"), "explanation": _("Motivation")},
+        {"route": "motivation", "title": _("Motivation"), "explanation": _("Motivation"),
+         "sub_sub_items": [
+             {"route": "not_one_dimensional",
+              "title": _("The perspectival manifold as a corrective to one-dimensional hierarchical analyses")},
+             {"route": "bernasconi_focus",
+              "title": _("Robert Bernasconi on distorted focus")},
+             {"route": "orthodox_look_up",
+              "title": _("The orthodox tendency to look up to Levinas")},
+             {"route": "orthodox_truth_as_war",
+              "title": _("Orthodox Truth as War")},
+             {"route": "orthodox_battle_cry",
+              "title": _("The Orthodox Battle Cry of <em>Ressentiment</em>")},
+             {"route": "cryptic",
+              "title": _("Levinas's cryptic verbiage")},
+             {"route": "ontological_predication",
+              "title": _(
+                  "Ontological Predication (Insufficient Solution One): Clarify Obscurity with Simple Assertions")},
+             {"route": "multiplication_complexities",
+              "title": _("Multiplications of Complexities (Insufficient Solution #2)")},
+             {"route": "privilege",
+              "title": _("The criticism of privilege")},
+
+         ]},
         {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
-        {
-            "route": "discussion",
-            "title": _("Discussion"),
-            "explanation": _("Discussion"),
-        },
+        {"route": "discussion", "title": _("Discussion"), "explanation": _("Discussion"), },
     ],
 }
 

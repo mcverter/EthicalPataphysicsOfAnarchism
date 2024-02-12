@@ -26,6 +26,18 @@
                                     {% if item.explanation %}
                                         : {% trans item.explanation %}
                                     {% endif %}
+                                    {% if item.sub_sub_items %}
+                                        <ul>
+                                        {% for sub_sub in item.sub_sub_items %}
+                                            <li>
+                                                <a href="#{{ sub_sub.route }}">{% trans sub_sub.title %}</a>
+                                                {% if sub_sub.explanation %}
+                                                    : {% trans sub_sub.explanation %}
+                                                {% endif %}
+                                            </li>
+                                        {% endfor %}
+                                        </ul>
+                                    {% endif %}
                                 </li>
                             {% endfor %}
                         </ul>
