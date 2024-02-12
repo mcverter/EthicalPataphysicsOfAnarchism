@@ -32,6 +32,8 @@ BRAND_ROUTE = {
               "title": _("Multiplications of Complexities (Insufficient Solution #2)")},
              {"route": "privilege",
               "title": _("The criticism of privilege")},
+             {"route": "derrida_anarchy",
+              "title": _("Derrida's anarchical critique of Levinas")},
          ]},
         {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
         {"route": "discussion", "title": _("Discussion"), "explanation": _("Discussion"), },
