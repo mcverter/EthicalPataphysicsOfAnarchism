@@ -44,6 +44,29 @@ BRAND_ROUTE = {
              {"route": "derrida_anarchy",
               "title": _("Derrida's anarchical critique of Levinas")},
          ]},
+        {
+            "route": "ambisexuality",
+            "title": _("Ambiguity and ambisexuality"),
+            "explanation": _("Ambiguity and ambisexuality"),
+            "sub_sub_items": [
+                {
+                    "route": "home_and_position",
+                    "title": _("Home and Position"),
+                    "explanation": _("Home and Position"),
+                },
+                {
+                    "route": "womb",
+                    "title": _("The nourishing womb"),
+                    "explanation": _("The nourishing womb"),
+                },
+                {
+                    "route": "hostage",
+                    "title": _("Host and Hostage"),
+                    "explanation": _("Host and Hostage"),
+                },
+            ],
+        },
+
     ],
 }
 
@@ -52,19 +75,11 @@ NAV_ITEMS = [
         "route": "genre_theory",
         "title": _("Theory of Genre Sets"),
         "explanation": _(
-            "This page features many discussion: (1) An Introduction to Genre Sets, (2) An example analysis of a sentence from Totality and Infinity as a constellation of Genre Sets, (3) Genre Set Membership Rules [suffixes, prefixes, etymological roots, infinities, other morphemic roots, semantic themes], (4)Internal and External Relations [duality, combination, repetition, opposition, intersection], (5) Non-Euclidean Relations [parallelism, flat, two_dimensional, constellation, curvature ], (5) Other mathematical and scientific topics [addition, positive, negative, 0, 1, 2, 3, 4, infinity, set theory, continuity and infinitesimals, topology, Mikowski/Einstein space-time, wave and quantum theory  ] (6) Perspectivism [perversion, inversion, subversion, reversion] (7) Reading Totality and Infinity as Genesis and Otherwise than Being as Exodus"
+            "This page features many discussion: (1) An Introduction to Genre Sets, (2) An example analysis of a sentence from Totality and Infinity as a constellation of Genre Sets, (3) Genre Set Membership Rules, (4)Internal and External Relations"
         ),
         "subitems": [
             {"route": "genre_set_intro", "title": _("Introduction to Genre Sets")},
-            {"route": "mathematics", "title": _("The Mathematics Genre Sets")},
-
             {"route": "membership", "title": _("Group Set Membership")},
-            {
-                "route": "constellation",
-                "title": _(
-                    "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
-                ),
-            },
             # relations
             {
                 "route": "combination",
@@ -79,6 +94,36 @@ NAV_ITEMS = [
                     {"route": "parallelism", "title": _("Parallelism")},
                 ],
             },
+            {
+                "route": "constellation",
+                "title": _(
+                    "A Constellational Analysis of a Metaphorically Kallidescopic Sentence"
+                ),
+            },
+        ],
+    },
+    {
+        "route": "mots",
+        "title": _("Word list"),
+        "explanation": _(
+            "A list of all 16000 words in both Totality and Otherwise. Links to information pages about each word, including definitions and etymologies in English and French, as well as frequencies and lines from both texts"
+        ),
+    },
+    {
+        "route": "genres",
+        "title": _("List of Genre Sets"),
+        "explanation": _("A list of Genre Sets."),
+    },
+
+    {
+        "route": "topics",
+        "title": _("The Mathematics Genre Set"),
+        "explanation": _(
+            "(1) Non-Euclidean Relations, (2) Other mathematical and scientific topics (3) Perspectivism"
+        ),
+        "subitems": [
+            {"route": "mathematics", "title": _("The Mathematics Genre Sets")},
+            # relations
             {"route": "tensor_transformation_patterns", "title": "Tensor Transformation Patterns"},
             {"route": "assorted_math_stuff_from_discussion", "title": "Assorted Math Stuff"},
             {
@@ -92,28 +137,6 @@ NAV_ITEMS = [
             },
             {"route": "perspectivism", "title": _("Perspectivism")},
             # these are all subroutes
-            {
-                "route": "ambisexuality",
-                "title": _("Ambiguity and ambisexuality"),
-                "explanation": _("Ambiguity and ambisexuality"),
-                "sub_sub_items": [
-                    {
-                        "route": "home_and_position",
-                        "title": _("Home and Position"),
-                        "explanation": _("Home and Position"),
-                    },
-                    {
-                        "route": "womb",
-                        "title": _("The nourishing womb"),
-                        "explanation": _("The nourishing womb"),
-                    },
-                    {
-                        "route": "hostage",
-                        "title": _("Host and Hostage"),
-                        "explanation": _("Host and Hostage"),
-                    },
-                ],
-            },
             # this is a collection
             {
                 "route": "two_dimensional",
@@ -151,18 +174,11 @@ NAV_ITEMS = [
 
         ],
     },
-    {
-        "route": "mots",
-        "title": _("Word list"),
-        "explanation": _(
-            "A list of all 16000 words in both Totality and Otherwise. Links to information pages about each word, including definitions and etymologies in English and French, as well as frequencies and lines from both texts"
-        ),
-    },
-    {
-        "route": "genres",
-        "title": _("List of Genre Sets"),
-        "explanation": _("A list of Genre Sets."),
-    },
+
+#    {
+#        "route": "topics",
+#        "title": _("The Genesis Genre Set"),
+#    },
     {
         "route": "technical",
         "title": _("Technical notes"),
@@ -171,8 +187,6 @@ NAV_ITEMS = [
         ),
     },
 ]
-
-
 
 '''
     {
