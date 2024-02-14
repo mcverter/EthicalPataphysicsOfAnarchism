@@ -1,0 +1,23 @@
+{% load i18n %}
+<a id="tensor_transformation_patterns"></a>
+<div class="section">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{% trans "Tensor Transformation Patterns: Parallelism" %}</h4>
+            <p class="card-text">{% trans "Two examples of such patterns are parallelism and intersection. Words from different Genre Sets often transform in parallel. For example, Levinas coordinates {'positive', 'negative'} and {'birth', 'death'}, members the GSes" %} {% genre_btn_collapse "MATHÉMATIQUES" %} {% trans "and" %} {% genre_btn_collapse "GENÈSES" %} {% trans "such that the words 'positive' and 'birth' occur similarly and the words 'negative' and 'death' occur similarly." %}</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{% trans "Tensor Transformation Patterns: Intersection" %}</h4>
+            <p class="card-text">{% trans "Genre Sets also can intersect in single words: for example, the word 'survivant' expresses a combination of the theme of height from" %} {% genre_btn_collapse "GÉOMÉTRIE" %} {% trans "and combines it with the theme of living from" %} {% genre_btn_collapse "GENÈSES" %}". </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{% trans "Summary of tensor analysis" %}</h4>
+            <p class="card-text">{% trans "We can summarize our these examples of parallelism and combination among Genre Sets  as follows:" %}</p>
+            <blockquote>{% trans "Levinas considers birth to be a positivity, the “plus one” of the Good, that establishes the height of a living substantive subject." %}</blockquote>
+        </div>
+    </div>
+</div>

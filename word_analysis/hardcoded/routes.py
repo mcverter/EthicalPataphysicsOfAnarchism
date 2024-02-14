@@ -9,20 +9,18 @@ BRAND_ROUTE = {
     "subitems": [
         {"route": "objective", "title": _("Objective"), "explanation": _("Objective"), },
         {"route": "method", "title": _("Methodology"), "explanation": _("Methodology")},
+        {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
         {"route": "motivation", "title": _("Motivation"), "explanation": _("Motivation"),
          "sub_sub_items": [
              {"route": "not_one_dimensional",
               "title": _("The perspectival manifold as a corrective to one-dimensional hierarchical analyses")},
+
+             # has to be both structural and terminological
+
              {"route": "bernasconi_focus",
               "title": _("Robert Bernasconi on distorted focus")},
-             {"route": "orthodox_look_up",
-              "title": _("The ortohodox tendency to look up to Levinas")},
-             {"route": "cohen_elevations",
-              "title": _("Richard Cohen's *Elevations* as Orthodox Submission")},
-             {"route": "orthodox_truth_as_war",
-              "title": _("Orthodox Truth as War")},
-             {"route": "orthodox_battle_cry",
-              "title": _("The orthodox battle cry of ressentiment")},
+             {"route": "reasons_for_misreading",
+              "title": _("Reasons for misreading")},
              {"route": "cryptic",
               "title": _("Levinas's cryptic verbiage")},
              {"route": "ontological_predication",
@@ -30,13 +28,22 @@ BRAND_ROUTE = {
                   "Ontological Predication (Insufficient Solution One): Clarify Obscurity with Simple Assertions")},
              {"route": "multiplication_complexities",
               "title": _("Multiplications of Complexities (Insufficient Solution #2)")},
+
+             {"route": "orthodox_look_up",
+              "title": _("The ortohodox tendency to look up to Levinas")},
+             {"route": "cohen_elevations",
+              "title": _("Richard Cohen's *Elevations* as Orthodox Submission")},
+             {"route": "orthodox_truth_as_war",
+              "title": _("Orthodox Truth as War")},
+             {"route": "polarity_and_opposition", "title": "Polarity and Opposition"},
+             {"route": "polar_not_war", "title": "Polar Not War"},
+             {"route": "orthodox_battle_cry",
+              "title": _("The orthodox battle cry of ressentiment")},
              {"route": "privilege",
               "title": _("The criticism of privilege")},
              {"route": "derrida_anarchy",
               "title": _("Derrida's anarchical critique of Levinas")},
          ]},
-        {"route": "abstract", "title": _("Abstract"), "explanation": _("Abstract")},
-        {"route": "discussion", "title": _("Discussion"), "explanation": _("Discussion"), },
     ],
 }
 
@@ -72,6 +79,8 @@ NAV_ITEMS = [
                     {"route": "parallelism", "title": _("Parallelism")},
                 ],
             },
+            {"route": "tensor_transformation_patterns", "title": "Tensor Transformation Patterns"},
+            {"route": "assorted_math_stuff_from_discussion", "title": "Assorted Math Stuff"},
             {
                 "route": "curvature",
                 "title": _("Curvature"),
@@ -123,28 +132,6 @@ NAV_ITEMS = [
                     },
                 ],
             },
-
-        ],
-    },
-    {
-        "route": "mots",
-        "title": _("Word list"),
-        "explanation": _(
-            "A list of all 16000 words in both Totality and Otherwise. Links to information pages about each word, including definitions and etymologies in English and French, as well as frequencies and lines from both texts"
-        ),
-    },
-    {
-        "route": "genres",
-        "title": _("List of Genre Sets"),
-        "explanation": _("A list of Genre Sets."),
-    },
-    {
-        "route": "topics",
-        "title": _("Topics"),
-        "explanation": _(
-            "This page features many discussion: (1) An Introduction to Genre Sets, (2) An example analysis of a sentence from Totality and Infinity as a constellation of Genre Sets, (3) Genre Set Membership Rules [suffixes, prefixes, etymological roots, infinities, other morphemic roots, semantic themes], (4)Internal and External Relations [duality, combination, repetition, opposition, intersection], (5) Non-Euclidean Relations [parallelism, flat, two_dimensional, constellation, curvature ], (5) Other mathematical and scientific topics [addition, positive, negative, 0, 1, 2, 3, 4, infinity, set theory, continuity and infinitesimals, topology, Mikowski/Einstein space-time, wave and quantum theory  ] (6) Perspectivism [perversion, inversion, subversion, reversion] (7) Reading Totality and Infinity as Genesis and Otherwise than Being as Exodus"
-        ),
-        "subitems": [
             {"route": "numbers", "title": _("Numbers")},
             {
                 "route": "plus_one",
@@ -161,9 +148,21 @@ NAV_ITEMS = [
                     {"route": "brunschvicg", "title": _("Quotations from Léon Brunschvicg")},
                 ],
             },
+
         ],
     },
-
+    {
+        "route": "mots",
+        "title": _("Word list"),
+        "explanation": _(
+            "A list of all 16000 words in both Totality and Otherwise. Links to information pages about each word, including definitions and etymologies in English and French, as well as frequencies and lines from both texts"
+        ),
+    },
+    {
+        "route": "genres",
+        "title": _("List of Genre Sets"),
+        "explanation": _("A list of Genre Sets."),
+    },
     {
         "route": "technical",
         "title": _("Technical notes"),
@@ -172,3 +171,15 @@ NAV_ITEMS = [
         ),
     },
 ]
+
+
+
+'''
+    {
+        "route": "topics",
+        "title": _("Topics"),
+        "explanation": _(
+            "This page features many discussion: (1) An Introduction to Genre Sets, (2) An example analysis of a sentence from Totality and Infinity as a constellation of Genre Sets, (3) Genre Set Membership Rules [suffixes, prefixes, etymological roots, infinities, other morphemic roots, semantic themes], (4)Internal and External Relations [duality, combination, repetition, opposition, intersection], (5) Non-Euclidean Relations [parallelism, flat, two_dimensional, constellation, curvature ], (5) Other mathematical and scientific topics [addition, positive, negative, 0, 1, 2, 3, 4, infinity, set theory, continuity and infinitesimals, topology, Mikowski/Einstein space-time, wave and quantum theory  ] (6) Perspectivism [perversion, inversion, subversion, reversion] (7) Reading Totality and Infinity as Genesis and Otherwise than Being as Exodus"
+        ),
+    },
+'''
