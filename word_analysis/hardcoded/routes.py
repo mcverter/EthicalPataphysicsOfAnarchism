@@ -123,6 +123,7 @@ NAV_ITEMS = [
         ),
         "subitems": [
             {"route": "mathematics", "title": _("The Mathematics Genre Sets")},
+            {"route": "mathematics_subsets", "title": "Mathematics Subsets"},
             # relations
             {"route": "tensor_transformation_patterns", "title": "Tensor Transformation Patterns"},
             {"route": "assorted_math_stuff_from_discussion", "title": "Assorted Math Stuff"},
@@ -175,10 +176,10 @@ NAV_ITEMS = [
         ],
     },
 
-#    {
-#        "route": "topics",
-#        "title": _("The Genesis Genre Set"),
-#    },
+    #    {
+    #        "route": "topics",
+    #        "title": _("The Genesis Genre Set"),
+    #    },
     {
         "route": "technical",
         "title": _("Technical notes"),

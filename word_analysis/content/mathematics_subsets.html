@@ -1,0 +1,103 @@
+{% load i18n %}
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">{% trans "Mathematics Subsets" %}</h3>
+        {#            div.card>div.card-body>h3.card-title#}
+
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% trans "Geometry (Euclidean, non-Euclidean, Cartesian, and projective)" %}</h3>
+            </div>
+            <p>{% trans "The geometry subset encompasses several different subsets of geometry" %}</p>
+            <ul>
+                <li>{% trans "Euclidean: Straight lines, infinity as possible extensions of lines, right angles, parallel lines" %}</li>
+                <li>
+                    <h4>{% trans "Cartesian/Fermat:" %}</h4>
+                    <ul>
+                        <li>{% trans "Two-dimensional application of Euclidean principles. Axes meet at right angles. The distance from point to point in the orthogonal direction is position-independant." %}</li>
+                        <li>{% trans "The geometry of a flat plane" %}</li>
+                        <li>{% trans " Turns geometry into mathematics. Euclid and Thales and even Pythagoras did not need the concept of number to explain their geometric concepts. All of their results are obtainable by construction with a straight edge and compass." %}</li>
+                        <li>{% trans "The combination of the mathematical and the geometric is 'rationalization'" %}</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>{% trans "Projective Geometry" %}</h4>
+                    <p>{% trans "Around the same time that Fermat and Descartes were developing analytic geometry, mathematicians such as Desargues and others were developing projective geometry. Taking the idea of perspective from art, where perspectives are represented by designating a point or a line 'at infinity' where all parallel lines meet" %}</p>
+                    <p>{% trans "Projective geometry develops thereoms by which different kinds of spaces can be projected into other spaces" %}</p>
+                    <p>{% trans "Projective geometry is in a sense an inheritor of the work of Leonid Euler's graph theory. What is essential to it is not the mathematical calculations of distance but the maintenance of the points and edges between transformations." %}</p>
+                </li>
+                <li>
+                    <h4>{% trans "Non-Euclidean Geometry" %}</h4>
+                    <ul>
+                        <li>
+                            <p>{% trans "Gauss What is curvature? In high school, we learn about a related subject: conic sections such as parabolas and hyperbolas and ellipses. This is different but related to the notion of curvature." %}</p>
+
+                            <p>{% trans "Gauss differentiated between two types of curvature: The intrinsic curvature of the graph itself and the external curvature of the space in which the object is embedded." %}</p>
+
+                            <p>{% trans "For example, let's draw a picture of a smiley face on a piece of paper, the canonical example of a flat surface. Now. let's roll that paper up into a cylinder. The space any two points on that piece of the paper even though you have rolled it up. We therefore say that a cylinder is also flat." %}</p>
+
+                            <p>{% trans "Conversely, let's say that we draw the smiley face on a balloon. Then let's pop that baloon and flatten it out. We will never be able to flatten out all of the curves of that deflated balloon to a picture similar to the one we had on the piece of paper. A balloon has different intrinsic curvature than the paper. Whereas the paper has zero curvature, a spherical ballon would have a curvature inversely proportional to the square of its radius." %}</p>
+                        </li>
+
+                        <li>
+                            <h4>{% trans "Riemann Non-Euclidean geometry" %}</h4>
+
+                            <p>{% trans "Around the time that Gauss was working on curvature, thinkers such as Bolyai and Lobachevsky began to consider the nature of non-Euclidean geometry." %}</p>
+
+                            <p>{% trans "Non-Euclidean geometry is a direct challenge to Euclid's fifth postulate, which (in summary) claims that parallel lines never meet." %}</p>
+
+
+                            <p>{% trans "Even before these 19th century mathematicians, others who geometers had noted that Euclid's assrtion of the parallel postulate was equivalent to his assertions about right angles and right triangles, that straight lines have the angular measure equivallent to two right triangles, that there exist triangles with the same angles but different side lengths, that the sum of all angles in any triangle is equivalent to two right triangles." %}</p>
+
+                            <p>{% trans "Concern over non-Euclidean geometry was a practical necessity for naviators: because the earth is a globe, Euclid's rules for straight lines and right angles did not map correctly to their navigational charts. Geometers have to create maps with different types of distortion to express relations between spaces, to balance between the size of a land mass and its relative distance to other landmasses." %}</p>
+
+                            <p>{% trans "Bolyai and Lobachevsky's hyperbolic space demonstrated that spaces which did not follow Euclid's axioms were internally consistent" %}</p>
+
+
+                            <p>{% trans "The important implication of this nnon-euclidean geometry is that curved space is non-homogenous.  The distance to the next point is contingent upon your location in the space.  For example, let's say you are at the bottom a hill and you would have to go 1000 meters to get to the other side of the hill.  But instead you climb up the hill.  When you are at some height, you find that it would you would only have to go 800 meters to get to the other side of the hill.  Finally, when you are the top, the two sides of the hill conicide and you are effectively zero meters from the opposite side of the hill." %}</p>
+
+                            <p>{% trans "Bernard Riemann provided a useful way to understand this analytically with the idea of n-ply manifold, a space of n-dimensions or a function of n variables.  " %}</p>
+
+                            <p>{% trans "He reasoned that, although the space as a whole is curved, one could chop it up into tiny parts that looked like flat surfaces.  By summing up these tiny intervals of locally flat space, one could calculte the lengths of the entire curved graph." %}</p>
+
+                            <p>{% trans "The key concepts here are local flatness and global curvature.  " %}</p>
+
+                            <p>{% trans "Globally objects are not laid out in a right-angle grid structure, but they still appear locally as if they are flat." %}</p>
+
+                            <p>{% trans "The idea of chopping things up into their tiny parts and then summing them up is an idea from calculus." %}</p>
+
+                            <p>{% trans "Thus Riemann employs the idea of a geodisc, which defines the distance of the neighbors and defines integratoin over these geodiscs.  " %}</p>
+
+                            <p>{% trans "This idea is a effectively a combination of projective geometry and analytic geometry.  Distance is understood in terms of relative position, as in projective goemetry, but it can also be calculated as in analytic geometry." %}</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% trans "Optics" %}</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% trans "Quantum Wave Theory" %}</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% trans "Specific and General Relativity" %}</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% trans "Continuum" %}</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% trans "Number Theory" %}</h3>
+            </div>
+        </div>
+    </div>
+</div>
