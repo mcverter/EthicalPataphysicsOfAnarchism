@@ -122,6 +122,7 @@ NAV_ITEMS = [
             "(1) Non-Euclidean Relations, (2) Other mathematical and scientific topics (3) Perspectivism"
         ),
         "subitems": [
+            {"route": "levinas_mathematical_influences", "title": "Levinas's Mathematical Influences"},
             {"route": "mathematics", "title": _("The Mathematics Genre Sets")},
             {"route": "mathematics_subsets", "title": "Mathematics Subsets"},
             # relations
