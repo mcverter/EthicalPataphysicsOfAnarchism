@@ -2,16 +2,15 @@ from django import template
 from django.urls import reverse
 
 from constants import ABBREV_TO_FULL_TITLE_MAP
+from word_analysis.hardcoded.accordion_data import accordion_route_to_title_data
 from word_analysis.hardcoded.all_genres_data import genre_to_words, clean_genre_name
-from word_analysis.hardcoded.sentences.get_sentence import get_sentence
 from word_analysis.hardcoded.constellation_example_data import (
     constellation_example_data,
 )
 from word_analysis.hardcoded.routes import (
     NAV_ITEMS,
 )
-
-from word_analysis.hardcoded.accordion_data import accordion_route_to_title_data
+from word_analysis.hardcoded.sentences.get_sentence import get_sentence
 
 register = template.Library()
 
@@ -83,6 +82,11 @@ def genre_btn_collapse(genre: str):
 @register.inclusion_tag("tags/bilingual_accordion.html")
 def bilingual_accordion():
     return {}
+
+
+@register.inclusion_tag("tags/inline_word_link.html")
+def inline_word_link(word):
+    return {"word": word}
 
 
 @register.inclusion_tag("tags/content_card.html")
