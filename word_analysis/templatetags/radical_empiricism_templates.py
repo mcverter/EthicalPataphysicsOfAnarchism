@@ -1,3 +1,5 @@
+import re
+
 from django import template
 from django.urls import reverse
 
@@ -44,16 +46,20 @@ def nav_bar(request):
 
 @register.inclusion_tag("tags/book_line_display.html")
 def book_line_display(book, line_num, show_table_head=True):
-    sentence = get_sentence(book, line_num)
-    # might need a better way to separate words
-    french_words = sentence["fr"].split(' ')
-    english_sentence = sentence["en"]
+    if str(line_num).find('_') == -1:
+        line_start = line_end = line_num
+    else:
+        (line_start, line_end) = line_num.__str__.split('_')
+
+    lines = [{"line_num": line_start + offset,
+              "french_words": s["fr"].split(' '),
+              "english_sentence": s["en"],
+              }
+             for offset, s in enumerate(
+            get_sentence(book, num) for num in range(line_start, line_end + 1))]
     context = {
         "book": ABBREV_TO_FULL_TITLE_MAP[book],
-        "lines": [{"line_num": line_num,
-                   "french_words": french_words,
-                   "english_sentence": english_sentence,
-                   }],
+        "lines": lines,
         "show_table_head": show_table_head
     }
     return context
