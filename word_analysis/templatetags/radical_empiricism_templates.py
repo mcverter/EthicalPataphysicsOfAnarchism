@@ -46,10 +46,10 @@ def nav_bar(request):
 
 @register.inclusion_tag("tags/book_line_display.html")
 def book_line_display(book, line_num, show_table_head=True):
-    if str(line_num).find('_') == -1:
-        line_start = line_end = line_num
+    if line_num.find('_') == -1:
+        line_start = line_end = int(line_num)
     else:
-        (line_start, line_end) = line_num.__str__.split('_')
+        (line_start, line_end) = [int(val) for val in line_num.split('_')]
 
     lines = [{"line_num": line_start + offset,
               "french_words": s["fr"].split(' '),

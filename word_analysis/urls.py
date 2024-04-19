@@ -1,6 +1,7 @@
 from django.urls import re_path
 
 from .views import (
+    booklinespan,
     debug_test,
     word_detail,
     word_list,
@@ -33,6 +34,8 @@ urlpatterns = [
     re_path("^word/(?P<word>.*)/$", word_detail, name="mot"),
     re_path(r"^genres", genre_list, name="genres"),
     re_path("^genre/(?P<word>.*)/$", genre_detail, name="genre_detail"),
+
+    re_path(r"^booklinespan/(?P<book>(ti|otb))/(?P<linespan>.*)/$", booklinespan, name="booklinespan"),
 
     # Content Pages
     re_path("^abstract", content_page, {"name": "abstract"}),

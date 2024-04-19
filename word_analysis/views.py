@@ -26,6 +26,17 @@ def genre_theory(request):
     )
 
 
+def booklinespan(request, book, linespan):
+    return render(
+        request,
+        "pages/book_line_span.html",
+        {
+            "book": book,
+            "linespan": linespan,
+        },
+    )
+
+
 def topics(request):
     return render(
         request,
