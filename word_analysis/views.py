@@ -26,6 +26,13 @@ def genre_theory(request):
     )
 
 
+def reading_group(request):
+    return render(
+        request,
+        "pages/reading_group.html",
+    )
+
+
 def booklinespan(request, book, linespan):
     return render(
         request,

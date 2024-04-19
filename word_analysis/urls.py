@@ -11,7 +11,8 @@ from .views import (
     genre_list,
     genre_detail,
     content_page,
-    topics
+    topics,
+    reading_group
 )
 
 urlpatterns = [
@@ -23,6 +24,7 @@ urlpatterns = [
     re_path(r"^resume", summary, name="resume"),
     re_path(r"^genre_theory", genre_theory, name="genre_theory"),
     re_path(r"^topics", topics, name="topics"),
+    re_path(r"^readinggroup", reading_group, name="reading_group"),
 
     re_path(r"^technical", technical, name="technical"),
     re_path(r"^technique", technical, name="technique"),
