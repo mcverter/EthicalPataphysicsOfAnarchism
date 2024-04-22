@@ -46,6 +46,7 @@ def nav_bar(request):
 
 @register.inclusion_tag("tags/book_line_display.html")
 def book_line_display(book, line_num, show_table_head=True):
+    line_num = str(line_num)
     if line_num.find('_') == -1:
         line_start = line_end = int(line_num)
     else:
