@@ -35,7 +35,8 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
                  'levinas-empirisme-radical-56386a1e25f9.herokuapp.com',
                  'levinasempirismeradical.com',
                  'levinasempirismeradical.fr',
-                 'levinas-empirisme-radical-ab15e29ab349.herokuapp.com'
+                 'levinas-empirisme-radical-ab15e29ab349.herokuapp.com',
+                 'levinas-radical-empiricism-c3318a19bd84.herokuapp.com',
                  ]
 
 # Application definition
